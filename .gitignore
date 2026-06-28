@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+GKS2365/.venv/
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local diagnostics / fix scripts (not part of repo)
+_diag.sh
+_diag_out.txt
+fix-push.sh
+fix-push-clean.sh
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local

@@ -31,6 +31,7 @@ _diag.sh
 _diag_out.txt
 fix-push.sh
 fix-push-clean.sh
+migrate-and-push.sh
 
 # Jupyter
 .ipynb_checkpoints/

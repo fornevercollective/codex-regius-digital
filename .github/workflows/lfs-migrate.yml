@@ -1,0 +1,38 @@
+name: Migrate assets to Git LFS
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-lfs
+          git lfs install
+
+      - name: Migrate binary blobs to LFS
+        run: |
+          git lfs migrate import \
+            --include="GKS2365/png/**,GKS2365/jpg/**,GKS2365/pdf/**,GKS2365/grok/**,*.png,*.jpg,*.jpeg,*.pdf" \
+            --everything
+
+      - name: Verify LFS pointer
+        run: |
+          git show HEAD:GKS2365/png/GKS2365_page_1.png | head -3
+          test $(git show HEAD:GKS2365/png/GKS2365_page_1.png | wc -c) -lt 500
+
+      - name: Push rewritten history
+        run: |
+          git push --force origin main
+          git lfs push origin main --all

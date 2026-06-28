@@ -1,6 +1,11 @@
 
 # Skráningarfærsla handrits - GKS 2365 4to - https://handrit.is/manuscript/view/is/GKS04-2365/9#page/Fremra+saurblað+4v/mode/2up
 <img width="508" height="648" alt="Screenshot 2026-06-28 at 4 01 07 pm" src="https://github.com/user-attachments/assets/b026df3f-27f4-466e-a3db-c401208e45f3" />
+
+Eddukvæði ; Ísland, 1260-1280
+AthugasemdHandritið var gefið út í rafrænni útgáfu í The Codex Regius of the Poetic Edda — Konungsbók eddukvæða GKS 2365 4to.
+Tungumál textansíslenska
+
 Lýsigögn
 Land
 Ísland

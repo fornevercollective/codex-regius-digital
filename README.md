@@ -1,3 +1,8 @@
+
+Skráningarfærsla handrits - GKS 2365 4to
+<img width="508" height="648" alt="Screenshot 2026-06-28 at 4 01 07 pm" src="https://github.com/user-attachments/assets/b026df3f-27f4-466e-a3db-c401208e45f3" />
+https://handrit.is/manuscript/view/is/GKS04-2365/9#page/Fremra+saurblað+4v/mode/2up
+_
 <img width="832" height="1248" alt="4irJ5" src="https://github.com/user-attachments/assets/44db36ed-13c7-466c-8574-7b2c3dc73ee6" />
 <img width="832" height="1248" alt="k7AoQ" src="https://github.com/user-attachments/assets/9dee418c-1596-4570-8442-f9a6ec0cd708" />
 <img width="1713" height="906" alt="Screenshot 2026-06-28 at 3 16 57 pm" src="https://github.com/user-attachments/assets/09b7a4e5-ded3-44df-966e-155a2bf60657" />

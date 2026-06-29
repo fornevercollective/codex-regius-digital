@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html><head><title>🎤 Völuspá Page 10 • Read-Along</title><script src="https://cdn.tailwindcss.com"></script></head><body class="bg-gradient-to-br from-amber-950 to-black text-amber-100 p-10">
-<h1 class="text-5xl text-center">Völuspá • Page 10 • Lyric Read-Along + Musical</h1>
-<button class="block mx-auto mt-12 px-12 py-6 bg-green-600 text-xl rounded-2xl">▶ Start Chant • Lines Highlight in Sync</button>
-<div class="max-w-2xl mx-auto mt-12 space-y-6 text-lg">
-<p>1. Hlióðs bið ek allar helgar kindir...</p>
-<p class="text-green-400">→ Hearing I ask from all holy beings...</p>
-</div>
-<p class="text-center mt-8">Full interactive experience loaded with perfect alignment and glosses.</p>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hávamál Page 10 · Read-Along · Codex Regius</title>
+  <link rel="stylesheet" href="docs/assets/codex-paleography.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1>Hávamál · Page 10 Read-Along</h1>
+      <p class="tagline">Old Norse ↔ English · st. 88–104 region · chant-paced line highlight</p>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="paleography-hub.html#liturgy">Liturgy &amp; Chant</a>
+        <a href="book-viewer.html?page=10">Book Viewer</a>
+        <a href="page-10-variations.html">Variations</a>
+        <a href="page-10-lyric-readalong.html" class="active">Read-Along</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="showcase-main">
+    <div class="book-toolbar">
+      <button type="button" class="btn" id="play-btn">▶ Play read-along</button>
+      <button type="button" class="btn" id="pause-btn">⏸ Pause</button>
+      <span id="mode-label" style="font-size:0.85rem;opacity:0.9">Galder / eddic pace · ~2.8s per line</span>
+    </div>
+
+    <div class="readalong-grid">
+      <div class="readalong-col">
+        <h3>Old Norse (Hávamál region)</h3>
+        <div id="lines-on"></div>
+        <img src="processed/page_010/grok_artistic_vellum.jpg" alt="Page 10 Grok vellum" style="max-width:100%;margin-top:1rem;border:1px solid var(--accent);border-radius:4px" loading="lazy" />
+      </div>
+      <div class="readalong-col">
+        <h3>Modern English</h3>
+        <div id="lines-en"></div>
+        <img src="processed/page_010/grok_clean_white.jpg" alt="Page 10 Grok clean" style="max-width:100%;margin-top:1rem;border:1px solid var(--accent);border-radius:4px" loading="lazy" />
+      </div>
+    </div>
+
+    <span class="section-label" style="display:block;margin-top:1.5rem">Grok variation references</span>
+    <div class="variation-strip" id="var-strip"></div>
+
+    <p style="margin-top:1.5rem;font-size:0.85rem;opacity:0.85">
+      Sample verses aligned to the Hávamál section on folio 10. Full OCR transcription in
+      <a href="processed/page_010/ai_assessment.md">ai_assessment.md</a> ·
+      <a href="processed/page_010/liturgy_comparison.md">liturgy comparison</a>
+    </p>
+  </main>
+
+  <script>
+    const LINES = [
+      ["Fjölsnýtr er fróðr er flest kennir", "Wise is he who knows most things"],
+      ["þvíat hverjum er sýnt of verri", "for to each is shown what is worse"],
+      ["sá er margklofinn manna hugr", "the mind of man is much divided"],
+      ["at hann sé sér um sumt of viti", "that he may know something for himself"],
+      ["þótt hann sé við reifum talinn", "though he be counted among the cheerful"],
+    ];
+    const BASE = "processed/page_010/grok_variations/";
+    const vars = "eWxhp nfHsD qDCaS nry11 rtJkh DLu85".split(" ");
+
+    const onEl = document.getElementById("lines-on");
+    const enEl = document.getElementById("lines-en");
+    LINES.forEach(([on, en], i) => {
+      onEl.innerHTML += `<div class="readalong-line" data-i="${i}">${i + 1}. ${on}</div>`;
+      enEl.innerHTML += `<div class="readalong-line" data-i="${i}">${en}</div>`;
+    });
+    vars.forEach((v) => {
+      const img = document.createElement("img");
+      img.src = BASE + v + ".jpg";
+      img.alt = "Grok variation " + v;
+      img.title = v;
+      img.addEventListener("click", () => window.open(img.src, "_blank"));
+      document.getElementById("var-strip").appendChild(img);
+    });
+
+    let playing = false;
+    let idx = 0;
+    let timer = null;
+    const all = () => document.querySelectorAll(".readalong-line");
+
+    function highlight(i) {
+      all().forEach((el) => el.classList.toggle("active", +el.dataset.i === i));
+    }
+
+    function step() {
+      if (!playing) return;
+      highlight(idx);
+      idx++;
+      if (idx >= LINES.length) {
+        playing = false;
+        idx = 0;
+        return;
+      }
+      timer = setTimeout(step, 2800);
+    }
+
+    document.getElementById("play-btn").addEventListener("click", () => {
+      playing = true;
+      step();
+    });
+    document.getElementById("pause-btn").addEventListener("click", () => {
+      playing = false;
+      clearTimeout(timer);
+    });
+    all().forEach((el) => {
+      el.addEventListener("click", () => {
+        playing = false;
+        clearTimeout(timer);
+        highlight(+el.dataset.i);
+      });
+    });
+  </script>
+</body>
+</html>

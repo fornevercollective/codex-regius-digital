@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html><head><title>Page 10 Variations • Codex Regius</title><script src="https://cdn.tailwindcss.com"></script></head><body class="bg-zinc-900 text-white p-12">
-<h1 class="text-4xl">Page 10 Design Variations Gallery</h1>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-<div class="bg-amber-900 p-4">Scholarly Edition</div>
-<div class="bg-amber-900 p-4">Artistic Vellum</div>
-<div class="bg-amber-900 p-4">Clean White Analysis</div>
-<div class="bg-amber-900 p-4">Musical + Linguistic</div>
-</div>
-<p class="mt-12 text-center text-xl">All styles you requested fully implemented and switchable.</p>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page 10 Variations · Codex Regius</title>
+  <link rel="stylesheet" href="docs/assets/codex-paleography.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1>Page 10 · Design Variations</h1>
+      <p class="tagline">Hávamál st. 88–104 — scholarly layers + Grok enhancement passes</p>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="paleography-hub.html">Paleography Hub</a>
+        <a href="book-viewer.html?page=10">Book Viewer</a>
+        <a href="page-10-variations.html" class="active">Variations</a>
+        <a href="page-10-lyric-readalong.html">Read-Along</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="showcase-main">
+    <span class="section-label">Primary processing layers</span>
+    <h2>GKS 2365 4to — Folio 10</h2>
+    <p style="opacity:0.9;margin-bottom:1.5rem">All images served from <code>processed/page_010/</code>. Click any image to open full resolution.</p>
+
+    <div class="variation-grid" id="primary-layers"></div>
+
+    <span class="section-label" style="display:block;margin-top:2rem">Grok multi-pass variations</span>
+    <h3>Enhancement experiments</h3>
+    <div class="variation-grid" id="grok-variations"></div>
+
+    <p style="margin-top:2rem;text-align:center">
+      <a class="btn" href="paleography-hub.html">Layer mixer in Paleography Hub</a>
+      <a class="btn" href="book-viewer.html?page=10" style="margin-left:0.5rem">Book Viewer</a>
+    </p>
+  </main>
+
+  <script>
+    const BASE = "processed/page_010/";
+    const primary = [
+      ["artistic_vellum.jpg", "Artistic vellum", "Warm parchment tone, CLAHE + vellum colour grade"],
+      ["clean_white.jpg", "Clean white", "High-contrast scholarly prep for OCR and glyphs"],
+      ["grok_artistic_vellum.jpg", "Grok artistic vellum", "Grok vision enhancement — vellum aesthetic"],
+      ["grok_clean_white.jpg", "Grok clean white", "Grok vision enhancement — clean transcription surface"],
+    ];
+    const grokVars = "0io0L 3dyq1 9B5wV DLu85 eWxhp nfHsD ni0f2 nry11 qDCaS R2lpP rtJkh TRSk0".split(" ");
+
+    function card(src, title, note) {
+      const fig = document.createElement("figure");
+      fig.className = "variation-card";
+      fig.innerHTML = `<a href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="${title}" loading="lazy" /></a><figcaption><strong>${title}</strong><br>${note}</figcaption>`;
+      return fig;
+    }
+
+    const primaryEl = document.getElementById("primary-layers");
+    primary.forEach(([file, title, note]) => primaryEl.appendChild(card(BASE + file, title, note)));
+
+    const grokEl = document.getElementById("grok-variations");
+    grokVars.forEach((id) => {
+      const file = `${BASE}grok_variations/${id}.jpg`;
+      grokEl.appendChild(card(file, `Grok pass · ${id}`, "Multi-pass enhancement variation"));
+    });
+  </script>
+</body>
+</html>

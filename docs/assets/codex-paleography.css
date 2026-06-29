@@ -325,3 +325,54 @@ th { background: var(--bg); color: var(--gold); }
   color: var(--bg);
 }
 .music-mode-note { font-size: 0.82rem; opacity: 0.9; min-height: 2.5rem; }
+
+/* Book viewer & showcase pages */
+.showcase-main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+.book-toolbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem;
+  margin-bottom: 1rem; padding: 0.75rem; background: var(--panel); border-radius: 8px;
+}
+.book-toolbar button, .layer-chip {
+  background: var(--bg); color: var(--vellum); border: 1px solid var(--accent);
+  border-radius: 4px; padding: 0.4rem 0.75rem; cursor: pointer; font-size: 0.85rem;
+}
+.book-toolbar button:hover:not(:disabled), .layer-chip:hover, .layer-chip.active {
+  background: var(--gold); color: var(--bg); border-color: var(--gold);
+}
+.book-toolbar button:disabled { opacity: 0.4; cursor: not-allowed; }
+.book-spread {
+  background: var(--panel); border-radius: 8px; padding: 1rem;
+  display: flex; justify-content: center; min-height: 60vh;
+}
+.book-spread img {
+  max-height: 75vh; max-width: 100%; object-fit: contain;
+  border: 1px solid var(--accent); border-radius: 4px; background: #0d0a07;
+}
+.book-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.9rem; }
+.status-badge { padding: 0.15rem 0.5rem; border-radius: 3px; font-size: 0.75rem; }
+.status-complete { background: #2d4a2d; }
+.status-partial { background: #4a3d1a; }
+.status-blank { background: #1f1a16; }
+.variation-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;
+}
+.variation-card {
+  background: var(--panel); border: 1px solid var(--accent); border-radius: 8px;
+  overflow: hidden;
+}
+.variation-card img { width: 100%; display: block; cursor: zoom-in; }
+.variation-card figcaption { padding: 0.6rem 0.75rem; font-size: 0.85rem; }
+.readalong-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 800px) { .readalong-grid { grid-template-columns: 1fr; } }
+.readalong-col {
+  background: var(--panel); border-radius: 8px; padding: 1rem; border: 1px solid var(--accent);
+}
+.readalong-line {
+  padding: 0.5rem 0.4rem; border-radius: 4px; cursor: pointer; transition: background 0.2s;
+}
+.readalong-line:hover, .readalong-line.active { background: var(--accent); }
+.readalong-line small { display: block; opacity: 0.85; margin-top: 0.2rem; }
+.variation-strip { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.variation-strip img { height: 100px; border: 1px solid var(--accent); border-radius: 4px; cursor: pointer; }
+.btn { display: inline-block; padding: 0.45rem 0.9rem; background: var(--accent); color: var(--vellum); border-radius: 4px; text-decoration: none; font-size: 0.85rem; border: none; cursor: pointer; }
+.btn:hover { background: var(--gold); color: var(--bg); }

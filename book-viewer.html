@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>📖 Codex Regius • Immersive Book Viewer • GKS 2365 4to</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Regius · Book Viewer · GKS 2365 4to</title>
+  <link rel="stylesheet" href="docs/assets/codex-paleography.css" />
 </head>
-<body class="bg-[#1a120b] text-amber-100">
-<div class="max-w-7xl mx-auto p-8">
-<h1 class="text-5xl font-serif text-center text-amber-300 mb-8">GKS 2365 4to • Open Book Viewer</h1>
-<div class="grid grid-cols-2 gap-8">
-<div class="bg-[#f5e8c7] text-black p-8 rounded-xl min-h-[600px]">
-<h2 class="text-3xl">Left Page • Völuspá</h2>
-<img src="https://picsum.photos/id/201/600/700" class="mx-auto mt-4 rounded shadow-xl">
-<p class="mt-4">Raw + Enhanced + Musical notation loaded</p>
-</div>
-<div class="bg-[#f5e8c7] text-black p-8 rounded-xl min-h-[600px]">
-<h2 class="text-3xl">Right Page • Scholarly Tools</h2>
-<p>Etymology • Dialect • Comparative • Doodles catalog active</p>
-<button class="mt-8 bg-amber-400 text-black px-6 py-3">▶ Play Chant</button>
-</div>
-</div>
-<nav class="text-center mt-8 space-x-8">
-<a href="index.html">← Home</a> | <a href="paleography-hub.html">Paleography Hub</a> | <a href="paleography-hub.html#scribe">Scribe Timeline</a> | <a href="page-10-variations.html">Variations</a> | <a href="page-10-lyric-readalong.html">Read-Along</a>
-</nav>
-</div>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1>Codex Regius · Book Viewer</h1>
+      <p class="tagline">GKS 2365 4to — folio-by-folio layer viewer (pages 1–144)</p>
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="paleography-hub.html">Paleography Hub</a>
+        <a href="book-viewer.html" class="active">Book Viewer</a>
+        <a href="page-10-variations.html">Page 10 Variations</a>
+        <a href="page-10-lyric-readalong.html">Read-Along</a>
+        <a href="https://handrit.is/manuscript/view/is/GKS04-2365/9" target="_blank" rel="noopener">handrit.is</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="showcase-main">
+    <div class="book-toolbar">
+      <button type="button" id="prev-btn" aria-label="Previous page">← Prev</button>
+      <label>Page <input type="number" id="page-input" min="1" max="144" value="10" style="width:4rem;padding:0.35rem;background:var(--bg);color:var(--vellum);border:1px solid var(--accent);border-radius:4px" /> / 144</label>
+      <button type="button" id="next-btn" aria-label="Next page">Next →</button>
+      <span style="opacity:0.6">|</span>
+      <button type="button" class="layer-chip active" data-layer="grok_clean">Grok clean</button>
+      <button type="button" class="layer-chip" data-layer="grok_artistic">Grok vellum</button>
+      <button type="button" class="layer-chip" data-layer="clean">Clean white</button>
+      <button type="button" class="layer-chip" data-layer="artistic">Artistic vellum</button>
+      <span style="flex:1"></span>
+      <a class="btn" id="hub-link" href="paleography-hub.html">Open in Hub</a>
+      <a class="btn" id="assessment-link" href="processed/page_010/ai_assessment.md">Assessment</a>
+    </div>
+
+    <div class="book-spread">
+      <img id="spread-img" src="processed/page_010/grok_clean_white.jpg" alt="Codex Regius page" />
+    </div>
+
+    <div class="book-meta">
+      <div><strong id="page-title">Page 10</strong> · <span id="page-poem">Hávamál</span></div>
+      <div>Status: <span id="page-status" class="status-badge status-complete">complete</span></div>
+      <div style="opacity:0.8;font-size:0.8rem">← → arrow keys · layers switch enhancement pass</div>
+    </div>
+  </main>
+
+  <script src="docs/assets/book-viewer.js"></script>
 </body>
 </html>

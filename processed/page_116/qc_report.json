@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:04:11.166301+00:00",
+  "timestamp": "2026-06-29T04:03:12.849340+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 101.57,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.2745,
+      "raw_blur": 1906.82,
+      "enhanced_blur": 465.94,
+      "raw_contrast": 81.36,
+      "enhanced_contrast": 47.95,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.6123,
+      "raw_blur": 1906.82,
+      "enhanced_blur": 1410.54,
+      "raw_contrast": 81.36,
+      "enhanced_contrast": 74.91,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "UV    + VU     U    DU     U    oh     ~    Sr     =     ee rr —— |   pa\nAANA STH AMARA ANA  AAAAARARAMAANANANANARAATATAMMAANANAAAAANANANAAN NAAN Ga\n\n> IPUF LPP IP 8 28. ræ\nFR\n(I ET Al eta ÞJ left jr ete\nip Ive XdVr Arr 197\nMTT re ed bebe bred Bea bd að\nPia ÞÉR ÝÞ ÍR Tose 1\n\nre ra IE\na    -     Å           pp 2 gs,    Å    Å  i         > Å\n9 X0vp APES AÞEÐ X9\nTe ee Ta 6\nPera TP fa FP fe TP se)?\ná OG\nle XPS IP Ke APS AOU\n\nTILL ið lE ki ld,\n|    -  »   y «      pe      på   se Å\n> £4 Td få TO få TP FÅ 03\nld a dull Lk ea eter Ed kata tb ba\nrote ll la el lad fl ls ja Á þa bt bl ll |\npp   >      4        på   x                vy   Sn               hl ss     p   :\n\n> £5 J? £4 30 Lh Te fain\nlalli BL ti GR ol sl Sea TD\nása ls",
     "text_preview": "UV    + VU     U    DU     U    oh     ~    Sr     =     ee rr —— |   pa\nAANA STH AMARA ANA  AAAAARARAMAANANANANARAATATAMMAANANAAAAANANANAAN NAAN Ga\n\n> IPUF LPP IP 8 28. ræ\nFR\n(I ET Al eta ÞJ left jr ete\nip Ive XdVr Arr 197\nMTT re ed bebe bred Bea bd að\nPia ÞÉR ÝÞ ÍR Tose 1\n\nre ra IE\na    -     Å           pp 2 gs,    Å    Å  i         > Å\n9 X0vp APES AÞEÐ X9\nTe ee Ta 6\nPera TP fa FP fe TP se)?\ná OG\nle XPS IP Ke APS AOU\n\nTILL ið lE ki ld,\n|    -  »   y «      pe      på   se Å\n> £4 Td få TO få T",
     "char_count": 727,
     "error": null

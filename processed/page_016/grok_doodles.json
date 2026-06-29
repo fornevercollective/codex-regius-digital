@@ -1,0 +1,47 @@
+{
+  "page": 16,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-016-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '7' in a small, plain later hand, positioned top right above the text block.",
+      "scholarly_note": "Post-medieval pagination or foliation mark, added after the manuscript left Iceland (likely 17th–19th century during Danish royal collection or cataloguing); not original to the 13th-century mise-en-page."
+    },
+    {
+      "id": "M-016-02",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Enlarged initial capital (resembling a flourished 'G' or 'Q') at the start of a new textual section in the lower half of the page, extending slightly left of the main text alignment with a modest descending flourish.",
+      "scholarly_note": "Standard scribal device in Codex Regius to mark the opening of a new poem or major division (here within the Vafþrúðnismál/Grímnismál sequence). The form is functional rather than pictorial and belongs to the original campaign of the main hand."
+    },
+    {
+      "id": "M-016-03",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Diffuse brownish discoloration and slight wear concentrated along the bottom edge and lower corners of the vellum.",
+      "scholarly_note": "Age-related handling and environmental soiling typical of outer margins in composite codices; consistent with iron-gall ink chemistry and centuries of use. Does not impair legibility."
+    },
+    {
+      "id": "M-016-04",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Very faint, shallow linear surface creases or natural parchment grain lines running across portions of the written area, visible primarily under close inspection of the vellum texture.",
+      "scholarly_note": "Natural feature of the calfskin support or minor post-production handling abrasion; hair-side characteristics remain visible in places. No text is lost or obscured."
+    }
+  ],
+  "scratches": [
+    "Faint linear creases following natural vellum grain within the text block and extending into lower margin",
+    "Minor surface abrasion consistent with hair-side preparation visible in select areas when viewed in raking light"
+  ],
+  "damage_notes": [
+    "Narrow margins with minor edge wear and cockling, especially lower and outer edges",
+    "No holes, perforations, tears, or medieval repairs visible on this leaf",
+    "No significant ink loss, flaking, or burn-through from iron-gall corrosion",
+    "Text block remains fully legible with consistent letter forms"
+  ],
+  "summary": "Page 16 of Codex Regius is a notably clean leaf containing a dense, professionally written block of Eddic verse in Gothic book hand with only minimal non-text additions. The principal features outside the regular script are a later-added pagination numeral '7' in the upper right and a conventional enlarged initial capital marking a sectional division. The vellum exhibits only minor age-related edge staining and natural textural variations; there are no doodles, pen trials, figurative marginalia (faces, animals), offset ink, interlinear corrections, or contemporary annotations visible. The mise-en-page is economical with narrow margins, reflecting the main scribe's efficient production practices circa 1270.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_016/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T03:59:47.385393+00:00"
+}

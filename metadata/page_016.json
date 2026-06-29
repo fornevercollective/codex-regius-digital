@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Vafþrúðnismál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 4,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T03:59:47.385393+00:00"
+  },
   "processed_at": "2026-06-29T01:19:16.157820+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T01:33:25.579594+00:00",

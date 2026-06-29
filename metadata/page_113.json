@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Guðrúnarkviða II",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:34.393060+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:04:05.796280+00:00",
+  "qc_at": "2026-06-29T03:59:41.259439+00:00",
   "qc_issue_count": 1,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.105762+00:00",
   "poem_full": "Guðrúnarkviða II / Guðrúnarkviða III",
   "poem_section": "Guðr. II 31 – Guðr. III 5",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T03:59:41.258032+00:00"
 }

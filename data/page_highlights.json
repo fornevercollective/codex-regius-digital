@@ -2,21 +2,21 @@
   "corpus": "GKS 2365 4to",
   "pages_with_events": 143,
   "pages_total": 144,
-  "generated_at": "2026-06-29T03:44:39.238809+00:00",
+  "generated_at": "2026-06-29T04:07:35.003937+00:00",
   "pages": [
     {
       "page": 1,
       "poem": "Völuspá",
       "event_count": 13,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -74,13 +74,13 @@
       "poem": "Hávamál",
       "event_count": 9,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -115,14 +115,14 @@
       "poem": "Hávamál",
       "event_count": 7,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -132,21 +132,21 @@
       "poem": "Hávamál",
       "event_count": 30,
       "categories": [
+        "calligraphy",
+        "qc",
         "doodle",
         "ocr",
-        "qc",
-        "penmanship",
-        "calligraphy"
+        "penmanship"
       ],
       "types": [
-        "stain",
-        "other",
         "low_confidence_glyph",
-        "qc_issue",
         "penmanship_flag",
-        "glyph_field",
+        "pen_trial",
+        "stain",
         "decoration",
-        "pen_trial"
+        "qc_issue",
+        "glyph_field",
+        "other"
       ]
     },
     {
@@ -154,14 +154,14 @@
       "poem": "Hávamál",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -171,14 +171,14 @@
       "poem": "Hávamál",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -188,14 +188,14 @@
       "poem": "Hávamál",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -205,14 +205,14 @@
       "poem": "Hávamál / Vafþrúðnismál",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -222,14 +222,14 @@
       "poem": "Vafþrúðnismál",
       "event_count": 24,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -237,18 +237,23 @@
     {
       "page": 16,
       "poem": "Vafþrúðnismál / Grímnismál",
-      "event_count": 22,
+      "event_count": 26,
       "categories": [
-        "ocr",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "qc",
+        "doodle",
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
+        "scratch",
         "low_confidence_glyph",
+        "penmanship_flag",
+        "stain",
+        "decoration",
+        "qc_issue",
         "glyph_field",
-        "penmanship_flag"
+        "other"
       ]
     },
     {
@@ -256,14 +261,14 @@
       "poem": "Grímnismál",
       "event_count": 24,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -273,14 +278,14 @@
       "poem": "Grímnismál",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -290,14 +295,14 @@
       "poem": "Grímnismál",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -307,14 +312,14 @@
       "poem": "Grímnismál",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -324,14 +329,14 @@
       "poem": "Grímnismál / Skírnismál",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -341,14 +346,14 @@
       "poem": "Skírnismál",
       "event_count": 29,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -358,14 +363,14 @@
       "poem": "Skírnismál / Harbarðsljóð",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -375,14 +380,14 @@
       "poem": "Harbarðsljóð",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -392,14 +397,14 @@
       "poem": "Harbarðsljóð",
       "event_count": 33,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -409,14 +414,14 @@
       "poem": "Harbarðsljóð / Hymiskviða",
       "event_count": 24,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -426,14 +431,14 @@
       "poem": "Hymiskviða",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -443,14 +448,14 @@
       "poem": "Hymiskviða",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -460,14 +465,14 @@
       "poem": "Hymiskviða / Lokasenna",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -477,14 +482,14 @@
       "poem": "Lokasenna",
       "event_count": 41,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -494,14 +499,14 @@
       "poem": "Lokasenna",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -511,14 +516,14 @@
       "poem": "Lokasenna",
       "event_count": 38,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -528,14 +533,14 @@
       "poem": "Lokasenna / Þrymskviða",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -545,14 +550,14 @@
       "poem": "Þrymskviða",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -562,14 +567,14 @@
       "poem": "Þrymskviða / Völundarkviða",
       "event_count": 29,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -579,14 +584,14 @@
       "poem": "Völundarkviða",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -596,14 +601,14 @@
       "poem": "Völundarkviða",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -613,14 +618,14 @@
       "poem": "Völundarkviða / Alvísmál",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -630,14 +635,14 @@
       "poem": "Alvísmál / Helgakviða Hundingsbana I",
       "event_count": 20,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -647,14 +652,14 @@
       "poem": "Helgakviða Hundingsbana I",
       "event_count": 41,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -664,14 +669,14 @@
       "poem": "Helgakviða Hundingsbana I",
       "event_count": 29,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -681,14 +686,14 @@
       "poem": "Helgakviða Hundingsbana I",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -698,14 +703,14 @@
       "poem": "Helgakviða Hundingsbana I / Helgakviða Hjörvarðssonar",
       "event_count": 29,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -715,14 +720,14 @@
       "poem": "Helgakviða Hjörvarðssonar",
       "event_count": 23,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -732,14 +737,14 @@
       "poem": "Helgakviða Hjörvarðssonar",
       "event_count": 38,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -749,14 +754,14 @@
       "poem": "Helgakviða Hjörvarðssonar",
       "event_count": 32,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -766,14 +771,14 @@
       "poem": "Helgakviða Hjörvarðssonar / Helgakviða Hundingsbana II",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -783,14 +788,14 @@
       "poem": "Helgakviða Hundingsbana II",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -800,14 +805,14 @@
       "poem": "Helgakviða Hundingsbana II",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -817,14 +822,14 @@
       "poem": "Helgakviða Hundingsbana II",
       "event_count": 32,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -834,14 +839,14 @@
       "poem": "Helgakviða Hundingsbana II",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -851,14 +856,14 @@
       "poem": "Helgakviða Hundingsbana II / Frá dauða Sinfjötla",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -868,14 +873,14 @@
       "poem": "Frá dauða Sinfjötla / Grípisspá",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -885,14 +890,14 @@
       "poem": "Grípisspá",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -902,14 +907,14 @@
       "poem": "Grípisspá",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -919,14 +924,14 @@
       "poem": "Grípisspá / Reginsmál",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -936,14 +941,14 @@
       "poem": "Reginsmál",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -953,14 +958,14 @@
       "poem": "Reginsmál",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -970,14 +975,14 @@
       "poem": "Reginsmál / Fafnismál",
       "event_count": 39,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -987,14 +992,14 @@
       "poem": "Fafnismál",
       "event_count": 33,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1004,14 +1009,14 @@
       "poem": "Fafnismál",
       "event_count": 32,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1021,14 +1026,14 @@
       "poem": "Fafnismál / Sigrdrífumál",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1038,14 +1043,14 @@
       "poem": "Sigrdrífumál",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1055,14 +1060,14 @@
       "poem": "Sigrdrífumál",
       "event_count": 18,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1072,14 +1077,14 @@
       "poem": "Brot af Sigurðarkviðu",
       "event_count": 21,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1089,14 +1094,14 @@
       "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
       "event_count": 29,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1106,14 +1111,14 @@
       "poem": "Guðrúnarkviða I",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1123,14 +1128,14 @@
       "poem": "Guðrúnarkviða I / Sigurðarkviða III",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1140,14 +1145,14 @@
       "poem": "Sigurðarkviða III",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1157,14 +1162,14 @@
       "poem": "Sigurðarkviða III",
       "event_count": 19,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1174,14 +1179,14 @@
       "poem": "Sigurðarkviða III / Helreið Brynhildar",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1191,14 +1196,14 @@
       "poem": "Helreið Brynhildar / Dráp Niflunga",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1208,14 +1213,14 @@
       "poem": "Dráp Niflunga / Guðrúnarkviða II",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1225,14 +1230,14 @@
       "poem": "Guðrúnarkviða II",
       "event_count": 37,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1242,14 +1247,14 @@
       "poem": "Guðrúnarkviða II / Guðrúnarkviða III",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1259,14 +1264,14 @@
       "poem": "Guðrúnarkviða III / Oddrúnargrátr",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1276,14 +1281,14 @@
       "poem": "Oddrúnargrátr",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1293,14 +1298,14 @@
       "poem": "Oddrúnargrátr / Atlakviða",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1310,14 +1315,14 @@
       "poem": "Atlakviða",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1327,14 +1332,14 @@
       "poem": "Atlakviða",
       "event_count": 17,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1344,14 +1349,14 @@
       "poem": "Atlakviða / Atlamál",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1361,14 +1366,14 @@
       "poem": "Atlamál",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1378,14 +1383,14 @@
       "poem": "Atlamál",
       "event_count": 21,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1395,14 +1400,14 @@
       "poem": "Atlamál",
       "event_count": 25,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1412,14 +1417,14 @@
       "poem": "Atlamál",
       "event_count": 38,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1427,16 +1432,16 @@
     {
       "page": 86,
       "poem": "Atlamál",
-      "event_count": 35,
+      "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1446,14 +1451,14 @@
       "poem": "Atlamál / Guðrunarhvöt",
       "event_count": 26,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1463,14 +1468,14 @@
       "poem": "Guðrunarhvöt / Hamðismál",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1480,14 +1485,14 @@
       "poem": "Hamðismál",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1497,14 +1502,14 @@
       "poem": "Hamðismál",
       "event_count": 30,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1514,14 +1519,14 @@
       "poem": "Brot af Sigurðarkviðu",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1531,14 +1536,14 @@
       "poem": "Brot af Sigurðarkviðu",
       "event_count": 28,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1548,13 +1553,13 @@
       "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
       "event_count": 17,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -1563,14 +1568,14 @@
       "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
       "event_count": 23,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1580,14 +1585,14 @@
       "poem": "Guðrúnarkviða I",
       "event_count": 34,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1597,14 +1602,14 @@
       "poem": "Guðrúnarkviða I",
       "event_count": 27,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1614,14 +1619,14 @@
       "poem": "Guðrúnarkviða I / Sigurðarkviða III",
       "event_count": 21,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1631,14 +1636,14 @@
       "poem": "Guðrúnarkviða I / Sigurðarkviða III",
       "event_count": 36,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1648,14 +1653,14 @@
       "poem": "Sigurðarkviða III",
       "event_count": 31,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1665,14 +1670,14 @@
       "poem": "Sigurðarkviða III",
       "event_count": 24,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1682,13 +1687,13 @@
       "poem": "Sigurðarkviða III",
       "event_count": 4,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -1697,14 +1702,14 @@
       "poem": "Sigurðarkviða III",
       "event_count": 10,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1727,14 +1732,14 @@
       "poem": "Sigurðarkviða III / Helreið Brynhildar",
       "event_count": 14,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1779,14 +1784,14 @@
       "poem": "Dráp Niflunga / Guðrúnarkviða II",
       "event_count": 12,
       "categories": [
-        "ocr",
         "calligraphy",
+        "ocr",
         "penmanship"
       ],
       "types": [
-        "penmanship_flag",
         "low_confidence_glyph",
-        "glyph_field"
+        "glyph_field",
+        "penmanship_flag"
       ]
     },
     {
@@ -1794,13 +1799,13 @@
       "poem": "Dráp Niflunga / Guðrúnarkviða II",
       "event_count": 6,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -1820,14 +1825,14 @@
       "poem": "Guðrúnarkviða II",
       "event_count": 13,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1837,13 +1842,13 @@
       "poem": "Guðrúnarkviða II / Guðrúnarkviða III",
       "event_count": 6,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -1852,14 +1857,14 @@
       "poem": "Guðrúnarkviða III / Oddrúnargrátr",
       "event_count": 32,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1869,14 +1874,14 @@
       "poem": "Guðrúnarkviða III / Oddrúnargrátr",
       "event_count": 21,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1886,14 +1891,14 @@
       "poem": "Oddrúnargrátr",
       "event_count": 39,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1903,14 +1908,14 @@
       "poem": "Oddrúnargrátr",
       "event_count": 11,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1920,14 +1925,14 @@
       "poem": "Oddrúnargrátr / Atlakviða",
       "event_count": 8,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1937,14 +1942,14 @@
       "poem": "Oddrúnargrátr / Atlakviða",
       "event_count": 21,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1954,14 +1959,14 @@
       "poem": "Atlakviða",
       "event_count": 14,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1971,14 +1976,14 @@
       "poem": "Atlakviða",
       "event_count": 11,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -1988,14 +1993,14 @@
       "poem": "Atlakviða",
       "event_count": 9,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2005,13 +2010,13 @@
       "poem": "Atlakviða",
       "event_count": 7,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2020,14 +2025,14 @@
       "poem": "Atlakviða / Atlamál",
       "event_count": 12,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2037,14 +2042,14 @@
       "poem": "Atlakviða / Atlamál",
       "event_count": 18,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2054,14 +2059,14 @@
       "poem": "Atlamál",
       "event_count": 9,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2071,14 +2076,14 @@
       "poem": "Atlamál",
       "event_count": 16,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2088,13 +2093,13 @@
       "poem": "Atlamál",
       "event_count": 10,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2103,14 +2108,14 @@
       "poem": "Atlamál",
       "event_count": 14,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2120,13 +2125,13 @@
       "poem": "Atlamál",
       "event_count": 11,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2135,14 +2140,14 @@
       "poem": "Atlamál",
       "event_count": 18,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2152,14 +2157,14 @@
       "poem": "Atlamál",
       "event_count": 15,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2169,14 +2174,14 @@
       "poem": "Atlamál",
       "event_count": 11,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2186,14 +2191,14 @@
       "poem": "Atlamál",
       "event_count": 14,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2203,13 +2208,13 @@
       "poem": "Atlamál",
       "event_count": 9,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2218,13 +2223,13 @@
       "poem": "Atlamál",
       "event_count": 5,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2233,13 +2238,13 @@
       "poem": "Atlamál / Guðrunarhvöt",
       "event_count": 8,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2248,13 +2253,13 @@
       "poem": "Atlamál / Guðrunarhvöt",
       "event_count": 13,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "qc"
+        "ocr"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field"
       ]
     },
@@ -2263,14 +2268,14 @@
       "poem": "Guðrunarhvöt / Hamðismál",
       "event_count": 42,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2280,14 +2285,14 @@
       "poem": "Guðrunarhvöt / Hamðismál",
       "event_count": 35,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2297,14 +2302,14 @@
       "poem": "Hamðismál",
       "event_count": 51,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2314,14 +2319,14 @@
       "poem": "Hamðismál",
       "event_count": 53,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2331,14 +2336,14 @@
       "poem": "Hamðismál",
       "event_count": 39,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2348,14 +2353,14 @@
       "poem": "Hamðismál",
       "event_count": 22,
       "categories": [
-        "ocr",
+        "qc",
         "calligraphy",
-        "penmanship",
-        "qc"
+        "ocr",
+        "penmanship"
       ],
       "types": [
-        "qc_issue",
         "low_confidence_glyph",
+        "qc_issue",
         "glyph_field",
         "penmanship_flag"
       ]
@@ -2903,7 +2908,8 @@
       144
     ],
     "doodle": [
-      10
+      10,
+      16
     ]
   },
   "by_type": {
@@ -3451,13 +3457,19 @@
       10
     ],
     "decoration": [
-      10
+      10,
+      16
     ],
     "stain": [
-      10
+      10,
+      16
     ],
     "other": [
-      10
+      10,
+      16
+    ],
+    "scratch": [
+      16
     ]
   }
 }

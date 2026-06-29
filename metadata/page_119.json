@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Oddrúnargrátr",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:35.557726+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:04:16.963791+00:00",
+  "qc_at": "2026-06-29T04:07:19.016663+00:00",
   "qc_issue_count": 21,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.112977+00:00",
   "poem_full": "Oddrúnargrátr / Atlakviða",
   "poem_section": "Oddr. 31 – Atl. 9",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:07:19.014695+00:00"
 }

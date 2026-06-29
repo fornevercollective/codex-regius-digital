@@ -1,9 +1,65 @@
 {
   "page": 16,
   "poem": "Vafþrúðnismál / Grímnismál",
-  "event_count": 22,
+  "event_count": 26,
   "has_events": true,
   "events": [
+    {
+      "id": "M-016-01",
+      "type": "other",
+      "category": "doodle",
+      "label": "Arabic numeral '7' in a small, plain later hand, positioned top right above the ",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.12,
+        "region": "upper margin"
+      },
+      "source": "grok_doodles"
+    },
+    {
+      "id": "M-016-02",
+      "type": "decoration",
+      "category": "doodle",
+      "label": "Enlarged initial capital (resembling a flourished 'G' or 'Q') at the start of a ",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.1,
+        "h": 1.0,
+        "region": "left margin"
+      },
+      "source": "grok_doodles"
+    },
+    {
+      "id": "M-016-03",
+      "type": "stain",
+      "category": "doodle",
+      "label": "Diffuse brownish discoloration and slight wear concentrated along the bottom edg",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.88,
+        "w": 1.0,
+        "h": 0.12,
+        "region": "lower margin"
+      },
+      "source": "grok_doodles"
+    },
+    {
+      "id": "M-016-04",
+      "type": "scratch",
+      "category": "doodle",
+      "label": "Very faint, shallow linear surface creases or natural parchment grain lines runn",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "grok_doodles"
+    },
     {
       "id": "G-016-ALL",
       "type": "glyph_field",
@@ -294,5 +350,5 @@
       "source": "penmanship_report"
     }
   ],
-  "updated_at": "2026-06-29T03:44:39.081007+00:00"
+  "updated_at": "2026-06-29T04:07:34.899079+00:00"
 }

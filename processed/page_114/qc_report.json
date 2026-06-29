@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:04:06.312876+00:00",
+  "timestamp": "2026-06-29T04:00:51.032637+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 59.19,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.176,
+      "raw_blur": 1434.59,
+      "enhanced_blur": 371.49,
+      "raw_contrast": 36.66,
+      "enhanced_contrast": 40.01,
+      "ssim_ok": false,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.1329,
+      "raw_blur": 1434.59,
+      "enhanced_blur": 1988.78,
+      "raw_contrast": 36.66,
+      "enhanced_contrast": 45.99,
+      "ssim_ok": false,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "= Í     av rd My ya gd DD\nee EEE.   MARAT AANA\nÅRA NN ANARANAAAAAAAARANARARNAAARANA AC      |        ið    |\nSEN,   å   PST      Hi       :     Å          ‘        |        5          ;\nee id            i                           a     p 4    “  I\nae                                     a á Å                                                                         7                                             I.\nÅ   Å                p              K ASS  )             GE                            9\nAN          vr                     PACS              Á Ni                oS\nyO)   3                 pon         ar               4\nÍ  24                    =        28                      å\nty    å                          sf)         ME í\nVå    å                 Ap    ;    EN                i\n;                       TGN SPE\nif   ae          r af   a.             >     .  af       WE,\nz*               9    vg                              å                       SN\n4 jh      ð eZ     ‘     :    a - me då    ae DM  vaði  3   ea    ;      3 ar på  á; ør Æ\nav  TEEN gm OE DE ts]",
     "text_preview": "= Í     av rd My ya gd DD\nee EEE.   MARAT AANA\nÅRA NN ANARANAAAAAAAARANARARNAAARANA AC      |        ið    |\nSEN,   å   PST      Hi       :     Å          ‘        |        5          ;\nee id            i                           a     p 4    “  I\nae                                     a á Å                                                                         7                                             I.\nÅ   Å                p              K ASS  )             GE                          ",
     "char_count": 1085,
     "error": null

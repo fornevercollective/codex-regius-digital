@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:16.963791+00:00",
+  "timestamp": "2026-06-29T04:07:19.016663+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 96.84,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.3936,
+      "raw_blur": 726.34,
+      "enhanced_blur": 193.67,
+      "raw_contrast": 65.25,
+      "enhanced_contrast": 51.23,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5421,
+      "raw_blur": 726.34,
+      "enhanced_blur": 554.89,
+      "raw_contrast": 65.25,
+      "enhanced_contrast": 38.73,
+      "ssim_ok": true,
+      "contrast_improved": false
     }
   },
   "ocr": {
-    "text": "LL] LLI JU LA =<  pa=a a.        i”    el   v           Pz\n102030 40 50 60 | 70 i\neA, AAANAAAAANAARANE SNAR\n = =   Íra mal |                          |\n‘4, |                                                if\n“ et  bt a    Ruma ap |                           Å\n| —,  >      t oO     Ww al\n| =;  Wi pyue nrg mal\n hk  x    SFL S Mat  |            4    i     |  4\nAJ EEG                           ER |\nEg ent ð                      að: |\nls ca [enna Á         |\nae      3       qe     ;  , ir Lt   |                                á\n| | .           JER mat |                   |         1\n\"   Å     1 J     8   PÅ\n2  4     2    JLluiga í PALS? Å     +.                      |   ‘\n    |  Et     Fi eiga abe 3 oa              ; '          > %    |\nhead        -  fi  <      LK JE nfra                                Æ           i     }  €\nmn   =      Fries mak    a\n=    =     kyrr NEW  de ae             ; nies   :\n=> £5       itiameaed,  |                   ae å",
     "text_preview": "LL] LLI JU LA =<  pa=a a.        i”    el   v           Pz\n102030 40 50 60 | 70 i\neA, AAANAAAAANAARANE SNAR\n = =   Íra mal |                          |\n‘4, |                                                if\n“ et  bt a    Ruma ap |                           Å\n| —,  >      t oO     Ww al\n| =;  Wi pyue nrg mal\n hk  x    SFL S Mat  |            4    i     |  4\nAJ EEG                           ER |\nEg ent ð                      að: |\nls ca [enna Á         |\nae      3       qe     ;  , ir Lt   |     ",
     "char_count": 958,
     "error": null

@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Oddrúnargrátr",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:35.032325+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:04:11.166301+00:00",
+  "qc_at": "2026-06-29T04:03:12.849340+00:00",
   "qc_issue_count": 8,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.109567+00:00",
   "poem_full": "Oddrúnargrátr",
   "poem_section": "st. fragments 14–31",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:03:12.846996+00:00"
 }

@@ -2,7 +2,7 @@
   "schema": "codex-regius-penmanship-wai/v1",
   "corpus": "GKS 2365 4to",
   "purpose": "Batch AI ingestion for glyph classification, penmanship flow, and live animation",
-  "generated_at": "2026-06-29T03:44:39.243304+00:00",
+  "generated_at": "2026-06-29T04:07:35.008062+00:00",
   "pages": [
     {
       "page": 1,

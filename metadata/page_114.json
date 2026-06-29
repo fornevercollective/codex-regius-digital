@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Guðrúnarkviða III",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:34.608638+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:04:06.312876+00:00",
+  "qc_at": "2026-06-29T04:00:51.032637+00:00",
   "qc_issue_count": 8,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.106928+00:00",
   "poem_full": "Guðrúnarkviða III / Oddrúnargrátr",
   "poem_section": "Guðr. III 5 – Oddr. fragments",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:00:51.031373+00:00"
 }

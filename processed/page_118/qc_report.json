@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:15.730197+00:00",
+  "timestamp": "2026-06-29T04:06:01.857851+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 98.4,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6401,
+      "raw_blur": 701.0,
+      "enhanced_blur": 426.03,
+      "raw_contrast": 77.92,
+      "enhanced_contrast": 66.55,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.6618,
+      "raw_blur": 701.0,
+      "enhanced_blur": 1363.96,
+      "raw_contrast": 77.92,
+      "enhanced_contrast": 83.65,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "UUAUVUVOUOQQQGONNTIRITTTTVOVOUOQQQGQQQOQQOQVONARIVANOVU0Q0GQQQQQQ00000000 00000000000 EN\n\n20     30 40 50 60     70 80 90 104.110    120 130 140 150\nAMAIA RANAAAAMANNAMAAANA  AD\n\ní\n\n4\n\nhå\n\nB\n\n|",
     "text_preview": "UUAUVUVOUOQQQGONNTIRITTTTVOVOUOQQQGQQQOQQOQVONARIVANOVU0Q0GQQQQQQ00000000 00000000000 EN\n\n20     30 40 50 60     70 80 90 104.110    120 130 140 150\nAMAIA RANAAAAMANNAMAAANA  AD\n\ní\n\n4\n\nhå\n\nB\n\n|",
     "char_count": 193,
     "error": null

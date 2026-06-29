@@ -1,0 +1,20 @@
+{
+  "manuscript": "GKS 2365 4to",
+  "page": 58,
+  "image_filename": "GKS2365_page_58.png",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "layers": [
+    "raw.png",
+    "artistic_vellum.jpg",
+    "clean_white.jpg",
+    "interactive.html",
+    "ai_assessment.md",
+    "etymology.md",
+    "doodles_catalog.md"
+  ],
+  "poem": "",
+  "original_text": "",
+  "translation": "",
+  "marginalia": null,
+  "processed_at": "2026-06-29T01:19:24.260718+00:00"
+}

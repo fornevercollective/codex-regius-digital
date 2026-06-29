@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GKS2365 Page 60 • Lyric Read-Along</title>
+  <style>
+    body { font-family: Georgia, serif; background: #1c140f; color: #e8d9b0; margin: 0; padding: 20px; }
+    .container { max-width: 1200px; margin: auto; background: #f9f4e9; color: #3c2f1e; border-radius: 8px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+    .header { text-align: center; padding: 20px; background: #3c2f1e; color: #e8d9b0; }
+    .manuscript { display: flex; flex-wrap: wrap; }
+    .left, .right { flex: 1; padding: 30px; min-width: 400px; }
+    .line { cursor: pointer; padding: 6px 0; transition: all 0.3s; }
+    .line:hover, .line.active { background: #e8d9b0; color: #3c2f1e; }
+    .stave { font-size: 1.4em; text-align: center; margin: 10px 0; letter-spacing: 8px; }
+    button { padding: 12px 30px; font-size: 1.1em; background: #8b5a2b; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .references { display: flex; gap: 15px; padding: 20px; background: #f0e6d2; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Völuspá — Page 60 • Read-Along Edition</h1>
+      <button onclick="togglePlay()">▶ Play / Pause Chant</button>
+    </div>
+    
+    <div class="manuscript">
+      <div class="left">
+        <h2>Original Old Norse</h2>
+        <div id="left-text">
+          <div class="line" data-time="0">1. Hlióðs bið ek allar helgar kindir,</div>
+          <!-- more lines -->
+        </div>
+      </div>
+      <div class="right">
+        <h2>Modern English + Derivatives</h2>
+        <div id="right-text">
+          <div class="line" data-time="0">Hearing I ask from all holy beings <span style="font-size:0.8em">(alt: I seek silence from the sacred kindred)</span></div>
+          <!-- more lines -->
+        </div>
+      </div>
+    </div>
+
+    <div class="references">
+      <!-- Your three bottom images here as img tags with local or base64 paths -->
+    </div>
+  </div>
+
+  <script>
+    let isPlaying = false;
+    let currentLine = 0;
+    const lines = document.querySelectorAll('.line');
+    
+    function togglePlay() {
+      isPlaying = !isPlaying;
+      if (isPlaying) readAlong();
+    }
+    
+    function readAlong() {
+      if (!isPlaying) return;
+      lines.forEach(l => l.classList.remove('active'));
+      if (currentLine < lines.length) {
+        lines[currentLine].classList.add('active');
+        currentLine++;
+        setTimeout(readAlong, 2800); // ~2.8 seconds per line for chant pace
+      } else {
+        isPlaying = false;
+        currentLine = 0;
+      }
+    }
+  </script>
+</body>
+</html>

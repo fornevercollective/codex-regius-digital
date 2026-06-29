@@ -6,7 +6,7 @@
     { id: "grok_clean", label: "Grok clean", file: "grok_clean_white.jpg" },
   ];
 
-  const state = { page: 10, layer: "grok_clean", index: {} };
+  const state = { page: 10, layer: "grok_clean", index: {}, liturgy: null, runic: null };
 
   function $(s) { return document.querySelector(s); }
 
@@ -20,11 +20,47 @@
 
   async function loadIndex() {
     try {
-      const r = await fetch("data/hub_page_index.json");
-      if (!r.ok) return;
-      const data = await r.json();
-      (data.pages || []).forEach((p) => { state.index[p.page] = p; });
+      const [hub, lit, run] = await Promise.all([
+        fetch("data/hub_page_index.json"),
+        fetch("data/liturgy_comparisons.json"),
+        fetch("data/runic_parallels.json"),
+      ]);
+      if (hub.ok) {
+        const data = await hub.json();
+        (data.pages || []).forEach((p) => { state.index[p.page] = p; });
+      }
+      if (lit.ok) state.liturgy = await lit.json();
+      if (run.ok) state.runic = await run.json();
     } catch (_) {}
+  }
+
+  function renderRunicPanel() {
+    const body = $("#runic-panel-body");
+    const link = $("#runic-hub-link");
+    if (!body) return;
+    link.href = `paleography-hub.html#runic`;
+    const poem = (state.liturgy?.page_index || []).find((e) => e.page === state.page);
+    const entry = (state.runic?.page_index || []).find((e) => e.page === state.page);
+    const stanzaLinks = (state.runic?.stanza_links || []).filter((s) => (s.pages_cr || []).includes(state.page));
+    if (!entry && !stanzaLinks.length) {
+      body.innerHTML = `<p>No indexed rune-stick or stone parallels for page ${state.page} yet. Poem: <strong>${poem?.poem || "—"}</strong></p>`;
+      return;
+    }
+    let html = `<p><strong>${poem?.poem || "—"}</strong> · ${poem?.section || ""}</p>`;
+    if (entry?.poem_summary) {
+      html += `<p>${entry.poem_summary.summary}</p>`;
+    }
+    if (stanzaLinks.length) {
+      html += "<ul>";
+      stanzaLinks.forEach((l) => {
+        html += `<li><strong>${l.poem}</strong> st. ${l.stanza ?? "—"} (${l.match_type}): ${l.note}</li>`;
+      });
+      html += "</ul>";
+    }
+    if (entry?.artifacts?.length) {
+      html += "<p><strong>Artifacts:</strong> " + entry.artifacts.map((a) => a.name).join(" · ") + "</p>";
+    }
+    body.innerHTML = html;
   }
 
   function layerPath(page, file) {
@@ -54,6 +90,7 @@
 
     $("#prev-btn").disabled = state.page <= 1;
     $("#next-btn").disabled = state.page >= 144;
+    renderRunicPanel();
   }
 
   function setPage(n) {

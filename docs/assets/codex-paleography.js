@@ -481,6 +481,76 @@
     return (state.data.liturgy?.page_index || []).find((e) => e.page === page) || null;
   }
 
+  function runicPageEntry(page) {
+    return (state.data.runic?.page_index || []).find((e) => e.page === page) || null;
+  }
+
+  function renderRunicOverview() {
+    const o = state.data.runic?.overview || {};
+    const cats = state.data.runic?.artifact_categories || [];
+    $("#runic-overview").innerHTML = `
+      <div class="card"><h4>Codex date</h4><p>${o.codex_date || "—"}</p></div>
+      <div class="card"><h4>Primary witness?</h4><p>${o.is_primary_complete_witness ? "Yes — most complete Eddic vellum" : "—"}</p></div>
+      <div class="card"><h4>Oldest poem artifact?</h4><p>${o.is_oldest_poetic_artifact ? "Yes" : "No — runic carvings earlier"}</p></div>
+      <div class="card" style="grid-column:1/-1"><h4>Scholarly note</h4><p>${o.summary || ""}</p>
+        <p style="margin-top:0.5rem;font-size:0.85rem"><strong>Older traditions:</strong> ${(o.older_traditions || []).join(" · ")}</p></div>
+      ${cats.map((c) => `<div class="card"><h4>${c.label}</h4><p style="font-size:0.85rem">${c.description}</p></div>`).join("")}`;
+  }
+
+  function renderRunicPage() {
+    const entry = runicPageEntry(state.page);
+    const poem = pagePoemEntry(state.page);
+    const links = (state.data.runic?.stanza_links || []).filter((s) => (s.pages_cr || []).includes(state.page));
+    const el = $("#runic-page-body");
+    if (!entry && !links.length) {
+      el.innerHTML = `<p class="empty">No indexed runic parallels for page ${state.page} yet. Poem: <strong>${poem?.poem || "—"}</strong></p>`;
+      return;
+    }
+    let html = `<p><strong>${poem?.poem || "—"}</strong> · ${poem?.section || ""}</p>`;
+    if (entry?.poem_summary) {
+      html += `<p class="runic-density">Runic density: <strong>${entry.poem_summary.runic_density}</strong> — ${entry.poem_summary.summary}</p>`;
+    }
+    if (links.length) {
+      html += "<h4>Stanza links</h4><table><tr><th>Poem</th><th>St.</th><th>CR text</th><th>Match</th><th>Note</th></tr>";
+      links.forEach((l) => {
+        html += `<tr><td>${l.poem}</td><td>${l.stanza ?? "—"}</td><td><code>${(l.cr_text || "").slice(0, 60)}</code></td><td>${l.match_type}</td><td>${l.note}</td></tr>`;
+      });
+      html += "</table>";
+    }
+    const arts = entry?.artifacts || [];
+    if (arts.length) {
+      html += "<h4>Artifacts</h4><ul class='runic-artifact-list'>";
+      arts.forEach((a) => {
+        html += `<li><strong>${a.name}</strong> (${a.date}) · ${a.type.replace("_", " ")}<br><small>${a.note}</small><br><em>${a.reference || ""}</em></li>`;
+      });
+      html += "</ul>";
+    }
+    el.innerHTML = html;
+  }
+
+  function renderRunicCorpusTable() {
+    const artifacts = state.data.runic?.artifacts || [];
+    const summaries = state.data.runic?.poem_summaries || [];
+    let html = "<table><tr><th>Poem / region</th><th>Pages</th><th>Runic density</th><th>Key artifacts</th></tr>";
+    summaries.forEach((s) => {
+      const arts = artifacts.filter((a) => (a.poems || []).some((p) => s.poem.includes(p) || p.includes(s.poem.split(" ")[0])));
+      html += `<tr><td>${s.poem}</td><td>${s.page_start}–${s.page_end}</td><td>${s.runic_density}</td><td>${arts.map((a) => a.name).join("; ") || "—"}</td></tr>`;
+    });
+    html += "</table><h4>All catalogued artifacts</h4><table><tr><th>Name</th><th>Type</th><th>Date</th><th>Poems</th><th>Relation</th></tr>";
+    artifacts.forEach((a) => {
+      html += `<tr><td>${a.name}</td><td>${a.type}</td><td>${a.date}</td><td>${(a.poems || []).join(", ")}</td><td>${a.relation}</td></tr>`;
+    });
+    html += "</table>";
+    $("#runic-corpus-table").innerHTML = html;
+  }
+
+  function renderRunic() {
+    if (!$("#runic-overview")) return;
+    renderRunicOverview();
+    renderRunicPage();
+    renderRunicCorpusTable();
+  }
+
   function renderLiturgy() {
     const lit = state.data.liturgy || {};
     const themes = (state.data.themes || {}).themes || [];
@@ -515,6 +585,7 @@
     renderPenmanship();
     renderPageEvents();
     renderLiturgy();
+    renderRunic();
 
     const links = [
       ["AI Assessment", `${dir}/ai_assessment.md`],
@@ -534,6 +605,7 @@
     penmanship: "tab-penmanship",
     scribe: "tab-scribe",
     liturgy: "tab-liturgy",
+    runic: "tab-runic",
     doodles: "tab-doodles",
   };
 
@@ -620,7 +692,7 @@
 
   async function init() {
     try {
-      const [codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex] = await Promise.all([
+      const [codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic] = await Promise.all([
         loadJSON("data/codicology.json"),
         loadJSON("data/scribe_timeline.json"),
         loadJSON("data/alphabet_reference.json"),
@@ -628,8 +700,9 @@
         loadJSON("data/thematic_crossrefs.json"),
         loadJSON("data/page_highlights.json").catch(() => null),
         loadJSON("data/hub_page_index.json").catch(() => null),
+        loadJSON("data/runic_parallels.json").catch(() => null),
       ]);
-      state.data = { codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex };
+      state.data = { codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic };
       if (hubIndex?.pages) {
         hubIndex.pages.forEach((p) => { state.pageIndex[p.page] = p; });
       }
@@ -646,6 +719,8 @@
     renderCodicology();
     renderAlphabet();
     renderTimeline();
+    renderRunicOverview();
+    renderRunicCorpusTable();
     await updatePageView();
     setupTabs();
     setupMusicModes();

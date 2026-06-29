@@ -1,0 +1,1044 @@
+{
+  "generated_at": "2026-06-29T08:02:21.951111+00:00",
+  "corpus": "GKS 2365 4to · Poetic Edda",
+  "overview": {
+    "codex_date": "c. 1270–1280",
+    "scribe": "One main professional hand (Iceland)",
+    "is_oldest_poetic_artifact": false,
+    "is_primary_complete_witness": true,
+    "summary": "Codex Regius is not the absolute oldest surviving piece of Eddic poetry — runic inscriptions and wooden sticks can be centuries earlier — but it is the most complete and best-preserved medieval vellum witness for the Poetic Edda. AM 748 I 4to and scattered fragments supplement it; scholars treat GKS 2365 4to as the principal text.",
+    "older_traditions": [
+      "Elder/Younger Futhark inscriptions (8th–10th c.)",
+      "Bergen and Trondheim rune sticks (12th–14th c.)",
+      "Heroic image stones (8th–11th c.)"
+    ]
+  },
+  "artifact_categories": [
+    {
+      "id": "rune_stick",
+      "label": "Rune sticks (træstikker)",
+      "description": "Medieval wooden sticks from Norwegian towns, often with Eddic lines — especially Hávamál and Sigurðr-cycle formulae."
+    },
+    {
+      "id": "stone",
+      "label": "Runestones & image stones",
+      "description": "Granite and rock carvings with mythological names, poetic phrases, or heroic scenes parallel to Eddic narrative."
+    },
+    {
+      "id": "galdr",
+      "label": "Galdr / magical runes",
+      "description": "Short protective or cursing formulas showing live magical use of the same language register as the codex."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "rok-stone",
+      "type": "stone",
+      "name": "Rök runestone (Ög 136)",
+      "date": "c. 9th century",
+      "location": "Rök, Östergötland, Sweden",
+      "script": "Elder Futhark",
+      "poems": [
+        "Völuspá"
+      ],
+      "relation": "thematic",
+      "note": "Longest known Elder Futhark inscription; alliterative narrative with mythological names (e.g. Þórr). Thematic overlap with Eddic cosmogony — not a direct copy of Codex Regius text.",
+      "reference": "Rundata Ög 136; scholarly editions (e.g. Page 1999)"
+    },
+    {
+      "id": "berg-p27",
+      "type": "rune_stick",
+      "name": "Bergen stick P27 (Bryggen)",
+      "date": "c. 12th–13th century",
+      "location": "Bergen, Norway",
+      "script": "Younger Futhark",
+      "poems": [
+        "Hávamál"
+      ],
+      "relation": "near_verbatim",
+      "note": "Contains Hávamál lines closely matching the Codex Regius tradition — among the strongest manuscript–runic textual bridges.",
+      "reference": "N B511 corpus; McLeod & Mees, Runic Amulets"
+    },
+    {
+      "id": "berg-n511",
+      "type": "rune_stick",
+      "name": "Bergen stick N B511",
+      "date": "c. 13th–14th century",
+      "location": "Bergen, Norway",
+      "script": "Younger Futhark",
+      "poems": [
+        "Hávamál"
+      ],
+      "relation": "verbatim_fragment",
+      "note": "Famous stick with Hávamál st. 77 region — 'at skal ráða…' formula widely cited in Eddic–runic studies.",
+      "reference": "Aslak Liestøl, Bergen rune sticks"
+    },
+    {
+      "id": "ramsund-sigurd",
+      "type": "stone",
+      "name": "Ramsund carving (Sigurðr)",
+      "date": "c. 11th century",
+      "location": "Södermanland, Sweden",
+      "script": "Younger Futhark (image stone)",
+      "poems": [
+        "Reginsmál",
+        "Fáfnismál",
+        "Brot af Sigurðarkviðu"
+      ],
+      "relation": "narrative_parallel",
+      "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+      "reference": "Rundata Sö 101"
+    },
+    {
+      "id": "gok-thor",
+      "type": "stone",
+      "name": "Gök runestone",
+      "date": "c. 11th century",
+      "location": "Södermanland, Sweden",
+      "script": "Younger Futhark",
+      "poems": [
+        "Hymiskviða",
+        "Þrymskviða"
+      ],
+      "relation": "thematic",
+      "note": "Þórr fishing for Miðgarðsormr — scene echoed in Eddic Þórr poems.",
+      "reference": "Rundata Sö 327"
+    },
+    {
+      "id": "eggja-stone",
+      "type": "stone",
+      "name": "Eggja stone",
+      "date": "c. 7th–8th century",
+      "location": "Sogn, Norway",
+      "script": "Elder Futhark",
+      "poems": [
+        "Völuspá"
+      ],
+      "relation": "formulaic",
+      "note": "Complex inscription with possible mythological vocabulary; debated reading but important pre-codex Norse register.",
+      "reference": "NIyr 1; Krause & Jankuhn"
+    },
+    {
+      "id": "galdr-noreen",
+      "type": "galdr",
+      "name": "Norwegian galdr sticks (various)",
+      "date": "12th–14th century",
+      "location": "Norway (Bergen, Trondheim)",
+      "script": "Younger Futhark",
+      "poems": [
+        "Hávamál"
+      ],
+      "relation": "magical_formula",
+      "note": "Protective and cursing formulas using the same alliterative metre and wisdom-register as Hávamál.",
+      "reference": "McLeod & Mees; Dickins 1915"
+    }
+  ],
+  "stanza_links": [
+    {
+      "id": "voluspa-01",
+      "poem": "Völuspá",
+      "stanza": 1,
+      "pages_cr": [
+        1
+      ],
+      "cr_text": "Hlióðs bið ek allar helgar kindir",
+      "artifact_ids": [
+        "rok-stone",
+        "eggja-stone"
+      ],
+      "match_type": "oral_formula",
+      "note": "Opening seeress formula — oral-formulaic; Rök stone shares mythological narrative register, not direct line."
+    },
+    {
+      "id": "havamal-77",
+      "poem": "Hávamál",
+      "stanza": 77,
+      "pages_cr": [
+        8,
+        9
+      ],
+      "cr_text": "At skal ráða, ef þú regin villu / að þér gagnstæð finnask",
+      "artifact_ids": [
+        "berg-n511",
+        "berg-p27"
+      ],
+      "match_type": "near_verbatim",
+      "note": "Classic Bergen stick parallel — one of the closest runic witnesses to Codex Regius wording."
+    },
+    {
+      "id": "havamal-111",
+      "poem": "Hávamál",
+      "stanza": 111,
+      "pages_cr": [
+        11,
+        12
+      ],
+      "cr_text": "Áðr gangi fram / stumk dvergr und asa",
+      "artifact_ids": [
+        "galdr-noreen"
+      ],
+      "match_type": "formulaic",
+      "note": "Wisdom and galdr-adjacent metre; compare magical stick formulas from Bergen corpus."
+    },
+    {
+      "id": "sigurd-hero",
+      "poem": "Reginsmál / Fáfnismál",
+      "stanza": null,
+      "pages_cr": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "cr_text": "[Sigurðr cycle region]",
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "match_type": "narrative_parallel",
+      "note": "Heroic stone carvings depict the same legend cluster as Codex Regius heroic lays."
+    },
+    {
+      "id": "thrym-thor",
+      "poem": "Þrymskviða",
+      "stanza": null,
+      "pages_cr": [
+        34,
+        35
+      ],
+      "cr_text": "[Þórr bridal theft narrative]",
+      "artifact_ids": [
+        "gok-thor"
+      ],
+      "match_type": "iconographic",
+      "note": "Gök stone fishing scene parallels Þórr–Miðgarðsormr/Eddic Þórr traditions."
+    }
+  ],
+  "poem_summaries": [
+    {
+      "poem": "Völuspá",
+      "page_start": 1,
+      "page_end": 5,
+      "runic_density": "medium",
+      "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+    },
+    {
+      "poem": "Hávamál",
+      "page_start": 6,
+      "page_end": 14,
+      "runic_density": "high",
+      "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+    },
+    {
+      "poem": "Sigurðr cycle",
+      "page_start": 36,
+      "page_end": 56,
+      "runic_density": "medium",
+      "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+    }
+  ],
+  "page_index": [
+    {
+      "page": 1,
+      "artifact_ids": [
+        "eggja-stone",
+        "rok-stone"
+      ],
+      "artifacts": [
+        {
+          "id": "eggja-stone",
+          "type": "stone",
+          "name": "Eggja stone",
+          "date": "c. 7th–8th century",
+          "location": "Sogn, Norway",
+          "script": "Elder Futhark",
+          "poems": [
+            "Völuspá"
+          ],
+          "relation": "formulaic",
+          "note": "Complex inscription with possible mythological vocabulary; debated reading but important pre-codex Norse register.",
+          "reference": "NIyr 1; Krause & Jankuhn"
+        },
+        {
+          "id": "rok-stone",
+          "type": "stone",
+          "name": "Rök runestone (Ög 136)",
+          "date": "c. 9th century",
+          "location": "Rök, Östergötland, Sweden",
+          "script": "Elder Futhark",
+          "poems": [
+            "Völuspá"
+          ],
+          "relation": "thematic",
+          "note": "Longest known Elder Futhark inscription; alliterative narrative with mythological names (e.g. Þórr). Thematic overlap with Eddic cosmogony — not a direct copy of Codex Regius text.",
+          "reference": "Rundata Ög 136; scholarly editions (e.g. Page 1999)"
+        }
+      ],
+      "stanza_link_ids": [
+        "voluspa-01"
+      ],
+      "poem_summary": {
+        "poem": "Völuspá",
+        "page_start": 1,
+        "page_end": 5,
+        "runic_density": "medium",
+        "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+      },
+      "liturgy_notes": [
+        {
+          "stanza": "voluspa-01",
+          "source": "Elder Futhark tradition",
+          "note": "Oral-formulaic opening; compare with skaldic kviðuháttr"
+        },
+        {
+          "stanza": "voluspa-01",
+          "source": "Rök runestone (c. 9th c.)",
+          "note": "Thematic cosmogonic overlap — not direct textual copy"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Völuspá",
+        "page_start": 1,
+        "page_end": 5,
+        "runic_density": "medium",
+        "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 3,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Völuspá",
+        "page_start": 1,
+        "page_end": 5,
+        "runic_density": "medium",
+        "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 4,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Völuspá",
+        "page_start": 1,
+        "page_end": 5,
+        "runic_density": "medium",
+        "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 5,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Völuspá",
+        "page_start": 1,
+        "page_end": 5,
+        "runic_density": "medium",
+        "summary": "Cosmogonic and prophetic — compare Rök stone and Eggja stone for pre-codex mythological register."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 6,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 7,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 8,
+      "artifact_ids": [
+        "berg-n511",
+        "berg-p27"
+      ],
+      "artifacts": [
+        {
+          "id": "berg-n511",
+          "type": "rune_stick",
+          "name": "Bergen stick N B511",
+          "date": "c. 13th–14th century",
+          "location": "Bergen, Norway",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "verbatim_fragment",
+          "note": "Famous stick with Hávamál st. 77 region — 'at skal ráða…' formula widely cited in Eddic–runic studies.",
+          "reference": "Aslak Liestøl, Bergen rune sticks"
+        },
+        {
+          "id": "berg-p27",
+          "type": "rune_stick",
+          "name": "Bergen stick P27 (Bryggen)",
+          "date": "c. 12th–13th century",
+          "location": "Bergen, Norway",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "near_verbatim",
+          "note": "Contains Hávamál lines closely matching the Codex Regius tradition — among the strongest manuscript–runic textual bridges.",
+          "reference": "N B511 corpus; McLeod & Mees, Runic Amulets"
+        }
+      ],
+      "stanza_link_ids": [
+        "havamal-77"
+      ],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 9,
+      "artifact_ids": [
+        "berg-n511",
+        "berg-p27"
+      ],
+      "artifacts": [
+        {
+          "id": "berg-n511",
+          "type": "rune_stick",
+          "name": "Bergen stick N B511",
+          "date": "c. 13th–14th century",
+          "location": "Bergen, Norway",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "verbatim_fragment",
+          "note": "Famous stick with Hávamál st. 77 region — 'at skal ráða…' formula widely cited in Eddic–runic studies.",
+          "reference": "Aslak Liestøl, Bergen rune sticks"
+        },
+        {
+          "id": "berg-p27",
+          "type": "rune_stick",
+          "name": "Bergen stick P27 (Bryggen)",
+          "date": "c. 12th–13th century",
+          "location": "Bergen, Norway",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "near_verbatim",
+          "note": "Contains Hávamál lines closely matching the Codex Regius tradition — among the strongest manuscript–runic textual bridges.",
+          "reference": "N B511 corpus; McLeod & Mees, Runic Amulets"
+        }
+      ],
+      "stanza_link_ids": [
+        "havamal-77"
+      ],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 10,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 11,
+      "artifact_ids": [
+        "galdr-noreen"
+      ],
+      "artifacts": [
+        {
+          "id": "galdr-noreen",
+          "type": "galdr",
+          "name": "Norwegian galdr sticks (various)",
+          "date": "12th–14th century",
+          "location": "Norway (Bergen, Trondheim)",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "magical_formula",
+          "note": "Protective and cursing formulas using the same alliterative metre and wisdom-register as Hávamál.",
+          "reference": "McLeod & Mees; Dickins 1915"
+        }
+      ],
+      "stanza_link_ids": [
+        "havamal-111"
+      ],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 12,
+      "artifact_ids": [
+        "galdr-noreen"
+      ],
+      "artifacts": [
+        {
+          "id": "galdr-noreen",
+          "type": "galdr",
+          "name": "Norwegian galdr sticks (various)",
+          "date": "12th–14th century",
+          "location": "Norway (Bergen, Trondheim)",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hávamál"
+          ],
+          "relation": "magical_formula",
+          "note": "Protective and cursing formulas using the same alliterative metre and wisdom-register as Hávamál.",
+          "reference": "McLeod & Mees; Dickins 1915"
+        }
+      ],
+      "stanza_link_ids": [
+        "havamal-111"
+      ],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 13,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 14,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Hávamál",
+        "page_start": 6,
+        "page_end": 14,
+        "runic_density": "high",
+        "summary": "Highest density of rune-stick parallels in the corpus; Bergen sticks are nearly identical for multiple stanzas."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 34,
+      "artifact_ids": [
+        "gok-thor"
+      ],
+      "artifacts": [
+        {
+          "id": "gok-thor",
+          "type": "stone",
+          "name": "Gök runestone",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hymiskviða",
+            "Þrymskviða"
+          ],
+          "relation": "thematic",
+          "note": "Þórr fishing for Miðgarðsormr — scene echoed in Eddic Þórr poems.",
+          "reference": "Rundata Sö 327"
+        }
+      ],
+      "stanza_link_ids": [
+        "thrym-thor"
+      ],
+      "poem_summary": null,
+      "liturgy_notes": []
+    },
+    {
+      "page": 35,
+      "artifact_ids": [
+        "gok-thor"
+      ],
+      "artifacts": [
+        {
+          "id": "gok-thor",
+          "type": "stone",
+          "name": "Gök runestone",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark",
+          "poems": [
+            "Hymiskviða",
+            "Þrymskviða"
+          ],
+          "relation": "thematic",
+          "note": "Þórr fishing for Miðgarðsormr — scene echoed in Eddic Þórr poems.",
+          "reference": "Rundata Sö 327"
+        }
+      ],
+      "stanza_link_ids": [
+        "thrym-thor"
+      ],
+      "poem_summary": null,
+      "liturgy_notes": []
+    },
+    {
+      "page": 36,
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "artifacts": [
+        {
+          "id": "ramsund-sigurd",
+          "type": "stone",
+          "name": "Ramsund carving (Sigurðr)",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark (image stone)",
+          "poems": [
+            "Reginsmál",
+            "Fáfnismál",
+            "Brot af Sigurðarkviðu"
+          ],
+          "relation": "narrative_parallel",
+          "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+          "reference": "Rundata Sö 101"
+        }
+      ],
+      "stanza_link_ids": [
+        "sigurd-hero"
+      ],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 37,
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "artifacts": [
+        {
+          "id": "ramsund-sigurd",
+          "type": "stone",
+          "name": "Ramsund carving (Sigurðr)",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark (image stone)",
+          "poems": [
+            "Reginsmál",
+            "Fáfnismál",
+            "Brot af Sigurðarkviðu"
+          ],
+          "relation": "narrative_parallel",
+          "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+          "reference": "Rundata Sö 101"
+        }
+      ],
+      "stanza_link_ids": [
+        "sigurd-hero"
+      ],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 38,
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "artifacts": [
+        {
+          "id": "ramsund-sigurd",
+          "type": "stone",
+          "name": "Ramsund carving (Sigurðr)",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark (image stone)",
+          "poems": [
+            "Reginsmál",
+            "Fáfnismál",
+            "Brot af Sigurðarkviðu"
+          ],
+          "relation": "narrative_parallel",
+          "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+          "reference": "Rundata Sö 101"
+        }
+      ],
+      "stanza_link_ids": [
+        "sigurd-hero"
+      ],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 39,
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "artifacts": [
+        {
+          "id": "ramsund-sigurd",
+          "type": "stone",
+          "name": "Ramsund carving (Sigurðr)",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark (image stone)",
+          "poems": [
+            "Reginsmál",
+            "Fáfnismál",
+            "Brot af Sigurðarkviðu"
+          ],
+          "relation": "narrative_parallel",
+          "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+          "reference": "Rundata Sö 101"
+        }
+      ],
+      "stanza_link_ids": [
+        "sigurd-hero"
+      ],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 40,
+      "artifact_ids": [
+        "ramsund-sigurd"
+      ],
+      "artifacts": [
+        {
+          "id": "ramsund-sigurd",
+          "type": "stone",
+          "name": "Ramsund carving (Sigurðr)",
+          "date": "c. 11th century",
+          "location": "Södermanland, Sweden",
+          "script": "Younger Futhark (image stone)",
+          "poems": [
+            "Reginsmál",
+            "Fáfnismál",
+            "Brot af Sigurðarkviðu"
+          ],
+          "relation": "narrative_parallel",
+          "note": "Visual narrative of Sigurðr, Reginn, and Fáfnir — parallels heroic lays preserved in Codex Regius.",
+          "reference": "Rundata Sö 101"
+        }
+      ],
+      "stanza_link_ids": [
+        "sigurd-hero"
+      ],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 41,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 42,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 43,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 44,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 45,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 46,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 47,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 48,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 49,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 50,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 51,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 52,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 53,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 54,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 55,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    },
+    {
+      "page": 56,
+      "artifact_ids": [],
+      "artifacts": [],
+      "stanza_link_ids": [],
+      "poem_summary": {
+        "poem": "Sigurðr cycle",
+        "page_start": 36,
+        "page_end": 56,
+        "runic_density": "medium",
+        "summary": "Heroic image stones (Ramsund, related carvings) narrate the same legend in visual form."
+      },
+      "liturgy_notes": []
+    }
+  ]
+}

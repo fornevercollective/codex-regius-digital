@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Helgakviða Hundingsbana I",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:00:06.876487+00:00",
   "qc_issue_count": 17,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.678242+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.027335+00:00",
+  "poem_full": "Helgakviða Hundingsbana I",
+  "poem_section": "st. 41–55",
+  "poem_type": "heroic"
 }

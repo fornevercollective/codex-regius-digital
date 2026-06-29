@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Helgakviða Hundingsbana I",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:00:11.407176+00:00",
   "qc_issue_count": 10,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.679422+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.028438+00:00",
+  "poem_full": "Helgakviða Hundingsbana I / Helgakviða Hjörvarðssonar",
+  "poem_section": "HH I 55 – HHj prose",
+  "poem_type": "heroic"
 }

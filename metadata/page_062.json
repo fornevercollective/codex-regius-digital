@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Fafnismál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:01:29.079095+00:00",
   "qc_issue_count": 12,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.702652+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.051021+00:00",
+  "poem_full": "Fafnismál / Sigrdrífumál",
+  "poem_section": "Faf. 36 – Sigdr. 1",
+  "poem_type": "heroic"
 }

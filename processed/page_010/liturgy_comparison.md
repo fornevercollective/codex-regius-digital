@@ -10,23 +10,12 @@
 
 ## Stanza Collation (this page)
 
-### Völuspá st. 1 (`voluspa-01`)
-**CR text**: Hlióðs bið ek allar helgar kindir
-
-| Witness | Text | Note |
-|---------|------|------|
-| AM 748 I 4to | [pending collation] | Opening formula variants |
-| Neckel/Kuhn | Hljóðs bið ek allar helgar kindir | Normalised edition |
-
-**Runic / carving parallels**:
-- Elder Futhark tradition: Oral-formulaic opening; compare with skaldic kviðuháttr
-- Rök runestone (c. 9th c.): Thematic cosmogonic overlap — not direct textual copy
-
-### Völuspá st. 2 (`voluspa-02`)
-**CR text**: [line-level pending]
-
-| Witness | Text | Note |
-|---------|------|------|
+### Poem boundary (page 10)
+| Field | Value |
+|-------|-------|
+| **Poem** | Hávamál |
+| **Section** | st. 88–104 |
+| **Corpus type** | mythological |
 
 
 ## Organ of the Language

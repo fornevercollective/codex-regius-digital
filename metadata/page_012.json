@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Hávamál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:58:23.670457+00:00",
   "qc_issue_count": 9,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.642051+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:41.993589+00:00",
+  "poem_full": "Hávamál",
+  "poem_section": "st. 124–141",
+  "poem_type": "mythological"
 }

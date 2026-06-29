@@ -74,22 +74,37 @@
       </div>`;
   }
 
+  function pagePoemEntry(page) {
+    const index = state.data.liturgy?.page_index || [];
+    return index.find((e) => e.page === page) || null;
+  }
+
   function renderLiturgy() {
     const lit = state.data.liturgy || {};
     const themes = (state.data.themes || {}).themes || [];
+    const poem = pagePoemEntry(state.page);
     const stanzas = (lit.key_stanzas || []).filter((s) => (s.pages_cr || []).includes(state.page));
     let html = "<h4>Witness manuscripts</h4><table><tr><th>Siglum</th><th>Name</th><th>Date</th></tr>";
     (lit.witnesses || []).forEach((w) => {
       html += `<tr><td>${w.siglum}</td><td>${w.name}</td><td>${w.date}</td></tr>`;
     });
     html += "</table>";
+    if (poem && poem.poem) {
+      const flags = [];
+      if (poem.lacuna_before) flags.push("lacuna before");
+      if (poem.lacuna_after) flags.push("lacuna after");
+      if (poem.extended_scan) flags.push(`extended → CR p.${poem.maps_to_cr_page || "?"}`);
+      html += `<h4>Poem on this page</h4>
+        <p><strong>${poem.poem}</strong><br>
+        <small>${poem.section || ""} · ${poem.type || ""}${flags.length ? " · " + flags.join("; ") : ""}</small></p>`;
+    }
     if (stanzas.length) {
-      html += "<h4>Stanzas on this page</h4>";
+      html += "<h4>Keyed stanzas (collation)</h4>";
       stanzas.forEach((s) => {
         html += `<p><strong>${s.poem} st. ${s.stanza}</strong>: ${s.cr_text || "[pending]"}</p>`;
       });
-    } else {
-      html += "<p class='empty'>No stanza keyed to this page in liturgy_comparisons.json yet.</p>";
+    } else if (!poem || !poem.poem) {
+      html += "<p class='empty'>No poem boundary mapped — run build_liturgy_map.py.</p>";
     }
     html += "<h4>Thematic parallels</h4><ul>";
     themes.forEach((t) => {

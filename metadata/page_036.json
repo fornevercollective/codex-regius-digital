@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Völundarkviða",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:59:47.405166+00:00",
   "qc_issue_count": 6,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.670975+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.020835+00:00",
+  "poem_full": "Völundarkviða",
+  "poem_section": "st. 7–22",
+  "poem_type": "heroic"
 }

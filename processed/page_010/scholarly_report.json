@@ -2,7 +2,7 @@
   "manuscript": "GKS 2365 4to",
   "page": 10,
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
-  "generated_at": "2026-06-29T03:13:34.639664+00:00",
+  "generated_at": "2026-06-29T03:36:43.092544+00:00",
   "codicology": {
     "animal": "Calf",
     "animal_confidence": "high",
@@ -78,8 +78,15 @@
     "font_export_ready": true
   },
   "doodles": {
-    "inventory_status": "scaffold",
+    "inventory_status": "grok_vision",
+    "item_count": 5,
     "misprints_detected": 4
+  },
+  "poem": {
+    "name": "Hávamál",
+    "section": "st. 88–104",
+    "type": "mythological",
+    "extended_scan": false
   },
   "liturgy": {
     "witnesses": [
@@ -88,10 +95,7 @@
       "Hauksbók",
       "Paper copies"
     ],
-    "stanzas_on_page": [
-      "voluspa-01",
-      "voluspa-02"
-    ]
+    "stanzas_on_page": []
   },
   "themes": [
     "cosmogony",
@@ -111,6 +115,8 @@
     "artistic_vellum.jpg",
     "etymology.md",
     "ai_assessment.md",
+    "grok_doodles.json",
+    "scholarly_report.json",
     "grok_artistic_vellum.jpg",
     "qc_report.json",
     "clean_white.jpg"

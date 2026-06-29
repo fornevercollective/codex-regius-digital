@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Skírnismál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:59:00.356982+00:00",
   "qc_issue_count": 18,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.654638+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.005140+00:00",
+  "poem_full": "Skírnismál",
+  "poem_section": "after st. 10 – st. 28",
+  "poem_type": "mythological"
 }

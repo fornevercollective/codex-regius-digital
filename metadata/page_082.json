@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Atlamál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T03:12:38.620268+00:00",
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.724356+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.073212+00:00",
+  "poem_full": "Atlamál",
+  "poem_section": "st. 12–32",
+  "poem_type": "heroic"
 }

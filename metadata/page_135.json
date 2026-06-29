@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Atlamál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:39.020109+00:00",
   "qc_issue_count": 5,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.784779+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.132175+00:00",
+  "poem_full": "Atlamál",
+  "poem_section": "st. 85–75",
+  "poem_type": "heroic"
 }

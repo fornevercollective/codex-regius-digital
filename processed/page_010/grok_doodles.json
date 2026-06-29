@@ -1,0 +1,54 @@
+{
+  "page": 10,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-010-01",
+      "region": "upper margin",
+      "type": "pen_trial",
+      "description": "Small rectangular banner-like mark at top left consisting of three parallel horizontal lines above a central Y-shaped or forked symbol with a transverse bar, executed in the same dark ink as the text.",
+      "scholarly_note": "Classic pen trial (probatio pennae) or idle abstract doodle. The form does not function as a pilcrow, manicule, or reference mark and has no textual purpose; common in 13th-century Icelandic hands as scribes tested or cleaned the nib."
+    },
+    {
+      "id": "M-010-02",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large capital 'S' initiating a new section, formed with bold, slightly thickened strokes in iron-gall ink and set apart from the surrounding text.",
+      "scholarly_note": "Standard functional decoration used by the main scribe to mark stanza or sectional divisions in the Hávamál. Not rubricated in color on this leaf but enlarged for visual hierarchy."
+    },
+    {
+      "id": "M-010-03",
+      "region": "text block",
+      "type": "stain",
+      "description": "Oval reddish-brown stain in the middle-right of the text block, overlapping multiple lines of script without obliterating legibility.",
+      "scholarly_note": "Likely a post-production liquid stain (water, wax, or oil) or localized iron-gall corrosion. The underlying text shows no major loss or smearing, indicating the stain occurred after the ink had set."
+    },
+    {
+      "id": "M-010-04",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Extensive dark brown discoloration, foxing, and edge staining along the full height of the right margin, heaviest in the lower right quadrant and extending inward.",
+      "scholarly_note": "Cumulative age, handling, and environmental damage (moisture, light, pollutants) typical of surviving Icelandic vellum from the period. The staining post-dates the original copying."
+    },
+    {
+      "id": "M-010-05",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Faint irregular marks and discoloration at the extreme bottom edge, including possible very light linear traces near the center-right foot.",
+      "scholarly_note": "Most consistent with post-medieval handling, shelving wear, or faint modern foliation/shelfmark remnants; not original scribal work."
+    }
+  ],
+  "scratches": [
+    "Prominent vertical crease/fold line running most of the height of the leaf, visible as a depressed linear mark in the parchment surface.",
+    "Fine surface abrasions and hairline marks consistent with the hair side of calf vellum and centuries of use and turning."
+  ],
+  "damage_notes": [
+    "Irregular, worn, and slightly tattered edges with material loss, especially top, right, and bottom margins.",
+    "General cockling, undulation, and minor warping of the vellum sheet.",
+    "Heavy age-related browning and foxing concentrated on outer margins and lower portion of the leaf.",
+    "No large holes, deliberate cuts, or significant worm damage visible."
+  ],
+  "summary": "Page 10 of Codex Regius preserves a section of Hávamál in a clear, professional Gothic book hand on well-prepared calf vellum. The leaf is remarkably free of textual marginalia, interlinear glosses, faces, animals, elaborate doodles, or visible scribal corrections. The sole notable non-textual graphic element is a small abstract pen trial in the upper left. A single enlarged initial 'S' provides minimal sectional decoration. The parchment exhibits substantial later damage in the form of extensive staining, edge wear, vertical creasing, and cockling, but the text block itself remains largely intact and legible with only localized stain interference.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_010/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T03:36:18.058896+00:00"
+}

@@ -16,16 +16,23 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
-  "poem": "",
+  "poem": "Brot af Sigurðarkviðu",
   "original_text": "",
   "translation": "",
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:30.995562+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:03:20.516438+00:00",
-  "qc_issue_count": 14,
+  "qc_at": "2026-06-29T03:25:14.236945+00:00",
+  "qc_issue_count": 13,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.734790+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.082359+00:00",
+  "poem_full": "Brot af Sigurðarkviðu",
+  "poem_section": "st. 1–19",
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T03:25:14.232225+00:00"
 }

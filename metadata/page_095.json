@@ -16,16 +16,23 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
-  "poem": "",
+  "poem": "Guðrúnarkviða I",
   "original_text": "",
   "translation": "",
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:31.811891+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:03:35.121912+00:00",
+  "qc_at": "2026-06-29T03:31:21.003584+00:00",
   "qc_issue_count": 11,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.739275+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.086466+00:00",
+  "poem_full": "Guðrúnarkviða I",
+  "poem_section": "st. 12 – prose",
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T03:31:21.002087+00:00"
 }

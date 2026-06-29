@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Guðrunarhvöt",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:47.318650+00:00",
   "qc_issue_count": 9,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.789982+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.137386+00:00",
+  "poem_full": "Guðrunarhvöt / Hamðismál",
+  "poem_section": "Guðr.hvöt 8 – Hamð. 14",
+  "poem_type": "heroic"
 }

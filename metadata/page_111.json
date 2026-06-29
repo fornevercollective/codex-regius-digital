@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Guðrúnarkviða II",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:04.562203+00:00",
   "qc_issue_count": 1,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.756524+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.103731+00:00",
+  "poem_full": "Guðrúnarkviða II",
+  "poem_section": "st. 16–31",
+  "poem_type": "heroic"
 }

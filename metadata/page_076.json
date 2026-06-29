@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Guðrúnarkviða III",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T03:05:01.049356+00:00",
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.717523+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.067071+00:00",
+  "poem_full": "Guðrúnarkviða III / Oddrúnargrátr",
+  "poem_section": "Guðr. III 5 – Oddr. fragments",
+  "poem_type": "heroic"
 }

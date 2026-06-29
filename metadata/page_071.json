@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Sigurðarkviða III",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:02:07.165631+00:00",
   "qc_issue_count": 5,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.712289+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.061746+00:00",
+  "poem_full": "Sigurðarkviða III / Helreið Brynhildar",
+  "poem_section": "Sig. III 55 – Helr. 1",
+  "poem_type": "heroic"
 }

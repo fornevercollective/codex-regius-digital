@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Helgakviða Hjörvarðssonar",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:00:14.587603+00:00",
   "qc_issue_count": 21,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.680753+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.029545+00:00",
+  "poem_full": "Helgakviða Hjörvarðssonar",
+  "poem_section": "prose – st. 15",
+  "poem_type": "heroic"
 }

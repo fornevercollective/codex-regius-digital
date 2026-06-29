@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Atlakviða",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:26.173011+00:00",
   "qc_issue_count": 2,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.773336+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.121100+00:00",
+  "poem_full": "Atlakviða / Atlamál",
+  "poem_section": "Atl. 40 – Atl.mál 12",
+  "poem_type": "heroic"
 }

@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from tools.citations import HANDRIT_BASE, MANUSCRIPT_ID, references_block
+from tools.poem_mapper import lookup_page
 
 
 def load_json(path: Path) -> dict:
@@ -35,8 +36,45 @@ def detect_misprints(text: str) -> list[dict]:
     return issues
 
 
-def generate_doodles_catalog(page: int, transcription: str, codicology: dict) -> str:
+def load_grok_doodles(page_dir: Path) -> dict | None:
+    path = page_dir / "grok_doodles.json"
+    if path.is_file():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return None
+
+
+def generate_doodles_catalog(page: int, transcription: str, codicology: dict, page_dir: Path | None = None) -> str:
+    grok = load_grok_doodles(page_dir) if page_dir else None
     misprints = detect_misprints(transcription)
+
+    if grok and grok.get("items"):
+        rows = "\n".join(
+            f"| {it.get('id', '—')} | {it.get('region', '—')} | {it.get('type', '—')} | "
+            f"{it.get('description', '—')} | {it.get('scholarly_note', '—')} |"
+            for it in grok["items"]
+        )
+        grok_note = f"\n*Grok vision survey ({grok.get('surveyed_at', 'unknown')}) — confidence: {grok.get('confidence', 'medium')}*\n"
+    else:
+        rows = (
+            f"| M-{page:03d}-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |\n"
+            f"| M-{page:03d}-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |\n"
+            f"| M-{page:03d}-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |"
+        )
+        grok_note = ""
+
+    damage = ""
+    if grok:
+        for note in grok.get("damage_notes", []):
+            damage += f"- {note}\n"
+        for scratch in grok.get("scratches", []):
+            damage += f"- **Scratch**: {scratch}\n"
+    if not damage:
+        damage = (
+            f"- **Parchment**: {codicology.get('vellum', {}).get('preparation', {}).get('quality', 'High')} preparation\n"
+            f"- **Ink**: {codicology.get('ink', {}).get('type', 'Iron-gall')} — check for offset and ghosting\n"
+            "- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`"
+        )
+
     return f"""# Marginalia, Doodles & Surface Analysis — Page {page}
 
 **Manuscript**: {MANUSCRIPT_ID}
@@ -46,19 +84,15 @@ def generate_doodles_catalog(page: int, transcription: str, codicology: dict) ->
 ## Doodles & Marginalia Inventory
 | ID | Region | Type | Description | Scholarly note |
 |----|--------|------|-------------|----------------|
-| M-{page:03d}-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |
-| M-{page:03d}-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |
-| M-{page:03d}-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |
-
+{rows}
+{grok_note}
 ## Misprints & Scribal Corrections
 | Line | Type | Note |
 |------|------|------|
 {chr(10).join(f"| {m['line']} | {m['type']} | {m['note']} |" for m in misprints) if misprints else "| — | — | None auto-detected; manual paleographic pass recommended |"}
 
 ## Scratch & Damage Analysis
-- **Parchment**: {codicology.get('vellum', {}).get('preparation', {}).get('quality', 'High')} preparation
-- **Ink**: {codicology.get('ink', {}).get('type', 'Iron-gall')} — check for offset and ghosting
-- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
+{damage}
 
 ## AI Assessment Hooks
 - Link to `scholarly_report.json` for LLM ingestion
@@ -133,9 +167,37 @@ def generate_calligraphy_sheet(page: int, alphabet: dict, scribe: dict) -> str:
 """
 
 
-def generate_liturgy_comparison(page: int, liturgy: dict, themes: dict, transcription: str) -> str:
+def page_poem_entry(page: int, liturgy: dict, repo_root: Path) -> dict:
+    index = {e["page"]: e for e in liturgy.get("page_index", [])}
+    if page in index:
+        return index[page]
+    return lookup_page(page, repo_root=repo_root)
+
+
+def generate_liturgy_comparison(
+    page: int, liturgy: dict, themes: dict, transcription: str, repo_root: Path
+) -> str:
+    poem_info = page_poem_entry(page, liturgy, repo_root)
+    poem_block = ""
+    if poem_info.get("poem"):
+        flags = []
+        if poem_info.get("lacuna_before"):
+            flags.append("lacuna before")
+        if poem_info.get("lacuna_after"):
+            flags.append("lacuna after")
+        if poem_info.get("extended_scan"):
+            flags.append(f"extended scan → CR p.{poem_info.get('maps_to_cr_page', '?')}")
+        flag_text = f" ({'; '.join(flags)})" if flags else ""
+        poem_block = (
+            f"\n### Poem boundary (page {page})\n"
+            f"| Field | Value |\n|-------|-------|\n"
+            f"| **Poem** | {poem_info['poem']} |\n"
+            f"| **Section** | {poem_info.get('section', '—')} |\n"
+            f"| **Corpus type** | {poem_info.get('type', '—')}{flag_text} |\n"
+        )
+
     stanzas = [s for s in liturgy.get("key_stanzas", []) if page in s.get("pages_cr", [])]
-    stanza_block = ""
+    stanza_block = poem_block
     for s in stanzas:
         stanza_block += f"\n### {s['poem']} st. {s['stanza']} (`{s['id']}`)\n"
         stanza_block += f"**CR text**: {s.get('cr_text', transcription[:80] or '[pending]')}\n\n"
@@ -148,11 +210,16 @@ def generate_liturgy_comparison(page: int, liturgy: dict, themes: dict, transcri
                 stanza_block += f"- {r['source']}: {r['note']}\n"
 
     if not stanza_block:
-        stanza_block = "\n*No keyed stanza mapped to this page yet — add to `data/liturgy_comparisons.json`.*\n"
+        stanza_block = "\n*No poem boundary mapped — run `tools/build_liturgy_map.py`.*\n"
 
+    poem_name = poem_info.get("poem", "").split(" / ")[0]
+    relevant = [
+        t for t in themes.get("themes", [])
+        if not poem_name or any(p in poem_name or poem_name in p for p in t.get("cr_poems", []))
+    ]
     theme_lines = "\n".join(
         f"- **{t['label']}**: {', '.join(t.get('pagan_concepts', [])[:3])} ↔ {', '.join(t.get('christian_parallels', [])[:2])}"
-        for t in themes.get("themes", [])[:3]
+        for t in (relevant or themes.get("themes", []))[:4]
     )
 
     return f"""# Comparative Liturgy & Text Evolution — Page {page}
@@ -280,7 +347,10 @@ def generate_scholarly_report_json(
     liturgy: dict,
     themes: dict,
     transcription: str,
+    repo_root: Path,
 ) -> dict:
+    poem_info = page_poem_entry(page, liturgy, repo_root)
+    grok_doodles = load_grok_doodles(page_dir)
     return {
         "manuscript": MANUSCRIPT_ID,
         "page": page,
@@ -298,8 +368,15 @@ def generate_scholarly_report_json(
             "font_export_ready": True,
         },
         "doodles": {
-            "inventory_status": "scaffold",
+            "inventory_status": "grok_vision" if grok_doodles else "scaffold",
+            "item_count": len(grok_doodles.get("items", [])) if grok_doodles else 0,
             "misprints_detected": len(detect_misprints(transcription)),
+        },
+        "poem": {
+            "name": poem_info.get("poem", ""),
+            "section": poem_info.get("section", ""),
+            "type": poem_info.get("type", ""),
+            "extended_scan": poem_info.get("extended_scan", False),
         },
         "liturgy": {
             "witnesses": [w["siglum"] for w in liturgy.get("witnesses", [])],
@@ -332,7 +409,7 @@ class ScholarlyAssessmentEngine:
         transcription = extract_transcription(page_dir)
 
         (page_dir / "doodles_catalog.md").write_text(
-            generate_doodles_catalog(page, transcription, codicology), encoding="utf-8"
+            generate_doodles_catalog(page, transcription, codicology, page_dir), encoding="utf-8"
         )
         (page_dir / "codicology.md").write_text(
             generate_codicology_page(page, codicology), encoding="utf-8"
@@ -341,7 +418,7 @@ class ScholarlyAssessmentEngine:
             generate_calligraphy_sheet(page, alphabet, scribe), encoding="utf-8"
         )
         (page_dir / "liturgy_comparison.md").write_text(
-            generate_liturgy_comparison(page, liturgy, themes, transcription), encoding="utf-8"
+            generate_liturgy_comparison(page, liturgy, themes, transcription, self.repo), encoding="utf-8"
         )
         (page_dir / "etymology.md").write_text(
             generate_enhanced_etymology(page, transcription), encoding="utf-8"
@@ -354,7 +431,7 @@ class ScholarlyAssessmentEngine:
         )
 
         report = generate_scholarly_report_json(
-            page, page_dir, codicology, scribe, alphabet, liturgy, themes, transcription
+            page, page_dir, codicology, scribe, alphabet, liturgy, themes, transcription, self.repo
         )
         (page_dir / "scholarly_report.json").write_text(
             json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -373,6 +450,12 @@ class ScholarlyAssessmentEngine:
                     meta.setdefault("layers", []).append(f)
             meta["scholarly_assessment"] = True
             meta["scholarly_assessment_at"] = report["generated_at"]
+            poem = report.get("poem", {})
+            if poem.get("name"):
+                meta["poem"] = poem["name"].split(" / ")[0]
+                meta["poem_full"] = poem["name"]
+                meta["poem_section"] = poem.get("section", "")
+                meta["poem_type"] = poem.get("type", "")
             meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
         return {"page": page, "status": "ok", "modules": 6}

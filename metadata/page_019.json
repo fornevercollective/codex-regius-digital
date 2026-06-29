@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Grímnismál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:58:50.041983+00:00",
   "qc_issue_count": 8,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.650760+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.001759+00:00",
+  "poem_full": "Grímnismál",
+  "poem_section": "st. 24–37",
+  "poem_type": "mythological"
 }

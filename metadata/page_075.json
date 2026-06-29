@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Guðrúnarkviða II",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T03:03:15.094575+00:00",
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.716452+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.066008+00:00",
+  "poem_full": "Guðrúnarkviða II / Guðrúnarkviða III",
+  "poem_section": "Guðr. II 31 – Guðr. III 5",
+  "poem_type": "heroic"
 }

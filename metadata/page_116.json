@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Oddrúnargrátr",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:11.166301+00:00",
   "qc_issue_count": 8,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.762163+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.109567+00:00",
+  "poem_full": "Oddrúnargrátr",
+  "poem_section": "st. fragments 14–31",
+  "poem_type": "heroic"
 }

@@ -18,7 +18,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Hamðismál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -27,5 +27,8 @@
   "qc_at": "2026-06-29T03:04:56.870280+00:00",
   "qc_issue_count": 4,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.794575+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.142030+00:00",
+  "poem_full": "Hamðismál",
+  "poem_section": "st. 21 – prose conclusion",
+  "poem_type": "heroic"
 }

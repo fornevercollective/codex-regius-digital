@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Lokasenna",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:59:35.092159+00:00",
   "qc_issue_count": 12,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.666629+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.016311+00:00",
+  "poem_full": "Lokasenna",
+  "poem_section": "st. 45–62",
+  "poem_type": "mythological"
 }

@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Sigurðarkviða III",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:01:57.539919+00:00",
   "qc_issue_count": 14,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.711242+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.060659+00:00",
+  "poem_full": "Sigurðarkviða III",
+  "poem_section": "st. 39–55",
+  "poem_type": "heroic"
 }

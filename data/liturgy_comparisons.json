@@ -1,37 +1,87 @@
 {
   "corpus": "Poetic Edda (Codex Regius core)",
   "witnesses": [
-    {"siglum": "GKS 2365 4to", "name": "Codex Regius", "date": "c. 1270", "type": "vellum", "role": "primary"},
-    {"siglum": "AM 748 I 4to", "name": "Codex Wormianus fragment", "date": "c. 1350", "type": "vellum", "role": "variant witness"},
-    {"siglum": "Hauksbók", "name": "AM 371 4to", "date": "c. 1330", "type": "vellum", "role": "prose parallel"},
-    {"siglum": "Paper copies", "name": "17th–19th c. transcripts", "date": "1643+", "type": "paper", "role": "normalisation layer"}
+    {
+      "siglum": "GKS 2365 4to",
+      "name": "Codex Regius",
+      "date": "c. 1270",
+      "type": "vellum",
+      "role": "primary"
+    },
+    {
+      "siglum": "AM 748 I 4to",
+      "name": "Codex Wormianus fragment",
+      "date": "c. 1350",
+      "type": "vellum",
+      "role": "variant witness"
+    },
+    {
+      "siglum": "Hauksbók",
+      "name": "AM 371 4to",
+      "date": "c. 1330",
+      "type": "vellum",
+      "role": "prose parallel"
+    },
+    {
+      "siglum": "Paper copies",
+      "name": "17th–19th c. transcripts",
+      "date": "1643+",
+      "type": "paper",
+      "role": "normalisation layer"
+    }
   ],
   "key_stanzas": [
     {
       "id": "voluspa-01",
       "poem": "Völuspá",
       "stanza": 1,
-      "pages_cr": [10],
+      "pages_cr": [
+        1
+      ],
       "cr_text": "Hlióðs bið ek allar helgar kindir",
       "variants": [
-        {"witness": "AM 748 I 4to", "text": "[pending collation]", "note": "Opening formula variants"},
-        {"witness": "Neckel/Kuhn", "text": "Hljóðs bið ek allar helgar kindir", "note": "Normalised edition"}
+        {
+          "witness": "AM 748 I 4to",
+          "text": "[pending collation]",
+          "note": "Opening formula variants"
+        },
+        {
+          "witness": "Neckel/Kuhn",
+          "text": "Hljóðs bið ek allar helgar kindir",
+          "note": "Normalised edition"
+        }
       ],
       "runic_parallels": [
-        {"source": "Elder Futhark tradition", "note": "Oral-formulaic opening; compare with skaldic kviðuháttr"},
-        {"source": "Rök runestone (c. 9th c.)", "note": "Thematic cosmogonic overlap — not direct textual copy"}
+        {
+          "source": "Elder Futhark tradition",
+          "note": "Oral-formulaic opening; compare with skaldic kviðuháttr"
+        },
+        {
+          "source": "Rök runestone (c. 9th c.)",
+          "note": "Thematic cosmogonic overlap — not direct textual copy"
+        }
       ],
-      "thematic_tags": ["creation", "seeress", "pagan-ritual-frame", "oral-formula"]
+      "thematic_tags": [
+        "creation",
+        "seeress",
+        "pagan-ritual-frame",
+        "oral-formula"
+      ]
     },
     {
       "id": "voluspa-02",
       "poem": "Völuspá",
       "stanza": 2,
-      "pages_cr": [10],
+      "pages_cr": [
+        1
+      ],
       "cr_text": "[line-level pending]",
       "variants": [],
       "runic_parallels": [],
-      "thematic_tags": ["cosmology", "ginnungagap"]
+      "thematic_tags": [
+        "cosmology",
+        "ginnungagap"
+      ]
     }
   ],
   "organ_of_language": {
@@ -39,5 +89,1234 @@
     "meter": "Fornyrðislag / ljóðaháttr (poem-dependent)",
     "oral_layer": "Eddic poems preserve pre-Christian mythological strata with Christian framing in places",
     "carving_trace": "Younger Futhark inscriptions and runestone formulas as distant cognates, not direct liturgical copies"
-  }
+  },
+  "page_index": [
+    {
+      "page": 1,
+      "poem": "Völuspá",
+      "section": "st. 1–15",
+      "type": "mythological"
+    },
+    {
+      "page": 2,
+      "poem": "Völuspá",
+      "section": "st. 15–31",
+      "type": "mythological"
+    },
+    {
+      "page": 3,
+      "poem": "Völuspá",
+      "section": "st. 31–45",
+      "type": "mythological"
+    },
+    {
+      "page": 4,
+      "poem": "Völuspá",
+      "section": "st. 45–61",
+      "type": "mythological"
+    },
+    {
+      "page": 5,
+      "poem": "Völuspá / Hávamál",
+      "section": "Völ. 61 – Háv. 15",
+      "type": "mythological"
+    },
+    {
+      "page": 6,
+      "poem": "Hávamál",
+      "section": "st. 15–31",
+      "type": "mythological"
+    },
+    {
+      "page": 7,
+      "poem": "Hávamál",
+      "section": "st. 31–50",
+      "type": "mythological"
+    },
+    {
+      "page": 8,
+      "poem": "Hávamál",
+      "section": "st. 50–69",
+      "type": "mythological"
+    },
+    {
+      "page": 9,
+      "poem": "Hávamál",
+      "section": "st. 69–88",
+      "type": "mythological"
+    },
+    {
+      "page": 10,
+      "poem": "Hávamál",
+      "section": "st. 88–104",
+      "type": "mythological"
+    },
+    {
+      "page": 11,
+      "poem": "Hávamál",
+      "section": "st. 104–123",
+      "type": "mythological"
+    },
+    {
+      "page": 12,
+      "poem": "Hávamál",
+      "section": "st. 124–141",
+      "type": "mythological"
+    },
+    {
+      "page": 13,
+      "poem": "Hávamál",
+      "section": "st. 142–161",
+      "type": "mythological"
+    },
+    {
+      "page": 14,
+      "poem": "Hávamál / Vafþrúðnismál",
+      "section": "Háv. 161 – Vaf. 14",
+      "type": "mythological"
+    },
+    {
+      "page": 15,
+      "poem": "Vafþrúðnismál",
+      "section": "st. 15–37",
+      "type": "mythological"
+    },
+    {
+      "page": 16,
+      "poem": "Vafþrúðnismál / Grímnismál",
+      "section": "Vaf. 38 – Grím. prose",
+      "type": "mythological"
+    },
+    {
+      "page": 17,
+      "poem": "Grímnismál",
+      "section": "prose – st. 4",
+      "type": "mythological"
+    },
+    {
+      "page": 18,
+      "poem": "Grímnismál",
+      "section": "st. 4–24",
+      "type": "mythological"
+    },
+    {
+      "page": 19,
+      "poem": "Grímnismál",
+      "section": "st. 24–37",
+      "type": "mythological"
+    },
+    {
+      "page": 20,
+      "poem": "Grímnismál",
+      "section": "st. 37–53",
+      "type": "mythological"
+    },
+    {
+      "page": 21,
+      "poem": "Grímnismál / Skírnismál",
+      "section": "Grím. 53 – Skír. after st. 10",
+      "type": "mythological"
+    },
+    {
+      "page": 22,
+      "poem": "Skírnismál",
+      "section": "after st. 10 – st. 28",
+      "type": "mythological"
+    },
+    {
+      "page": 23,
+      "poem": "Skírnismál / Harbarðsljóð",
+      "section": "Skír. 28 – Harb. 1",
+      "type": "mythological"
+    },
+    {
+      "page": 24,
+      "poem": "Harbarðsljóð",
+      "section": "st. 1–18",
+      "type": "mythological"
+    },
+    {
+      "page": 25,
+      "poem": "Harbarðsljóð",
+      "section": "st. 18–40",
+      "type": "mythological"
+    },
+    {
+      "page": 26,
+      "poem": "Harbarðsljóð / Hymiskviða",
+      "section": "Harb. 40 – Hym. 3",
+      "type": "mythological"
+    },
+    {
+      "page": 27,
+      "poem": "Hymiskviða",
+      "section": "st. 3–21",
+      "type": "mythological"
+    },
+    {
+      "page": 28,
+      "poem": "Hymiskviða",
+      "section": "st. 22–38",
+      "type": "mythological"
+    },
+    {
+      "page": 29,
+      "poem": "Hymiskviða / Lokasenna",
+      "section": "Hym. 38 – Lok. 10",
+      "type": "mythological"
+    },
+    {
+      "page": 30,
+      "poem": "Lokasenna",
+      "section": "st. 10–27",
+      "type": "mythological"
+    },
+    {
+      "page": 31,
+      "poem": "Lokasenna",
+      "section": "st. 27–45",
+      "type": "mythological"
+    },
+    {
+      "page": 32,
+      "poem": "Lokasenna",
+      "section": "st. 45–62",
+      "type": "mythological"
+    },
+    {
+      "page": 33,
+      "poem": "Lokasenna / Þrymskviða",
+      "section": "Lok. 63 – Þrym. 12",
+      "type": "mythological"
+    },
+    {
+      "page": 34,
+      "poem": "Þrymskviða",
+      "section": "st. 13–31",
+      "type": "mythological"
+    },
+    {
+      "page": 35,
+      "poem": "Þrymskviða / Völundarkviða",
+      "section": "Þrym. 31 – Völ. 7",
+      "type": "mythological"
+    },
+    {
+      "page": 36,
+      "poem": "Völundarkviða",
+      "section": "st. 7–22",
+      "type": "heroic"
+    },
+    {
+      "page": 37,
+      "poem": "Völundarkviða",
+      "section": "st. 22–37",
+      "type": "heroic"
+    },
+    {
+      "page": 38,
+      "poem": "Völundarkviða / Alvísmál",
+      "section": "Völ. 38 – Alv. 18",
+      "type": "mythological"
+    },
+    {
+      "page": 39,
+      "poem": "Alvísmál / Helgakviða Hundingsbana I",
+      "section": "Alv. 18 – HH I 7",
+      "type": "heroic"
+    },
+    {
+      "page": 40,
+      "poem": "Helgakviða Hundingsbana I",
+      "section": "st. 7–24",
+      "type": "heroic"
+    },
+    {
+      "page": 41,
+      "poem": "Helgakviða Hundingsbana I",
+      "section": "st. 24–41",
+      "type": "heroic"
+    },
+    {
+      "page": 42,
+      "poem": "Helgakviða Hundingsbana I",
+      "section": "st. 41–55",
+      "type": "heroic"
+    },
+    {
+      "page": 43,
+      "poem": "Helgakviða Hundingsbana I / Helgakviða Hjörvarðssonar",
+      "section": "HH I 55 – HHj prose",
+      "type": "heroic"
+    },
+    {
+      "page": 44,
+      "poem": "Helgakviða Hjörvarðssonar",
+      "section": "prose – st. 15",
+      "type": "heroic"
+    },
+    {
+      "page": 45,
+      "poem": "Helgakviða Hjörvarðssonar",
+      "section": "st. 15–30",
+      "type": "heroic"
+    },
+    {
+      "page": 46,
+      "poem": "Helgakviða Hjörvarðssonar",
+      "section": "st. 30–38",
+      "type": "heroic"
+    },
+    {
+      "page": 47,
+      "poem": "Helgakviða Hjörvarðssonar / Helgakviða Hundingsbana II",
+      "section": "HHj 38 – HH II 4",
+      "type": "heroic"
+    },
+    {
+      "page": 48,
+      "poem": "Helgakviða Hundingsbana II",
+      "section": "st. 4–14",
+      "type": "heroic"
+    },
+    {
+      "page": 49,
+      "poem": "Helgakviða Hundingsbana II",
+      "section": "st. 14–29",
+      "type": "heroic"
+    },
+    {
+      "page": 50,
+      "poem": "Helgakviða Hundingsbana II",
+      "section": "st. 19–36",
+      "type": "heroic"
+    },
+    {
+      "page": 51,
+      "poem": "Helgakviða Hundingsbana II",
+      "section": "st. 36 – prose after 46",
+      "type": "heroic"
+    },
+    {
+      "page": 52,
+      "poem": "Helgakviða Hundingsbana II / Frá dauða Sinfjötla",
+      "section": "prose – Frá dauða Sinfjötla",
+      "type": "heroic"
+    },
+    {
+      "page": 53,
+      "poem": "Frá dauða Sinfjötla / Grípisspá",
+      "section": "– Gríp. 7",
+      "type": "heroic"
+    },
+    {
+      "page": 54,
+      "poem": "Grípisspá",
+      "section": "st. 8–23",
+      "type": "heroic"
+    },
+    {
+      "page": 55,
+      "poem": "Grípisspá",
+      "section": "st. 23–39",
+      "type": "heroic"
+    },
+    {
+      "page": 56,
+      "poem": "Grípisspá / Reginsmál",
+      "section": "Gríp. 39 – Reg. prose",
+      "type": "heroic"
+    },
+    {
+      "page": 57,
+      "poem": "Reginsmál",
+      "section": "prose – st. 9",
+      "type": "heroic"
+    },
+    {
+      "page": 58,
+      "poem": "Reginsmál",
+      "section": "st. 9–18",
+      "type": "heroic"
+    },
+    {
+      "page": 59,
+      "poem": "Reginsmál / Fafnismál",
+      "section": "Reg. 18 – Faf. 5",
+      "type": "heroic"
+    },
+    {
+      "page": 60,
+      "poem": "Fafnismál",
+      "section": "st. 5 – prose after 22",
+      "type": "heroic"
+    },
+    {
+      "page": 61,
+      "poem": "Fafnismál",
+      "section": "prose – st. 36",
+      "type": "heroic"
+    },
+    {
+      "page": 62,
+      "poem": "Fafnismál / Sigrdrífumál",
+      "section": "Faf. 36 – Sigdr. 1",
+      "type": "heroic"
+    },
+    {
+      "page": 63,
+      "poem": "Sigrdrífumál",
+      "section": "st. 1–13",
+      "type": "heroic"
+    },
+    {
+      "page": 64,
+      "poem": "Sigrdrífumál",
+      "section": "st. 13–29 (lacuna follows)",
+      "type": "heroic",
+      "lacuna_after": true
+    },
+    {
+      "page": 65,
+      "poem": "Brot af Sigurðarkviðu",
+      "section": "st. 1–19",
+      "type": "heroic",
+      "lacuna_before": true
+    },
+    {
+      "page": 66,
+      "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
+      "section": "Brot 19 – Guðr. I 12",
+      "type": "heroic"
+    },
+    {
+      "page": 67,
+      "poem": "Guðrúnarkviða I",
+      "section": "st. 12 – prose",
+      "type": "heroic"
+    },
+    {
+      "page": 68,
+      "poem": "Guðrúnarkviða I / Sigurðarkviða III",
+      "section": "prose – Sig. III 17",
+      "type": "heroic"
+    },
+    {
+      "page": 69,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 17, 35–39",
+      "type": "heroic"
+    },
+    {
+      "page": 70,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 39–55",
+      "type": "heroic"
+    },
+    {
+      "page": 71,
+      "poem": "Sigurðarkviða III / Helreið Brynhildar",
+      "section": "Sig. III 55 – Helr. 1",
+      "type": "heroic"
+    },
+    {
+      "page": 72,
+      "poem": "Helreið Brynhildar / Dráp Niflunga",
+      "section": "Helr. 2 – Dráp Niflunga",
+      "type": "heroic"
+    },
+    {
+      "page": 73,
+      "poem": "Dráp Niflunga / Guðrúnarkviða II",
+      "section": "– Guðr. II 16",
+      "type": "heroic"
+    },
+    {
+      "page": 74,
+      "poem": "Guðrúnarkviða II",
+      "section": "st. 16–31",
+      "type": "heroic"
+    },
+    {
+      "page": 75,
+      "poem": "Guðrúnarkviða II / Guðrúnarkviða III",
+      "section": "Guðr. II 31 – Guðr. III 5",
+      "type": "heroic"
+    },
+    {
+      "page": 76,
+      "poem": "Guðrúnarkviða III / Oddrúnargrátr",
+      "section": "Guðr. III 5 – Oddr. fragments",
+      "type": "heroic"
+    },
+    {
+      "page": 77,
+      "poem": "Oddrúnargrátr",
+      "section": "st. fragments 14–31",
+      "type": "heroic"
+    },
+    {
+      "page": 78,
+      "poem": "Oddrúnargrátr / Atlakviða",
+      "section": "Oddr. 31 – Atl. 9",
+      "type": "heroic"
+    },
+    {
+      "page": 79,
+      "poem": "Atlakviða",
+      "section": "st. 10–25",
+      "type": "heroic"
+    },
+    {
+      "page": 80,
+      "poem": "Atlakviða",
+      "section": "st. 25–40",
+      "type": "heroic"
+    },
+    {
+      "page": 81,
+      "poem": "Atlakviða / Atlamál",
+      "section": "Atl. 40 – Atl.mál 12",
+      "type": "heroic"
+    },
+    {
+      "page": 82,
+      "poem": "Atlamál",
+      "section": "st. 12–32",
+      "type": "heroic"
+    },
+    {
+      "page": 83,
+      "poem": "Atlamál",
+      "section": "st. 32–51",
+      "type": "heroic"
+    },
+    {
+      "page": 84,
+      "poem": "Atlamál",
+      "section": "st. 51–68",
+      "type": "heroic"
+    },
+    {
+      "page": 85,
+      "poem": "Atlamál",
+      "section": "st. 68–85",
+      "type": "heroic"
+    },
+    {
+      "page": 86,
+      "poem": "Atlamál",
+      "section": "st. 85–75",
+      "type": "heroic"
+    },
+    {
+      "page": 87,
+      "poem": "Atlamál / Guðrunarhvöt",
+      "section": "Atl.mál 75 – Guðr.hvöt 8",
+      "type": "heroic"
+    },
+    {
+      "page": 88,
+      "poem": "Guðrunarhvöt / Hamðismál",
+      "section": "Guðr.hvöt 8 – Hamð. 14",
+      "type": "heroic"
+    },
+    {
+      "page": 89,
+      "poem": "Hamðismál",
+      "section": "st. 5–21",
+      "type": "heroic"
+    },
+    {
+      "page": 90,
+      "poem": "Hamðismál",
+      "section": "st. 21 – prose conclusion",
+      "type": "heroic"
+    },
+    {
+      "page": 91,
+      "poem": "Brot af Sigurðarkviðu",
+      "section": "st. 1–19",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 65
+    },
+    {
+      "page": 92,
+      "poem": "Brot af Sigurðarkviðu",
+      "section": "st. 1–19",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 65
+    },
+    {
+      "page": 93,
+      "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
+      "section": "Brot 19 – Guðr. I 12",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 66
+    },
+    {
+      "page": 94,
+      "poem": "Brot af Sigurðarkviðu / Guðrúnarkviða I",
+      "section": "Brot 19 – Guðr. I 12",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 66
+    },
+    {
+      "page": 95,
+      "poem": "Guðrúnarkviða I",
+      "section": "st. 12 – prose",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 67
+    },
+    {
+      "page": 96,
+      "poem": "Guðrúnarkviða I",
+      "section": "st. 12 – prose",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 67
+    },
+    {
+      "page": 97,
+      "poem": "Guðrúnarkviða I / Sigurðarkviða III",
+      "section": "prose – Sig. III 17",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 68
+    },
+    {
+      "page": 98,
+      "poem": "Guðrúnarkviða I / Sigurðarkviða III",
+      "section": "prose – Sig. III 17",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 68
+    },
+    {
+      "page": 99,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 17, 35–39",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 69
+    },
+    {
+      "page": 100,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 17, 35–39",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 69
+    },
+    {
+      "page": 101,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 39–55",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 70
+    },
+    {
+      "page": 102,
+      "poem": "Sigurðarkviða III",
+      "section": "st. 39–55",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 70
+    },
+    {
+      "page": 103,
+      "poem": "Sigurðarkviða III / Helreið Brynhildar",
+      "section": "Sig. III 55 – Helr. 1",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 71
+    },
+    {
+      "page": 104,
+      "poem": "Sigurðarkviða III / Helreið Brynhildar",
+      "section": "Sig. III 55 – Helr. 1",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 71
+    },
+    {
+      "page": 105,
+      "poem": "Helreið Brynhildar / Dráp Niflunga",
+      "section": "Helr. 2 – Dráp Niflunga",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 72
+    },
+    {
+      "page": 106,
+      "poem": "Helreið Brynhildar / Dráp Niflunga",
+      "section": "Helr. 2 – Dráp Niflunga",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 72
+    },
+    {
+      "page": 107,
+      "poem": "Dráp Niflunga / Guðrúnarkviða II",
+      "section": "– Guðr. II 16",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 73
+    },
+    {
+      "page": 108,
+      "poem": "Dráp Niflunga / Guðrúnarkviða II",
+      "section": "– Guðr. II 16",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 73
+    },
+    {
+      "page": 109,
+      "poem": "Dráp Niflunga / Guðrúnarkviða II",
+      "section": "– Guðr. II 16",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 73
+    },
+    {
+      "page": 110,
+      "poem": "Guðrúnarkviða II",
+      "section": "st. 16–31",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 74
+    },
+    {
+      "page": 111,
+      "poem": "Guðrúnarkviða II",
+      "section": "st. 16–31",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 74
+    },
+    {
+      "page": 112,
+      "poem": "Guðrúnarkviða II / Guðrúnarkviða III",
+      "section": "Guðr. II 31 – Guðr. III 5",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 75
+    },
+    {
+      "page": 113,
+      "poem": "Guðrúnarkviða II / Guðrúnarkviða III",
+      "section": "Guðr. II 31 – Guðr. III 5",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 75
+    },
+    {
+      "page": 114,
+      "poem": "Guðrúnarkviða III / Oddrúnargrátr",
+      "section": "Guðr. III 5 – Oddr. fragments",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 76
+    },
+    {
+      "page": 115,
+      "poem": "Guðrúnarkviða III / Oddrúnargrátr",
+      "section": "Guðr. III 5 – Oddr. fragments",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 76
+    },
+    {
+      "page": 116,
+      "poem": "Oddrúnargrátr",
+      "section": "st. fragments 14–31",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 77
+    },
+    {
+      "page": 117,
+      "poem": "Oddrúnargrátr",
+      "section": "st. fragments 14–31",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 77
+    },
+    {
+      "page": 118,
+      "poem": "Oddrúnargrátr / Atlakviða",
+      "section": "Oddr. 31 – Atl. 9",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 78
+    },
+    {
+      "page": 119,
+      "poem": "Oddrúnargrátr / Atlakviða",
+      "section": "Oddr. 31 – Atl. 9",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 78
+    },
+    {
+      "page": 120,
+      "poem": "Atlakviða",
+      "section": "st. 10–25",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 79
+    },
+    {
+      "page": 121,
+      "poem": "Atlakviða",
+      "section": "st. 10–25",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 79
+    },
+    {
+      "page": 122,
+      "poem": "Atlakviða",
+      "section": "st. 25–40",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 80
+    },
+    {
+      "page": 123,
+      "poem": "Atlakviða",
+      "section": "st. 25–40",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 80
+    },
+    {
+      "page": 124,
+      "poem": "Atlakviða / Atlamál",
+      "section": "Atl. 40 – Atl.mál 12",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 81
+    },
+    {
+      "page": 125,
+      "poem": "Atlakviða / Atlamál",
+      "section": "Atl. 40 – Atl.mál 12",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 81
+    },
+    {
+      "page": 126,
+      "poem": "Atlamál",
+      "section": "st. 12–32",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 82
+    },
+    {
+      "page": 127,
+      "poem": "Atlamál",
+      "section": "st. 12–32",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 82
+    },
+    {
+      "page": 128,
+      "poem": "Atlamál",
+      "section": "st. 12–32",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 82
+    },
+    {
+      "page": 129,
+      "poem": "Atlamál",
+      "section": "st. 32–51",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 83
+    },
+    {
+      "page": 130,
+      "poem": "Atlamál",
+      "section": "st. 32–51",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 83
+    },
+    {
+      "page": 131,
+      "poem": "Atlamál",
+      "section": "st. 51–68",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 84
+    },
+    {
+      "page": 132,
+      "poem": "Atlamál",
+      "section": "st. 51–68",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 84
+    },
+    {
+      "page": 133,
+      "poem": "Atlamál",
+      "section": "st. 68–85",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 85
+    },
+    {
+      "page": 134,
+      "poem": "Atlamál",
+      "section": "st. 68–85",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 85
+    },
+    {
+      "page": 135,
+      "poem": "Atlamál",
+      "section": "st. 85–75",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 86
+    },
+    {
+      "page": 136,
+      "poem": "Atlamál",
+      "section": "st. 85–75",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 86
+    },
+    {
+      "page": 137,
+      "poem": "Atlamál / Guðrunarhvöt",
+      "section": "Atl.mál 75 – Guðr.hvöt 8",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 87
+    },
+    {
+      "page": 138,
+      "poem": "Atlamál / Guðrunarhvöt",
+      "section": "Atl.mál 75 – Guðr.hvöt 8",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 87
+    },
+    {
+      "page": 139,
+      "poem": "Guðrunarhvöt / Hamðismál",
+      "section": "Guðr.hvöt 8 – Hamð. 14",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 88
+    },
+    {
+      "page": 140,
+      "poem": "Guðrunarhvöt / Hamðismál",
+      "section": "Guðr.hvöt 8 – Hamð. 14",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 88
+    },
+    {
+      "page": 141,
+      "poem": "Hamðismál",
+      "section": "st. 5–21",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 89
+    },
+    {
+      "page": 142,
+      "poem": "Hamðismál",
+      "section": "st. 5–21",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 89
+    },
+    {
+      "page": 143,
+      "poem": "Hamðismál",
+      "section": "st. 21 – prose conclusion",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 90
+    },
+    {
+      "page": 144,
+      "poem": "Hamðismál",
+      "section": "st. 21 – prose conclusion",
+      "type": "heroic",
+      "extended_scan": true,
+      "maps_to_cr_page": 90
+    }
+  ],
+  "poem_ranges": [
+    {
+      "poem": "Völuspá",
+      "type": "mythological",
+      "page_start": 1,
+      "page_end": 5,
+      "section_start": "st. 1–15",
+      "section_end": "Völ. 61 – Háv. 15"
+    },
+    {
+      "poem": "Hávamál",
+      "type": "mythological",
+      "page_start": 6,
+      "page_end": 14,
+      "section_start": "st. 15–31",
+      "section_end": "Háv. 161 – Vaf. 14"
+    },
+    {
+      "poem": "Vafþrúðnismál",
+      "type": "mythological",
+      "page_start": 15,
+      "page_end": 16,
+      "section_start": "st. 15–37",
+      "section_end": "Vaf. 38 – Grím. prose"
+    },
+    {
+      "poem": "Grímnismál",
+      "type": "mythological",
+      "page_start": 17,
+      "page_end": 21,
+      "section_start": "prose – st. 4",
+      "section_end": "Grím. 53 – Skír. after st. 10"
+    },
+    {
+      "poem": "Skírnismál",
+      "type": "mythological",
+      "page_start": 22,
+      "page_end": 23,
+      "section_start": "after st. 10 – st. 28",
+      "section_end": "Skír. 28 – Harb. 1"
+    },
+    {
+      "poem": "Harbarðsljóð",
+      "type": "mythological",
+      "page_start": 24,
+      "page_end": 26,
+      "section_start": "st. 1–18",
+      "section_end": "Harb. 40 – Hym. 3"
+    },
+    {
+      "poem": "Hymiskviða",
+      "type": "mythological",
+      "page_start": 27,
+      "page_end": 29,
+      "section_start": "st. 3–21",
+      "section_end": "Hym. 38 – Lok. 10"
+    },
+    {
+      "poem": "Lokasenna",
+      "type": "mythological",
+      "page_start": 30,
+      "page_end": 33,
+      "section_start": "st. 10–27",
+      "section_end": "Lok. 63 – Þrym. 12"
+    },
+    {
+      "poem": "Þrymskviða",
+      "type": "mythological",
+      "page_start": 34,
+      "page_end": 35,
+      "section_start": "st. 13–31",
+      "section_end": "Þrym. 31 – Völ. 7"
+    },
+    {
+      "poem": "Völundarkviða",
+      "type": "heroic",
+      "page_start": 36,
+      "page_end": 38,
+      "section_start": "st. 7–22",
+      "section_end": "Völ. 38 – Alv. 18"
+    },
+    {
+      "poem": "Alvísmál",
+      "type": "heroic",
+      "page_start": 39,
+      "page_end": 39,
+      "section_start": "Alv. 18 – HH I 7",
+      "section_end": "Alv. 18 – HH I 7"
+    },
+    {
+      "poem": "Helgakviða Hundingsbana I",
+      "type": "heroic",
+      "page_start": 40,
+      "page_end": 43,
+      "section_start": "st. 7–24",
+      "section_end": "HH I 55 – HHj prose"
+    },
+    {
+      "poem": "Helgakviða Hjörvarðssonar",
+      "type": "heroic",
+      "page_start": 44,
+      "page_end": 47,
+      "section_start": "prose – st. 15",
+      "section_end": "HHj 38 – HH II 4"
+    },
+    {
+      "poem": "Helgakviða Hundingsbana II",
+      "type": "heroic",
+      "page_start": 48,
+      "page_end": 52,
+      "section_start": "st. 4–14",
+      "section_end": "prose – Frá dauða Sinfjötla"
+    },
+    {
+      "poem": "Frá dauða Sinfjötla",
+      "type": "heroic",
+      "page_start": 53,
+      "page_end": 53,
+      "section_start": "– Gríp. 7",
+      "section_end": "– Gríp. 7"
+    },
+    {
+      "poem": "Grípisspá",
+      "type": "heroic",
+      "page_start": 54,
+      "page_end": 56,
+      "section_start": "st. 8–23",
+      "section_end": "Gríp. 39 – Reg. prose"
+    },
+    {
+      "poem": "Reginsmál",
+      "type": "heroic",
+      "page_start": 57,
+      "page_end": 59,
+      "section_start": "prose – st. 9",
+      "section_end": "Reg. 18 – Faf. 5"
+    },
+    {
+      "poem": "Fafnismál",
+      "type": "heroic",
+      "page_start": 60,
+      "page_end": 62,
+      "section_start": "st. 5 – prose after 22",
+      "section_end": "Faf. 36 – Sigdr. 1"
+    },
+    {
+      "poem": "Sigrdrífumál",
+      "type": "heroic",
+      "page_start": 63,
+      "page_end": 64,
+      "section_start": "st. 1–13",
+      "section_end": "st. 13–29 (lacuna follows)"
+    },
+    {
+      "poem": "Brot af Sigurðarkviðu",
+      "type": "heroic",
+      "page_start": 65,
+      "page_end": 66,
+      "section_start": "st. 1–19",
+      "section_end": "Brot 19 – Guðr. I 12"
+    },
+    {
+      "poem": "Guðrúnarkviða I",
+      "type": "heroic",
+      "page_start": 67,
+      "page_end": 68,
+      "section_start": "st. 12 – prose",
+      "section_end": "prose – Sig. III 17"
+    },
+    {
+      "poem": "Sigurðarkviða III",
+      "type": "heroic",
+      "page_start": 69,
+      "page_end": 71,
+      "section_start": "st. 17, 35–39",
+      "section_end": "Sig. III 55 – Helr. 1"
+    },
+    {
+      "poem": "Helreið Brynhildar",
+      "type": "heroic",
+      "page_start": 72,
+      "page_end": 72,
+      "section_start": "Helr. 2 – Dráp Niflunga",
+      "section_end": "Helr. 2 – Dráp Niflunga"
+    },
+    {
+      "poem": "Dráp Niflunga",
+      "type": "heroic",
+      "page_start": 73,
+      "page_end": 73,
+      "section_start": "– Guðr. II 16",
+      "section_end": "– Guðr. II 16"
+    },
+    {
+      "poem": "Guðrúnarkviða II",
+      "type": "heroic",
+      "page_start": 74,
+      "page_end": 75,
+      "section_start": "st. 16–31",
+      "section_end": "Guðr. II 31 – Guðr. III 5"
+    },
+    {
+      "poem": "Guðrúnarkviða III",
+      "type": "heroic",
+      "page_start": 76,
+      "page_end": 76,
+      "section_start": "Guðr. III 5 – Oddr. fragments",
+      "section_end": "Guðr. III 5 – Oddr. fragments"
+    },
+    {
+      "poem": "Oddrúnargrátr",
+      "type": "heroic",
+      "page_start": 77,
+      "page_end": 78,
+      "section_start": "st. fragments 14–31",
+      "section_end": "Oddr. 31 – Atl. 9"
+    },
+    {
+      "poem": "Atlakviða",
+      "type": "heroic",
+      "page_start": 79,
+      "page_end": 81,
+      "section_start": "st. 10–25",
+      "section_end": "Atl. 40 – Atl.mál 12"
+    },
+    {
+      "poem": "Atlamál",
+      "type": "heroic",
+      "page_start": 82,
+      "page_end": 87,
+      "section_start": "st. 12–32",
+      "section_end": "Atl.mál 75 – Guðr.hvöt 8"
+    },
+    {
+      "poem": "Guðrunarhvöt",
+      "type": "heroic",
+      "page_start": 88,
+      "page_end": 88,
+      "section_start": "Guðr.hvöt 8 – Hamð. 14",
+      "section_end": "Guðr.hvöt 8 – Hamð. 14"
+    },
+    {
+      "poem": "Hamðismál",
+      "type": "heroic",
+      "page_start": 89,
+      "page_end": 90,
+      "section_start": "st. 5–21",
+      "section_end": "st. 21 – prose conclusion"
+    }
+  ],
+  "poem_boundaries_source": "germanicmythology.com CODEXREGIUS facsimile index (Finnur Jónsson 1891); mapped to GKS2365_page_N 1:1 for pages 1–90",
+  "lacuna_note": "CR folio gap after Sigrdrífumál (≈ user pages 64–65); pages 91–144 = extended digitization of heroic coda (maps to CR 65–90)",
+  "mapped_at": "2026-06-29T03:22:41.923417+00:00"
 }

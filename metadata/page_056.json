@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Grípisspá",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:01:02.080300+00:00",
   "qc_issue_count": 12,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.695940+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.042561+00:00",
+  "poem_full": "Grípisspá / Reginsmál",
+  "poem_section": "Gríp. 39 – Reg. prose",
+  "poem_type": "heroic"
 }

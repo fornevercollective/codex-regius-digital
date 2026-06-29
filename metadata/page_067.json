@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Guðrúnarkviða I",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:01:47.118633+00:00",
   "qc_issue_count": 10,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.708003+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.057181+00:00",
+  "poem_full": "Guðrúnarkviða I",
+  "poem_section": "st. 12 – prose",
+  "poem_type": "heroic"
 }

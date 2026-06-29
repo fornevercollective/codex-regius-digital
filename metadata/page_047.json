@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Helgakviða Hjörvarðssonar",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T03:00:26.360871+00:00",
   "qc_issue_count": 12,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.684592+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:42.032757+00:00",
+  "poem_full": "Helgakviða Hjörvarðssonar / Helgakviða Hundingsbana II",
+  "poem_section": "HHj 38 – HH II 4",
+  "poem_type": "heroic"
 }

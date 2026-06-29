@@ -20,7 +20,7 @@
     "liturgy_comparison.md",
     "scholarly_report.json"
   ],
-  "poem": "",
+  "poem": "Vafþrúðnismál",
   "original_text": "",
   "translation": "",
   "marginalia": null,
@@ -31,5 +31,8 @@
   "qc_at": "2026-06-29T02:58:38.966503+00:00",
   "qc_issue_count": 6,
   "scholarly_assessment": true,
-  "scholarly_assessment_at": "2026-06-29T03:13:34.646808+00:00"
+  "scholarly_assessment_at": "2026-06-29T03:22:41.998094+00:00",
+  "poem_full": "Vafþrúðnismál / Grímnismál",
+  "poem_section": "Vaf. 38 – Grím. prose",
+  "poem_type": "mythological"
 }

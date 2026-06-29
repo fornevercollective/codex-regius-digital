@@ -39,6 +39,11 @@
         <option value="ocr">Low-confidence OCR</option>
       </select>
       <label>Pages <span id="page-filter-label"></span></label>
+      <div class="page-legend">
+        <span class="legend-item"><i class="swatch swatch-complete"></i> Complete</span>
+        <span class="legend-item"><i class="swatch swatch-partial"></i> Partial</span>
+        <span class="legend-item"><i class="swatch swatch-blank"></i> Blank / OCR pending</span>
+      </div>
       <div id="page-list" class="page-list"></div>
     </aside>
 
@@ -48,10 +53,28 @@
         <h2 id="page-title">Page 10</h2>
         <div class="layer-viewer" id="layer-viewer">
           <div class="layer-stack" id="layer-stack"></div>
+          <div id="text-overlay" class="text-overlay" hidden></div>
           <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>
         </div>
+        <div class="layer-mixer">
+          <div class="preset-row" id="layer-presets"></div>
+          <div class="mix-row">
+            <label>Raw ↔ Grok clean mix <span id="mix-value">100% Grok</span></label>
+            <input type="range" id="mix-slider" min="0" max="100" value="100" />
+          </div>
+          <div class="quick-toggles" id="quick-toggles"></div>
+        </div>
         <div class="layer-controls" id="layer-controls"></div>
-        <label class="highlight-toggle"><input type="checkbox" id="show-highlights" checked /> Show AI highlights</label>
+        <div class="viewer-options">
+          <label class="highlight-toggle"><input type="checkbox" id="show-text-layer" /> Text transcription overlay</label>
+          <label class="highlight-toggle"><input type="checkbox" id="show-highlights" disabled title="Enable when doodle/glyph tools are fully indexed" /> Show AI highlights <small id="highlights-hint">(pending full tool index)</small></label>
+        </div>
+        <section class="download-panel">
+          <span class="section-label">Downloads · this page</span>
+          <div id="page-downloads" class="download-row"></div>
+          <span class="section-label">Book exports · all 144 pages</span>
+          <div id="book-downloads" class="download-row"></div>
+        </section>
         <div id="page-links" style="margin:1rem 0"></div>
       </section>
 

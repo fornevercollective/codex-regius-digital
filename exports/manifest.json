@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-29T04:26:46.112918+00:00",
+  "corpus": "GKS 2365 4to",
+  "variations": [
+    {
+      "id": "artistic_vellum",
+      "file": "codex_regius_artistic_vellum.zip",
+      "pages": 144,
+      "bytes": 211507430
+    },
+    {
+      "id": "clean_white",
+      "file": "codex_regius_clean_white.zip",
+      "pages": 144,
+      "bytes": 224849371
+    },
+    {
+      "id": "grok_artistic_vellum",
+      "file": "codex_regius_grok_artistic_vellum.zip",
+      "pages": 94,
+      "bytes": 49204760
+    },
+    {
+      "id": "grok_clean_white",
+      "file": "codex_regius_grok_clean_white.zip",
+      "pages": 91,
+      "bytes": 43648673
+    },
+    {
+      "id": "ai_assessment",
+      "file": "codex_regius_ai_assessment.zip",
+      "pages": 144,
+      "bytes": 368488
+    }
+  ]
+}

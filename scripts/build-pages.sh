@@ -28,6 +28,10 @@ if [[ -d "${ROOT}/docs" ]]; then
   mkdir -p "${DEPLOY}/docs"
   cp -r "${ROOT}/docs/." "${DEPLOY}/docs/"
 fi
+if [[ -f "${ROOT}/exports/manifest.json" ]]; then
+  mkdir -p "${DEPLOY}/exports"
+  cp "${ROOT}/exports/manifest.json" "${DEPLOY}/exports/"
+fi
 
 touch "${DEPLOY}/.nojekyll"
 

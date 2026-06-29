@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:03:20.516438+00:00",
+  "timestamp": "2026-06-29T06:14:29.718137+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "'EK' → 'ek'"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,6 +75,24 @@
       "enhanced_contrast": 84.43,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.4377,
+      "raw_blur": 2242.53,
+      "enhanced_blur": 858.26,
+      "raw_contrast": 48.12,
+      "enhanced_contrast": 47.37,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.393,
+      "raw_blur": 2242.53,
+      "enhanced_blur": 3069.78,
+      "raw_contrast": 48.12,
+      "enhanced_contrast": 66.11,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
@@ -93,10 +104,8 @@
   "corrections": {
     "raw_text_preview": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %      ",
     "corrected_text_preview": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %      ",
-    "issue_count": 14,
-    "applied_fixes": [
-      "'EK' → 'ek'"
-    ]
+    "issue_count": 13,
+    "applied_fixes": []
   },
   "issues": [
     {
@@ -215,15 +224,6 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
-    },
-    {
-      "severity": "warning",
-      "code": "WORD_NORMALIZATION",
-      "message": "'EK' → 'ek'",
-      "suggestion": "ek",
-      "etymology": null,
-      "citation": "Neckel & Kuhn 1983",
-      "auto_fixable": true
     }
   ],
   "citations": [

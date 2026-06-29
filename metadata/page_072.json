@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Helreið Brynhildar",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 8,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T05:43:53.620166+00:00"
+  },
   "processed_at": "2026-06-29T01:19:27.056181+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:58:35.882526+00:00",

@@ -18,20 +18,26 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Atlamál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 5,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T06:03:57.472456+00:00"
+  },
   "processed_at": "2026-06-29T01:19:29.366816+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:14:09.857984+00:00",
+  "qc_at": "2026-06-29T05:19:07.982787+00:00",
   "qc_issue_count": 12,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.074228+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T03:14:09.855991+00:00",
+  "grok_enhanced_at": "2026-06-29T05:19:07.981238+00:00",
   "poem_full": "Atlamál",
   "poem_section": "st. 32–51",
   "poem_type": "heroic"

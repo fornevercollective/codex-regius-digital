@@ -8,6 +8,7 @@ processed/**.jpg filter=lfs diff=lfs merge=lfs -text
 processed/**.jpeg filter=lfs diff=lfs merge=lfs -text
 processed/**.png filter=lfs diff=lfs merge=lfs -text
 processed/**/glyphs/** -filter -diff -merge
+exports/*.zip filter=lfs diff=lfs merge=lfs -text
 processed/**/grok_variations/** filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text

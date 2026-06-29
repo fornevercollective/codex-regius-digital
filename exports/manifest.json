@@ -1,36 +1,124 @@
 {
-  "generated_at": "2026-06-29T04:26:46.112918+00:00",
+  "generated_at": "2026-06-29T06:55:16.095162+00:00",
   "corpus": "GKS 2365 4to",
+  "max_chunk_bytes": 99614720,
+  "note": "Large layers split into ≤95 MB parts for GitHub file limit",
   "variations": [
     {
       "id": "artistic_vellum",
-      "file": "codex_regius_artistic_vellum.zip",
-      "pages": 144,
-      "bytes": 211507430
+      "filename": "artistic_vellum.jpg",
+      "pages_total": 144,
+      "parts": [
+        {
+          "id": "artistic_vellum",
+          "file": "codex_regius_artistic_vellum_p001-059.zip",
+          "page_start": 1,
+          "page_end": 59,
+          "pages": 59,
+          "bytes": 97762229,
+          "chunk": 1
+        },
+        {
+          "id": "artistic_vellum",
+          "file": "codex_regius_artistic_vellum_p060-131.zip",
+          "page_start": 60,
+          "page_end": 131,
+          "pages": 72,
+          "bytes": 99493362,
+          "chunk": 2
+        },
+        {
+          "id": "artistic_vellum",
+          "file": "codex_regius_artistic_vellum_p132-144.zip",
+          "page_start": 132,
+          "page_end": 144,
+          "pages": 13,
+          "bytes": 14285947,
+          "chunk": 3
+        }
+      ]
     },
     {
       "id": "clean_white",
-      "file": "codex_regius_clean_white.zip",
-      "pages": 144,
-      "bytes": 224849371
+      "filename": "clean_white.jpg",
+      "pages_total": 144,
+      "parts": [
+        {
+          "id": "clean_white",
+          "file": "codex_regius_clean_white_p001-052.zip",
+          "page_start": 1,
+          "page_end": 52,
+          "pages": 52,
+          "bytes": 97656027,
+          "chunk": 1
+        },
+        {
+          "id": "clean_white",
+          "file": "codex_regius_clean_white_p053-098.zip",
+          "page_start": 53,
+          "page_end": 98,
+          "pages": 46,
+          "bytes": 99468870,
+          "chunk": 2
+        },
+        {
+          "id": "clean_white",
+          "file": "codex_regius_clean_white_p099-144.zip",
+          "page_start": 99,
+          "page_end": 144,
+          "pages": 46,
+          "bytes": 28761427,
+          "chunk": 3
+        }
+      ]
     },
     {
       "id": "grok_artistic_vellum",
-      "file": "codex_regius_grok_artistic_vellum.zip",
-      "pages": 94,
-      "bytes": 49204760
+      "filename": "grok_artistic_vellum.jpg",
+      "pages_total": 116,
+      "parts": [
+        {
+          "id": "grok_artistic_vellum",
+          "file": "codex_regius_grok_artistic_vellum.zip",
+          "page_start": 10,
+          "page_end": 144,
+          "pages": 116,
+          "bytes": 60739446,
+          "chunk": 1
+        }
+      ]
     },
     {
       "id": "grok_clean_white",
-      "file": "codex_regius_grok_clean_white.zip",
-      "pages": 91,
-      "bytes": 43648673
+      "filename": "grok_clean_white.jpg",
+      "pages_total": 119,
+      "parts": [
+        {
+          "id": "grok_clean_white",
+          "file": "codex_regius_grok_clean_white.zip",
+          "page_start": 10,
+          "page_end": 144,
+          "pages": 119,
+          "bytes": 57397270,
+          "chunk": 1
+        }
+      ]
     },
     {
       "id": "ai_assessment",
-      "file": "codex_regius_ai_assessment.zip",
-      "pages": 144,
-      "bytes": 368488
+      "filename": "ai_assessment.md",
+      "pages_total": 144,
+      "parts": [
+        {
+          "id": "ai_assessment",
+          "file": "codex_regius_ai_assessment.zip",
+          "page_start": 1,
+          "page_end": 144,
+          "pages": 144,
+          "bytes": 737258,
+          "chunk": 1
+        }
+      ]
     }
   ]
 }

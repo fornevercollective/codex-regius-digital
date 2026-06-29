@@ -1,0 +1,89 @@
+{
+  "page": 52,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-052-01",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large ornate initial capital at the head of the text with elaborate internal pen-flourishes, loops, and a central circular motif.",
+      "scholarly_note": "Standard Gothic bookhand decorative initial by the main scribe marking the start of a major textual division (Frá dauða Sinfjötla / Helgakviða Hundingsbana II section)."
+    },
+    {
+      "id": "M-052-02",
+      "region": "right margin",
+      "type": "other",
+      "description": "Marginal annotation 'p.9' written level with an upper line of text.",
+      "scholarly_note": "Post-medieval scholarly reference mark, likely stanza, page or line 9 from a printed edition or collation of the Poetic Edda."
+    },
+    {
+      "id": "M-052-03",
+      "region": "right margin",
+      "type": "other",
+      "description": "Marginal annotation 'a.9' written beside the text block.",
+      "scholarly_note": "Later reference mark; 'a' probably denotes a section or witness group with line/stanza 9 in an editorial numbering system."
+    },
+    {
+      "id": "M-052-04",
+      "region": "right margin",
+      "type": "other",
+      "description": "Marginal annotation '.j.9' (with preceding dot) beside the text.",
+      "scholarly_note": "Editorial line or stanza reference; 'j' may be a sigla for a manuscript witness, variant, or stanza identifier."
+    },
+    {
+      "id": "M-052-05",
+      "region": "right margin",
+      "type": "other",
+      "description": "Marginal annotation '4.j' beside a lower section of text.",
+      "scholarly_note": "Reference mark in the same annotating hand, possibly stanza 4 of section j or equivalent editorial system."
+    },
+    {
+      "id": "M-052-06",
+      "region": "right margin",
+      "type": "other",
+      "description": "Marginal annotation 'j.4' (appears twice at different heights in lower half).",
+      "scholarly_note": "Additional line/stanza reference marks belonging to the same later annotation system."
+    },
+    {
+      "id": "M-052-07",
+      "region": "right margin",
+      "type": "other",
+      "description": "Numeral '43.' (or '43,') at top right corner outside the text block.",
+      "scholarly_note": "Older pagination or foliation mark added before modern foliation; common in the manuscript's post-medieval history."
+    },
+    {
+      "id": "M-052-08",
+      "region": "text block",
+      "type": "other",
+      "description": "Dark crossed strokes or 'X'-like mark near the top of the opening line, intruding into or above the first line of text.",
+      "scholarly_note": "Possible cancellation, deletion, or reader's nota mark; could also be an accidental pen stroke or early annotation."
+    },
+    {
+      "id": "M-052-09",
+      "region": "text block",
+      "type": "correction",
+      "description": "Multiple letters and words within the main text show overwriting, denser ink, or altered letter forms indicating in-place fixes.",
+      "scholarly_note": "Scribal self-corrections by the main hand during copying; typical of active emendation rather than later intervention."
+    },
+    {
+      "id": "M-052-10",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Pronounced brown staining, darkening, and ragged parchment loss at the lower right corner with irregular torn edge.",
+      "scholarly_note": "Cumulative physical damage from handling, age, and possible moisture; affects only the extreme lower outer corner."
+    }
+  ],
+  "scratches": [
+    "Faint linear abrasions and surface wear visible on the vellum, especially lower half and near the damaged corner (hair-side preparation marks or use wear).",
+    "Minor surface disruptions and creases that do not penetrate the ink layer in several places within and beside the text block."
+  ],
+  "damage_notes": [
+    "Lower right corner of the leaf is torn with significant parchment loss and irregular ragged edge.",
+    "General age-related staining and discoloration throughout, heaviest in lower and outer areas; consistent with iron-gall ink and handling.",
+    "Some show-through and faint offset/ghost text from the verso visible in thinner areas of the vellum.",
+    "Edge wear, cockling, and minor abrasions typical of a well-used 13th-century Icelandic manuscript leaf."
+  ],
+  "summary": "Page 52 of Codex Regius (GKS 2365 4to) contains text of Frá dauða Sinfjötla and the opening of Helgakviða Hundingsbana II in the main Icelandic Gothic book hand on well-prepared calf vellum. The page is free of faces, animals, whimsical doodles, or pen trials. Visible non-text features comprise one large decorative flourished initial at the head of the text, a series of later right-margin editorial reference marks (p.9, a.9, .j.9, 4.j, j.4), an older '43.' pagination numeral, a dark crossed mark near the top of the opening line, scattered scribal corrections within the text block, and a prominent capital 'K' beginning the final lines. Physical condition is generally good apart from characteristic lower-right corner loss, staining, and age-related surface wear with minor offset from the verso.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_052/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:03:15.392021+00:00"
+}

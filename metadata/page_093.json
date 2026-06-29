@@ -18,15 +18,21 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Brot af Sigurðarkviðu",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 9,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T06:23:14.278634+00:00"
+  },
   "processed_at": "2026-06-29T01:19:31.402476+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:28:10.843594+00:00",
+  "qc_at": "2026-06-29T06:26:30.764496+00:00",
   "qc_issue_count": 13,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.084440+00:00",
@@ -34,5 +40,5 @@
   "poem_section": "Brot 19 – Guðr. I 12",
   "poem_type": "heroic",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T03:28:10.839517+00:00"
+  "grok_enhanced_at": "2026-06-29T06:26:30.758011+00:00"
 }

@@ -1,0 +1,44 @@
+{
+  "page": 64,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-064-01",
+      "region": "left margin",
+      "type": "other",
+      "description": "Large vertically oriented inscription 'S 33' (likely 'f. 33') in a larger, distinct hand along the left margin.",
+      "scholarly_note": "Post-medieval foliation or leaf mark indicating folio or page 33; typical later addition for reference."
+    },
+    {
+      "id": "M-064-02",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '33' in the upper right corner.",
+      "scholarly_note": "Later page or leaf numbering added during rebinding, cataloguing, or digitization."
+    },
+    {
+      "id": "M-064-03",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Long, jagged, irregular dark diagonal line crossing the lower third of the text block from mid-left to lower-right, spanning approximately 7–9 lines with variable thickness, torn/creased texture, and small lateral marks along its path.",
+      "scholarly_note": "Physical tear or deep scratch in the parchment that post-dates the original writing, as it intersects and disrupts existing letterforms. Text remains largely legible on either side of the damage."
+    },
+    {
+      "id": "M-064-04",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Short later inscription at the foot of the page reading 'hupis R.' (or 'sup' R.') with a small terminal mark or flourish.",
+      "scholarly_note": "Post-medieval annotation, possibly a reader/scholar reference mark, abbreviation (e.g. 'supra'), or personal note; exact expansion unclear from context and script alone."
+    }
+  ],
+  "scratches": [
+    "Long jagged diagonal tear/scratch traversing lower text block from approximately mid-left to lower-right, crossing multiple lines of text and disrupting letterforms (M-064-03)."
+  ],
+  "damage_notes": [
+    "Parchment tear in lower third interrupts text but does not render it illegible; edges along tear are irregular and dark.",
+    "Text at right edge of block is written close to or slightly cropped by the page edge, with some terminal letters incomplete or lost."
+  ],
+  "summary": "Page 64 (showing numeral 33) preserves a clean block of Gothic script with only four notable non-text features: a vertical left-margin foliation mark 'S 33'/'f. 33', an upper-right page numeral '33', a prominent post-scribal diagonal parchment tear crossing the lower text block, and a brief later foot inscription 'hupis R.'. No doodles, faces, animals, pen trials, interlinear corrections, stains, offset ink, or decorative marks are visible. The principal anomaly is the physical tear, which confirms the leaf sustained damage after the text was written.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_064/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:27:48.432835+00:00"
+}

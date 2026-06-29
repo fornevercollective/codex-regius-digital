@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Dráp Niflunga",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 9,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T05:45:39.059727+00:00"
+  },
   "processed_at": "2026-06-29T01:19:27.261771+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:59:47.863522+00:00",

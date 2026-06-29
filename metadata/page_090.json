@@ -26,7 +26,7 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:30.794428+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:23:50.168760+00:00",
+  "qc_at": "2026-06-29T06:05:01.499554+00:00",
   "qc_issue_count": 16,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.081336+00:00",
@@ -34,5 +34,5 @@
   "poem_section": "st. 21 – prose conclusion",
   "poem_type": "heroic",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T03:23:50.163648+00:00"
+  "grok_enhanced_at": "2026-06-29T06:05:01.493930+00:00"
 }

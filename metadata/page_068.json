@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Guðrúnarkviða I",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 1,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T05:35:30.467564+00:00"
+  },
   "processed_at": "2026-06-29T01:19:26.232949+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:52:32.398579+00:00",

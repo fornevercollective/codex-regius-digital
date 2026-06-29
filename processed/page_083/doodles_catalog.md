@@ -2,49 +2,32 @@
 
 **Manuscript**: GKS 2365 4to
 **Source**: `GKS2365_page_83.png`
-**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
+**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/82](https://handrit.is/manuscript/view/is/GKS04-2365/82)
+**Survey**: Grok vision (2026-06-29T06:03:57.472456+00:00) — confidence **medium**
+
+## Summary
+Page 83 (processed; original marking 74) from Codex Regius (Atlamál) has a clean text block in a consistent Gothic book hand with no visible interlinear corrections, erasures, insertions, or scribal interventions. The principal non-text features are a prominent irregular black ink stroke in the upper left margin near the later foliation '74' and three spaced pen trials in the lower margin ('HT', flourished 'p' with long descender loop, and 'HT'). These are standard probationes pennae. No faces, animals, decorative marginalia, offset ink or major stains within the text block are present. The vellum shows characteristic 13th-century edge wear, corner losses and age-related discoloration but remains in good condition for its period with no significant figurative doodles or holes.
 
 ## Doodles & Marginalia Inventory
 | ID | Region | Type | Description | Scholarly note |
 |----|--------|------|-------------|----------------|
-| M-083-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |
-| M-083-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |
-| M-083-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |
-
-## Misprints & Scribal Corrections
-| Line | Type | Note |
-|------|------|------|
-| 1 | repeated_glyph | Possible scribal hesitation or stain |
-| 2 | repeated_glyph | Possible scribal hesitation or stain |
-| 3 | repeated_glyph | Possible scribal hesitation or stain |
-| 3 | uncertain_reading | Editorial uncertainty mark |
-| 4 | repeated_glyph | Possible scribal hesitation or stain |
-| 5 | repeated_glyph | Possible scribal hesitation or stain |
-| 6 | repeated_glyph | Possible scribal hesitation or stain |
-| 7 | repeated_glyph | Possible scribal hesitation or stain |
-| 9 | repeated_glyph | Possible scribal hesitation or stain |
-| 10 | repeated_glyph | Possible scribal hesitation or stain |
-| 11 | repeated_glyph | Possible scribal hesitation or stain |
-| 12 | repeated_glyph | Possible scribal hesitation or stain |
-| 13 | repeated_glyph | Possible scribal hesitation or stain |
-| 14 | repeated_glyph | Possible scribal hesitation or stain |
-| 16 | repeated_glyph | Possible scribal hesitation or stain |
-| 19 | repeated_glyph | Possible scribal hesitation or stain |
-| 20 | repeated_glyph | Possible scribal hesitation or stain |
-| 22 | repeated_glyph | Possible scribal hesitation or stain |
-| 24 | repeated_glyph | Possible scribal hesitation or stain |
-| 25 | repeated_glyph | Possible scribal hesitation or stain |
-| 26 | repeated_glyph | Possible scribal hesitation or stain |
-| 27 | repeated_glyph | Possible scribal hesitation or stain |
+| M-083-01 | upper margin | pen_trial | Bold irregular thick black ink stroke extending leftward from near the modern foliation '74', accompanied by a small curved hook-like mark. | Probable probatio pennae or quill test stroke in the same iron-gall ink as the main text. The stroke is heavy and irregular, consistent with testing a freshly cut quill. |
+| M-083-02 | lower margin | pen_trial | Large, somewhat crude majuscule letters 'HT' in the lower left margin below the final text line. | Pen trial (probatio pennae) practicing capital forms. Common marginal exercise by scribe or user. |
+| M-083-03 | lower margin | doodle | Lowercase 'p' with exaggerated long sinuous descender forming a prominent curved loop and flourish in the lower center margin. | Elaborate probatio pennae demonstrating quill flexibility and control. Such extended flourishes are typical functional/playful pen trials in Gothic Icelandic manuscripts. |
+| M-083-04 | lower margin | pen_trial | Large majuscule letters 'HT' in the lower right margin below the final text line. | Matching pen trial to M-083-02, forming a set of letters spaced across the lower margin from a single episode of quill testing. |
+| M-083-05 | upper margin | other | Arabic numeral '74' written neatly in the upper left corner in a post-medieval hand. | Later foliation, not original to the 13th-century codex. Added during early modern rebinding, cataloguing or ownership (Danish/Icelandic period). |
 
 ## Scratch & Damage Analysis
-- **Parchment**: High preparation
-- **Ink**: Iron-gall — check for offset and ghosting
-- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
+- Irregular thick dark linear feature in upper left margin (heavy ink deposit or possible abrasion with ink).
+- Minor nicks, abrasions and edge wear along left fore-edge and bottom margins.
+
+- Vellum edges irregularly worn and trimmed with material loss, rounding and fraying at lower left and lower right corners.
+- Age-related browning, discoloration and handling stains concentrated at margins, corners and lower portion of the page.
+- Typical minor cockling and hair-side surface texture of calf vellum; no through-holes or major punctures visible.
 
 ## AI Assessment Hooks
-- Link to `scholarly_report.json` for LLM ingestion
-- Doodle bounding boxes: pending computer-vision pass
-- Thematic tags: see `liturgy_comparison.md`
+- Machine-readable: `grok_doodles.json`
+- Cross-ref: `scholarly_report.json`, `liturgy_comparison.md`
+- Compare layers: `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
 
-*Enrich with handrit.is high-res survey and AM 748 collation.*
+*Grok vision pass — validate against handrit.is high-res facsimile.*

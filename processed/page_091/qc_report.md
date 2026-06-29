@@ -3,16 +3,17 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:03:20.516438+00:00
+**Generated**: 2026-06-29T06:14:29.718137+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2390, 1594]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2390, 1594]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2390, 1594]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2390, 1594]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2390, 1594]}]
 - **ocr** (ok): Tesseract extraction complete
-- **ocr_to_assessment** (ok): ["'EK' → 'ek'"]
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9912, contrast Δ=1.7
 - **clean_white**: SSIM=0.7611, contrast Δ=36.3
+- **grok_artistic_vellum**: SSIM=0.4377, contrast Δ=-0.8
+- **grok_clean_white**: SSIM=0.393, contrast Δ=18.0
 
 ## Issues
 - [WARNING] **UNUSUAL_CHARS**: Line 1: unusual characters detected.
@@ -41,9 +42,6 @@
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 - [WARNING] **UNUSUAL_CHARS**: Line 26: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
-- [WARNING] **WORD_NORMALIZATION**: 'EK' → 'ek'
-  - Suggestion: `ek`
-  - Citation: Neckel & Kuhn 1983
 
 ## References
 - handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>

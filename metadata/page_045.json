@@ -17,7 +17,8 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Helgakviða Hjörvarðssonar",
   "original_text": "",
@@ -25,9 +26,9 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:21.707325+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T02:18:52.979559+00:00",
+  "grok_enhanced_at": "2026-06-29T05:14:15.321692+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:00:20.364659+00:00",
+  "qc_at": "2026-06-29T05:14:15.323125+00:00",
   "qc_issue_count": 10,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.030627+00:00",

@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:56.870280+00:00",
+  "timestamp": "2026-06-29T04:38:57.381669+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 105.79,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.3167,
+      "raw_blur": 1080.03,
+      "enhanced_blur": 596.3,
+      "raw_contrast": 93.08,
+      "enhanced_contrast": 59.04,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5455,
+      "raw_blur": 1080.03,
+      "enhanced_blur": 776.34,
+      "raw_contrast": 93.08,
+      "enhanced_contrast": 94.78,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "mon                 en OUTER OE\n-           +    +    +    Sy\nx\n_\net\n\n-      -           |      +      +\nMSCCPPPE0609\n7 ___)| (7 al eae JA\n3                                     2.\nsmal      B",
     "text_preview": "mon                 en OUTER OE\n-           +    +    +    Sy\nx\n_\net\n\n-      -           |      +      +\nMSCCPPPE0609\n7 ___)| (7 al eae JA\n3                                     2.\nsmal      B",
     "char_count": 191,
     "error": null

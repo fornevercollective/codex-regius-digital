@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:43.856486+00:00",
+  "timestamp": "2026-06-29T04:32:39.094608+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "'bid' → 'bið'"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 97.7,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.2927,
+      "raw_blur": 2242.0,
+      "enhanced_blur": 455.2,
+      "raw_contrast": 78.57,
+      "enhanced_contrast": 53.94,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.1576,
+      "raw_blur": 2242.0,
+      "enhanced_blur": 1272.01,
+      "raw_contrast": 78.57,
+      "enhanced_contrast": 50.49,
+      "ssim_ok": false,
+      "contrast_improved": false
     }
   },
   "ocr": {
-    "text": "A A MG\nim HUMATAATUVUNQ0QGNHTARATVUNVUQQQQQARARAVVVNOOQGQQGANA00VO00Q0000AN0NN000Q00000000 000089000 0GVV00Q0Q000000 00800000000 lt =\n10 20 30 40 50 60 70 80 90 100 110 120 130 140 150\nFT db ANNA ANNNNANNNANNARANNNANNNA 00 AAN AOANANAAAANAANAAANNNAANANAAAANAAAANAAMMNOAAMNANGAAMANNANONNNNOA lg\nDeapearcaseacacescacectaceaceanctacnacaceacratitachees,\nI UEP 29 UG LP VG\n\nCRICRIENOR ACHE ICUADCAEICLCRIEACLICACL AR atacaCgACy\n\npit Fose tele Feb Ti\nStASCALEICEICAELICS MDCREEICITEICICAICATLACACEICICASEL:\n\n» KY Wikre ive 19 VE\n\nEIR |\n\nÞú FP pi yosa 7\n\naa LA are PT PE Na rd\n\n> IHEP AIPVV LONG XPV Å\n\nBlå Je kg tek fa fe frp fr ke dl ope Ef fa dd bs þí EN is\nPSS Trim Tro tele TS\nTE CIENT\n\nPIPED IPG APH A\n\ndL å fe wid Hl Bld ba bid Gl gio le br dead ply ef Å\n\nÞAÐ TH LR TOLA TY få í\n\nTeh babteoebbhetahs bt pol ba eg Þa 1\n\nmn &          |    N        da ”   :      * =,\n\n XP Ye FPR FOYE Xe Vi\n\niM ble bb þu bd elg bd rd bd bd br MLA\n\nPYTTEN YEP METTET TETEN",
     "text_preview": "A A MG\nim HUMATAATUVUNQ0QGNHTARATVUNVUQQQQQARARAVVVNOOQGQQGANA00VO00Q0000AN0NN000Q00000000 000089000 0GVV00Q0Q000000 00800000000 lt =\n10 20 30 40 50 60 70 80 90 100 110 120 130 140 150\nFT db ANNA ANNNNANNNANNARANNNANNNA 00 AAN AOANANAAAANAANAAANNNAANANAAAANAAAANAAMMNOAAMNANGAAMANNANONNNNOA lg\nDeapearcaseacacescacectaceaceanctacnacaceacratitachees,\nI UEP 29 UG LP VG\n\nCRICRIENOR ACHE ICUADCAEICLCRIEACLICACL AR atacaCgACy\n\npit Fose tele Feb Ti\nStASCALEICEICAELICS MDCREEICITEICICAICATLACACEICICASEL:",
     "char_count": 953,
     "error": null
@@ -93,10 +103,8 @@
   "corrections": {
     "raw_text_preview": "A A MG\nim HUMATAATUVUNQ0QGNHTARATVUNVUQQQQQARARAVVVNOOQGQQGANA00VO00Q0000AN0NN000Q00000000 000089000 0GVV00Q0Q000000 00800000000 lt =\n10 20 30 40 50 60 70 80 90 100 110 120 130 140 150\nFT db ANNA ANNNNANNNANNARANNNANNNA 00 AAN AOANANAAAANAANAAANNNAANANAAAANAAAANAAMMNOAAMNANGAAMANNANONNNNOA lg\nDeapea",
     "corrected_text_preview": "A A MG\nim HUMATAATUVUNQ0QGNHTARATVUNVUQQQQQARARAVVVNOOQGQQGANA00VO00Q0000AN0NN000Q00000000 000089000 0GVV00Q0Q000000 00800000000 lt =\n10 20 30 40 50 60 70 80 90 100 110 120 130 140 150\nFT db ANNA ANNNNANNNANNARANNNANNNA 00 AAN AOANANAAAANAANAAANNNAANANAAAANAAAANAAMMNOAAMNANGAAMANNANONNNNOA lg\nDeapea",
-    "issue_count": 8,
-    "applied_fixes": [
-      "'bid' → 'bið'"
-    ]
+    "issue_count": 7,
+    "applied_fixes": []
   },
   "issues": [
     {
@@ -161,15 +169,6 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
-    },
-    {
-      "severity": "warning",
-      "code": "WORD_NORMALIZATION",
-      "message": "'bid' → 'bið'",
-      "suggestion": "bið",
-      "etymology": "Verb 'ask, bid' — formulaic request for hearing in Eddic openings.",
-      "citation": "Neckel & Kuhn 1983",
-      "auto_fixable": true
     }
   ],
   "citations": [

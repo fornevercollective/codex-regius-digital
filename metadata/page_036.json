@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Völundarkviða",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 7,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T04:36:06.650289+00:00"
+  },
   "processed_at": "2026-06-29T01:19:20.002479+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:07:33.684458+00:00",

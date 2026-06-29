@@ -1,0 +1,85 @@
+{
+  "page": 98,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-098-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '39' written in dark ink, top right corner outside the text block",
+      "scholarly_note": "Post-medieval foliation mark, likely 17th–19th century, added during cataloguing, rebinding or modern reference numbering; not original to the 13th-century production."
+    },
+    {
+      "id": "M-098-02",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large pen-flourished initial capital (S) with long curved descender and loop extending leftward and downward along the left side of the text column, approximately mid-page",
+      "scholarly_note": "Standard medieval section or stanza initial executed with penwork extension into the margin space; typical of 13th-century Icelandic Gothic book-hand practice for marking textual divisions in poetic manuscripts."
+    },
+    {
+      "id": "M-098-03",
+      "region": "text block",
+      "type": "stain",
+      "description": "Prominent roughly circular dark hole/stain approximately 0.8–1 cm across in lower-left central text block, with parchment loss, dark edges and heavy surrounding discoloration that obscures multiple letters",
+      "scholarly_note": "Iron-gall ink corrosion burn-through resulting in physical loss of the writing surface; a common progressive degradation in manuscripts written with iron-gall ink; causes irrecoverable textual lacuna at this location."
+    },
+    {
+      "id": "M-098-04",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Large irregular tear and substantial parchment loss at bottom-right corner; edge is curled, fragmented and abraded with several lines of text truncated or entirely missing",
+      "scholarly_note": "Mechanical damage typical of corner wear in small-format vellum codices; results from handling, binding strain, or age-related embrittlement; produces textual loss at the ends of lower lines."
+    },
+    {
+      "id": "M-098-05",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Extensive irregular brown and yellowish staining across the lower third of the page, darker and more confluent on the right side and extending upward into the text block",
+      "scholarly_note": "Water or liquid damage combined with general age-related discoloration; has contributed to ink bleeding, fibre weakening and further surface loss in the affected zone."
+    },
+    {
+      "id": "M-098-06",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Multiple fine-to-medium linear scratches and rubbed zones, predominantly horizontal and diagonal, concentrated in the lower half; ink is flaked, faded or entirely lost along these lines",
+      "scholarly_note": "Post-script surface abrasion from repeated handling and page turning; evidence of heavy use of this particular leaf. Some scoring may relate to vellum preparation but most are later."
+    },
+    {
+      "id": "M-098-07",
+      "region": "text block",
+      "type": "other",
+      "description": "Several small round punctures and losses visible as dark or light spots within the text block and near the lower left area, distinct from the main corrosion hole",
+      "scholarly_note": "Combination of original skin defects, possible later worm holes, pin-pricks from binding or storage, or secondary damage; smaller ones contrast with the larger ink-corrosion perforation."
+    },
+    {
+      "id": "M-098-08",
+      "region": "right margin",
+      "type": "scratch",
+      "description": "Vertical creases, edge nibbling and linear abrasion along the right margin; terminal letters of several lines are faded or partially lost",
+      "scholarly_note": "Binding-related strain and repeated flexing of the leaf; the narrow right margin and edge wear indicate the page was not always fully protected within the binding."
+    },
+    {
+      "id": "M-098-09",
+      "region": "text block",
+      "type": "stain",
+      "description": "Scattered small dark ink spots and flecks, including one distinct blot above the main corrosion hole and occasional specks near line ends",
+      "scholarly_note": "Accidental ink drops during original writing or later handling; some may result from corrosion splatter or offset rather than deliberate marks."
+    }
+  ],
+  "scratches": [
+    "Horizontal abrasions crossing multiple text lines in the lower half, producing widespread ink loss and partial illegibility",
+    "Diagonal and curved scratches radiating from the large hole and across the lower-right text area",
+    "Fine surface scoring and rubbings visible throughout the lower two-thirds, with some extending into upper lines",
+    "Vertical crease and fold lines on the right side of the text block with associated abrasion"
+  ],
+  "damage_notes": [
+    "Large missing parchment section at bottom right corner affecting approximately the lower 25–30% of the right side of the leaf",
+    "Iron-gall corrosion hole in lower text block with associated text destruction",
+    "General edge tattering, small losses and irregular trimming on all four sides, most severe at bottom and right",
+    "Vellum cockling, wrinkling and thinning in the lower portion",
+    "Significant ink flaking and fading due to abrasion, especially affecting the bottom third of the page"
+  ],
+  "summary": "Page 98 of Codex Regius (GKS 2365 4to) is a heavily worn leaf of heroic Eddic poetry showing extensive post-production physical damage rather than intentional additions. Visible non-textual features include a later foliation numeral '39' in the upper right margin, one standard pen-flourished initial with extended descender marking a textual division, a prominent iron-gall corrosion hole in the lower text block, a large torn loss at the bottom-right corner that truncates lines, widespread brown liquid and age staining across the lower third, numerous scratches and abrasions causing ink loss (especially in the lower half), scattered small punctures, and edge wear with creasing. No figurative doodles, faces, animals, pen trials, or textual marginalia are present. The upper and central text remains largely legible despite surface wear, while the lower portion is significantly compromised.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_098/clean_white.jpg",
+  "surveyed_at": "2026-06-29T06:31:59.656596+00:00"
+}

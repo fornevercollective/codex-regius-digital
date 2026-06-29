@@ -2,29 +2,27 @@
 
 **Manuscript**: GKS 2365 4to
 **Source**: `GKS2365_page_109.png`
-**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
+**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/108](https://handrit.is/manuscript/view/is/GKS04-2365/108)
+**Survey**: Grok vision (2026-06-29T06:51:02.118498+00:00) — confidence **medium**
+
+## Summary
+The provided image of manuscript page 109 shows an almost entirely blank parchment surface with no visible text, marginalia, doodles, pen trials, faces, animals, decorative marks, scribal corrections, or offset ink within the text block or margins. The page presents a clean, unmarked field under the current photographic conditions, with the only notable features being the physical condition of the vellum leaf itself, including its right edge texture and minimal age-related surface imperfections.
 
 ## Doodles & Marginalia Inventory
 | ID | Region | Type | Description | Scholarly note |
 |----|--------|------|-------------|----------------|
-| M-109-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |
-| M-109-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |
-| M-109-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |
-
-## Misprints & Scribal Corrections
-| Line | Type | Note |
-|------|------|------|
-| 1 | repeated_glyph | Possible scribal hesitation or stain |
-| 2 | repeated_glyph | Possible scribal hesitation or stain |
+| — | — | — | No marginalia detected | Grok vision pass |
 
 ## Scratch & Damage Analysis
-- **Parchment**: High preparation
-- **Ink**: Iron-gall — check for offset and ghosting
-- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
+- None noted
+
+- Right fore-edge exhibits a distinct vertical textured band with regular horizontal striations or weave pattern, consistent with either natural parchment edge characteristics, wear, or a binding/guard reinforcement visible in the photograph.
+- Minor surface soiling or foxing appears as isolated tiny brownish specks scattered across the upper and lower regions of the page surface.
+- Lower right corner and bottom edge show slight physical distortion, creasing, and small localized brown stains or accretions typical of handling and age in a 13th-century vellum manuscript.
 
 ## AI Assessment Hooks
-- Link to `scholarly_report.json` for LLM ingestion
-- Doodle bounding boxes: pending computer-vision pass
-- Thematic tags: see `liturgy_comparison.md`
+- Machine-readable: `grok_doodles.json`
+- Cross-ref: `scholarly_report.json`, `liturgy_comparison.md`
+- Compare layers: `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
 
-*Enrich with handrit.is high-res survey and AM 748 collation.*
+*Grok vision pass — validate against handrit.is high-res facsimile.*

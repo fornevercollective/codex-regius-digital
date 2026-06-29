@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Fafnismál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 7,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T05:18:46.205913+00:00"
+  },
   "processed_at": "2026-06-29T01:19:24.651200+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:40:27.245209+00:00",

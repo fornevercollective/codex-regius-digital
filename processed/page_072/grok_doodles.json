@@ -1,0 +1,75 @@
+{
+  "page": 72,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-072-01",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Centered three-lobed trefoil flourish with central stem and three curving arms each terminating in a small circle or dot; executed in the same dark iron-gall ink as the text.",
+      "scholarly_note": "Pen trial or decorative tailpiece added after the main text block was completed. Common space-filler or quill test in Icelandic Gothic manuscripts of the period; the circular terminals give a schematic, non-figurative appearance rather than a clear face or animal."
+    },
+    {
+      "id": "M-072-02",
+      "region": "left margin",
+      "type": "other",
+      "description": "Large, bold X-shaped mark with an additional hooked or curved stroke, positioned immediately left of the text line beginning 'gaman runa' and spanning roughly three line heights.",
+      "scholarly_note": "Marginal sign in the main scribal ink and ductus. Likely marks a textual division (between Helreið Brynhildar and Dráp Niflunga) or draws attention to the following stanza; may also indicate a point for correction or reference."
+    },
+    {
+      "id": "M-072-03",
+      "region": "right margin",
+      "type": "pen_trial",
+      "description": "At least two small, isolated instances of the letter 'k.' written outside the ruled text block in the lower half of the page, detached from the main column.",
+      "scholarly_note": "Pen trials by the scribe testing quill or ink flow. The letter forms closely resemble the 'k' component of the ubiquitous 'ok' (and) abbreviation used throughout the poetic text; placement indicates stray or practice strokes rather than deliberate annotation."
+    },
+    {
+      "id": "M-072-04",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Prominent irregular brownish stain occupying the lower-left corner, extending right along the bottom margin and slightly upward into the lower text area; darker at the very edge.",
+      "scholarly_note": "Classic age or water stain from handling and storage. No significant text loss or ink degradation is visible beneath it; consistent with the codex's documented history of use and multiple rebindings."
+    },
+    {
+      "id": "M-072-05",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Small numerals '43.' written in a later hand in the top right corner, above the main text block.",
+      "scholarly_note": "Post-medieval foliation or pagination mark (likely 17th–19th century). Not original to the c. 1270 production; reflects later cataloguing or binding history."
+    },
+    {
+      "id": "M-072-06",
+      "region": "right margin",
+      "type": "scratch",
+      "description": "Faint linear abrasion or crease running roughly vertically or diagonally in the right margin area, visible under raking light in processed images.",
+      "scholarly_note": "Minor parchment surface damage from repeated flexing, binding pressure, or handling; does not penetrate deeply or affect text legibility."
+    },
+    {
+      "id": "M-072-07",
+      "region": "right margin",
+      "type": "other",
+      "description": "Irregular worn edges with small notches and fraying along the right and bottom of the leaf.",
+      "scholarly_note": "Cumulative edge attrition over 750+ years from leaf-turning, binding, and trimming. The right margin shows more pronounced wear than the left."
+    },
+    {
+      "id": "M-072-08",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Enlarged opening 'S' with long descending stem extending down the left side of the text block; a second large 'S' appears lower on the page for the start of the second poem.",
+      "scholarly_note": "Standard mise-en-page decoration by the main scribe. The elongated stem of the first initial occupies marginal space and visually structures the transition between poems."
+    }
+  ],
+  "scratches": [
+    "Faint linear abrasion/crease in right margin",
+    "Minor surface texture variations within the lower-left stain area"
+  ],
+  "damage_notes": [
+    "Brownish age/water stain in lower left corner and bottom margin with no major text loss",
+    "Worn and irregular right and bottom edges with small notches",
+    "Minor cockling and natural parchment grain visible across the leaf",
+    "No holes, piercings, or significant losses in the writing surface"
+  ],
+  "summary": "Page 72 contains the conclusion of Helreið Brynhildar and opening of Dráp Niflunga in a clear, compact Gothic book hand on well-prepared calf vellum. Notable non-text features are a prominent three-lobed pen flourish in the lower margin, a large X-shaped marginal sign in the left margin, isolated 'k.' pen trials in the right margin, a substantial brownish stain in the lower left corner, later foliation '43.' at top right, and typical edge wear and faint scratches. The page is otherwise clean with no figurative drawings, interlinear additions, major scribal corrections, or offset ink visible.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_072/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:43:53.620166+00:00"
+}

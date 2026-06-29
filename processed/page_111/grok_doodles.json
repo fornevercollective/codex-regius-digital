@@ -1,0 +1,49 @@
+{
+  "page": 111,
+  "confidence": "low",
+  "items": [
+    {
+      "id": "M-111-01",
+      "region": "text block",
+      "type": "stain",
+      "description": "Heavy, uniform dark charcoal-to-black discoloration across the fore-edges of the majority of the ~80–100 visible leaves.",
+      "scholarly_note": "Overall edge toning consistent with cumulative soiling, smoke or water exposure, or iron-gall ink migration in historic vellum; in this rendering the saturation appears deliberate and artistic rather than localized environmental staining typical of the real Codex Regius."
+    },
+    {
+      "id": "M-111-02",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Continuous undulating, wavy tears and jagged fore-edge profile running the full vertical height of the text block, with pronounced scalloping and rippling.",
+      "scholarly_note": "Indicates advanced mechanical edge wear and cockling. Such extensive irregular fore-edge loss is more severe than typical 13th-century Icelandic manuscripts in institutional care but could result from centuries of handling, rebinding, or poor storage."
+    },
+    {
+      "id": "M-111-03",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Multiple fine linear light-colored streaks and silvery highlights along torn edges where inner leaf layers or fiber creases are exposed.",
+      "scholarly_note": "These streaks may represent surface scoring, delamination, or creasing; they read visually as scratches or abrasion lines on the dark edges. No discrete pen trials or intentional marks are present."
+    },
+    {
+      "id": "M-111-04",
+      "region": "text block",
+      "type": "other",
+      "description": "Frayed, fragmented lower fore-edge zone with multiple small losses, irregular notches, protruding fiber tufts, and shortened leaf profiles.",
+      "scholarly_note": "More acute attrition and embrittlement concentrated toward the tail; consistent with abrasion from shelving, impact damage, or repeated humidity cycling causing differential movement and tearing of the leaves."
+    }
+  ],
+  "scratches": [
+    "Continuous wavy/scalloped fore-edge tears spanning full height of the text block",
+    "Jagged notches and irregular projections on multiple leaves, especially lower third",
+    "Linear fiber separations and white/silvery streaks on torn dark edges"
+  ],
+  "damage_notes": [
+    "Severe cockling and rippling of leaves visible throughout the fore-edge profile",
+    "Differential leaf protrusion indicating uneven wear, swelling, or possible past interventions",
+    "Extensive material loss and fraying concentrated at the lower fore-edge",
+    "Heavy overall dark toning of exposed edges; no distinct offset ink from written surfaces visible",
+    "Thick white outer boards present; inner edges of boards and first/last leaves show minor irregularity but no discrete marks"
+  ],
+  "summary": "The supplied image is a fore-edge profile view of a multi-leaf text block bound between thick white boards, not a standard photograph of the recto or verso of manuscript page 111. The only visible surfaces are the damaged outer edges of the leaves, which exhibit heavy uniform dark discoloration, pronounced wavy tearing and cockling along the full height, and more severe fraying and material loss in the lower section. No marginalia, doodles, pen trials, faces, animals, decorative marks, or scribal corrections are observable because the page surfaces and their margins are not shown. The features recorded document severe physical degradation of the fore-edges rather than intentional paleographic additions.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_111/clean_white.jpg",
+  "surveyed_at": "2026-06-29T06:54:37.395113+00:00"
+}

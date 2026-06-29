@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:41.415870+00:00",
+  "timestamp": "2026-06-29T04:30:04.786103+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 95.51,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6304,
+      "raw_blur": 742.88,
+      "enhanced_blur": 938.31,
+      "raw_contrast": 70.97,
+      "enhanced_contrast": 65.04,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.6623,
+      "raw_blur": 742.88,
+      "enhanced_blur": 2004.81,
+      "raw_contrast": 70.97,
+      "enhanced_contrast": 74.83,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "LTT RNET EET ETP ET\n10   20   30 40 50   60   70   80   90 100.110 120 130 140 150\nTN\n\n|\n\n|\n\n|\n\n|\n\n|",
     "text_preview": "LTT RNET EET ETP ET\n10   20   30 40 50   60   70   80   90 100.110 120 130 140 150\nTN\n\n|\n\n|\n\n|\n\n|\n\n|",
     "char_count": 100,
     "error": null

@@ -28,9 +28,17 @@ if [[ -d "${ROOT}/docs" ]]; then
   mkdir -p "${DEPLOY}/docs"
   cp -r "${ROOT}/docs/." "${DEPLOY}/docs/"
 fi
-if [[ -f "${ROOT}/exports/manifest.json" ]]; then
+if [[ -d "${ROOT}/exports" ]]; then
   mkdir -p "${DEPLOY}/exports"
-  cp "${ROOT}/exports/manifest.json" "${DEPLOY}/exports/"
+  cp "${ROOT}/exports/manifest.json" "${DEPLOY}/exports/" 2>/dev/null || true
+  # Chunked book zips only (each ≤95 MB); skip legacy monolithic archives
+  for z in "${ROOT}"/exports/codex_regius_*.zip; do
+    [[ -f "${z}" ]] || continue
+    size=$(stat -f%z "${z}" 2>/dev/null || stat -c%s "${z}" 2>/dev/null)
+    if (( size < 100 * 1024 * 1024 )); then
+      cp "${z}" "${DEPLOY}/exports/"
+    fi
+  done
 fi
 
 touch "${DEPLOY}/.nojekyll"

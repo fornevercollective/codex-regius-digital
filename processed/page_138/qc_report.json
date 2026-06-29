@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:42.674947+00:00",
+  "timestamp": "2026-06-29T04:31:25.105227+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 95.35,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6325,
+      "raw_blur": 429.01,
+      "enhanced_blur": 513.35,
+      "raw_contrast": 75.51,
+      "enhanced_contrast": 62.05,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5979,
+      "raw_blur": 429.01,
+      "enhanced_blur": 2014.66,
+      "raw_contrast": 75.51,
+      "enhanced_contrast": 78.52,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "mm *|    U    U   40   20   60   70  80  90 100 110 120/ 130 140 1\naa MTT ATT TTTGLGE\n\n                                Ma\n\n|\n\n|\n\nÅ\n\n1\n\n4\n\n|\n\n|\n\nF                                                   |\n\n|\n\n|\n\n4",
     "text_preview": "mm *|    U    U   40   20   60   70  80  90 100 110 120/ 130 140 1\naa MTT ATT TTTGLGE\n\n                                Ma\n\n|\n\n|\n\nÅ\n\n1\n\n4\n\n|\n\n|\n\nF                                                   |\n\n|\n\n|\n\n4",
     "char_count": 206,
     "error": null

@@ -16,7 +16,8 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Hamðismál",
   "original_text": "",
@@ -30,5 +31,7 @@
   "scholarly_assessment_at": "2026-06-29T03:22:42.140948+00:00",
   "poem_full": "Hamðismál",
   "poem_section": "st. 21 – prose conclusion",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:37:41.134023+00:00"
 }

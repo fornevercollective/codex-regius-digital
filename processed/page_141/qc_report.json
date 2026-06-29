@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:04:49.922002+00:00",
+  "timestamp": "2026-06-29T04:35:21.441679+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 63.1,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.1876,
+      "raw_blur": 1197.41,
+      "enhanced_blur": 306.97,
+      "raw_contrast": 37.46,
+      "enhanced_contrast": 46.59,
+      "ssim_ok": false,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.1758,
+      "raw_blur": 1197.41,
+      "enhanced_blur": 1591.62,
+      "raw_contrast": 37.46,
+      "enhanced_contrast": 61.24,
+      "ssim_ok": false,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "[  fl    (bl          I          ARAARRA AAA A IANA I A ih | | I di 1 þ |   FETTTTT,    ||    TTT    1   |      TTT  1\nre        Go Re          GE a ae se\nde       ey Á    +    3   “   | a  Å       2,   ME     å    ge         ‘   *                           Vin\nMSG GAME < aid >     eu\n> NÆR        & AA       =      2         i        4           eh   |\nP   a      å       på     %    =            Ms ey                   “ AN             A          3                      Ar\n;                  AR      HV                           |             |          iH\n                    Leg         re?   e            |   7          Hy\nå                                          UP             a-     es      í                                     på         Å   y\ní                                            EA \\  ea >                  ef  Pa              å                  å     $        ed        |\nÁ                      JÅ     |              la  OK Ui\n>       . fe     }         |          }\nNe     Ven          Øk\"         VM\n                  madame             N\nå     í                 f                                               á  i           p 3                     í }\ni                                             Nm                 |     OG\n;                 gr     á          Í                -    SJ]\nå                               ,  “Se  é  3    >       Ne         “2  å  i  å   sé Å ;\nE      =.                                  mm     hl    art PA    EE xs sn",
     "text_preview": "[  fl    (bl          I          ARAARRA AAA A IANA I A ih | | I di 1 þ |   FETTTTT,    ||    TTT    1   |      TTT  1\nre        Go Re          GE a ae se\nde       ey Á    +    3   “   | a  Å       2,   ME     å    ge         ‘   *                           Vin\nMSG GAME < aid >     eu\n> NÆR        & AA       =      2         i        4           eh   |\nP   a      å       på     %    =            Ms ey                   “ AN             A          3                      Ar\n;                  AR  ",
     "char_count": 1479,
     "error": null

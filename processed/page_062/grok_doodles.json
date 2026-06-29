@@ -1,0 +1,68 @@
+{
+  "page": 62,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-062-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Numeral '53.' inscribed in the upper right corner above the text block.",
+      "scholarly_note": "Post-medieval foliation or pagination mark added during later cataloguing, rebinding, or Danish/Icelandic curation phases (likely 17th–19th c.). Not original to the c. 1270 production."
+    },
+    {
+      "id": "M-062-02",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Large capital 'C' opening a textual unit, with a small circular dot or oculus immediately to its upper left.",
+      "scholarly_note": "Semi-decorated initial marking a new section or stanza within Sigrdrífumál. The adjacent dot may be ornamental, a layout guide, or a minor separate mark; such letters commonly project into the margin for visual hierarchy."
+    },
+    {
+      "id": "M-062-03",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Small stylized ship or longboat doodle composed of multiple parallel curved lines forming a pointed hull with several strakes or oar-like strokes and a raised end.",
+      "scholarly_note": "Typical medieval pen doodle. Ship motifs recur in Norse manuscripts, reflecting seafaring culture or serving as idle pen practice. Executed in iron-gall ink consistent with the main text or a similar pen."
+    },
+    {
+      "id": "M-062-04",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Large flourished calligraphic 'S' with extensions, accompanied by a small cross or 'x', dots, and the adjacent letter sequence 'Speer.'",
+      "scholarly_note": "Pen trials testing quill nib, ink flow, and stroke control, commonly placed in margins after finishing a page. The 'S' permits sweeping curves; 'Speer.' may represent a word fragment, name practice, or nonsense sequence."
+    },
+    {
+      "id": "M-062-05",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Irregular dark brown patches and spots concentrated in the lower left margin and along the bottom edge, including at least two distinct areas.",
+      "scholarly_note": "Age-related discoloration, foxing, or localized water/liquid staining combined with natural vellum degradation and possible iron-gall ink interaction. Common on exposed margins of 13th-century Icelandic calfskin manuscripts."
+    },
+    {
+      "id": "M-062-06",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Small solid black diamond- or lozenge-shaped mark near the right edge of the lower margin.",
+      "scholarly_note": "Interpretation uncertain; geometric regularity suggests possible deliberate marker (reference, quire, or ownership symbol), ink drop, or later annotation rather than purely accidental damage."
+    },
+    {
+      "id": "M-062-07",
+      "region": "lower margin",
+      "type": "scratch",
+      "description": "Faint linear abrasions and surface scratches visible across the lower margin, especially near stained areas and the vellum grain.",
+      "scholarly_note": "Cumulative handling wear and/or preparation marks from the parchmenter's scraping knife. The hair side of vellum is more prone to such surface texture and abrasion."
+    }
+  ],
+  "scratches": [
+    "faint linear abrasions in lower margin near stains and boat doodle",
+    "general hair-side surface wear and follicle patterns across vellum"
+  ],
+  "damage_notes": [
+    "brown staining patches in lower left margin and bottom edge",
+    "irregular, worn bottom edge of the leaf with minor nicks",
+    "small geometric black mark in lower right margin",
+    "typical edge wear and minor cockling consistent with 750+ years of use"
+  ],
+  "summary": "Page 62 (marked 53.) preserves a section of Sigrdrífumál in a professional Gothic book hand on well-prepared calf vellum. The text block is clean and uniform with no visible interlinear corrections, erasures, or scribal interventions. Marginal activity is confined to the lower margin, featuring a ship doodle, pen trials with a flourished 'S' and 'Speer.', brown age stains, a small diamond mark, and faint scratches. A later '53.' foliation appears in the upper right. No faces, animals, holes, or offset ink are evident. The surface condition is typical for a well-used 13th-century Icelandic manuscript.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_062/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:23:51.163935+00:00"
+}

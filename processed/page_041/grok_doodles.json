@@ -1,0 +1,97 @@
+{
+  "page": 41,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-041-01",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Large flourished initial capital with elongated vertical stem, loop, and descender extending leftward from the text block into the margin, executed in the same black iron-gall ink as the main text",
+      "scholarly_note": "Decorative initial (likely for stanza or section opening, e.g. 'Sertu...') marking textual division. The exaggerated extension into the margin is characteristic of the main Codex Regius scribe's Gothic book hand for visual hierarchy in Eddic verse."
+    },
+    {
+      "id": "M-041-02",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Cluster of thin, irregular ink strokes, loops, short dashes, and a small hooked or crossed flourish immediately below the final line of text; includes faint '32.' near left",
+      "scholarly_note": "Classic probationes pennae (pen trials) testing nib, ink flow, or pressure after finishing the page. Common in 13th-c. Icelandic manuscripts; the numeral '32.' is likely a later foliation or reference mark."
+    },
+    {
+      "id": "M-041-03",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Small abstract semi-figural ink sketch of connected strokes forming a crude shape (possible rudimentary figure, bird-like form, or geometric doodle) adjacent to the pen trials at bottom center-right",
+      "scholarly_note": "Ambiguous informal marginal drawing. May represent a deliberate (if unskilled) doodle by scribe or medieval reader, or simply an extension of pen trials. No clear zoomorphic or facial iconography is identifiable; similar casual marks appear sporadically in the codex."
+    },
+    {
+      "id": "M-041-04",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Large irregular mottled brown discoloration across much of the lower margin and extending under the last text lines, with darker patches on left and right",
+      "scholarly_note": "Composite age staining (foxing, handling, possible liquid or wax contact). Typical for calf vellum after 750+ years; does not seriously impair legibility but records the manuscript's post-production history."
+    },
+    {
+      "id": "M-041-05",
+      "region": "left margin",
+      "type": "stain",
+      "description": "Scattered medium and small brown spots and patches along the left edge, some overlapping the area of the large initial",
+      "scholarly_note": "Foxing and environmental staining; some spots may relate to localized iron-gall corrosion or later storage conditions. Provides physical evidence of the codex's movement and use prior to modern housing."
+    },
+    {
+      "id": "M-041-06",
+      "region": "text block",
+      "type": "stain",
+      "description": "Multiple small brown spots and discolorations within and immediately adjacent to several lines of text, especially lower half",
+      "scholarly_note": "Stains post-dating the writing in places; minor and non-destructive to the iron-gall text. Consistent with overall page condition."
+    },
+    {
+      "id": "M-041-07",
+      "region": "text block",
+      "type": "correction",
+      "description": "Localized areas of thicker or overlapping ink strokes, slightly compressed spacing, or retouched letter forms within multiple text lines",
+      "scholarly_note": "Evidence of scribal self-correction or contemporary adjustment during copying. The main hand of Codex Regius occasionally corrected eyeskip or harmonized with the exemplar; collation with AM 748 I 4to or other witnesses would confirm specific readings."
+    },
+    {
+      "id": "M-041-08",
+      "region": "lower margin",
+      "type": "scratch",
+      "description": "Fine linear abrasions, hairline surface marks, and shallow creases running across the lower margin and into the text area",
+      "scholarly_note": "Mechanical wear from use, turning, or binding pressure rather than deliberate erasure. Hair side of vellum is more susceptible; these do not affect textual integrity."
+    },
+    {
+      "id": "M-041-09",
+      "region": "lower margin",
+      "type": "other",
+      "description": "One or more small dark circular or irregular spots consistent with punctures, thin spots, or natural defects in the parchment",
+      "scholarly_note": "Common minor vellum defects (skin flaws, possible insect damage, or later perforations). Scribes generally worked around such areas; no text loss on this page."
+    },
+    {
+      "id": "M-041-10",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Numeral '32.' written at top left, positioned left of or at the head of the first line of text",
+      "scholarly_note": "Foliation, column, or section marker. Likely added after the original production (medieval or early modern); Codex Regius carries multiple layers of such reference numbers for scholarly use."
+    },
+    {
+      "id": "M-041-11",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Brown edge discoloration and scattered spots along the right margin where text lines approach the edge",
+      "scholarly_note": "Age and handling stains; the narrow right margin shows more wear than the left, typical of a bound manuscript."
+    }
+  ],
+  "scratches": [
+    "Multiple fine hairline abrasions and surface scratches concentrated in lower half and margins",
+    "Shallow creases and possible faint ruling or pressure marks visible across vellum under raking light"
+  ],
+  "damage_notes": [
+    "Extensive mottled brown age staining, heaviest in lower margin and along all edges; classic long-term vellum degradation",
+    "Irregular, worn vellum perimeter with minor losses and cockling, especially bottom and right",
+    "Minor surface cockling and undulations throughout",
+    "Localized ink thickening, fading, and possible micro-corrosion from iron-gall ink",
+    "Small number of pinpoint holes/thin spots with no major text lacunae or repairs visible on this page"
+  ],
+  "summary": "Page 41 of Codex Regius (GKS 2365 4to) contains a dense, legible block of Helgakviða Hundingsbana I in the main scribe's Gothic book hand on well-prepared calf vellum. Notable non-text features are confined to a large flourished initial with marginal extension (left), extensive age-related brown staining (especially lower third and edges), a small cluster of pen trials plus one ambiguous abstract doodle in the lower margin, minor surface scratches and vellum defects, and limited evidence of scribal corrections or retouchings inside the text block. There are no extended marginal glosses, clear zoomorphic or facial drawings, interlinear additions, or major decorative programs. The page is typical of the codex's overall condition: serviceable with characterful wear but fully readable.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_041/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:44:56.323606+00:00"
+}

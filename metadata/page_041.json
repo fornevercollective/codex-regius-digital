@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Helgakviða Hundingsbana I",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 11,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T04:44:56.323606+00:00"
+  },
   "processed_at": "2026-06-29T01:19:20.943057+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:13:42.099307+00:00",

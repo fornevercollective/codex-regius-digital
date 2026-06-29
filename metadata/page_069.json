@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Sigurðarkviða III",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 7,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T05:38:11.468446+00:00"
+  },
   "processed_at": "2026-06-29T01:19:26.441596+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T02:53:53.279148+00:00",

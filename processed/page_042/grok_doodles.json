@@ -1,0 +1,74 @@
+{
+  "page": 42,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-042-01",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Large ornate capital 'P' with elaborate pen-flourished stem, multiple loops, knots and scrollwork extending significantly into the left margin; the bowl contains a small enclosed oval with a dot and adjacent curves suggestive of a stylized profile head or eye.",
+      "scholarly_note": "Inhabited or drollery-style initial typical of high-grade 13th-c. Icelandic Gothic book hands; the anthropomorphic suggestion in the penwork is a common decorative motif at major textual divisions, though here largely abstract and calligraphic."
+    },
+    {
+      "id": "M-042-02",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Small red-ink capital (visually 'o' or 'E') standing at the left edge of a line in the upper text block.",
+      "scholarly_note": "Rubricated initial used for visual hierarchy, marking a stanza or section opening; standard in Codex Regius for poetic articulation."
+    },
+    {
+      "id": "M-042-03",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Secondary calligraphic initial with long thin descending stem terminating in a small loop or hook, positioned roughly two-thirds down the page.",
+      "scholarly_note": "Marks a subordinate textual division; graduated decoration hierarchy with simpler execution than the primary initial."
+    },
+    {
+      "id": "M-042-04",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '33.' in dark ink at the upper right corner, outside the text block.",
+      "scholarly_note": "Post-medieval foliation or pagination, added during rebinding or cataloguing (17th–19th c. range); not original to the scribe."
+    },
+    {
+      "id": "M-042-05",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Simple Arabic numeral '3' centered directly below the text block near the bottom edge.",
+      "scholarly_note": "Quire, leaf or binding signature added to guide assembly or rebinding."
+    },
+    {
+      "id": "M-042-06",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Large irregular loss of parchment at the bottom-right corner with jagged torn edge; damage cuts into the final two lines of text.",
+      "scholarly_note": "Post-production physical damage (use, storage or pest); creates a textual lacuna on this leaf."
+    },
+    {
+      "id": "M-042-07",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Darkened patches and age discoloration along the right fore-edge and lower right quadrant of the vellum, with additional smaller spots scattered near edges.",
+      "scholarly_note": "Typical natural aging, soiling and minor iron-gall effects on exposed margins of a well-used calf vellum leaf."
+    },
+    {
+      "id": "M-042-08",
+      "region": "lower margin",
+      "type": "scratch",
+      "description": "Fine linear abrasions and surface marks near the damaged corner and around the numeral '3'; additional faint vertical line visible along right edge of text block.",
+      "scholarly_note": "Handling wear, binding friction or minor surface abrasion; consistent with hair-side wear patterns on prepared vellum."
+    }
+  ],
+  "scratches": [
+    "Fine linear abrasions near lower-right loss and around bottom numeral '3'",
+    "Faint vertical handling line or crease along right edge of text block"
+  ],
+  "damage_notes": [
+    "Large irregular vellum loss at bottom-right corner truncating final lines of text",
+    "Jagged torn and frayed lower margin with significant edge loss",
+    "General edge wear, minor cockling and localized darkening of vellum consistent with age and use"
+  ],
+  "summary": "Page 42 (Helgakviða Hundingsbana I) is largely clean with minimal marginal activity. The primary features of interest are two left-margin decorated initials—the upper a large flourished 'P' whose penwork evokes a small profile head or mask, the lower a simpler stem initial—plus one rubricated capital within the text block. Later non-scribal additions are the upper-right foliation '33.' and centered lower numeral '3'. The most striking physical characteristic is substantial post-medieval damage and loss at the lower-right corner, which removes portions of the final lines; margins otherwise show only typical age staining, edge wear and faint surface abrasions with no separate doodles, pen trials, animals, corrections or annotations visible.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_042/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:46:51.400811+00:00"
+}

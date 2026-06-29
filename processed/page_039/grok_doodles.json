@@ -1,0 +1,41 @@
+{
+  "page": 39,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-039-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '30' written in the upper left corner, positioned above and to the left of the text block.",
+      "scholarly_note": "Added foliation or pagination marker, not original to the 13th-century production of Codex Regius."
+    },
+    {
+      "id": "M-039-02",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Thin, short, diagonal reddish-brown linear ink mark located immediately adjacent to the right edge of the text block, approximately two-thirds of the way down the page.",
+      "scholarly_note": "Stray ink stroke or minor stain; not aligned with the text or any correction. Color suggests possible oxidation of iron-gall ink or a separate application."
+    },
+    {
+      "id": "M-039-03",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Small curved ink stroke resembling an open 'C' or shallow parenthesis shape in the lower-left area of the bottom margin.",
+      "scholarly_note": "Probatio pennae (pen trial). Common at the foot of pages where scribes tested quill or ink flow after completing a stint."
+    },
+    {
+      "id": "M-039-04",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Cluster of abstract looped and curved ink strokes in the center of the lower margin, including at least one taller vertical element with terminal curves and one or more smaller adjacent curves.",
+      "scholarly_note": "Pen trials or casual doodles. Such marks are typical in Icelandic manuscripts and may represent the same scribe or a later user testing the pen or occupying blank space."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "No holes, tears, or significant surface abrasion visible. Parchment is well-preserved with even margins and no notable discoloration beyond the minor ink mark on the right."
+  ],
+  "summary": "Page 39 of Codex Regius shows a clean, single-column text block in Gothic script with no visible scribal corrections, interlinear additions, erasures, or marginal glosses. The only notable non-textual marks are a modern foliation numeral in the upper margin, one small stray reddish ink mark beside the text block on the right, and a small group of pen trials in the lower margin. The page surface is otherwise remarkably free of marginalia, doodles, stains, scratches, or damage, consistent with the high-quality production and good state of preservation of this Eddic codex.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_039/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:41:01.280988+00:00"
+}

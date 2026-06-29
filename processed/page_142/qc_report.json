@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:04:51.974176+00:00",
+  "timestamp": "2026-06-29T04:36:46.134849+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "'Bið' → 'bið'"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 61.73,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.1938,
+      "raw_blur": 2052.14,
+      "enhanced_blur": 640.08,
+      "raw_contrast": 37.55,
+      "enhanced_contrast": 52.78,
+      "ssim_ok": false,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.1821,
+      "raw_blur": 2052.14,
+      "enhanced_blur": 1945.91,
+      "raw_contrast": 37.55,
+      "enhanced_contrast": 66.68,
+      "ssim_ok": false,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "RIÐ    |   á\n— va  | Boe sg  > a       |          <\n     — WF  |    Á eke    Ei  ‘a ‘1 tested              4   oN.\n=                é  a  tl,     N   Gå il                     en\nVF) AS s =F        A        el dá Å kr aN                           å\nAer  =r             å  TE  fs ga ae       }               a\nCa    er 2\nER  ær       |\n>    =          \\        |       å    SEG      |               )\n1 o E         Å)       RRR Å\nSN gå Pr =          á          sið    i    Å  | Pili ye   ;         å    ~\nVA        =}      ”       4 28           Á        4        '         ate                   =\n|   N fe of                 w          A  4  ? hae  VE aa\nTN        =          øv     7     TEN   A   p  Bið   a            ;        Á\nwel E         ge  aa a)                              å\nERIE        ok     A Ales Egg OE           |            is\nad =        aoe?             | has   ee  eð ye                   j\ná       ==         A    ‘y Y              |  MÅ    N   BER Í    Va                       i                  PY\ngen    oF                     ka  4 Er ia ys!   vi vi  TU GPL                |\nA    =      Á         lær ls                  &\nOE         og $a\"         Å or  VÆRE AT a          í      dj      A\n of         X             br GEN                  y\nE    = %                 i     KN     ESS NE       IG               |\ner =                        a    SA     DELT\nee   %        1                    os,       HAN   aly     =                    -\n= =   |           i PV ge A Eg    ot         GR\n==      Sr;                   E Ne      yy he   I   vet               Fl\n=      |             ð   ØL   0 EG     Ni    7           H\nÁ          = Á CS oc ie  = -\npr                                   =   ‘        song NE   em     Ge    å          3 TE\nps! pr     —             . A  tty   GP tg    GN Se    Á       .       å\nREE        a      ‘        NR EJ Kr ne  NE",
     "text_preview": "RIÐ    |   á\n— va  | Boe sg  > a       |          <\n     — WF  |    Á eke    Ei  ‘a ‘1 tested              4   oN.\n=                é  a  tl,     N   Gå il                     en\nVF) AS s =F        A        el dá Å kr aN                           å\nAer  =r             å  TE  fs ga ae       }               a\nCa    er 2\nER  ær       |\n>    =          \\        |       å    SEG      |               )\n1 o E         Å)       RRR Å\nSN gå Pr =          á          sið    i    Å  | Pili ye   ;         å  ",
     "char_count": 1880,
     "error": null
@@ -93,10 +103,8 @@
   "corrections": {
     "raw_text_preview": "RIÐ    |   á\n— va  | Boe sg  > a       |          <\n     — WF  |    Á eke    Ei  ‘a ‘1 tested              4   oN.\n=                é  a  tl,     N   Gå il                     en\nVF) AS s =F        A        el dá Å kr aN                           å\nAer  =r             å  TE  fs ga ae       }        ",
     "corrected_text_preview": "RIÐ    |   á\n— va  | Boe sg  > a       |          <\n     — WF  |    Á eke    Ei  ‘a ‘1 tested              4   oN.\n=                é  a  tl,     N   Gå il                     en\nVF) AS s =F        A        el dá Å kr aN                           å\nAer  =r             å  TE  fs ga ae       }        ",
-    "issue_count": 28,
-    "applied_fixes": [
-      "'Bið' → 'bið'"
-    ]
+    "issue_count": 27,
+    "applied_fixes": []
   },
   "issues": [
     {
@@ -341,15 +349,6 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
-    },
-    {
-      "severity": "warning",
-      "code": "WORD_NORMALIZATION",
-      "message": "'Bið' → 'bið'",
-      "suggestion": "bið",
-      "etymology": "Verb 'ask, bid' — formulaic request for hearing in Eddic openings.",
-      "citation": "Neckel & Kuhn 1983",
-      "auto_fixable": true
     }
   ],
   "citations": [

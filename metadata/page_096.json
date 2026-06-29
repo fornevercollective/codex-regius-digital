@@ -26,7 +26,7 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:32.007981+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:32:34.773755+00:00",
+  "qc_at": "2026-06-29T06:43:48.889324+00:00",
   "qc_issue_count": 14,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.087473+00:00",
@@ -34,5 +34,5 @@
   "poem_section": "st. 12 – prose",
   "poem_type": "heroic",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T03:32:34.767270+00:00"
+  "grok_enhanced_at": "2026-06-29T06:43:48.882671+00:00"
 }

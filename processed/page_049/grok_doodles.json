@@ -1,0 +1,90 @@
+{
+  "page": 49,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-049-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Small dark mark or foliation indicator at top left corner above text block.",
+      "scholarly_note": "Likely modern or early foliation/quire mark added post-production; Codex Regius received later numbering and annotations during its Danish royal and Icelandic institutional history."
+    },
+    {
+      "id": "M-049-02",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Diffuse irregular brownish staining, heaviest in lower right quadrant extending from text block edge into margin.",
+      "scholarly_note": "Classic age-related discoloration on calf vellum from handling, moisture, oxidation, and possible grease or dirt accumulation over 750+ years."
+    },
+    {
+      "id": "M-049-03",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Small isolated dark specks and gradual darkening along the outer edge of the leaf.",
+      "scholarly_note": "Ink flecks (accidental from quill) or later flyspecks; edge darkening from repeated thumbing and exposure when the codex was unbound or loosely bound."
+    },
+    {
+      "id": "M-049-04",
+      "region": "left margin",
+      "type": "other",
+      "description": "Narrow gutter with visible rubbing, slight cockling, and minor surface abrasion near the binding edge.",
+      "scholarly_note": "Mechanical wear from centuries of opening and closing; no added marginal text or glosses."
+    },
+    {
+      "id": "M-049-05",
+      "region": "text block",
+      "type": "correction",
+      "description": "Multiple letters with retraced or thickened strokes (ascenders, minims, verticals of h/k/l) and occasional overwritten forms within words.",
+      "scholarly_note": "Scribal self-corrections by the main hand during copying; typical of careful but not error-free work in iron-gall ink. No large erasures, expunction dots, or interlinear additions visible."
+    },
+    {
+      "id": "M-049-06",
+      "region": "text block",
+      "type": "stain",
+      "description": "Scattered tiny dark spots and occasional small ink blots between lines and near letter forms.",
+      "scholarly_note": "Pen trials or accidental drops from the scribe's quill; a few may be later accretions or localized ink corrosion products."
+    },
+    {
+      "id": "M-049-07",
+      "region": "text block",
+      "type": "other",
+      "description": "Faint ghosting or show-through of letters from the verso visible in interlinear spaces and some blank areas.",
+      "scholarly_note": "Minor bleed-through common on thinner vellum sheets; does not impair legibility of the primary text."
+    },
+    {
+      "id": "M-049-08",
+      "region": "lower margin",
+      "type": "scratch",
+      "description": "Fine linear lighter streaks and surface texture variations across the vellum.",
+      "scholarly_note": "Abrasions from use, storage, or original parchment preparation; consistent with hair-side handling."
+    },
+    {
+      "id": "M-049-09",
+      "region": "right margin",
+      "type": "scratch",
+      "description": "Irregular worn fore-edge with small nicks, linear wear, and loss of surface along the natural leaf edge.",
+      "scholarly_note": "Cumulative mechanical damage to the outer margin; no evidence of deliberate trimming or figurative marks."
+    },
+    {
+      "id": "M-049-10",
+      "region": "upper margin",
+      "type": "stain",
+      "description": "Mild overall yellow-brown patina with localized darker patches near the top edge.",
+      "scholarly_note": "Cumulative light exposure, dust, and oxidation of the vellum and residual surface treatments."
+    }
+  ],
+  "scratches": [
+    "Fine linear abrasions and lighter surface streaks in lower half and right margin.",
+    "Edge wear and nicks along right fore-edge and top margin.",
+    "Minor cockling and localized creasing, especially lower right."
+  ],
+  "damage_notes": [
+    "Typical edge wear and irregularity at top, right, and bottom of the leaf from use and original preparation.",
+    "Prominent diffuse staining in lower right and bottom margin; scattered smaller stains elsewhere.",
+    "No through-holes, major tears, or losses within the writing area.",
+    "Slight variations in iron-gall ink density and minor fading in places; vellum remains largely intact and legible."
+  ],
+  "summary": "Page 49 (Helgakviða Hundingsbana II) is a plain, functional leaf with a dense single-column text block in the main Gothic book hand and narrow, largely empty margins containing no figurative doodles, faces, animals, pen trials, decorative flourishes, or added text. Visible non-textual features are almost entirely physical: age-related diffuse and spotty brownish staining (especially lower right), fine surface scratches and abrasions, edge wear on three sides, scattered small ink flecks, faint verso show-through, and several instances of minor scribal self-correction via retraced or overwritten letters inside the text block. The leaf exhibits the expected condition of a well-prepared but heavily consulted c. 1270 Icelandic calfskin manuscript with no significant marginalia or decoration on this folio.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_049/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:57:54.890602+00:00"
+}

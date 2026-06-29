@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:39.020109+00:00",
+  "timestamp": "2026-06-29T04:27:12.091694+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 96.06,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5307,
+      "raw_blur": 858.71,
+      "enhanced_blur": 849.39,
+      "raw_contrast": 68.53,
+      "enhanced_contrast": 68.84,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.5722,
+      "raw_blur": 858.71,
+      "enhanced_blur": 816.15,
+      "raw_contrast": 68.53,
+      "enhanced_contrast": 83.89,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "TTT TTT   LAUNA NUNA N NNA VANDANN NN GRUNNUR RNA UN LÖNDUN           á\n30 40 50 60  70 80 90 100.110 120 130 140 150    Cy\nSSRS aa,\n1    å\n»\n |\n'  “\n\\ å                                                ,\nÅ",
     "text_preview": "TTT TTT   LAUNA NUNA N NNA VANDANN NN GRUNNUR RNA UN LÖNDUN           á\n30 40 50 60  70 80 90 100.110 120 130 140 150    Cy\nSSRS aa,\n1    å\n»\n |\n'  “\n\\ å                                                ,\nÅ",
     "char_count": 204,
     "error": null

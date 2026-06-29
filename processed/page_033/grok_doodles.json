@@ -1,0 +1,57 @@
+{
+  "page": 33,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-033-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '24' at the top left of the text area.",
+      "scholarly_note": "Modern foliation or pagination mark added after the 13th century, likely during 17th–19th century handling in Denmark or by early modern scholars."
+    },
+    {
+      "id": "M-033-02",
+      "region": "right margin",
+      "type": "other",
+      "description": "Small 'q.' (q with point) placed outside the text block in the right margin, roughly mid-to-lower page.",
+      "scholarly_note": "Marginal sigla or reference mark. In Eddic codices such letters commonly flag stanza onsets, speaker changes (esp. in dialogue poems such as Lokasenna), quire notes, or later annotations by readers."
+    },
+    {
+      "id": "M-033-03",
+      "region": "right margin",
+      "type": "other",
+      "description": "Small 'k.' placed in the right margin in the lower third of the page.",
+      "scholarly_note": "Marginal sigla or reference mark, of similar character and likely function to the 'q.' above; part of a sparse system of structural or cross-reference notation."
+    },
+    {
+      "id": "M-033-04",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Long curved tail of the large initial 'A' (opening section) sweeping leftward into the margin.",
+      "scholarly_note": "Scribal calligraphic flourish typical of the Codex Regius main hand; used to mark textual hierarchy and openings rather than casual addition."
+    },
+    {
+      "id": "M-033-05",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Elongated vertical stem of a large initial (near bottom, 'L' or equivalent) extending into the left margin.",
+      "scholarly_note": "Standard decorative treatment of sectional or poem-initial letters by the original scribe; consistent with the mise-en-page throughout the codex."
+    },
+    {
+      "id": "M-033-06",
+      "region": "text block",
+      "type": "other",
+      "description": "Tiny isolated dot or speck near the left edge of the upper text lines.",
+      "scholarly_note": "Minor stray mark, possible offset ink, or punctuation fragment; not aligned with the main text and of uncertain intentionality."
+    }
+  ],
+  "scratches": [
+    "No distinct linear scratches, drypoint, or incised marks visible."
+  ],
+  "damage_notes": [
+    "No holes, tears, losses, or prominent surface abrasion visible in the provided reproduction; margins appear smooth and intact."
+  ],
+  "summary": "The provided image of page 33 (Lokasenna/Þrymskviða section) is a clean high-contrast reproduction of a well-preserved leaf in Gothic book hand. The only clear non-text elements are a modern '24' foliation mark at the top, two small sigla ('q.' and 'k.') in the right margin, and the decorative extensions of the large initials into the left margin. No doodles, faces, animals, pen trials, interlinear corrections, offset ink, or stains are visible. The surface reads as professionally executed with only sparse later reference marks.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_033/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:29:17.036890+00:00"
+}

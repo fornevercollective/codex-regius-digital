@@ -7,14 +7,6 @@
     { id: "grok_clean", label: "Grok clean", file: "grok_clean_white.jpg", group: "grok" },
   ];
 
-  const BOOK_EXPORTS = [
-    { id: "grok_clean_white", label: "Grok clean (book)", zip: "codex_regius_grok_clean_white.zip" },
-    { id: "grok_artistic_vellum", label: "Grok vellum (book)", zip: "codex_regius_grok_artistic_vellum.zip" },
-    { id: "clean_white", label: "Clean white (book)", zip: "codex_regius_clean_white.zip" },
-    { id: "artistic_vellum", label: "Artistic vellum (book)", zip: "codex_regius_artistic_vellum.zip" },
-    { id: "ai_assessment", label: "AI assessments (book)", zip: "codex_regius_ai_assessment.zip" },
-  ];
-
   const PRESETS = {
     grok_clean: { label: "Grok clean", layers: { grok_clean: { on: true, opacity: 1 } } },
     grok_vellum: { label: "Grok vellum", layers: { grok_artistic: { on: true, opacity: 1 } } },
@@ -296,13 +288,41 @@
       return `<a class="btn-dl${avail ? "" : " missing"}" href="${dir}/${L.file}" download="page_${String(state.page).padStart(3, "0")}_${L.file}">${L.label}</a>`;
     }).join("") + `<a class="btn-dl" href="${dir}/ai_assessment.md" download="page_${String(state.page).padStart(3, "0")}_ai_assessment.md">Text MD</a>`;
 
+    renderBookDownloads();
+  }
+
+  async function renderBookDownloads() {
     const bookDl = $("#book-downloads");
-    bookDl.innerHTML = BOOK_EXPORTS.map((e) =>
-      `<a class="btn-dl" href="exports/${e.zip}" download data-export="${e.zip}">${e.label}</a>`
-    ).join("") + `<span class="empty" style="font-size:0.7rem;margin-left:0.5rem">Run <code>python3 tools/build_hub_exports.py</code> locally for zips</span>`;
-    bookDl.querySelectorAll("[data-export]").forEach(async (a) => {
+    let manifest = state.data.exportManifest;
+    if (!manifest) {
       try {
-        const r = await fetch(a.href, { method: "HEAD" });
+        manifest = await loadJSON("exports/manifest.json");
+        state.data.exportManifest = manifest;
+      } catch (_) {
+        bookDl.innerHTML = `<span class="empty">Run <code>python3 tools/build_hub_exports.py</code> to build book downloads</span>`;
+        return;
+      }
+    }
+    const labels = {
+      artistic_vellum: "Artistic vellum",
+      clean_white: "Clean white",
+      grok_artistic_vellum: "Grok vellum",
+      grok_clean_white: "Grok clean",
+      ai_assessment: "AI assessments",
+    };
+    let html = "";
+    (manifest.variations || []).forEach((v) => {
+      const label = labels[v.id] || v.id;
+      (v.parts || []).forEach((p) => {
+        const range = p.page_start === p.page_end ? `p${p.page_start}` : `p${p.page_start}–${p.page_end}`;
+        const mb = (p.bytes / (1024 * 1024)).toFixed(0);
+        html += `<a class="btn-dl" href="exports/${p.file}" download title="${mb} MB">${label} (${range})</a>`;
+      });
+    });
+    bookDl.innerHTML = html || `<span class="empty">No exports built yet</span>`;
+    bookDl.querySelectorAll("a.btn-dl").forEach(async (a) => {
+      try {
+        const r = await fetch(a.getAttribute("href"), { method: "HEAD" });
         if (!r.ok) a.classList.add("missing");
       } catch (_) {
         a.classList.add("missing");

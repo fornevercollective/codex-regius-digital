@@ -1,0 +1,67 @@
+{
+  "page": 69,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-069-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '60' written in the upper left corner above the text block.",
+      "scholarly_note": "Post-medieval foliation/pagination mark added during later cataloguing or rebinding; not original to the 13th-century scribe."
+    },
+    {
+      "id": "M-069-02",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Large decorative initial 'S' with an elongated curving pen flourish extending prominently leftward into the margin at the head of a text section.",
+      "scholarly_note": "Littera notabilior with pen-flourish marking the start of a new stanza or speech in Sigurðarkviða III. Serves both decorative and navigational functions in the verse layout."
+    },
+    {
+      "id": "M-069-03",
+      "region": "text block",
+      "type": "correction",
+      "description": "Thin horizontal strikethrough lines cancelling 'dac' in 'hugdac' and the sequence 'fanca-ce' (visible as 'hugdac- alls va fanca- ce marga mango.').",
+      "scholarly_note": "Scribal self-correction (cancellatio) by the main hand. Erroneous letters struck through with a single line rather than erasure; correct text continues immediately. Direct evidence of the scribe checking against the exemplar during copying."
+    },
+    {
+      "id": "M-069-04",
+      "region": "text block",
+      "type": "stain",
+      "description": "Irregular brownish stain or smudge in the right-central text block at mid-page height, near the lines containing 'hvar er ser' and 'naðganglar'.",
+      "scholarly_note": "Localized age-related stain, likely from iron-gall ink corrosion, moisture contact, or offset from an adjacent leaf. Text remains legible through the discoloration."
+    },
+    {
+      "id": "M-069-05",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Broad zone of brown mottling, discoloration, and surface wear across the lower margin and bottom edge, heavier toward the right with minor corner loss.",
+      "scholarly_note": "Cumulative degradation typical of an outer or heavily used leaf in a medieval vellum codex; interaction of iron-gall ink, handling, and storage conditions over centuries."
+    },
+    {
+      "id": "M-069-06",
+      "region": "lower margin",
+      "type": "scratch",
+      "description": "Short dark horizontal linear mark in the lower margin directly below the final line of text, slightly left of center.",
+      "scholarly_note": "Distinct surface scratch, possible ruling remnant, or transferred ink line; separate from the main textual ink application."
+    },
+    {
+      "id": "M-069-07",
+      "region": "left margin",
+      "type": "other",
+      "description": "Irregular, worn left edge of the parchment leaf showing small notches, thinning, and minor material losses.",
+      "scholarly_note": "Combination of original skin preparation and long-term mechanical wear from binding and use; characteristic of the codex's 750+ year history."
+    }
+  ],
+  "scratches": [
+    "Short horizontal linear mark in lower margin below the last text line.",
+    "Fine surface abrasions and texture variations on the lower half of the leaf (more evident in raw capture)."
+  ],
+  "damage_notes": [
+    "Edge wear and small losses along left and bottom margins, most pronounced at bottom-right corner.",
+    "Widespread light to moderate brown staining from age, use, and ink chemistry, concentrated in lower and outer areas.",
+    "No major holes, tears through text, or visible repairs; minor natural vellum porosity and flattened cockling present."
+  ],
+  "summary": "Page 69 of Codex Regius (Sigurðarkviða III) shows a relatively clean text block with two notable non-text features inside or adjacent to the writing area: a large flourished initial 'S' extending into the left margin and a clear scribal correction by strikethrough within the text. The only mark outside the text block is the post-medieval page number '60' in the upper left. Physical condition is dominated by age-related brown staining heaviest in the lower margin and typical edge wear on the left and bottom; no figurative doodles, faces, animals, pen trials, interlinear glosses, or later marginal hands are visible. The script remains highly legible despite minor surface discoloration and one localized stain in the text block.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_069/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:38:11.468446+00:00"
+}

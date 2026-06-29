@@ -1,0 +1,18 @@
+{
+  "page": 68,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-068-01",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Small zoomorphic line drawing of a dragon-like or grotesque creature in the lower right corner below the final text line; the head has pointed projections (horns or ears), a visible eye, and a snout/muzzle with open mouth, while the body is formed by a few sinuous strokes creating a long curving neck or torso that ends in a tail with small leg-like appendages.",
+      "scholarly_note": "Classic medieval marginal drollery (drôlerie) executed in the same iron-gall ink as the main text, almost certainly by the scribe or a near-contemporary hand as a space-filler after the page was written. Such hybrid animal figures are common playful additions in 13th-century Gothic manuscripts from Iceland and frequently appear in copies of the Poetic Edda; the figure may serve as visual commentary on the heroic or supernatural content of the Helgi poems visible on the page."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [],
+  "summary": "Page 68 is a well-preserved leaf with wide, largely blank margins surrounding a dense block of Gothic textualis script. The single notable non-textual addition is the small zoomorphic doodle in the lower right margin. No other marginalia, doodles, faces, animals, pen trials, interlinear or marginal corrections, stains, holes, offset ink, or visible scratches are present on the page. The vellum surface is clean and the ink remains dark and consistent.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_068/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:35:30.467564+00:00"
+}

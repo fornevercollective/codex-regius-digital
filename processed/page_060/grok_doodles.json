@@ -1,0 +1,68 @@
+{
+  "page": 60,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-060-01",
+      "region": "right margin",
+      "type": "other",
+      "description": "Arabic numeral '57' written in the upper right corner in a smaller, lighter hand distinct from the main text.",
+      "scholarly_note": "Later foliation or pagination mark, almost certainly post-medieval (16th–19th c.); such numbers were routinely added when the codex was bound, rebound, or catalogued."
+    },
+    {
+      "id": "M-060-02",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large calligraphic capital 'S' (approximately two lines high) with prominent leftward and downward flourishes at the start of the lower textual block.",
+      "scholarly_note": "Scribal decorated initial marking a new section or stanza group within the Eddic poem; exaggerated flourishes and swelling strokes are characteristic of the main Codex Regius hand in high-grade Gothic book script."
+    },
+    {
+      "id": "M-060-03",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Extended pen flourish from the large 'S' projecting leftward beyond the main text column into the margin.",
+      "scholarly_note": "Integral part of the calligraphic initial; such marginal intrusions are common in this manuscript's decorative practice and do not represent later additions."
+    },
+    {
+      "id": "M-060-04",
+      "region": "right margin",
+      "type": "pen_trial",
+      "description": "Small isolated curved ink stroke with a looped or blot-like terminal, located in the outer margin roughly at mid-page height adjacent to the lower lines of the upper text block.",
+      "scholarly_note": "Pen trial or accidental ink deposit from quill testing or page handling; does not align with text and shows no linguistic content."
+    },
+    {
+      "id": "M-060-05",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Small dark spot of concentrated ink or pigment immediately to the right of the text block in the middle of the page.",
+      "scholarly_note": "Iron-gall ink splatter or offset from the writing process or contact with an adjacent leaf; typical and non-significant for textual content."
+    },
+    {
+      "id": "M-060-06",
+      "region": "text block",
+      "type": "stain",
+      "description": "Minor localized discoloration and slightly denser ink area within the text lines near the middle of the upper block.",
+      "scholarly_note": "Surface stain or minor ink corrosion/bleed; coincides with areas of lower OCR in automated processing and may represent either a scribal hesitation blot or simple pigment pooling."
+    },
+    {
+      "id": "M-060-07",
+      "region": "right margin",
+      "type": "other",
+      "description": "Faint reversed or ghost lettering and smudged ink traces visible along the far right edge and in some interlinear spaces.",
+      "scholarly_note": "Show-through from the verso or offset ink from the facing page; common in the thinner vellum leaves of this composite codex and does not constitute deliberate marginalia."
+    }
+  ],
+  "scratches": [
+    "Fine linear abrasions and hair-side preparation marks visible in the lower right margin and in the blank space below the final line of text.",
+    "Short surface scuff or light scratch running diagonally in the right margin near the transition between the two main text blocks.",
+    "Minor scuffing and fiber disturbance along the bottom edge of the page."
+  ],
+  "damage_notes": [
+    "Irregular trimmed or worn edges, especially right and bottom; lower right corner is rounded with slight material loss.",
+    "Natural vellum discoloration, grain, and faint cockling visible, more pronounced in the raw capture than in cleaned versions.",
+    "Scattered small dark spots and localized iron-gall corrosion; no major wormholes, large tears, or repairs observed on this page."
+  ],
+  "summary": "Page 60 of Codex Regius (GKS 2365 4to) shows a generally clean writing surface with dense Gothic book hand containing Eddic heroic verse. The principal non-text features are a later-added foliation '57' in the upper right, a prominent flourished scribal initial 'S' marking a textual division, a few small pen trials and ink stains in the right margin, faint offset/show-through along the outer edge, and minor surface abrasions plus edge wear consistent with well-prepared but handled calf vellum of c. 1270. No faces, animals, elaborate doodles, interlinear glosses, or substantial scribal corrections are visible; the page is relatively free of post-production additions compared with more heavily annotated leaves in the codex.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_060/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:18:46.205913+00:00"
+}

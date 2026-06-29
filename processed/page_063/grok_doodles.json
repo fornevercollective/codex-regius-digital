@@ -1,0 +1,67 @@
+{
+  "page": 63,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-063-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Dark ink numeral '64' written above the first line at top left.",
+      "scholarly_note": "Post-medieval foliation mark added during cataloguing, rebinding, or institutional handling after the manuscript left Iceland (common in the post-1643 Danish royal and later Árni Magnússon Institute history of GKS 2365 4to)."
+    },
+    {
+      "id": "M-063-02",
+      "region": "left margin",
+      "type": "pen_trial",
+      "description": "Small isolated dark ink dot or short vertical stroke in the outer left margin, upper third of the page.",
+      "scholarly_note": "Probable stray ink drop or minimal pen trial by the main scribe or a later reader; lacks connection to the text or decorative intent."
+    },
+    {
+      "id": "M-063-03",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large calligraphic initial letter at the opening of the page with elongated strokes extending toward the left margin.",
+      "scholarly_note": "Original scribal decoration marking the start of a major section or stanza in Sigrdrífumál; standard hierarchical feature of the Codex Regius main hand."
+    },
+    {
+      "id": "M-063-04",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large 'L' initial beginning a new textual unit approximately two-thirds down the page.",
+      "scholarly_note": "Scribal visual division for a stanza or sense unit within the poem; consistent with the manuscript's mise-en-page practices for Eddic verse."
+    },
+    {
+      "id": "M-063-05",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Small isolated 'A' or letter-like mark visible below the final line of text toward the right side of the page foot.",
+      "scholarly_note": "Function uncertain; possible quire or leaf signature, offset ink from the facing page, catch letter, or minimal later pen mark. Requires direct collation with adjacent folios."
+    },
+    {
+      "id": "M-063-06",
+      "region": "text block",
+      "type": "stain",
+      "description": "Localized darker patches and minor ink smudges within the text lines in the middle and lower sections.",
+      "scholarly_note": "Likely ink flow variation or minor pooling during writing; no clear evidence of deliberate correction, erasure, or expunction visible in available imaging."
+    },
+    {
+      "id": "M-063-07",
+      "region": "left margin",
+      "type": "other",
+      "description": "Faint additional small dark speck or short mark on the far left edge, roughly mid-upper text block height.",
+      "scholarly_note": "Possibly another stray mark, hairline offset, or natural vellum inclusion; not part of the main text or a developed marginal note."
+    }
+  ],
+  "scratches": [
+    "Minor linear surface abrasions and hair-side wear visible in the lower text block and right margin under raw imaging.",
+    "Faint pressure lines or creases across the vellum consistent with handling, binding, or storage."
+  ],
+  "damage_notes": [
+    "Age-related discoloration and soiling of the vellum, heaviest along the top edge, right margin, and especially the lower right corner.",
+    "Bottom right corner exhibits pronounced wear, darkening, soiling, and edge distortion with possible minor parchment loss or curling.",
+    "No large perforations, major repairs, or modern conservation interventions visible; the leaf remains intact with good ink legibility."
+  ],
+  "summary": "Page 63 of Codex Regius contains a portion of Sigrdrífumál copied by the main scribe in Gothic book hand on well-prepared calf vellum. The surface is notably clean of figurative marginalia, doodles, animals, faces, or extensive pen trials. Visible features are limited to a later-added foliation numeral '64' in the upper margin, two large decorative initials marking internal textual divisions, one or two minimal stray ink marks in the left margin, a small ambiguous 'A' at the foot of the page, and localized ink variations within the text. The vellum shows typical 13th-century preparation with substantial peripheral staining and lower-right corner wear but no major holes, repairs, or scribal cancellations are apparent. The page is characteristic of the austere, text-centered presentation of the Poetic Edda in this codex.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_063/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:25:32.382442+00:00"
+}

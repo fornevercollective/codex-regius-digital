@@ -1,0 +1,82 @@
+{
+  "page": 73,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-073-01",
+      "region": "left margin",
+      "type": "pen_trial",
+      "description": "Upper cluster of large calligraphic majuscules featuring prominent 'S'/'G' forms with long curving strokes and extra pen marks.",
+      "scholarly_note": "Probatio pennae; scribe testing nib width, ink flow, and letter forms in the wide margin."
+    },
+    {
+      "id": "M-073-02",
+      "region": "left margin",
+      "type": "pen_trial",
+      "description": "Mid-left sequence of large bold letters including forms resembling 'S G k o a n' and 'B G k o a n'.",
+      "scholarly_note": "Pen trials exercising majuscule shapes and pen pressure; typical in Icelandic Gothic manuscripts."
+    },
+    {
+      "id": "M-073-03",
+      "region": "left margin",
+      "type": "pen_trial",
+      "description": "Lower left cluster with large open-bowl 'A' form and 'S G v t a l r' letter sequence.",
+      "scholarly_note": "Additional probationes pennae showing varied letter constructions and stroke order."
+    },
+    {
+      "id": "M-073-04",
+      "region": "left margin",
+      "type": "other",
+      "description": "Long thin vertical inked line running down the outer left margin alongside the text block.",
+      "scholarly_note": "Possibly a ruling guide, vertical boundary mark, or extended stroke from adjacent pen trials."
+    },
+    {
+      "id": "M-073-05",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large decorated initial capital with long vertical stem descending several lines and small loop/eye ornament.",
+      "scholarly_note": "Standard scribal hierarchy marker signaling the opening of a new section or poem."
+    },
+    {
+      "id": "M-073-06",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Marginal note 'hier vantar við geilrade' with a cross or star-like mark (✠).",
+      "scholarly_note": "Contemporary annotation recording a textual lacuna ('hier vantar' = 'here is lacking/missing'). 'geilrade' refers to the specific missing passage or figure."
+    },
+    {
+      "id": "M-073-07",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Note 'Bryn hilldar' written in a slightly freer ductus immediately below the lacuna annotation.",
+      "scholarly_note": "Explicit identification of the missing content as relating to Brynhildr (Brynhildar). One of the most important marginalia in the entire codex, documenting awareness of the great lacuna."
+    },
+    {
+      "id": "M-073-08",
+      "region": "lower margin",
+      "type": "decoration",
+      "description": "Small asterisk- or cross-like decorative mark placed beside the lacuna note.",
+      "scholarly_note": "Emphasizes or punctuates the lacuna annotation."
+    },
+    {
+      "id": "M-073-09",
+      "region": "left margin",
+      "type": "other",
+      "description": "Small modern inscription 'Z a-13' (or similar) in the bottom-left corner.",
+      "scholarly_note": "Post-medieval cataloguer's or librarian's mark, possibly a quire, shelf, or collation reference."
+    }
+  ],
+  "scratches": [
+    "Long vertical inked line in left margin (M-073-04; may be ruled or incidental).",
+    "Faint hairline surface marks consistent with natural vellum grain and light handling."
+  ],
+  "damage_notes": [
+    "Minor edge wear and corner rounding, most visible at bottom right and top.",
+    "Slight age-related browning and discoloration at outer margins and extremities.",
+    "Natural cockling and minor undulations of the calf vellum; no significant holes, tears, losses, or repairs.",
+    "No visible offset ink, ghosting, or transfer from the facing page."
+  ],
+  "summary": "Page 73 is a clean, professionally executed page of Gothic book hand. The primary non-text features are multiple clusters of large majuscule pen trials in the wide left margin, a standard large decorated initial at the head of the text block, and a highly significant contemporary lacuna note at the foot ('hier vantar við geilrade' with 'Bryn hilldar' identification below). A modern catalog mark ('Z a-13') appears in the lower left. The vellum surface shows only the expected minor age-related wear; there are no figurative doodles, faces, animals, major stains, holes, offset ink, or obvious scribal corrections within the written area.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_073/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:45:39.059727+00:00"
+}

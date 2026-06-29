@@ -3,16 +3,17 @@
 **Status**: needs_review
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:04:43.856486+00:00
+**Generated**: 2026-06-29T04:32:39.094608+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2696, 1798]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2696, 1798]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2696, 1798]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2696, 1798]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2696, 1798]}]
 - **ocr** (ok): Tesseract extraction complete
-- **ocr_to_assessment** (ok): ["'bid' → 'bið'"]
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9921, contrast Δ=-2.5
 - **clean_white**: SSIM=0.8632, contrast Δ=19.1
+- **grok_artistic_vellum**: SSIM=0.2927, contrast Δ=-24.6
+- **grok_clean_white**: SSIM=0.1576, contrast Δ=-28.1
 
 ## Issues
 - [WARNING] **UNUSUAL_CHARS**: Line 2: unusual characters detected.
@@ -29,10 +30,6 @@
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 - [WARNING] **UNUSUAL_CHARS**: Line 35: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
-- [WARNING] **WORD_NORMALIZATION**: 'bid' → 'bið'
-  - Suggestion: `bið`
-  - Etymology: Verb 'ask, bid' — formulaic request for hearing in Eddic openings.
-  - Citation: Neckel & Kuhn 1983
 
 ## References
 - handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>

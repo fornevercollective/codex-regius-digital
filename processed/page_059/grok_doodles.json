@@ -1,0 +1,58 @@
+{
+  "page": 59,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-059-01",
+      "region": "left margin",
+      "type": "other",
+      "description": "Arabic numeral '13' written in left margin at mid-page height",
+      "scholarly_note": "Post-medieval (likely 19th/20th c.) annotation in Western numerals, distinct from the 13th-c. Gothic book hand. Probably an editorial, stanza, or catalog reference."
+    },
+    {
+      "id": "M-059-02",
+      "region": "left margin",
+      "type": "other",
+      "description": "Cluster of Arabic numerals in left margin below the '13', reading approximately '3', '2', '5' with additional '5', '2', '5' or '325'/'525' forms",
+      "scholarly_note": "Modern marginal annotation, possibly a cross-reference to another folio, line number in a printed edition (e.g., line ~325), or catalog collocation mark. Multiple instances suggest repeated reference use."
+    },
+    {
+      "id": "M-059-03",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Small 'z.' or short curved flourish mark at foot of text block on the left",
+      "scholarly_note": "Unclear function; possible catchword tail, quire signature remnant, or stray modern mark. Ink appears thin; requires further autopsy or multispectral imaging to determine if contemporary with main hand."
+    },
+    {
+      "id": "M-059-04",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '30' positioned at top left of the writing area",
+      "scholarly_note": "Foliation or pagination marker. Ink color and placement are consistent with either near-contemporary or early modern addition; common in Icelandic codices for navigation."
+    },
+    {
+      "id": "M-059-05",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large ornamental capital with elongated descender beginning the lower section of text",
+      "scholarly_note": "Standard scribal decoration signaling a textual division or new section within the Eddic poem (Reginsmál/Fafnismál). The descender extends downward, typical of the main scribe's mise-en-page practice."
+    },
+    {
+      "id": "M-059-06",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Brownish age-related discoloration and darkening along outer edge and bottom-right corner of the vellum leaf",
+      "scholarly_note": "Natural patina and minor handling or environmental staining characteristic of calfskin vellum from c. 1270. Text remains fully legible; no active corrosion or ink damage observed."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "Vellum exhibits typical medieval Icelandic preparation quality with minor cockling and edge wear.",
+    "No holes, perforations, worm damage, tears, or losses visible.",
+    "No offset ink, ghosting from facing page, or significant surface abrasion through the text.",
+    "Iron-gall ink is stable with normal slight bleeding into the parchment; no modern repairs evident."
+  ],
+  "summary": "Page 59 (Reginsmál/Fafnismál) is a clean, well-preserved leaf with no figurative marginalia, doodles, faces, animals, or pen trials. The only notable non-text additions are modern Arabic numeral annotations in the left margin ('13' and a lower '3 2 5' cluster), a small 'z.' at the foot, and the page '30' at the head. A single large flourished initial with extended descender provides standard textual decoration within the block. The vellum shows normal age-related edge staining and discoloration, especially bottom-right, but has no significant damage, holes, scratches, corrections, or offset ink.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_059/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:16:11.847925+00:00"
+}

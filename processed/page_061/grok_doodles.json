@@ -1,0 +1,60 @@
+{
+  "page": 61,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-061-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numerals '52' written in the upper left corner, with a small adjacent curved ink stroke or hook immediately to the right or above.",
+      "scholarly_note": "Post-medieval (likely early modern) pagination mark added for reference. The small curved mark is probably a stray pen stroke or minor annotation remnant, not part of the original scribal production."
+    },
+    {
+      "id": "M-061-02",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large calligraphic initial 'S' approximately five lines tall in black ink, occupying the left portion of the text block with text flowing to its right and below.",
+      "scholarly_note": "Standard Gothic textualis decorative initial marking the start of a new stanza or section in Fáfnismál. Executed in the same iron-gall ink as the body text; no color, rubrication, or internal figurative decoration present. The form features rounded lobes with a small internal counter and modest serifs."
+    },
+    {
+      "id": "M-061-03",
+      "region": "left margin",
+      "type": "pen_trial",
+      "description": "Small curved or hook-shaped ink stroke located immediately to the left of the large initial 'S', at approximately mid-height of the letter.",
+      "scholarly_note": "Most likely a pen trial, a stray stroke made while forming the large initial, or minor offset from an adjacent leaf. Not a deliberate marginal note or drawing."
+    },
+    {
+      "id": "M-061-04",
+      "region": "text block",
+      "type": "stain",
+      "description": "Multiple small dark ink spots, smudges, and areas of ink pooling visible within several text lines, especially noticeable in the upper and middle sections.",
+      "scholarly_note": "Common artifacts of writing with a quill and iron-gall ink on vellum. These represent ink drops from the nib, blotting, or minor spreading rather than deliberate marks."
+    },
+    {
+      "id": "M-061-05",
+      "region": "text block",
+      "type": "correction",
+      "description": "Numerous letters and words showing heavier, doubled, or retraced ink strokes ('repeated glyphs') across many lines of the page.",
+      "scholarly_note": "These may indicate scribal self-corrections, retracing for legibility, or simple hesitation during writing. No clear erasures, strikethroughs, or interlinear additions are visible; most appear integrated into the original ductus rather than later interventions."
+    },
+    {
+      "id": "M-061-06",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Fine hairline abrasions or ink skips visible as thin white gaps within the text area, particularly in the lower half of the page.",
+      "scholarly_note": "Consistent with minor surface wear on the hair side of the vellum or slight abrasion during or after production. Does not significantly affect legibility."
+    }
+  ],
+  "scratches": [
+    "Fine hairline abrasions or ink skips in lower text block consistent with vellum surface wear.",
+    "No long or prominent scratches crossing margins or heavily damaging text."
+  ],
+  "damage_notes": [
+    "Parchment is generally well-preserved with only minor natural imperfections (slight cockling, edge wear, and small translucent spots).",
+    "Iron-gall ink shows normal period variation in density and some localized fading or spreading but remains legible throughout.",
+    "No major holes, tears, losses, or water damage visible in the provided image."
+  ],
+  "summary": "Page 61 of Codex Regius (Fáfnismál) presents a clean writing surface with generous blank margins containing almost no post-production additions. The most prominent non-text feature is a large plain black calligraphic initial 'S' marking a section opening within the text block. A later-added page number '52' appears in the upper margin together with one tiny stray stroke. A small curved pen mark sits immediately left of the initial. Within the text block, the only notable features are scattered small ink blots and multiple letters with heavier or retraced strokes, which likely represent the scribe's normal working process rather than systematic corrections. No faces, animals, doodles, marginal annotations, or elaborate decorations are present. The vellum shows only minor natural wear and no significant damage.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_061/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:21:46.399003+00:00"
+}

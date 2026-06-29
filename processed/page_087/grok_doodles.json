@@ -1,0 +1,47 @@
+{
+  "page": 87,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-087-01",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Large pen-flourished initial approximately 12 lines tall with thick vertical stem, upper curved loop extending leftward, and long descending tail with terminal point; upper flourish includes a hooked profile suggestive of a stylized bird or zoomorphic head in the left margin.",
+      "scholarly_note": "Decorated initial marking a new textual division (section of Atlamál or Guðrúnarhvöt). Executed in the same iron-gall ink as the main text; elaborate pen flourishes with possible faint zoomorphic terminals are characteristic of professional 13th-century Icelandic scribal decoration in Codex Regius, not casual doodling."
+    },
+    {
+      "id": "M-087-02",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '78' in a thinner, later hand, positioned in the upper left corner outside the original text area.",
+      "scholarly_note": "Modern pagination or foliation mark added during 18th–20th century cataloguing, conservation, or rebinding; unrelated to the original 13th-century production or medieval use."
+    },
+    {
+      "id": "M-087-03",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "Diffuse irregular brownish stain in the lower left quadrant, adjacent to and below the tail of the large initial.",
+      "scholarly_note": "Age-related vellum discoloration from moisture, handling oils, or chemical interaction with iron-gall ink or binding materials; typical of surviving Icelandic parchment leaves of this period."
+    },
+    {
+      "id": "M-087-04",
+      "region": "lower margin",
+      "type": "other",
+      "description": "Heavily abraded and torn lower right corner with substantial parchment loss; final text line sits close to the irregular, frayed edge.",
+      "scholarly_note": "Long-term mechanical damage from handling, binding pressure, or accidental tearing; the jagged edge and fiber loss are consistent with natural wear on an outer leaf rather than deliberate alteration."
+    }
+  ],
+  "scratches": [
+    "Fine linear surface abrasions and creases in the lower third of the leaf, especially near the damaged right edge, consistent with cockling and handling wear.",
+    "Minor rubbed lighter areas along the left margin adjacent to the decorated initial from repeated thumb contact."
+  ],
+  "damage_notes": [
+    "Significant irregular edge wear and trimming on all sides, most pronounced at bottom and right; bottom right corner has a large missing triangular section with frayed fibers.",
+    "Scattered foxing and small brown spots across the vellum surface, typical of calfskin preparation and seven centuries of storage.",
+    "Darkened and slightly thinned zone along the left margin and fore-edge from prolonged use and earlier binding.",
+    "Parchment shows moderate cockling and some areas of surface thinning but remains intact and legible in the text block."
+  ],
+  "summary": "Page 87 displays a clean, professional Gothic book-hand text block from the Poetic Edda with one prominent decorated initial whose pen flourishes extend substantially into the left margin and include faint zoomorphic terminal suggestions. No medieval marginal annotations, interlinear corrections, pen trials, faces, animals, or casual doodles appear. The only non-original mark is the modern '78' in the upper margin. The leaf exhibits typical medieval vellum condition with scattered foxing, edge wear, and especially severe abrasion and loss at the lower right corner; no offset ink, deliberate scratches, or holes are visible. The writing surface itself is well preserved and highly legible.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_087/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T06:12:06.083627+00:00"
+}

@@ -2,57 +2,32 @@
 
 **Manuscript**: GKS 2365 4to
 **Source**: `GKS2365_page_87.png`
-**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
+**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/86](https://handrit.is/manuscript/view/is/GKS04-2365/86)
+**Survey**: Grok vision (2026-06-29T06:12:06.083627+00:00) — confidence **high**
+
+## Summary
+Page 87 displays a clean, professional Gothic book-hand text block from the Poetic Edda with one prominent decorated initial whose pen flourishes extend substantially into the left margin and include faint zoomorphic terminal suggestions. No medieval marginal annotations, interlinear corrections, pen trials, faces, animals, or casual doodles appear. The only non-original mark is the modern '78' in the upper margin. The leaf exhibits typical medieval vellum condition with scattered foxing, edge wear, and especially severe abrasion and loss at the lower right corner; no offset ink, deliberate scratches, or holes are visible. The writing surface itself is well preserved and highly legible.
 
 ## Doodles & Marginalia Inventory
 | ID | Region | Type | Description | Scholarly note |
 |----|--------|------|-------------|----------------|
-| M-087-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |
-| M-087-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |
-| M-087-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |
-
-## Misprints & Scribal Corrections
-| Line | Type | Note |
-|------|------|------|
-| 2 | repeated_glyph | Possible scribal hesitation or stain |
-| 3 | repeated_glyph | Possible scribal hesitation or stain |
-| 4 | repeated_glyph | Possible scribal hesitation or stain |
-| 5 | repeated_glyph | Possible scribal hesitation or stain |
-| 6 | repeated_glyph | Possible scribal hesitation or stain |
-| 6 | uncertain_reading | Editorial uncertainty mark |
-| 7 | repeated_glyph | Possible scribal hesitation or stain |
-| 7 | uncertain_reading | Editorial uncertainty mark |
-| 8 | repeated_glyph | Possible scribal hesitation or stain |
-| 9 | repeated_glyph | Possible scribal hesitation or stain |
-| 10 | repeated_glyph | Possible scribal hesitation or stain |
-| 11 | repeated_glyph | Possible scribal hesitation or stain |
-| 12 | repeated_glyph | Possible scribal hesitation or stain |
-| 13 | repeated_glyph | Possible scribal hesitation or stain |
-| 13 | uncertain_reading | Editorial uncertainty mark |
-| 14 | repeated_glyph | Possible scribal hesitation or stain |
-| 15 | repeated_glyph | Possible scribal hesitation or stain |
-| 16 | repeated_glyph | Possible scribal hesitation or stain |
-| 17 | repeated_glyph | Possible scribal hesitation or stain |
-| 18 | repeated_glyph | Possible scribal hesitation or stain |
-| 19 | repeated_glyph | Possible scribal hesitation or stain |
-| 20 | repeated_glyph | Possible scribal hesitation or stain |
-| 21 | repeated_glyph | Possible scribal hesitation or stain |
-| 22 | repeated_glyph | Possible scribal hesitation or stain |
-| 23 | repeated_glyph | Possible scribal hesitation or stain |
-| 24 | repeated_glyph | Possible scribal hesitation or stain |
-| 25 | repeated_glyph | Possible scribal hesitation or stain |
-| 26 | repeated_glyph | Possible scribal hesitation or stain |
-| 27 | repeated_glyph | Possible scribal hesitation or stain |
-| 28 | repeated_glyph | Possible scribal hesitation or stain |
+| M-087-01 | left margin | decoration | Large pen-flourished initial approximately 12 lines tall with thick vertical stem, upper curved loop extending leftward, and long descending tail with terminal point; upper flourish includes a hooked profile suggestive of a stylized bird or zoomorphic head in the left margin. | Decorated initial marking a new textual division (section of Atlamál or Guðrúnarhvöt). Executed in the same iron-gall ink as the main text; elaborate pen flourishes with possible faint zoomorphic terminals are characteristic of professional 13th-century Icelandic scribal decoration in Codex Regius, not casual doodling. |
+| M-087-02 | upper margin | other | Arabic numeral '78' in a thinner, later hand, positioned in the upper left corner outside the original text area. | Modern pagination or foliation mark added during 18th–20th century cataloguing, conservation, or rebinding; unrelated to the original 13th-century production or medieval use. |
+| M-087-03 | lower margin | stain | Diffuse irregular brownish stain in the lower left quadrant, adjacent to and below the tail of the large initial. | Age-related vellum discoloration from moisture, handling oils, or chemical interaction with iron-gall ink or binding materials; typical of surviving Icelandic parchment leaves of this period. |
+| M-087-04 | lower margin | other | Heavily abraded and torn lower right corner with substantial parchment loss; final text line sits close to the irregular, frayed edge. | Long-term mechanical damage from handling, binding pressure, or accidental tearing; the jagged edge and fiber loss are consistent with natural wear on an outer leaf rather than deliberate alteration. |
 
 ## Scratch & Damage Analysis
-- **Parchment**: High preparation
-- **Ink**: Iron-gall — check for offset and ghosting
-- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
+- Fine linear surface abrasions and creases in the lower third of the leaf, especially near the damaged right edge, consistent with cockling and handling wear.
+- Minor rubbed lighter areas along the left margin adjacent to the decorated initial from repeated thumb contact.
+
+- Significant irregular edge wear and trimming on all sides, most pronounced at bottom and right; bottom right corner has a large missing triangular section with frayed fibers.
+- Scattered foxing and small brown spots across the vellum surface, typical of calfskin preparation and seven centuries of storage.
+- Darkened and slightly thinned zone along the left margin and fore-edge from prolonged use and earlier binding.
+- Parchment shows moderate cockling and some areas of surface thinning but remains intact and legible in the text block.
 
 ## AI Assessment Hooks
-- Link to `scholarly_report.json` for LLM ingestion
-- Doodle bounding boxes: pending computer-vision pass
-- Thematic tags: see `liturgy_comparison.md`
+- Machine-readable: `grok_doodles.json`
+- Cross-ref: `scholarly_report.json`, `liturgy_comparison.md`
+- Compare layers: `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
 
-*Enrich with handrit.is high-res survey and AM 748 collation.*
+*Grok vision pass — validate against handrit.is high-res facsimile.*

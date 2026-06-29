@@ -1,0 +1,76 @@
+{
+  "page": 34,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-034-01",
+      "region": "right margin",
+      "type": "pen_trial",
+      "description": "Vertical column of ~15 short entries in smaller script aligned down the outer right margin: p̂, h, po, ho, he, per, hau, par, hge, h., pe, po, ho, po, ki, pe; several with small connecting arcs or flourishes.",
+      "scholarly_note": "Probationes pennae exercising common Old Norse particles and abbreviations (þó, þé, þer, þau, þar, þe etc.); may also function as informal glosses, line markers, or reader annotations. Ductus and ink consistent with use of the leaf in the 13th century."
+    },
+    {
+      "id": "M-034-02",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '25.' written in dark ink in the upper right corner, outside the text block.",
+      "scholarly_note": "Post-medieval foliation or pagination mark, added during rebinding, cataloguing, or ownership (common for Codex Regius after its 17th-century royal presentation)."
+    },
+    {
+      "id": "M-034-03",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large ornamental initial (Q- or O-form) with elongated descender descending several lines and curling leftward, marking the opening of a section.",
+      "scholarly_note": "Decorated initial standard to the Codex Regius main hand to signal stanza or episode divisions in the Eddic poems (here within Þrymskviða); descender deliberately occupies left margin space."
+    },
+    {
+      "id": "M-034-04",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Faint, partly rubbed or diluted ink traces along the bottom edge: letter-like forms (p-, u-, k-, a-, b-, v-), colons, dots, a possible 'd', and numeral-like '7' or '2'.",
+      "scholarly_note": "Probationes pennae or fragmentary stray note; dilution and placement suggest either late addition, light erasure, or minor offset from the facing page."
+    },
+    {
+      "id": "M-034-05",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Small cluster of abstract ink strokes in the bottom right below the text: a hook/curve, angled lines, a 'C'- or loop-like mark, and short stray strokes.",
+      "scholarly_note": "Minor non-figurative pen trial or idle doodle; no clearly identifiable faces, animals, or zoomorphic forms."
+    },
+    {
+      "id": "M-034-06",
+      "region": "right margin",
+      "type": "pen_trial",
+      "description": "Small curved arc or tie-line above one marginal 'po' entry plus an isolated curved stroke higher in the right margin column.",
+      "scholarly_note": "Flourishes executed during the marginal pen-trial sequence."
+    },
+    {
+      "id": "M-034-07",
+      "region": "text block",
+      "type": "correction",
+      "description": "Isolated letters showing thickened, retraced, or slightly overwritten ink strokes (notably near certain line endings and flagged repeated glyphs).",
+      "scholarly_note": "Minor scribal self-corrections or second-pass inking by the main hand; typical of rapid copying on prepared vellum with iron-gall ink."
+    },
+    {
+      "id": "M-034-08",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Small dark smudges and spots immediately adjacent to the marginal inscriptions.",
+      "scholarly_note": "Ink smudges or handling stains associated with the pen activity that produced the marginal column."
+    }
+  ],
+  "scratches": [
+    "Faint linear lighter streaks and creases across the lower third, running mostly horizontally with some diagonal components.",
+    "Surface abrasion marks near the bottom edge appearing as whitish lines against the aged vellum."
+  ],
+  "damage_notes": [
+    "Widespread mottled brown staining and foxing, heaviest in upper left, top edge, outer right margin, and bottom; some spots encroach on the text block.",
+    "Irregular top right corner with small area of material loss or trimming.",
+    "General edge wear, slight cockling, and distortion of the vellum consistent with a heavily used 13th-century Icelandic leaf.",
+    "No major wormholes, large tears, or modern repairs visible; the leaf remains substantially intact.",
+    "Possible very faint text ghosting or offset ink from the facing page in the margins, largely masked by stronger staining."
+  ],
+  "summary": "Page 34 (Þrymskviða) of Codex Regius presents a largely clean text block in the primary Gothic book hand, interrupted only by one prominent decorated initial with long descender. The standout non-text features are a structured vertical column of short marginal inscriptions in the right margin (pen trials of common ON particles/abbreviations) and a group of faint pen trials plus a small abstract doodle in the lower margin. A later '25.' foliation mark appears in the upper right. The parchment shows typical 13th-century Icelandic age staining, edge wear, minor surface abrasions, and isolated smudges, but lacks figurative doodles, clear holes, or extensive within-text corrections. The marginal activity indicates the leaf was also used for scribal practice beyond the main poetic copying.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_034/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:31:33.534555+00:00"
+}

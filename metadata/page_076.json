@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Guðrúnarkviða III",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 5,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T05:51:23.627749+00:00"
+  },
   "processed_at": "2026-06-29T01:19:27.882855+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T03:05:01.055303+00:00",

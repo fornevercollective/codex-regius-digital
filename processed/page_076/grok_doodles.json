@@ -1,0 +1,49 @@
+{
+  "page": 76,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-076-01",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Arabic numeral '7' in the upper right corner, outside the text block.",
+      "scholarly_note": "Modern pagination or foliation mark added after the medieval period for reference and codex navigation."
+    },
+    {
+      "id": "M-076-02",
+      "region": "right margin",
+      "type": "other",
+      "description": "The word 'Iþrir' written to the right of the main text block in a script resembling or variant from the primary Gothic hand.",
+      "scholarly_note": "Possible early marginal gloss, stanza or section marker, or textual note. 'þrir' may reference 'three' or a variant reading; collation with other witnesses (e.g. AM 748 I 4to) required for interpretation."
+    },
+    {
+      "id": "M-076-03",
+      "region": "right margin",
+      "type": "other",
+      "description": "The English word 'read' inscribed in a post-medieval Latin script in the right margin area.",
+      "scholarly_note": "Modern annotation by a later reader, cataloguer, or scholar, likely indicating the page was examined or selected for study."
+    },
+    {
+      "id": "M-076-04",
+      "region": "text block",
+      "type": "decoration",
+      "description": "Large initial 'Þ' (thorn) with a markedly elongated vertical stem extending upward across multiple lines above the base of the letter.",
+      "scholarly_note": "Scribal littera notabilior used to mark the start of a new section, poem division, or speaker attribution. The extended stem is a deliberate decorative and hierarchical feature typical of the Codex Regius main hand."
+    },
+    {
+      "id": "M-076-05",
+      "region": "text block",
+      "type": "other",
+      "description": "The sequence 'z v. ambroceir' at the end of the final line of text.",
+      "scholarly_note": "'z' is the standard abbreviation for 'ok' (and). 'v. ambroceir' may form part of the original prose conclusion or represent a later reference ('vide' + source or name); requires comparison with critical editions."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "The examined photographic surrogate shows a clean, high-contrast surface with no visible holes, prominent scratches, or heavy staining.",
+    "In the original parchment (visible in project raw imagery), minor edge wear and age-related discoloration exist at the lower right and outer margins but remain minor and non-obstructive."
+  ],
+  "summary": "Page 76 of Codex Regius (GKS 2365 4to) presents a dense, legible block of Gothic book-hand text from the heroic poems with very few non-scribal additions. Visible elements outside or interrupting the main text are limited to a modern pagination numeral '7', two right-margin annotations of differing periods ('Iþrir' and 'read'), and a single large decorative initial 'Þ' with an extended stem marking a textual division. No figurative doodles, faces, animals, pen trials, interlinear insertions, or clear scribal corrections are visible. The surface in the provided image is clean and the leaf appears well-preserved with excellent legibility.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_076/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T05:51:23.627749+00:00"
+}

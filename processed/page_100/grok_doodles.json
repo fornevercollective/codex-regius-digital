@@ -1,0 +1,55 @@
+{
+  "page": 100,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-100-01",
+      "region": "left margin",
+      "type": "other",
+      "description": "dark, ragged fibrous binding material and worn gutter edge visible along the full left side of the page",
+      "scholarly_note": "Reveals the manuscript's binding structure and cumulative spine wear typical of a 13th-century Icelandic codex after centuries of handling and storage."
+    },
+    {
+      "id": "M-100-02",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "irregular dark gray-black smudge with surface abrasion concentrated at the lower-left corner, extending slightly along the bottom edge and left margin",
+      "scholarly_note": "Classic handling wear and soiling from thumb contact and resting the volume; lower margins of medieval manuscripts commonly accumulate such dirt and abrasion over time."
+    },
+    {
+      "id": "M-100-03",
+      "region": "upper margin",
+      "type": "stain",
+      "description": "very faint, diffuse yellowish-brown patches and subtle wavy linear discolorations across the upper third of the page",
+      "scholarly_note": "Likely natural parchment grain, light cockling, or faint offset/ghosting from an adjacent leaf; no deliberate decoration or annotation present."
+    },
+    {
+      "id": "M-100-04",
+      "region": "lower margin",
+      "type": "stain",
+      "description": "small isolated dark speck near the bottom edge slightly right of center",
+      "scholarly_note": "Minor fly-speck, ink fleck, or surface dirt; common incidental mark with no paleographic significance."
+    },
+    {
+      "id": "M-100-05",
+      "region": "text block",
+      "type": "stain",
+      "description": "scattered tiny dark specks and very faint smudges in the central and lower-central area of the page",
+      "scholarly_note": "Incidental surface dirt on an otherwise uninscribed area; no evidence of text, ruling, or deliberate marks."
+    }
+  ],
+  "scratches": [
+    "subtle wavy linear marks and creases in the upper half, consistent with natural parchment grain or light handling rather than deliberate scratching",
+    "minor linear abrasions visible within the lower-left stained area"
+  ],
+  "damage_notes": [
+    "Worn and darkened binding gutter with exposed fibers and irregular left edge",
+    "Pronounced surface abrasion and soiling at lower-left corner and bottom edge",
+    "Minor scattered surface dirt specks across the page",
+    "Natural vellum undulations and possible light cockling visible under raking light",
+    "No holes, tears, major losses, or repairs observed"
+  ],
+  "summary": "Page 100 presents an almost entirely clean vellum surface with no visible text block, marginalia, doodles, pen trials, faces, animals, decorative marks, scribal corrections, or offset ink. The only features are passive signs of age and use: worn binding visible in the left gutter, a prominent handling stain and abrasion at the lower left, faint upper discoloration, and scattered minor specks. The complete absence of writing or deliberate additions indicates either a blank leaf, an uninscribed verso, or a page where any original content has been lost to fading or was never applied. The surface is notably clean compared to more heavily used pages in the codex.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_100/clean_white.jpg",
+  "surveyed_at": "2026-06-29T06:34:55.359308+00:00"
+}

@@ -18,20 +18,26 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Atlamál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 4,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T06:12:06.083627+00:00"
+  },
   "processed_at": "2026-06-29T01:19:30.192119+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:19:49.529662+00:00",
+  "qc_at": "2026-06-29T05:42:31.678012+00:00",
   "qc_issue_count": 17,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.078300+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T03:19:49.527803+00:00",
+  "grok_enhanced_at": "2026-06-29T05:42:31.673007+00:00",
   "poem_full": "Atlamál / Guðrunarhvöt",
   "poem_section": "Atl.mál 75 – Guðr.hvöt 8",
   "poem_type": "heroic"

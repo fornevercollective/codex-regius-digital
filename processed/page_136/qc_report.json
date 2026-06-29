@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:40.314990+00:00",
+  "timestamp": "2026-06-29T04:28:35.074127+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 98.75,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5853,
+      "raw_blur": 548.9,
+      "enhanced_blur": 526.72,
+      "raw_contrast": 76.7,
+      "enhanced_contrast": 63.69,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.6465,
+      "raw_blur": 548.9,
+      "enhanced_blur": 1166.66,
+      "raw_contrast": 76.7,
+      "enhanced_contrast": 81.38,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "U     0 30 40 50 60    70 80 90 100 110 124 130 140 150\nbobla datablad D NNA Ss\n1 3  Å\n> 2.0\nBe",
     "text_preview": "U     0 30 40 50 60    70 80 90 100 110 124 130 140 150\nbobla datablad D NNA Ss\n1 3  Å\n> 2.0\nBe",
     "char_count": 95,
     "error": null

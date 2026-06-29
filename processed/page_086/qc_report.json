@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:03:01.457028+00:00",
+  "timestamp": "2026-06-29T05:35:39.925889+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "'EK' → 'ek'"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,6 +75,24 @@
       "enhanced_contrast": 89.88,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.3324,
+      "raw_blur": 1805.61,
+      "enhanced_blur": 562.56,
+      "raw_contrast": 51.43,
+      "enhanced_contrast": 43.45,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.4036,
+      "raw_blur": 1805.61,
+      "enhanced_blur": 2974.15,
+      "raw_contrast": 51.43,
+      "enhanced_contrast": 63.02,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
@@ -93,10 +104,8 @@
   "corrections": {
     "raw_text_preview": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. P",
     "corrected_text_preview": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. P",
-    "issue_count": 10,
-    "applied_fixes": [
-      "'EK' → 'ek'"
-    ]
+    "issue_count": 9,
+    "applied_fixes": []
   },
   "issues": [
     {
@@ -179,15 +188,6 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
-    },
-    {
-      "severity": "warning",
-      "code": "WORD_NORMALIZATION",
-      "message": "'EK' → 'ek'",
-      "suggestion": "ek",
-      "etymology": null,
-      "citation": "Neckel & Kuhn 1983",
-      "auto_fixable": true
     }
   ],
   "citations": [

@@ -21,9 +21,12 @@ jobs:
           sudo apt-get install -y git-lfs
           git lfs install
 
+      - name: Clean working tree for migrate
+        run: git reset --hard HEAD
+
       - name: Migrate binary blobs to LFS
         run: |
-          git lfs migrate import \
+          git lfs migrate import --yes \
             --include="GKS2365/png/**,GKS2365/jpg/**,GKS2365/pdf/**,GKS2365/grok/**,*.png,*.jpg,*.jpeg,*.pdf" \
             --everything
 
@@ -31,6 +34,7 @@ jobs:
         run: |
           git show HEAD:GKS2365/png/GKS2365_page_1.png | head -3
           test $(git show HEAD:GKS2365/png/GKS2365_page_1.png | wc -c) -lt 500
+          git lfs ls-files | wc -l
 
       - name: Push rewritten history
         run: |

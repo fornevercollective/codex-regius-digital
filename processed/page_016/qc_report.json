@@ -1,0 +1,129 @@
+{
+  "page": 16,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T01:44:55.547126+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2375,
+            1584
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2375,
+            1584
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2375,
+            1584
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2375,
+            1584
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2375,
+            1584
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9893,
+      "raw_blur": 1669.85,
+      "enhanced_blur": 1812.12,
+      "raw_contrast": 38.8,
+      "enhanced_contrast": 40.31,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.6942,
+      "raw_blur": 1669.85,
+      "enhanced_blur": 7434.77,
+      "raw_contrast": 38.8,
+      "enhanced_contrast": 82.2,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5041,
+      "raw_blur": 1669.85,
+      "enhanced_blur": 773.63,
+      "raw_contrast": 38.8,
+      "enhanced_contrast": 47.46,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.3712,
+      "raw_blur": 1669.85,
+      "enhanced_blur": 2195.16,
+      "raw_contrast": 38.8,
+      "enhanced_contrast": 62.9,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus Å\nÍ í pee ot Ten fe halir eta hún pos vér 8 2808 a\n  Spa fl BE on ex bon Bice bbe ht  3 Á\nfins Map vile a þa So Vine guilt Fr\nmør DB aveið vor ef 5 party: ae  „amen et middag dl\nÍ má Gå crac fm av ey ",
+    "char_count": 1056,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus ",
+    "corrected_text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus ",
+    "issue_count": 1,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

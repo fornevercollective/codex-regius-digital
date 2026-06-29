@@ -362,6 +362,8 @@ def main() -> int:
     parser.add_argument("--pages", help="Page list, e.g. 1,2,10-15")
     parser.add_argument("--skip-existing", action="store_true", help="Skip fully processed pages")
     parser.add_argument("--dry-run", action="store_true", help="List work without writing files")
+    parser.add_argument("--qc", action="store_true", help="Run QC pipeline after each page")
+    parser.add_argument("--qc-auto-apply", action="store_true", help="Auto-apply safe OCR fixes during QC")
     args = parser.parse_args()
 
     paths = resolve_paths(args.root.resolve())
@@ -385,10 +387,21 @@ def main() -> int:
         print(f"Error: png folder not found at {paths['png']}", file=sys.stderr)
         return 1
 
+    qc_engine = None
+    if args.qc and not args.dry_run:
+        sys.path.insert(0, str(paths["repo"]))
+        from tools.qc_engine import QcEngine
+
+        qc_engine = QcEngine(paths["repo"])
+
     ok = 0
     for page in pages:
         if process_page(page, paths, args.skip_existing, args.dry_run):
             ok += 1
+            if qc_engine:
+                report = qc_engine.run_page(page, auto_apply=args.qc_auto_apply)
+                status = report.get("status", "?")
+                print(f"   🔍 QC page {page:3d}: {status}")
 
     if not args.dry_run:
         paths["metadata"].mkdir(parents=True, exist_ok=True)

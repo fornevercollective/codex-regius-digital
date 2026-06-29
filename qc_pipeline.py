@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-"""
-Codex Regius QC + OCR Error Correction Pipeline
-- Validates transcription vs raw image
-- Corrects common Old Norse OCR errors (þ, ð, æ, ø, etc.)
-- Generates diff report
-- Allows one-click re-generation of enhanced version
-"""
-print("✅ QC + OCR Correction Pipeline Added")
-print("Run with: python3 qc_pipeline.py --page 10")
-print("Features: Error detection, correction suggestions, comparison viewer, re-process button")
+"""Backward-compatible alias → qc-pipeline.py"""
+
+import runpy
+
+runpy.run_path(str(__import__("pathlib").Path(__file__).resolve().parent / "qc-pipeline.py"), run_name="__main__")

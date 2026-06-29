@@ -12,7 +12,9 @@
     "etymology.md",
     "doodles_catalog.md",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "qc_report.json",
+    "qc_report.md"
   ],
   "poem": "",
   "original_text": "",
@@ -20,5 +22,8 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:15.963060+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T01:32:00.881824+00:00"
+  "grok_enhanced_at": "2026-06-29T01:32:00.881824+00:00",
+  "qc_status": "ok",
+  "qc_at": "2026-06-29T01:44:52.370814+00:00",
+  "qc_issue_count": 5
 }

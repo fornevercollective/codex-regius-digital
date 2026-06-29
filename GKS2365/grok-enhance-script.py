@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Prefer project venv: ../.venv/bin/python3 grok-enhance-script.py
 """
 Grok-enhanced processing for Codex Regius pages 10+.
 
@@ -277,6 +278,8 @@ def main() -> int:
     parser.add_argument("--skip-existing", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--no-sync-samples", action="store_true", help="Skip grok/ sample import on page 10")
+    parser.add_argument("--qc", action="store_true", help="Run QC pipeline after each Grok-enhanced page")
+    parser.add_argument("--qc-auto-apply", action="store_true", help="Auto-apply safe OCR fixes during QC")
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -298,6 +301,15 @@ def main() -> int:
         print("Mode: dry-run")
     print()
 
+    qc_engine = None
+    if args.qc and not args.dry_run:
+        import sys
+
+        sys.path.insert(0, str(repo))
+        from tools.qc_engine import QcEngine
+
+        qc_engine = QcEngine(repo)
+
     ok = 0
     for page in pages:
         if enhance_page(
@@ -309,6 +321,9 @@ def main() -> int:
             sync_samples=not args.no_sync_samples,
         ):
             ok += 1
+            if qc_engine:
+                report = qc_engine.run_page(page, auto_apply=args.qc_auto_apply)
+                print(f"   🔍 QC page {page:3d}: {report.get('status', '?')}")
 
     print()
     print(f"Done: {ok}/{len(pages)} pages grok-enhanced.")

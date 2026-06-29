@@ -26,6 +26,9 @@ build/
 *.swo
 *~
 
+# Pages build output (CI generates this)
+deploy/
+
 # Local diagnostics / fix scripts (not part of repo)
 _diag.sh
 _diag_out.txt

@@ -1,9 +1,13 @@
-name: Deploy to GitHub Pages (Optimized)
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -13,19 +17,23 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Exclude large raw images from artifact
-        run: |
-          mkdir -p deploy
-          cp -r *.html processed/ deploy/ 2>/dev/null || true
-          cp -r index.html README.md paleography-hub.html deploy/ 2>/dev/null || true
+      - name: Build Pages artifact (exclude raw PNGs)
+        run: bash scripts/build-pages.sh
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: deploy
 
-      - uses: actions/deploy-pages@v4
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

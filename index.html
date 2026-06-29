@@ -1,4 +1,70 @@
-<!-- Updated master index with full processing status -->
-<h1>Codex Regius Digital Edition • Processing Complete Framework</h1>
-<p>All templates ready • Mass processing pipeline active • Etymology + dialect analysis included in every page.</p>
-<p>Ready for full 144 page generation.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Regius • GKS 2365 4to • Digital Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(#1a120b, #3c2f1e); }
+        .parchment { background: #f5e8c7; color: #3c2f1e; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+    </style>
+</head>
+<body class="text-amber-100">
+    <nav class="bg-black py-4 border-b border-amber-600">
+        <div class="max-w-6xl mx-auto px-6 flex flex-wrap justify-between items-center gap-4">
+            <h1 class="text-3xl font-bold text-amber-400">Konungsbók • Codex Regius</h1>
+            <div class="space-x-4 text-sm md:text-base">
+                <a href="paleography-hub.html" class="hover:text-amber-300 font-semibold">Paleography Hub</a>
+                <a href="book-viewer.html" class="hover:text-amber-300">Book Viewer</a>
+                <a href="page-10-variations.html" class="hover:text-amber-300">Variations</a>
+                <a href="page-10-lyric-readalong.html" class="hover:text-amber-300">Read-Along</a>
+                <a href="https://github.com/fornevercollective/codex-regius-digital" class="hover:text-amber-300">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative min-h-[70vh] flex items-center justify-center text-center overflow-hidden py-16">
+        <div class="absolute inset-0 bg-[url('https://picsum.photos/id/1015/2000/1200')] bg-cover opacity-40"></div>
+        <div class="relative z-10 max-w-4xl px-6">
+            <h2 class="text-5xl md:text-7xl font-serif text-amber-300 tracking-wide">GKS 2365 4to</h2>
+            <p class="text-2xl mt-4">The Poetic Edda • Iceland c. 1270</p>
+            <p class="mt-6 text-xl">Scholarly paleography · layer mixer · scribe timeline · liturgy</p>
+            <div class="mt-10 flex gap-4 justify-center flex-wrap">
+                <a href="paleography-hub.html#scribe" class="bg-amber-400 hover:bg-amber-300 text-black px-8 py-4 rounded-xl text-lg font-semibold">Open Paleography Hub →</a>
+                <a href="book-viewer.html" class="border border-amber-400 hover:bg-white/10 px-8 py-4 rounded-xl">Book Viewer</a>
+            </div>
+            <p class="mt-8 text-sm opacity-75">144 pages · multi-layer exports · GitHub Pages edition</p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="parchment p-6 rounded-2xl">
+                <h3 class="font-bold text-xl mb-3">Research Hub</h3>
+                <a href="paleography-hub.html#codicology" class="block hover:underline">→ Vellum codicology</a>
+                <a href="paleography-hub.html#calligraphy" class="block hover:underline">→ Glyph crops &amp; calligraphy</a>
+                <a href="paleography-hub.html#scribe" class="block hover:underline">→ Scribe timeline</a>
+                <a href="paleography-hub.html#liturgy" class="block hover:underline">→ Liturgy &amp; chant modes</a>
+            </div>
+            <div class="parchment p-6 rounded-2xl">
+                <h3 class="font-bold text-xl mb-3">Featured pages</h3>
+                <a href="page-10-variations.html" class="block hover:underline">→ Page 10 design variations</a>
+                <a href="page-10-lyric-readalong.html" class="block hover:underline">→ Lyric &amp; musical read-along</a>
+                <a href="paleography-hub.html" class="block hover:underline">→ Full 144-page hub</a>
+            </div>
+            <div class="parchment p-6 rounded-2xl">
+                <h3 class="font-bold text-xl mb-3">Sources</h3>
+                <a href="https://handrit.is/manuscript/view/is/GKS04-2365" class="block text-blue-700">handrit.is · Árni Magnússon Institute</a>
+                <a href="https://github.com/fornevercollective/codex-regius-digital" class="block text-blue-700">Repository + exports</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black py-8 text-center text-sm opacity-70">
+        <p>Digital recreation of the Codex Regius · Collaborative project</p>
+        <p class="mt-2"><a href="https://github.com/fornevercollective/codex-regius-digital" class="underline">Contribute on GitHub</a></p>
+    </footer>
+</body>
+</html>

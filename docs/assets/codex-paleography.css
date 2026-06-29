@@ -302,3 +302,26 @@ table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
 th, td { border: 1px solid var(--accent); padding: 0.4rem 0.6rem; text-align: left; }
 th { background: var(--bg); color: var(--gold); }
 .empty { opacity: 0.7; font-style: italic; }
+.music-modes-panel {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+}
+.music-modes-intro { font-size: 0.85rem; opacity: 0.9; margin-bottom: 0.75rem; }
+.music-mode-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+.music-mode-btn {
+  background: var(--panel);
+  color: var(--vellum);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.music-mode-btn:hover, .music-mode-btn.active {
+  background: var(--gold);
+  color: var(--bg);
+}
+.music-mode-note { font-size: 0.82rem; opacity: 0.9; min-height: 2.5rem; }

@@ -31,13 +31,10 @@ fi
 if [[ -d "${ROOT}/exports" ]]; then
   mkdir -p "${DEPLOY}/exports"
   cp "${ROOT}/exports/manifest.json" "${DEPLOY}/exports/" 2>/dev/null || true
-  # Chunked book zips only (each ≤95 MB); skip legacy monolithic archives
-  for z in "${ROOT}"/exports/codex_regius_*.zip; do
+  # Small assessment bundle only — book zips stay in repo/LFS (too large for Pages artifact)
+  for z in "${ROOT}"/exports/codex_regius_ai_assessment.zip; do
     [[ -f "${z}" ]] || continue
-    size=$(stat -f%z "${z}" 2>/dev/null || stat -c%s "${z}" 2>/dev/null)
-    if (( size < 100 * 1024 * 1024 )); then
-      cp "${z}" "${DEPLOY}/exports/"
-    fi
+    cp "${z}" "${DEPLOY}/exports/"
   done
 fi
 
@@ -60,6 +57,7 @@ if [[ -d "${ROOT}/processed" ]]; then
       base="$(basename "${item}")"
       case "${base}" in
         raw.png) continue ;;
+        _grok_vision_*|qc_previews|glyphs) continue ;;
         grok_variations)
           mkdir -p "${out}/grok_variations"
           cp -r "${item}/." "${out}/grok_variations/"

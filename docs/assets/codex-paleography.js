@@ -310,13 +310,17 @@
       grok_clean_white: "Grok clean",
       ai_assessment: "AI assessments",
     };
+    const onPages = location.hostname.includes("github.io");
+    const exportBase = onPages
+      ? "https://media.githubusercontent.com/media/fornevercollective/codex-regius-digital/main/exports/"
+      : "exports/";
     let html = "";
     (manifest.variations || []).forEach((v) => {
       const label = labels[v.id] || v.id;
       (v.parts || []).forEach((p) => {
         const range = p.page_start === p.page_end ? `p${p.page_start}` : `p${p.page_start}–${p.page_end}`;
         const mb = (p.bytes / (1024 * 1024)).toFixed(0);
-        html += `<a class="btn-dl" href="exports/${p.file}" download title="${mb} MB">${label} (${range})</a>`;
+        html += `<a class="btn-dl" href="${exportBase}${p.file}" download title="${mb} MB">${label} (${range})</a>`;
       });
     });
     bookDl.innerHTML = html || `<span class="empty">No exports built yet</span>`;
@@ -523,13 +527,93 @@
     ).join("");
   }
 
+  const HASH_TO_TAB = {
+    codicology: "tab-codicology",
+    calligraphy: "tab-calligraphy",
+    layers: "tab-layers",
+    penmanship: "tab-penmanship",
+    scribe: "tab-scribe",
+    liturgy: "tab-liturgy",
+    doodles: "tab-doodles",
+  };
+
+  const MUSIC_MODES = {
+    gregorian: {
+      label: "Gregorian Chant",
+      note: "Latin ecclesiastical chant style — useful for comparing later Icelandic liturgical reception of Eddic metres.",
+    },
+    galder: {
+      label: "Galder / Eddic Chant",
+      note: "Norse galdralag and oral performance tradition — aligns with skaldic and eddic recitation patterns on this folio.",
+    },
+    historical: {
+      label: "Historical Neumes",
+      note: "13th-century Icelandic notation context — reconstructs how scribes may have heard metre while copying.",
+    },
+    modern: {
+      label: "Modern Reconstruction",
+      note: "Contemporary scholarly performance — pairs with the read-along tools and thematic cross-references below.",
+    },
+  };
+
+  function activateTab(tabId) {
+    const tab = document.querySelector(`.tab[data-tab="${tabId}"]`);
+    const panel = $(`#${tabId}`);
+    if (!tab || !panel) return;
+    $all(".tab").forEach((t) => t.classList.remove("active"));
+    $all(".tabpanel").forEach((p) => p.classList.remove("active"));
+    tab.classList.add("active");
+    panel.classList.add("active");
+  }
+
+  function syncNavFromHash() {
+    const hash = (location.hash || "").replace("#", "");
+    $all(".site-nav a").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      a.classList.toggle("active", href === `#${hash}`);
+    });
+  }
+
+  function handleHashNavigation(scroll) {
+    const hash = (location.hash || "").replace("#", "");
+    if (!hash) return;
+    const tabId = HASH_TO_TAB[hash];
+    if (!tabId) return;
+    activateTab(tabId);
+    syncNavFromHash();
+    if (scroll) {
+      const panel = $(`#${tabId}`);
+      panel?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
   function setupTabs() {
     $all(".tab").forEach((tab) => {
       tab.addEventListener("click", () => {
-        $all(".tab").forEach((t) => t.classList.remove("active"));
-        $all(".tabpanel").forEach((p) => p.classList.remove("active"));
-        tab.classList.add("active");
-        $(`#${tab.dataset.tab}`).classList.add("active");
+        activateTab(tab.dataset.tab);
+        const hashKey = Object.entries(HASH_TO_TAB).find(([, id]) => id === tab.dataset.tab)?.[0];
+        if (hashKey) {
+          history.replaceState(null, "", `#${hashKey}`);
+          syncNavFromHash();
+        }
+      });
+    });
+    window.addEventListener("hashchange", () => handleHashNavigation(true));
+  }
+
+  function setupMusicModes() {
+    const note = $("#music-mode-note");
+    const buttons = $("#music-mode-buttons");
+    if (!buttons || !note) return;
+    buttons.querySelectorAll("[data-mode]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        buttons.querySelectorAll("[data-mode]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        const mode = MUSIC_MODES[btn.dataset.mode];
+        note.textContent = mode ? `${mode.label}: ${mode.note}` : "";
+        activateTab("tab-liturgy");
+        history.replaceState(null, "", "#liturgy");
+        syncNavFromHash();
       });
     });
   }
@@ -564,6 +648,8 @@
     renderTimeline();
     await updatePageView();
     setupTabs();
+    setupMusicModes();
+    handleHashNavigation(false);
 
     $("#page-input").addEventListener("change", (e) => selectPage(+e.target.value));
     $("#event-filter").addEventListener("change", (e) => {

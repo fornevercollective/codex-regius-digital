@@ -158,7 +158,9 @@ def run_grok_vision(image: Path, page: int, dry_run: bool) -> dict | None:
         GROK_MODEL,
         "--always-approve",
         "--max-turns",
-        "6",
+        "3",
+        "--disallowed-tools",
+        "run_terminal_cmd,web_search,web_fetch,search_replace,Write,Edit,Grep,list_dir,Agent",
         "-p",
         prompt,
     ]

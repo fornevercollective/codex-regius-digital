@@ -109,7 +109,12 @@ def analyze_page(page: int, repo: Path, root: Path, skip_existing: bool, dry_run
         print(f"   [dry-run] penmanship page {page}")
         return True
 
-    cmd = [GROK_BIN, "-m", GROK_MODEL, "--always-approve", "--max-turns", "6", "-p", prompt]
+    cmd = [
+        GROK_BIN, "-m", GROK_MODEL, "--always-approve", "--max-turns", "3",
+        "--disallowed-tools",
+        "run_terminal_cmd,web_search,web_fetch,search_replace,Write,Edit,Grep,list_dir,Agent",
+        "-p", prompt,
+    ]
     print(f"   ✍️  Grok penmanship → page {page:3d}")
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=600, cwd=str(image.parent))

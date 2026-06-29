@@ -16,12 +16,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Guðrúnarkviða II",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 7,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T06:56:17.829465+00:00"
+  },
   "processed_at": "2026-06-29T01:19:34.312978+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T03:04:05.278744+00:00",

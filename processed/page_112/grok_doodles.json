@@ -1,0 +1,68 @@
+{
+  "page": 112,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-112-01",
+      "region": "upper margin",
+      "type": "decoration",
+      "description": "Small red cross (+) positioned at the head of the text block immediately above and slightly right of the incipit line 'HÉR HEFST', accompanied by a tiny adjacent red mark resembling 'a'.",
+      "scholarly_note": "Rubrication or section marker signaling the beginning of a new textual unit. Red ink distinguishes the start of the prose narrative in a manuscript where major divisions are often so flagged."
+    },
+    {
+      "id": "M-112-02",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Small red cross placed in the narrow space immediately left of the text column, roughly aligned with the early lines describing Óðinn's attributes and the building of the wall.",
+      "scholarly_note": "Structural or rhetorical marker, possibly indicating the onset of the main narrative or serving as a simple finding aid. Such minimal red signs are characteristic of 13th-century Icelandic vernacular manuscripts for organizing prose without elaborate initials."
+    },
+    {
+      "id": "M-112-03",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Small red cross to the left of the text column near the introduction 'Þá mælti þú fram Óðinn til Baldrs'.",
+      "scholarly_note": "Likely marks the transition into direct dialogue, highlighting the change from narration to the exchange between Óðinn and Baldr."
+    },
+    {
+      "id": "M-112-04",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Small red cross positioned left of the text at the line introducing Baldr's first speech ('Baldr: \"Galdur þú...\"').",
+      "scholarly_note": "Marks the start of Baldr's reply, consistent with a system of red crosses used to flag speaker changes in this dialogue-heavy passage."
+    },
+    {
+      "id": "M-112-05",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Small red cross to the left of the text column aligned with Óðinn's second speech ('Þá mælti Óðinn: \"Ek mun gefa þér vápn...\"').",
+      "scholarly_note": "Marks resumption of Óðinn's speech and the key moment of the gift of weapons and shield, emphasizing a narrative turning point."
+    },
+    {
+      "id": "M-112-06",
+      "region": "left margin",
+      "type": "decoration",
+      "description": "Additional small red cross or linear red mark lower in the text block near the final visible lines of the passage.",
+      "scholarly_note": "Continues the pattern of sparse red markers; may flag the conclusion of the reported dialogue or a sense break before the page ends."
+    },
+    {
+      "id": "M-112-07",
+      "region": "text block",
+      "type": "other",
+      "description": "Uniform black ink text in a single column with no visible erasures, strikethroughs, expunctions, or interlinear insertions. Minor natural variations in stroke weight and ink density typical of quill work.",
+      "scholarly_note": "The passage appears to be the work of the main scribe of Codex Regius with no contemporary scribal corrections detectable on this leaf. The hand is a clear, professional 13th-century Icelandic Gothic bookhand."
+    }
+  ],
+  "scratches": [
+    "Faint, non-deliberate surface hairlines and grain marks on the vellum, consistent with medieval parchment preparation and natural aging.",
+    "Very subtle linear abrasions near the right (outer) edge of the leaf, likely from trimming or repeated handling."
+  ],
+  "damage_notes": [
+    "Slight cockling and three-dimensional warping of the vellum, most noticeable near the gutter and lower margin.",
+    "Irregularly trimmed head and tail edges with minor wear, discoloration, and small nicks.",
+    "Visible sewing threads and binding turn-ins in the gutter and at the foot of the opening; no damage to the leaf itself from the binding.",
+    "No liquid stains, ink offset from the facing page, holes, or significant losses observed on the exposed surface."
+  ],
+  "summary": "Page 112 of Codex Regius is a well-preserved vellum leaf containing the incipit and opening lines of a short prose narrative featuring a dialogue between Óðinn and Baldr. The leaf is remarkably clean: wide upper, lower, and outer margins are entirely blank with no marginalia, doodles, pen trials, faces, animals, or reader annotations of any kind. The only deliberate non-textual marks are a small group of simple red crosses placed at the head of the text and at intervals in the narrow left margin, functioning as structural or dialogue markers rather than later additions. The text itself shows no visible scribal corrections. The parchment exhibits only the expected minor natural wear, cockling, and edge irregularities typical of a thirteenth-century Icelandic manuscript in sound condition.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_112/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T06:56:17.829465+00:00"
+}

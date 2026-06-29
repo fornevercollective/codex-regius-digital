@@ -1,3 +1,8 @@
+<img width="1587" height="2380" alt="raw" src="https://github.com/user-attachments/assets/02aaffa5-1c20-4aee-b1be-a3d90f809ff0" />
+<img width="832" height="1248" alt="grok_clean_white" src="https://github.com/user-attachments/assets/5e7ac282-2c49-40c3-9f26-160ee0a714e4" />
+<img width="832" height="1248" alt="grok_artistic_vellum" src="https://github.com/user-attachments/assets/9c02582f-bf05-4c90-b3a8-5b2e0853be5f" />
+
+
 # Codex Regius Digital Edition
 
 Digital scholarly and artistic edition of **GKS 2365 4to** (Poetic Edda).

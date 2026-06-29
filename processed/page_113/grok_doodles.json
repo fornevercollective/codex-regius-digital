@@ -1,0 +1,57 @@
+{
+  "page": 113,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M-113-01",
+      "region": "text block",
+      "type": "other",
+      "description": "Small triangular light-colored parchment or paper fragment protruding from between folios in the lower half of the central text block.",
+      "scholarly_note": "Detached fragment lodged in the fore-edge, likely from a torn folio edge or earlier repair material; indicates mechanical damage and loose material history within the codex."
+    },
+    {
+      "id": "M-113-02",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Multiple fine vertical and diagonal linear scratches and abrasions crossing the dark surface of the stacked page edges.",
+      "scholarly_note": "Cumulative handling and shelving wear on the fore-edge; typical for a heavily used medieval codex with later rebinding and storage."
+    },
+    {
+      "id": "M-113-03",
+      "region": "text block",
+      "type": "stain",
+      "description": "Pervasive dark brown-black staining and discoloration across the entire visible text block, with wavy banding following individual leaf edges.",
+      "scholarly_note": "Age-related degradation combined with possible smoke/soot exposure and migration of iron-gall ink from inscribed pages onto the fore-edges."
+    },
+    {
+      "id": "M-113-04",
+      "region": "text block",
+      "type": "scratch",
+      "description": "Jagged, irregular upper profile of the text block with multiple shortened, torn, or missing leaf edges at the head.",
+      "scholarly_note": "Material loss at the head, consistent with over-trimming during historic rebinding, tearing during use, or environmental damage."
+    },
+    {
+      "id": "M-113-05",
+      "region": "text block",
+      "type": "other",
+      "description": "Frayed and fibrous lower edge of the text block with exposed white threads, fibers, and a small area of lighter material at the tail.",
+      "scholarly_note": "Exposed sewing threads or endband remnants; documents the manuscript's binding structure and wear at the foot, consistent with known rebinding of Codex Regius."
+    }
+  ],
+  "scratches": [
+    "Fine vertical scratches running the length of the fore-edge parallel to the folios.",
+    "Diagonal and crossing surface abrasions creating lighter streaks against the darkened edges.",
+    "Localized scoring and wear most visible in the middle and upper sections of the text block."
+  ],
+  "damage_notes": [
+    "Significant tearing and material loss creating an irregular, jagged head edge on the text block.",
+    "Detached triangular fragment caught within the text block.",
+    "Frayed tail edge with fiber loss and exposed binding threads or guards.",
+    "Heavy overall dark staining and soiling of all visible page edges.",
+    "Uneven compression and slight fanning of leaves with some protruding edges."
+  ],
+  "summary": "The supplied image is a fore-edge profile of the Codex Regius text block rather than a flat written page surface. It reveals substantial physical wear: a lodged triangular parchment fragment, multiple linear scratches and abrasions, heavily stained and darkened edges from age and possible ink migration, jagged torn losses at the head, and frayed fibrous damage at the tail with exposed threads. No marginalia, doodles, pen trials, faces, animals, decorative marks, scribal corrections, or offset ink from text are visible because the photograph shows only the compressed edges of the folios and outer leaves. This documents the codex's material condition and post-medieval handling rather than its paleographic content.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_113/clean_white.jpg",
+  "surveyed_at": "2026-06-29T07:03:32.300668+00:00",
+  "image_note": "handrit.is facsimile for this index is a fore-edge profile, not a recto/verso text surface"
+}

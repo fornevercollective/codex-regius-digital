@@ -25,6 +25,33 @@ from pathlib import Path
 GROK_BIN = shutil.which("grok") or "/Users/tref/.grok/bin/grok"
 GROK_MODEL = "grok-build"  # grok-composer-2.5-fast does not accept image inputs
 TOTAL_PAGES = 144
+MAX_VISION_EDGE = 1568
+
+DOODLES_JSON_SCHEMA = json.dumps({
+    "type": "object",
+    "properties": {
+        "page": {"type": "integer"},
+        "confidence": {"type": "string"},
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "region": {"type": "string"},
+                    "type": {"type": "string"},
+                    "description": {"type": "string"},
+                    "scholarly_note": {"type": "string"},
+                },
+                "required": ["id", "region", "type", "description"],
+            },
+        },
+        "scratches": {"type": "array", "items": {"type": "string"}},
+        "damage_notes": {"type": "array", "items": {"type": "string"}},
+        "summary": {"type": "string"},
+    },
+    "required": ["page", "confidence", "items", "summary"],
+})
 
 VISION_PROMPT = """You are a paleographer surveying Codex Regius (GKS 2365 4to, c. 1270 Iceland).
 
@@ -86,15 +113,32 @@ def extract_json_block(text: str) -> dict | None:
         return None
 
 
-def pick_source_image(page: int, repo: Path, root: Path) -> Path | None:
+def grok_clean_unreliable(page_dir: Path) -> bool:
+    """Skip grok_clean_white when QC shows it diverged from the scan."""
+    qc_path = page_dir / "qc_report.json"
+    if not qc_path.is_file():
+        return False
+    try:
+        metrics = json.loads(qc_path.read_text(encoding="utf-8")).get("image_metrics", {})
+        grok = metrics.get("grok_clean_white", {})
+        return grok.get("ssim_ok") is False or (grok.get("ssim") or 1) < 0.45
+    except (json.JSONDecodeError, OSError):
+        return False
+
+
+def pick_source_image(page: int, repo: Path, root: Path, prefer_raw: bool = False) -> Path | None:
     page_dir = repo / "processed" / f"page_{page:03d}"
-    for candidate in (
-        page_dir / "grok_clean_white.jpg",
+    skip_grok = prefer_raw or grok_clean_unreliable(page_dir)
+    candidates: list[Path] = []
+    if not skip_grok:
+        candidates.append(page_dir / "grok_clean_white.jpg")
+    candidates.extend([
         page_dir / "clean_white.jpg",
         page_dir / "raw.png",
         root / "png" / f"GKS2365_page_{page}.png",
         root / "jpg" / f"GKS2365_page_{page}.jpg",
-    ):
+    ])
+    for candidate in candidates:
         if candidate.is_file():
             return candidate
     return None
@@ -139,8 +183,42 @@ def render_doodles_md(page: int, data: dict, handrit_base: str) -> str:
 """
 
 
+def image_long_edge(path: Path) -> int:
+    try:
+        out = subprocess.run(
+            ["sips", "-g", "pixelWidth", "-g", "pixelHeight", str(path)],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        dims = [int(line.split()[-1]) for line in out.stdout.splitlines() if "pixel" in line]
+        return max(dims) if dims else 0
+    except (subprocess.CalledProcessError, ValueError):
+        return 0
+
+
+def prepare_vision_image(image: Path) -> Path:
+    """Downscale large scans so Grok does not exhaust turns on compression."""
+    edge = image_long_edge(image)
+    if edge <= MAX_VISION_EDGE and image.suffix.lower() in {".jpg", ".jpeg"}:
+        return image
+    out = image.parent / f"_grok_vision_{image.stem}.jpg"
+    subprocess.run(
+        ["sips", "-Z", str(MAX_VISION_EDGE), "-s", "format", "jpeg", str(image), "--out", str(out)],
+        check=True,
+        capture_output=True,
+    )
+    return out
+
+
 def run_grok_vision(image: Path, page: int, dry_run: bool) -> dict | None:
-    prompt = VISION_PROMPT.format(image_path=image, page=page)
+    try:
+        vision_image = prepare_vision_image(image)
+    except subprocess.CalledProcessError as exc:
+        print(f"   ⚠️  Image prep failed on page {page}: {exc.stderr.decode()[:200]}")
+        vision_image = image
+
+    prompt = VISION_PROMPT.format(image_path=vision_image, page=page)
     if dry_run:
         print(f"   [dry-run] grok vision → page {page}")
         return {
@@ -158,13 +236,18 @@ def run_grok_vision(image: Path, page: int, dry_run: bool) -> dict | None:
         GROK_MODEL,
         "--always-approve",
         "--max-turns",
-        "3",
+        "2",
+        "--output-format",
+        "json",
+        "--json-schema",
+        DOODLES_JSON_SCHEMA,
         "--disallowed-tools",
         "run_terminal_cmd,web_search,web_fetch,search_replace,Write,Edit,Grep,list_dir,Agent",
         "-p",
         prompt,
     ]
-    print(f"   👁️  Grok vision → page {page:3d} ({image.name})")
+    label = vision_image.name if vision_image != image else image.name
+    print(f"   👁️  Grok vision → page {page:3d} ({label})")
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=600, cwd=str(image.parent))
     except subprocess.TimeoutExpired:
@@ -178,6 +261,19 @@ def run_grok_vision(image: Path, page: int, dry_run: bool) -> dict | None:
 
     data = extract_json_block(combined)
     if not data:
+        try:
+            payload = json.loads(combined.strip())
+        except json.JSONDecodeError:
+            payload = None
+        if isinstance(payload, dict):
+            structured = payload.get("structuredOutput")
+            if isinstance(structured, dict):
+                data = structured
+            elif isinstance(payload.get("text"), str):
+                data = extract_json_block(payload["text"])
+            else:
+                data = payload.get("response") or payload.get("result") or payload
+    if not data or not isinstance(data, dict) or "page" not in data:
         print(f"   ⚠️  No JSON parsed. Grok said:\n{combined[:500]}")
         return None
     return data
@@ -201,14 +297,16 @@ def update_metadata(meta_path: Path, data: dict) -> None:
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def survey_page(page: int, repo: Path, root: Path, skip_existing: bool, dry_run: bool) -> bool:
+def survey_page(
+    page: int, repo: Path, root: Path, skip_existing: bool, dry_run: bool, prefer_raw: bool = False
+) -> bool:
     page_dir = repo / "processed" / f"page_{page:03d}"
     out_json = page_dir / "grok_doodles.json"
     if skip_existing and out_json.is_file():
         print(f"⏭️  Skipping page {page:3d} (grok_doodles.json exists)")
         return True
 
-    image = pick_source_image(page, repo, root)
+    image = pick_source_image(page, repo, root, prefer_raw=prefer_raw)
     if not image:
         print(f"⚠️  No image for page {page:3d}")
         return False
@@ -242,6 +340,8 @@ def main() -> int:
     parser.add_argument("--all", action="store_true")
     parser.add_argument("--skip-existing", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--prefer-raw", action="store_true", help="Use raw.png over enhanced layers")
+    parser.add_argument("--force", action="store_true", help="Re-survey even if grok_doodles.json exists")
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -259,9 +359,10 @@ def main() -> int:
         print("Mode: dry-run")
     print()
 
+    skip_existing = args.skip_existing and not args.force
     ok = 0
     for page in pages:
-        if survey_page(page, repo, root, args.skip_existing, args.dry_run):
+        if survey_page(page, repo, root, skip_existing, args.dry_run, args.prefer_raw):
             ok += 1
 
     print(f"\nDone: {ok}/{len(pages)} pages surveyed.")

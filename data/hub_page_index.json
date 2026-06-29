@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T04:27:14.463353+00:00",
+  "generated_at": "2026-06-29T07:03:39.143118+00:00",
   "pages_total": 144,
   "counts": {
-    "blank": 32,
+    "blank": 23,
     "partial": 0,
-    "complete": 112
+    "complete": 121
   },
   "highlights_ready": false,
   "pages": [
@@ -591,7 +591,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -609,7 +609,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -645,7 +645,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -681,7 +681,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -699,7 +699,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -724,7 +724,7 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": true,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -735,7 +735,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -753,7 +753,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -814,7 +814,7 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": true,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -825,7 +825,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -879,7 +879,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -915,7 +915,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -933,7 +933,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -987,7 +987,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1059,7 +1059,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1077,7 +1077,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1095,7 +1095,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1113,7 +1113,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1131,7 +1131,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1149,7 +1149,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1203,7 +1203,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1221,7 +1221,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1239,7 +1239,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1275,7 +1275,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1293,7 +1293,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1311,7 +1311,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1365,7 +1365,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1408,7 +1408,7 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": true,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -1491,7 +1491,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1545,7 +1545,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1563,7 +1563,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1599,7 +1599,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1671,7 +1671,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1689,7 +1689,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1707,7 +1707,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1761,7 +1761,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1779,7 +1779,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1797,7 +1797,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1959,7 +1959,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1995,7 +1995,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2013,7 +2013,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2031,7 +2031,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2440,10 +2440,10 @@
     },
     {
       "page": 136,
-      "status": "blank",
+      "status": "complete",
       "poem": "Atlamál",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2451,17 +2451,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 137,
-      "status": "blank",
+      "status": "complete",
       "poem": "Atlamál",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2469,17 +2469,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 138,
-      "status": "blank",
+      "status": "complete",
       "poem": "Atlamál",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2487,17 +2487,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 139,
-      "status": "blank",
+      "status": "complete",
       "poem": "Guðrunarhvöt",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2505,17 +2505,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 140,
-      "status": "blank",
+      "status": "complete",
       "poem": "Guðrunarhvöt",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2523,17 +2523,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 141,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hamðismál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2541,17 +2541,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 142,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hamðismál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2559,17 +2559,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 143,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hamðismál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2578,16 +2578,16 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 144,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hamðismál",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -2595,8 +2595,8 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     }

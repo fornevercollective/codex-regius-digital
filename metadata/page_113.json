@@ -18,15 +18,23 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Guðrúnarkviða II",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "image_note": "handrit facsimile index 113 is a fore-edge profile, not a flat text surface",
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 5,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T07:03:32.300668+00:00",
+    "fore_edge_profile": true
+  },
   "processed_at": "2026-06-29T01:19:34.393060+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:59:41.259439+00:00",
+  "qc_at": "2026-06-29T07:01:41.294872+00:00",
   "qc_issue_count": 1,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.105762+00:00",

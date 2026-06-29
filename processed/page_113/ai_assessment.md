@@ -12,21 +12,23 @@
 - **Page Number**: 113
 - **Folio** (standard): 
 - **Recto / Verso**: 
-- **Image Filename**: 
+- **Image Filename**: GKS2365_page_113.png
+- **Image type**: Fore-edge profile (handrit.is facsimile) — not a flat written surface
 
 ## Poem / Section
-- **Title**: 
-- **Standard Reference** (Neckel/Kuhn or other): 
-- **Type**: Mythological / Heroic
+- **Title**: Guðrúnarkviða II / Guðrúnarkviða III
+- **Standard Reference** (Neckel/Kuhn or other): Guðr. II 31 – Guðr. III 5
+- **Type**: Heroic
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
+[Not transcribable from this facsimile — source image shows compressed fore-edges only.
+Consult Neckel/Kuhn or handrit.is recto/verso views for Guðrúnarkviða II stanzas on this folio.]
 ```
 
 ## Modern English Translation (Plain, Aligned)
 ```
-[PASTE SIDE-BY-SIDE OR LINE-BY-LINE TRANSLATION HERE]
+[Pending — requires text-surface facsimile or edition cross-reference.]
 ```
 
 ## Stanza / Line Breakdown
@@ -35,11 +37,11 @@
 | 1      |                       |         |       |
 
 ## Paleographic & Physical Notes
-- Ink: Iron-gall
-- Parchment condition: 
-- Marginalia / Doodles present: Yes / No (describe)
-- Decorated initials: 
-- Damage / Repairs: 
+- Ink: Iron-gall (inferred from edge offset staining)
+- Parchment condition: Heavy fore-edge soiling, head-edge tears, lodged fragment, frayed tail with exposed threads
+- Marginalia / Doodles present: No surface marks visible (fore-edge view only); see `grok_doodles.json` for edge damage inventory
+- Decorated initials: N/A on this image
+- Damage / Repairs: Significant material loss at head; rebinding wear documented
 
 ## Scholarly Context
 - **Lacuna / Missing sections nearby**: 

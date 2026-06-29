@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:59:41.259439+00:00",
+  "timestamp": "2026-06-29T07:01:41.294872+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -96,6 +96,7 @@
     }
   },
   "ocr": {
+    "text": "",
     "text_preview": "",
     "char_count": 0,
     "error": null

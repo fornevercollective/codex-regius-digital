@@ -1,0 +1,138 @@
+{
+  "page": 28,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T01:55:56.612431+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2350,
+            1567
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2350,
+            1567
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2350,
+            1567
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2350,
+            1567
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2350,
+            1567
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.992,
+      "raw_blur": 1976.99,
+      "enhanced_blur": 2131.5,
+      "raw_contrast": 47.4,
+      "enhanced_contrast": 49.09,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7589,
+      "raw_blur": 1976.99,
+      "enhanced_blur": 6920.38,
+      "raw_contrast": 47.4,
+      "enhanced_contrast": 87.79,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.1133,
+      "raw_blur": 1976.99,
+      "enhanced_blur": 742.34,
+      "raw_contrast": 47.4,
+      "enhanced_contrast": 38.28,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.0987,
+      "raw_blur": 1976.99,
+      "enhanced_blur": 3549.72,
+      "raw_contrast": 47.4,
+      "enhanced_contrast": 73.72,
+      "ssim_ok": false,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft Å\nÅ tye.g nar, miði 51   3 verre   bella kultet oo\nmm nye.5 nær. nag. bra flap ghvip. fylgr 4ylg PERU å\nDer bins Be i sis a gt Bera Å\nDS a ame et er þar Å\nNE ee pe UiS eng aars mb Ef ða que\nþarf  a  ",
+    "char_count": 781,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft",
+    "corrected_text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft",
+    "issue_count": 2,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 8: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

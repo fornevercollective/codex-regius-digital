@@ -1,0 +1,183 @@
+{
+  "page": 21,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T01:45:36.376064+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2410,
+            1607
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2410,
+            1607
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2410,
+            1607
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2410,
+            1607
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2410,
+            1607
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9856,
+      "raw_blur": 1645.03,
+      "enhanced_blur": 1783.87,
+      "raw_contrast": 40.13,
+      "enhanced_contrast": 41.58,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7021,
+      "raw_blur": 1645.03,
+      "enhanced_blur": 7152.32,
+      "raw_contrast": 40.13,
+      "enhanced_contrast": 81.96,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.2914,
+      "raw_blur": 1645.03,
+      "enhanced_blur": 633.77,
+      "raw_contrast": 40.13,
+      "enhanced_contrast": 44.76,
+      "ssim_ok": false,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.3349,
+      "raw_blur": 1645.03,
+      "enhanced_blur": 3541.79,
+      "raw_contrast": 40.13,
+      "enhanced_contrast": 71.19,
+      "ssim_ok": false,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text_preview": "TR |\nFEN deter nevigaatahg. |\nNR bet bikar. bay 1504 vene, í  NOC ál np AA Bn. I,\nEG gn på be æ ða á pate © ig A\nee lar Var go grid eee el ul\nÅ tose. Gje |   ug, joa, sinn) Was SVAF\nEA md apy  go å vi  å  ae: le pan A\n|  KALT  un tal ap prida a gå te leila, så\nOP yr afla, þv ov fraa myr å hit rá háðir Spe\nTG We 8 996 al»  yylar nie fn Mr av amvge Bue: IR\nET ær hári þv   vif ale ope gor þ or gamer 9 ODE á oI\nís 704 Scanps bela ein eið Ga þér er banni m; hám 4lkalins OG\nPep, nm > våg mn; vikings. ",
+    "char_count": 1064,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "TR |\nFEN deter nevigaatahg. |\nNR bet bikar. bay 1504 vene, í  NOC ál np AA Bn. I,\nEG gn på be æ ða á pate © ig A\nee lar Var go grid eee el ul\nÅ tose. Gje |   ug, joa, sinn) Was SVAF\nEA md apy  go å vi  å  ae: le pan A\n|  KALT  un tal ap prida a gå te leila, så\nOP yr afla, þv ov fraa myr å hit rá háð",
+    "corrected_text_preview": "TR |\nFEN deter nevigaatahg. |\nNR bet bikar. bay 1504 vene, í  NOC ál np AA Bn. I,\nEG gn på be æ ða á pate © ig A\nee lar Var go grid eee el ul\nÅ tose. Gje |   ug, joa, sinn) Was SVAF\nEA md apy  go å vi  å  ae: le pan A\n|  KALT  un tal ap prida a gå te leila, så\nOP yr afla, þv ov fraa myr å hit rá háð",
+    "issue_count": 7,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 4: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 6: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 8: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 10: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

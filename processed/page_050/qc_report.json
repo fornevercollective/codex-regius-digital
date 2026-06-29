@@ -1,0 +1,192 @@
+{
+  "page": 50,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T02:26:43.703935+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2387,
+            1592
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2387,
+            1592
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2387,
+            1592
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2387,
+            1592
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2387,
+            1592
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9924,
+      "raw_blur": 1926.54,
+      "enhanced_blur": 2078.37,
+      "raw_contrast": 47.2,
+      "enhanced_contrast": 48.87,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7578,
+      "raw_blur": 1926.54,
+      "enhanced_blur": 6752.66,
+      "raw_contrast": 47.2,
+      "enhanced_contrast": 86.73,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.362,
+      "raw_blur": 1926.54,
+      "enhanced_blur": 743.93,
+      "raw_contrast": 47.2,
+      "enhanced_contrast": 37.79,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.3752,
+      "raw_blur": 1926.54,
+      "enhanced_blur": 2842.62,
+      "raw_contrast": 47.2,
+      "enhanced_contrast": 65.93,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text_preview": "| thon G towa ee eee hå ey HÅ\n=. tbatónð há ea A Vat éfð rome, hul\nAr vir fj På br 10 mener vacþi   Ge ingar'bá = * |\ntaf brvn fra. fielitigar tneto de gn  madam\n7  hs  ut ign. am ‘Dee © :  DUNO ifs   | vr\n| pt gd\na  bis tang fe paa &p bm, heals ba | Br  MG\nÅ glis atl dove fatte mans freypa vir. Ctr þem Ge\nKulø Ko: opm roleg 5 barg A 3\nÅ enige van Ape þr på  pr ge ee A\nea f horn ge að pg fee MT\n188: ae  {ag The. 9 nyter å Mamg wp wh sa fae á í\nee eas gl ar 6 fu un ae fu RW |\nbi ct be tele t   sn",
+    "char_count": 927,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "| thon G towa ee eee hå ey HÅ\n=. tbatónð há ea A Vat éfð rome, hul\nAr vir fj På br 10 mener vacþi   Ge ingar'bá = * |\ntaf brvn fra. fielitigar tneto de gn  madam\n7  hs  ut ign. am ‘Dee © :  DUNO ifs   | vr\n| pt gd\na  bis tang fe paa &p bm, heals ba | Br  MG\nÅ glis atl dove fatte mans freypa vir. Ctr",
+    "corrected_text_preview": "| thon G towa ee eee hå ey HÅ\n=. tbatónð há ea A Vat éfð rome, hul\nAr vir fj På br 10 mener vacþi   Ge ingar'bá = * |\ntaf brvn fra. fielitigar tneto de gn  madam\n7  hs  ut ign. am ‘Dee © :  DUNO ifs   | vr\n| pt gd\na  bis tang fe paa &p bm, heals ba | Br  MG\nÅ glis atl dove fatte mans freypa vir. Ctr",
+    "issue_count": 8,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 5: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 6: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

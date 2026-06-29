@@ -4,7 +4,10 @@ GKS2365/jpg/** filter=lfs diff=lfs merge=lfs -text
 GKS2365/jpeg/** filter=lfs diff=lfs merge=lfs -text
 GKS2365/pdf/** filter=lfs diff=lfs merge=lfs -text
 GKS2365/grok/** filter=lfs diff=lfs merge=lfs -text
-processed/** filter=lfs diff=lfs merge=lfs -text
+processed/**.jpg filter=lfs diff=lfs merge=lfs -text
+processed/**.jpeg filter=lfs diff=lfs merge=lfs -text
+processed/**.png filter=lfs diff=lfs merge=lfs -text
+processed/**/grok_variations/** filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,11 @@
+{
+  "name": "codex-regius-digital",
+  "version": "1.0.0",
+  "description": "Digital scholarly and artistic edition of Codex Regius (GKS 2365 4to)",
+  "scripts": {
+    "dev": "echo 'Static site - use live preview'",
+    "build": "echo 'No build step required for static HTML'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

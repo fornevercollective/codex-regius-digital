@@ -1,0 +1,31 @@
+name: Deploy to GitHub Pages (Optimized)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Exclude large raw images from artifact
+        run: |
+          mkdir -p deploy
+          cp -r *.html processed/ deploy/ 2>/dev/null || true
+          cp -r index.html README.md paleography-hub.html deploy/ 2>/dev/null || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: deploy
+
+      - uses: actions/deploy-pages@v4

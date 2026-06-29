@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:02:30.407205+00:00",
+  "timestamp": "2026-06-29T03:06:14.427777+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 86.61,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.4272,
+      "raw_blur": 1985.3,
+      "enhanced_blur": 673.07,
+      "raw_contrast": 52.42,
+      "enhanced_contrast": 46.78,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.3319,
+      "raw_blur": 1985.3,
+      "enhanced_blur": 3025.8,
+      "raw_contrast": 52.42,
+      "enhanced_contrast": 65.12,
+      "ssim_ok": false,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM      pi\nKAT Bs eið PETE ben   sf\nGe møbrke ope P rå aar be tjan Data ff       Í\nEE tee  á Sþ et mir sol ARP Beta no ladIM 4)\nSG st nae.  p             ona ats.     ap    av     sið  þar mon &  tia  er\nDE bs maps ME å þið Opry:     Å\nSR nia þv lþ forte lat 3008 © teg. byetvbr\nPE NE      fv BYS høg I   fö vi ugga    alle   Á.\nA Re par í $ og atay mir. ar þ kg Bs ty oH\nEET aði hó bana. herra. na Ye |\nAe Sell ern.   fs pear ae brage  om Vout yt    ae\n|  3 ho å ag, RR   Coe, ið min  Ane        gær må di. 4\nbe Se ee 3 A ;  Í Mn, ar ka = ið ae  gl ie EN er SEV  f  Å | Me",
     "text_preview": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM      pi\nKAT Bs eið PETE ben   sf\nGe møbrke ope P rå aar be tjan Data ff       Í\nEE tee  á Sþ et mir sol ARP Beta no ladIM 4)\nSG st nae.  p             ona ats.     ap    av     sið  þar mon &  tia  er",
     "char_count": 870,
     "error": null

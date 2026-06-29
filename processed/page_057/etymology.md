@@ -1,22 +1,39 @@
 # Etymology & Dialect — Page 57
 
 **Language**: Old West Norse (Icelandic, c. 1270–1280)
-**Script tradition**: Gothic book hand with insular influences
+**Dialect**: Conservative Icelandic transmission; possible Norwegian substrate in oral exemplar
 
-## Dialect Notes
-- Conservative retention of diphthongs typical of Icelandic transmission
-- Possible Norwegian substrate from earlier oral tradition
-- Spelling variants may reflect scribal normalization vs. dialect pronunciation
+## Line-Level Lexicon (auto-extracted tokens)
+| Form | Etymology | Cognates | Edition ref |
+|------|-----------|----------|-------------|
+| sg | [etymology pending] | [cognates] | Neckel/Kuhn |
+| a | [etymology pending] | [cognates] | Neckel/Kuhn |
+| TRIKK | [etymology pending] | [cognates] | Neckel/Kuhn |
+| aa | [etymology pending] | [cognates] | Neckel/Kuhn |
+| Hel | [etymology pending] | [cognates] | Neckel/Kuhn |
+| MARE | [etymology pending] | [cognates] | Neckel/Kuhn |
+| par | [etymology pending] | [cognates] | Neckel/Kuhn |
+| gem | [etymology pending] | [cognates] | Neckel/Kuhn |
+| Gå | [etymology pending] | [cognates] | Neckel/Kuhn |
+| Á | [etymology pending] | [cognates] | Neckel/Kuhn |
+| ERLA | [etymology pending] | [cognates] | Neckel/Kuhn |
+| AA | [etymology pending] | [cognates] | Neckel/Kuhn |
+| LÅ | [etymology pending] | [cognates] | Neckel/Kuhn |
+| FAE | [etymology pending] | [cognates] | Neckel/Kuhn |
+| Ay | [etymology pending] | [cognates] | Neckel/Kuhn |
 
-## Key Morphological Features
-| Feature | Example | Note |
-|---------|---------|------|
-| u-umlaut | — | Pending line-level analysis |
-| i-mutation | — | Pending line-level analysis |
-| Archaic lexicon | — | Cross-ref. Neckel/Kuhn |
+## Morphological Features
+| Feature | Example on page | Note |
+|---------|-----------------|------|
+| u-umlaut | [pending] | Icelandic retention |
+| i-mutation | [pending] | |
+| Archaic ǫ/ö | [pending] | Normalisation vs manuscript |
+
+## Religious-Lexical Layer
+- Pagan theonyms and mythic place-names: cross-ref `liturgy_comparison.md`
+- Christian loan or framing vocabulary: compare Hauksbók prose
 
 ## Comparative Manuscripts
-- AM 748 I 4to (related Eddic witness)
-- Hauksbók (prose parallels)
+- AM 748 I 4to · Hauksbók · Snorra Edda
 
-*Auto-generated scaffold — enrich with line-level glosses during scholarly review.*
+*Aid AI assessment: pair with `thematic_crossrefs.json` for concept clustering.*

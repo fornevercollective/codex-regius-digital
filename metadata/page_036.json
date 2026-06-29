@@ -14,7 +14,11 @@
     "grok_artistic_vellum.jpg",
     "grok_clean_white.jpg",
     "qc_report.json",
-    "qc_report.md"
+    "qc_report.md",
+    "codicology.md",
+    "calligraphy_sheet.md",
+    "liturgy_comparison.md",
+    "scholarly_report.json"
   ],
   "poem": "",
   "original_text": "",
@@ -25,5 +29,7 @@
   "grok_enhanced_at": "2026-06-29T02:07:33.684458+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T02:59:47.405166+00:00",
-  "qc_issue_count": 6
+  "qc_issue_count": 6,
+  "scholarly_assessment": true,
+  "scholarly_assessment_at": "2026-06-29T03:13:34.670975+00:00"
 }

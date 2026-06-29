@@ -1,0 +1,50 @@
+{
+  "script": "Gothic book hand (Icelandic, c. 1270)",
+  "scribe_id": "CR-main-hand",
+  "letters": [
+    {"char": "a", "name": "a", "variants": ["single-storey", "open bowl"], "notes": "Often open; distinguish from o"},
+    {"char": "á", "name": "a-acute", "variants": ["acute above right"], "notes": "Icelandic orthography"},
+    {"char": "b", "name": "b", "variants": ["looped", "straight stem"], "notes": ""},
+    {"char": "d", "name": "d", "variants": ["uncial d", "caroline d"], "notes": "Both forms appear; context-dependent"},
+    {"char": "ð", "name": "eth", "variants": ["crossed d", "insular form"], "notes": "Distinct from d; critical for OCR QC"},
+    {"char": "e", "name": "e", "variants": ["closed", "open shoulder"], "notes": ""},
+    {"char": "é", "name": "e-acute", "variants": ["acute"], "notes": ""},
+    {"char": "f", "name": "f", "variants": ["long s-like crossbar"], "notes": ""},
+    {"char": "g", "name": "g", "variants": ["closed tail", "open tail"], "notes": "Watch for 8-like form"},
+    {"char": "h", "name": "h", "variants": ["minim pair"], "notes": ""},
+    {"char": "i", "name": "i", "variants": ["with dot", "without dot in cluster"], "notes": "OCR confuses with l, 1"},
+    {"char": "í", "name": "i-acute", "variants": ["acute"], "notes": ""},
+    {"char": "j", "name": "j", "variants": ["long j"], "notes": "Rare in Old Norse"},
+    {"char": "k", "name": "k", "variants": ["two-stroke", "loop on stem"], "notes": ""},
+    {"char": "l", "name": "l", "variants": ["tall minim"], "notes": ""},
+    {"char": "m", "name": "m", "variants": ["three minims"], "notes": ""},
+    {"char": "n", "name": "n", "variants": ["two minims", "uncial n"], "notes": ""},
+    {"char": "o", "name": "o", "variants": ["round", "oval"], "notes": ""},
+    {"char": "ó", "name": "o-acute", "variants": ["acute"], "notes": ""},
+    {"char": "p", "name": "p", "variants": ["open bowl"], "notes": "OCR confuses with þ"},
+    {"char": "r", "name": "r", "variants": ["caroline", "long r", "2-shaped"], "notes": "Multiple r forms in same hand"},
+    {"char": "s", "name": "s", "variants": ["long s (ſ)", "round s"], "notes": "Final vs medial distinction"},
+    {"char": "t", "name": "t", "variants": ["cross on stem"], "notes": ""},
+    {"char": "u", "name": "u", "variants": ["v-shaped", "u with bottom stroke"], "notes": "u/v not distinguished"},
+    {"char": "ú", "name": "u-acute", "variants": ["acute"], "notes": ""},
+    {"char": "v", "name": "v", "variants": ["same as u"], "notes": ""},
+    {"char": "x", "name": "x", "variants": ["rare"], "notes": ""},
+    {"char": "y", "name": "y", "variants": ["dotted", "undotted"], "notes": ""},
+    {"char": "ý", "name": "y-acute", "variants": ["acute"], "notes": ""},
+    {"char": "þ", "name": "thorn", "variants": ["with ascender loop", "straight"], "notes": "Icelandic hallmark letter"},
+    {"char": "æ", "name": "ash", "variants": ["a+e ligature", "separate ae"], "notes": ""},
+    {"char": "ö", "name": "o-umlaut", "variants": ["o with dots", "oe digraph"], "notes": ""},
+    {"char": "ǫ", "name": "o-hook", "variants": ["hooked o", "normalised to ö in editions"], "notes": "Archaic orthography"},
+    {"char": "ꝩ", "name": "wynn", "variants": ["insular w"], "notes": "Rare; borrowed letter"}
+  ],
+  "abbreviations": [
+    {"mark": "⁊", "expansion": "ok", "meaning": "and"},
+    {"mark": "ꝥ", "expansion": "þat", "meaning": "that"},
+    {"mark": "⁞", "expansion": "paragraphus", "meaning": "section break"}
+  ],
+  "font_export": {
+    "format": "glyphs_json",
+    "target_tools": ["FontForge", "Glyphs", "FontLab"],
+    "status": "scaffold — attach SVG captures per letter from processed pages"
+  }
+}

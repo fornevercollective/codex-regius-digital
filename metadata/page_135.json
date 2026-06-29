@@ -12,7 +12,11 @@
     "etymology.md",
     "doodles_catalog.md",
     "qc_report.json",
-    "qc_report.md"
+    "qc_report.md",
+    "codicology.md",
+    "calligraphy_sheet.md",
+    "liturgy_comparison.md",
+    "scholarly_report.json"
   ],
   "poem": "",
   "original_text": "",
@@ -21,5 +25,7 @@
   "processed_at": "2026-06-29T01:19:38.187125+00:00",
   "qc_status": "needs_review",
   "qc_at": "2026-06-29T03:04:39.020109+00:00",
-  "qc_issue_count": 5
+  "qc_issue_count": 5,
+  "scholarly_assessment": true,
+  "scholarly_assessment_at": "2026-06-29T03:13:34.784779+00:00"
 }

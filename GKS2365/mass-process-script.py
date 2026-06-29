@@ -364,6 +364,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="List work without writing files")
     parser.add_argument("--qc", action="store_true", help="Run QC pipeline after each page")
     parser.add_argument("--qc-auto-apply", action="store_true", help="Auto-apply safe OCR fixes during QC")
+    parser.add_argument("--scholarly", action="store_true", help="Generate full scholarly assessment stack per page")
     args = parser.parse_args()
 
     paths = resolve_paths(args.root.resolve())
@@ -387,6 +388,13 @@ def main() -> int:
         print(f"Error: png folder not found at {paths['png']}", file=sys.stderr)
         return 1
 
+    scholarly_engine = None
+    if args.scholarly and not args.dry_run:
+        sys.path.insert(0, str(paths["repo"]))
+        from tools.scholarly_assessment import ScholarlyAssessmentEngine
+
+        scholarly_engine = ScholarlyAssessmentEngine(paths["repo"])
+
     qc_engine = None
     if args.qc and not args.dry_run:
         sys.path.insert(0, str(paths["repo"]))
@@ -398,6 +406,9 @@ def main() -> int:
     for page in pages:
         if process_page(page, paths, args.skip_existing, args.dry_run):
             ok += 1
+            if scholarly_engine:
+                scholarly_engine.run_page(page)
+                print(f"   📜 Scholarly assessment page {page:3d}")
             if qc_engine:
                 report = qc_engine.run_page(page, auto_apply=args.qc_auto_apply)
                 status = report.get("status", "?")

@@ -1,0 +1,34 @@
+{
+  "manuscript": "GKS 2365 4to",
+  "title": "Codex Regius of the Poetic Edda",
+  "vellum": {
+    "animal": "Calf",
+    "animal_confidence": "high",
+    "animal_note": "Young cattle vellum typical for Icelandic manuscripts of this period; fine grain and moderate opacity consistent with calfskin.",
+    "region_origin": "Western or northern Iceland (probable)",
+    "region_confidence": "medium",
+    "region_note": "Inferred from scribal hand, parchment preparation quality, and Icelandic transmission context.",
+    "age_estimate": "c. 1260–1280",
+    "age_consensus": "Standard scholarly consensus (Árni Magnússon Institute; handrit.is)",
+    "preparation": {
+      "quality": "High",
+      "fiber_pattern": "Typical Icelandic laid-line pattern",
+      "finish": "Well-prepared, relatively thin sheets for a large composite codex",
+      "defects_common": ["Minor cockling", "Edge wear", "Iron-gall fading in places"]
+    }
+  },
+  "ink": {
+    "type": "Iron-gall",
+    "color_range": "Brown-black to sepia",
+    "corrosion_risk": "Monitor for ink bite on hair side"
+  },
+  "binding_history": {
+    "original": "Medieval wooden boards (lost)",
+    "modern": "Royal Library Copenhagen conservation binding"
+  },
+  "citations": [
+    "Neckel & Kuhn 1983",
+    "handrit.is GKS04-2365",
+    "Árni Magnússon Institute for Icelandic Studies"
+  ]
+}

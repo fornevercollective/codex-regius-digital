@@ -19,6 +19,16 @@ for f in index.html book-viewer.html paleography-hub.html \
   [[ -f "${ROOT}/${f}" ]] && cp "${ROOT}/${f}" "${DEPLOY}/"
 done
 
+# Scholarly hub assets (small JSON + CSS/JS only)
+if [[ -d "${ROOT}/data" ]]; then
+  mkdir -p "${DEPLOY}/data"
+  cp -r "${ROOT}/data/." "${DEPLOY}/data/"
+fi
+if [[ -d "${ROOT}/docs" ]]; then
+  mkdir -p "${DEPLOY}/docs"
+  cp -r "${ROOT}/docs/." "${DEPLOY}/docs/"
+fi
+
 touch "${DEPLOY}/.nojekyll"
 
 # Metadata (JSON only, small)

@@ -1,0 +1,35 @@
+{
+  "scribe_id": "CR-main-hand",
+  "label": "Codex Regius Main Scribe",
+  "hand_type": "Gothic book hand with insular features",
+  "training_context": "Icelandic scriptorium tradition, c. mid-13th century",
+  "biography": {
+    "name": "Unknown (single professional main hand)",
+    "life_dates": "fl. c. 1260–1280",
+    "origin": "Iceland (probable)",
+    "career_summary": "Trained professional copyist; highly consistent letterforms across the Poetic Edda portion of GKS 2365 4to. No colophon survives; identity remains scholarly open question.",
+    "research_placeholders": [
+      "Link to contemporary Icelandic scriptoria",
+      "Comparison with Hauksbók hands",
+      "Possible connection to Norwegian exemplar tradition"
+    ]
+  },
+  "timeline": [
+    {"year": 1220, "era": "~", "event": "Oral and written Eddic tradition circulating in Iceland/Norway", "type": "context"},
+    {"year": 1260, "era": "~", "event": "Probable terminus post quem for exemplar traditions behind Codex Regius", "type": "context"},
+    {"year": 1270, "era": "~", "event": "Main scribe copies Poetic Edda onto prepared vellum", "type": "milestone", "manuscript": "GKS 2365 4to"},
+    {"year": 1275, "era": "~", "event": "Marginalia and minor corrections (same or secondary hand — pending page-level analysis)", "type": "annotation"},
+    {"year": 1280, "era": "~", "event": "Probable terminus ante quem for primary copying phase", "type": "milestone"},
+    {"year": 1643, "era": "", "event": "Bishop Brynjólfur Sveinsson presents codex to Frederick III of Denmark; named Codex Regius", "type": "provenance"},
+    {"year": 1971, "era": "", "event": "Returned to Iceland; Árni Magnússon Institute stewardship", "type": "provenance"}
+  ],
+  "style_phases": [
+    {"phase": "Primary copying", "pages": "1–144", "traits": ["Regular minim height", "Consistent þ/ð distinction", "Abbreviation system stable"]},
+    {"phase": "Corrections", "pages": "various", "traits": ["Smaller marginal corrections", "Possible second hand — verify per page"]}
+  ],
+  "cross_manuscript_hands": [
+    {"manuscript": "AM 748 I 4to", "relation": "Related Eddic witness; compare letterforms"},
+    {"manuscript": "Hauksbók (AM 371 4to)", "relation": "Prose Edda parallels; different scribal team"},
+    {"manuscript": "Snorri Sturluson autograph tradition", "relation": "Indirect; prose vs poetic copying norms"}
+  ]
+}

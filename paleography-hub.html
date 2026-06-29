@@ -1,3 +1,94 @@
-<h1>Paleography & Etymology Hub • Codex Regius</h1>
-<p>Full research level: Doodles catalog • Vellum analysis • Calligraphy reference with font export • Regional dialect/etymology • Comparative liturgy across time • Thematic religious parallels.</p>
-<p>Modeled after high-quality recent manuscript studies (e.g. Ashburnham-level depth).</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Regius · Paleography & Scholarly Hub</title>
+  <meta name="description" content="GKS 2365 4to — vellum codicology, calligraphy timeline, doodles catalog, liturgy comparison, font export. Forbes-style interactive research hub." />
+  <link rel="stylesheet" href="docs/assets/codex-paleography.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <h1>Codex Regius · Paleography Hub</h1>
+      <p class="tagline">GKS 2365 4to — vellum · calligraphy · doodles · liturgy · etymology · script-to-font</p>
+      <nav class="site-nav" aria-label="Hub sections">
+        <a href="index.html">Home</a>
+        <a href="#codicology" class="active">Codicology</a>
+        <a href="#calligraphy">Calligraphy</a>
+        <a href="#scribe">Scribe Timeline</a>
+        <a href="#liturgy">Liturgy</a>
+        <a href="book-viewer.html">Book Viewer</a>
+        <a href="https://handrit.is/manuscript/view/is/GKS04-2365/9" target="_blank" rel="noopener">handrit.is</a>
+        <a href="https://github.com/fornevercollective/codex-regius-digital" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Page selector">
+      <label for="page-input">Jump to page (1–144)</label>
+      <input type="number" id="page-input" min="1" max="144" value="10" />
+      <label>All pages</label>
+      <div id="page-list" class="page-list"></div>
+    </aside>
+
+    <main class="main-panel">
+      <section id="page-detail">
+        <span class="section-label">Selected folio</span>
+        <h2 id="page-title">Page 10</h2>
+        <img id="page-preview" class="preview-img" alt="Page artistic vellum" src="processed/page_010/grok_artistic_vellum.jpg" />
+        <div id="page-links" style="margin:1rem 0"></div>
+      </section>
+
+      <div class="tabs" role="tablist">
+        <button type="button" class="tab active" data-tab="tab-codicology">Codicology</button>
+        <button type="button" class="tab" data-tab="tab-calligraphy">Calligraphy</button>
+        <button type="button" class="tab" data-tab="tab-scribe">Scribe Life</button>
+        <button type="button" class="tab" data-tab="tab-liturgy">Liturgy & Themes</button>
+        <button type="button" class="tab" data-tab="tab-doodles">Doodles</button>
+      </div>
+
+      <div id="tab-codicology" class="tabpanel active" role="tabpanel">
+        <span class="section-label">Vellum assessment</span>
+        <h2>Vellum Codicology</h2>
+        <div id="codicology-body"></div>
+      </div>
+
+      <div id="tab-calligraphy" class="tabpanel" role="tabpanel">
+        <span class="section-label">Alphabetical reference</span>
+        <h2>Calligraphy · Letter Variations</h2>
+        <p>Full scribe alphabet with variant forms — click cells for variant notes. Export for FontForge / Glyphs.</p>
+        <div id="alphabet-grid" class="alphabet-grid"></div>
+        <button type="button" class="btn" id="export-font-btn">Script-to-Font · Download JSON</button>
+        <p><small>Scaffold: <code>data/codex_regius_font.json</code> — attach SVG crops per glyph from processed pages.</small></p>
+      </div>
+
+      <div id="tab-scribe" class="tabpanel" role="tabpanel">
+        <span class="section-label">Writer timeline</span>
+        <h2>Scribe Timeline Descriptor</h2>
+        <p>Forbes-style life context — slide year to see copying phase, provenance, and cross-manuscript hand comparisons.</p>
+        <label>Year <span id="year-value">1270</span></label>
+        <input type="range" id="year-slider" class="year-slider" min="1220" max="2026" value="1270" step="5" />
+        <div id="scribe-timeline" class="timeline"></div>
+      </div>
+
+      <div id="tab-liturgy" class="tabpanel" role="tabpanel">
+        <span class="section-label">Text evolution</span>
+        <h2>Comparative Liturgy & Thematic Cross-References</h2>
+        <div id="liturgy-body"></div>
+      </div>
+
+      <div id="tab-doodles" class="tabpanel" role="tabpanel">
+        <span class="section-label">Marginalia</span>
+        <h2>Doodles · Misprints · Scratch Analysis</h2>
+        <p>Per-page catalogs include marginalia inventory, misprint detection, and surface damage notes.</p>
+        <p>Open <strong>Doodles</strong> link above for the selected page, or run:</p>
+        <pre style="background:#1a120b;padding:1rem;border-radius:4px;overflow:auto">python3 assessment-pipeline.py --all</pre>
+      </div>
+    </main>
+  </div>
+
+  <script src="docs/assets/codex-paleography.js"></script>
+</body>
+</html>

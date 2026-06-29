@@ -1,5 +1,3 @@
-# AI Assessment — GKS2365 Page 70
-
 # AI Assessment Template for Codex Regius (GKS 2365 4to)
 
 **Manuscript**: Codex Regius of the Poetic Edda (GKS 2365 4to)
@@ -11,11 +9,10 @@
 ---
 
 ## Page / Folio Information
-- **Page Number** (user labeling): 70
+- **Page Number**: 70
 - **Folio** (standard): 
 - **Recto / Verso**: 
-- **Image Filename**: GKS2365_page_70.png
-- **Page Number** (user labeling): 70
+- **Image Filename**: 
 
 ## Poem / Section
 - **Title**: 
@@ -82,7 +79,7 @@ Kl PE ee EEG Er
 ```json
 {
   "manuscript": "GKS 2365 4to",
-  "page": "70",
+  "page": "",
   "poem": "",
   "original_text": "",
   "translation": "",
@@ -106,3 +103,63 @@ Kl PE ee EEG Er
 - Paleographic observations for advanced study
 
 *This template is designed for rapid ingestion by LLMs, digital humanities tools, and scholarly databases.*
+
+---
+
+## Integrated Scholarly Modules (auto-linked)
+| Module | File |
+|--------|------|
+| Vellum codicology | `codicology.md` |
+| Doodles & misprints | `doodles_catalog.md` |
+| Calligraphy / font | `calligraphy_sheet.md` |
+| Liturgy comparison | `liturgy_comparison.md` |
+| Etymology | `etymology.md` |
+| Machine report | `scholarly_report.json` |
+
+## Vellum Codicology Summary
+- **Animal**: Calf
+- **Origin**: Western or northern Iceland (probable)
+- **Age**: c. 1260–1280
+
+## Scribe Context
+- **Hand**: Gothic book hand with insular features
+- **Timeline**: fl. c. 1260–1280
+
+## AI / LLM Optimized Block (extended)
+```json
+{
+  "manuscript": "GKS 2365 4to",
+  "page": 70,
+  "modules": [
+    "codicology",
+    "doodles",
+    "calligraphy",
+    "liturgy",
+    "etymology"
+  ],
+  "vellum": {
+    "animal": "Calf",
+    "animal_confidence": "high",
+    "animal_note": "Young cattle vellum typical for Icelandic manuscripts of this period; fine grain and moderate opacity consistent with calfskin.",
+    "region_origin": "Western or northern Iceland (probable)",
+    "region_confidence": "medium",
+    "region_note": "Inferred from scribal hand, parchment preparation quality, and Icelandic transmission context.",
+    "age_estimate": "c. 1260–1280",
+    "age_consensus": "Standard scholarly consensus (Árni Magnússon Institute; handrit.is)",
+    "preparation": {
+      "quality": "High",
+      "fiber_pattern": "Typical Icelandic laid-line pattern",
+      "finish": "Well-prepared, relatively thin sheets for a large composite codex",
+      "defects_common": [
+        "Minor cockling",
+        "Edge wear",
+        "Iron-gall fading in places"
+      ]
+    }
+  },
+  "scribe_id": "CR-main-hand",
+  "transcription_preview": "Gr ve þú as\nos ANS. 19 té out av via ba €é homo al? faman fi   “a “\nye are by  obtadaty É álið mag € fa hvert“ tien he + ye\nÅ aar brutte 1: la erey ny Í “2 QA        9 på {\nt   ary ier     Gå áð“   Pa: A RS   A oe  Fea ey OM er\nBeye ee\nga på ger $a gagn 9 fár rate OG BØ ms óg -\na \"pilti. padract 5 b",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "assessment_at": "2026-06-29T03:13:34.711171+00:00"
+}
+```

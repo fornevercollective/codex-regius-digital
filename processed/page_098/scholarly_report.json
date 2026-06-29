@@ -1,0 +1,118 @@
+{
+  "manuscript": "GKS 2365 4to",
+  "page": 98,
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "generated_at": "2026-06-29T03:13:34.742566+00:00",
+  "codicology": {
+    "animal": "Calf",
+    "animal_confidence": "high",
+    "animal_note": "Young cattle vellum typical for Icelandic manuscripts of this period; fine grain and moderate opacity consistent with calfskin.",
+    "region_origin": "Western or northern Iceland (probable)",
+    "region_confidence": "medium",
+    "region_note": "Inferred from scribal hand, parchment preparation quality, and Icelandic transmission context.",
+    "age_estimate": "c. 1260–1280",
+    "age_consensus": "Standard scholarly consensus (Árni Magnússon Institute; handrit.is)",
+    "preparation": {
+      "quality": "High",
+      "fiber_pattern": "Typical Icelandic laid-line pattern",
+      "finish": "Well-prepared, relatively thin sheets for a large composite codex",
+      "defects_common": [
+        "Minor cockling",
+        "Edge wear",
+        "Iron-gall fading in places"
+      ]
+    }
+  },
+  "scribe": {
+    "id": "CR-main-hand",
+    "label": "Codex Regius Main Scribe",
+    "timeline": [
+      {
+        "year": 1220,
+        "era": "~",
+        "event": "Oral and written Eddic tradition circulating in Iceland/Norway",
+        "type": "context"
+      },
+      {
+        "year": 1260,
+        "era": "~",
+        "event": "Probable terminus post quem for exemplar traditions behind Codex Regius",
+        "type": "context"
+      },
+      {
+        "year": 1270,
+        "era": "~",
+        "event": "Main scribe copies Poetic Edda onto prepared vellum",
+        "type": "milestone",
+        "manuscript": "GKS 2365 4to"
+      },
+      {
+        "year": 1275,
+        "era": "~",
+        "event": "Marginalia and minor corrections (same or secondary hand — pending page-level analysis)",
+        "type": "annotation"
+      },
+      {
+        "year": 1280,
+        "era": "~",
+        "event": "Probable terminus ante quem for primary copying phase",
+        "type": "milestone"
+      },
+      {
+        "year": 1643,
+        "era": "",
+        "event": "Bishop Brynjólfur Sveinsson presents codex to Frederick III of Denmark; named Codex Regius",
+        "type": "provenance"
+      },
+      {
+        "year": 1971,
+        "era": "",
+        "event": "Returned to Iceland; Árni Magnússon Institute stewardship",
+        "type": "provenance"
+      }
+    ]
+  },
+  "calligraphy": {
+    "script": "Gothic book hand (Icelandic, c. 1270)",
+    "letter_count": 34,
+    "font_export_ready": true
+  },
+  "doodles": {
+    "inventory_status": "scaffold",
+    "misprints_detected": 15
+  },
+  "liturgy": {
+    "witnesses": [
+      "GKS 2365 4to",
+      "AM 748 I 4to",
+      "Hauksbók",
+      "Paper copies"
+    ],
+    "stanzas_on_page": []
+  },
+  "themes": [
+    "cosmogony",
+    "heroic-death",
+    "wisdom-contest"
+  ],
+  "transcription_chars": 1435,
+  "layers": [
+    "interactive.html",
+    "codicology.md",
+    "liturgy_comparison.md",
+    "calligraphy_sheet.md",
+    "doodles_catalog.md",
+    "qc_report.md",
+    "raw.png",
+    "artistic_vellum.jpg",
+    "etymology.md",
+    "ai_assessment.md",
+    "qc_report.json",
+    "clean_white.jpg"
+  ],
+  "citations": [
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Árni Magnússon Institute: Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík. <https://arnastofnun.is/>"
+  ]
+}

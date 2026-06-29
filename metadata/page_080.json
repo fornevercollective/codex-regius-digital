@@ -12,7 +12,13 @@
     "etymology.md",
     "doodles_catalog.md",
     "qc_report.json",
-    "qc_report.md"
+    "qc_report.md",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg",
+    "codicology.md",
+    "calligraphy_sheet.md",
+    "liturgy_comparison.md",
+    "scholarly_report.json"
   ],
   "poem": "",
   "original_text": "",
@@ -20,6 +26,10 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:28.749641+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:02:40.066494+00:00",
-  "qc_issue_count": 15
+  "qc_at": "2026-06-29T03:09:32.804156+00:00",
+  "qc_issue_count": 15,
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T03:09:32.797836+00:00",
+  "scholarly_assessment": true,
+  "scholarly_assessment_at": "2026-06-29T03:13:34.722101+00:00"
 }

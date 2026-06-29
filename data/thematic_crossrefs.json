@@ -1,0 +1,29 @@
+{
+  "themes": [
+    {
+      "id": "cosmogony",
+      "label": "Cosmogony & world-tree",
+      "cr_poems": ["Völuspá", "Grímnismál"],
+      "pagan_concepts": ["Yggdrasil", "Ginnungagap", "Ragnarök cycle"],
+      "christian_parallels": ["Genesis creation narrative", "Apocalyptic revelation literature"],
+      "other_traditions": ["Indo-European cosmogonic myth pattern", "Vedic cosmology (distant structural parallel)"],
+      "duplication_note": "Thematic recurrence across Eddic poems — not necessarily scribal duplication"
+    },
+    {
+      "id": "heroic-death",
+      "label": "Heroic death & afterlife",
+      "cr_poems": ["Helgakviða", "Völundarkviða"],
+      "pagan_concepts": ["Valhǫll", "Hel", "fylgja"],
+      "christian_parallels": ["Judgment", "soul's destination"],
+      "other_traditions": ["Germanic heroic ethos", "Beowulf funeral rite parallels"]
+    },
+    {
+      "id": "wisdom-contest",
+      "label": "Wisdom contest / flyting",
+      "cr_poems": ["Vafþrúðnismál", "Alvíssmál"],
+      "pagan_concepts": ["Óðinn as wisdom-seeker"],
+      "christian_parallels": ["Solomon wisdom literature (structural)"],
+      "other_traditions": ["Irish wisdom dialogue genre"]
+    }
+  ]
+}

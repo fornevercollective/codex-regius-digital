@@ -1,0 +1,394 @@
+{
+  "font_name": "CodexRegius-CR-main-hand",
+  "family": "Codex Regius",
+  "style": "Regular",
+  "script": "Gothic book hand (Icelandic, c. 1270)",
+  "scribe_id": "CR-main-hand",
+  "units_per_em": 1000,
+  "ascender": 800,
+  "descender": -200,
+  "glyphs": [
+    {
+      "unicode": "a",
+      "name": "a",
+      "variants": [
+        "single-storey",
+        "open bowl"
+      ],
+      "notes": "Often open; distinguish from o",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "á",
+      "name": "a-acute",
+      "variants": [
+        "acute above right"
+      ],
+      "notes": "Icelandic orthography",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "b",
+      "name": "b",
+      "variants": [
+        "looped",
+        "straight stem"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "d",
+      "name": "d",
+      "variants": [
+        "uncial d",
+        "caroline d"
+      ],
+      "notes": "Both forms appear; context-dependent",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ð",
+      "name": "eth",
+      "variants": [
+        "crossed d",
+        "insular form"
+      ],
+      "notes": "Distinct from d; critical for OCR QC",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "e",
+      "name": "e",
+      "variants": [
+        "closed",
+        "open shoulder"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "é",
+      "name": "e-acute",
+      "variants": [
+        "acute"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "f",
+      "name": "f",
+      "variants": [
+        "long s-like crossbar"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "g",
+      "name": "g",
+      "variants": [
+        "closed tail",
+        "open tail"
+      ],
+      "notes": "Watch for 8-like form",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "h",
+      "name": "h",
+      "variants": [
+        "minim pair"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "i",
+      "name": "i",
+      "variants": [
+        "with dot",
+        "without dot in cluster"
+      ],
+      "notes": "OCR confuses with l, 1",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "í",
+      "name": "i-acute",
+      "variants": [
+        "acute"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "j",
+      "name": "j",
+      "variants": [
+        "long j"
+      ],
+      "notes": "Rare in Old Norse",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "k",
+      "name": "k",
+      "variants": [
+        "two-stroke",
+        "loop on stem"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "l",
+      "name": "l",
+      "variants": [
+        "tall minim"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "m",
+      "name": "m",
+      "variants": [
+        "three minims"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "n",
+      "name": "n",
+      "variants": [
+        "two minims",
+        "uncial n"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "o",
+      "name": "o",
+      "variants": [
+        "round",
+        "oval"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ó",
+      "name": "o-acute",
+      "variants": [
+        "acute"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "p",
+      "name": "p",
+      "variants": [
+        "open bowl"
+      ],
+      "notes": "OCR confuses with þ",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "r",
+      "name": "r",
+      "variants": [
+        "caroline",
+        "long r",
+        "2-shaped"
+      ],
+      "notes": "Multiple r forms in same hand",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "s",
+      "name": "s",
+      "variants": [
+        "long s (ſ)",
+        "round s"
+      ],
+      "notes": "Final vs medial distinction",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "t",
+      "name": "t",
+      "variants": [
+        "cross on stem"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "u",
+      "name": "u",
+      "variants": [
+        "v-shaped",
+        "u with bottom stroke"
+      ],
+      "notes": "u/v not distinguished",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ú",
+      "name": "u-acute",
+      "variants": [
+        "acute"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "v",
+      "name": "v",
+      "variants": [
+        "same as u"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "x",
+      "name": "x",
+      "variants": [
+        "rare"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "y",
+      "name": "y",
+      "variants": [
+        "dotted",
+        "undotted"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ý",
+      "name": "y-acute",
+      "variants": [
+        "acute"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "þ",
+      "name": "thorn",
+      "variants": [
+        "with ascender loop",
+        "straight"
+      ],
+      "notes": "Icelandic hallmark letter",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "æ",
+      "name": "ash",
+      "variants": [
+        "a+e ligature",
+        "separate ae"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ö",
+      "name": "o-umlaut",
+      "variants": [
+        "o with dots",
+        "oe digraph"
+      ],
+      "notes": "",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ǫ",
+      "name": "o-hook",
+      "variants": [
+        "hooked o",
+        "normalised to ö in editions"
+      ],
+      "notes": "Archaic orthography",
+      "svg_path": null,
+      "source_page": null
+    },
+    {
+      "unicode": "ꝩ",
+      "name": "wynn",
+      "variants": [
+        "insular w"
+      ],
+      "notes": "Rare; borrowed letter",
+      "svg_path": null,
+      "source_page": null
+    }
+  ],
+  "abbreviations": [
+    {
+      "mark": "⁊",
+      "expansion": "ok",
+      "meaning": "and"
+    },
+    {
+      "mark": "ꝥ",
+      "expansion": "þat",
+      "meaning": "that"
+    },
+    {
+      "mark": "⁞",
+      "expansion": "paragraphus",
+      "meaning": "section break"
+    }
+  ],
+  "export_targets": [
+    "FontForge (.glyphs)",
+    "Glyphs app",
+    "UFO via fontmake"
+  ],
+  "instructions": "1. Capture letter crops from processed/page_NNN/ into glyphs[].svg_path\n2. Import JSON in FontForge: Element → Merge → Import glyphs\n3. Or use fontmake / gftools for production OTF"
+}

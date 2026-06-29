@@ -1,0 +1,43 @@
+{
+  "corpus": "Poetic Edda (Codex Regius core)",
+  "witnesses": [
+    {"siglum": "GKS 2365 4to", "name": "Codex Regius", "date": "c. 1270", "type": "vellum", "role": "primary"},
+    {"siglum": "AM 748 I 4to", "name": "Codex Wormianus fragment", "date": "c. 1350", "type": "vellum", "role": "variant witness"},
+    {"siglum": "Hauksbók", "name": "AM 371 4to", "date": "c. 1330", "type": "vellum", "role": "prose parallel"},
+    {"siglum": "Paper copies", "name": "17th–19th c. transcripts", "date": "1643+", "type": "paper", "role": "normalisation layer"}
+  ],
+  "key_stanzas": [
+    {
+      "id": "voluspa-01",
+      "poem": "Völuspá",
+      "stanza": 1,
+      "pages_cr": [10],
+      "cr_text": "Hlióðs bið ek allar helgar kindir",
+      "variants": [
+        {"witness": "AM 748 I 4to", "text": "[pending collation]", "note": "Opening formula variants"},
+        {"witness": "Neckel/Kuhn", "text": "Hljóðs bið ek allar helgar kindir", "note": "Normalised edition"}
+      ],
+      "runic_parallels": [
+        {"source": "Elder Futhark tradition", "note": "Oral-formulaic opening; compare with skaldic kviðuháttr"},
+        {"source": "Rök runestone (c. 9th c.)", "note": "Thematic cosmogonic overlap — not direct textual copy"}
+      ],
+      "thematic_tags": ["creation", "seeress", "pagan-ritual-frame", "oral-formula"]
+    },
+    {
+      "id": "voluspa-02",
+      "poem": "Völuspá",
+      "stanza": 2,
+      "pages_cr": [10],
+      "cr_text": "[line-level pending]",
+      "variants": [],
+      "runic_parallels": [],
+      "thematic_tags": ["cosmology", "ginnungagap"]
+    }
+  ],
+  "organ_of_language": {
+    "phonology": "Old West Norse (Icelandic transmission)",
+    "meter": "Fornyrðislag / ljóðaháttr (poem-dependent)",
+    "oral_layer": "Eddic poems preserve pre-Christian mythological strata with Christian framing in places",
+    "carving_trace": "Younger Futhark inscriptions and runestone formulas as distant cognates, not direct liturgical copies"
+  }
+}

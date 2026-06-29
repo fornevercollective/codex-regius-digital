@@ -16,7 +16,8 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Atlamál",
   "original_text": "",
@@ -30,5 +31,7 @@
   "scholarly_assessment_at": "2026-06-29T03:22:42.122374+00:00",
   "poem_full": "Atlamál",
   "poem_section": "st. 12–32",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:15:56.026361+00:00"
 }

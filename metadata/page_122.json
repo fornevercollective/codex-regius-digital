@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Atlakviða",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:36.043603+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:04:22.035320+00:00",
+  "qc_at": "2026-06-29T04:10:56.516397+00:00",
   "qc_issue_count": 4,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.116169+00:00",
   "poem_full": "Atlakviða",
   "poem_section": "st. 25–40",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T04:10:56.514907+00:00"
 }

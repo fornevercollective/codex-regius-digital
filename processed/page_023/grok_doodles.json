@@ -1,0 +1,82 @@
+{
+  "page": 23,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "M-023-01",
+      "region": "lower margin",
+      "type": "doodle",
+      "description": "Long horizontal pen stroke with curved, hooked or leaf-like terminal flourish on the left end, extending beneath the final line of text.",
+      "scholarly_note": "Decorative pen trial or tailpiece; ink matches main text suggesting execution by the scribe or a near-contemporary hand at the close of the text block."
+    },
+    {
+      "id": "M-023-02",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Three large, bold calligraphic symbols resembling ornate capital or abstract letter forms (C-like and B-like shapes with internal curves and lobes) drawn in dark ink immediately right of the flourish.",
+      "scholarly_note": "Pen trials of enlarged letter forms or decorative motifs; scale and execution differ from the main Gothic book hand, possibly practice strokes or embellishment."
+    },
+    {
+      "id": "M-023-03",
+      "region": "lower margin",
+      "type": "pen_trial",
+      "description": "Inscription 'o dake.' written in smaller, slightly irregular script to the right of the three symbols.",
+      "scholarly_note": "Later pen trial or casual annotation; letter forms and module differ from the primary 13th-century scribe, likely a post-medieval reader or owner's mark."
+    },
+    {
+      "id": "M-023-04",
+      "region": "right margin",
+      "type": "other",
+      "description": "Small numerals 5, 10, 15, 20, 25 placed at regular intervals at the ends of lines along the right edge of the text block.",
+      "scholarly_note": "Post-medieval editorial line or stanza numbering added for reference during scholarly study or facsimile production (18th–20th century)."
+    },
+    {
+      "id": "M-023-05",
+      "region": "upper margin",
+      "type": "other",
+      "description": "Numeral '14' visible in the upper left corner above the text block.",
+      "scholarly_note": "Folio or page designation from an earlier or alternative foliation system; does not correspond to the current processing label of page 23."
+    },
+    {
+      "id": "M-023-06",
+      "region": "left margin",
+      "type": "other",
+      "description": "Faint linear marks or possible offset letters ('nota'-like) visible on the left side of the page in the raw scan, approximately mid-height.",
+      "scholarly_note": "Possible faint marginal annotation, offset ink from an adjacent leaf, or later reference mark; cleaned versions obscure it and confirmation requires advanced imaging."
+    },
+    {
+      "id": "M-023-07",
+      "region": "upper margin",
+      "type": "stain",
+      "description": "Brownish age discoloration and staining band along the top edge, darker at the upper right corner.",
+      "scholarly_note": "Typical vellum aging, handling stains, and possible water or binding contact damage; consistent with calfskin preparation of the period."
+    },
+    {
+      "id": "M-023-08",
+      "region": "right margin",
+      "type": "stain",
+      "description": "Darkened, worn, and irregularly stained right edge with rounding at the corners.",
+      "scholarly_note": "Cumulative edge wear from use and binding; iron-gall ink may exacerbate localized degradation over centuries."
+    },
+    {
+      "id": "M-023-09",
+      "region": "text block",
+      "type": "other",
+      "description": "Enlarged opening 'P' with extended tail at the start of the text; minor variations in ink density and occasional thick strokes within the body text.",
+      "scholarly_note": "Standard Gothic book-hand section initial; minor density variations likely functional (pen loading) rather than deliberate corrections."
+    }
+  ],
+  "scratches": [
+    "Fine surface abrasions and hair-side texture visible across margins and blank areas; no deep incised lines.",
+    "Minor horizontal laid-line texture from parchment preparation visible under raking light; does not affect legibility."
+  ],
+  "damage_notes": [
+    "Edge wear and corner rounding, heaviest at top-right and bottom-right.",
+    "Perimeter browning, cockling, and age spots typical of 13th-century Icelandic vellum after 750+ years.",
+    "No holes, perforations, or significant losses within the text block or margins.",
+    "Ink remains largely dark and legible with only localized minor fading; no heavy offset or ghosting visible on this side."
+  ],
+  "summary": "Page 23 of Codex Regius displays a clean, well-written block of Eddic verse in Gothic book hand with minimal original scribal intervention. The principal non-text features are confined to the lower margin: a decorative horizontal pen flourish with hooked terminal, three large calligraphic pen trials, and the later inscription 'o dake.' Small post-medieval line numbers (5–25) run along the right edge and an older '14' appears at top left. The parchment shows characteristic age-related edge staining, wear, and surface texture but no major damage, holes, figurative doodles, animals, faces, or clear corrections inside the text block; the script is fluent and uniform.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_023/grok_clean_white.jpg",
+  "surveyed_at": "2026-06-29T04:12:38.218357+00:00"
+}

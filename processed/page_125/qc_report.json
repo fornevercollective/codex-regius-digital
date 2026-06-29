@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:26.173011+00:00",
+  "timestamp": "2026-06-29T04:14:51.262260+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 103.58,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6086,
+      "raw_blur": 699.33,
+      "enhanced_blur": 992.62,
+      "raw_contrast": 78.1,
+      "enhanced_contrast": 60.88,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.6333,
+      "raw_blur": 699.33,
+      "enhanced_blur": 1600.28,
+      "raw_contrast": 78.1,
+      "enhanced_contrast": 77.96,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "EGGE GE GM EE EL EE\n40  50  60  70  80  90 100.110 120 130 140  150     J\nTG.\n                     = ða  3  Red  pa 0 65   EEE ii  su  y A\n4",
     "text_preview": "EGGE GE GM EE EL EE\n40  50  60  70  80  90 100.110 120 130 140  150     J\nTG.\n                     = ða  3  Red  pa 0 65   EEE ii  su  y A\n4",
     "char_count": 140,
     "error": null

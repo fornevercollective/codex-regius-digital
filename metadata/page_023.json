@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Skírnismál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 9,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T04:12:38.218357+00:00"
+  },
   "processed_at": "2026-06-29T01:19:17.531094+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T01:48:32.634863+00:00",

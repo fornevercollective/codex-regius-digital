@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:22.035320+00:00",
+  "timestamp": "2026-06-29T04:10:56.516397+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 101.11,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.8384,
+      "raw_blur": 766.64,
+      "enhanced_blur": 283.2,
+      "raw_contrast": 79.42,
+      "enhanced_contrast": 67.88,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5179,
+      "raw_blur": 766.64,
+      "enhanced_blur": 1979.43,
+      "raw_contrast": 79.42,
+      "enhanced_contrast": 94.42,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "DAUTATANVAVOVANNAVORARTATERNGHOWOGNOVONNGVONNGNONONNOVGDNGVONNNNGVONNOVONNGNONNQNOVNQNONQNNONONNQNONGN)7AQNNQNO0NNNONONNONONNQNOVOQN00000000 nm\n0     20 30 40 50. 60    70 80 90 100.1% 120 130 140 150\n da Rai ab bbt NANNA NR AA\n\n|\n\n|\n\nI",
     "text_preview": "DAUTATANVAVOVANNAVORARTATERNGHOWOGNOVONNGVONNGNONONNOVGDNGVONNNNGVONNOVONNGNONNQNOVNQNONQNNONONNQNONGN)7AQNNQNO0NNNONONNONONNQNOVOQN00000000 nm\n0     20 30 40 50. 60    70 80 90 100.1% 120 130 140 150\n da Rai ab bbt NANNA NR AA\n\n|\n\n|\n\nI",
     "char_count": 236,
     "error": null

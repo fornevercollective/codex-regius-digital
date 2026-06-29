@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:24.863140+00:00",
+  "timestamp": "2026-06-29T04:13:23.112783+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 104.35,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6218,
+      "raw_blur": 701.67,
+      "enhanced_blur": 756.11,
+      "raw_contrast": 78.76,
+      "enhanced_contrast": 65.45,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.7142,
+      "raw_blur": 701.67,
+      "enhanced_blur": 2030.82,
+      "raw_contrast": 78.76,
+      "enhanced_contrast": 85.11,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "LGT EL EFEEEEUER 000 GOE GUNN EEE Ero Orre A |\n10     20     30     40 50     60     70 80     90 100.110 120 940 140 150\nodd 000 AAN  ATA. —\n\ni\nå                    p\ni\n»\nt\nt\n;\n?  r",
     "text_preview": "LGT EL EFEEEEUER 000 GOE GUNN EEE Ero Orre A |\n10     20     30     40 50     60     70 80     90 100.110 120 940 140 150\nodd 000 AAN  ATA. —\n\ni\nå                    p\ni\n»\nt\nt\n;\n?  r",
     "char_count": 182,
     "error": null

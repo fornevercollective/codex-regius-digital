@@ -1,0 +1,93 @@
+{
+  "page": 2,
+  "status": "ok",
+  "source_image": "clean_white.jpg",
+  "image_size": {
+    "width": 1706,
+    "height": 2559
+  },
+  "glyph_count": 4,
+  "extracted_at": "2026-06-29T03:43:16.130284+00:00",
+  "glyphs": [
+    {
+      "id": "G-002-0000",
+      "char": "?",
+      "file": "glyphs/002_?_001.png",
+      "bbox": {
+        "x": 0.005861664712778429,
+        "y": 0.9230168034388433,
+        "w": 0.011137162954279016,
+        "h": 0.008206330597889801
+      },
+      "bbox_px": {
+        "left": 10,
+        "top": 2362,
+        "width": 19,
+        "height": 21
+      },
+      "confidence": 0,
+      "reading_order": 0,
+      "line_num": 59
+    },
+    {
+      "id": "G-002-0001",
+      "char": "?",
+      "file": "glyphs/002_?_002.png",
+      "bbox": {
+        "x": 0.01406799531066823,
+        "y": 0.9300508010941774,
+        "w": 0.010550996483001172,
+        "h": 0.005861664712778429
+      },
+      "bbox_px": {
+        "left": 24,
+        "top": 2380,
+        "width": 18,
+        "height": 15
+      },
+      "confidence": 0,
+      "reading_order": 1,
+      "line_num": 59
+    },
+    {
+      "id": "G-002-0002",
+      "char": "?",
+      "file": "glyphs/002_?_003.png",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.9495896834701055,
+        "w": 0.008206330597889801,
+        "h": 0.007815552950371238
+      },
+      "bbox_px": {
+        "left": 0,
+        "top": 2430,
+        "width": 14,
+        "height": 20
+      },
+      "confidence": 0,
+      "reading_order": 2,
+      "line_num": 60
+    },
+    {
+      "id": "G-002-0003",
+      "char": "?",
+      "file": "glyphs/002_?_004.png",
+      "bbox": {
+        "x": 0.0123094958968347,
+        "y": 0.9449003516998827,
+        "w": 0.00996483001172333,
+        "h": 0.008206330597889801
+      },
+      "bbox_px": {
+        "left": 21,
+        "top": 2418,
+        "width": 17,
+        "height": 21
+      },
+      "confidence": 0,
+      "reading_order": 3,
+      "line_num": 60
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "page": 111,
+  "poem": "Guðrúnarkviða II",
+  "event_count": 13,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-111-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "32 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 32
+    },
+    {
+      "id": "G-111-0002",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Wh (conf 6)",
+      "bbox": {
+        "x": 0.5577051367578385,
+        "y": 0.3183183183183183,
+        "w": 0.030020013342228154,
+        "h": 0.016516516516516516
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0005",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "j (conf 16)",
+      "bbox": {
+        "x": 0.48232154769846564,
+        "y": 0.4376876876876877,
+        "w": 0.009339559706470981,
+        "h": 0.008633633633633633
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0009",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": ",a4 (conf 0)",
+      "bbox": {
+        "x": 0.41160773849232823,
+        "y": 0.46321321321321324,
+        "w": 0.046030687124749836,
+        "h": 0.010135135135135136
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0010",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Md (conf 16)",
+      "bbox": {
+        "x": 0.48032021347565046,
+        "y": 0.4658408408408408,
+        "w": 0.018679119412941963,
+        "h": 0.010135135135135136
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0012",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "1g (conf 0)",
+      "bbox": {
+        "x": 0.4069379586390927,
+        "y": 0.4891141141141141,
+        "w": 0.028685790527018012,
+        "h": 0.012387387387387387
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0013",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "r (conf 0)",
+      "bbox": {
+        "x": 0.45763842561707807,
+        "y": 0.49286786786786785,
+        "w": 0.01667778519012675,
+        "h": 0.02252252252252252
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0014",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "i\\ (conf 1)",
+      "bbox": {
+        "x": 0.485657104736491,
+        "y": 0.4954954954954955,
+        "w": 0.0333555703802535,
+        "h": 0.024024024024024024
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0019",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "rAAWYAN (conf 0)",
+      "bbox": {
+        "x": 0.48899266177451634,
+        "y": 0.6006006006006006,
+        "w": 0.04136090727151434,
+        "h": 0.01614114114114114
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0025",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ty (conf 27)",
+      "bbox": {
+        "x": 0.41160773849232823,
+        "y": 0.6388888888888888,
+        "w": 0.02068045363575717,
+        "h": 0.00563063063063063
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-111-0026",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "h (conf 11)",
+      "bbox": {
+        "x": 0.43962641761174115,
+        "y": 0.6373873873873874,
+        "w": 0.02134756504336224,
+        "h": 0.02515015015015015
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-111-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-111-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 75% · dexterity 35%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.215891+00:00"
+}

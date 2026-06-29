@@ -1,0 +1,480 @@
+{
+  "page": 91,
+  "poem": "Brot af Sigurðarkviðu",
+  "event_count": 36,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-091-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "403 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 403
+    },
+    {
+      "id": "G-091-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "THrapt (conf 24)",
+      "bbox": {
+        "x": 0.07451923076923077,
+        "y": 0.05929487179487179,
+        "w": 0.056490384615384616,
+        "h": 0.029647435897435896
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0004",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "yaa (conf 0)",
+      "bbox": {
+        "x": 0.28125,
+        "y": 0.058493589743589744,
+        "w": 0.07211538461538461,
+        "h": 0.023237179487179488
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0005",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ary. (conf 11)",
+      "bbox": {
+        "x": 0.3581730769230769,
+        "y": 0.049679487179487176,
+        "w": 0.078125,
+        "h": 0.03926282051282051
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0006",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "dar (conf 29)",
+      "bbox": {
+        "x": 0.46634615384615385,
+        "y": 0.05929487179487179,
+        "w": 0.08413461538461539,
+        "h": 0.021634615384615384
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0010",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "i (conf 0)",
+      "bbox": {
+        "x": 0.109375,
+        "y": 0.06330128205128205,
+        "w": 0.056490384615384616,
+        "h": 0.052083333333333336
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0011",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "sees (conf 2)",
+      "bbox": {
+        "x": 0.1502403846153846,
+        "y": 0.055288461538461536,
+        "w": 0.14423076923076922,
+        "h": 0.057692307692307696
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0013",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "lerea (conf 0)",
+      "bbox": {
+        "x": 0.36658653846153844,
+        "y": 0.060897435897435896,
+        "w": 0.06850961538461539,
+        "h": 0.04887820512820513
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "sn (conf 22)",
+      "bbox": {
+        "x": 0.6995192307692307,
+        "y": 0.052884615384615384,
+        "w": 0.06971153846153846,
+        "h": 0.04006410256410257
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "eo (conf 23)",
+      "bbox": {
+        "x": 0.7920673076923077,
+        "y": 0.06330128205128205,
+        "w": 0.09495192307692307,
+        "h": 0.03685897435897436
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0021",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "rvho (conf 23)",
+      "bbox": {
+        "x": 0.2512019230769231,
+        "y": 0.10256410256410256,
+        "w": 0.06490384615384616,
+        "h": 0.030448717948717948
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0024",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "affiat (conf 16)",
+      "bbox": {
+        "x": 0.4411057692307692,
+        "y": 0.09615384615384616,
+        "w": 0.06971153846153846,
+        "h": 0.03205128205128205
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0027",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "oom. (conf 0)",
+      "bbox": {
+        "x": 0.6382211538461539,
+        "y": 0.10096153846153846,
+        "w": 0.05889423076923077,
+        "h": 0.021634615384615384
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0029",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Seopa (conf 27)",
+      "bbox": {
+        "x": 0.8004807692307693,
+        "y": 0.08173076923076923,
+        "w": 0.09375,
+        "h": 0.041666666666666664
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0030",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "{ (conf 6)",
+      "bbox": {
+        "x": 0.9807692307692307,
+        "y": 0.0889423076923077,
+        "w": 0.01201923076923077,
+        "h": 0.019230769230769232
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0031",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Pk (conf 0)",
+      "bbox": {
+        "x": 0.04567307692307692,
+        "y": 0.12980769230769232,
+        "w": 0.10697115384615384,
+        "h": 0.029647435897435896
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0032",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "'mgnah (conf 0)",
+      "bbox": {
+        "x": 0.15985576923076922,
+        "y": 0.12980769230769232,
+        "w": 0.09134615384615384,
+        "h": 0.027243589743589744
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0033",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "gga (conf 28)",
+      "bbox": {
+        "x": 0.25240384615384615,
+        "y": 0.1282051282051282,
+        "w": 0.0673076923076923,
+        "h": 0.029647435897435896
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0036",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ferntore (conf 0)",
+      "bbox": {
+        "x": 0.39783653846153844,
+        "y": 0.12259615384615384,
+        "w": 0.09495192307692307,
+        "h": 0.023237179487179488
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0039",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "teprje (conf 24)",
+      "bbox": {
+        "x": 0.7608173076923077,
+        "y": 0.11298076923076923,
+        "w": 0.06971153846153846,
+        "h": 0.03205128205128205
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0043",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "emt (conf 28)",
+      "bbox": {
+        "x": 0.234375,
+        "y": 0.15144230769230768,
+        "w": 0.10096153846153846,
+        "h": 0.044070512820512824
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0045",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "bavgnt (conf 0)",
+      "bbox": {
+        "x": 0.40024038461538464,
+        "y": 0.1482371794871795,
+        "w": 0.0889423076923077,
+        "h": 0.027243589743589744
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0047",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "& (conf 0)",
+      "bbox": {
+        "x": 0.5853365384615384,
+        "y": 0.14182692307692307,
+        "w": 0.025240384615384616,
+        "h": 0.027243589743589744
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0048",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "és (conf 22)",
+      "bbox": {
+        "x": 0.6177884615384616,
+        "y": 0.13701923076923078,
+        "w": 0.03125,
+        "h": 0.041666666666666664
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-091-0049",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "sansa (conf 24)",
+      "bbox": {
+        "x": 0.6490384615384616,
+        "y": 0.14022435897435898,
+        "w": 0.09134615384615384,
+        "h": 0.028044871794871796
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-091-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-091-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 59% · dexterity 27%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.196945+00:00"
+}

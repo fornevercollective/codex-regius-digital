@@ -1,0 +1,129 @@
+{
+  "page": 126,
+  "poem": "Atlamál",
+  "event_count": 9,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-126-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "18 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 18
+    },
+    {
+      "id": "G-126-0000",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "AUVUTHONOQOQQGNSQ90000 (conf 0)",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.013353115727002967,
+        "w": 0.1507230255839822,
+        "h": 0.0293026706231454
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-126-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "00000 (conf 0)",
+      "bbox": {
+        "x": 0.3431590656284761,
+        "y": 0.017433234421364987,
+        "w": 0.034482758620689655,
+        "h": 0.017804154302670624
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-126-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "bd (conf 27)",
+      "bbox": {
+        "x": 0.020578420467185762,
+        "y": 0.6910237388724035,
+        "w": 0.012235817575083427,
+        "h": 0.015578635014836795
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-126-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "t (conf 11)",
+      "bbox": {
+        "x": 0.021134593993325918,
+        "y": 0.7815281899109793,
+        "w": 0.00778642936596218,
+        "h": 0.009643916913946587
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-126-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-126-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-126-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-126-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 49% · dexterity 37%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.226474+00:00"
+}

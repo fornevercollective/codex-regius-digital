@@ -1,0 +1,4653 @@
+{
+  "page": 99,
+  "status": "ok",
+  "source_image": "grok_clean_white.jpg",
+  "image_size": {
+    "width": 832,
+    "height": 1248
+  },
+  "glyph_count": 232,
+  "extracted_at": "2026-06-29T03:44:20.382429+00:00",
+  "glyphs": [
+    {
+      "id": "G-099-0000",
+      "char": "70",
+      "file": "glyphs/099_70_001.png",
+      "bbox": {
+        "x": 0.040865384615384616,
+        "y": 0.052884615384615384,
+        "w": 0.04927884615384615,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 34,
+        "top": 66,
+        "width": 41,
+        "height": 31
+      },
+      "confidence": 80,
+      "reading_order": 0,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0001",
+      "char": "ann",
+      "file": "glyphs/099_ann_001.png",
+      "bbox": {
+        "x": 0.17067307692307693,
+        "y": 0.06650641025641026,
+        "w": 0.06370192307692307,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 142,
+        "top": 83,
+        "width": 53,
+        "height": 22
+      },
+      "confidence": 93,
+      "reading_order": 1,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0002",
+      "char": "era.",
+      "file": "glyphs/099_era._001.png",
+      "bbox": {
+        "x": 0.23918269230769232,
+        "y": 0.0641025641025641,
+        "w": 0.03485576923076923,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 199,
+        "top": 80,
+        "width": 29,
+        "height": 22
+      },
+      "confidence": 44,
+      "reading_order": 2,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0003",
+      "char": "wo",
+      "file": "glyphs/099_wo_001.png",
+      "bbox": {
+        "x": 0.2860576923076923,
+        "y": 0.05689102564102564,
+        "w": 0.07451923076923077,
+        "h": 0.021634615384615384
+      },
+      "bbox_px": {
+        "left": 238,
+        "top": 71,
+        "width": 62,
+        "height": 27
+      },
+      "confidence": 6,
+      "reading_order": 3,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0004",
+      "char": "a",
+      "file": "glyphs/099_a_001.png",
+      "bbox": {
+        "x": 0.3629807692307692,
+        "y": 0.05929487179487179,
+        "w": 0.025240384615384616,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 302,
+        "top": 74,
+        "width": 21,
+        "height": 22
+      },
+      "confidence": 76,
+      "reading_order": 4,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0005",
+      "char": "nr",
+      "file": "glyphs/099_nr_001.png",
+      "bbox": {
+        "x": 0.390625,
+        "y": 0.058493589743589744,
+        "w": 0.04326923076923077,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 325,
+        "top": 73,
+        "width": 36,
+        "height": 22
+      },
+      "confidence": 63,
+      "reading_order": 5,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0006",
+      "char": "heltr",
+      "file": "glyphs/099_heltr_001.png",
+      "bbox": {
+        "x": 0.4387019230769231,
+        "y": 0.04887820512820513,
+        "w": 0.07211538461538461,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 365,
+        "top": 61,
+        "width": 60,
+        "height": 32
+      },
+      "confidence": 38,
+      "reading_order": 6,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0007",
+      "char": "bau",
+      "file": "glyphs/099_bau_001.png",
+      "bbox": {
+        "x": 0.6875,
+        "y": 0.044070512820512824,
+        "w": 0.0673076923076923,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 572,
+        "top": 55,
+        "width": 56,
+        "height": 31
+      },
+      "confidence": 82,
+      "reading_order": 7,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0008",
+      "char": "qua",
+      "file": "glyphs/099_qua_001.png",
+      "bbox": {
+        "x": 0.7584134615384616,
+        "y": 0.049679487179487176,
+        "w": 0.0733173076923077,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 631,
+        "top": 62,
+        "width": 61,
+        "height": 30
+      },
+      "confidence": 65,
+      "reading_order": 8,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0009",
+      "char": "peBa",
+      "file": "glyphs/099_peBa_001.png",
+      "bbox": {
+        "x": 0.8521634615384616,
+        "y": 0.04006410256410257,
+        "w": 0.055288461538461536,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 709,
+        "top": 50,
+        "width": 46,
+        "height": 37
+      },
+      "confidence": 76,
+      "reading_order": 9,
+      "line_num": 1
+    },
+    {
+      "id": "G-099-0010",
+      "char": "nt",
+      "file": "glyphs/099_nt_001.png",
+      "bbox": {
+        "x": 0.14783653846153846,
+        "y": 0.0625,
+        "w": 0.10216346153846154,
+        "h": 0.046474358974358976
+      },
+      "bbox_px": {
+        "left": 123,
+        "top": 78,
+        "width": 85,
+        "height": 58
+      },
+      "confidence": 32,
+      "reading_order": 10,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0011",
+      "char": "ae",
+      "file": "glyphs/099_ae_001.png",
+      "bbox": {
+        "x": 0.25841346153846156,
+        "y": 0.06009615384615385,
+        "w": 0.05048076923076923,
+        "h": 0.052083333333333336
+      },
+      "bbox_px": {
+        "left": 215,
+        "top": 75,
+        "width": 42,
+        "height": 65
+      },
+      "confidence": 33,
+      "reading_order": 11,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0012",
+      "char": "1a",
+      "file": "glyphs/099_1a_001.png",
+      "bbox": {
+        "x": 0.3125,
+        "y": 0.08573717948717949,
+        "w": 0.02283653846153846,
+        "h": 0.016025641025641024
+      },
+      "bbox_px": {
+        "left": 260,
+        "top": 107,
+        "width": 19,
+        "height": 20
+      },
+      "confidence": 59,
+      "reading_order": 12,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0013",
+      "char": "dni}",
+      "file": "glyphs/099_dni}_001.png",
+      "bbox": {
+        "x": 0.34375,
+        "y": 0.06570512820512821,
+        "w": 0.05889423076923077,
+        "h": 0.041666666666666664
+      },
+      "bbox_px": {
+        "left": 286,
+        "top": 82,
+        "width": 49,
+        "height": 52
+      },
+      "confidence": 44,
+      "reading_order": 13,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0014",
+      "char": "ahrep",
+      "file": "glyphs/099_ahrep_001.png",
+      "bbox": {
+        "x": 0.40384615384615385,
+        "y": 0.07291666666666667,
+        "w": 0.09134615384615384,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 336,
+        "top": 91,
+        "width": 76,
+        "height": 39
+      },
+      "confidence": 29,
+      "reading_order": 14,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0015",
+      "char": "vet",
+      "file": "glyphs/099_vet_001.png",
+      "bbox": {
+        "x": 0.5036057692307693,
+        "y": 0.07131410256410256,
+        "w": 0.06610576923076923,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 419,
+        "top": 89,
+        "width": 55,
+        "height": 37
+      },
+      "confidence": 29,
+      "reading_order": 15,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0016",
+      "char": "eferfrani",
+      "file": "glyphs/099_eferfrani_001.png",
+      "bbox": {
+        "x": 0.5769230769230769,
+        "y": 0.07211538461538461,
+        "w": 0.11899038461538461,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 480,
+        "top": 90,
+        "width": 99,
+        "height": 28
+      },
+      "confidence": 29,
+      "reading_order": 16,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0017",
+      "char": "blapd",
+      "file": "glyphs/099_blapd_001.png",
+      "bbox": {
+        "x": 0.6947115384615384,
+        "y": 0.06570512820512821,
+        "w": 0.07692307692307693,
+        "h": 0.041666666666666664
+      },
+      "bbox_px": {
+        "left": 578,
+        "top": 82,
+        "width": 64,
+        "height": 52
+      },
+      "confidence": 58,
+      "reading_order": 17,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0018",
+      "char": "ee",
+      "file": "glyphs/099_ee_001.png",
+      "bbox": {
+        "x": 0.7728365384615384,
+        "y": 0.04887820512820513,
+        "w": 0.08413461538461539,
+        "h": 0.04246794871794872
+      },
+      "bbox_px": {
+        "left": 643,
+        "top": 61,
+        "width": 70,
+        "height": 53
+      },
+      "confidence": 0,
+      "reading_order": 18,
+      "line_num": 2
+    },
+    {
+      "id": "G-099-0019",
+      "char": "mate",
+      "file": "glyphs/099_mate_001.png",
+      "bbox": {
+        "x": 0.15144230769230768,
+        "y": 0.10576923076923077,
+        "w": 0.06009615384615385,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 126,
+        "top": 132,
+        "width": 50,
+        "height": 29
+      },
+      "confidence": 24,
+      "reading_order": 19,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0020",
+      "char": "cet",
+      "file": "glyphs/099_cet_001.png",
+      "bbox": {
+        "x": 0.21514423076923078,
+        "y": 0.10496794871794872,
+        "w": 0.05048076923076923,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 179,
+        "top": 131,
+        "width": 42,
+        "height": 28
+      },
+      "confidence": 29,
+      "reading_order": 20,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0021",
+      "char": "hava",
+      "file": "glyphs/099_hava_001.png",
+      "bbox": {
+        "x": 0.2692307692307692,
+        "y": 0.10096153846153846,
+        "w": 0.07451923076923077,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 224,
+        "top": 126,
+        "width": 62,
+        "height": 33
+      },
+      "confidence": 28,
+      "reading_order": 21,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0022",
+      "char": "pert",
+      "file": "glyphs/099_pert_001.png",
+      "bbox": {
+        "x": 0.3449519230769231,
+        "y": 0.10416666666666667,
+        "w": 0.08413461538461539,
+        "h": 0.020032051282051284
+      },
+      "bbox_px": {
+        "left": 287,
+        "top": 130,
+        "width": 70,
+        "height": 25
+      },
+      "confidence": 3,
+      "reading_order": 22,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0023",
+      "char": "chen",
+      "file": "glyphs/099_chen_001.png",
+      "bbox": {
+        "x": 0.43028846153846156,
+        "y": 0.09695512820512821,
+        "w": 0.07211538461538461,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 358,
+        "top": 121,
+        "width": 60,
+        "height": 31
+      },
+      "confidence": 96,
+      "reading_order": 23,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0024",
+      "char": "hh",
+      "file": "glyphs/099_hh_001.png",
+      "bbox": {
+        "x": 0.5084134615384616,
+        "y": 0.09455128205128205,
+        "w": 0.02403846153846154,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 423,
+        "top": 118,
+        "width": 20,
+        "height": 31
+      },
+      "confidence": 27,
+      "reading_order": 24,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0025",
+      "char": "trreot",
+      "file": "glyphs/099_trreot_001.png",
+      "bbox": {
+        "x": 0.53125,
+        "y": 0.0953525641025641,
+        "w": 0.07572115384615384,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 442,
+        "top": 119,
+        "width": 63,
+        "height": 30
+      },
+      "confidence": 68,
+      "reading_order": 25,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0026",
+      "char": "ar",
+      "file": "glyphs/099_ar_001.png",
+      "bbox": {
+        "x": 0.6117788461538461,
+        "y": 0.09935897435897435,
+        "w": 0.039663461538461536,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 509,
+        "top": 124,
+        "width": 33,
+        "height": 22
+      },
+      "confidence": 95,
+      "reading_order": 26,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0027",
+      "char": "meta",
+      "file": "glyphs/099_meta_001.png",
+      "bbox": {
+        "x": 0.8413461538461539,
+        "y": 0.09615384615384616,
+        "w": 0.07211538461538461,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 700,
+        "top": 120,
+        "width": 60,
+        "height": 31
+      },
+      "confidence": 95,
+      "reading_order": 27,
+      "line_num": 3
+    },
+    {
+      "id": "G-099-0028",
+      "char": "enn",
+      "file": "glyphs/099_enn_001.png",
+      "bbox": {
+        "x": 0.15745192307692307,
+        "y": 0.13381410256410256,
+        "w": 0.06009615384615385,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 131,
+        "top": 167,
+        "width": 50,
+        "height": 22
+      },
+      "confidence": 72,
+      "reading_order": 28,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0029",
+      "char": "fit",
+      "file": "glyphs/099_fit_001.png",
+      "bbox": {
+        "x": 0.23197115384615385,
+        "y": 0.12580128205128205,
+        "w": 0.039663461538461536,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 193,
+        "top": 157,
+        "width": 33,
+        "height": 28
+      },
+      "confidence": 91,
+      "reading_order": 29,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0030",
+      "char": "cvl",
+      "file": "glyphs/099_cvl_001.png",
+      "bbox": {
+        "x": 0.2764423076923077,
+        "y": 0.12580128205128205,
+        "w": 0.04567307692307692,
+        "h": 0.021634615384615384
+      },
+      "bbox_px": {
+        "left": 230,
+        "top": 157,
+        "width": 38,
+        "height": 27
+      },
+      "confidence": 69,
+      "reading_order": 30,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0031",
+      "char": "m",
+      "file": "glyphs/099_m_001.png",
+      "bbox": {
+        "x": 0.33052884615384615,
+        "y": 0.12980769230769232,
+        "w": 0.03125,
+        "h": 0.016025641025641024
+      },
+      "bbox_px": {
+        "left": 275,
+        "top": 162,
+        "width": 26,
+        "height": 20
+      },
+      "confidence": 84,
+      "reading_order": 31,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0032",
+      "char": "ben",
+      "file": "glyphs/099_ben_001.png",
+      "bbox": {
+        "x": 0.36658653846153844,
+        "y": 0.1233974358974359,
+        "w": 0.06009615384615385,
+        "h": 0.021634615384615384
+      },
+      "bbox_px": {
+        "left": 305,
+        "top": 154,
+        "width": 50,
+        "height": 27
+      },
+      "confidence": 93,
+      "reading_order": 32,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0033",
+      "char": "robn",
+      "file": "glyphs/099_robn_001.png",
+      "bbox": {
+        "x": 0.4254807692307692,
+        "y": 0.1201923076923077,
+        "w": 0.0733173076923077,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 354,
+        "top": 150,
+        "width": 61,
+        "height": 39
+      },
+      "confidence": 0,
+      "reading_order": 33,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0034",
+      "char": "eos",
+      "file": "glyphs/099_eos_001.png",
+      "bbox": {
+        "x": 0.4963942307692308,
+        "y": 0.11378205128205128,
+        "w": 0.09134615384615384,
+        "h": 0.055288461538461536
+      },
+      "bbox_px": {
+        "left": 413,
+        "top": 142,
+        "width": 76,
+        "height": 69
+      },
+      "confidence": 4,
+      "reading_order": 34,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0035",
+      "char": "innea",
+      "file": "glyphs/099_innea_001.png",
+      "bbox": {
+        "x": 0.5877403846153846,
+        "y": 0.11618589743589744,
+        "w": 0.0829326923076923,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 489,
+        "top": 145,
+        "width": 69,
+        "height": 30
+      },
+      "confidence": 0,
+      "reading_order": 35,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0036",
+      "char": "eba",
+      "file": "glyphs/099_eba_001.png",
+      "bbox": {
+        "x": 0.6742788461538461,
+        "y": 0.11378205128205128,
+        "w": 0.054086538461538464,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 561,
+        "top": 142,
+        "width": 45,
+        "height": 37
+      },
+      "confidence": 70,
+      "reading_order": 36,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0037",
+      "char": "bra",
+      "file": "glyphs/099_bra_001.png",
+      "bbox": {
+        "x": 0.734375,
+        "y": 0.10977564102564102,
+        "w": 0.04927884615384615,
+        "h": 0.038461538461538464
+      },
+      "bbox_px": {
+        "left": 611,
+        "top": 137,
+        "width": 41,
+        "height": 48
+      },
+      "confidence": 92,
+      "reading_order": 37,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0038",
+      "char": "tharg",
+      "file": "glyphs/099_tharg_001.png",
+      "bbox": {
+        "x": 0.7860576923076923,
+        "y": 0.11298076923076923,
+        "w": 0.11899038461538461,
+        "h": 0.03205128205128205
+      },
+      "bbox_px": {
+        "left": 654,
+        "top": 141,
+        "width": 99,
+        "height": 40
+      },
+      "confidence": 58,
+      "reading_order": 38,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0039",
+      "char": "uy,",
+      "file": "glyphs/099_uy,_001.png",
+      "bbox": {
+        "x": 0.8605769230769231,
+        "y": 0.10977564102564102,
+        "w": 0.04927884615384615,
+        "h": 0.038461538461538464
+      },
+      "bbox_px": {
+        "left": 716,
+        "top": 137,
+        "width": 41,
+        "height": 48
+      },
+      "confidence": 83,
+      "reading_order": 39,
+      "line_num": 4
+    },
+    {
+      "id": "G-099-0040",
+      "char": "fe",
+      "file": "glyphs/099_fe_001.png",
+      "bbox": {
+        "x": 0.15384615384615385,
+        "y": 0.14983974358974358,
+        "w": 0.04326923076923077,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 128,
+        "top": 187,
+        "width": 36,
+        "height": 31
+      },
+      "confidence": 58,
+      "reading_order": 40,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0041",
+      "char": "a8",
+      "file": "glyphs/099_a8_001.png",
+      "bbox": {
+        "x": 0.20072115384615385,
+        "y": 0.14903846153846154,
+        "w": 0.037259615384615384,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 167,
+        "top": 186,
+        "width": 31,
+        "height": 29
+      },
+      "confidence": 25,
+      "reading_order": 41,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0042",
+      "char": "vepn",
+      "file": "glyphs/099_vepn_001.png",
+      "bbox": {
+        "x": 0.2439903846153846,
+        "y": 0.1450320512820513,
+        "w": 0.06971153846153846,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 203,
+        "top": 181,
+        "width": 58,
+        "height": 38
+      },
+      "confidence": 83,
+      "reading_order": 42,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0043",
+      "char": "un",
+      "file": "glyphs/099_un_001.png",
+      "bbox": {
+        "x": 0.31850961538461536,
+        "y": 0.1450320512820513,
+        "w": 0.06850961538461539,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 265,
+        "top": 181,
+        "width": 57,
+        "height": 39
+      },
+      "confidence": 0,
+      "reading_order": 43,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0044",
+      "char": "fi",
+      "file": "glyphs/099_fi_001.png",
+      "bbox": {
+        "x": 0.359375,
+        "y": 0.13541666666666666,
+        "w": 0.03245192307692308,
+        "h": 0.044070512820512824
+      },
+      "bbox_px": {
+        "left": 299,
+        "top": 169,
+        "width": 27,
+        "height": 55
+      },
+      "confidence": 0,
+      "reading_order": 44,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0045",
+      "char": "frAan",
+      "file": "glyphs/099_frAan_001.png",
+      "bbox": {
+        "x": 0.39302884615384615,
+        "y": 0.1450320512820513,
+        "w": 0.09735576923076923,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 327,
+        "top": 181,
+        "width": 81,
+        "height": 33
+      },
+      "confidence": 5,
+      "reading_order": 45,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0046",
+      "char": "rem",
+      "file": "glyphs/099_rem_001.png",
+      "bbox": {
+        "x": 0.5108173076923077,
+        "y": 0.1482371794871795,
+        "w": 0.06971153846153846,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 425,
+        "top": 185,
+        "width": 58,
+        "height": 23
+      },
+      "confidence": 0,
+      "reading_order": 46,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0047",
+      "char": "brilealie",
+      "file": "glyphs/099_brilealie_001.png",
+      "bbox": {
+        "x": 0.5829326923076923,
+        "y": 0.13862179487179488,
+        "w": 0.11658653846153846,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 485,
+        "top": 173,
+        "width": 97,
+        "height": 31
+      },
+      "confidence": 8,
+      "reading_order": 47,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0048",
+      "char": "thlebr",
+      "file": "glyphs/099_thlebr_001.png",
+      "bbox": {
+        "x": 0.7079326923076923,
+        "y": 0.1346153846153846,
+        "w": 0.07692307692307693,
+        "h": 0.032852564102564104
+      },
+      "bbox_px": {
+        "left": 589,
+        "top": 168,
+        "width": 64,
+        "height": 41
+      },
+      "confidence": 49,
+      "reading_order": 48,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0049",
+      "char": "hergnat",
+      "file": "glyphs/099_hergnat_001.png",
+      "bbox": {
+        "x": 0.7872596153846154,
+        "y": 0.1362179487179487,
+        "w": 0.11177884615384616,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 655,
+        "top": 170,
+        "width": 93,
+        "height": 38
+      },
+      "confidence": 63,
+      "reading_order": 49,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0050",
+      "char": "la",
+      "file": "glyphs/099_la_001.png",
+      "bbox": {
+        "x": 0.8954326923076923,
+        "y": 0.13782051282051283,
+        "w": 0.03125,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 745,
+        "top": 172,
+        "width": 26,
+        "height": 30
+      },
+      "confidence": 93,
+      "reading_order": 50,
+      "line_num": 5
+    },
+    {
+      "id": "G-099-0051",
+      "char": "ta",
+      "file": "glyphs/099_ta_001.png",
+      "bbox": {
+        "x": 0.15745192307692307,
+        "y": 0.17307692307692307,
+        "w": 0.04326923076923077,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 131,
+        "top": 216,
+        "width": 36,
+        "height": 32
+      },
+      "confidence": 71,
+      "reading_order": 51,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0052",
+      "char": "orfhan",
+      "file": "glyphs/099_orfhan_001.png",
+      "bbox": {
+        "x": 0.20793269230769232,
+        "y": 0.16987179487179488,
+        "w": 0.09615384615384616,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 173,
+        "top": 212,
+        "width": 80,
+        "height": 32
+      },
+      "confidence": 87,
+      "reading_order": 52,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0053",
+      "char": "Bofla",
+      "file": "glyphs/099_Bofla_001.png",
+      "bbox": {
+        "x": 0.31009615384615385,
+        "y": 0.16666666666666666,
+        "w": 0.07211538461538461,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 258,
+        "top": 208,
+        "width": 60,
+        "height": 31
+      },
+      "confidence": 21,
+      "reading_order": 53,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0054",
+      "char": "gotnat.",
+      "file": "glyphs/099_gotnat._001.png",
+      "bbox": {
+        "x": 0.3858173076923077,
+        "y": 0.17067307692307693,
+        "w": 0.1045673076923077,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 321,
+        "top": 213,
+        "width": 87,
+        "height": 31
+      },
+      "confidence": 2,
+      "reading_order": 54,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0055",
+      "char": "{Qmnp",
+      "file": "glyphs/099_{Qmnp_001.png",
+      "bbox": {
+        "x": 0.4963942307692308,
+        "y": 0.16266025641025642,
+        "w": 0.10216346153846154,
+        "h": 0.03205128205128205
+      },
+      "bbox_px": {
+        "left": 413,
+        "top": 203,
+        "width": 85,
+        "height": 40
+      },
+      "confidence": 52,
+      "reading_order": 55,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0056",
+      "char": "ba",
+      "file": "glyphs/099_ba_001.png",
+      "bbox": {
+        "x": 0.6021634615384616,
+        "y": 0.16346153846153846,
+        "w": 0.04326923076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 501,
+        "top": 204,
+        "width": 36,
+        "height": 36
+      },
+      "confidence": 96,
+      "reading_order": 56,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0057",
+      "char": "band",
+      "file": "glyphs/099_band_001.png",
+      "bbox": {
+        "x": 0.6454326923076923,
+        "y": 0.15625,
+        "w": 0.07572115384615384,
+        "h": 0.05448717948717949
+      },
+      "bbox_px": {
+        "left": 537,
+        "top": 195,
+        "width": 63,
+        "height": 68
+      },
+      "confidence": 3,
+      "reading_order": 57,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0058",
+      "char": "bop",
+      "file": "glyphs/099_bop_001.png",
+      "bbox": {
+        "x": 0.7668269230769231,
+        "y": 0.1546474358974359,
+        "w": 0.06971153846153846,
+        "h": 0.05689102564102564
+      },
+      "bbox_px": {
+        "left": 638,
+        "top": 193,
+        "width": 58,
+        "height": 71
+      },
+      "confidence": 20,
+      "reading_order": 58,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0059",
+      "char": "ttre",
+      "file": "glyphs/099_ttre_001.png",
+      "bbox": {
+        "x": 0.8329326923076923,
+        "y": 0.15384615384615385,
+        "w": 0.06971153846153846,
+        "h": 0.036057692307692304
+      },
+      "bbox_px": {
+        "left": 693,
+        "top": 192,
+        "width": 58,
+        "height": 45
+      },
+      "confidence": 0,
+      "reading_order": 59,
+      "line_num": 6
+    },
+    {
+      "id": "G-099-0060",
+      "char": "Siar",
+      "file": "glyphs/099_Siar_001.png",
+      "bbox": {
+        "x": 0.15985576923076922,
+        "y": 0.19631410256410256,
+        "w": 0.07451923076923077,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 133,
+        "top": 245,
+        "width": 62,
+        "height": 29
+      },
+      "confidence": 51,
+      "reading_order": 60,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0061",
+      "char": "te",
+      "file": "glyphs/099_te_001.png",
+      "bbox": {
+        "x": 0.2403846153846154,
+        "y": 0.19391025641025642,
+        "w": 0.038461538461538464,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 200,
+        "top": 242,
+        "width": 32,
+        "height": 28
+      },
+      "confidence": 61,
+      "reading_order": 61,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0062",
+      "char": "munreer",
+      "file": "glyphs/099_munreer_001.png",
+      "bbox": {
+        "x": 0.2776442307692308,
+        "y": 0.1955128205128205,
+        "w": 0.13221153846153846,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 231,
+        "top": 244,
+        "width": 110,
+        "height": 32
+      },
+      "confidence": 80,
+      "reading_order": 62,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0063",
+      "char": "Oeravat.",
+      "file": "glyphs/099_Oeravat._001.png",
+      "bbox": {
+        "x": 0.4110576923076923,
+        "y": 0.1907051282051282,
+        "w": 0.11177884615384616,
+        "h": 0.020032051282051284
+      },
+      "bbox_px": {
+        "left": 342,
+        "top": 238,
+        "width": 93,
+        "height": 25
+      },
+      "confidence": 0,
+      "reading_order": 63,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0064",
+      "char": "grap",
+      "file": "glyphs/099_grap_001.png",
+      "bbox": {
+        "x": 0.5288461538461539,
+        "y": 0.1875,
+        "w": 0.06971153846153846,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 440,
+        "top": 234,
+        "width": 58,
+        "height": 38
+      },
+      "confidence": 52,
+      "reading_order": 64,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0065",
+      "char": "deppur_lam",
+      "file": "glyphs/099_deppur_lam_001.png",
+      "bbox": {
+        "x": 0.5985576923076923,
+        "y": 0.18349358974358973,
+        "w": 0.13341346153846154,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 498,
+        "top": 229,
+        "width": 111,
+        "height": 39
+      },
+      "confidence": 28,
+      "reading_order": 65,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0066",
+      "char": "madvea",
+      "file": "glyphs/099_madvea_001.png",
+      "bbox": {
+        "x": 0.7740384615384616,
+        "y": 0.1794871794871795,
+        "w": 0.09014423076923077,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 644,
+        "top": 224,
+        "width": 75,
+        "height": 49
+      },
+      "confidence": 21,
+      "reading_order": 66,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0067",
+      "char": "nia,",
+      "file": "glyphs/099_nia,_001.png",
+      "bbox": {
+        "x": 0.8689903846153846,
+        "y": 0.1794871794871795,
+        "w": 0.06610576923076923,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 723,
+        "top": 224,
+        "width": 55,
+        "height": 49
+      },
+      "confidence": 31,
+      "reading_order": 67,
+      "line_num": 7
+    },
+    {
+      "id": "G-099-0068",
+      "char": "brevar",
+      "file": "glyphs/099_brevar_001.png",
+      "bbox": {
+        "x": 0.1622596153846154,
+        "y": 0.21794871794871795,
+        "w": 0.09975961538461539,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 135,
+        "top": 272,
+        "width": 83,
+        "height": 30
+      },
+      "confidence": 65,
+      "reading_order": 68,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0069",
+      "char": "pwar",
+      "file": "glyphs/099_pwar_001.png",
+      "bbox": {
+        "x": 0.27283653846153844,
+        "y": 0.2171474358974359,
+        "w": 0.08413461538461539,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 227,
+        "top": 271,
+        "width": 70,
+        "height": 35
+      },
+      "confidence": 86,
+      "reading_order": 69,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0070",
+      "char": "pe",
+      "file": "glyphs/099_pe_001.png",
+      "bbox": {
+        "x": 0.3701923076923077,
+        "y": 0.20833333333333334,
+        "w": 0.08173076923076923,
+        "h": 0.055288461538461536
+      },
+      "bbox_px": {
+        "left": 308,
+        "top": 260,
+        "width": 68,
+        "height": 69
+      },
+      "confidence": 35,
+      "reading_order": 70,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0071",
+      "char": "ler",
+      "file": "glyphs/099_ler_001.png",
+      "bbox": {
+        "x": 0.45552884615384615,
+        "y": 0.2091346153846154,
+        "w": 0.04807692307692308,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 379,
+        "top": 261,
+        "width": 40,
+        "height": 30
+      },
+      "confidence": 80,
+      "reading_order": 71,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0072",
+      "char": "bina",
+      "file": "glyphs/099_bina_001.png",
+      "bbox": {
+        "x": 0.5120192307692307,
+        "y": 0.2075320512820513,
+        "w": 0.07211538461538461,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 426,
+        "top": 259,
+        "width": 60,
+        "height": 31
+      },
+      "confidence": 89,
+      "reading_order": 72,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0073",
+      "char": "honosd",
+      "file": "glyphs/099_honosd_001.png",
+      "bbox": {
+        "x": 0.5985576923076923,
+        "y": 0.20833333333333334,
+        "w": 0.09014423076923077,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 498,
+        "top": 260,
+        "width": 75,
+        "height": 38
+      },
+      "confidence": 34,
+      "reading_order": 73,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0074",
+      "char": "fer",
+      "file": "glyphs/099_fer_001.png",
+      "bbox": {
+        "x": 0.6935096153846154,
+        "y": 0.2075320512820513,
+        "w": 0.04326923076923077,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 577,
+        "top": 259,
+        "width": 36,
+        "height": 33
+      },
+      "confidence": 96,
+      "reading_order": 74,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0075",
+      "char": "bv",
+      "file": "glyphs/099_bv_001.png",
+      "bbox": {
+        "x": 0.7403846153846154,
+        "y": 0.2075320512820513,
+        "w": 0.040865384615384616,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 616,
+        "top": 259,
+        "width": 34,
+        "height": 37
+      },
+      "confidence": 66,
+      "reading_order": 75,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0076",
+      "char": "pind",
+      "file": "glyphs/099_pind_001.png",
+      "bbox": {
+        "x": 0.7824519230769231,
+        "y": 0.2075320512820513,
+        "w": 0.06610576923076923,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 651,
+        "top": 259,
+        "width": 55,
+        "height": 36
+      },
+      "confidence": 64,
+      "reading_order": 76,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0077",
+      "char": "men",
+      "file": "glyphs/099_men_001.png",
+      "bbox": {
+        "x": 0.8497596153846154,
+        "y": 0.21394230769230768,
+        "w": 0.07932692307692307,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 707,
+        "top": 267,
+        "width": 66,
+        "height": 23
+      },
+      "confidence": 57,
+      "reading_order": 77,
+      "line_num": 8
+    },
+    {
+      "id": "G-099-0078",
+      "char": "virrecr",
+      "file": "glyphs/099_virrecr_001.png",
+      "bbox": {
+        "x": 0.1658653846153846,
+        "y": 0.2467948717948718,
+        "w": 0.1045673076923077,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 138,
+        "top": 308,
+        "width": 87,
+        "height": 23
+      },
+      "confidence": 41,
+      "reading_order": 78,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0079",
+      "char": "apm",
+      "file": "glyphs/099_apm_001.png",
+      "bbox": {
+        "x": 0.27403846153846156,
+        "y": 0.24519230769230768,
+        "w": 0.08173076923076923,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 228,
+        "top": 306,
+        "width": 68,
+        "height": 29
+      },
+      "confidence": 80,
+      "reading_order": 79,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0080",
+      "char": "1",
+      "file": "glyphs/099_1_001.png",
+      "bbox": {
+        "x": 0.359375,
+        "y": 0.24439102564102563,
+        "w": 0.015625,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 299,
+        "top": 305,
+        "width": 13,
+        "height": 21
+      },
+      "confidence": 40,
+      "reading_order": 80,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0081",
+      "char": "herran",
+      "file": "glyphs/099_herran_001.png",
+      "bbox": {
+        "x": 0.4182692307692308,
+        "y": 0.23637820512820512,
+        "w": 0.1201923076923077,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 348,
+        "top": 295,
+        "width": 100,
+        "height": 39
+      },
+      "confidence": 84,
+      "reading_order": 81,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0082",
+      "char": "bo",
+      "file": "glyphs/099_bo_001.png",
+      "bbox": {
+        "x": 0.5504807692307693,
+        "y": 0.23237179487179488,
+        "w": 0.04326923076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 458,
+        "top": 290,
+        "width": 36,
+        "height": 36
+      },
+      "confidence": 79,
+      "reading_order": 82,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0083",
+      "char": "brore",
+      "file": "glyphs/099_brore_001.png",
+      "bbox": {
+        "x": 0.6021634615384616,
+        "y": 0.23237179487179488,
+        "w": 0.07932692307692307,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 501,
+        "top": 290,
+        "width": 66,
+        "height": 32
+      },
+      "confidence": 37,
+      "reading_order": 83,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0084",
+      "char": "wb",
+      "file": "glyphs/099_wb_001.png",
+      "bbox": {
+        "x": 0.6850961538461539,
+        "y": 0.23076923076923078,
+        "w": 0.04447115384615385,
+        "h": 0.027243589743589744
+      },
+      "bbox_px": {
+        "left": 570,
+        "top": 288,
+        "width": 37,
+        "height": 34
+      },
+      "confidence": 63,
+      "reading_order": 84,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0085",
+      "char": "wy",
+      "file": "glyphs/099_wy_001.png",
+      "bbox": {
+        "x": 0.7367788461538461,
+        "y": 0.22756410256410256,
+        "w": 0.027644230769230768,
+        "h": 0.04487179487179487
+      },
+      "bbox_px": {
+        "left": 613,
+        "top": 284,
+        "width": 23,
+        "height": 56
+      },
+      "confidence": 69,
+      "reading_order": 85,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0086",
+      "char": "req",
+      "file": "glyphs/099_req_001.png",
+      "bbox": {
+        "x": 0.7764423076923077,
+        "y": 0.22756410256410256,
+        "w": 0.052884615384615384,
+        "h": 0.04487179487179487
+      },
+      "bbox_px": {
+        "left": 646,
+        "top": 284,
+        "width": 44,
+        "height": 56
+      },
+      "confidence": 0,
+      "reading_order": 86,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0087",
+      "char": "buirin",
+      "file": "glyphs/099_buirin_001.png",
+      "bbox": {
+        "x": 0.8461538461538461,
+        "y": 0.23237179487179488,
+        "w": 0.08653846153846154,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 704,
+        "top": 290,
+        "width": 72,
+        "height": 38
+      },
+      "confidence": 0,
+      "reading_order": 87,
+      "line_num": 9
+    },
+    {
+      "id": "G-099-0088",
+      "char": "hat",
+      "file": "glyphs/099_hat_001.png",
+      "bbox": {
+        "x": 0.16466346153846154,
+        "y": 0.265224358974359,
+        "w": 0.07572115384615384,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 137,
+        "top": 331,
+        "width": 63,
+        "height": 35
+      },
+      "confidence": 38,
+      "reading_order": 88,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0089",
+      "char": "tonomo",
+      "file": "glyphs/099_tonomo_001.png",
+      "bbox": {
+        "x": 0.24759615384615385,
+        "y": 0.2644230769230769,
+        "w": 0.11778846153846154,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 206,
+        "top": 330,
+        "width": 98,
+        "height": 29
+      },
+      "confidence": 46,
+      "reading_order": 89,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0090",
+      "char": "19",
+      "file": "glyphs/099_19_001.png",
+      "bbox": {
+        "x": 0.3713942307692308,
+        "y": 0.2620192307692308,
+        "w": 0.03365384615384615,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 309,
+        "top": 327,
+        "width": 28,
+        "height": 28
+      },
+      "confidence": 54,
+      "reading_order": 90,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0091",
+      "char": "tnwn,",
+      "file": "glyphs/099_tnwn,_001.png",
+      "bbox": {
+        "x": 0.4098557692307692,
+        "y": 0.2604166666666667,
+        "w": 0.08413461538461539,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 341,
+        "top": 325,
+        "width": 70,
+        "height": 36
+      },
+      "confidence": 0,
+      "reading_order": 91,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0092",
+      "char": "beyrt",
+      "file": "glyphs/099_beyrt_001.png",
+      "bbox": {
+        "x": 0.49399038461538464,
+        "y": 0.25801282051282054,
+        "w": 0.09254807692307693,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 411,
+        "top": 322,
+        "width": 77,
+        "height": 33
+      },
+      "confidence": 27,
+      "reading_order": 92,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0093",
+      "char": "yryelp",
+      "file": "glyphs/099_yryelp_001.png",
+      "bbox": {
+        "x": 0.5925480769230769,
+        "y": 0.2516025641025641,
+        "w": 0.10697115384615384,
+        "h": 0.036057692307692304
+      },
+      "bbox_px": {
+        "left": 493,
+        "top": 314,
+        "width": 89,
+        "height": 45
+      },
+      "confidence": 18,
+      "reading_order": 93,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0094",
+      "char": "er",
+      "file": "glyphs/099_er_001.png",
+      "bbox": {
+        "x": 0.7055288461538461,
+        "y": 0.2483974358974359,
+        "w": 0.03485576923076923,
+        "h": 0.04807692307692308
+      },
+      "bbox_px": {
+        "left": 587,
+        "top": 310,
+        "width": 29,
+        "height": 60
+      },
+      "confidence": 78,
+      "reading_order": 94,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0095",
+      "char": "sopra",
+      "file": "glyphs/099_sopra_001.png",
+      "bbox": {
+        "x": 0.7391826923076923,
+        "y": 0.25961538461538464,
+        "w": 0.08774038461538461,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 615,
+        "top": 324,
+        "width": 73,
+        "height": 29
+      },
+      "confidence": 25,
+      "reading_order": 95,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0096",
+      "char": "allz",
+      "file": "glyphs/099_allz_001.png",
+      "bbox": {
+        "x": 0.8317307692307693,
+        "y": 0.2564102564102564,
+        "w": 0.052884615384615384,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 692,
+        "top": 320,
+        "width": 44,
+        "height": 29
+      },
+      "confidence": 31,
+      "reading_order": 96,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0097",
+      "char": "gor",
+      "file": "glyphs/099_gor_001.png",
+      "bbox": {
+        "x": 0.8786057692307693,
+        "y": 0.2548076923076923,
+        "w": 0.054086538461538464,
+        "h": 0.03205128205128205
+      },
+      "bbox_px": {
+        "left": 731,
+        "top": 318,
+        "width": 45,
+        "height": 40
+      },
+      "confidence": 91,
+      "reading_order": 97,
+      "line_num": 10
+    },
+    {
+      "id": "G-099-0098",
+      "char": "ime",
+      "file": "glyphs/099_ime_001.png",
+      "bbox": {
+        "x": 0.16826923076923078,
+        "y": 0.2988782051282051,
+        "w": 0.054086538461538464,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 140,
+        "top": 373,
+        "width": 45,
+        "height": 22
+      },
+      "confidence": 72,
+      "reading_order": 98,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0099",
+      "char": "tre",
+      "file": "glyphs/099_tre_001.png",
+      "bbox": {
+        "x": 0.22956730769230768,
+        "y": 0.27403846153846156,
+        "w": 0.040865384615384616,
+        "h": 0.04887820512820513
+      },
+      "bbox_px": {
+        "left": 191,
+        "top": 342,
+        "width": 34,
+        "height": 61
+      },
+      "confidence": 74,
+      "reading_order": 99,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0100",
+      "char": "hico",
+      "file": "glyphs/099_hico_001.png",
+      "bbox": {
+        "x": 0.27283653846153844,
+        "y": 0.27403846153846156,
+        "w": 0.057692307692307696,
+        "h": 0.04887820512820513
+      },
+      "bbox_px": {
+        "left": 227,
+        "top": 342,
+        "width": 48,
+        "height": 61
+      },
+      "confidence": 45,
+      "reading_order": 100,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0101",
+      "char": "nar",
+      "file": "glyphs/099_nar_001.png",
+      "bbox": {
+        "x": 0.3389423076923077,
+        "y": 0.2916666666666667,
+        "w": 0.07091346153846154,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 282,
+        "top": 364,
+        "width": 59,
+        "height": 23
+      },
+      "confidence": 43,
+      "reading_order": 101,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0102",
+      "char": "armin",
+      "file": "glyphs/099_armin_001.png",
+      "bbox": {
+        "x": 0.4170673076923077,
+        "y": 0.2860576923076923,
+        "w": 0.10576923076923077,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 347,
+        "top": 357,
+        "width": 88,
+        "height": 35
+      },
+      "confidence": 39,
+      "reading_order": 102,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0103",
+      "char": "immas",
+      "file": "glyphs/099_immas_001.png",
+      "bbox": {
+        "x": 0.53125,
+        "y": 0.28205128205128205,
+        "w": 0.1141826923076923,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 442,
+        "top": 352,
+        "width": 95,
+        "height": 35
+      },
+      "confidence": 0,
+      "reading_order": 103,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0104",
+      "char": "ff",
+      "file": "glyphs/099_ff_001.png",
+      "bbox": {
+        "x": 0.6526442307692307,
+        "y": 0.27724358974358976,
+        "w": 0.039663461538461536,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 543,
+        "top": 346,
+        "width": 33,
+        "height": 30
+      },
+      "confidence": 45,
+      "reading_order": 104,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0105",
+      "char": "Ine",
+      "file": "glyphs/099_Ine_001.png",
+      "bbox": {
+        "x": 0.6983173076923077,
+        "y": 0.2708333333333333,
+        "w": 0.06850961538461539,
+        "h": 0.05448717948717949
+      },
+      "bbox_px": {
+        "left": 581,
+        "top": 338,
+        "width": 57,
+        "height": 68
+      },
+      "confidence": 0,
+      "reading_order": 105,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0106",
+      "char": "*P",
+      "file": "glyphs/099_*P_001.png",
+      "bbox": {
+        "x": 0.7668269230769231,
+        "y": 0.27724358974358976,
+        "w": 0.039663461538461536,
+        "h": 0.046474358974358976
+      },
+      "bbox_px": {
+        "left": 638,
+        "top": 346,
+        "width": 33,
+        "height": 58
+      },
+      "confidence": 0,
+      "reading_order": 106,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0107",
+      "char": "pebann",
+      "file": "glyphs/099_pebann_001.png",
+      "bbox": {
+        "x": 0.8052884615384616,
+        "y": 0.2748397435897436,
+        "w": 0.12259615384615384,
+        "h": 0.052083333333333336
+      },
+      "bbox_px": {
+        "left": 670,
+        "top": 343,
+        "width": 102,
+        "height": 65
+      },
+      "confidence": 0,
+      "reading_order": 107,
+      "line_num": 11
+    },
+    {
+      "id": "G-099-0108",
+      "char": "ry",
+      "file": "glyphs/099_ry_001.png",
+      "bbox": {
+        "x": 0.16947115384615385,
+        "y": 0.3229166666666667,
+        "w": 0.038461538461538464,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 141,
+        "top": 403,
+        "width": 32,
+        "height": 28
+      },
+      "confidence": 36,
+      "reading_order": 108,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0109",
+      "char": "hvga",
+      "file": "glyphs/099_hvga_001.png",
+      "bbox": {
+        "x": 0.21153846153846154,
+        "y": 0.3157051282051282,
+        "w": 0.0733173076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 176,
+        "top": 394,
+        "width": 61,
+        "height": 36
+      },
+      "confidence": 73,
+      "reading_order": 109,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0110",
+      "char": "a",
+      "file": "glyphs/099_a_002.png",
+      "bbox": {
+        "x": 0.29086538461538464,
+        "y": 0.31169871794871795,
+        "w": 0.06850961538461539,
+        "h": 0.044070512820512824
+      },
+      "bbox_px": {
+        "left": 242,
+        "top": 389,
+        "width": 57,
+        "height": 55
+      },
+      "confidence": 28,
+      "reading_order": 110,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0111",
+      "char": "ail",
+      "file": "glyphs/099_ail_001.png",
+      "bbox": {
+        "x": 0.359375,
+        "y": 0.30689102564102566,
+        "w": 0.052884615384615384,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 299,
+        "top": 383,
+        "width": 44,
+        "height": 39
+      },
+      "confidence": 64,
+      "reading_order": 111,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0112",
+      "char": "yartr6",
+      "file": "glyphs/099_yartr6_001.png",
+      "bbox": {
+        "x": 0.41586538461538464,
+        "y": 0.3036858974358974,
+        "w": 0.08173076923076923,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 346,
+        "top": 379,
+        "width": 68,
+        "height": 38
+      },
+      "confidence": 31,
+      "reading_order": 112,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0113",
+      "char": "a",
+      "file": "glyphs/099_a_003.png",
+      "bbox": {
+        "x": 0.5012019230769231,
+        "y": 0.3004807692307692,
+        "w": 0.07091346153846154,
+        "h": 0.05608974358974359
+      },
+      "bbox_px": {
+        "left": 417,
+        "top": 375,
+        "width": 59,
+        "height": 70
+      },
+      "confidence": 3,
+      "reading_order": 113,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0114",
+      "char": "er",
+      "file": "glyphs/099_er_002.png",
+      "bbox": {
+        "x": 0.5757211538461539,
+        "y": 0.297275641025641,
+        "w": 0.037259615384615384,
+        "h": 0.044070512820512824
+      },
+      "bbox_px": {
+        "left": 479,
+        "top": 371,
+        "width": 31,
+        "height": 55
+      },
+      "confidence": 0,
+      "reading_order": 114,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0115",
+      "char": "pu",
+      "file": "glyphs/099_pu_001.png",
+      "bbox": {
+        "x": 0.609375,
+        "y": 0.3004807692307692,
+        "w": 0.038461538461538464,
+        "h": 0.03365384615384615
+      },
+      "bbox_px": {
+        "left": 507,
+        "top": 375,
+        "width": 32,
+        "height": 42
+      },
+      "confidence": 0,
+      "reading_order": 115,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0116",
+      "char": "a",
+      "file": "glyphs/099_a_004.png",
+      "bbox": {
+        "x": 0.6490384615384616,
+        "y": 0.29967948717948717,
+        "w": 0.06490384615384616,
+        "h": 0.05128205128205128
+      },
+      "bbox_px": {
+        "left": 540,
+        "top": 374,
+        "width": 54,
+        "height": 64
+      },
+      "confidence": 38,
+      "reading_order": 116,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0117",
+      "char": "elk,",
+      "file": "glyphs/099_elk,_001.png",
+      "bbox": {
+        "x": 0.7247596153846154,
+        "y": 0.3004807692307692,
+        "w": 0.04326923076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 603,
+        "top": 375,
+        "width": 36,
+        "height": 36
+      },
+      "confidence": 76,
+      "reading_order": 117,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0118",
+      "char": "lepF",
+      "file": "glyphs/099_lepF_001.png",
+      "bbox": {
+        "x": 0.7848557692307693,
+        "y": 0.3076923076923077,
+        "w": 0.03125,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 653,
+        "top": 384,
+        "width": 26,
+        "height": 29
+      },
+      "confidence": 7,
+      "reading_order": 118,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0119",
+      "char": "ope",
+      "file": "glyphs/099_ope_001.png",
+      "bbox": {
+        "x": 0.8713942307692307,
+        "y": 0.3092948717948718,
+        "w": 0.019230769230769232,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 725,
+        "top": 386,
+        "width": 16,
+        "height": 21
+      },
+      "confidence": 91,
+      "reading_order": 119,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0120",
+      "char": "ot",
+      "file": "glyphs/099_ot_001.png",
+      "bbox": {
+        "x": 0.8930288461538461,
+        "y": 0.30849358974358976,
+        "w": 0.042067307692307696,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 743,
+        "top": 385,
+        "width": 35,
+        "height": 22
+      },
+      "confidence": 78,
+      "reading_order": 120,
+      "line_num": 12
+    },
+    {
+      "id": "G-099-0121",
+      "char": "het",
+      "file": "glyphs/099_het_001.png",
+      "bbox": {
+        "x": 0.16826923076923078,
+        "y": 0.33814102564102566,
+        "w": 0.056490384615384616,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 140,
+        "top": 422,
+        "width": 47,
+        "height": 29
+      },
+      "confidence": 86,
+      "reading_order": 121,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0122",
+      "char": "tule,",
+      "file": "glyphs/099_tule,_001.png",
+      "bbox": {
+        "x": 0.23076923076923078,
+        "y": 0.33814102564102566,
+        "w": 0.0673076923076923,
+        "h": 0.027243589743589744
+      },
+      "bbox_px": {
+        "left": 192,
+        "top": 422,
+        "width": 56,
+        "height": 34
+      },
+      "confidence": 0,
+      "reading_order": 122,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0123",
+      "char": "bali",
+      "file": "glyphs/099_bali_001.png",
+      "bbox": {
+        "x": 0.31850961538461536,
+        "y": 0.3317307692307692,
+        "w": 0.046875,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 265,
+        "top": 414,
+        "width": 39,
+        "height": 28
+      },
+      "confidence": 40,
+      "reading_order": 123,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0124",
+      "char": "mp",
+      "file": "glyphs/099_mp_001.png",
+      "bbox": {
+        "x": 0.3737980769230769,
+        "y": 0.328525641025641,
+        "w": 0.056490384615384616,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 311,
+        "top": 410,
+        "width": 47,
+        "height": 37
+      },
+      "confidence": 84,
+      "reading_order": 124,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0125",
+      "char": "coa-",
+      "file": "glyphs/099_coa-_001.png",
+      "bbox": {
+        "x": 0.43509615384615385,
+        "y": 0.33092948717948717,
+        "w": 0.06009615384615385,
+        "h": 0.020833333333333332
+      },
+      "bbox_px": {
+        "left": 362,
+        "top": 413,
+        "width": 50,
+        "height": 26
+      },
+      "confidence": 65,
+      "reading_order": 125,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0126",
+      "char": "kyvg",
+      "file": "glyphs/099_kyvg_001.png",
+      "bbox": {
+        "x": 0.5336538461538461,
+        "y": 0.3301282051282051,
+        "w": 0.040865384615384616,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 444,
+        "top": 412,
+        "width": 34,
+        "height": 28
+      },
+      "confidence": 10,
+      "reading_order": 126,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0127",
+      "char": "hepp",
+      "file": "glyphs/099_hepp_001.png",
+      "bbox": {
+        "x": 0.5769230769230769,
+        "y": 0.32371794871794873,
+        "w": 0.08173076923076923,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 480,
+        "top": 404,
+        "width": 68,
+        "height": 39
+      },
+      "confidence": 7,
+      "reading_order": 127,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0128",
+      "char": "bv",
+      "file": "glyphs/099_bv_002.png",
+      "bbox": {
+        "x": 0.6694711538461539,
+        "y": 0.3293269230769231,
+        "w": 0.021634615384615384,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 557,
+        "top": 411,
+        "width": 18,
+        "height": 21
+      },
+      "confidence": 49,
+      "reading_order": 128,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0129",
+      "char": "habrr",
+      "file": "glyphs/099_habrr_001.png",
+      "bbox": {
+        "x": 0.6923076923076923,
+        "y": 0.32371794871794873,
+        "w": 0.07932692307692307,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 576,
+        "top": 404,
+        "width": 66,
+        "height": 35
+      },
+      "confidence": 55,
+      "reading_order": 129,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0130",
+      "char": "ey",
+      "file": "glyphs/099_ey_001.png",
+      "bbox": {
+        "x": 0.7728365384615384,
+        "y": 0.3293269230769231,
+        "w": 0.03125,
+        "h": 0.027243589743589744
+      },
+      "bbox_px": {
+        "left": 643,
+        "top": 411,
+        "width": 26,
+        "height": 34
+      },
+      "confidence": 50,
+      "reading_order": 130,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0131",
+      "char": "bu",
+      "file": "glyphs/099_bu_001.png",
+      "bbox": {
+        "x": 0.8088942307692307,
+        "y": 0.32211538461538464,
+        "w": 0.040865384615384616,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 673,
+        "top": 402,
+        "width": 34,
+        "height": 38
+      },
+      "confidence": 73,
+      "reading_order": 131,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0132",
+      "char": "hep",
+      "file": "glyphs/099_hep_001.png",
+      "bbox": {
+        "x": 0.8605769230769231,
+        "y": 0.30528846153846156,
+        "w": 0.0673076923076923,
+        "h": 0.055288461538461536
+      },
+      "bbox_px": {
+        "left": 716,
+        "top": 381,
+        "width": 56,
+        "height": 69
+      },
+      "confidence": 35,
+      "reading_order": 132,
+      "line_num": 13
+    },
+    {
+      "id": "G-099-0133",
+      "char": "lhygartot",
+      "file": "glyphs/099_lhygartot_001.png",
+      "bbox": {
+        "x": 0.16706730769230768,
+        "y": 0.35496794871794873,
+        "w": 0.1346153846153846,
+        "h": 0.035256410256410256
+      },
+      "bbox_px": {
+        "left": 139,
+        "top": 443,
+        "width": 112,
+        "height": 44
+      },
+      "confidence": 40,
+      "reading_order": 133,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0134",
+      "char": "mre",
+      "file": "glyphs/099_mre_001.png",
+      "bbox": {
+        "x": 0.30528846153846156,
+        "y": 0.3501602564102564,
+        "w": 0.10576923076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 254,
+        "top": 437,
+        "width": 88,
+        "height": 36
+      },
+      "confidence": 36,
+      "reading_order": 134,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0135",
+      "char": "a",
+      "file": "glyphs/099_a_005.png",
+      "bbox": {
+        "x": 0.41586538461538464,
+        "y": 0.3485576923076923,
+        "w": 0.08533653846153846,
+        "h": 0.049679487179487176
+      },
+      "bbox_px": {
+        "left": 346,
+        "top": 435,
+        "width": 71,
+        "height": 62
+      },
+      "confidence": 19,
+      "reading_order": 135,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0136",
+      "char": "fivn",
+      "file": "glyphs/099_fivn_001.png",
+      "bbox": {
+        "x": 0.5024038461538461,
+        "y": 0.34775641025641024,
+        "w": 0.057692307692307696,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 418,
+        "top": 434,
+        "width": 48,
+        "height": 29
+      },
+      "confidence": 84,
+      "reading_order": 136,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0137",
+      "char": "varro",
+      "file": "glyphs/099_varro_001.png",
+      "bbox": {
+        "x": 0.5637019230769231,
+        "y": 0.35336538461538464,
+        "w": 0.0733173076923077,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 469,
+        "top": 441,
+        "width": 61,
+        "height": 23
+      },
+      "confidence": 74,
+      "reading_order": 137,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0138",
+      "char": "¢",
+      "file": "glyphs/099_¢_001.png",
+      "bbox": {
+        "x": 0.6382211538461539,
+        "y": 0.3525641025641026,
+        "w": 0.019230769230769232,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 531,
+        "top": 440,
+        "width": 16,
+        "height": 22
+      },
+      "confidence": 90,
+      "reading_order": 138,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0139",
+      "char": "mann",
+      "file": "glyphs/099_mann_001.png",
+      "bbox": {
+        "x": 0.6598557692307693,
+        "y": 0.3525641025641026,
+        "w": 0.10576923076923077,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 549,
+        "top": 440,
+        "width": 88,
+        "height": 21
+      },
+      "confidence": 45,
+      "reading_order": 139,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0140",
+      "char": "ry",
+      "file": "glyphs/099_ry_002.png",
+      "bbox": {
+        "x": 0.7716346153846154,
+        "y": 0.35336538461538464,
+        "w": 0.06129807692307692,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 642,
+        "top": 441,
+        "width": 51,
+        "height": 31
+      },
+      "confidence": 33,
+      "reading_order": 140,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0141",
+      "char": "wn",
+      "file": "glyphs/099_wn_001.png",
+      "bbox": {
+        "x": 0.8365384615384616,
+        "y": 0.3469551282051282,
+        "w": 0.03125,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 696,
+        "top": 433,
+        "width": 26,
+        "height": 29
+      },
+      "confidence": 23,
+      "reading_order": 141,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0142",
+      "char": "nv",
+      "file": "glyphs/099_nv_001.png",
+      "bbox": {
+        "x": 0.8725961538461539,
+        "y": 0.3541666666666667,
+        "w": 0.042067307692307696,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 726,
+        "top": 442,
+        "width": 35,
+        "height": 21
+      },
+      "confidence": 54,
+      "reading_order": 142,
+      "line_num": 14
+    },
+    {
+      "id": "G-099-0143",
+      "char": "ep",
+      "file": "glyphs/099_ep_001.png",
+      "bbox": {
+        "x": 0.24759615384615385,
+        "y": 0.3645833333333333,
+        "w": 0.03365384615384615,
+        "h": 0.04487179487179487
+      },
+      "bbox_px": {
+        "left": 206,
+        "top": 455,
+        "width": 28,
+        "height": 56
+      },
+      "confidence": 19,
+      "reading_order": 143,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0144",
+      "char": "cept",
+      "file": "glyphs/099_cept_001.png",
+      "bbox": {
+        "x": 0.2776442307692308,
+        "y": 0.38060897435897434,
+        "w": 0.0673076923076923,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 231,
+        "top": 475,
+        "width": 56,
+        "height": 32
+      },
+      "confidence": 19,
+      "reading_order": 144,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0145",
+      "char": "hpdt",
+      "file": "glyphs/099_hpdt_001.png",
+      "bbox": {
+        "x": 0.34975961538461536,
+        "y": 0.3733974358974359,
+        "w": 0.0625,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 291,
+        "top": 466,
+        "width": 52,
+        "height": 37
+      },
+      "confidence": 25,
+      "reading_order": 145,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0146",
+      "char": "brap",
+      "file": "glyphs/099_brap_001.png",
+      "bbox": {
+        "x": 0.4230769230769231,
+        "y": 0.37099358974358976,
+        "w": 0.046875,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 352,
+        "top": 463,
+        "width": 39,
+        "height": 32
+      },
+      "confidence": 63,
+      "reading_order": 146,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0147",
+      "char": "ctran",
+      "file": "glyphs/099_ctran_001.png",
+      "bbox": {
+        "x": 0.49399038461538464,
+        "y": 0.375,
+        "w": 0.07932692307692307,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 411,
+        "top": 468,
+        "width": 66,
+        "height": 23
+      },
+      "confidence": 63,
+      "reading_order": 147,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0148",
+      "char": "ry",
+      "file": "glyphs/099_ry_003.png",
+      "bbox": {
+        "x": 0.5769230769230769,
+        "y": 0.37580128205128205,
+        "w": 0.03485576923076923,
+        "h": 0.021634615384615384
+      },
+      "bbox_px": {
+        "left": 480,
+        "top": 469,
+        "width": 29,
+        "height": 27
+      },
+      "confidence": 73,
+      "reading_order": 148,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0149",
+      "char": "bai’",
+      "file": "glyphs/099_bai’_001.png",
+      "bbox": {
+        "x": 0.6141826923076923,
+        "y": 0.36778846153846156,
+        "w": 0.0625,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 511,
+        "top": 459,
+        "width": 52,
+        "height": 33
+      },
+      "confidence": 52,
+      "reading_order": 149,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0150",
+      "char": "praca",
+      "file": "glyphs/099_praca_001.png",
+      "bbox": {
+        "x": 0.671875,
+        "y": 0.37419871794871795,
+        "w": 0.09495192307692307,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 559,
+        "top": 467,
+        "width": 79,
+        "height": 31
+      },
+      "confidence": 0,
+      "reading_order": 150,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0151",
+      "char": "ey",
+      "file": "glyphs/099_ey_002.png",
+      "bbox": {
+        "x": 0.7728365384615384,
+        "y": 0.375,
+        "w": 0.03485576923076923,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 643,
+        "top": 468,
+        "width": 29,
+        "height": 32
+      },
+      "confidence": 56,
+      "reading_order": 151,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0152",
+      "char": "vip",
+      "file": "glyphs/099_vip_001.png",
+      "bbox": {
+        "x": 0.8125,
+        "y": 0.36939102564102566,
+        "w": 0.04807692307692308,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 676,
+        "top": 461,
+        "width": 40,
+        "height": 37
+      },
+      "confidence": 70,
+      "reading_order": 152,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0153",
+      "char": "abnuc",
+      "file": "glyphs/099_abnuc_001.png",
+      "bbox": {
+        "x": 0.8617788461538461,
+        "y": 0.36939102564102566,
+        "w": 0.08533653846153846,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 717,
+        "top": 461,
+        "width": 71,
+        "height": 33
+      },
+      "confidence": 50,
+      "reading_order": 153,
+      "line_num": 15
+    },
+    {
+      "id": "G-099-0154",
+      "char": "yago",
+      "file": "glyphs/099_yago_001.png",
+      "bbox": {
+        "x": 0.17307692307692307,
+        "y": 0.4030448717948718,
+        "w": 0.07211538461538461,
+        "h": 0.020833333333333332
+      },
+      "bbox_px": {
+        "left": 144,
+        "top": 503,
+        "width": 60,
+        "height": 26
+      },
+      "confidence": 83,
+      "reading_order": 154,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0155",
+      "char": "van",
+      "file": "glyphs/099_van_001.png",
+      "bbox": {
+        "x": 0.2548076923076923,
+        "y": 0.4030448717948718,
+        "w": 0.05889423076923077,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 212,
+        "top": 503,
+        "width": 49,
+        "height": 21
+      },
+      "confidence": 85,
+      "reading_order": 155,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0156",
+      "char": "m",
+      "file": "glyphs/099_m_002.png",
+      "bbox": {
+        "x": 0.3173076923076923,
+        "y": 0.4014423076923077,
+        "w": 0.036057692307692304,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 264,
+        "top": 501,
+        "width": 30,
+        "height": 31
+      },
+      "confidence": 78,
+      "reading_order": 156,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0157",
+      "char": "vipmvetit",
+      "file": "glyphs/099_vipmvetit_001.png",
+      "bbox": {
+        "x": 0.35697115384615385,
+        "y": 0.3894230769230769,
+        "w": 0.14543269230769232,
+        "h": 0.04006410256410257
+      },
+      "bbox_px": {
+        "left": 297,
+        "top": 486,
+        "width": 121,
+        "height": 50
+      },
+      "confidence": 65,
+      "reading_order": 157,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0158",
+      "char": "hvortume",
+      "file": "glyphs/099_hvortume_001.png",
+      "bbox": {
+        "x": 0.5120192307692307,
+        "y": 0.3894230769230769,
+        "w": 0.13942307692307693,
+        "h": 0.04006410256410257
+      },
+      "bbox_px": {
+        "left": 426,
+        "top": 486,
+        "width": 116,
+        "height": 50
+      },
+      "confidence": 38,
+      "reading_order": 158,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0159",
+      "char": "ar",
+      "file": "glyphs/099_ar_002.png",
+      "bbox": {
+        "x": 0.6574519230769231,
+        "y": 0.3894230769230769,
+        "w": 0.03365384615384615,
+        "h": 0.04006410256410257
+      },
+      "bbox_px": {
+        "left": 547,
+        "top": 486,
+        "width": 28,
+        "height": 50
+      },
+      "confidence": 64,
+      "reading_order": 159,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0160",
+      "char": "O15",
+      "file": "glyphs/099_O15_001.png",
+      "bbox": {
+        "x": 0.6862980769230769,
+        "y": 0.39342948717948717,
+        "w": 0.055288461538461536,
+        "h": 0.027243589743589744
+      },
+      "bbox_px": {
+        "left": 571,
+        "top": 491,
+        "width": 46,
+        "height": 34
+      },
+      "confidence": 36,
+      "reading_order": 160,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0161",
+      "char": "or",
+      "file": "glyphs/099_or_001.png",
+      "bbox": {
+        "x": 0.7451923076923077,
+        "y": 0.39663461538461536,
+        "w": 0.08173076923076923,
+        "h": 0.03766025641025641
+      },
+      "bbox_px": {
+        "left": 620,
+        "top": 495,
+        "width": 68,
+        "height": 47
+      },
+      "confidence": 17,
+      "reading_order": 161,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0162",
+      "char": "Savy",
+      "file": "glyphs/099_Savy_001.png",
+      "bbox": {
+        "x": 0.8269230769230769,
+        "y": 0.3958333333333333,
+        "w": 0.0889423076923077,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 688,
+        "top": 494,
+        "width": 74,
+        "height": 37
+      },
+      "confidence": 49,
+      "reading_order": 162,
+      "line_num": 16
+    },
+    {
+      "id": "G-099-0163",
+      "char": "Helge",
+      "file": "glyphs/099_Helge_001.png",
+      "bbox": {
+        "x": 0.171875,
+        "y": 0.40384615384615385,
+        "w": 0.08533653846153846,
+        "h": 0.052884615384615384
+      },
+      "bbox_px": {
+        "left": 143,
+        "top": 504,
+        "width": 71,
+        "height": 66
+      },
+      "confidence": 71,
+      "reading_order": 163,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0164",
+      "char": "geipve",
+      "file": "glyphs/099_geipve_001.png",
+      "bbox": {
+        "x": 0.2620192307692308,
+        "y": 0.41746794871794873,
+        "w": 0.13942307692307693,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 218,
+        "top": 521,
+        "width": 116,
+        "height": 36
+      },
+      "confidence": 19,
+      "reading_order": 164,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0165",
+      "char": "ar",
+      "file": "glyphs/099_ar_003.png",
+      "bbox": {
+        "x": 0.3629807692307692,
+        "y": 0.40865384615384615,
+        "w": 0.039663461538461536,
+        "h": 0.041666666666666664
+      },
+      "bbox_px": {
+        "left": 302,
+        "top": 510,
+        "width": 33,
+        "height": 52
+      },
+      "confidence": 92,
+      "reading_order": 165,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0166",
+      "char": "mat.",
+      "file": "glyphs/099_mat._001.png",
+      "bbox": {
+        "x": 0.40625,
+        "y": 0.41746794871794873,
+        "w": 0.0625,
+        "h": 0.020833333333333332
+      },
+      "bbox_px": {
+        "left": 338,
+        "top": 521,
+        "width": 52,
+        "height": 26
+      },
+      "confidence": 94,
+      "reading_order": 166,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0167",
+      "char": "Geet",
+      "file": "glyphs/099_Geet_001.png",
+      "bbox": {
+        "x": 0.4675480769230769,
+        "y": 0.41426282051282054,
+        "w": 0.08173076923076923,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 389,
+        "top": 517,
+        "width": 68,
+        "height": 37
+      },
+      "confidence": 20,
+      "reading_order": 167,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0168",
+      "char": "hyo",
+      "file": "glyphs/099_hyo_001.png",
+      "bbox": {
+        "x": 0.5516826923076923,
+        "y": 0.41185897435897434,
+        "w": 0.054086538461538464,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 459,
+        "top": 514,
+        "width": 45,
+        "height": 38
+      },
+      "confidence": 93,
+      "reading_order": 168,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0169",
+      "char": "er",
+      "file": "glyphs/099_er_003.png",
+      "bbox": {
+        "x": 0.6069711538461539,
+        "y": 0.40865384615384615,
+        "w": 0.03125,
+        "h": 0.041666666666666664
+      },
+      "bbox_px": {
+        "left": 505,
+        "top": 510,
+        "width": 26,
+        "height": 52
+      },
+      "confidence": 92,
+      "reading_order": 169,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0170",
+      "char": "yer",
+      "file": "glyphs/099_yer_001.png",
+      "bbox": {
+        "x": 0.6370192307692307,
+        "y": 0.41907051282051283,
+        "w": 0.054086538461538464,
+        "h": 0.02403846153846154
+      },
+      "bbox_px": {
+        "left": 530,
+        "top": 523,
+        "width": 45,
+        "height": 30
+      },
+      "confidence": 93,
+      "reading_order": 170,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0171",
+      "char": "va",
+      "file": "glyphs/099_va_001.png",
+      "bbox": {
+        "x": 0.6947115384615384,
+        "y": 0.41907051282051283,
+        "w": 0.06610576923076923,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 578,
+        "top": 523,
+        "width": 55,
+        "height": 28
+      },
+      "confidence": 91,
+      "reading_order": 171,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0172",
+      "char": "vipa",
+      "file": "glyphs/099_vipa_001.png",
+      "bbox": {
+        "x": 0.7800480769230769,
+        "y": 0.41907051282051283,
+        "w": 0.02283653846153846,
+        "h": 0.016025641025641024
+      },
+      "bbox_px": {
+        "left": 649,
+        "top": 523,
+        "width": 19,
+        "height": 20
+      },
+      "confidence": 48,
+      "reading_order": 172,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0173",
+      "char": "dot",
+      "file": "glyphs/099_dot_001.png",
+      "bbox": {
+        "x": 0.8052884615384616,
+        "y": 0.41426282051282054,
+        "w": 0.04927884615384615,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 670,
+        "top": 517,
+        "width": 41,
+        "height": 28
+      },
+      "confidence": 58,
+      "reading_order": 173,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0174",
+      "char": "ar",
+      "file": "glyphs/099_ar_004.png",
+      "bbox": {
+        "x": 0.8557692307692307,
+        "y": 0.4198717948717949,
+        "w": 0.03485576923076923,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 712,
+        "top": 524,
+        "width": 29,
+        "height": 21
+      },
+      "confidence": 50,
+      "reading_order": 174,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0175",
+      "char": "ore",
+      "file": "glyphs/099_ore_001.png",
+      "bbox": {
+        "x": 0.8918269230769231,
+        "y": 0.421474358974359,
+        "w": 0.04447115384615385,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 742,
+        "top": 526,
+        "width": 37,
+        "height": 23
+      },
+      "confidence": 64,
+      "reading_order": 175,
+      "line_num": 17
+    },
+    {
+      "id": "G-099-0176",
+      "char": "myni.",
+      "file": "glyphs/099_myni._001.png",
+      "bbox": {
+        "x": 0.17668269230769232,
+        "y": 0.44310897435897434,
+        "w": 0.09014423076923077,
+        "h": 0.028846153846153848
+      },
+      "bbox_px": {
+        "left": 147,
+        "top": 553,
+        "width": 75,
+        "height": 36
+      },
+      "confidence": 69,
+      "reading_order": 176,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0177",
+      "char": "bely’d",
+      "file": "glyphs/099_bely’d_001.png",
+      "bbox": {
+        "x": 0.28365384615384615,
+        "y": 0.4407051282051282,
+        "w": 0.0889423076923077,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 236,
+        "top": 550,
+        "width": 74,
+        "height": 35
+      },
+      "confidence": 0,
+      "reading_order": 177,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0178",
+      "char": "laa",
+      "file": "glyphs/099_laa_001.png",
+      "bbox": {
+        "x": 0.38100961538461536,
+        "y": 0.4391025641025641,
+        "w": 0.0673076923076923,
+        "h": 0.022435897435897436
+      },
+      "bbox_px": {
+        "left": 317,
+        "top": 548,
+        "width": 56,
+        "height": 28
+      },
+      "confidence": 0,
+      "reading_order": 178,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0179",
+      "char": "te",
+      "file": "glyphs/099_te_002.png",
+      "bbox": {
+        "x": 0.4483173076923077,
+        "y": 0.4375,
+        "w": 0.038461538461538464,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 373,
+        "top": 546,
+        "width": 32,
+        "height": 38
+      },
+      "confidence": 90,
+      "reading_order": 179,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0180",
+      "char": "noma",
+      "file": "glyphs/099_noma_001.png",
+      "bbox": {
+        "x": 0.5588942307692307,
+        "y": 0.42948717948717946,
+        "w": 0.078125,
+        "h": 0.038461538461538464
+      },
+      "bbox_px": {
+        "left": 465,
+        "top": 536,
+        "width": 65,
+        "height": 48
+      },
+      "confidence": 26,
+      "reading_order": 180,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0181",
+      "char": "pare",
+      "file": "glyphs/099_pare_001.png",
+      "bbox": {
+        "x": 0.6466346153846154,
+        "y": 0.4391025641025641,
+        "w": 0.07091346153846154,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 538,
+        "top": 548,
+        "width": 59,
+        "height": 22
+      },
+      "confidence": 26,
+      "reading_order": 181,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0182",
+      "char": "ies",
+      "file": "glyphs/099_ies_001.png",
+      "bbox": {
+        "x": 0.7115384615384616,
+        "y": 0.41586538461538464,
+        "w": 0.15504807692307693,
+        "h": 0.052083333333333336
+      },
+      "bbox_px": {
+        "left": 592,
+        "top": 519,
+        "width": 129,
+        "height": 65
+      },
+      "confidence": 15,
+      "reading_order": 182,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0183",
+      "char": "sas",
+      "file": "glyphs/099_sas_001.png",
+      "bbox": {
+        "x": 0.8689903846153846,
+        "y": 0.44310897435897434,
+        "w": 0.042067307692307696,
+        "h": 0.01842948717948718
+      },
+      "bbox_px": {
+        "left": 723,
+        "top": 553,
+        "width": 35,
+        "height": 23
+      },
+      "confidence": 54,
+      "reading_order": 183,
+      "line_num": 18
+    },
+    {
+      "id": "G-099-0184",
+      "char": "yr",
+      "file": "glyphs/099_yr_001.png",
+      "bbox": {
+        "x": 0.17908653846153846,
+        "y": 0.46955128205128205,
+        "w": 0.04447115384615385,
+        "h": 0.020032051282051284
+      },
+      "bbox_px": {
+        "left": 149,
+        "top": 586,
+        "width": 37,
+        "height": 25
+      },
+      "confidence": 17,
+      "reading_order": 184,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0185",
+      "char": "9",
+      "file": "glyphs/099_9_001.png",
+      "bbox": {
+        "x": 0.22956730769230768,
+        "y": 0.46875,
+        "w": 0.02403846153846154,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 191,
+        "top": 585,
+        "width": 20,
+        "height": 21
+      },
+      "confidence": 47,
+      "reading_order": 185,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0186",
+      "char": "muni",
+      "file": "glyphs/099_muni_001.png",
+      "bbox": {
+        "x": 0.25841346153846156,
+        "y": 0.46794871794871795,
+        "w": 0.0733173076923077,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 215,
+        "top": 584,
+        "width": 61,
+        "height": 21
+      },
+      "confidence": 66,
+      "reading_order": 186,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0187",
+      "char": "Ayel",
+      "file": "glyphs/099_Ayel_001.png",
+      "bbox": {
+        "x": 0.33653846153846156,
+        "y": 0.45913461538461536,
+        "w": 0.06129807692307692,
+        "h": 0.03205128205128205
+      },
+      "bbox_px": {
+        "left": 280,
+        "top": 573,
+        "width": 51,
+        "height": 40
+      },
+      "confidence": 61,
+      "reading_order": 187,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0188",
+      "char": "haps",
+      "file": "glyphs/099_haps_001.png",
+      "bbox": {
+        "x": 0.40384615384615385,
+        "y": 0.46153846153846156,
+        "w": 0.0673076923076923,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 336,
+        "top": 576,
+        "width": 56,
+        "height": 35
+      },
+      "confidence": 42,
+      "reading_order": 188,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0189",
+      "char": "gs",
+      "file": "glyphs/099_gs_001.png",
+      "bbox": {
+        "x": 0.47475961538461536,
+        "y": 0.43990384615384615,
+        "w": 0.08052884615384616,
+        "h": 0.052884615384615384
+      },
+      "bbox_px": {
+        "left": 395,
+        "top": 549,
+        "width": 67,
+        "height": 66
+      },
+      "confidence": 36,
+      "reading_order": 189,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0190",
+      "char": "tor",
+      "file": "glyphs/099_tor_001.png",
+      "bbox": {
+        "x": 0.5673076923076923,
+        "y": 0.46634615384615385,
+        "w": 0.037259615384615384,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 472,
+        "top": 582,
+        "width": 31,
+        "height": 22
+      },
+      "confidence": 71,
+      "reading_order": 190,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0191",
+      "char": "furids",
+      "file": "glyphs/099_furids_001.png",
+      "bbox": {
+        "x": 0.6141826923076923,
+        "y": 0.4543269230769231,
+        "w": 0.08052884615384616,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 511,
+        "top": 567,
+        "width": 67,
+        "height": 49
+      },
+      "confidence": 15,
+      "reading_order": 191,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0192",
+      "char": "aval",
+      "file": "glyphs/099_aval_001.png",
+      "bbox": {
+        "x": 0.6995192307692307,
+        "y": 0.4543269230769231,
+        "w": 0.05889423076923077,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 582,
+        "top": 567,
+        "width": 49,
+        "height": 49
+      },
+      "confidence": 88,
+      "reading_order": 192,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0193",
+      "char": ".govHa",
+      "file": "glyphs/099_.govHa_001.png",
+      "bbox": {
+        "x": 0.7548076923076923,
+        "y": 0.46474358974358976,
+        "w": 0.09134615384615384,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 628,
+        "top": 580,
+        "width": 76,
+        "height": 32
+      },
+      "confidence": 0,
+      "reading_order": 193,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0194",
+      "char": "open",
+      "file": "glyphs/099_open_001.png",
+      "bbox": {
+        "x": 0.8497596153846154,
+        "y": 0.4583333333333333,
+        "w": 0.06370192307692307,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 707,
+        "top": 572,
+        "width": 53,
+        "height": 35
+      },
+      "confidence": 96,
+      "reading_order": 194,
+      "line_num": 19
+    },
+    {
+      "id": "G-099-0195",
+      "char": "aunabr",
+      "file": "glyphs/099_aunabr_001.png",
+      "bbox": {
+        "x": 0.18509615384615385,
+        "y": 0.4823717948717949,
+        "w": 0.10336538461538461,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 154,
+        "top": 602,
+        "width": 86,
+        "height": 39
+      },
+      "confidence": 51,
+      "reading_order": 195,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0196",
+      "char": "fo",
+      "file": "glyphs/099_fo_001.png",
+      "bbox": {
+        "x": 0.30408653846153844,
+        "y": 0.4831730769230769,
+        "w": 0.026442307692307692,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 253,
+        "top": 603,
+        "width": 22,
+        "height": 29
+      },
+      "confidence": 81,
+      "reading_order": 196,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0197",
+      "char": "ermr",
+      "file": "glyphs/099_ermr_001.png",
+      "bbox": {
+        "x": 0.33653846153846156,
+        "y": 0.4895833333333333,
+        "w": 0.07932692307692307,
+        "h": 0.017628205128205128
+      },
+      "bbox_px": {
+        "left": 280,
+        "top": 611,
+        "width": 66,
+        "height": 22
+      },
+      "confidence": 82,
+      "reading_order": 197,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0198",
+      "char": "aqinftt",
+      "file": "glyphs/099_aqinftt_001.png",
+      "bbox": {
+        "x": 0.4182692307692308,
+        "y": 0.48157051282051283,
+        "w": 0.10336538461538461,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 348,
+        "top": 601,
+        "width": 86,
+        "height": 39
+      },
+      "confidence": 47,
+      "reading_order": 198,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0199",
+      "char": "‘geht",
+      "file": "glyphs/099_‘geht_001.png",
+      "bbox": {
+        "x": 0.5204326923076923,
+        "y": 0.46314102564102566,
+        "w": 0.07451923076923077,
+        "h": 0.05368589743589743
+      },
+      "bbox_px": {
+        "left": 433,
+        "top": 578,
+        "width": 62,
+        "height": 67
+      },
+      "confidence": 45,
+      "reading_order": 199,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0200",
+      "char": "hogo",
+      "file": "glyphs/099_hogo_001.png",
+      "bbox": {
+        "x": 0.5997596153846154,
+        "y": 0.4775641025641026,
+        "w": 0.07211538461538461,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 499,
+        "top": 596,
+        "width": 60,
+        "height": 49
+      },
+      "confidence": 0,
+      "reading_order": 200,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0201",
+      "char": "tian",
+      "file": "glyphs/099_tian_001.png",
+      "bbox": {
+        "x": 0.671875,
+        "y": 0.4775641025641026,
+        "w": 0.0673076923076923,
+        "h": 0.03926282051282051
+      },
+      "bbox_px": {
+        "left": 559,
+        "top": 596,
+        "width": 56,
+        "height": 49
+      },
+      "confidence": 28,
+      "reading_order": 201,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0202",
+      "char": "‘eng’",
+      "file": "glyphs/099_‘eng’_001.png",
+      "bbox": {
+        "x": 0.7524038461538461,
+        "y": 0.46794871794871795,
+        "w": 0.07932692307692307,
+        "h": 0.04567307692307692
+      },
+      "bbox_px": {
+        "left": 626,
+        "top": 584,
+        "width": 66,
+        "height": 57
+      },
+      "confidence": 28,
+      "reading_order": 202,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0203",
+      "char": "0",
+      "file": "glyphs/099_0_001.png",
+      "bbox": {
+        "x": 0.8581730769230769,
+        "y": 0.49198717948717946,
+        "w": 0.020432692307692308,
+        "h": 0.016826923076923076
+      },
+      "bbox_px": {
+        "left": 714,
+        "top": 614,
+        "width": 17,
+        "height": 21
+      },
+      "confidence": 59,
+      "reading_order": 203,
+      "line_num": 20
+    },
+    {
+      "id": "G-099-0204",
+      "char": "bathep",
+      "file": "glyphs/099_bathep_001.png",
+      "bbox": {
+        "x": 0.17908653846153846,
+        "y": 0.5056089743589743,
+        "w": 0.0889423076923077,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 149,
+        "top": 631,
+        "width": 74,
+        "height": 39
+      },
+      "confidence": 44,
+      "reading_order": 204,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0205",
+      "char": "en",
+      "file": "glyphs/099_en_001.png",
+      "bbox": {
+        "x": 0.27163461538461536,
+        "y": 0.5136217948717948,
+        "w": 0.037259615384615384,
+        "h": 0.016025641025641024
+      },
+      "bbox_px": {
+        "left": 226,
+        "top": 641,
+        "width": 31,
+        "height": 20
+      },
+      "confidence": 85,
+      "reading_order": 205,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0206",
+      "char": "ef",
+      "file": "glyphs/099_ef_001.png",
+      "bbox": {
+        "x": 0.32091346153846156,
+        "y": 0.5072115384615384,
+        "w": 0.03125,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 267,
+        "top": 633,
+        "width": 26,
+        "height": 37
+      },
+      "confidence": 72,
+      "reading_order": 206,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0207",
+      "char": "met",
+      "file": "glyphs/099_met_001.png",
+      "bbox": {
+        "x": 0.3629807692307692,
+        "y": 0.5,
+        "w": 0.04927884615384615,
+        "h": 0.041666666666666664
+      },
+      "bbox_px": {
+        "left": 302,
+        "top": 624,
+        "width": 41,
+        "height": 52
+      },
+      "confidence": 81,
+      "reading_order": 207,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0208",
+      "char": "dceyia",
+      "file": "glyphs/099_dceyia_001.png",
+      "bbox": {
+        "x": 0.41346153846153844,
+        "y": 0.5072115384615384,
+        "w": 0.08774038461538461,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 344,
+        "top": 633,
+        "width": 73,
+        "height": 39
+      },
+      "confidence": 37,
+      "reading_order": 208,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0209",
+      "char": "queld",
+      "file": "glyphs/099_queld_001.png",
+      "bbox": {
+        "x": 0.5132211538461539,
+        "y": 0.5072115384615384,
+        "w": 0.07572115384615384,
+        "h": 0.030448717948717948
+      },
+      "bbox_px": {
+        "left": 427,
+        "top": 633,
+        "width": 63,
+        "height": 38
+      },
+      "confidence": 61,
+      "reading_order": 209,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0210",
+      "char": "typ",
+      "file": "glyphs/099_typ_001.png",
+      "bbox": {
+        "x": 0.5961538461538461,
+        "y": 0.5072115384615384,
+        "w": 0.037259615384615384,
+        "h": 0.03125
+      },
+      "bbox_px": {
+        "left": 496,
+        "top": 633,
+        "width": 31,
+        "height": 39
+      },
+      "confidence": 71,
+      "reading_order": 210,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0211",
+      "char": "made",
+      "file": "glyphs/099_made_001.png",
+      "bbox": {
+        "x": 0.6370192307692307,
+        "y": 0.5032051282051282,
+        "w": 0.06850961538461539,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 530,
+        "top": 628,
+        "width": 57,
+        "height": 33
+      },
+      "confidence": 53,
+      "reading_order": 211,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0212",
+      "char": "ws",
+      "file": "glyphs/099_ws_001.png",
+      "bbox": {
+        "x": 0.7067307692307693,
+        "y": 0.484775641025641,
+        "w": 0.057692307692307696,
+        "h": 0.05048076923076923
+      },
+      "bbox_px": {
+        "left": 588,
+        "top": 605,
+        "width": 48,
+        "height": 63
+      },
+      "confidence": 52,
+      "reading_order": 212,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0213",
+      "char": "ve",
+      "file": "glyphs/099_ve_001.png",
+      "bbox": {
+        "x": 0.8521634615384616,
+        "y": 0.49198717948717946,
+        "w": 0.052884615384615384,
+        "h": 0.04006410256410257
+      },
+      "bbox_px": {
+        "left": 709,
+        "top": 614,
+        "width": 44,
+        "height": 50
+      },
+      "confidence": 39,
+      "reading_order": 213,
+      "line_num": 21
+    },
+    {
+      "id": "G-099-0214",
+      "char": "hocra",
+      "file": "glyphs/099_hocra_001.png",
+      "bbox": {
+        "x": 0.1778846153846154,
+        "y": 0.5336538461538461,
+        "w": 0.09975961538461539,
+        "h": 0.020833333333333332
+      },
+      "bbox_px": {
+        "left": 148,
+        "top": 666,
+        "width": 83,
+        "height": 26
+      },
+      "confidence": 24,
+      "reading_order": 214,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0215",
+      "char": "hae",
+      "file": "glyphs/099_hae_001.png",
+      "bbox": {
+        "x": 0.2824519230769231,
+        "y": 0.5272435897435898,
+        "w": 0.056490384615384616,
+        "h": 0.027243589743589744
+      },
+      "bbox_px": {
+        "left": 235,
+        "top": 658,
+        "width": 47,
+        "height": 34
+      },
+      "confidence": 79,
+      "reading_order": 215,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0216",
+      "char": "lel",
+      "file": "glyphs/099_lel_001.png",
+      "bbox": {
+        "x": 0.3449519230769231,
+        "y": 0.5272435897435898,
+        "w": 0.042067307692307696,
+        "h": 0.03365384615384615
+      },
+      "bbox_px": {
+        "left": 287,
+        "top": 658,
+        "width": 35,
+        "height": 42
+      },
+      "confidence": 14,
+      "reading_order": 216,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0217",
+      "char": "fale",
+      "file": "glyphs/099_fale_001.png",
+      "bbox": {
+        "x": 0.39302884615384615,
+        "y": 0.5280448717948718,
+        "w": 0.07451923076923077,
+        "h": 0.024839743589743588
+      },
+      "bbox_px": {
+        "left": 327,
+        "top": 659,
+        "width": 62,
+        "height": 31
+      },
+      "confidence": 0,
+      "reading_order": 217,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0218",
+      "char": "ar,",
+      "file": "glyphs/099_ar,_001.png",
+      "bbox": {
+        "x": 0.4735576923076923,
+        "y": 0.5352564102564102,
+        "w": 0.04567307692307692,
+        "h": 0.019230769230769232
+      },
+      "bbox_px": {
+        "left": 394,
+        "top": 668,
+        "width": 38,
+        "height": 24
+      },
+      "confidence": 65,
+      "reading_order": 218,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0219",
+      "char": "ialar",
+      "file": "glyphs/099_ialar_001.png",
+      "bbox": {
+        "x": 0.5252403846153846,
+        "y": 0.53125,
+        "w": 0.078125,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 437,
+        "top": 663,
+        "width": 65,
+        "height": 29
+      },
+      "confidence": 74,
+      "reading_order": 219,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0220",
+      "char": "garl",
+      "file": "glyphs/099_garl_001.png",
+      "bbox": {
+        "x": 0.6225961538461539,
+        "y": 0.5288461538461539,
+        "w": 0.054086538461538464,
+        "h": 0.03205128205128205
+      },
+      "bbox_px": {
+        "left": 518,
+        "top": 660,
+        "width": 45,
+        "height": 40
+      },
+      "confidence": 24,
+      "reading_order": 220,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0221",
+      "char": "ey",
+      "file": "glyphs/099_ey_003.png",
+      "bbox": {
+        "x": 0.6862980769230769,
+        "y": 0.5360576923076923,
+        "w": 0.038461538461538464,
+        "h": 0.021634615384615384
+      },
+      "bbox_px": {
+        "left": 571,
+        "top": 669,
+        "width": 32,
+        "height": 27
+      },
+      "confidence": 92,
+      "reading_order": 221,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0222",
+      "char": "fine",
+      "file": "glyphs/099_fine_001.png",
+      "bbox": {
+        "x": 0.7283653846153846,
+        "y": 0.5072115384615384,
+        "w": 0.0829326923076923,
+        "h": 0.052083333333333336
+      },
+      "bbox_px": {
+        "left": 606,
+        "top": 633,
+        "width": 69,
+        "height": 65
+      },
+      "confidence": 26,
+      "reading_order": 222,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0223",
+      "char": "pee",
+      "file": "glyphs/099_pee_001.png",
+      "bbox": {
+        "x": 0.8173076923076923,
+        "y": 0.5040064102564102,
+        "w": 0.05048076923076923,
+        "h": 0.058493589743589744
+      },
+      "bbox_px": {
+        "left": 680,
+        "top": 629,
+        "width": 42,
+        "height": 73
+      },
+      "confidence": 21,
+      "reading_order": 223,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0224",
+      "char": "a",
+      "file": "glyphs/099_a_006.png",
+      "bbox": {
+        "x": 0.8689903846153846,
+        "y": 0.5384615384615384,
+        "w": 0.039663461538461536,
+        "h": 0.020032051282051284
+      },
+      "bbox_px": {
+        "left": 723,
+        "top": 672,
+        "width": 33,
+        "height": 25
+      },
+      "confidence": 55,
+      "reading_order": 224,
+      "line_num": 22
+    },
+    {
+      "id": "G-099-0225",
+      "char": "merfieba.",
+      "file": "glyphs/099_merfieba._001.png",
+      "bbox": {
+        "x": 0.18028846153846154,
+        "y": 0.5504807692307693,
+        "w": 0.13701923076923078,
+        "h": 0.02564102564102564
+      },
+      "bbox_px": {
+        "left": 150,
+        "top": 687,
+        "width": 114,
+        "height": 32
+      },
+      "confidence": 7,
+      "reading_order": 225,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0226",
+      "char": "beta",
+      "file": "glyphs/099_beta_001.png",
+      "bbox": {
+        "x": 0.3233173076923077,
+        "y": 0.5496794871794872,
+        "w": 0.06610576923076923,
+        "h": 0.028044871794871796
+      },
+      "bbox_px": {
+        "left": 269,
+        "top": 686,
+        "width": 55,
+        "height": 35
+      },
+      "confidence": 68,
+      "reading_order": 226,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0227",
+      "char": "epo",
+      "file": "glyphs/099_epo_001.png",
+      "bbox": {
+        "x": 0.39302884615384615,
+        "y": 0.5584935897435898,
+        "w": 0.04447115384615385,
+        "h": 0.023237179487179488
+      },
+      "bbox_px": {
+        "left": 327,
+        "top": 697,
+        "width": 37,
+        "height": 29
+      },
+      "confidence": 16,
+      "reading_order": 227,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0228",
+      "char": "ceplloff",
+      "file": "glyphs/099_ceplloff_001.png",
+      "bbox": {
+        "x": 0.4411057692307692,
+        "y": 0.5528846153846154,
+        "w": 0.09375,
+        "h": 0.029647435897435896
+      },
+      "bbox_px": {
+        "left": 367,
+        "top": 690,
+        "width": 78,
+        "height": 37
+      },
+      "confidence": 24,
+      "reading_order": 228,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0229",
+      "char": "habe",
+      "file": "glyphs/099_habe_001.png",
+      "bbox": {
+        "x": 0.5384615384615384,
+        "y": 0.5328525641025641,
+        "w": 0.11658653846153846,
+        "h": 0.052083333333333336
+      },
+      "bbox_px": {
+        "left": 448,
+        "top": 665,
+        "width": 97,
+        "height": 65
+      },
+      "confidence": 0,
+      "reading_order": 229,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0230",
+      "char": "mat",
+      "file": "glyphs/099_mat_001.png",
+      "bbox": {
+        "x": 0.6574519230769231,
+        "y": 0.5536858974358975,
+        "w": 0.06129807692307692,
+        "h": 0.020833333333333332
+      },
+      "bbox_px": {
+        "left": 547,
+        "top": 691,
+        "width": 51,
+        "height": 26
+      },
+      "confidence": 59,
+      "reading_order": 230,
+      "line_num": 23
+    },
+    {
+      "id": "G-099-0231",
+      "char": "mpomo",
+      "file": "glyphs/099_mpomo_001.png",
+      "bbox": {
+        "x": 0.71875,
+        "y": 0.5576923076923077,
+        "w": 0.109375,
+        "h": 0.026442307692307692
+      },
+      "bbox_px": {
+        "left": 598,
+        "top": 696,
+        "width": 91,
+        "height": 33
+      },
+      "confidence": 34,
+      "reading_order": 231,
+      "line_num": 23
+    }
+  ]
+}

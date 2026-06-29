@@ -1,0 +1,154 @@
+{
+  "page": 130,
+  "poem": "Atlamál",
+  "event_count": 11,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-130-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "23 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 23
+    },
+    {
+      "id": "G-130-0000",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "OOuCNOCOCN (conf 0)",
+      "bbox": {
+        "x": 0.46051167964404893,
+        "y": 0.0,
+        "w": 0.06729699666295884,
+        "h": 0.02225519287833828
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "CN (conf 3)",
+      "bbox": {
+        "x": 0.5289210233592881,
+        "y": 0.0,
+        "w": 0.02224694104560623,
+        "h": 0.02225519287833828
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0002",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "a (conf 6)",
+      "bbox": {
+        "x": 0.57119021134594,
+        "y": 0.0,
+        "w": 0.07007786429365963,
+        "h": 0.02225519287833828
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0003",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "es (conf 25)",
+      "bbox": {
+        "x": 0.6902113459399333,
+        "y": 0.0,
+        "w": 0.05672969966629588,
+        "h": 0.010385756676557863
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0004",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "97 (conf 13)",
+      "bbox": {
+        "x": 0.7352614015572859,
+        "y": 0.0,
+        "w": 0.01167964404894327,
+        "h": 0.02225519287833828
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0005",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "uo (conf 21)",
+      "bbox": {
+        "x": 0.753615127919911,
+        "y": 0.0,
+        "w": 0.0339265850945495,
+        "h": 0.02225519287833828
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0006",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "nee (conf 12)",
+      "bbox": {
+        "x": 0.8120133481646273,
+        "y": 0.0,
+        "w": 0.05005561735261402,
+        "h": 0.009272997032640949
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-130-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "100.1% (conf 24)",
+      "bbox": {
+        "x": 0.639599555061179,
+        "y": 0.015949554896142432,
+        "w": 0.10734149054505006,
+        "h": 0.014465875370919881
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-130-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-130-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.228789+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "page": 107,
+  "status": "ok",
+  "source_image": "clean_white.jpg",
+  "image_size": {
+    "width": 1696,
+    "height": 2544
+  },
+  "glyph_count": 1,
+  "extracted_at": "2026-06-29T03:44:22.842656+00:00",
+  "glyphs": [
+    {
+      "id": "G-107-0000",
+      "char": "?",
+      "file": "glyphs/107_?_001.png",
+      "bbox": {
+        "x": 0.9716981132075472,
+        "y": 0.042059748427672954,
+        "w": 0.0076650943396226415,
+        "h": 0.007075471698113208
+      },
+      "bbox_px": {
+        "left": 1648,
+        "top": 107,
+        "width": 13,
+        "height": 18
+      },
+      "confidence": 0,
+      "reading_order": 0,
+      "line_num": 2
+    }
+  ]
+}

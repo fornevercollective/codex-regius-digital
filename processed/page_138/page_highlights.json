@@ -1,0 +1,180 @@
+{
+  "page": 138,
+  "poem": "Atlamál / Guðrunarhvöt",
+  "event_count": 13,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-138-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "22 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 22
+    },
+    {
+      "id": "G-138-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "th (conf 1)",
+      "bbox": {
+        "x": 0.048943270300333706,
+        "y": 0.0,
+        "w": 0.00778642936596218,
+        "h": 0.008531157270029673
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-138-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "AAA (conf 0)",
+      "bbox": {
+        "x": 0.3548387096774194,
+        "y": 0.015949554896142432,
+        "w": 0.03781979977753059,
+        "h": 0.02040059347181009
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-138-0021",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "} (conf 0)",
+      "bbox": {
+        "x": 0.040600667408231365,
+        "y": 0.9009643916913946,
+        "w": 0.00778642936596218,
+        "h": 0.014094955489614243
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-138-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.233593+00:00"
+}

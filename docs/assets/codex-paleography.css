@@ -128,6 +128,110 @@ body {
 .btn:hover { filter: brightness(1.1); }
 .year-slider { width: 100%; margin: 1rem 0; }
 .preview-img { max-width: 100%; border-radius: 6px; border: 1px solid var(--accent); }
+.layer-viewer {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  overflow: hidden;
+  background: #0d0906;
+}
+.layer-stack {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  max-height: 72vh;
+}
+.layer-stack img.layer-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.highlight-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.layer-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.75rem 0;
+  font-size: 0.8rem;
+}
+.layer-control {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--bg);
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--accent);
+}
+.layer-control input[type="range"] { width: 60px; }
+.highlight-toggle { font-size: 0.85rem; display: block; margin-bottom: 0.5rem; }
+.glyph-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+  gap: 0.35rem;
+  max-height: 320px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+.glyph-thumb {
+  background: var(--vellum);
+  border-radius: 3px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+.glyph-thumb img { width: 100%; height: 36px; object-fit: contain; display: block; }
+.glyph-thumb small { font-size: 0.55rem; color: var(--ink); }
+.animation-stage {
+  margin: 1rem 0;
+  padding: 2rem;
+  background: var(--bg);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  text-align: center;
+  min-height: 160px;
+}
+.animation-glyph {
+  font-size: 4rem;
+  color: var(--gold);
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: stroke-reveal 0.8s ease-out;
+}
+.animation-glyph img { max-height: 80px; max-width: 80px; }
+.animation-glyph.writing { animation: stroke-pulse 0.6s ease-in-out; }
+@keyframes stroke-reveal {
+  from { opacity: 0; transform: scale(0.85) translateY(8px); filter: blur(2px); }
+  to { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+}
+@keyframes stroke-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; transform: scale(1.05); }
+}
+.animation-caption { font-size: 0.85rem; opacity: 0.85; margin-top: 0.5rem; }
+.page-pill.has-events { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+.event-chip {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.4rem;
+  margin: 0.15rem;
+  background: var(--accent);
+  border-radius: 3px;
+}
 table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
 th, td { border: 1px solid var(--accent); padding: 0.4rem 0.6rem; text-align: left; }
 th { background: var(--bg); color: var(--gold); }

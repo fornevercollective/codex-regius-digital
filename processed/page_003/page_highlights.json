@@ -1,0 +1,22 @@
+{
+  "page": 3,
+  "poem": "Völuspá",
+  "event_count": 1,
+  "has_events": true,
+  "events": [
+    {
+      "id": "QC-003-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Run OCR on preprocessed raw image and review against handrit.is.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.067671+00:00"
+}

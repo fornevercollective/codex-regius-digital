@@ -1,0 +1,155 @@
+{
+  "page": 117,
+  "poem": "Oddrúnargrátr",
+  "event_count": 11,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-117-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "27 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 27
+    },
+    {
+      "id": "G-117-0000",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "PEELE (conf 1)",
+      "bbox": {
+        "x": 0.4916573971078977,
+        "y": 0.0,
+        "w": 0.0878754171301446,
+        "h": 0.017804154302670624
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "PEEP (conf 0)",
+      "bbox": {
+        "x": 0.6206896551724138,
+        "y": 0.0,
+        "w": 0.04282536151279199,
+        "h": 0.016320474777448073
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0002",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "EPEEEEEEEEE (conf 0)",
+      "bbox": {
+        "x": 0.6618464961067854,
+        "y": 0.0,
+        "w": 0.07619577308120133,
+        "h": 0.015207715133531157
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0003",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "PEELE (conf 0)",
+      "bbox": {
+        "x": 0.7436040044493882,
+        "y": 0.0,
+        "w": 0.13014460511679643,
+        "h": 0.014094955489614243
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "» (conf 0)",
+      "bbox": {
+        "x": 0.9616240266963293,
+        "y": 0.026335311572700297,
+        "w": 0.018909899888765295,
+        "h": 0.005934718100890208
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0022",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "f (conf 0)",
+      "bbox": {
+        "x": 0.946607341490545,
+        "y": 0.38686943620178044,
+        "w": 0.008898776418242492,
+        "h": 0.010756676557863502
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-117-0024",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "* (conf 12)",
+      "bbox": {
+        "x": 0.9566184649610678,
+        "y": 0.4655044510385757,
+        "w": 0.007230255839822024,
+        "h": 0.004451038575667656
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-117-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-117-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-117-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 0% · dexterity 20%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.220633+00:00"
+}

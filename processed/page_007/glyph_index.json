@@ -1,0 +1,53 @@
+{
+  "page": 7,
+  "status": "ok",
+  "source_image": "clean_white.jpg",
+  "image_size": {
+    "width": 1669,
+    "height": 2503
+  },
+  "glyph_count": 2,
+  "extracted_at": "2026-06-29T03:43:16.900972+00:00",
+  "glyphs": [
+    {
+      "id": "G-007-0000",
+      "char": "?",
+      "file": "glyphs/007_?_001.png",
+      "bbox": {
+        "x": 0.9868184541641701,
+        "y": 0.7686775868957252,
+        "w": 0.009586578789694428,
+        "h": 0.008389932081502197
+      },
+      "bbox_px": {
+        "left": 1647,
+        "top": 1924,
+        "width": 16,
+        "height": 21
+      },
+      "confidence": 0,
+      "reading_order": 0,
+      "line_num": 48
+    },
+    {
+      "id": "G-007-0001",
+      "char": "?",
+      "file": "glyphs/007_?_002.png",
+      "bbox": {
+        "x": 0.9916117435590174,
+        "y": 0.9113064322812625,
+        "w": 0.006590772917914919,
+        "h": 0.0059928086296444265
+      },
+      "bbox_px": {
+        "left": 1655,
+        "top": 2281,
+        "width": 11,
+        "height": 15
+      },
+      "confidence": 0,
+      "reading_order": 1,
+      "line_num": 57
+    }
+  ]
+}

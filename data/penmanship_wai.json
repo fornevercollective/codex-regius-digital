@@ -1,0 +1,3037 @@
+{
+  "schema": "codex-regius-penmanship-wai/v1",
+  "corpus": "GKS 2365 4to",
+  "purpose": "Batch AI ingestion for glyph classification, penmanship flow, and live animation",
+  "generated_at": "2026-06-29T03:44:39.243304+00:00",
+  "pages": [
+    {
+      "page": 1,
+      "glyph_index": "processed/page_001/glyph_index.json",
+      "penmanship_report": "processed/page_001/penmanship_report.json",
+      "page_highlights": "processed/page_001/page_highlights.json",
+      "grok_penmanship": "processed/page_001/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_001/raw.png",
+        "artistic_vellum": "processed/page_001/artistic_vellum.jpg",
+        "clean_white": "processed/page_001/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_001/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_001/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 2,
+      "glyph_index": "processed/page_002/glyph_index.json",
+      "penmanship_report": "processed/page_002/penmanship_report.json",
+      "page_highlights": "processed/page_002/page_highlights.json",
+      "grok_penmanship": "processed/page_002/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_002/raw.png",
+        "artistic_vellum": "processed/page_002/artistic_vellum.jpg",
+        "clean_white": "processed/page_002/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_002/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_002/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 3,
+      "glyph_index": "processed/page_003/glyph_index.json",
+      "penmanship_report": "processed/page_003/penmanship_report.json",
+      "page_highlights": "processed/page_003/page_highlights.json",
+      "grok_penmanship": "processed/page_003/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_003/raw.png",
+        "artistic_vellum": "processed/page_003/artistic_vellum.jpg",
+        "clean_white": "processed/page_003/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_003/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_003/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 4,
+      "glyph_index": "processed/page_004/glyph_index.json",
+      "penmanship_report": "processed/page_004/penmanship_report.json",
+      "page_highlights": "processed/page_004/page_highlights.json",
+      "grok_penmanship": "processed/page_004/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_004/raw.png",
+        "artistic_vellum": "processed/page_004/artistic_vellum.jpg",
+        "clean_white": "processed/page_004/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_004/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_004/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 5,
+      "glyph_index": "processed/page_005/glyph_index.json",
+      "penmanship_report": "processed/page_005/penmanship_report.json",
+      "page_highlights": "processed/page_005/page_highlights.json",
+      "grok_penmanship": "processed/page_005/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_005/raw.png",
+        "artistic_vellum": "processed/page_005/artistic_vellum.jpg",
+        "clean_white": "processed/page_005/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_005/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_005/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 6,
+      "glyph_index": "processed/page_006/glyph_index.json",
+      "penmanship_report": "processed/page_006/penmanship_report.json",
+      "page_highlights": "processed/page_006/page_highlights.json",
+      "grok_penmanship": "processed/page_006/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_006/raw.png",
+        "artistic_vellum": "processed/page_006/artistic_vellum.jpg",
+        "clean_white": "processed/page_006/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_006/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_006/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 7,
+      "glyph_index": "processed/page_007/glyph_index.json",
+      "penmanship_report": "processed/page_007/penmanship_report.json",
+      "page_highlights": "processed/page_007/page_highlights.json",
+      "grok_penmanship": "processed/page_007/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_007/raw.png",
+        "artistic_vellum": "processed/page_007/artistic_vellum.jpg",
+        "clean_white": "processed/page_007/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_007/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_007/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 8,
+      "glyph_index": "processed/page_008/glyph_index.json",
+      "penmanship_report": "processed/page_008/penmanship_report.json",
+      "page_highlights": "processed/page_008/page_highlights.json",
+      "grok_penmanship": "processed/page_008/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_008/raw.png",
+        "artistic_vellum": "processed/page_008/artistic_vellum.jpg",
+        "clean_white": "processed/page_008/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_008/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_008/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 9,
+      "glyph_index": "processed/page_009/glyph_index.json",
+      "penmanship_report": "processed/page_009/penmanship_report.json",
+      "page_highlights": "processed/page_009/page_highlights.json",
+      "grok_penmanship": "processed/page_009/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_009/raw.png",
+        "artistic_vellum": "processed/page_009/artistic_vellum.jpg",
+        "clean_white": "processed/page_009/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_009/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_009/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 10,
+      "glyph_index": "processed/page_010/glyph_index.json",
+      "penmanship_report": "processed/page_010/penmanship_report.json",
+      "page_highlights": "processed/page_010/page_highlights.json",
+      "grok_penmanship": "processed/page_010/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_010/raw.png",
+        "artistic_vellum": "processed/page_010/artistic_vellum.jpg",
+        "clean_white": "processed/page_010/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_010/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_010/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 11,
+      "glyph_index": "processed/page_011/glyph_index.json",
+      "penmanship_report": "processed/page_011/penmanship_report.json",
+      "page_highlights": "processed/page_011/page_highlights.json",
+      "grok_penmanship": "processed/page_011/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_011/raw.png",
+        "artistic_vellum": "processed/page_011/artistic_vellum.jpg",
+        "clean_white": "processed/page_011/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_011/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_011/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 12,
+      "glyph_index": "processed/page_012/glyph_index.json",
+      "penmanship_report": "processed/page_012/penmanship_report.json",
+      "page_highlights": "processed/page_012/page_highlights.json",
+      "grok_penmanship": "processed/page_012/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_012/raw.png",
+        "artistic_vellum": "processed/page_012/artistic_vellum.jpg",
+        "clean_white": "processed/page_012/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_012/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_012/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 13,
+      "glyph_index": "processed/page_013/glyph_index.json",
+      "penmanship_report": "processed/page_013/penmanship_report.json",
+      "page_highlights": "processed/page_013/page_highlights.json",
+      "grok_penmanship": "processed/page_013/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_013/raw.png",
+        "artistic_vellum": "processed/page_013/artistic_vellum.jpg",
+        "clean_white": "processed/page_013/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_013/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_013/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 14,
+      "glyph_index": "processed/page_014/glyph_index.json",
+      "penmanship_report": "processed/page_014/penmanship_report.json",
+      "page_highlights": "processed/page_014/page_highlights.json",
+      "grok_penmanship": "processed/page_014/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_014/raw.png",
+        "artistic_vellum": "processed/page_014/artistic_vellum.jpg",
+        "clean_white": "processed/page_014/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_014/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_014/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 15,
+      "glyph_index": "processed/page_015/glyph_index.json",
+      "penmanship_report": "processed/page_015/penmanship_report.json",
+      "page_highlights": "processed/page_015/page_highlights.json",
+      "grok_penmanship": "processed/page_015/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_015/raw.png",
+        "artistic_vellum": "processed/page_015/artistic_vellum.jpg",
+        "clean_white": "processed/page_015/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_015/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_015/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 16,
+      "glyph_index": "processed/page_016/glyph_index.json",
+      "penmanship_report": "processed/page_016/penmanship_report.json",
+      "page_highlights": "processed/page_016/page_highlights.json",
+      "grok_penmanship": "processed/page_016/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_016/raw.png",
+        "artistic_vellum": "processed/page_016/artistic_vellum.jpg",
+        "clean_white": "processed/page_016/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_016/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_016/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 17,
+      "glyph_index": "processed/page_017/glyph_index.json",
+      "penmanship_report": "processed/page_017/penmanship_report.json",
+      "page_highlights": "processed/page_017/page_highlights.json",
+      "grok_penmanship": "processed/page_017/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_017/raw.png",
+        "artistic_vellum": "processed/page_017/artistic_vellum.jpg",
+        "clean_white": "processed/page_017/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_017/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_017/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 18,
+      "glyph_index": "processed/page_018/glyph_index.json",
+      "penmanship_report": "processed/page_018/penmanship_report.json",
+      "page_highlights": "processed/page_018/page_highlights.json",
+      "grok_penmanship": "processed/page_018/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_018/raw.png",
+        "artistic_vellum": "processed/page_018/artistic_vellum.jpg",
+        "clean_white": "processed/page_018/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_018/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_018/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 19,
+      "glyph_index": "processed/page_019/glyph_index.json",
+      "penmanship_report": "processed/page_019/penmanship_report.json",
+      "page_highlights": "processed/page_019/page_highlights.json",
+      "grok_penmanship": "processed/page_019/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_019/raw.png",
+        "artistic_vellum": "processed/page_019/artistic_vellum.jpg",
+        "clean_white": "processed/page_019/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_019/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_019/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 20,
+      "glyph_index": "processed/page_020/glyph_index.json",
+      "penmanship_report": "processed/page_020/penmanship_report.json",
+      "page_highlights": "processed/page_020/page_highlights.json",
+      "grok_penmanship": "processed/page_020/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_020/raw.png",
+        "artistic_vellum": "processed/page_020/artistic_vellum.jpg",
+        "clean_white": "processed/page_020/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_020/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_020/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 21,
+      "glyph_index": "processed/page_021/glyph_index.json",
+      "penmanship_report": "processed/page_021/penmanship_report.json",
+      "page_highlights": "processed/page_021/page_highlights.json",
+      "grok_penmanship": "processed/page_021/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_021/raw.png",
+        "artistic_vellum": "processed/page_021/artistic_vellum.jpg",
+        "clean_white": "processed/page_021/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_021/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_021/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 22,
+      "glyph_index": "processed/page_022/glyph_index.json",
+      "penmanship_report": "processed/page_022/penmanship_report.json",
+      "page_highlights": "processed/page_022/page_highlights.json",
+      "grok_penmanship": "processed/page_022/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_022/raw.png",
+        "artistic_vellum": "processed/page_022/artistic_vellum.jpg",
+        "clean_white": "processed/page_022/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_022/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_022/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 23,
+      "glyph_index": "processed/page_023/glyph_index.json",
+      "penmanship_report": "processed/page_023/penmanship_report.json",
+      "page_highlights": "processed/page_023/page_highlights.json",
+      "grok_penmanship": "processed/page_023/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_023/raw.png",
+        "artistic_vellum": "processed/page_023/artistic_vellum.jpg",
+        "clean_white": "processed/page_023/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_023/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_023/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 24,
+      "glyph_index": "processed/page_024/glyph_index.json",
+      "penmanship_report": "processed/page_024/penmanship_report.json",
+      "page_highlights": "processed/page_024/page_highlights.json",
+      "grok_penmanship": "processed/page_024/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_024/raw.png",
+        "artistic_vellum": "processed/page_024/artistic_vellum.jpg",
+        "clean_white": "processed/page_024/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_024/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_024/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 25,
+      "glyph_index": "processed/page_025/glyph_index.json",
+      "penmanship_report": "processed/page_025/penmanship_report.json",
+      "page_highlights": "processed/page_025/page_highlights.json",
+      "grok_penmanship": "processed/page_025/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_025/raw.png",
+        "artistic_vellum": "processed/page_025/artistic_vellum.jpg",
+        "clean_white": "processed/page_025/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_025/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_025/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 26,
+      "glyph_index": "processed/page_026/glyph_index.json",
+      "penmanship_report": "processed/page_026/penmanship_report.json",
+      "page_highlights": "processed/page_026/page_highlights.json",
+      "grok_penmanship": "processed/page_026/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_026/raw.png",
+        "artistic_vellum": "processed/page_026/artistic_vellum.jpg",
+        "clean_white": "processed/page_026/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_026/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_026/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 27,
+      "glyph_index": "processed/page_027/glyph_index.json",
+      "penmanship_report": "processed/page_027/penmanship_report.json",
+      "page_highlights": "processed/page_027/page_highlights.json",
+      "grok_penmanship": "processed/page_027/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_027/raw.png",
+        "artistic_vellum": "processed/page_027/artistic_vellum.jpg",
+        "clean_white": "processed/page_027/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_027/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_027/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 28,
+      "glyph_index": "processed/page_028/glyph_index.json",
+      "penmanship_report": "processed/page_028/penmanship_report.json",
+      "page_highlights": "processed/page_028/page_highlights.json",
+      "grok_penmanship": "processed/page_028/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_028/raw.png",
+        "artistic_vellum": "processed/page_028/artistic_vellum.jpg",
+        "clean_white": "processed/page_028/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_028/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_028/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 29,
+      "glyph_index": "processed/page_029/glyph_index.json",
+      "penmanship_report": "processed/page_029/penmanship_report.json",
+      "page_highlights": "processed/page_029/page_highlights.json",
+      "grok_penmanship": "processed/page_029/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_029/raw.png",
+        "artistic_vellum": "processed/page_029/artistic_vellum.jpg",
+        "clean_white": "processed/page_029/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_029/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_029/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 30,
+      "glyph_index": "processed/page_030/glyph_index.json",
+      "penmanship_report": "processed/page_030/penmanship_report.json",
+      "page_highlights": "processed/page_030/page_highlights.json",
+      "grok_penmanship": "processed/page_030/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_030/raw.png",
+        "artistic_vellum": "processed/page_030/artistic_vellum.jpg",
+        "clean_white": "processed/page_030/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_030/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_030/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 31,
+      "glyph_index": "processed/page_031/glyph_index.json",
+      "penmanship_report": "processed/page_031/penmanship_report.json",
+      "page_highlights": "processed/page_031/page_highlights.json",
+      "grok_penmanship": "processed/page_031/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_031/raw.png",
+        "artistic_vellum": "processed/page_031/artistic_vellum.jpg",
+        "clean_white": "processed/page_031/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_031/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_031/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 32,
+      "glyph_index": "processed/page_032/glyph_index.json",
+      "penmanship_report": "processed/page_032/penmanship_report.json",
+      "page_highlights": "processed/page_032/page_highlights.json",
+      "grok_penmanship": "processed/page_032/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_032/raw.png",
+        "artistic_vellum": "processed/page_032/artistic_vellum.jpg",
+        "clean_white": "processed/page_032/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_032/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_032/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 33,
+      "glyph_index": "processed/page_033/glyph_index.json",
+      "penmanship_report": "processed/page_033/penmanship_report.json",
+      "page_highlights": "processed/page_033/page_highlights.json",
+      "grok_penmanship": "processed/page_033/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_033/raw.png",
+        "artistic_vellum": "processed/page_033/artistic_vellum.jpg",
+        "clean_white": "processed/page_033/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_033/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_033/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 34,
+      "glyph_index": "processed/page_034/glyph_index.json",
+      "penmanship_report": "processed/page_034/penmanship_report.json",
+      "page_highlights": "processed/page_034/page_highlights.json",
+      "grok_penmanship": "processed/page_034/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_034/raw.png",
+        "artistic_vellum": "processed/page_034/artistic_vellum.jpg",
+        "clean_white": "processed/page_034/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_034/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_034/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 35,
+      "glyph_index": "processed/page_035/glyph_index.json",
+      "penmanship_report": "processed/page_035/penmanship_report.json",
+      "page_highlights": "processed/page_035/page_highlights.json",
+      "grok_penmanship": "processed/page_035/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_035/raw.png",
+        "artistic_vellum": "processed/page_035/artistic_vellum.jpg",
+        "clean_white": "processed/page_035/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_035/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_035/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 36,
+      "glyph_index": "processed/page_036/glyph_index.json",
+      "penmanship_report": "processed/page_036/penmanship_report.json",
+      "page_highlights": "processed/page_036/page_highlights.json",
+      "grok_penmanship": "processed/page_036/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_036/raw.png",
+        "artistic_vellum": "processed/page_036/artistic_vellum.jpg",
+        "clean_white": "processed/page_036/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_036/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_036/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 37,
+      "glyph_index": "processed/page_037/glyph_index.json",
+      "penmanship_report": "processed/page_037/penmanship_report.json",
+      "page_highlights": "processed/page_037/page_highlights.json",
+      "grok_penmanship": "processed/page_037/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_037/raw.png",
+        "artistic_vellum": "processed/page_037/artistic_vellum.jpg",
+        "clean_white": "processed/page_037/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_037/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_037/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 38,
+      "glyph_index": "processed/page_038/glyph_index.json",
+      "penmanship_report": "processed/page_038/penmanship_report.json",
+      "page_highlights": "processed/page_038/page_highlights.json",
+      "grok_penmanship": "processed/page_038/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_038/raw.png",
+        "artistic_vellum": "processed/page_038/artistic_vellum.jpg",
+        "clean_white": "processed/page_038/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_038/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_038/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 39,
+      "glyph_index": "processed/page_039/glyph_index.json",
+      "penmanship_report": "processed/page_039/penmanship_report.json",
+      "page_highlights": "processed/page_039/page_highlights.json",
+      "grok_penmanship": "processed/page_039/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_039/raw.png",
+        "artistic_vellum": "processed/page_039/artistic_vellum.jpg",
+        "clean_white": "processed/page_039/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_039/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_039/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 40,
+      "glyph_index": "processed/page_040/glyph_index.json",
+      "penmanship_report": "processed/page_040/penmanship_report.json",
+      "page_highlights": "processed/page_040/page_highlights.json",
+      "grok_penmanship": "processed/page_040/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_040/raw.png",
+        "artistic_vellum": "processed/page_040/artistic_vellum.jpg",
+        "clean_white": "processed/page_040/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_040/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_040/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 41,
+      "glyph_index": "processed/page_041/glyph_index.json",
+      "penmanship_report": "processed/page_041/penmanship_report.json",
+      "page_highlights": "processed/page_041/page_highlights.json",
+      "grok_penmanship": "processed/page_041/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_041/raw.png",
+        "artistic_vellum": "processed/page_041/artistic_vellum.jpg",
+        "clean_white": "processed/page_041/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_041/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_041/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 42,
+      "glyph_index": "processed/page_042/glyph_index.json",
+      "penmanship_report": "processed/page_042/penmanship_report.json",
+      "page_highlights": "processed/page_042/page_highlights.json",
+      "grok_penmanship": "processed/page_042/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_042/raw.png",
+        "artistic_vellum": "processed/page_042/artistic_vellum.jpg",
+        "clean_white": "processed/page_042/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_042/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_042/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 43,
+      "glyph_index": "processed/page_043/glyph_index.json",
+      "penmanship_report": "processed/page_043/penmanship_report.json",
+      "page_highlights": "processed/page_043/page_highlights.json",
+      "grok_penmanship": "processed/page_043/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_043/raw.png",
+        "artistic_vellum": "processed/page_043/artistic_vellum.jpg",
+        "clean_white": "processed/page_043/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_043/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_043/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 44,
+      "glyph_index": "processed/page_044/glyph_index.json",
+      "penmanship_report": "processed/page_044/penmanship_report.json",
+      "page_highlights": "processed/page_044/page_highlights.json",
+      "grok_penmanship": "processed/page_044/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_044/raw.png",
+        "artistic_vellum": "processed/page_044/artistic_vellum.jpg",
+        "clean_white": "processed/page_044/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_044/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_044/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 45,
+      "glyph_index": "processed/page_045/glyph_index.json",
+      "penmanship_report": "processed/page_045/penmanship_report.json",
+      "page_highlights": "processed/page_045/page_highlights.json",
+      "grok_penmanship": "processed/page_045/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_045/raw.png",
+        "artistic_vellum": "processed/page_045/artistic_vellum.jpg",
+        "clean_white": "processed/page_045/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_045/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_045/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 46,
+      "glyph_index": "processed/page_046/glyph_index.json",
+      "penmanship_report": "processed/page_046/penmanship_report.json",
+      "page_highlights": "processed/page_046/page_highlights.json",
+      "grok_penmanship": "processed/page_046/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_046/raw.png",
+        "artistic_vellum": "processed/page_046/artistic_vellum.jpg",
+        "clean_white": "processed/page_046/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_046/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_046/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 47,
+      "glyph_index": "processed/page_047/glyph_index.json",
+      "penmanship_report": "processed/page_047/penmanship_report.json",
+      "page_highlights": "processed/page_047/page_highlights.json",
+      "grok_penmanship": "processed/page_047/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_047/raw.png",
+        "artistic_vellum": "processed/page_047/artistic_vellum.jpg",
+        "clean_white": "processed/page_047/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_047/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_047/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 48,
+      "glyph_index": "processed/page_048/glyph_index.json",
+      "penmanship_report": "processed/page_048/penmanship_report.json",
+      "page_highlights": "processed/page_048/page_highlights.json",
+      "grok_penmanship": "processed/page_048/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_048/raw.png",
+        "artistic_vellum": "processed/page_048/artistic_vellum.jpg",
+        "clean_white": "processed/page_048/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_048/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_048/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 49,
+      "glyph_index": "processed/page_049/glyph_index.json",
+      "penmanship_report": "processed/page_049/penmanship_report.json",
+      "page_highlights": "processed/page_049/page_highlights.json",
+      "grok_penmanship": "processed/page_049/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_049/raw.png",
+        "artistic_vellum": "processed/page_049/artistic_vellum.jpg",
+        "clean_white": "processed/page_049/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_049/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_049/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 50,
+      "glyph_index": "processed/page_050/glyph_index.json",
+      "penmanship_report": "processed/page_050/penmanship_report.json",
+      "page_highlights": "processed/page_050/page_highlights.json",
+      "grok_penmanship": "processed/page_050/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_050/raw.png",
+        "artistic_vellum": "processed/page_050/artistic_vellum.jpg",
+        "clean_white": "processed/page_050/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_050/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_050/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 51,
+      "glyph_index": "processed/page_051/glyph_index.json",
+      "penmanship_report": "processed/page_051/penmanship_report.json",
+      "page_highlights": "processed/page_051/page_highlights.json",
+      "grok_penmanship": "processed/page_051/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_051/raw.png",
+        "artistic_vellum": "processed/page_051/artistic_vellum.jpg",
+        "clean_white": "processed/page_051/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_051/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_051/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 52,
+      "glyph_index": "processed/page_052/glyph_index.json",
+      "penmanship_report": "processed/page_052/penmanship_report.json",
+      "page_highlights": "processed/page_052/page_highlights.json",
+      "grok_penmanship": "processed/page_052/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_052/raw.png",
+        "artistic_vellum": "processed/page_052/artistic_vellum.jpg",
+        "clean_white": "processed/page_052/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_052/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_052/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 53,
+      "glyph_index": "processed/page_053/glyph_index.json",
+      "penmanship_report": "processed/page_053/penmanship_report.json",
+      "page_highlights": "processed/page_053/page_highlights.json",
+      "grok_penmanship": "processed/page_053/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_053/raw.png",
+        "artistic_vellum": "processed/page_053/artistic_vellum.jpg",
+        "clean_white": "processed/page_053/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_053/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_053/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 54,
+      "glyph_index": "processed/page_054/glyph_index.json",
+      "penmanship_report": "processed/page_054/penmanship_report.json",
+      "page_highlights": "processed/page_054/page_highlights.json",
+      "grok_penmanship": "processed/page_054/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_054/raw.png",
+        "artistic_vellum": "processed/page_054/artistic_vellum.jpg",
+        "clean_white": "processed/page_054/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_054/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_054/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 55,
+      "glyph_index": "processed/page_055/glyph_index.json",
+      "penmanship_report": "processed/page_055/penmanship_report.json",
+      "page_highlights": "processed/page_055/page_highlights.json",
+      "grok_penmanship": "processed/page_055/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_055/raw.png",
+        "artistic_vellum": "processed/page_055/artistic_vellum.jpg",
+        "clean_white": "processed/page_055/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_055/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_055/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 56,
+      "glyph_index": "processed/page_056/glyph_index.json",
+      "penmanship_report": "processed/page_056/penmanship_report.json",
+      "page_highlights": "processed/page_056/page_highlights.json",
+      "grok_penmanship": "processed/page_056/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_056/raw.png",
+        "artistic_vellum": "processed/page_056/artistic_vellum.jpg",
+        "clean_white": "processed/page_056/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_056/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_056/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 57,
+      "glyph_index": "processed/page_057/glyph_index.json",
+      "penmanship_report": "processed/page_057/penmanship_report.json",
+      "page_highlights": "processed/page_057/page_highlights.json",
+      "grok_penmanship": "processed/page_057/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_057/raw.png",
+        "artistic_vellum": "processed/page_057/artistic_vellum.jpg",
+        "clean_white": "processed/page_057/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_057/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_057/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 58,
+      "glyph_index": "processed/page_058/glyph_index.json",
+      "penmanship_report": "processed/page_058/penmanship_report.json",
+      "page_highlights": "processed/page_058/page_highlights.json",
+      "grok_penmanship": "processed/page_058/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_058/raw.png",
+        "artistic_vellum": "processed/page_058/artistic_vellum.jpg",
+        "clean_white": "processed/page_058/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_058/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_058/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 59,
+      "glyph_index": "processed/page_059/glyph_index.json",
+      "penmanship_report": "processed/page_059/penmanship_report.json",
+      "page_highlights": "processed/page_059/page_highlights.json",
+      "grok_penmanship": "processed/page_059/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_059/raw.png",
+        "artistic_vellum": "processed/page_059/artistic_vellum.jpg",
+        "clean_white": "processed/page_059/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_059/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_059/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 60,
+      "glyph_index": "processed/page_060/glyph_index.json",
+      "penmanship_report": "processed/page_060/penmanship_report.json",
+      "page_highlights": "processed/page_060/page_highlights.json",
+      "grok_penmanship": "processed/page_060/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_060/raw.png",
+        "artistic_vellum": "processed/page_060/artistic_vellum.jpg",
+        "clean_white": "processed/page_060/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_060/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_060/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 61,
+      "glyph_index": "processed/page_061/glyph_index.json",
+      "penmanship_report": "processed/page_061/penmanship_report.json",
+      "page_highlights": "processed/page_061/page_highlights.json",
+      "grok_penmanship": "processed/page_061/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_061/raw.png",
+        "artistic_vellum": "processed/page_061/artistic_vellum.jpg",
+        "clean_white": "processed/page_061/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_061/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_061/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 62,
+      "glyph_index": "processed/page_062/glyph_index.json",
+      "penmanship_report": "processed/page_062/penmanship_report.json",
+      "page_highlights": "processed/page_062/page_highlights.json",
+      "grok_penmanship": "processed/page_062/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_062/raw.png",
+        "artistic_vellum": "processed/page_062/artistic_vellum.jpg",
+        "clean_white": "processed/page_062/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_062/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_062/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 63,
+      "glyph_index": "processed/page_063/glyph_index.json",
+      "penmanship_report": "processed/page_063/penmanship_report.json",
+      "page_highlights": "processed/page_063/page_highlights.json",
+      "grok_penmanship": "processed/page_063/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_063/raw.png",
+        "artistic_vellum": "processed/page_063/artistic_vellum.jpg",
+        "clean_white": "processed/page_063/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_063/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_063/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 64,
+      "glyph_index": "processed/page_064/glyph_index.json",
+      "penmanship_report": "processed/page_064/penmanship_report.json",
+      "page_highlights": "processed/page_064/page_highlights.json",
+      "grok_penmanship": "processed/page_064/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_064/raw.png",
+        "artistic_vellum": "processed/page_064/artistic_vellum.jpg",
+        "clean_white": "processed/page_064/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_064/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_064/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 65,
+      "glyph_index": "processed/page_065/glyph_index.json",
+      "penmanship_report": "processed/page_065/penmanship_report.json",
+      "page_highlights": "processed/page_065/page_highlights.json",
+      "grok_penmanship": "processed/page_065/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_065/raw.png",
+        "artistic_vellum": "processed/page_065/artistic_vellum.jpg",
+        "clean_white": "processed/page_065/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_065/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_065/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 66,
+      "glyph_index": "processed/page_066/glyph_index.json",
+      "penmanship_report": "processed/page_066/penmanship_report.json",
+      "page_highlights": "processed/page_066/page_highlights.json",
+      "grok_penmanship": "processed/page_066/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_066/raw.png",
+        "artistic_vellum": "processed/page_066/artistic_vellum.jpg",
+        "clean_white": "processed/page_066/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_066/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_066/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 67,
+      "glyph_index": "processed/page_067/glyph_index.json",
+      "penmanship_report": "processed/page_067/penmanship_report.json",
+      "page_highlights": "processed/page_067/page_highlights.json",
+      "grok_penmanship": "processed/page_067/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_067/raw.png",
+        "artistic_vellum": "processed/page_067/artistic_vellum.jpg",
+        "clean_white": "processed/page_067/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_067/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_067/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 68,
+      "glyph_index": "processed/page_068/glyph_index.json",
+      "penmanship_report": "processed/page_068/penmanship_report.json",
+      "page_highlights": "processed/page_068/page_highlights.json",
+      "grok_penmanship": "processed/page_068/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_068/raw.png",
+        "artistic_vellum": "processed/page_068/artistic_vellum.jpg",
+        "clean_white": "processed/page_068/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_068/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_068/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 69,
+      "glyph_index": "processed/page_069/glyph_index.json",
+      "penmanship_report": "processed/page_069/penmanship_report.json",
+      "page_highlights": "processed/page_069/page_highlights.json",
+      "grok_penmanship": "processed/page_069/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_069/raw.png",
+        "artistic_vellum": "processed/page_069/artistic_vellum.jpg",
+        "clean_white": "processed/page_069/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_069/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_069/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 70,
+      "glyph_index": "processed/page_070/glyph_index.json",
+      "penmanship_report": "processed/page_070/penmanship_report.json",
+      "page_highlights": "processed/page_070/page_highlights.json",
+      "grok_penmanship": "processed/page_070/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_070/raw.png",
+        "artistic_vellum": "processed/page_070/artistic_vellum.jpg",
+        "clean_white": "processed/page_070/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_070/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_070/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 71,
+      "glyph_index": "processed/page_071/glyph_index.json",
+      "penmanship_report": "processed/page_071/penmanship_report.json",
+      "page_highlights": "processed/page_071/page_highlights.json",
+      "grok_penmanship": "processed/page_071/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_071/raw.png",
+        "artistic_vellum": "processed/page_071/artistic_vellum.jpg",
+        "clean_white": "processed/page_071/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_071/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_071/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 72,
+      "glyph_index": "processed/page_072/glyph_index.json",
+      "penmanship_report": "processed/page_072/penmanship_report.json",
+      "page_highlights": "processed/page_072/page_highlights.json",
+      "grok_penmanship": "processed/page_072/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_072/raw.png",
+        "artistic_vellum": "processed/page_072/artistic_vellum.jpg",
+        "clean_white": "processed/page_072/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_072/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_072/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 73,
+      "glyph_index": "processed/page_073/glyph_index.json",
+      "penmanship_report": "processed/page_073/penmanship_report.json",
+      "page_highlights": "processed/page_073/page_highlights.json",
+      "grok_penmanship": "processed/page_073/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_073/raw.png",
+        "artistic_vellum": "processed/page_073/artistic_vellum.jpg",
+        "clean_white": "processed/page_073/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_073/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_073/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 74,
+      "glyph_index": "processed/page_074/glyph_index.json",
+      "penmanship_report": "processed/page_074/penmanship_report.json",
+      "page_highlights": "processed/page_074/page_highlights.json",
+      "grok_penmanship": "processed/page_074/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_074/raw.png",
+        "artistic_vellum": "processed/page_074/artistic_vellum.jpg",
+        "clean_white": "processed/page_074/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_074/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_074/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 75,
+      "glyph_index": "processed/page_075/glyph_index.json",
+      "penmanship_report": "processed/page_075/penmanship_report.json",
+      "page_highlights": "processed/page_075/page_highlights.json",
+      "grok_penmanship": "processed/page_075/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_075/raw.png",
+        "artistic_vellum": "processed/page_075/artistic_vellum.jpg",
+        "clean_white": "processed/page_075/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_075/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_075/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 76,
+      "glyph_index": "processed/page_076/glyph_index.json",
+      "penmanship_report": "processed/page_076/penmanship_report.json",
+      "page_highlights": "processed/page_076/page_highlights.json",
+      "grok_penmanship": "processed/page_076/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_076/raw.png",
+        "artistic_vellum": "processed/page_076/artistic_vellum.jpg",
+        "clean_white": "processed/page_076/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_076/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_076/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 77,
+      "glyph_index": "processed/page_077/glyph_index.json",
+      "penmanship_report": "processed/page_077/penmanship_report.json",
+      "page_highlights": "processed/page_077/page_highlights.json",
+      "grok_penmanship": "processed/page_077/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_077/raw.png",
+        "artistic_vellum": "processed/page_077/artistic_vellum.jpg",
+        "clean_white": "processed/page_077/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_077/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_077/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 78,
+      "glyph_index": "processed/page_078/glyph_index.json",
+      "penmanship_report": "processed/page_078/penmanship_report.json",
+      "page_highlights": "processed/page_078/page_highlights.json",
+      "grok_penmanship": "processed/page_078/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_078/raw.png",
+        "artistic_vellum": "processed/page_078/artistic_vellum.jpg",
+        "clean_white": "processed/page_078/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_078/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_078/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 79,
+      "glyph_index": "processed/page_079/glyph_index.json",
+      "penmanship_report": "processed/page_079/penmanship_report.json",
+      "page_highlights": "processed/page_079/page_highlights.json",
+      "grok_penmanship": "processed/page_079/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_079/raw.png",
+        "artistic_vellum": "processed/page_079/artistic_vellum.jpg",
+        "clean_white": "processed/page_079/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_079/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_079/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 80,
+      "glyph_index": "processed/page_080/glyph_index.json",
+      "penmanship_report": "processed/page_080/penmanship_report.json",
+      "page_highlights": "processed/page_080/page_highlights.json",
+      "grok_penmanship": "processed/page_080/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_080/raw.png",
+        "artistic_vellum": "processed/page_080/artistic_vellum.jpg",
+        "clean_white": "processed/page_080/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_080/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_080/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 81,
+      "glyph_index": "processed/page_081/glyph_index.json",
+      "penmanship_report": "processed/page_081/penmanship_report.json",
+      "page_highlights": "processed/page_081/page_highlights.json",
+      "grok_penmanship": "processed/page_081/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_081/raw.png",
+        "artistic_vellum": "processed/page_081/artistic_vellum.jpg",
+        "clean_white": "processed/page_081/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_081/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_081/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 82,
+      "glyph_index": "processed/page_082/glyph_index.json",
+      "penmanship_report": "processed/page_082/penmanship_report.json",
+      "page_highlights": "processed/page_082/page_highlights.json",
+      "grok_penmanship": "processed/page_082/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_082/raw.png",
+        "artistic_vellum": "processed/page_082/artistic_vellum.jpg",
+        "clean_white": "processed/page_082/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_082/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_082/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 83,
+      "glyph_index": "processed/page_083/glyph_index.json",
+      "penmanship_report": "processed/page_083/penmanship_report.json",
+      "page_highlights": "processed/page_083/page_highlights.json",
+      "grok_penmanship": "processed/page_083/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_083/raw.png",
+        "artistic_vellum": "processed/page_083/artistic_vellum.jpg",
+        "clean_white": "processed/page_083/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_083/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_083/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 84,
+      "glyph_index": "processed/page_084/glyph_index.json",
+      "penmanship_report": "processed/page_084/penmanship_report.json",
+      "page_highlights": "processed/page_084/page_highlights.json",
+      "grok_penmanship": "processed/page_084/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_084/raw.png",
+        "artistic_vellum": "processed/page_084/artistic_vellum.jpg",
+        "clean_white": "processed/page_084/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_084/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_084/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 85,
+      "glyph_index": "processed/page_085/glyph_index.json",
+      "penmanship_report": "processed/page_085/penmanship_report.json",
+      "page_highlights": "processed/page_085/page_highlights.json",
+      "grok_penmanship": "processed/page_085/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_085/raw.png",
+        "artistic_vellum": "processed/page_085/artistic_vellum.jpg",
+        "clean_white": "processed/page_085/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_085/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_085/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 86,
+      "glyph_index": "processed/page_086/glyph_index.json",
+      "penmanship_report": "processed/page_086/penmanship_report.json",
+      "page_highlights": "processed/page_086/page_highlights.json",
+      "grok_penmanship": "processed/page_086/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_086/raw.png",
+        "artistic_vellum": "processed/page_086/artistic_vellum.jpg",
+        "clean_white": "processed/page_086/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_086/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_086/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 87,
+      "glyph_index": "processed/page_087/glyph_index.json",
+      "penmanship_report": "processed/page_087/penmanship_report.json",
+      "page_highlights": "processed/page_087/page_highlights.json",
+      "grok_penmanship": "processed/page_087/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_087/raw.png",
+        "artistic_vellum": "processed/page_087/artistic_vellum.jpg",
+        "clean_white": "processed/page_087/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_087/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_087/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 88,
+      "glyph_index": "processed/page_088/glyph_index.json",
+      "penmanship_report": "processed/page_088/penmanship_report.json",
+      "page_highlights": "processed/page_088/page_highlights.json",
+      "grok_penmanship": "processed/page_088/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_088/raw.png",
+        "artistic_vellum": "processed/page_088/artistic_vellum.jpg",
+        "clean_white": "processed/page_088/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_088/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_088/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 89,
+      "glyph_index": "processed/page_089/glyph_index.json",
+      "penmanship_report": "processed/page_089/penmanship_report.json",
+      "page_highlights": "processed/page_089/page_highlights.json",
+      "grok_penmanship": "processed/page_089/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_089/raw.png",
+        "artistic_vellum": "processed/page_089/artistic_vellum.jpg",
+        "clean_white": "processed/page_089/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_089/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_089/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 90,
+      "glyph_index": "processed/page_090/glyph_index.json",
+      "penmanship_report": "processed/page_090/penmanship_report.json",
+      "page_highlights": "processed/page_090/page_highlights.json",
+      "grok_penmanship": "processed/page_090/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_090/raw.png",
+        "artistic_vellum": "processed/page_090/artistic_vellum.jpg",
+        "clean_white": "processed/page_090/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_090/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_090/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 91,
+      "glyph_index": "processed/page_091/glyph_index.json",
+      "penmanship_report": "processed/page_091/penmanship_report.json",
+      "page_highlights": "processed/page_091/page_highlights.json",
+      "grok_penmanship": "processed/page_091/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_091/raw.png",
+        "artistic_vellum": "processed/page_091/artistic_vellum.jpg",
+        "clean_white": "processed/page_091/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_091/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_091/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 92,
+      "glyph_index": "processed/page_092/glyph_index.json",
+      "penmanship_report": "processed/page_092/penmanship_report.json",
+      "page_highlights": "processed/page_092/page_highlights.json",
+      "grok_penmanship": "processed/page_092/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_092/raw.png",
+        "artistic_vellum": "processed/page_092/artistic_vellum.jpg",
+        "clean_white": "processed/page_092/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_092/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_092/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 93,
+      "glyph_index": "processed/page_093/glyph_index.json",
+      "penmanship_report": "processed/page_093/penmanship_report.json",
+      "page_highlights": "processed/page_093/page_highlights.json",
+      "grok_penmanship": "processed/page_093/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_093/raw.png",
+        "artistic_vellum": "processed/page_093/artistic_vellum.jpg",
+        "clean_white": "processed/page_093/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_093/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_093/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 94,
+      "glyph_index": "processed/page_094/glyph_index.json",
+      "penmanship_report": "processed/page_094/penmanship_report.json",
+      "page_highlights": "processed/page_094/page_highlights.json",
+      "grok_penmanship": "processed/page_094/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_094/raw.png",
+        "artistic_vellum": "processed/page_094/artistic_vellum.jpg",
+        "clean_white": "processed/page_094/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_094/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_094/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 95,
+      "glyph_index": "processed/page_095/glyph_index.json",
+      "penmanship_report": "processed/page_095/penmanship_report.json",
+      "page_highlights": "processed/page_095/page_highlights.json",
+      "grok_penmanship": "processed/page_095/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_095/raw.png",
+        "artistic_vellum": "processed/page_095/artistic_vellum.jpg",
+        "clean_white": "processed/page_095/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_095/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_095/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 96,
+      "glyph_index": "processed/page_096/glyph_index.json",
+      "penmanship_report": "processed/page_096/penmanship_report.json",
+      "page_highlights": "processed/page_096/page_highlights.json",
+      "grok_penmanship": "processed/page_096/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_096/raw.png",
+        "artistic_vellum": "processed/page_096/artistic_vellum.jpg",
+        "clean_white": "processed/page_096/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_096/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_096/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 97,
+      "glyph_index": "processed/page_097/glyph_index.json",
+      "penmanship_report": "processed/page_097/penmanship_report.json",
+      "page_highlights": "processed/page_097/page_highlights.json",
+      "grok_penmanship": "processed/page_097/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_097/raw.png",
+        "artistic_vellum": "processed/page_097/artistic_vellum.jpg",
+        "clean_white": "processed/page_097/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_097/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_097/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 98,
+      "glyph_index": "processed/page_098/glyph_index.json",
+      "penmanship_report": "processed/page_098/penmanship_report.json",
+      "page_highlights": "processed/page_098/page_highlights.json",
+      "grok_penmanship": "processed/page_098/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_098/raw.png",
+        "artistic_vellum": "processed/page_098/artistic_vellum.jpg",
+        "clean_white": "processed/page_098/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_098/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_098/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 99,
+      "glyph_index": "processed/page_099/glyph_index.json",
+      "penmanship_report": "processed/page_099/penmanship_report.json",
+      "page_highlights": "processed/page_099/page_highlights.json",
+      "grok_penmanship": "processed/page_099/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_099/raw.png",
+        "artistic_vellum": "processed/page_099/artistic_vellum.jpg",
+        "clean_white": "processed/page_099/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_099/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_099/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 100,
+      "glyph_index": "processed/page_100/glyph_index.json",
+      "penmanship_report": "processed/page_100/penmanship_report.json",
+      "page_highlights": "processed/page_100/page_highlights.json",
+      "grok_penmanship": "processed/page_100/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_100/raw.png",
+        "artistic_vellum": "processed/page_100/artistic_vellum.jpg",
+        "clean_white": "processed/page_100/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_100/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_100/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 101,
+      "glyph_index": "processed/page_101/glyph_index.json",
+      "penmanship_report": "processed/page_101/penmanship_report.json",
+      "page_highlights": "processed/page_101/page_highlights.json",
+      "grok_penmanship": "processed/page_101/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_101/raw.png",
+        "artistic_vellum": "processed/page_101/artistic_vellum.jpg",
+        "clean_white": "processed/page_101/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_101/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_101/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 102,
+      "glyph_index": "processed/page_102/glyph_index.json",
+      "penmanship_report": "processed/page_102/penmanship_report.json",
+      "page_highlights": "processed/page_102/page_highlights.json",
+      "grok_penmanship": "processed/page_102/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_102/raw.png",
+        "artistic_vellum": "processed/page_102/artistic_vellum.jpg",
+        "clean_white": "processed/page_102/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_102/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_102/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 103,
+      "glyph_index": "processed/page_103/glyph_index.json",
+      "penmanship_report": "processed/page_103/penmanship_report.json",
+      "page_highlights": "processed/page_103/page_highlights.json",
+      "grok_penmanship": "processed/page_103/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_103/raw.png",
+        "artistic_vellum": "processed/page_103/artistic_vellum.jpg",
+        "clean_white": "processed/page_103/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_103/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_103/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 104,
+      "glyph_index": "processed/page_104/glyph_index.json",
+      "penmanship_report": "processed/page_104/penmanship_report.json",
+      "page_highlights": "processed/page_104/page_highlights.json",
+      "grok_penmanship": "processed/page_104/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_104/raw.png",
+        "artistic_vellum": "processed/page_104/artistic_vellum.jpg",
+        "clean_white": "processed/page_104/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_104/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_104/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 105,
+      "glyph_index": "processed/page_105/glyph_index.json",
+      "penmanship_report": "processed/page_105/penmanship_report.json",
+      "page_highlights": "processed/page_105/page_highlights.json",
+      "grok_penmanship": "processed/page_105/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_105/raw.png",
+        "artistic_vellum": "processed/page_105/artistic_vellum.jpg",
+        "clean_white": "processed/page_105/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_105/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_105/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 106,
+      "glyph_index": "processed/page_106/glyph_index.json",
+      "penmanship_report": "processed/page_106/penmanship_report.json",
+      "page_highlights": "processed/page_106/page_highlights.json",
+      "grok_penmanship": "processed/page_106/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_106/raw.png",
+        "artistic_vellum": "processed/page_106/artistic_vellum.jpg",
+        "clean_white": "processed/page_106/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_106/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_106/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 107,
+      "glyph_index": "processed/page_107/glyph_index.json",
+      "penmanship_report": "processed/page_107/penmanship_report.json",
+      "page_highlights": "processed/page_107/page_highlights.json",
+      "grok_penmanship": "processed/page_107/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_107/raw.png",
+        "artistic_vellum": "processed/page_107/artistic_vellum.jpg",
+        "clean_white": "processed/page_107/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_107/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_107/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 108,
+      "glyph_index": "processed/page_108/glyph_index.json",
+      "penmanship_report": "processed/page_108/penmanship_report.json",
+      "page_highlights": "processed/page_108/page_highlights.json",
+      "grok_penmanship": "processed/page_108/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_108/raw.png",
+        "artistic_vellum": "processed/page_108/artistic_vellum.jpg",
+        "clean_white": "processed/page_108/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_108/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_108/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 109,
+      "glyph_index": "processed/page_109/glyph_index.json",
+      "penmanship_report": "processed/page_109/penmanship_report.json",
+      "page_highlights": "processed/page_109/page_highlights.json",
+      "grok_penmanship": "processed/page_109/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_109/raw.png",
+        "artistic_vellum": "processed/page_109/artistic_vellum.jpg",
+        "clean_white": "processed/page_109/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_109/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_109/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 110,
+      "glyph_index": "processed/page_110/glyph_index.json",
+      "penmanship_report": "processed/page_110/penmanship_report.json",
+      "page_highlights": "processed/page_110/page_highlights.json",
+      "grok_penmanship": "processed/page_110/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_110/raw.png",
+        "artistic_vellum": "processed/page_110/artistic_vellum.jpg",
+        "clean_white": "processed/page_110/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_110/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_110/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 111,
+      "glyph_index": "processed/page_111/glyph_index.json",
+      "penmanship_report": "processed/page_111/penmanship_report.json",
+      "page_highlights": "processed/page_111/page_highlights.json",
+      "grok_penmanship": "processed/page_111/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_111/raw.png",
+        "artistic_vellum": "processed/page_111/artistic_vellum.jpg",
+        "clean_white": "processed/page_111/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_111/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_111/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 112,
+      "glyph_index": "processed/page_112/glyph_index.json",
+      "penmanship_report": "processed/page_112/penmanship_report.json",
+      "page_highlights": "processed/page_112/page_highlights.json",
+      "grok_penmanship": "processed/page_112/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_112/raw.png",
+        "artistic_vellum": "processed/page_112/artistic_vellum.jpg",
+        "clean_white": "processed/page_112/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_112/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_112/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 113,
+      "glyph_index": "processed/page_113/glyph_index.json",
+      "penmanship_report": "processed/page_113/penmanship_report.json",
+      "page_highlights": "processed/page_113/page_highlights.json",
+      "grok_penmanship": "processed/page_113/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_113/raw.png",
+        "artistic_vellum": "processed/page_113/artistic_vellum.jpg",
+        "clean_white": "processed/page_113/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_113/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_113/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 114,
+      "glyph_index": "processed/page_114/glyph_index.json",
+      "penmanship_report": "processed/page_114/penmanship_report.json",
+      "page_highlights": "processed/page_114/page_highlights.json",
+      "grok_penmanship": "processed/page_114/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_114/raw.png",
+        "artistic_vellum": "processed/page_114/artistic_vellum.jpg",
+        "clean_white": "processed/page_114/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_114/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_114/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 115,
+      "glyph_index": "processed/page_115/glyph_index.json",
+      "penmanship_report": "processed/page_115/penmanship_report.json",
+      "page_highlights": "processed/page_115/page_highlights.json",
+      "grok_penmanship": "processed/page_115/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_115/raw.png",
+        "artistic_vellum": "processed/page_115/artistic_vellum.jpg",
+        "clean_white": "processed/page_115/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_115/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_115/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 116,
+      "glyph_index": "processed/page_116/glyph_index.json",
+      "penmanship_report": "processed/page_116/penmanship_report.json",
+      "page_highlights": "processed/page_116/page_highlights.json",
+      "grok_penmanship": "processed/page_116/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_116/raw.png",
+        "artistic_vellum": "processed/page_116/artistic_vellum.jpg",
+        "clean_white": "processed/page_116/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_116/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_116/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 117,
+      "glyph_index": "processed/page_117/glyph_index.json",
+      "penmanship_report": "processed/page_117/penmanship_report.json",
+      "page_highlights": "processed/page_117/page_highlights.json",
+      "grok_penmanship": "processed/page_117/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_117/raw.png",
+        "artistic_vellum": "processed/page_117/artistic_vellum.jpg",
+        "clean_white": "processed/page_117/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_117/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_117/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 118,
+      "glyph_index": "processed/page_118/glyph_index.json",
+      "penmanship_report": "processed/page_118/penmanship_report.json",
+      "page_highlights": "processed/page_118/page_highlights.json",
+      "grok_penmanship": "processed/page_118/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_118/raw.png",
+        "artistic_vellum": "processed/page_118/artistic_vellum.jpg",
+        "clean_white": "processed/page_118/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_118/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_118/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 119,
+      "glyph_index": "processed/page_119/glyph_index.json",
+      "penmanship_report": "processed/page_119/penmanship_report.json",
+      "page_highlights": "processed/page_119/page_highlights.json",
+      "grok_penmanship": "processed/page_119/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_119/raw.png",
+        "artistic_vellum": "processed/page_119/artistic_vellum.jpg",
+        "clean_white": "processed/page_119/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_119/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_119/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 120,
+      "glyph_index": "processed/page_120/glyph_index.json",
+      "penmanship_report": "processed/page_120/penmanship_report.json",
+      "page_highlights": "processed/page_120/page_highlights.json",
+      "grok_penmanship": "processed/page_120/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_120/raw.png",
+        "artistic_vellum": "processed/page_120/artistic_vellum.jpg",
+        "clean_white": "processed/page_120/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_120/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_120/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 121,
+      "glyph_index": "processed/page_121/glyph_index.json",
+      "penmanship_report": "processed/page_121/penmanship_report.json",
+      "page_highlights": "processed/page_121/page_highlights.json",
+      "grok_penmanship": "processed/page_121/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_121/raw.png",
+        "artistic_vellum": "processed/page_121/artistic_vellum.jpg",
+        "clean_white": "processed/page_121/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_121/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_121/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 122,
+      "glyph_index": "processed/page_122/glyph_index.json",
+      "penmanship_report": "processed/page_122/penmanship_report.json",
+      "page_highlights": "processed/page_122/page_highlights.json",
+      "grok_penmanship": "processed/page_122/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_122/raw.png",
+        "artistic_vellum": "processed/page_122/artistic_vellum.jpg",
+        "clean_white": "processed/page_122/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_122/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_122/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 123,
+      "glyph_index": "processed/page_123/glyph_index.json",
+      "penmanship_report": "processed/page_123/penmanship_report.json",
+      "page_highlights": "processed/page_123/page_highlights.json",
+      "grok_penmanship": "processed/page_123/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_123/raw.png",
+        "artistic_vellum": "processed/page_123/artistic_vellum.jpg",
+        "clean_white": "processed/page_123/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_123/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_123/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 124,
+      "glyph_index": "processed/page_124/glyph_index.json",
+      "penmanship_report": "processed/page_124/penmanship_report.json",
+      "page_highlights": "processed/page_124/page_highlights.json",
+      "grok_penmanship": "processed/page_124/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_124/raw.png",
+        "artistic_vellum": "processed/page_124/artistic_vellum.jpg",
+        "clean_white": "processed/page_124/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_124/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_124/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 125,
+      "glyph_index": "processed/page_125/glyph_index.json",
+      "penmanship_report": "processed/page_125/penmanship_report.json",
+      "page_highlights": "processed/page_125/page_highlights.json",
+      "grok_penmanship": "processed/page_125/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_125/raw.png",
+        "artistic_vellum": "processed/page_125/artistic_vellum.jpg",
+        "clean_white": "processed/page_125/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_125/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_125/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 126,
+      "glyph_index": "processed/page_126/glyph_index.json",
+      "penmanship_report": "processed/page_126/penmanship_report.json",
+      "page_highlights": "processed/page_126/page_highlights.json",
+      "grok_penmanship": "processed/page_126/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_126/raw.png",
+        "artistic_vellum": "processed/page_126/artistic_vellum.jpg",
+        "clean_white": "processed/page_126/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_126/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_126/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 127,
+      "glyph_index": "processed/page_127/glyph_index.json",
+      "penmanship_report": "processed/page_127/penmanship_report.json",
+      "page_highlights": "processed/page_127/page_highlights.json",
+      "grok_penmanship": "processed/page_127/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_127/raw.png",
+        "artistic_vellum": "processed/page_127/artistic_vellum.jpg",
+        "clean_white": "processed/page_127/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_127/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_127/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 128,
+      "glyph_index": "processed/page_128/glyph_index.json",
+      "penmanship_report": "processed/page_128/penmanship_report.json",
+      "page_highlights": "processed/page_128/page_highlights.json",
+      "grok_penmanship": "processed/page_128/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_128/raw.png",
+        "artistic_vellum": "processed/page_128/artistic_vellum.jpg",
+        "clean_white": "processed/page_128/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_128/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_128/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 129,
+      "glyph_index": "processed/page_129/glyph_index.json",
+      "penmanship_report": "processed/page_129/penmanship_report.json",
+      "page_highlights": "processed/page_129/page_highlights.json",
+      "grok_penmanship": "processed/page_129/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_129/raw.png",
+        "artistic_vellum": "processed/page_129/artistic_vellum.jpg",
+        "clean_white": "processed/page_129/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_129/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_129/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 130,
+      "glyph_index": "processed/page_130/glyph_index.json",
+      "penmanship_report": "processed/page_130/penmanship_report.json",
+      "page_highlights": "processed/page_130/page_highlights.json",
+      "grok_penmanship": "processed/page_130/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_130/raw.png",
+        "artistic_vellum": "processed/page_130/artistic_vellum.jpg",
+        "clean_white": "processed/page_130/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_130/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_130/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 131,
+      "glyph_index": "processed/page_131/glyph_index.json",
+      "penmanship_report": "processed/page_131/penmanship_report.json",
+      "page_highlights": "processed/page_131/page_highlights.json",
+      "grok_penmanship": "processed/page_131/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_131/raw.png",
+        "artistic_vellum": "processed/page_131/artistic_vellum.jpg",
+        "clean_white": "processed/page_131/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_131/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_131/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 132,
+      "glyph_index": "processed/page_132/glyph_index.json",
+      "penmanship_report": "processed/page_132/penmanship_report.json",
+      "page_highlights": "processed/page_132/page_highlights.json",
+      "grok_penmanship": "processed/page_132/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_132/raw.png",
+        "artistic_vellum": "processed/page_132/artistic_vellum.jpg",
+        "clean_white": "processed/page_132/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_132/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_132/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 133,
+      "glyph_index": "processed/page_133/glyph_index.json",
+      "penmanship_report": "processed/page_133/penmanship_report.json",
+      "page_highlights": "processed/page_133/page_highlights.json",
+      "grok_penmanship": "processed/page_133/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_133/raw.png",
+        "artistic_vellum": "processed/page_133/artistic_vellum.jpg",
+        "clean_white": "processed/page_133/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_133/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_133/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 134,
+      "glyph_index": "processed/page_134/glyph_index.json",
+      "penmanship_report": "processed/page_134/penmanship_report.json",
+      "page_highlights": "processed/page_134/page_highlights.json",
+      "grok_penmanship": "processed/page_134/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_134/raw.png",
+        "artistic_vellum": "processed/page_134/artistic_vellum.jpg",
+        "clean_white": "processed/page_134/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_134/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_134/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 135,
+      "glyph_index": "processed/page_135/glyph_index.json",
+      "penmanship_report": "processed/page_135/penmanship_report.json",
+      "page_highlights": "processed/page_135/page_highlights.json",
+      "grok_penmanship": "processed/page_135/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_135/raw.png",
+        "artistic_vellum": "processed/page_135/artistic_vellum.jpg",
+        "clean_white": "processed/page_135/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_135/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_135/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 136,
+      "glyph_index": "processed/page_136/glyph_index.json",
+      "penmanship_report": "processed/page_136/penmanship_report.json",
+      "page_highlights": "processed/page_136/page_highlights.json",
+      "grok_penmanship": "processed/page_136/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_136/raw.png",
+        "artistic_vellum": "processed/page_136/artistic_vellum.jpg",
+        "clean_white": "processed/page_136/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_136/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_136/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 137,
+      "glyph_index": "processed/page_137/glyph_index.json",
+      "penmanship_report": "processed/page_137/penmanship_report.json",
+      "page_highlights": "processed/page_137/page_highlights.json",
+      "grok_penmanship": "processed/page_137/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_137/raw.png",
+        "artistic_vellum": "processed/page_137/artistic_vellum.jpg",
+        "clean_white": "processed/page_137/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_137/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_137/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 138,
+      "glyph_index": "processed/page_138/glyph_index.json",
+      "penmanship_report": "processed/page_138/penmanship_report.json",
+      "page_highlights": "processed/page_138/page_highlights.json",
+      "grok_penmanship": "processed/page_138/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_138/raw.png",
+        "artistic_vellum": "processed/page_138/artistic_vellum.jpg",
+        "clean_white": "processed/page_138/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_138/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_138/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 139,
+      "glyph_index": "processed/page_139/glyph_index.json",
+      "penmanship_report": "processed/page_139/penmanship_report.json",
+      "page_highlights": "processed/page_139/page_highlights.json",
+      "grok_penmanship": "processed/page_139/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_139/raw.png",
+        "artistic_vellum": "processed/page_139/artistic_vellum.jpg",
+        "clean_white": "processed/page_139/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_139/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_139/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 140,
+      "glyph_index": "processed/page_140/glyph_index.json",
+      "penmanship_report": "processed/page_140/penmanship_report.json",
+      "page_highlights": "processed/page_140/page_highlights.json",
+      "grok_penmanship": "processed/page_140/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_140/raw.png",
+        "artistic_vellum": "processed/page_140/artistic_vellum.jpg",
+        "clean_white": "processed/page_140/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_140/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_140/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 141,
+      "glyph_index": "processed/page_141/glyph_index.json",
+      "penmanship_report": "processed/page_141/penmanship_report.json",
+      "page_highlights": "processed/page_141/page_highlights.json",
+      "grok_penmanship": "processed/page_141/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_141/raw.png",
+        "artistic_vellum": "processed/page_141/artistic_vellum.jpg",
+        "clean_white": "processed/page_141/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_141/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_141/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 142,
+      "glyph_index": "processed/page_142/glyph_index.json",
+      "penmanship_report": "processed/page_142/penmanship_report.json",
+      "page_highlights": "processed/page_142/page_highlights.json",
+      "grok_penmanship": "processed/page_142/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_142/raw.png",
+        "artistic_vellum": "processed/page_142/artistic_vellum.jpg",
+        "clean_white": "processed/page_142/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_142/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_142/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 143,
+      "glyph_index": "processed/page_143/glyph_index.json",
+      "penmanship_report": "processed/page_143/penmanship_report.json",
+      "page_highlights": "processed/page_143/page_highlights.json",
+      "grok_penmanship": "processed/page_143/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_143/raw.png",
+        "artistic_vellum": "processed/page_143/artistic_vellum.jpg",
+        "clean_white": "processed/page_143/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_143/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_143/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    },
+    {
+      "page": 144,
+      "glyph_index": "processed/page_144/glyph_index.json",
+      "penmanship_report": "processed/page_144/penmanship_report.json",
+      "page_highlights": "processed/page_144/page_highlights.json",
+      "grok_penmanship": "processed/page_144/grok_penmanship.json",
+      "layers": {
+        "raw": "processed/page_144/raw.png",
+        "artistic_vellum": "processed/page_144/artistic_vellum.jpg",
+        "clean_white": "processed/page_144/clean_white.jpg",
+        "grok_artistic_vellum": "processed/page_144/grok_artistic_vellum.jpg",
+        "grok_clean_white": "processed/page_144/grok_clean_white.jpg"
+      },
+      "ai_tasks": [
+        "classify_glyph_crops",
+        "assess_penmanship_flow",
+        "estimate_scribal_speed",
+        "generate_stroke_animation_sequence",
+        "refine_highlight_bboxes"
+      ]
+    }
+  ],
+  "batch_prompts": {
+    "penmanship": "Assess scribal flow, hand dexterity, copying speed, and penmanship quality. Return animation_sequence: ordered glyph ids for stroke-reveal animation.",
+    "glyph_classify": "Re-classify each glyph crop to Old Norse letterforms with variant tags.",
+    "highlights": "Refine bounding boxes for marginalia, stains, corrections on this folio."
+  }
+}

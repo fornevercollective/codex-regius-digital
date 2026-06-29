@@ -1,0 +1,24 @@
+{
+  "page": 107,
+  "poem": "Dráp Niflunga / Guðrúnarkviða II",
+  "event_count": 1,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-107-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "1 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 1
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.213716+00:00"
+}

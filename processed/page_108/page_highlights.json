@@ -1,0 +1,168 @@
+{
+  "page": 108,
+  "poem": "Dráp Niflunga / Guðrúnarkviða II",
+  "event_count": 12,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-108-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "23 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 23
+    },
+    {
+      "id": "G-108-0000",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "a (conf 20)",
+      "bbox": {
+        "x": 0.022803114571746386,
+        "y": 0.008902077151335312,
+        "w": 0.041156840934371525,
+        "h": 0.0066765578635014835
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0014",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "$,U (conf 7)",
+      "bbox": {
+        "x": 0.9493882091212458,
+        "y": 0.0,
+        "w": 0.024471635150166853,
+        "h": 0.01298219584569733
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0015",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "tft (conf 4)",
+      "bbox": {
+        "x": 0.30589543937708563,
+        "y": 0.015949554896142432,
+        "w": 0.03225806451612903,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "aaa (conf 0)",
+      "bbox": {
+        "x": 0.3431590656284761,
+        "y": 0.015949554896142432,
+        "w": 0.034482758620689655,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "t (conf 0)",
+      "bbox": {
+        "x": 0.38654060066740825,
+        "y": 0.015949554896142432,
+        "w": 0.006117908787541713,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0018",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "tft (conf 0)",
+      "bbox": {
+        "x": 0.3932146829810901,
+        "y": 0.015949554896142432,
+        "w": 0.07341490545050056,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0019",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "t (conf 0)",
+      "bbox": {
+        "x": 0.4671857619577308,
+        "y": 0.015949554896142432,
+        "w": 0.006117908787541713,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0020",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "PPA (conf 0)",
+      "bbox": {
+        "x": 0.4738598442714127,
+        "y": 0.015949554896142432,
+        "w": 0.10622914349276974,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0021",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "AAA (conf 10)",
+      "bbox": {
+        "x": 0.6568409343715239,
+        "y": 0.015949554896142432,
+        "w": 0.04505005561735261,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-108-0022",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "PAA (conf 11)",
+      "bbox": {
+        "x": 0.7224694104560623,
+        "y": 0.015949554896142432,
+        "w": 0.05172413793103448,
+        "h": 0.019658753709198812
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "P-108-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 72% · dexterity 38%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.214256+00:00"
+}

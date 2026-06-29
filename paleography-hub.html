@@ -29,21 +29,37 @@
     <aside class="sidebar" aria-label="Page selector">
       <label for="page-input">Jump to page (1–144)</label>
       <input type="number" id="page-input" min="1" max="144" value="10" />
-      <label>All pages</label>
+      <label for="event-filter">Filter by event</label>
+      <select id="event-filter">
+        <option value="">All pages</option>
+        <option value="doodle">Doodles / marginalia</option>
+        <option value="calligraphy">Glyph crops</option>
+        <option value="penmanship">Penmanship flags</option>
+        <option value="qc">QC issues</option>
+        <option value="ocr">Low-confidence OCR</option>
+      </select>
+      <label>Pages <span id="page-filter-label"></span></label>
       <div id="page-list" class="page-list"></div>
     </aside>
 
     <main class="main-panel">
       <section id="page-detail">
-        <span class="section-label">Selected folio</span>
+        <span class="section-label">Selected folio · all layers</span>
         <h2 id="page-title">Page 10</h2>
-        <img id="page-preview" class="preview-img" alt="Page artistic vellum" src="processed/page_010/grok_artistic_vellum.jpg" />
+        <div class="layer-viewer" id="layer-viewer">
+          <div class="layer-stack" id="layer-stack"></div>
+          <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>
+        </div>
+        <div class="layer-controls" id="layer-controls"></div>
+        <label class="highlight-toggle"><input type="checkbox" id="show-highlights" checked /> Show AI highlights</label>
         <div id="page-links" style="margin:1rem 0"></div>
       </section>
 
       <div class="tabs" role="tablist">
         <button type="button" class="tab active" data-tab="tab-codicology">Codicology</button>
-        <button type="button" class="tab" data-tab="tab-calligraphy">Calligraphy</button>
+        <button type="button" class="tab" data-tab="tab-layers">Layers & Events</button>
+        <button type="button" class="tab" data-tab="tab-calligraphy">Glyphs</button>
+        <button type="button" class="tab" data-tab="tab-penmanship">Penmanship</button>
         <button type="button" class="tab" data-tab="tab-scribe">Scribe Life</button>
         <button type="button" class="tab" data-tab="tab-liturgy">Liturgy & Themes</button>
         <button type="button" class="tab" data-tab="tab-doodles">Doodles</button>
@@ -55,13 +71,35 @@
         <div id="codicology-body"></div>
       </div>
 
+      <div id="tab-layers" class="tabpanel" role="tabpanel">
+        <span class="section-label">Event index</span>
+        <h2>Highlights &amp; Layer Stack</h2>
+        <p>Pages where doodles, glyphs, QC flags, or penmanship events occur — from <code>data/page_highlights.json</code>.</p>
+        <div id="event-index"></div>
+        <h3>Events on this page</h3>
+        <ul id="page-events-list"></ul>
+      </div>
+
       <div id="tab-calligraphy" class="tabpanel" role="tabpanel">
-        <span class="section-label">Alphabetical reference</span>
-        <h2>Calligraphy · Letter Variations</h2>
-        <p>Full scribe alphabet with variant forms — click cells for variant notes. Export for FontForge / Glyphs.</p>
+        <span class="section-label">Per-page glyph crops</span>
+        <h2>Letter Crops · This Folio</h2>
+        <p>Auto-extracted crops from clean-white layer — run <code>python3 glyph-pipeline.py --all</code> to populate all pages.</p>
+        <div id="glyph-gallery" class="glyph-gallery"></div>
+        <h3>Alphabet reference</h3>
         <div id="alphabet-grid" class="alphabet-grid"></div>
         <button type="button" class="btn" id="export-font-btn">Script-to-Font · Download JSON</button>
-        <p><small>Scaffold: <code>data/codex_regius_font.json</code> — attach SVG crops per glyph from processed pages.</small></p>
+      </div>
+
+      <div id="tab-penmanship" class="tabpanel" role="tabpanel">
+        <span class="section-label">Live stroke animation</span>
+        <h2>Penmanship · Flow &amp; Dexterity</h2>
+        <div id="penmanship-metrics" class="card-grid"></div>
+        <div class="animation-stage" id="animation-stage">
+          <div id="animation-glyph" class="animation-glyph">—</div>
+          <p id="animation-caption" class="animation-caption">Select a page with glyph crops to preview stroke sequence.</p>
+        </div>
+        <button type="button" class="btn" id="play-animation-btn">▶ Play scribal flow</button>
+        <p id="penmanship-summary"></p>
       </div>
 
       <div id="tab-scribe" class="tabpanel" role="tabpanel">

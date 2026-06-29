@@ -1,0 +1,17 @@
+{
+  "page": 102,
+  "generated_at": "2026-06-29T03:44:21.534407+00:00",
+  "metrics": {
+    "glyph_count": 32,
+    "flow_score": 0.0,
+    "dexterity_score": 0.172,
+    "speed_estimate": "deliberate",
+    "consistency": 0.286,
+    "slant_mean_deg": 26.25,
+    "spacing_variance": 0.103,
+    "unique_chars": 23
+  },
+  "grok_penmanship": {},
+  "hand": "CR-main-hand",
+  "assessment": "Flow 0%, dexterity 17%, speed deliberate."
+}

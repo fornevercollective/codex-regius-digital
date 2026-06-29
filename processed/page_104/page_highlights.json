@@ -1,0 +1,194 @@
+{
+  "page": 104,
+  "poem": "Sigurðarkviða III / Helreið Brynhildar",
+  "event_count": 14,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-104-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "97 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 97
+    },
+    {
+      "id": "G-104-0007",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "f. (conf 0)",
+      "bbox": {
+        "x": 0.6742788461538461,
+        "y": 0.10576923076923077,
+        "w": 0.02403846153846154,
+        "h": 0.02564102564102564
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0011",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "L. (conf 16)",
+      "bbox": {
+        "x": 0.12379807692307693,
+        "y": 0.14423076923076922,
+        "w": 0.026442307692307692,
+        "h": 0.020032051282051284
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0012",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ee (conf 20)",
+      "bbox": {
+        "x": 0.16346153846153846,
+        "y": 0.1346153846153846,
+        "w": 0.11658653846153846,
+        "h": 0.03685897435897436
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0026",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "heim. (conf 0)",
+      "bbox": {
+        "x": 0.5396634615384616,
+        "y": 0.23637820512820512,
+        "w": 0.13221153846153846,
+        "h": 0.046474358974358976
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0033",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "olin (conf 0)",
+      "bbox": {
+        "x": 0.16826923076923078,
+        "y": 0.40384615384615385,
+        "w": 0.10817307692307693,
+        "h": 0.02564102564102564
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0034",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Oifiadienn (conf 25)",
+      "bbox": {
+        "x": 0.2932692307692308,
+        "y": 0.39823717948717946,
+        "w": 0.12139423076923077,
+        "h": 0.038461538461538464
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0036",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "— (conf 0)",
+      "bbox": {
+        "x": 0.24278846153846154,
+        "y": 0.422275641025641,
+        "w": 0.05889423076923077,
+        "h": 0.028846153846153848
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0037",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ee (conf 0)",
+      "bbox": {
+        "x": 0.35336538461538464,
+        "y": 0.422275641025641,
+        "w": 0.11899038461538461,
+        "h": 0.028846153846153848
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0041",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "nidri. (conf 23)",
+      "bbox": {
+        "x": 0.43990384615384615,
+        "y": 0.47676282051282054,
+        "w": 0.109375,
+        "h": 0.030448717948717948
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-104-0049",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "Asatri: (conf 0)",
+      "bbox": {
+        "x": 0.15865384615384615,
+        "y": 0.5400641025641025,
+        "w": 0.15144230769230768,
+        "h": 0.040865384615384616
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-104-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-104-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-104-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 57% · dexterity 35%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.212209+00:00"
+}

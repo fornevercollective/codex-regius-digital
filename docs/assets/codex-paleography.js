@@ -1,5 +1,31 @@
 (function () {
-  const state = { page: 10, year: 1270, data: {} };
+  const LAYERS = [
+    { id: "raw", label: "Raw scan", file: "raw.png", defaultOn: false, opacity: 0.35 },
+    { id: "artistic", label: "Artistic vellum", file: "artistic_vellum.jpg", defaultOn: true, opacity: 0.5 },
+    { id: "clean", label: "Clean white", file: "clean_white.jpg", defaultOn: true, opacity: 0.65 },
+    { id: "grok_artistic", label: "Grok vellum", file: "grok_artistic_vellum.jpg", defaultOn: true, opacity: 0.85 },
+    { id: "grok_clean", label: "Grok clean", file: "grok_clean_white.jpg", defaultOn: true, opacity: 1 },
+  ];
+
+  const CATEGORY_COLORS = {
+    doodle: "rgba(201, 162, 39, 0.45)",
+    calligraphy: "rgba(139, 90, 43, 0.25)",
+    penmanship: "rgba(200, 100, 50, 0.35)",
+    qc: "rgba(220, 60, 60, 0.4)",
+    ocr: "rgba(100, 180, 255, 0.35)",
+  };
+
+  const state = {
+    page: 10,
+    year: 1270,
+    data: {},
+    layerState: {},
+    pageHighlights: null,
+    glyphIndex: null,
+    penmanship: null,
+    animTimer: null,
+    eventFilter: "",
+  };
 
   async function loadJSON(path) {
     const r = await fetch(path);
@@ -14,18 +40,32 @@
     return `processed/page_${String(n).padStart(3, "0")}`;
   }
 
+  function pagesForFilter() {
+    const idx = state.data.highlights;
+    if (!state.eventFilter || !idx) return null;
+    const cat = state.eventFilter;
+    return new Set(idx.by_category?.[cat] || []);
+  }
+
   function renderPageList() {
     const list = $("#page-list");
+    const filterSet = pagesForFilter();
+    const eventPages = new Set((state.data.highlights?.pages || []).map((p) => p.page));
     list.innerHTML = "";
+    let shown = 0;
     for (let i = 1; i <= 144; i++) {
+      if (filterSet && !filterSet.has(i)) continue;
+      shown++;
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "page-pill" + (i === state.page ? " active" : "");
+      b.className = "page-pill" + (i === state.page ? " active" : "") + (eventPages.has(i) ? " has-events" : "");
       b.textContent = i;
       b.dataset.page = i;
+      b.title = eventPages.has(i) ? "Has indexed events" : "";
       b.addEventListener("click", () => selectPage(i));
       list.appendChild(b);
     }
+    $("#page-filter-label").textContent = filterSet ? `(${shown} with ${state.eventFilter})` : "(1–144)";
   }
 
   function selectPage(n) {
@@ -33,6 +73,207 @@
     $("#page-input").value = n;
     $all(".page-pill").forEach((el) => el.classList.toggle("active", +el.dataset.page === n));
     updatePageView();
+  }
+
+  function initLayerState() {
+    LAYERS.forEach((L) => {
+      if (state.layerState[L.id] === undefined) {
+        state.layerState[L.id] = { on: L.defaultOn, opacity: L.opacity };
+      }
+    });
+  }
+
+  function renderLayerControls() {
+    initLayerState();
+    const el = $("#layer-controls");
+    el.innerHTML = LAYERS.map((L) => {
+      const s = state.layerState[L.id];
+      return `<label class="layer-control">
+        <input type="checkbox" data-layer="${L.id}" ${s.on ? "checked" : ""} />
+        ${L.label}
+        <input type="range" min="0" max="100" value="${Math.round(s.opacity * 100)}" data-opacity="${L.id}" />
+      </label>`;
+    }).join("");
+
+    el.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+      cb.addEventListener("change", () => {
+        state.layerState[cb.dataset.layer].on = cb.checked;
+        applyLayerVisibility();
+      });
+    });
+    el.querySelectorAll('input[type="range"]').forEach((rng) => {
+      rng.addEventListener("input", () => {
+        state.layerState[rng.dataset.opacity].opacity = rng.value / 100;
+        applyLayerVisibility();
+      });
+    });
+  }
+
+  function applyLayerVisibility() {
+    $all(".layer-img").forEach((img) => {
+      const id = img.dataset.layer;
+      const s = state.layerState[id];
+      img.style.opacity = s?.on ? (s.opacity ?? 1) : 0;
+      img.style.display = s?.on ? "block" : "none";
+    });
+    drawHighlights();
+  }
+
+  async function buildLayerStack() {
+    const dir = pageDir(state.page);
+    const stack = $("#layer-stack");
+    stack.innerHTML = "";
+    const loadPromises = LAYERS.map((L) => {
+      return new Promise((resolve) => {
+        const img = document.createElement("img");
+        img.className = "layer-img";
+        img.dataset.layer = L.id;
+        img.alt = L.label;
+        img.onload = () => resolve(true);
+        img.onerror = () => resolve(false);
+        img.src = `${dir}/${L.file}`;
+        stack.appendChild(img);
+      });
+    });
+    await Promise.all(loadPromises);
+    applyLayerVisibility();
+    resizeHighlightCanvas();
+  }
+
+  function resizeHighlightCanvas() {
+    const stack = $("#layer-stack");
+    const canvas = $("#highlight-canvas");
+    const rect = stack.getBoundingClientRect();
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+    drawHighlights();
+  }
+
+  function drawHighlights() {
+    const canvas = $("#highlight-canvas");
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    if (!$("#show-highlights").checked || !state.pageHighlights?.events?.length) return;
+
+    state.pageHighlights.events.forEach((ev) => {
+      const b = ev.bbox;
+      if (!b || b.x === undefined) return;
+      const x = b.x * canvas.width;
+      const y = b.y * canvas.height;
+      const w = (b.w || 0.05) * canvas.width;
+      const h = (b.h || 0.05) * canvas.height;
+      ctx.fillStyle = CATEGORY_COLORS[ev.category] || "rgba(255,255,0,0.3)";
+      ctx.strokeStyle = "rgba(201, 162, 39, 0.9)";
+      ctx.lineWidth = 2;
+      ctx.fillRect(x, y, w, h);
+      ctx.strokeRect(x, y, w, h);
+    });
+  }
+
+  async function loadPageData() {
+    const dir = pageDir(state.page);
+    state.pageHighlights = null;
+    state.glyphIndex = null;
+    state.penmanship = null;
+    try {
+      state.pageHighlights = await loadJSON(`${dir}/page_highlights.json`);
+    } catch (_) { /* optional */ }
+    try {
+      state.glyphIndex = await loadJSON(`${dir}/glyph_index.json`);
+    } catch (_) { /* optional */ }
+    try {
+      state.penmanship = await loadJSON(`${dir}/penmanship_report.json`);
+    } catch (_) { /* optional */ }
+  }
+
+  function renderGlyphs() {
+    const el = $("#glyph-gallery");
+    const glyphs = state.glyphIndex?.glyphs || [];
+    if (!glyphs.length) {
+      el.innerHTML = "<p class='empty'>No glyph crops yet — run glyph-pipeline.py on this page.</p>";
+      return;
+    }
+    const dir = pageDir(state.page);
+    el.innerHTML = glyphs.slice(0, 120).map((g) =>
+      `<div class="glyph-thumb" title="${g.id}">
+        <img src="${dir}/${g.file}" alt="${g.char}" loading="lazy" />
+        <small>${g.char}</small>
+      </div>`
+    ).join("");
+  }
+
+  function renderPenmanship() {
+    const m = state.penmanship?.metrics;
+    const el = $("#penmanship-metrics");
+    if (!m || !m.glyph_count) {
+      el.innerHTML = "<p class='empty'>Run glyph-pipeline.py then grok-penmanship-script.py for metrics.</p>";
+      $("#penmanship-summary").textContent = "";
+      return;
+    }
+    el.innerHTML = `
+      <div class="card"><h4>Flow</h4><p>${(m.flow_score * 100).toFixed(0)}%</p></div>
+      <div class="card"><h4>Dexterity</h4><p>${(m.dexterity_score * 100).toFixed(0)}%</p></div>
+      <div class="card"><h4>Speed</h4><p>${m.speed_estimate}</p></div>
+      <div class="card"><h4>Glyphs</h4><p>${m.glyph_count}</p></div>`;
+    $("#penmanship-summary").textContent = state.penmanship.assessment || "";
+  }
+
+  function playAnimation() {
+    if (state.animTimer) clearInterval(state.animTimer);
+    const glyphs = state.glyphIndex?.glyphs || [];
+    const grokSeq = state.penmanship?.grok_penmanship?.animation_sequence || [];
+    const dir = pageDir(state.page);
+    const stage = $("#animation-glyph");
+    const cap = $("#animation-caption");
+
+    if (!glyphs.length && !grokSeq.length) {
+      cap.textContent = "No glyph sequence available.";
+      return;
+    }
+
+    let i = 0;
+    const steps = grokSeq.length
+      ? grokSeq.map((s, idx) => ({ caption: s.stroke_style || s.letter_hint, glyph: glyphs[idx] }))
+      : glyphs.map((g) => ({ caption: `Stroke ${g.reading_order + 1}: ${g.char}`, glyph: g }));
+
+    function tick() {
+      const step = steps[i % steps.length];
+      stage.classList.remove("writing");
+      void stage.offsetWidth;
+      stage.classList.add("writing");
+      if (step.glyph) {
+        stage.innerHTML = `<img src="${dir}/${step.glyph.file}" alt="${step.glyph.char}" />`;
+      } else {
+        stage.textContent = step.caption?.[0] || "—";
+      }
+      cap.textContent = step.caption || "";
+      i++;
+    }
+    tick();
+    state.animTimer = setInterval(tick, 700);
+  }
+
+  function renderPageEvents() {
+    const list = $("#page-events-list");
+    const events = state.pageHighlights?.events || [];
+    list.innerHTML = events.length
+      ? events.map((e) => `<li><span class="event-chip">${e.category}</span> <strong>${e.type}</strong>: ${e.label}</li>`).join("")
+      : "<li class='empty'>No events indexed for this page.</li>";
+  }
+
+  function renderEventIndex() {
+    const idx = state.data.highlights;
+    const el = $("#event-index");
+    if (!idx?.by_category) {
+      el.innerHTML = "<p class='empty'>Run glyph-pipeline.py --all to build page_highlights.json</p>";
+      return;
+    }
+    let html = `<p><strong>${idx.pages_with_events}</strong> pages with events (of ${idx.pages_total})</p><ul>`;
+    Object.entries(idx.by_category).forEach(([cat, pages]) => {
+      html += `<li><span class="event-chip">${cat}</span> ${pages.length} pages: ${pages.slice(0, 12).join(", ")}${pages.length > 12 ? "…" : ""}</li>`;
+    });
+    html += "</ul>";
+    el.innerHTML = html;
   }
 
   function renderTimeline() {
@@ -58,7 +299,7 @@
     const letters = (state.data.alphabet || {}).letters || [];
     const el = $("#alphabet-grid");
     el.innerHTML = letters.map((L) => `
-      <div class="letter-cell" title="${(L.variants || []).join(', ')}">
+      <div class="letter-cell" title="${(L.variants || []).join(", ")}">
         ${L.char}<small>${L.name}</small>
       </div>`).join("");
   }
@@ -103,8 +344,6 @@
       stanzas.forEach((s) => {
         html += `<p><strong>${s.poem} st. ${s.stanza}</strong>: ${s.cr_text || "[pending]"}</p>`;
       });
-    } else if (!poem || !poem.poem) {
-      html += "<p class='empty'>No poem boundary mapped — run build_liturgy_map.py.</p>";
     }
     html += "<h4>Thematic parallels</h4><ul>";
     themes.forEach((t) => {
@@ -114,24 +353,30 @@
     $("#liturgy-body").innerHTML = html;
   }
 
-  function updatePageView() {
+  async function updatePageView() {
     const dir = pageDir(state.page);
     $("#page-title").textContent = `Page ${state.page}`;
-    $("#page-preview").src = `${dir}/grok_artistic_vellum.jpg`;
-    $("#page-preview").onerror = function () {
-      this.src = `${dir}/artistic_vellum.jpg`;
-    };
+    await loadPageData();
+    await buildLayerStack();
+    renderLayerControls();
+    renderGlyphs();
+    renderPenmanship();
+    renderPageEvents();
+    renderLiturgy();
+
     const links = [
       ["AI Assessment", `${dir}/ai_assessment.md`],
       ["Doodles", `${dir}/doodles_catalog.md`],
+      ["Glyph index", `${dir}/glyph_index.json`],
+      ["Penmanship", `${dir}/penmanship_report.json`],
+      ["Highlights", `${dir}/page_highlights.json`],
       ["Codicology", `${dir}/codicology.md`],
-      ["Calligraphy", `${dir}/calligraphy_sheet.md`],
       ["Liturgy", `${dir}/liturgy_comparison.md`],
-      ["Etymology", `${dir}/etymology.md`],
       ["JSON Report", `${dir}/scholarly_report.json`],
     ];
-    $("#page-links").innerHTML = links.map(([l, h]) => `<a href="${h}" class="btn" style="margin-right:0.5rem">${l}</a>`).join("");
-    renderLiturgy();
+    $("#page-links").innerHTML = links.map(([l, h]) =>
+      `<a href="${h}" class="btn" style="margin-right:0.5rem">${l}</a>`
+    ).join("");
   }
 
   function setupTabs() {
@@ -154,32 +399,41 @@
 
   async function init() {
     try {
-      const [codicology, scribe, alphabet, liturgy, themes] = await Promise.all([
+      const [codicology, scribe, alphabet, liturgy, themes, highlights] = await Promise.all([
         loadJSON("data/codicology.json"),
         loadJSON("data/scribe_timeline.json"),
         loadJSON("data/alphabet_reference.json"),
         loadJSON("data/liturgy_comparisons.json"),
         loadJSON("data/thematic_crossrefs.json"),
+        loadJSON("data/page_highlights.json").catch(() => null),
       ]);
-      state.data = { codicology, scribe, alphabet, liturgy, themes };
+      state.data = { codicology, scribe, alphabet, liturgy, themes, highlights };
     } catch (e) {
       console.warn("Data load:", e);
     }
 
     renderPageList();
+    renderEventIndex();
     renderCodicology();
     renderAlphabet();
     renderTimeline();
-    updatePageView();
+    await updatePageView();
     setupTabs();
 
     $("#page-input").addEventListener("change", (e) => selectPage(+e.target.value));
+    $("#event-filter").addEventListener("change", (e) => {
+      state.eventFilter = e.target.value;
+      renderPageList();
+    });
     $("#year-slider").addEventListener("input", (e) => {
       state.year = +e.target.value;
       $("#year-value").textContent = state.year;
       renderTimeline();
     });
     $("#export-font-btn").addEventListener("click", exportFont);
+    $("#show-highlights").addEventListener("change", drawHighlights);
+    $("#play-animation-btn").addEventListener("click", playAnimation);
+    window.addEventListener("resize", resizeHighlightCanvas);
   }
 
   document.addEventListener("DOMContentLoaded", init);

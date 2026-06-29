@@ -1,0 +1,116 @@
+{
+  "page": 118,
+  "poem": "Oddrúnargrátr / Atlakviða",
+  "event_count": 8,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-118-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "20 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 20
+    },
+    {
+      "id": "G-118-0001",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "TEGO (conf 1)",
+      "bbox": {
+        "x": 0.6379310344827587,
+        "y": 0.000741839762611276,
+        "w": 0.10400444938820912,
+        "h": 0.03301186943620178
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-118-0002",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "OCU (conf 24)",
+      "bbox": {
+        "x": 0.7958843159065628,
+        "y": 0.000741839762611276,
+        "w": 0.06507230255839822,
+        "h": 0.03301186943620178
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-118-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "AANANAAAAAAANAARAAAT (conf 0)",
+      "bbox": {
+        "x": 0.43103448275862066,
+        "y": 0.05007418397626113,
+        "w": 0.14349276974416017,
+        "h": 0.017433234421364987
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-118-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "- (conf 17)",
+      "bbox": {
+        "x": 0.035038932146829814,
+        "y": 0.4725519287833828,
+        "w": 0.015016685205784204,
+        "h": 0.008902077151335312
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-118-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "QC-118-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Compare glyph-by-glyph with raw scan.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-118-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 88% · dexterity 35%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.221277+00:00"
+}

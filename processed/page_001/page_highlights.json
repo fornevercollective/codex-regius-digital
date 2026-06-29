@@ -1,0 +1,181 @@
+{
+  "page": 1,
+  "poem": "Völuspá",
+  "event_count": 13,
+  "has_events": true,
+  "events": [
+    {
+      "id": "G-001-ALL",
+      "type": "glyph_field",
+      "category": "calligraphy",
+      "label": "25 glyph crops",
+      "bbox": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.84,
+        "h": 0.8,
+        "region": "text block"
+      },
+      "source": "glyph_index",
+      "glyph_count": 25
+    },
+    {
+      "id": "G-001-0014",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "NW (conf 0)",
+      "bbox": {
+        "x": 0.07452725250278086,
+        "y": 0.02040059347181009,
+        "w": 0.01557285873192436,
+        "h": 0.020771513353115726
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0016",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "TT (conf 26)",
+      "bbox": {
+        "x": 0.14849833147942157,
+        "y": 0.02040059347181009,
+        "w": 0.013348164627363738,
+        "h": 0.020771513353115726
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0017",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "MTN (conf 3)",
+      "bbox": {
+        "x": 0.16240266963292546,
+        "y": 0.02040059347181009,
+        "w": 0.04560622914349277,
+        "h": 0.020771513353115726
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0018",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "t (conf 0)",
+      "bbox": {
+        "x": 0.2296996662958843,
+        "y": 0.028189910979228485,
+        "w": 0.009454949944382647,
+        "h": 0.009643916913946587
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0019",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "TGQ (conf 0)",
+      "bbox": {
+        "x": 0.23915461624026696,
+        "y": 0.028189910979228485,
+        "w": 0.01946607341490545,
+        "h": 0.009643916913946587
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0020",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "OALDMI (conf 0)",
+      "bbox": {
+        "x": 0.2675194660734149,
+        "y": 0.022626112759643918,
+        "w": 0.047274749721913235,
+        "h": 0.01483679525222552
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0021",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "a (conf 27)",
+      "bbox": {
+        "x": 0.575083426028921,
+        "y": 0.02336795252225519,
+        "w": 0.027252502780867632,
+        "h": 0.01112759643916914
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0022",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ANAAAAAAARAAN (conf 0)",
+      "bbox": {
+        "x": 0.6418242491657397,
+        "y": 0.017062314540059347,
+        "w": 0.07452725250278086,
+        "h": 0.015578635014836795
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0023",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "AANA (conf 0)",
+      "bbox": {
+        "x": 0.7241379310344828,
+        "y": 0.020771513353115726,
+        "w": 0.11234705228031146,
+        "h": 0.01112759643916914
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "G-001-0024",
+      "type": "low_confidence_glyph",
+      "category": "ocr",
+      "label": "ATT (conf 6)",
+      "bbox": {
+        "x": 0.8843159065628476,
+        "y": 0.018545994065281898,
+        "w": 0.046162402669632924,
+        "h": 0.012240356083086053
+      },
+      "source": "glyph_index"
+    },
+    {
+      "id": "QC-001-0",
+      "type": "qc_issue",
+      "category": "qc",
+      "label": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "bbox": {
+        "x": 0.1,
+        "y": 0.07,
+        "w": 0.8,
+        "h": 0.03
+      },
+      "source": "qc_report"
+    },
+    {
+      "id": "P-001-FLOW",
+      "type": "penmanship_flag",
+      "category": "penmanship",
+      "label": "Flow 40% · dexterity 36%",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.05,
+        "w": 0.9,
+        "h": 0.9,
+        "region": "text block"
+      },
+      "source": "penmanship_report"
+    }
+  ],
+  "updated_at": "2026-06-29T03:44:39.066645+00:00"
+}

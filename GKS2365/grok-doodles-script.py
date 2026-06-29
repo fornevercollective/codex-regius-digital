@@ -53,33 +53,12 @@ DOODLES_JSON_SCHEMA = json.dumps({
     "required": ["page", "confidence", "items", "summary"],
 })
 
-VISION_PROMPT = """You are a paleographer surveying Codex Regius (GKS 2365 4to, c. 1270 Iceland).
+VISION_PROMPT = """Paleographer survey: Codex Regius (GKS 2365 4to) page {page}.
 
-Examine [Image #1: {image_path}] — manuscript page {page}.
+Image: [Image #1: {image_path}]
 
-Identify ALL marginalia, doodles, pen trials, faces, animals, decorative marks, stains,
-scratches, holes, offset ink, and scribal corrections visible outside or within the text block.
-
-Reply with ONLY valid JSON (no markdown fences) using this schema:
-{{
-  "page": {page},
-  "confidence": "high|medium|low",
-  "items": [
-    {{
-      "id": "M-{page:03d}-01",
-      "region": "upper margin|lower margin|left margin|right margin|interlinear|text block",
-      "type": "doodle|pen_trial|stain|scratch|correction|decoration|other",
-      "description": "brief visual description",
-      "scholarly_note": "paleographic interpretation"
-    }}
-  ],
-  "scratches": ["..."],
-  "damage_notes": ["..."],
-  "summary": "one paragraph overview"
-}}
-
-If nothing notable is visible, return items as an empty array with a summary explaining the clean surface.
-"""
+List marginalia, doodles, pen trials, stains, scratches, corrections, and damage on this folio.
+Return JSON only — no prose, no tool use."""
 
 
 def parse_page_list(spec: str | None) -> list[int]:
@@ -96,6 +75,37 @@ def parse_page_list(spec: str | None) -> list[int]:
         else:
             pages.add(int(part))
     return sorted(p for p in pages if 1 <= p <= TOTAL_PAGES)
+
+
+def parse_grok_payload(combined: str) -> dict | None:
+    data = extract_json_block(combined)
+    if data and "page" in data:
+        return data
+    try:
+        payload = json.loads(combined.strip())
+    except json.JSONDecodeError:
+        return data
+    if not isinstance(payload, dict):
+        return data
+    structured = payload.get("structuredOutput")
+    if isinstance(structured, dict) and "page" in structured:
+        return structured
+    text = payload.get("text")
+    if isinstance(text, str) and text.strip():
+        inner = extract_json_block(text)
+        if inner and "page" in inner:
+            return inner
+        try:
+            inner = json.loads(text)
+            if isinstance(inner, dict):
+                return inner
+        except json.JSONDecodeError:
+            pass
+    for key in ("response", "result"):
+        candidate = payload.get(key)
+        if isinstance(candidate, dict) and "page" in candidate:
+            return candidate
+    return data
 
 
 def extract_json_block(text: str) -> dict | None:
@@ -235,44 +245,36 @@ def run_grok_vision(image: Path, page: int, dry_run: bool) -> dict | None:
         "-m",
         GROK_MODEL,
         "--always-approve",
+        "--no-subagents",
         "--max-turns",
-        "2",
+        "1",
         "--output-format",
         "json",
         "--json-schema",
         DOODLES_JSON_SCHEMA,
         "--disallowed-tools",
-        "run_terminal_cmd,web_search,web_fetch,search_replace,Write,Edit,Grep,list_dir,Agent",
+        "run_terminal_cmd,web_search,web_fetch,search_replace,Write,Edit,Grep,list_dir,Agent,Task",
         "-p",
         prompt,
     ]
     label = vision_image.name if vision_image != image else image.name
     print(f"   👁️  Grok vision → page {page:3d} ({label})")
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=600, cwd=str(image.parent))
-    except subprocess.TimeoutExpired:
-        print(f"   ⚠️  Timeout on page {page}")
-        return None
 
-    combined = (result.stdout or "") + "\n" + (result.stderr or "")
-    if result.returncode != 0:
-        print(f"   ⚠️  Grok exit {result.returncode}: {combined[:400]}")
-        return None
-
-    data = extract_json_block(combined)
-    if not data:
+    combined = ""
+    for attempt in range(1, 4):
         try:
-            payload = json.loads(combined.strip())
-        except json.JSONDecodeError:
-            payload = None
-        if isinstance(payload, dict):
-            structured = payload.get("structuredOutput")
-            if isinstance(structured, dict):
-                data = structured
-            elif isinstance(payload.get("text"), str):
-                data = extract_json_block(payload["text"])
-            else:
-                data = payload.get("response") or payload.get("result") or payload
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=300, cwd=str(image.parent))
+        except subprocess.TimeoutExpired:
+            print(f"   ⚠️  Timeout on page {page} (attempt {attempt})")
+            continue
+        combined = (result.stdout or "") + "\n" + (result.stderr or "")
+        if result.returncode == 0 and "Cancelled" not in combined:
+            break
+        print(f"   ⚠️  Grok attempt {attempt} failed on page {page}: {combined[:200]}")
+    else:
+        return None
+
+    data = parse_grok_payload(combined)
     if not data or not isinstance(data, dict) or "page" not in data:
         print(f"   ⚠️  No JSON parsed. Grok said:\n{combined[:500]}")
         return None
@@ -342,6 +344,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--prefer-raw", action="store_true", help="Use raw.png over enhanced layers")
     parser.add_argument("--force", action="store_true", help="Re-survey even if grok_doodles.json exists")
+    parser.add_argument("--retries", type=int, default=3, help="Grok attempts per page (default 3)")
     args = parser.parse_args()
 
     root = args.root.resolve()

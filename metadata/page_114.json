@@ -18,12 +18,18 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Guðrúnarkviða III",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 9,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T08:11:41.605039+00:00"
+  },
   "processed_at": "2026-06-29T01:19:34.608638+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T04:00:51.032637+00:00",

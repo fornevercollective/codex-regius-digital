@@ -1,0 +1,85 @@
+{
+  "page": 114,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "001",
+      "region": "upper central panel",
+      "type": "scratch",
+      "description": "Prominent long irregular curved white abrasion running roughly horizontally from near the left inner border across the top of the central dark leather field toward the right side.",
+      "scholarly_note": "Deep surface scratch exposing lighter leather layers; mechanical damage from handling, impact, or shelving."
+    },
+    {
+      "id": "002",
+      "region": "lower central panel",
+      "type": "scratch",
+      "description": "Curved white scratch originating near the lower right inner border and extending leftward and slightly upward across the bottom of the central panel.",
+      "scholarly_note": "Companion abrasion to upper scratch; similar post-production mechanical origin."
+    },
+    {
+      "id": "003",
+      "region": "left spine edge",
+      "type": "wear",
+      "description": "Heavily abraded and frayed left vertical edge with substantial loss of leather surface, exposing lighter substrate and fibrous structure along the spine or hinge.",
+      "scholarly_note": "Heavy cumulative wear from repeated opening, handling, and shelving of the codex over centuries."
+    },
+    {
+      "id": "004",
+      "region": "central field",
+      "type": "scuff",
+      "description": "Dense network of fine light-colored hairline scratches and scuff marks distributed across the entire central dark leather surface.",
+      "scholarly_note": "Accumulated micro-abrasions from dust, cloth contact, and general use; typical age-related surface degradation."
+    },
+    {
+      "id": "005",
+      "region": "all four corners",
+      "type": "damage",
+      "description": "All corners rounded, crushed, and with material loss; bottom left and top left corners show the most pronounced deformation and wear.",
+      "scholarly_note": "Characteristic wear pattern in bound volumes from vertical storage, pulling from shelves, and placement on surfaces."
+    },
+    {
+      "id": "006",
+      "region": "outer decorative border",
+      "type": "abrasion",
+      "description": "Localized wear and partial loss of gold tooled lines along the outer border, especially bottom edge and vertical sides; small floral corner motifs also affected.",
+      "scholarly_note": "The border features continuous wavy scroll/vine tooling with floral terminals; minor gilt loss on high points and edges."
+    },
+    {
+      "id": "007",
+      "region": "central vertical ornaments",
+      "type": "wear",
+      "description": "Tall vertical gold-tooled bands of stacked scroll and acanthus motifs on left and right sides of central panel show flattening and loss of definition on raised elements.",
+      "scholarly_note": "Central decorative program consists of symmetrical opposing vertical panels of dense baroque-style foliage tooling; wear indicates handling abrasion."
+    },
+    {
+      "id": "008",
+      "region": "upper central field",
+      "type": "mark",
+      "description": "Small incised or scratched marks near top center of the dark panel, including faint intersecting lines or chevron-like mark.",
+      "scholarly_note": "Possibly incidental or a faint later mark; no clear textual or intentional graphic character visible at this resolution."
+    },
+    {
+      "id": "009",
+      "region": "scattered across surface",
+      "type": "stain",
+      "description": "Isolated small dark spots and localized darker discolorations, most visible in upper half and near borders.",
+      "scholarly_note": "Possible ink flecks, wax, or environmental soiling; not consistent with liquid staining or extensive discoloration."
+    }
+  ],
+  "scratches": [
+    "Long curved abrasion across upper central panel (001)",
+    "Curved scratch in lower central panel (002)",
+    "Dense fine hairline scratches and scuffs across central field (004)",
+    "Small incised marks upper central area (008)"
+  ],
+  "damage_notes": [
+    "Severe abrasion and fraying along left spine edge with major material loss",
+    "All four corners rounded, crushed, and with leather loss",
+    "General surface scuffing and multiple linear scratches throughout central panel",
+    "Wear and flattening of gold tooling on outer borders and central vertical ornaments",
+    "Overall leather darkening, scuffing, and surface loss consistent with age and heavy use"
+  ],
+  "summary": "Image shows the front cover of Codex Regius (GKS 2365 4to) gold-tooled dark brown leather binding, not an interior text folio. No marginalia, doodles, pen trials, or scribal corrections present. Survey records extensive mechanical damage: prominent curved scratches in upper and lower central panel, heavy left-edge/spine wear, corner crushing, widespread fine scuffing, and wear to the elaborate gold tooling (outer wavy borders and tall central vertical scrollwork panels). Modern ruler at top provides scale.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_114/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:11:41.605039+00:00"
+}

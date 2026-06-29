@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:36.396585+00:00",
+  "timestamp": "2026-06-29T04:24:10.413222+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 95.67,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5238,
+      "raw_blur": 676.63,
+      "enhanced_blur": 834.83,
+      "raw_contrast": 69.72,
+      "enhanced_contrast": 57.72,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5346,
+      "raw_blur": 676.63,
+      "enhanced_blur": 2023.02,
+      "raw_contrast": 69.72,
+      "enhanced_contrast": 76.85,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "RNA\n20    30    40 50 60    70 80 90 100.110 120 130 140 150\nRS RSS SAR R RS RN NANNA NANNA NNANANNANANNAÐANNANNANANNANANNNNRANANNA NNA NAANFLR NNA —\n|\n$\n4",
     "text_preview": "RNA\n20    30    40 50 60    70 80 90 100.110 120 130 140 150\nRS RSS SAR R RS RN NANNA NANNA NNANANNANANNAÐANNANNANANNANANNNNRANANNA NNA NAANFLR NNA —\n|\n$\n4",
     "char_count": 155,
     "error": null

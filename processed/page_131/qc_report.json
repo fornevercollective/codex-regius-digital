@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:33.940186+00:00",
+  "timestamp": "2026-06-29T04:21:51.205577+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 96.41,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6362,
+      "raw_blur": 430.78,
+      "enhanced_blur": 740.97,
+      "raw_contrast": 72.04,
+      "enhanced_contrast": 66.46,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.5434,
+      "raw_blur": 430.78,
+      "enhanced_blur": 1633.59,
+      "raw_contrast": 72.04,
+      "enhanced_contrast": 75.81,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
     "text_preview": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
     "char_count": 240,
     "error": null

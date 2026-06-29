@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:35.144636+00:00",
+  "timestamp": "2026-06-29T04:23:02.802881+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 96.37,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.8076,
+      "raw_blur": 753.69,
+      "enhanced_blur": 348.37,
+      "raw_contrast": 72.91,
+      "enhanced_contrast": 63.78,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.8663,
+      "raw_blur": 753.69,
+      "enhanced_blur": 336.21,
+      "raw_contrast": 72.91,
+      "enhanced_contrast": 72.3,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "LT GER TTT NN\n10     20 30 40     50 60     70     80     90 100 Y110 120 130 140    150\nss RAA RNA AAR AAANAANAAANNAAN NANA nn ANANANANANANANAOAMAAAAAMAAAMAMAANANANEN hdd\n                              Gee vanzar micic í\np\nå\n,                                                                                                            |\ni                                                                                                             |\np\ni\ni\n|         Å",
     "text_preview": "LT GER TTT NN\n10     20 30 40     50 60     70     80     90 100 Y110 120 130 140    150\nss RAA RNA AAR AAANAANAAANNAAN NANA nn ANANANANANANANAOAMAAAAAMAAAMAMAANANANEN hdd\n                              Gee vanzar micic í\np\nå\n,                                                                                                            |\ni                                                                                                             |\np\ni\ni\n|         Å",
     "char_count": 465,
     "error": null

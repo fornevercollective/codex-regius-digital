@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:31.389671+00:00",
+  "timestamp": "2026-06-29T04:19:33.626890+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 99.57,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5023,
+      "raw_blur": 570.94,
+      "enhanced_blur": 633.75,
+      "raw_contrast": 70.96,
+      "enhanced_contrast": 56.89,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5398,
+      "raw_blur": 570.94,
+      "enhanced_blur": 1603.41,
+      "raw_contrast": 70.96,
+      "enhanced_contrast": 79.44,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "an LL RELLE     Á\n30 40 50 50 70 80 90 100.110 120 130 140 150  e\nTAA AAA NORA RN NR NASN ANNA RA NN NANNN 0 lll =   A\n2\nv\np\nI\n4\nhi\n;\n|                                           2.\n| i a\nif",
     "text_preview": "an LL RELLE     Á\n30 40 50 50 70 80 90 100.110 120 130 140 150  e\nTAA AAA NORA RN NR NASN ANNA RA NN NANNN 0 lll =   A\n2\nv\np\nI\n4\nhi\n;\n|                                           2.\n| i a\nif",
     "char_count": 189,
     "error": null

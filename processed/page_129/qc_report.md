@@ -3,16 +3,17 @@
 **Status**: needs_review
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:04:31.389671+00:00
+**Generated**: 2026-06-29T04:19:33.626890+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2696, 1798]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2696, 1798]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2696, 1798]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2696, 1798]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2696, 1798]}]
 - **ocr** (ok): Tesseract extraction complete
-- **ocr_to_assessment** (ok): ['Inserted OCR text']
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9873, contrast Δ=-1.6
 - **clean_white**: SSIM=0.7614, contrast Δ=28.6
+- **grok_artistic_vellum**: SSIM=0.5023, contrast Δ=-14.1
+- **grok_clean_white**: SSIM=0.5398, contrast Δ=8.5
 
 ## Issues
 - [ERROR] **DIGIT_NOISE**: Line 2: high digit ratio — likely OCR noise.

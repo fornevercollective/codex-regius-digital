@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:04:30.106696+00:00",
+  "timestamp": "2026-06-29T04:18:24.108600+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,10 +75,27 @@
       "enhanced_contrast": 97.41,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.5463,
+      "raw_blur": 824.23,
+      "enhanced_blur": 825.74,
+      "raw_contrast": 71.92,
+      "enhanced_contrast": 60.38,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.5634,
+      "raw_blur": 824.23,
+      "enhanced_blur": 1628.04,
+      "raw_contrast": 71.92,
+      "enhanced_contrast": 78.19,
+      "ssim_ok": true,
+      "contrast_improved": true
     }
   },
   "ocr": {
-    "text": "HU Á ANUNUANNNNANNNANNNNNANN NANNA NANNA NANNA ANN UUU rn Per ppt  A\n10    20 30 40 50 60    70    80 90 100.110 420 130 140   150\nDADARBARAAAAARGARAARAAAAAAAAAAAAARAAAAANARANAAAAA AA AAN DDD\nf                                                                                      |\n4                      |\n|",
     "text_preview": "HU Á ANUNUANNNNANNNANNNNNANN NANNA NANNA NANNA ANN UUU rn Per ppt  A\n10    20 30 40 50 60    70    80 90 100.110 420 130 140   150\nDADARBARAAAAARGARAARAAAAAAAAAAAAARAAAAANARANAAAAA AA AAN DDD\nf                                                                                      |\n4                      |\n|",
     "char_count": 307,
     "error": null

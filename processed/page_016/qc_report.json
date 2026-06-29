@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:44:55.547126+00:00",
+  "timestamp": "2026-06-29T02:58:38.966503+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus Å\nÍ í pee ot Ten fe halir eta hún pos vér 8 2808 a\n  Spa fl BE on ex bon Bice bbe ht  3 Á\nfins Map vile a þa So Vine guilt Fr\nmør DB aveið vor ef 5 party: ae  „amen et middag dl\nÍ má Gå crac fm av ey bror Poe er ae\nap pany: Pola. opt   lede fa Å os ee ;\nPF dr est)  bi yvaðó {lo wrð glöðrar by  ;\når pa, vel. Spin farið {Pap site sas gå gi dad\nå  Ay vint 92 þe 9 vg. enavinar fn følt en) oun\nþr vat vík ða Sperry or bu Þar beg wbypel 2\nAo) pt pr Bar ge ae. av (len vs ee\nå da 24   Åge og ope. Op þv at mag å |\nSaye pata tg var Då po oe ce -\n4 40 þa mlå eg plat pod  OA:  fung v pa V 4 DR\n 6 Oe eo so 300 BY mm | vað æyillsuegar í 4\n| Amr 0 52) er Á MR le\n30 ett pe) a hlý for ala. on fmalle VOW 4d 3\nors bie aper See e. dur une age\nee Tee DE\n\nkk VF å pel A",
     "text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus Å\nÍ í pee ot Ten fe halir eta hún pos vér 8 2808 a\n  Spa fl BE on ex bon Bice bbe ht  3 Á\nfins Map vile a þa So Vine guilt Fr\nmør DB aveið vor ef 5 party: ae  „amen et middag dl\nÍ má Gå crac fm av ey ",
     "char_count": 1056,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus ",
     "corrected_text_preview": "ay  hit fot ai ai nn 65 ja nr An: Kr\n\nss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å\n\nget dte Har á rt yes Å\n\nIÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG\n8 a lille vmar Pot abravs  bn. Far dnets gr\nþ  ag eg en Ganga fair va gi 01\nA a fs fat 9 a Og lena frer ant lena. Bus ",
-    "issue_count": 1,
+    "issue_count": 6,
     "applied_fixes": []
   },
   "issues": [
@@ -111,6 +119,51 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

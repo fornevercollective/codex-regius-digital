@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+, VE av KOSE TE Ai
+gm betro do ope vr fine E
+| ne   val had  Å TAU yb ye ee Fører
+fr tem valbaile vers umhør is  Vg cage å hye NÅ
+Bao pa å Fe pri via ug. 366 an Å
+gå     alsa Bara ste cient en gan
+temme
+GE  Kg i aoe fa pet» here ae de
+Frk See Ge eee komp Å
+Glen sedan flo ono png. 0
+Í Ge ke ake Kø ft Å
+Å tye.g nar, miði 51   3 verre   bella kultet oo
+mm nye.5 nær. nag. bra flap ghvip. fylgr 4ylg PERU å
+Der bins Be i sis a gt Bera Å
+DS a ame et er þar Å
+NE ee pe UiS eng aars mb Ef ða que
+þarf  a  ad i ig
+fi å ' chad i ad på agaghals qraga. date hvalir lo PP
+fi ,   44  sl a an smat pr GÅ gå 4  jf ve að ee
+ál, dn ma A slugpó hye té eeen mali Å
+ar  = agit:    « JR NE    .               sae      aise pt JE
+A ne bre tjen ey (oe share vred ete
+Fr, og = Ea elie a KE #
+Pe? Seale 9```
 
 ## Modern English Translation (Plain, Aligned)
 ```

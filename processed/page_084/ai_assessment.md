@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+OSE   a    Á                 $                  5      ,   på     2  ET Han:
+pr eclael hørt alder nen Gear 5 pers ones ae
+KE bud fino basa værer 2m: áð find meina før: “fatty me 9
+pe  per te bioeg Halling et bil! nen clive |
+å Jaga FE tar ynpt ne bot Inab ar bra ali Sg 2
+ike gh osu tn hr om ENN
+Kg old te kata leonboy Cy ta Prope poe
+
+: fin fags  b bon ame ge op hy | eS
+   pe x  acpi mir arly exer ta porene youll Uke høgare ap 5
+|      | me mme RE AGE wis mee eh
+
+vepa.     pr   neh sap | tary pt EA
+
+Br 3 bolor bretja gang, Her  lena hovøetebe. ° |
+
+År fue ee tuni Hep gatos þá ccplngae arta la. 17
+ir ta. vif ov tes vg pe bout) alger bis "ote ba tes pg
+Eat. hor hv   pr J    jp ne Á ER
+EN AR linge or i a Fae gå
+ii Svana gully bap. bold hon et:þór ae byes ete toe Å
+Engu ff soma. þh pe Jam móð a dog Å
+Doh man ce qatar...       þig 1] pleie   ið to) 0
+Að 5
+å foman adho þa att samy, bay EN  toh yt JR
++s,  KG  hin   oe i Jr    {ols      acy     vile pared: a ct)
+.  a tr 6 son halle latið ot
+ie ne við pi ee Ma er
+AEA ef Bie i SG
+þr å   lar & vit fees oe Hine ar år A). ker GÅ```
 
 ## Modern English Translation (Plain, Aligned)
 ```

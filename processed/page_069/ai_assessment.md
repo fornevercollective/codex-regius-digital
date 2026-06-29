@@ -24,8 +24,38 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+PF, Bata le ina sene. ar par. PAN og lig  . |
+a I
+Gy ann Ap blake. Velrer og þv vara øk room i |
+ol Nore ap pre veda ves mordet hager 2 nom sp í
+See bange Taper, þor bos fe á ap art þa  ij
+Ub > frac mins pop mn amet, att hor å ba Bin Å
+ee oe Vel site perpepsy an weit fb roema Eg Å]
+eg fa fap ab pain gull teen pe Oba fs. Á
+Ee ge at bana, þé LADA MU apr þa Hør et inf ena Dash ba Å
+pe eer «led Hyena bs   oe
+A pt  hier poo agn annt þv Bruch eg vondi yy Á
+PE TET rn ber for be fh oe
+| = mare tea hinar go þer nos Å nøanålar vos fote møf- Å
+See eases kart
+eg mo AN en  å for dsgdvalie Å
+pA as B p.-2, ve Sparer af dr lesa, Er  å
+HE Sa NG      TA, dens leita 488. Bale í
+AE sr & ábvov para 2førmå 1  fo ary: ft by  á
+ad Sn fører © ba (síð. meh ec 6 menið Tag er  hal 6 cag ‘3 i
+Vamp. tae Me teg veg pa ae (med har |
+= Ge engy eta berate. Gar et  titra atm |
+Me mg Le mt he Vin or fag |
+PN ba de iða AN ør mem Hp bæbæ. - |
+3 REG fee   þóf rape eye -
+ke md Biter Ak høg: eg a Å
+ps to pac ge pre het haps Rags mið he dt
+Pate Fe sce Obs bade ar bann. fice te larg Wyo ear pays,
+GE hogy Ég få ig. va fapnt á 1B þa apr; høve heve EG
+Be ga Oe Sj TE ae
+RD SEN |
+KA JE Veit aga eie KR ÆR a |
+Re KEN ða sees KN,```
 
 ## Modern English Translation (Plain, Aligned)
 ```

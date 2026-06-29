@@ -24,8 +24,28 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+í    oles þina KG  Be  iY ah Vea VE ape
+FL ER
+Fr ceiagt ey ewe
+a              já þv  gt Sk #. ALANTANDA  VP 41 á hals, AEE an |
+8  Kg le tb ; a þe fick á, foe FEN
+GR       twat ep fama f Tha, Der par poe ant í.
+7 á +  lat å laid  pA ee
+Km meny, Par øfyne é hvar av ap fe iheey Bett er Å
+| ere Neen |
+|“, Ehralprat. þá ape copy feb dáð veg gagn. Søs
+ey:    Gres ine bler Gat sinwr pf apen hat Å
+þat Sobre maven. þvagi bee ie barbs banana tig ie
+fr. fhøp av      å taka ons “Co: Pho ET ae
+an:
+J Fe parent Sue Sutbs tent bul Bar pe
+var ere Jelle ar 0) ja Å mn mia gb bel
+Kvåle omg find m; nm. 63: Gajus yt ee he 7).
+le ea onde ár "ce Ach Segway
+chap S91 pan nn. SR oe Nr fire
+bi 4 her 0 ja høge fre våpeid vene. vy þe bua Å
+KP ee ee a Sie  a eae
+A oe sg. FER SR MG```
 
 ## Modern English Translation (Plain, Aligned)
 ```

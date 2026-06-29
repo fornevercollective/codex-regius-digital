@@ -24,8 +24,41 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+oa TTS ap
+ae AE rør ør dl
+ET TNT
+å EG Å   genial vera þar í fremiia my Me, ran Å EÐ
+GE or i Syne På pode ke En EE GA
+VG  tho, ie nor ud rot í een Todas ©  Gaeta theme kata
+10     Mandel Å        FT NE EET PG ee A ee
+| ry Ws: var dates fer dø er 11 af pan AG
+tec D8 ‘eatin nds EN
+Te gs A falar  va Pia FV groin Si  tha. 4 gi
+MT varp fen fis mand fant aif høger Glen vaya" ed
+ee gee Ene Ws hue 18 tah án En     5
+ee EN Þett oll Aral tela judeitoe DoT Bårreot ae
+ile PO 2S A helo 3 ator as ve 0
+SN Den J APTN) árum så ha lad  Í eg Je Ff
+VL EE tt   MR å Pyro wher á Fog 1  ar DE
+de Fe  Prado. A las Að miða að ee
+EE RO Sel glis. AOD TD COE vad BER TR
+ren SM ur Jo þurfa møje marker MG
+GE noe seat hefing, faa grå. ap. peed: brer OG
+Á á ag een {coped o bn blaðs > abl ti fyr ma
+is 5 ov sit AA allra em puree a Lam ker am
+| op 3 0 Saar a 1250 fem Senn: his No FG
+ity 4     ES (idee other 4 tities Albion Sudip, sín då
+gn hevn bambus nær ay 2 Af mor Nod MG
+Pane 28 Pal Orridaljr Bram foter í ork. bre yin båe Al
+Qe aes mar > nptaþ eig cc Diiga renere» ok
+Tip par høn Gat. fordi  ar eS oF lige ON
+RNA tg for spin bler lay Fenr ardalins  -
+iy | Ra    tno es Me Dae hva pas, SR
+fe ses cot 2101. Ses. vrowies fb, ar alia sn oo
+ses gg å   talar. áls på Fe Jr  ig! DET; kom.
+REST NE VET ge
+GPL JE STI AT AE maa
+Ak ka```
 
 ## Modern English Translation (Plain, Aligned)
 ```

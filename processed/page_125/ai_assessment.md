@@ -24,8 +24,11 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+EGGE GE GM EE EL EE
+40  50  60  70  80  90 100.110 120 130 140  150     J
+TG.
+                     = ða  3  Red  pa 0 65   EEE ii  su  y A
+4```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+og  ek   SPOLE         ki  A sa   a) os ae        .   and:    Arne   9
+| Sp up Dpalgiles heap ve fpena 3 mlt tot,   hrs
+JER DE me. Seiphe tat vc. Gh ee arpø? Å
+KA 8 ee megs
+bibles Ínð:hjeim.i Mia, Dis li  oe Vt
+| AH å AA! Keebøn vik oy ag er  Di, er: VAM  å   Gå ee ts
+| lee’ free nar Í      it Ps 2 Sp foe oe
+| ál ete Linares: hö þurra op mað tea. Obin Teac Å fr |
+| bi na z N jo ben a a at få 6 ábr í - Å RA Le
+"| sf 19 {ahr etv pleura’ #5 har Vår ae fork í  Pr
+Í Í bu  actif oe vek ggínlar; „hóa   að
+EE ep ða            oe ee
+| onga fryde re Vee ala å FEE
+BEG wh dratt fs pay dra fonikomiei a gan fe.
+Pee. å er  spy a? big Få Oo:
+Lie. Or         Då, å   "si  om    Y   "Ær      a © +=
+| sr á dope berae bred A por. org! Hd
+IP tia hee 8 ar mm mangen ee tn nørr far et VG
+Hi AE PÅ Ty togað ne BUS, sn    at EG
+ME adr Å ag Sm de Be    en AGE
+4 tes ið Pino  mo on. k  3 yr På Pe kp |  Å å $ Er
+i ARE SE me
+A ew Å ake Å ÆR:  A a CE ET x cS
+a     ei SE pe ee es```
 
 ## Modern English Translation (Plain, Aligned)
 ```

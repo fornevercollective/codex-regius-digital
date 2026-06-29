@@ -24,8 +24,12 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+OND eo OA FE RAÐAÐ 70 ÞAÐ BR ÞIÐ
+
+le. 10    20    30    40    50    60    70    80    90 100. 176 120 130 140 15
+
+BANAARAAAAAAAMAAAARAMAARAAAARAREA AAR ANNANN NNA N NNA NNA NA AAPA
+|```
 
 ## Modern English Translation (Plain, Aligned)
 ```

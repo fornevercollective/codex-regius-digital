@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+A I å ber tt, A Vi   Ívava  oe it
+; a “ta um Pr an ten   3 |
+a tas pl; gate iba hart    06 Capt | a i
+et ‘pe  ee | |
+BE fen sa þin garða Á de irb |
+| | ER fe bes þá betas. 56 Pa all bet   |
+re ró na te pe   eke Inge Gan   |
+En jaa E Hong ib   tet. |
+GR høl po  Eg  ior Ke Ro Å
+sa SAG bere   Ke ia pr  elg q. I GE
+ne JÁ vålbafte eh : Må frp 1onafts, Spat þer Al
+a Mp di A Í              =   is            ba    A Da   FAK
+Seeks a bö Bi pbt ho ie stores  ie en x  o
+ee pF Wek fo    ? áð fr Salen ¥ Vel fore fa fer ER
+ A be sind   JA    í En    á. ðí Fine. |
+ee Ves chew fo taba. þá ave Pas oy a i ið
+Ég åå að man i jr ei hefna Í  sing poses PB
+: et   hélga ef: h eg  1 hör  ap EÐ  Å
+KE peat  ta ap hel fvava vil   wk He fetpss    4
+æi ga ep  «Age pe Enga |
+si in då (að fs eð sy thára ft fys cp == Å
+repr    Tie ts id mik o£ agen f an : at iF
+EK PG Nate ae  > BE på   =. a ae ær        ar (ee my |
+paket Sib. Bide KN tae  2 nå, de
+A ÅT ait “3 áð pl am kon Ål   ag a
+as. æ me He ee 2  an bra 2             AG V på i å på Å
+eek mg 00 vw      % 8    E J  ul       st Mer NÅ |
+Fe 3 3 bi a) hy oe ae 2         ið  :    GE a ane på og,
+= La FE PO     á
+ SRS 3```
 
 ## Modern English Translation (Plain, Aligned)
 ```

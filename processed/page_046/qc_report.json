@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:20:13.969796+00:00",
+  "timestamp": "2026-06-29T03:00:23.254855+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "ee a eae\neM bad GET f\nPgs þið Tr ona bia oR Gog Bers. a\n\n4 =  wl. Pana baie the bags av trols. ¢   ea\n|: etar lána nea      nb. Ssohide 9, Cobo á ne\nhus          inn         Fs:    å    ow Dre  EE, a\nhe ac fama hope. bæði Há ban þar få ber he yes: Gog\n> - test 8 fopnak ny Wine  í hefir harma mina a\n| saiiþpaþar namo afar. landi Vældrig tøft nr, i dean\nAlin fom om biter ae a\n> ee  Tros Ban mipddar 4 Wye 1 á 7: anga\nVÆLG alga’ ee ne mae |\nfa Sevan et ae vr Ua, 60 mise ine\nrt. a«Pnvard sm lg i JRR WE 4\nPapa gr hele evar’ fond mine. Gpa fyr dag GT\n| meter? os ár pu Ghar pr :  að HE, rer\nKar bana op pot Í løv ögum pa eg has\ná Ån elles å dg fr open va hl Fr\n| eat der fm\neB þri finar å do man ao 3\nføra faser Bef engla Jenda oc 0       Tone Bd\nDØ \\ tag barns Akan rik pre via 6 sár meti a I\nAE (lam por gre tdi ON fo ype",
     "text_preview": "ee a eae\neM bad GET f\nPgs þið Tr ona bia oR Gog Bers. a\n\n4 =  wl. Pana baie the bags av trols. ¢   ea\n|: etar lána nea      nb. Ssohide 9, Cobo á ne\nhus          inn         Fs:    å    ow Dre  EE, a\nhe ac fama hope. bæði Há ban þar få ber he yes: Gog\n> - test 8 fopnak ny Wine  í hefir harma mina a\n| saiiþpaþar namo afar. landi Vældrig tøft nr, i dean\nAlin fom om biter ae a\n> ee  Tros Ban mipddar 4 Wye 1 á 7: anga\nVÆLG alga’ ee ne mae |\nfa Sevan et ae vr Ua, 60 mise ine\nrt. a«Pnvard sm lg i JRR ",
     "char_count": 822,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "ee a eae\neM bad GET f\nPgs þið Tr ona bia oR Gog Bers. a\n\n4 =  wl. Pana baie the bags av trols. ¢   ea\n|: etar lána nea      nb. Ssohide 9, Cobo á ne\nhus          inn         Fs:    å    ow Dre  EE, a\nhe ac fama hope. bæði Há ban þar få ber he yes: Gog\n> - test 8 fopnak ny Wine  í hefir harma mina a\n",
     "corrected_text_preview": "ee a eae\neM bad GET f\nPgs þið Tr ona bia oR Gog Bers. a\n\n4 =  wl. Pana baie the bags av trols. ¢   ea\n|: etar lána nea      nb. Ssohide 9, Cobo á ne\nhus          inn         Fs:    å    ow Dre  EE, a\nhe ac fama hope. bæði Há ban þar få ber he yes: Gog\n> - test 8 fopnak ny Wine  í hefir harma mina a\n",
-    "issue_count": 7,
+    "issue_count": 11,
     "applied_fixes": []
   },
   "issues": [
@@ -165,6 +173,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

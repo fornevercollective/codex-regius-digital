@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+FR Kr
+g REGS     pe Py  på  A  ae NE   >   +h Gå                   )  rt
+I eae THETIC 11410 vor      man z ban E Meh oc JG
+GE is  Be a. 3         pee Pr   : Ey Se Five! AER:  #3. PER.    Uy  G   SØN
+Ke Jr Vær å dm: HE AG     fa hate - " HATET 6 Ss Å
+Ve PE im Oe Gr Å error a 0 DET     art fer fe   Re FEE Å a     is?
+| pr oe. A FÅ ið Ai? pr Peo    wa the ER la & ere    i        Pa
+å ee ee AD  I  4 SN HVETE OG: PRE AG    JB EG     $,     8
+IP tf AR å Å  Á ale vice aie ið    å  å             ©      Ss ws          si           å          Á
+=  tl et RN IÐA A Pr PETN)    5              å           1         ET ae       |    Sp
+sd OE  ET AG  ee 0: BARA ‘3, Be   Å               Vi       eg         FE   ary       Saad
+el aaaay 100, Ah ay oy: A da åå    me hr       fe     4     m OE
+EG ae} Saa  Í a     á    Oo  Ha PE ae  SN   aye?     -
+Ce nr Shay ve ewe              :
+De ger iD EDER + Doubr va                  JE
+jag 4 - ANA of eae ann              óatí ally’ við É    J                   3
+oe ES Á   7 ee Å er  Reg  5:     *    y                               on
+A eg brynter og      må     em Brotece gull; å
+Pee a FÅ ENG  oe    AG            4    ÆR)
+Få :    Ag pe AE    gg  € 1       5                        5      ee Se
+> Wet py pr bera pa   ov 68 fe allta Tar                     å
+ EG Be  hå   på 34-4! 8, å 7 að Z hy   sá ag bo          ents ties              g       å     LE    Z
+HR  A    Vote ihe |     Å   AE      nå te 4943   Raa a   is                   *       pr få
+BØE GØTA ss KE  Hleri    på ign A © ar Ba rn       i    n   VE      å |
+ a   0 faga: EE  ag   10. hø saka    ;   naen  c    cy        eS      nå
+Ke     É     LÆR RS  case                      å          å    2 NT ag Van
+i                           oe   wok  pt pas    AEE                 %  Sa a
+EE ER a tee RL     AQ . 2
+DEE STE EE:  Soe ogee Sa Dar å  AG arian
+Me ali```
 
 ## Modern English Translation (Plain, Aligned)
 ```

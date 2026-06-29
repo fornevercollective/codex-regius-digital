@@ -24,8 +24,40 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+A 8. funnlilde $a føler:    ; Å "
+å    me     aga anna.    gn      mv       —
+18   ae mo  í bæti fat   de wilde TA ——
+pil pa 146 4020 það vi  da Bu enni, G   Sy ted   a
+ka    .      mv: er      og ;       *      n VER a. Í     i are  Ake        3 i FR
+Å      4   og lara. tb  að    mm Mn       Sl     ir
+bone  „ ap et gob 8 fé Ape Å a ah
+bo gw å dv toan, ox  ö romp Shr   ama hd ia SG A un
+Er            eet MK  FER
+Æg  da deg sua tip óp HA þið 0
+rn ae      rainy ot AG      tap Par > ða gp lat de) sam eb a
+JER:   bag aelkt sh fo mo   3 er eee oo |
+:      v. Cratos par d      oltið sapret ye: böð Va. Pt 5  20
+gul før ps  ae lige Sie
+Å    hår AE SE   a nina pre 3 una abit   2  a NET mi Mp ee
+os.         ip:     EN    3     ANS       bat     rat na Er PE
+Gp amber   ge Nr      a Ke sols p MAL Er
+META   pia pronar ree 1 Ba pod p g KE
+em 015 o.l fa år DE i
+lið    :  fa fat   ES     ip mal     EE Ke iðar eg 1  ard 2 ide ør Se eae
+7? eg Vá    Fret fon mór tå Taree iða Á NØT
+æð    se re     COD 24%     ge so Ar LE DER i tg Fre
+Å       PE Á CE                                  %      Tae   &  SY    9      Å   á
+ 28  oe © Tåke    a as  i Å AR re PS ver slit" Ry EA  Ag My ot
+KRETA MENE pg * Pre KR
+Å    se 3 OR OR EN tat ine „bert |  Fe oe
+ Á        pe  RDS   = 5   ;   A tor Ne
+a      A      ör st ME Å = ae hae oe
+VAR pr ae    PE SA ve 17g å AO
+Bed ee ges 2 Ær JÅ      > Joe Ea Se ag      JE $ SN,
+Å   Pe ene  20   zt  ee       ?      je 750       Se    =           J    “ite   ae
+JET ae rs ee   ep    að Ser SEG á
+ng a A si            2 í ey r of
+$    Er JE  55 Gi ge```
 
 ## Modern English Translation (Plain, Aligned)
 ```

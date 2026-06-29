@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:47:41.397840+00:00",
+  "timestamp": "2026-06-29T03:01:39.626338+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "EG Se)  ply aa 4]\nSET ‘Tee ven is  Me a\nPoE indiana otto hen      fn hvil      Å\npi ET EDNA pie    VG BA þv awe,            TN\nVE ge  i OY      in mol fe. þ    GR NG   að 2 ‘4 Bj\nJe he ar Rud å     (å År fiken het corm an |\nogee  es   å  he     å      pe   x      å     g   ik             roe\nBens’ HØNE go fina. Ev ar nær        Oba 7    An 9 MN Å\ngr fegdu Grip i ar a Á and vapte      0 468 raha.\na oye. Chief tab, fyri sur A sikk bo ancy run           Bg?\nMae ‘oar io beið var  as fo rata é velar Vg vn ae |\na Cait arð fuaena ef E þv cigr vel ap var G ha Stamey, å\nJE aner  øv þ. Beng ve dd ae |\n a í etter fc   vél pá ví  gr anna å\nOE ve  ac pe A     í  a oe    ete |\nFr > ja tt Ri vel  “    v gaga fp    et ads omg    MR\nTE pt jm 7  a  ar óngð  3 or dd\nie we, ab ae %. bana  yor FE. huga. br amobd 45\nKM gi  sete Banna. þ   vac ve K\nET      á et Sar ør\nå   EM  OPP       á            #            6s tied    ”    A  RR\nEG gg lagte 4  fi     þet. of que fører b ae\npe Å set  Hu ie   Me   A   %                     mina  . a NR ER Å\nrn en popes Mies a are\nee OF té fp. pay a\n be Oey aes KRG å  BE P. add AN |\nRØE ve å MAE  ot ic OF,   %   SR    A ate\nør RT å  ert eg = á    EF  Me tg! 1\n’ EE 5 Ree ake  pr Á    på   Cari, ib es       a       alert      Lu En SA  Å\nA „ft ar EE Å kg å  se oe\nLS oe, Á",
     "text_preview": "EG Se)  ply aa 4]\nSET ‘Tee ven is  Me a\nPoE indiana otto hen      fn hvil      Å\npi ET EDNA pie    VG BA þv awe,            TN\nVE ge  i OY      in mol fe. þ    GR NG   að 2 ‘4 Bj\nJe he ar Rud å     (å År fiken het corm an |\nogee  es   å  he     å      pe   x      å     g   ik             roe\nBens’ HØNE go fina. Ev ar nær        Oba 7    An 9 MN Å\ngr fegdu Grip i ar a Á and vapte      0 468 raha.\na oye. Chief tab, fyri sur A sikk bo ancy run           Bg?\nMae ‘oar io beið var  as fo rata é velar ",
     "char_count": 1302,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "EG Se)  ply aa 4]\nSET ‘Tee ven is  Me a\nPoE indiana otto hen      fn hvil      Å\npi ET EDNA pie    VG BA þv awe,            TN\nVE ge  i OY      in mol fe. þ    GR NG   að 2 ‘4 Bj\nJe he ar Rud å     (å År fiken het corm an |\nogee  es   å  he     å      pe   x      å     g   ik             roe\nBens’ H",
     "corrected_text_preview": "EG Se)  ply aa 4]\nSET ‘Tee ven is  Me a\nPoE indiana otto hen      fn hvil      Å\npi ET EDNA pie    VG BA þv awe,            TN\nVE ge  i OY      in mol fe. þ    GR NG   að 2 ‘4 Bj\nJe he ar Rud å     (å År fiken het corm an |\nogee  es   å  he     å      pe   x      å     g   ik             roe\nBens’ H",
-    "issue_count": 5,
+    "issue_count": 16,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,105 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 29: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 30: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

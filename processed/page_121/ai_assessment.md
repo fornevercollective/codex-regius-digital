@@ -24,8 +24,18 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+{HITT FEE TET ETE FOOT T ME pEr I PEFGGp OT EEE org
+„10 20 30 40  0 60  )  81  90 100 110 120 130 140 150
+AAR ANA NAAR AAR AAAPM AM AAR AAARAAAAAAAAAAAAAAAAANAAMNAMANAMAMANAAMMMANANAAMAAANNAAAAMANANAMMAMAAANNAMENNN
+i) j
+
+i
+
+å
+
+|             4                s
+
+Á```
 
 ## Modern English Translation (Plain, Aligned)
 ```

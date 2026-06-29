@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+GE PE Sh sae Mea ag ee A
+4, io å sms fa Cabo Bor cami ony ere RO.
+ER ob onal ode på omg Sönn Mien Í
+
+Í Á tanga ab racy bor com ene“ þan vi me balks, VE
+a. þar  ak  pt ein  ep    br, 41
+er da tanten mos hives Woes rd
+RE KE de | fagskyitnar óte 930
+Go á ¥  her et å fa: © borar“ OF glor     soft scene ye am Á
+Elna dl   up pm ol va lp fake  |
+ao Sá 0 ad barb 6 bor bmivi íss 4 bolet. Å |
+k: ae * þa    a Af ma) ;  EG  OT     :  Zz 0 på å  A
+eo ag      ta dn mikes ere å visi. dup > bat hymt - - |
+| © Hep þaðan of opt hale bird, ar ral ale |
+Ly feng ov  call val map Es: Ag
+bBo vin lin trim a etg) Í
+kote  ér Moray aper puagr þv eve alke oy her tq. Å
+PE JET Aar Og MA         et 020 at kro}, høyr vprtet: 9
+fiom fa at Don hå kyn fe mais í |
+peel PMY 9 198900 pe øl: map stal bøjferahag |
+br OPN lar pinsen 2981 Ve Kevtto... eo leig Ro |
+Neck nit eer oþið Noto fi, fa Å eben ms byl Á
+Acs vala Å alla yp | 280 í icc stp .  ‘ a í  a å
+a0          oe    ey      Fer         AR a No  ÚR```
 
 ## Modern English Translation (Plain, Aligned)
 ```

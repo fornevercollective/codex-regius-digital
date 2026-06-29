@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ag  ri ek ke $ po ™ mal Å
+je å Í “ilo opm Fi på Sis ge Í
+ eel ae tae nat Coreen Á
+| å sy mf LA leyne  jödt osar. ða basa. |
+høgre et pr ed
+ve vat: pi ee oh ia el Peed Í
+FY A fie closet sain ited |
+ae one    von hae   nn
+-   ts ll  der fee heller tar må Ge på tye |
+jeg EE ES
+ee Gee igh bee mat en een i LR
+hae Gs: jeg SF far ar   eg    TEA   CDA.» friðað rr a
++ ee. hæða rad bb ener evens fot  nt bua  5
+hå ett Kr Sa hen
+a.   var   | veist     L tamer di  *   Sat   Ji
+a høne Í ng 2 fa a hag dn ce |
+5 bola  Eg nie rek AA  - poe PR
+TE er spenn   aa Beker | å
+fo på {ex po fin Fa heima 28 og vl þol N
+En] ar pt B  big hh PJ or  W
+er  BPPe DD He á EÐ  /   me ef ote          |
+oo: ge Ey otk     |      —
+på å PE. Sen            AE
+SG ie  Ue ve A aa ad      Å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

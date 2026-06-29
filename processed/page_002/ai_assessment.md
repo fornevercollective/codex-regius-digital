@@ -24,8 +24,7 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

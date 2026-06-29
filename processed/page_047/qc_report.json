@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:21:50.512514+00:00",
+  "timestamp": "2026-06-29T03:00:26.360871+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "þan pr att å yb   Dv. ey Å of Å\nEÐ  5 hagen put    said PODS wpa. Å  A - 6\nam Í\naia ee oe if vat. fina hole. eð Agge Á\nfå mal å (2800 p rað V iis homme ib oc vedr Ho vitja maten. “1\nCae Boerne beeps ri BA þina. her fire sið néa, Af\nEM tacoma as. å jal, Valar væ imam § 7\npeers ue ony aes eytt bom bag AN Á,\nRE en ys a horn pats EM\nGT TE one alef 4 rap cpr viser beia pep IN\nET ið ecg Oe yl  ir |\nBL nay yal ee sg SN A   ix: Se\ngn oe has bie EN, ge gaat See JER\nEG wba ess  fo os ce fibarana segn nn Bengt\nrn hage ri gen DAR P END EE\npo herti kane hvid ar fog ake þé ee vil] 1. ku sey |\nså en ait Diet egy  = at við. Í fu rep bee Ap\n0 lør alda fons bert rom As  hm    AE alið 2\nF- sejee, Calla vega Dane. 140M 10  ae  \"de, halla ap 5 7 ||\npn Di oe ee Sk amt here 4 heim blir:\n| ot hr  Eyr 0008 alla vindøpnngpaf vp her Å 1H\neo naga nå vert Shyer ttvpan fal, Sep tei hfö“ Å\nmáni ha h  m þá Beha jam hm En\nKR gat Rualgar-arcala. Dum.pi hve fv fat he ha  a þó. A\nin ate ne via gop. had: byninl een. eygló ae. Í}\neae Ss hvel álftir afadypeS.m.b, hve bar for herra HE\nTR her ha Sey h.mi.d8. of fer nit” aft\nMe 980 Armor wat. wr van sønn alee meat Bey” ld\nSoa    a ee   ae Oe 7\nEe       V NN áð ewe ee |",
     "text_preview": "þan pr att å yb   Dv. ey Å of Å\nEÐ  5 hagen put    said PODS wpa. Å  A - 6\nam Í\naia ee oe if vat. fina hole. eð Agge Á\nfå mal å (2800 p rað V iis homme ib oc vedr Ho vitja maten. “1\nCae Boerne beeps ri BA þina. her fire sið néa, Af\nEM tacoma as. å jal, Valar væ imam § 7\npeers ue ony aes eytt bom bag AN Á,\nRE en ys a horn pats EM\nGT TE one alef 4 rap cpr viser beia pep IN\nET ið ecg Oe yl  ir |\nBL nay yal ee sg SN A   ix: Se\ngn oe has bie EN, ge gaat See JER\nEG wba ess  fo os ce fibarana segn nn B",
     "char_count": 1196,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "þan pr att å yb   Dv. ey Å of Å\nEÐ  5 hagen put    said PODS wpa. Å  A - 6\nam Í\naia ee oe if vat. fina hole. eð Agge Á\nfå mal å (2800 p rað V iis homme ib oc vedr Ho vitja maten. “1\nCae Boerne beeps ri BA þina. her fire sið néa, Af\nEM tacoma as. å jal, Valar væ imam § 7\npeers ue ony aes eytt bom bag",
     "corrected_text_preview": "þan pr att å yb   Dv. ey Å of Å\nEÐ  5 hagen put    said PODS wpa. Å  A - 6\nam Í\naia ee oe if vat. fina hole. eð Agge Á\nfå mal å (2800 p rað V iis homme ib oc vedr Ho vitja maten. “1\nCae Boerne beeps ri BA þina. her fire sið néa, Af\nEM tacoma as. å jal, Valar væ imam § 7\npeers ue ony aes eytt bom bag",
-    "issue_count": 3,
+    "issue_count": 12,
     "applied_fixes": []
   },
   "issues": [
@@ -129,6 +137,87 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 30: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

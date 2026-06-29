@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:51:21.590177+00:00",
+  "timestamp": "2026-06-29T02:59:12.130792+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "on sa hoodie hen N\nEg som tr 2 MA ita  A tock a\nagi  Hagi i å må  e.V  me få |\nað Å  le 2 a að  á Á gin   Gå   , rad\nFi nan |\nape alene |  er ban føra {xt þat. Bi Å\nið Byene sAltag     ar       Le ry) hel tróðaðy høgd Å.\nØh oe E  vi RO Å på i18  Løe)    | GÅ gt Jrolp : te fay å RL. å Fo\n sn lagðar Me Sg - i ho   el fre  “ae\nKN de 0    he a et   | pe, sk\nee lat. he hep umrøæt rår þaér regn DeyrA gia t 1 Cae |\nHe. ap bape p   Nr bar pen Be EN\nLae BA Hise: «ol Å  da  þínar þ     thér. ee bo   ae GE q\niG eo es   ee omni: agar ind Fureran að  beg a\nBEG ee      Sg haminge å : Tapa SU   oe 5 5 fa tog a\na Clocniat fore rang A lor Safn Á  at hh\nLS cone angler |   Sip see sn 2 mt å\neo “ee ga0pa vage trtapta Wypta Ta that fiat 19 å\neee ae    hafna           =       aat      ør      VARE  ið\nEE en     raft. Sag Ap        trap ia LP\nve Lira by sone þver Te bose fog þrána CE å\nLå ae jf. mA og aah, i = tja ab {pect   fv as Í\nieee! Meare te ril bit eA Pr å is =; |\nWe os Fe Rag i pokes Ae ae Se  Å\nBET has be á tg md sd  ca å Mad kv PA ss ae:      Å\nSao å j áð  a TG",
     "text_preview": "on sa hoodie hen N\nEg som tr 2 MA ita  A tock a\nagi  Hagi i å må  e.V  me få |\nað Å  le 2 a að  á Á gin   Gå   , rad\nFi nan |\nape alene |  er ban føra {xt þat. Bi Å\nið Byene sAltag     ar       Le ry) hel tróðaðy høgd Å.\nØh oe E  vi RO Å på i18  Løe)    | GÅ gt Jrolp : te fay å RL. å Fo\n sn lagðar Me Sg - i ho   el fre  “ae\nKN de 0    he a et   | pe, sk\nee lat. he hep umrøæt rår þaér regn DeyrA gia t 1 Cae |\nHe. ap bape p   Nr bar pen Be EN\nLae BA Hise: «ol Å  da  þínar þ     thér. ee bo   ae GE",
     "char_count": 1064,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "on sa hoodie hen N\nEg som tr 2 MA ita  A tock a\nagi  Hagi i å må  e.V  me få |\nað Å  le 2 a að  á Á gin   Gå   , rad\nFi nan |\nape alene |  er ban føra {xt þat. Bi Å\nið Byene sAltag     ar       Le ry) hel tróðaðy høgd Å.\nØh oe E  vi RO Å på i18  Løe)    | GÅ gt Jrolp : te fay å RL. å Fo\n sn lagðar M",
     "corrected_text_preview": "on sa hoodie hen N\nEg som tr 2 MA ita  A tock a\nagi  Hagi i å må  e.V  me få |\nað Å  le 2 a að  á Á gin   Gå   , rad\nFi nan |\nape alene |  er ban føra {xt þat. Bi Å\nið Byene sAltag     ar       Le ry) hel tróðaðy høgd Å.\nØh oe E  vi RO Å på i18  Løe)    | GÅ gt Jrolp : te fay å RL. å Fo\n sn lagðar M",
-    "issue_count": 8,
+    "issue_count": 13,
     "applied_fixes": []
   },
   "issues": [
@@ -174,6 +182,51 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

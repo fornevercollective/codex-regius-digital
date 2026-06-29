@@ -24,8 +24,29 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+fr Meer em cap ti Cosvap að. age A 23
+Feier t  ata foman abst vo PS å
+pe ke met mia Vea | på E AV a a wie i DM ont a)
+løk fay roam. velar og hayda vi myreripo: þa bat welca boy í
+lå. Bøkene Å Pisa  bee ET  tod að
+gm þr TN ft Vice býli ht
+endrede vade rms bardag brvp bælu: å JP
+| get © ath ferrac.oþug arzla él) por þé brv pala, 5
+A þiela he agent    å þv fiver wy; als lat gibv jas
+Ga vel bv pa på porto þet biðla nef Sac:
+nr. jm å en Teg 2
+menn flax’ frið, Type Fo pr førto falar éfatgr bd
+po dz ania, biþ Cod ak EY fa me í
+foren Be fra    fyr;    fr mre bærpe gas a webs gør Å
+þa Árið arte po ae brá: aes
+i mk, Cesar mote open DES DS  ge té Vipena ek
+lat þa. be t þá ver     MA RY Breen nd  ep
+
+EA re vera hispalla, ls vane. på JG
+
+IE hh AD å
+Es a MA EE
+EG a```
 
 ## Modern English Translation (Plain, Aligned)
 ```

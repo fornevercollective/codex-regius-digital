@@ -24,8 +24,25 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+[  fl    (bl          I          ARAARRA AAA A IANA I A ih | | I di 1 þ |   FETTTTT,    ||    TTT    1   |      TTT  1
+re        Go Re          GE a ae se
+de       ey Á    +    3   “   | a  Å       2,   ME     å    ge         ‘   *                           Vin
+MSG GAME < aid >     eu
+> NÆR        & AA       =      2         i        4           eh   |
+P   a      å       på     %    =            Ms ey                   “ AN             A          3                      Ar
+;                  AR      HV                           |             |          iH
+                    Leg         re?   e            |   7          Hy
+å                                          UP             a-     es      í                                     på         Å   y
+í                                            EA \  ea >                  ef  Pa              å                  å     $        ed        |
+Á                      JÅ     |              la  OK Ui
+>       . fe     }         |          }
+Ne     Ven          Øk"         VM
+                  madame             N
+å     í                 f                                               á  i           p 3                     í }
+i                                             Nm                 |     OG
+;                 gr     á          Í                -    SJ]
+å                               ,  “Se  é  3    >       Ne         “2  å  i  å   sé Å ;
+E      =.                                  mm     hl    art PA    EE xs sn```
 
 ## Modern English Translation (Plain, Aligned)
 ```

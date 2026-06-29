@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Vik ærme   fn VEN Å  Er  tape“ ki)
+NA agus ott   € ec hay 1 yra 182 star  aig hs a
+Fo em inher ee ae hats bag gay 23
+RT:     3
+by keen ee oe
+PT Lean ol hag oe! rir Dalia Bare alone arse, Å  i.
+Da > gott 9 bal is bana Gohs drepequena opa she te
+bh    títt av    Ae þóra sterar ar bnyga op hi San  he ke Å
+be aðila að hva ae
+LPR RT ara ecg hj ge
+ks li eir pa tat
+í    nia, þekur | jern lagar  ‘Sat fen bert og fy
+fiom etl ag oy a ft Ap des |
+fb nað ra aper þes oa syr vanne AEE
+up     te tec ove fylla Cea Bret ið basar  Ea
+bed yr Fe apy kar He a a
+    tg cap fora forpe Aveinar hl ler  2 al
+LS A
+de     Ne vaboc  ke Ti var gi er 11106 ak EN
+vore árnar gagn MG | bes  hgn & he no TE
+Dr RDS TE elfa ee eo bbe   mv: 0 7 GR ae
+ne fun rien ete ge SA
+ BT  mo mm  Maga  þv ða av w Ucatoty PE
+he       frr     HOK Vi Drøpra blær ce pr Å PENE Ve
+io (pores 7 avem BAUG ro EE ar vo
+Fer: a na Dere pgs le a at vr
+Á eco sacs baton  ko ne |
+GET ET NR```
 
 ## Modern English Translation (Plain, Aligned)
 ```

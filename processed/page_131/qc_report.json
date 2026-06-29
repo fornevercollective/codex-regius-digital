@@ -1,0 +1,164 @@
+{
+  "page": 131,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "needs_review",
+  "timestamp": "2026-06-29T03:04:33.940186+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2696,
+            1798
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.992,
+      "raw_blur": 430.78,
+      "enhanced_blur": 407.81,
+      "raw_contrast": 72.04,
+      "enhanced_contrast": 70.0,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.8185,
+      "raw_blur": 430.78,
+      "enhanced_blur": 868.91,
+      "raw_contrast": 72.04,
+      "enhanced_contrast": 96.41,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
+    "text_preview": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
+    "char_count": 240,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
+    "corrected_text_preview": "tJ gym\n20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €\nONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =\nð\n|                              s\n                         ro\nFå\nfh\nel\n,\n»\ni\nI                            |\nA          d 4\nå\ni",
+    "issue_count": 6,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "error",
+      "code": "DIGIT_NOISE",
+      "message": "Line 2: high digit ratio — likely OCR noise.",
+      "suggestion": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 5: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

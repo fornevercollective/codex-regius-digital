@@ -24,8 +24,26 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ES Jagge av 1 En MT aai  oF
+eu ea ee
+Ke   Bi ae inl PE pin ples Á XX
+eee   „habe Á
+„ða BS. Me PV pms 4  de bn   8
+NÅ o hen Vg 2 hal he þú to mår eran   É í
+FT mise T\a 6 8 Pod ke, botn a ale den   Å
+NE EG for peer lena  be 2
+“anos ye ba. Co Pha  pe keg bs ungar  &
+reg FA Vi ax å da mel asap í Á
+te ae see ale 3 a págd: 7 “a hypen” så
+= em Ten Gb TAY Roma ets ©    G  NY viltre.
+Ede le om ið a} vi þamda 4
+fi a þín chip.  Etta |
+       SES Ke sin. des)  Sg x þó      PI
+TN a hal |
+ask NET  Te Sor
+ ET ar me
+
+25.5 ce de oaks SR ines```
 
 ## Modern English Translation (Plain, Aligned)
 ```

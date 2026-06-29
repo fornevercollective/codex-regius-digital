@@ -24,8 +24,41 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Tyl -  á =
+» Kr     :  2   Be RA     TR     A
+å      ;         ae bili Bis  3 os ge Seas ike ae
+øret vid te,   göðla/ fødde eð tam AA bunter fbalde dr å
+Gr ar esta óbilg        ;        seka vr piigra bday    Sg
+a       siða                          + he    feArvå 1340 L biða apes Gr
+|   st            9                                  ap.  å  Å ane ag ent pe SAP ; ið  så   ie a eS >
+å         tóta roes, herða g art må A spend pio % áð belie
+fi... flo h fi       Á & hon {fey  oe a * hin Tex IT  to
+å                på                            æt   se        4 Vee PGS 9     19 >, PG   10 Fede ne å;
+EG        i nytt       wo   væ Pb  Bee Shs 25 tak eats ae
+Ææ    %  2)   Ár        FRA OG   AR “Tyas ða ir Sá heh is tae
+:     EN eg pr numer   li,  a | as Zev vn pos
+Å                  ve                4               ‘   ee   SG A    Lai ae Ae Bare Ko: #3
+ie fytter fe           engla tab. hen ner þa
+Ar    Deu            BAe    ti 6 å GE PE vr a
+a            a gi gg   pe 0 vere gels be poets og
+om              "he        ar gen    öli     å       DU LU  yo in Då Å  Tee å ne 7 å
+Ki:     eee HE rar vit    eee et hið | I FS
+yi prs lo Ko fond Í      * NA port te Jono ES a
+Ms  By  om        Å        åg 7%    VESEN   1500 -P  a  Ae,    Ei
+ty: hag   805 400.   løpa  at do wih alent 1005 3 å FG
+ee             CA    på     EV NÅ Pk å DE  Er a
+ie      1, Hone.      havclialea leggi ge Ag Be Den, 2
+Ei hva lr      age ab Fah fori Gs hetpe ayes ee
+-      TR   om      hys   heise þá eter, þv 3 ide EG 3
+ee  p  gå.   pr     op ITU        å  rå  FG ee Ut 4  > sete yt pa me FE
+vr, veg HOS    vais ted uaa       ors 0180 ie gatas ll  ve = LE Å
+Ge áð hip 389    Lee    La pA „fm pe ÆÐ
+ES OLD    Á RE å      fr A A A oe
+(Weg vida |  å or vð FSP J  lect, Beek
+a eee die! aaa   D ae te  att JV    ae or Ove  cans A DE ae
+ða að oe a age 1009 pr   Köp
+ER age                  fr  >  Mi LET Fe)
+NER SG Er Aes: oe # ES å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

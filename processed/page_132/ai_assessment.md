@@ -24,8 +24,18 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+LT GER TTT NN
+10     20 30 40     50 60     70     80     90 100 Y110 120 130 140    150
+ss RAA RNA AAR AAANAANAAANNAAN NANA nn ANANANANANANANAOAMAAAAAMAAAMAMAANANANEN hdd
+                              Gee vanzar micic í
+p
+å
+,                                                                                                            |
+i                                                                                                             |
+p
+i
+i
+|         Å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

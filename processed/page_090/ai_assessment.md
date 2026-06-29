@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+tA  SEN aa pest CN cg ag   By  gee     "ye å       oR,
+Hees or di ae Ay ANE 8 fae po, alge,  ee oe        Ci Ao  3} a:
+roses | dele å ae | Bet solo tool
+| GE TE Po Ter he 190] A Aya”  a & å   Pong: a      í Ar  HE í  f    vel   ved    Å
+ee fama foe 0-0      {      a 980-466 fatniködo fy ui
+| SJ PR ees TONS ste Say BEE   CT Å  få       å ST ME
+|  to frais  + ee Oa å au       i var.  i  by ie tes A ES
+ae}:   Å:  ty da   þr 2]    vg   å ille PA a
+ss ber  "talp nå AS{z A ee        Ata tepts gt    eg
+Be OLS pa Å sa hå ride hedks tha fs  ‘or nn ið ee’
+tea Oh hens quan mE ends. Alvl    D korn, Shei SE
+gr baba JER Quen whe hag  „áfsls hvetoh 6 yn one  sad
+Í eG Meo Pa ek 2 tes     á hó hand.  ee aa, Å Se ee
+le eal esi 5 SE Ye ta a oe Je a Beet             S   PA GAS Ta Ye '        SER
+lr Pe þett fyr be ET ee kai yd Bj
+å ae LR  bo wigs Í Meee salþ a Merny Wis: Meee ce |
+reg AA in: cab rager le Ree hor af op AN
+Ne Pee pas Sn Å EE ER gr Tiga 1 Kr DEG
+ihe Å   þu cages ere, BG by ee ee a oe eg es oa Bredt.
+RØE Ne na Wh ht ae Kr
+A  Were ay A ee ee Se ie SR  ote ae re Bø KG hr Se  =    a EG ar  NN så
+MEGET å pene å Vi we ee ba Km ee Pas
+cre aay ates     da Er EET Er SP
+| ea Vier å EN AE RE lg   wa. eee
+BUER an GET Soe Wore NT 1 JJ
+TJ DE EE AE EE GER FE ee, )
+e hå     Pr aoe ul wee ae * EG ae Se Sør Á a 3
+|       et BE Soe 2 SPE ve ae VE
+å                                GE ee oes aaa  ae   øy Nr,  FR:
+ON EEE    å ag DE ch gd```
 
 ## Modern English Translation (Plain, Aligned)
 ```

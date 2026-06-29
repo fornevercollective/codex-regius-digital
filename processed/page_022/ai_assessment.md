@@ -24,8 +24,42 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+PE vos APR, fy OG rn ER
+na fag og jól tub hole 2 80 secure ts”
+på þer faga. Gp ts fom. ey 4 Aye Salig day sög es
+FE stare worge fo ved alge mae. Sjós bern >
+bh ve hoe. abet Mr Es
+p< verter b. tora vb. leita Win.h-loa E.. Beren erobe > 4
+ES bre oy fe bor Cor &-salt quoi. þef orøfense eg tege Á.
+KS fro og fe opblorip sy | Lg Bn ti ME på Ar
+by low. 5 purde ð veitt få þioþa í hånt tons veke
+mage map her err ay þú hrálpa mí en  ae
+Sn Dolo.) ay et 11. ef sh Lp lbs   hier |
+på ect. Gr Ole Parry wal: fee, Sanna betpe mnogo Å Å
+IV opar ec neyti mia alot break Leah ‘ae bee? oe
+BP Kec ec. cyt pyar Vá, bætið ac bag lem3. og eo
+BF cc inga ma Tyler goed socom Ég burði hag. „Á
+a re Teor  let apoler vada plyg BSB 4
+KP se 2 Ike ane 5 fønsop tes Breed vi gem Å
+Mon are ek   val pias: m bot ete herpra 4p fay
+of lew begrators   á,      E ee TC AND. (3 6 fe havn  vi NE |
+fl yn, å alldey nyetamhet =
+ey fom ov anita araala.  my hittingl fond B mae byn be Å
+Ag at nen. høna TE ferder tA, ýti eNO alr .
+EDRs sg me 1 ae-alla fe. BR preg: at
+Vide Í   hag 6 af &    ome ar pr ville para ii Sy
+Benne Inca let á, "Bre age beste
+4 eas ha bana, fina ha høg. Val. þr rahe pat bed % hó | Í
+ba engine 018 vette 6   herir hvalpen, í  cosh, |
+ny Fo 3  we   1984 {nin forma.  På    > gå      '   åå fk, ae Å Må
+ae Of te         st. Pag pan ORME: DE
+ree FÁ -      vemdr vm. Ð  ‘i  vem eet |
+A Spa varm å invnaþ % palé   Ér Ke
+a     ar å hid. PD Kec þorn. GET  nå  il
+iy pg fa be Ss Pe tn, i Yap dø
+Feet +, Pes ee oe a esa JET bag åser
+Í fheve  A oe er ae
+ME oad a TEN PIER DN```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -11,7 +11,9 @@
     "ai_assessment.md",
     "etymology.md",
     "doodles_catalog.md",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "qc_report.json",
+    "qc_report.md"
   ],
   "poem": "",
   "original_text": "",
@@ -19,5 +21,8 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:23.085617+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T02:29:03.442190+00:00"
+  "grok_enhanced_at": "2026-06-29T02:29:03.442190+00:00",
+  "qc_status": "ok",
+  "qc_at": "2026-06-29T03:00:43.887756+00:00",
+  "qc_issue_count": 9
 }

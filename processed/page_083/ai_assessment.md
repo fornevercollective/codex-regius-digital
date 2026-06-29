@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+— art is Ss w 7  PM     #3,             A  fn ante et   Å   KG
+pe  re Sok pt  ‘babe 2 bor bio friga           es
+IN yt ean EO ex    m To? bora/e    9     sáð
+FN a yore ið vo vil fom. fytt i hal       w OF
+re de : DØ SA Fr   av: DET VI      De    å            th, þig  %   $     x a
+> SPR SR get uk   Fa                 alma           i
+å eg pet eee SS  brynna           $     tå  nef   4
+
+IS Tepe Wha tæpa. cee      a DY        ty   vu       st
+| a r pila en pr Mer     |     Srecha fake   a
+bi eee ook repens Pa 2       glade hinge |
+iy Ie  et be ee VE ion  á din, formats    |
+Gid ng hoe    þer kr A |
+A re as lab lignin 0 006       ¢ ¥ þa slepmby Ege -   a
+
+s  af | e Íoþi op    op ho       Bar       g       Ni
+de og ED te ør Nl ri  fe av
+
+N då   ge gl gr ot       for MG
+jer ga ee 8 ge us le Ale Å     Å
+
+. Sik 5 via     itt. eee od la  he    ;  þv    JÅ MN  het GN
+Fhe og  iv a år pig alle par © ulin: þín 8
+FE. gr 6 (rw 4 ser BR      bætva an  , bera. dt SEN
+Á pr Mandy FEN          Q      GE
+NSR PS að Á a SR FR Roer at      on 9      NE ei
+ER ee             oe
+een EE rn Mr for  Big EG Peet S I. EE```
 
 ## Modern English Translation (Plain, Aligned)
 ```

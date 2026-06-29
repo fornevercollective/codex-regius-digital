@@ -24,8 +24,44 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Å > dl GN MT TE  >
+Å FE ipa Lead. hr er oe Å Pr re
+1  EL a ae ccs SE  —
+Í | Me uer    Bs  ai ser  ll å    etan   VE JG ER
+| de EE        ar     Up Pinte 06) TE fa Den Å    eigd ag Sey
+wy    ba FE AG   a  ee  iv AÐ. A   01D iy. |    vee   på” |
+he    EG 4    meta 41. fon cae    SF ee pr  hi Å fos ov ar |
+ØP er kr VA ps:     :   "INA Å -   YEE FG dat Å)  4   KANG a Ga
+Fo vole. br        A. Wer ery Maal ;   sald: Hache at
+4 BS 28  jee a id  í   ae a  K ¢         “ A it  Bj Ká      14  å   å  Fe var Få á å  DÅ
+dl 230 par Gs Wee JE TRS   tp agan egil hr GE
+|  PE  =   Oe Sore age Se 3 VÅT | eh OP vð 4 Lot  Kae At Zug Må
+  ae: et. AP shar ATA å not 111: a a bi ea wid 1024 Eg å  os
+a   BØ >> FA í   2    ER Be    MÆ åt BE HØY   9     i  á a  en lae  VE    |
+PR   Á        é  Sot, KG   Å Ve Po   EE dee   DOT.    Kg |
+4     å SM pi Fa fáni våge A 4B (vantyorby, pe
+A EA    2 very: plus fa yen
+|    2 A M «PB å GOL Lip Pe  VE Ar  en "å  Ar ee SG id   ee 8) : ner Bt ee
+eee PG Re OF ar mv ret it   vr   far ask iða Aeg
+  al) Hav SR Å TÅ Ay ta  0 fan ge           A
+1 A  6 Y    MED GIT Vie Ae 'ð Alm Poin se, il í «i pe
+ER eh iV  Á     |   Eg Bis DE mon: Å å AN aie  <i
+ko ame  page My yard  MO he PR “hap ome ai
+hives rd  A hd                 bey VIET Et Mh! hale ag 9   ian A. a å    ys See N
+eg og we. nað  fl Jorn fen ky. |
+ee   7   hd      Ty    Å ck ee    ry ae Lt  Han ah» sr NS
+N- £  ág        ye ge? Be Se  Å  A   A rd væ oy Mar
+| lv fæ á ll  Ay Tob flagpsb 2 HEG Ke
+Bom 5 Sant  Å seta Wau ert gar
+es á  Lies    :     %   Tomer ‘ahaa A ae eee Of et Ha   oy,
+fr ce        ry         re MN  MOS
+reg       2 a  Kr)     nå. Pr)... en ae 1,    KEN
+að ið Å vn     ØRN \ Moe er GR  SE Sete  Tea cars noe
+hie i   ål      SG 3              vir)    sy          0       ið   #        >   PE    it     ps oe. ER ES
+sæ sr AE eg  SJØ KE ge EN
+i eh a EE ee le eae
+MENE   å  oe   Ji  Pad
+— EE AD DE   2 eg p```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ST x
+Å pa te Mid
+Å Går pt |
+is Ra se. ve ay  kr rit
+Ga ge rå De |
+I Ak NE  ee AG a hvaler fn  oa
+Gral dø es barcbo Titty, ag ie altadaga           Í Å
+To oye poe batt pf uae Lie Í   va å
+le Å AE har pa adit}: fie p sys |  mi   Nå
+Bi. | = já þa 3 ten fase  id
+Ev sibláll a a  pl PP pe ea. am i
+ee pa el ap om þá fat I Bile |
+A syni 5 bela  FA  pan fi ipfta ety, fray   |
+ET sk å eeo on Å airs VEG: jo JE
+hes.   saat iða fs Å
+þa bar fF p laa healt 3 ee å
+ra TaN erd eg 20  veda 96  oe  Ew 2 Hem  1
+ae mio he gall > KA á. nr se oi 4
+3 Sr G omr bated MÅ
+De Í Gask tat fa : los > ge ay ca
+= est mark fv   at bet Í
+fee agate ke hk og  eg iles a)
+ie. Ba få hare. Í ap mn bs    fo að  soap far í fi
+le ER pg ep se ve
+er se gøy EA ‘af owe byer  by bel AG
+Te mek per 2  fief olli á Lap Å
+AE i å  ÁÐ gik 4 ag. ee ie 8 Pe) 1
+PR. Å ami```
 
 ## Modern English Translation (Plain, Aligned)
 ```

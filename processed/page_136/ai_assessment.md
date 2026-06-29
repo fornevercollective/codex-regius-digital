@@ -24,8 +24,11 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+U     0 30 40 50 60    70 80 90 100 110 124 130 140 150
+bobla datablad D NNA Ss
+1 3  Å
+> 2.0
+Be```
 
 ## Modern English Translation (Plain, Aligned)
 ```

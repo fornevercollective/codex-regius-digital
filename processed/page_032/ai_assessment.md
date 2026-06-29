@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+a kr # vo om: PG áð Jen OG ra
+þr.   a # Á  bone }   ote a SE ay
+ apr ma ee fan rc man" a DET
+Oe seth      19 fhe Horan tas sae Al yr: sd nee
+4 go ce  45 ae  A   AG  fe han? ev 190  |  å   a    ba
+DE   Fer dd gamni Í enpupe þv“     Lag
+Jes:  ce Fork pram Eyal ai er
+å V  a    iðar    å   RA Nas  ve   í gat. pr      Få         24 pr
+oe dat oi Aan EAD, Å Å ri
+LEO    alabar ne KON"  1. Bjør  å bys, hves þf
+gy ¥ f el  BAR ye 4  afbpar Ive or} mA har få pe
+Lah geng ti.   omga hal  ppt JE    fj å A
+SE pee nef. fr fg br tu
+Lat Fa jeg jún so tat ep þið A
+BE Sv ag sig ae fre part Få al  ais
+po "mið mø  a) 4 oc Par  í feng 5 tat mp |   dr
+EG exp ain te å mv belde en 36 lk
+|. frest eitt Gp Tay ba ot | he iia |
+Be forsee e   mar Þ  A  pr
+Mae gm  ; tør: þv aan 1 ve ve “Dee:
+ae þar yn,  „þer mön 3 48 A did eet Jak Fa
+å  en    þf jp a 2 a Å va Ne Babld
+VE   Ge ves bé þú am mon pe
+å ae ee áð fa mg must eter 4
+Fn jeg w ved a pr sg á 14 18 var
+i  nn  på a    Á  á   å   a   : SA ve að o AE 4.  A å   ;   . ee
+ seen  "So ma EE
+pe Sat Å  æfi ms. 2 Er ro```
 
 ## Modern English Translation (Plain, Aligned)
 ```

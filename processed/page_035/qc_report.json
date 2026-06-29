@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:06:15.019557+00:00",
+  "timestamp": "2026-06-29T02:59:44.334201+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "'Ek' → 'ek'"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "LT rn EN AES np gern   ae\neet Pl ey ae Bb dr EE ba met, 11\niy yg tte Pin es Ss Hn Ar  fr hopi Í\n‘2 ene oats  é  theme HOGS, ba 1\nhay ae A re MAP 6s, Eh ted eae då\ntr å øre Thay Maing: pige» Ballaca moo ff\n„tg - =: a aye 5 et av þv wa. mint af\nEk  p   + EG         3   #   E  ge  % PE  F pai ig   f   7 å\nhas. eg pv blye a bát, h  „wa hø JÅ Ér ans 8\nad  vía bag gi Å pr Á Arr Elly |\nhø es OG   inate     ar  å ey      ta a  Á   á 4\nþa fice} Tog  AF hy 06 mi fogd for DJ\noe ka  å ay Ft bf år, Afa barf» |\nJO bey aveaba to ingar barne høre hæðin hirti vð - N\nAE nw lebune abe Poul ene 65 Taam pi. ap |\ng ops Ba. Monsen hebagae >  ak flg\n| ae ia al ri ge fann. Sec ait noma í\n1 gfe fn alke ts lpeingo ex haga. Lama miner: Í\net    time. forbi far a faldi. hate sr\n| ae\nty Rego ysl bæn í þa. fy cafeape føblggasde 3\nFE go: bað | frier toy Ey po: bi pas eal  EN |\na GN\nae       dr er ER Se Re oe     lg  a Å í",
     "text_preview": "LT rn EN AES np gern   ae\neet Pl ey ae Bb dr EE ba met, 11\niy yg tte Pin es Ss Hn Ar  fr hopi Í\n‘2 ene oats  é  theme HOGS, ba 1\nhay ae A re MAP 6s, Eh ted eae då\ntr å øre Thay Maing: pige» Ballaca moo ff\n„tg - =: a aye 5 et av þv wa. mint af\nEk  p   + EG         3   #   E  ge  % PE  F pai ig   f   7 å\nhas. eg pv blye a bát, h  „wa hø JÅ Ér ans 8\nad  vía bag gi Å pr Á Arr Elly |\nhø es OG   inate     ar  å ey      ta a  Á   á 4\nþa fice} Tog  AF hy 06 mi fogd for DJ\noe ka  å ay Ft bf år, Afa barf»",
     "char_count": 902,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "LT rn EN AES np gern   ae\neet Pl ey ae Bb dr EE ba met, 11\niy yg tte Pin es Ss Hn Ar  fr hopi Í\n‘2 ene oats  é  theme HOGS, ba 1\nhay ae A re MAP 6s, Eh ted eae då\ntr å øre Thay Maing: pige» Ballaca moo ff\n„tg - =: a aye 5 et av þv wa. mint af\nEk  p   + EG         3   #   E  ge  % PE  F pai ig   f   ",
     "corrected_text_preview": "LT rn EN AES np gern   ae\neet Pl ey ae Bb dr EE ba met, 11\niy yg tte Pin es Ss Hn Ar  fr hopi Í\n‘2 ene oats  é  theme HOGS, ba 1\nhay ae A re MAP 6s, Eh ted eae då\ntr å øre Thay Maing: pige» Ballaca moo ff\n„tg - =: a aye 5 et av þv wa. mint af\nek  p   + EG         3   #   E  ge  % PE  F pai ig   f   ",
-    "issue_count": 9,
+    "issue_count": 14,
     "applied_fixes": [
       "'Ek' → 'ek'"
     ]
@@ -176,6 +184,51 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

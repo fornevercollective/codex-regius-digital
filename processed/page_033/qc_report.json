@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:02:52.591660+00:00",
+  "timestamp": "2026-06-29T02:59:38.366015+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "'bid' → 'bið'"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "å “Fe åt    p i DA SE å = EE en p  3 to í\npe enna ey ped Mid > aoe Í eae |\nPe pe Å Fe ca je Si ti: brt St hj |\nSetjið ap ev ein ran filla:4 han faren ét og þes, - Öl)\nBy Au kom år de Arran $ í lá apt  4\")\ner höllgyngu dob bys cc ac ban mob fe: nr fedby = Ál\n4 Nwebit bis meft av pera ar mig mofdapfe „ál\nop  fem. þv bere eg Bocg a bens Ai ple ae í\nel\nEd hett vi lie, Woaholye ta here erme hall\nMr nere dd ey (or  md al\nva Reina “eddy + nap ter will forde forde å. í\nOG opa mon ce å mil þor fær hat 4 va Dre\nET em obis fei mala. brop ét magna’ pa}, brud ane |\ner vik på Tenancy, ape, bid vil ec 110 \"hu Á að ater f\nKe agn byla, nå. þv fókus ag. Cy por ov hakar eiga. Bre\nee et |\noor mn ya om   ang font ney > a\nRTS redo |\nsf hen, Ni JPG  |\nmsn Oe ee ore pice” al\nGag thee pee een |\neh ee bar å at 00, og\nats. ee fr fina, riða 3 ar Male IDES GÅ\nCo gage ye PE ee 1\nEG Å i       = það ee. sø:  RS   i SÅ  Og Al\nSes cae 0 ord EN",
     "text_preview": "å “Fe åt    p i DA SE å = EE en p  3 to í\npe enna ey ped Mid > aoe Í eae |\nPe pe Å Fe ca je Si ti: brt St hj |\nSetjið ap ev ein ran filla:4 han faren ét og þes, - Öl)\nBy Au kom år de Arran $ í lá apt  4\")\ner höllgyngu dob bys cc ac ban mob fe: nr fedby = Ál\n4 Nwebit bis meft av pera ar mig mofdapfe „ál\nop  fem. þv bere eg Bocg a bens Ai ple ae í\nel\nEd hett vi lie, Woaholye ta here erme hall\nMr nere dd ey (or  md al\nva Reina “eddy + nap ter will forde forde å. í\nOG opa mon ce å mil þor fær hat 4 ",
     "char_count": 923,
     "error": null
@@ -103,8 +111,10 @@
   "corrections": {
     "raw_text_preview": "å “Fe åt    p i DA SE å = EE en p  3 to í\npe enna ey ped Mid > aoe Í eae |\nPe pe Å Fe ca je Si ti: brt St hj |\nSetjið ap ev ein ran filla:4 han faren ét og þes, - Öl)\nBy Au kom år de Arran $ í lá apt  4\")\ner höllgyngu dob bys cc ac ban mob fe: nr fedby = Ál\n4 Nwebit bis meft av pera ar mig mofdapfe ",
     "corrected_text_preview": "å “Fe åt    p i DA SE å = EE en p  3 to í\npe enna ey ped Mid > aoe Í eae |\nPe pe Å Fe ca je Si ti: brt St hj |\nSetjið ap ev ein ran filla:4 han faren ét og þes, - Öl)\nBy Au kom år de Arran $ í lá apt  4\")\ner höllgyngu dob bys cc ac ban mob fe: nr fedby = Ál\n4 Nwebit bis meft av pera ar mig mofdapfe ",
-    "issue_count": 7,
-    "applied_fixes": []
+    "issue_count": 17,
+    "applied_fixes": [
+      "'bid' → 'bið'"
+    ]
   },
   "issues": [
     {
@@ -169,6 +179,96 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "WORD_NORMALIZATION",
+      "message": "'bid' → 'bið'",
+      "suggestion": "bið",
+      "etymology": "Verb 'ask, bid' — formulaic request for hearing in Eddic openings.",
+      "citation": "Neckel & Kuhn 1983",
+      "auto_fixable": true
     }
   ],
   "citations": [

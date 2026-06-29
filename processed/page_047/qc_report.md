@@ -3,11 +3,12 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T02:21:50.512514+00:00
+**Generated**: 2026-06-29T03:00:26.360871+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2334, 1556]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2334, 1556]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2334, 1556]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2334, 1556]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2334, 1556]}]
 - **ocr** (ok): Tesseract extraction complete
+- **ocr_to_assessment** (ok): ['Inserted OCR text']
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9908, contrast Δ=1.5
@@ -21,6 +22,24 @@
 - [WARNING] **UNUSUAL_CHARS**: Line 7: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 - [WARNING] **UNUSUAL_CHARS**: Line 11: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 16: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 17: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 19: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 21: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 22: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 25: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 27: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 28: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 30: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 
 ## References

@@ -24,8 +24,19 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+an LL RELLE     Á
+30 40 50 50 70 80 90 100.110 120 130 140 150  e
+TAA AAA NORA RN NR NASN ANNA RA NN NANNN 0 lll =   A
+2
+v
+p
+I
+4
+hi
+;
+|                                           2.
+| i a
+if```
 
 ## Modern English Translation (Plain, Aligned)
 ```

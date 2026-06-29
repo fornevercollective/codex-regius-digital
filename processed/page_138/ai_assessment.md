@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+mm *|    U    U   40   20   60   70  80  90 100 110 120/ 130 140 1
+aa MTT ATT TTTGLGE
+
+                                Ma
+
+|
+
+|
+
+Å
+
+1
+
+4
+
+|
+
+|
+
+F                                                   |
+
+|
+
+|
+
+4```
 
 ## Modern English Translation (Plain, Aligned)
 ```

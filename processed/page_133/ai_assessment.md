@@ -24,8 +24,12 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+RNA
+20    30    40 50 60    70 80 90 100.110 120 130 140 150
+RS RSS SAR R RS RN NANNA NANNA NNANANNANANNAÐANNANNANANNANANNNNRANANNA NNA NAANFLR NNA —
+|
+$
+4```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,39 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Já sr farao að, Oy nie Neat bolt å ai :
+Wits á banar SA ka mop   re pil a A
+fin na ta
+A þá b. böl. a. rok þr laðar Å
+BEANS yymlögu. m bribia hefintioþ. a. 1. her. Bite GO
+ke, pe an Henge are þa homo eet —
+| ~ Tyventta -      t av (yam farer dof venallva- GE
+LI page. fu by. figrlig; en haart Hf avs Ble —
+ar bnbia Gorfinar x handa fir. Bövalper ver Magram
+Å fig, Lact ap av menu 8 frita 9 pak pe ae
+PL talt fo) en dag wip td name ape
+Eg a a detbs vera þa
+Ph nar Auda   mel are pool qcape ge yoo pret ea
+ET wae Rapes ár, Sæ rar dog d, mein þé 1 9
+Sr gói tmvnar komt po 270 tr neve ep 3
+Ei 9068 bien ap:   Asch. und vart Ka TE
+et of plen mt Ones ey me big be
+5) lyter 7 oc vi ax Bf garpt. Re A pr el
+Å Hotone, ear gadd gle brup. 8 ol hard ar
+Pi ox ens wel fama pe vina RØR: |) mme holábæ = þa
+By “a. coupe vel farta þ.e vma AN 90 adle |
+Å  ga mengd ð  JET TE ah son og E Tr
+Å amma snap 108 908 for > ag 2 sa EE ee
+het a Bx fp  1 Kuprda Hq. has ee: eten Á Í
+man: fres síar amet prate: be, Ol fe men =
+| et mar foaynif dop. pe Å  DÅ ler Cre CE
+þjá JR  * bab ar þr   Too para oe te a ae TG 2 á. Er
+EG homo vp a sail 9 (4. fynna lord tanz bung MATE Å
+a  mile þr  Tu pee eo Jr ea
+Srey etc a ee
+= a on.  E bana og ukens AG Augen
+i, TAG ah, | ‘eo oe cee eS = Mar SG
+i co  ee ea```
 
 ## Modern English Translation (Plain, Aligned)
 ```

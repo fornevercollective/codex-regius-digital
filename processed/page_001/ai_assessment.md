@@ -24,8 +24,10 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+20   30   40   50   60   70   80   90 100 110    U    U   FU    U
+TN ANNANN ANNANN RA ARNA   å
+4
+Ég```
 
 ## Modern English Translation (Plain, Aligned)
 ```

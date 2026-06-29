@@ -24,8 +24,28 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+En na: eee ll Tee ek N
+á SN. Geyr ays, Bryr» ekg oktan See hei  it
+mg en ten aE BS dca  að   GRE
+5 Theme te pe ms ae DD en þr A å
+ng nt le fang fö {ol vaboypaqric br 7
+la mar ere we. inh: halir ES þr
+Í ee fv fare fa 1900 joie ve
+þa eim það. DÅ ft 13 mer marge bldoynaay gees å
+punt for utd lg vest Me, Ray, mobr midgne ted a”
+ha halir after Det fess Brá, gengt yr SR seg =
+an bor neppe å nåden niet oni aig te vy forma |
+EK pie gah emer búa sin ða hanes le ov v
+Ne a 5 ate nana hey So, å fyret utd  hm tralyary Gerd. S å
+le <p om ee fr 18 og ye BG
+yer an oe spate ni ate, fi,
+jern vi sr hi $ a a
+omme may: Pat md    cap he a
+Då ee ot oe ee a bee     a
+gr a both reve Ál bee haldi hy
+Ee bora, beets obama hei víðan vea Að Sr
+iðn fele ears il arb agpenle. Par  Ot
+PARR NE```
 
 ## Modern English Translation (Plain, Aligned)
 ```

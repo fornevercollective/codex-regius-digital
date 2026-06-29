@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+rn  ótt br Å  4
+om pl a me.  i ia
+EE kraj   Tb bn he ver tn Orel Að
+Eg ge den  *
+Te. #4 eae a Har að v po dour gh,  å 8
+Er    á hipea, harmå  ug ave breið,   i
+ma: ae sen RA pint mat barett sl app —
+fe So: þv acer AA pr  bee venns av ty  a a
+mer ja þa my ra eige ban pt 5. áð
+i, ae aed  ye yå gate  nr hf shea, hogar og a oe
+BRS eis Fie 2 5 45 velg   JER |
+Me  Super ae  nga es ke eget mdr
+‘hes ) øke a   LA ns pisk Se (28 Á pant a
+þr Dry. 64.  oe meta me JED om ty  Dol: | ol
+þa: tekið ven  ha mires  ‘one my  a head YAS
+er ed te Si  ra ho  Hera 2
+El gn  ly fo al a      pre varyib, Å
+is PNG   an 6 08 Vær twa  zroc sore Í  an 8, q
+KANN ne at  Pre cmt Å
+FSP po þa jøde. OE  rapes. fer berð} Vi te: Å
+pt kr oe
+208  eda, ie grata ll og rer soll Al
+ts Å á ag al   Þó fleas. på of
+he “eh Vs espe br pre = ver JA
+a, Agen ÅÅ Sings |
+ Vs > or beg ps 4 GN
+sg  i ee ls TRE PSA   ad   på og  a Kr PN Ke  Å:
+Gr ag get  óð sr
+hå ie 596 Ar FS ør x ee acum     æ```
 
 ## Modern English Translation (Plain, Aligned)
 ```

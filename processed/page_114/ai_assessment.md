@@ -24,8 +24,23 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+= Í     av rd My ya gd DD
+ee EEE.   MARAT AANA
+ÅRA NN ANARANAAAAAAAARANARARNAAARANA AC      |        ið    |
+SEN,   å   PST      Hi       :     Å          ‘        |        5          ;
+ee id            i                           a     p 4    “  I
+ae                                     a á Å                                                                         7                                             I.
+Å   Å                p              K ASS  )             GE                            9
+AN          vr                     PACS              Á Ni                oS
+yO)   3                 pon         ar               4
+Í  24                    =        28                      å
+ty    å                          sf)         ME í
+Vå    å                 Ap    ;    EN                i
+;                       TGN SPE
+if   ae          r af   a.             >     .  af       WE,
+z*               9    vg                              å                       SN
+4 jh      ð eZ     ‘     :    a - me då    ae DM  vaði  3   ea    ;      3 ar på  á; ør Æ
+av  TEEN gm OE DE ts]```
 
 ## Modern English Translation (Plain, Aligned)
 ```

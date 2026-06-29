@@ -1,0 +1,202 @@
+{
+  "page": 86,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:03:01.457028+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2429,
+            1620
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2429,
+            1620
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2429,
+            1620
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2429,
+            1620
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2429,
+            1620
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "'EK' → 'ek'"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9912,
+      "raw_blur": 1805.61,
+      "enhanced_blur": 1947.16,
+      "raw_contrast": 51.43,
+      "enhanced_contrast": 53.18,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7597,
+      "raw_blur": 1805.61,
+      "enhanced_blur": 5870.47,
+      "raw_contrast": 51.43,
+      "enhanced_contrast": 89.88,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. PD      AE ið Vp Sac I harð rt å\nbE sec wy 5 alla ie lan ans Gellner få båe .\nSpl   a fae va bana Bel få beyn gyte þig hi\nEa   Sey   snið 5 oleinef úþa Í TR ae\n|    ré hv tæþa z    mind bed å mar bath FÅ BR Ra\n|   sv part grand ab þið Cals VID EE\n| va ate ba  90 eg VÍST ort\nEA pr keg ate harr vi en Me Ke eð\nEK Ta pøs áð sje å AG\nAE nds. some\nið  tas kor gå  i : 1 acy:    spe qpe pats EN STG\nå Å    4  KG am for dl   {lets ena. A oral qe NG\nfo pet  vr ge Å  ak  or EE\nÁ gotta faar      ae      Sæ kn\n| å og Eg 1600 gard 2920 togko * Á Na Må\nÅ dd Coney     sa Dry  ar hæfi nå EG\nPaget   9 byger me & Ayala 5, Å We bane\nVette ee 4\nEg Aa 4  ee Ne  mates  Á ae PE   Á Æ",
+    "text_preview": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. PD      AE ið Vp Sac I harð rt å\nbE sec wy 5 alla ie lan ans Gellner få båe .\nSpl   a fae va bana Bel få beyn gyte þig hi\nEa   Sey   snið 5 oleinef úþa Í TR ae\n|    ré hv tæþa z    mind bed å mar bath ",
+    "char_count": 966,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. P",
+    "corrected_text_preview": "Eg av sath ates     a\n|            a Geer\nae pe Få     Shion å ee\nBl ene, ro en (slá ee hvar þá Mg\nå   oe ec gt Apr g boere rdp rakte \"en ir an Å\n4  Ti one å fr et Do A ÆÐ\n;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa\nuw    ERR — dn rs ben fr nme\nAb   aie bo bar  le va fred Be þef Vela vi\n, vain. P",
+    "issue_count": 10,
+    "applied_fixes": [
+      "'EK' → 'ek'"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 5: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 24: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "WORD_NORMALIZATION",
+      "message": "'EK' → 'ek'",
+      "suggestion": "ek",
+      "etymology": null,
+      "citation": "Neckel & Kuhn 1983",
+      "auto_fixable": true
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

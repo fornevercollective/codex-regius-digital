@@ -3,11 +3,12 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T01:44:30.966360+00:00
+**Generated**: 2026-06-29T02:58:14.678015+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2500, 1667]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2500, 1667]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2500, 1667]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2500, 1667]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2500, 1667]}]
 - **ocr** (ok): Tesseract extraction complete
+- **ocr_to_assessment** (ok): ['Inserted OCR text']
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9885, contrast Δ=1.0

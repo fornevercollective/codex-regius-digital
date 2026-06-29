@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+5 en
+| 4 arbøidd av doy af ða aymara   Te ov
+nt pf Edle bari 50 lg
+I ageBoo trer sjer Spar maren Der þh. bo B vm qua ope:
+ee fot ol dg fagi vekur est agf 9 far age ba. >
+BF 58 ínnoe hap Ord haga yylago be  ks de Fe
+Epa hende g lagde på provltnr ac þýlá ert belg en gull.
+RA. hylsen 2 tape quite: þar ferioe Pr loca spa gel
+Bae ant. feo" tímar 4 fleet ner Í  stóð þa came 9 TER
+en óð mean. bye pel Bj oS
+Gees UB 8 ee OE EN GE
+| 2 br Å cups y að  á Að á ct ARNA lyge. Ri %   Sie gan a på
+| olav fa ato UB pg PG Mee? So na
+|. í eateo þa had Bee ow ean en pr GE
+| pre mem   wih. Jar og EEE
+BET    ax    vga 40 Age Fö a
+| bles 7  rem næ
+| by le DN   Á  å Ovo 8    jm bana a re  2 a
+FS pero. see bt a
+Ear fyri pen bea tee pop Oe OE
+aL og) ee » pene”  TE reke Å
+ | gest ge a td
+Tne ge ag PER uer ene let OPNA pg Á & leng FR apr se På
+For NE =o
+Ved 9 TA AR ET et  TRE EE
+KO SANNE ee å
+J Ler REE NE
+þa ey eee. gee 8```
 
 ## Modern English Translation (Plain, Aligned)
 ```

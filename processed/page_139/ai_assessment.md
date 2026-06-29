@@ -24,8 +24,47 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+A A MG
+im HUMATAATUVUNQ0QGNHTARATVUNVUQQQQQARARAVVVNOOQGQQGANA00VO00Q0000AN0NN000Q00000000 000089000 0GVV00Q0Q000000 00800000000 lt =
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 150
+FT db ANNA ANNNNANNNANNARANNNANNNA 00 AAN AOANANAAAANAANAAANNNAANANAAAANAAAANAAMMNOAAMNANGAAMANNANONNNNOA lg
+Deapearcaseacacescacectaceaceanctacnacaceacratitachees,
+I UEP 29 UG LP VG
+
+CRICRIENOR ACHE ICUADCAEICLCRIEACLICACL AR atacaCgACy
+
+pit Fose tele Feb Ti
+StASCALEICEICAELICS MDCREEICITEICICAICATLACACEICICASEL:
+
+» KY Wikre ive 19 VE
+
+EIR |
+
+Þú FP pi yosa 7
+
+aa LA are PT PE Na rd
+
+> IHEP AIPVV LONG XPV Å
+
+Blå Je kg tek fa fe frp fr ke dl ope Ef fa dd bs þí EN is
+PSS Trim Tro tele TS
+TE CIENT
+
+PIPED IPG APH A
+
+dL å fe wid Hl Bld ba bið Gl gio le br dead ply ef Å
+
+ÞAÐ TH LR TOLA TY få í
+
+Teh babteoebbhetahs bt pol ba eg Þa 1
+
+mn &          |    N        da ”   :      * =,
+
+ XP Ye FPR FOYE Xe Vi
+
+iM ble bb þu bd elg bd rd bd bd br MLA
+
+PYTTEN YEP METTET TETEN```
 
 ## Modern English Translation (Plain, Aligned)
 ```

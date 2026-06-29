@@ -24,8 +24,39 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ae ða   å   bana Ofta - a
+FOS Is Py tere : —_— faa. et Karp  V gs  v  Av!
+dk am mg pf ið pes ag dg ið
+
+það kyns fg byl „þé  mh al a bør, |
+
+oh er tems Í þa a mh
+
+iðar aðrir nemna at føpa.   blan A     ‘
+
+3 “tna al agn ope pet bl wit le bla    ,
+FE hæg Ne a Spa Bue hr  áð
+Å Ko ma yest yr > la pe ‘vama var. e ioþa og
+re Seale rm atts Pewee
+Í sv ake og vil fé var. 2B. bow br vm å 9
+ren ee ee ole se
+í ap Ka from pe av Í agomele ge TR
+B senn sið ál re ye |
+ea ml bute ale vrea op ha pirar. Ølnørr ep å
+gO in Gp en B ver a ter hl if
+ata ee Fer Fal 0 fer Var og ad
+eh hue   |        a me
+ca sg gy eck sid aor gn bas al  ver
+ie oe Bir å huden ag Ki ml
+Se.     Pua Tica,  feats tp AHAn bag ;  ee å NER
+av. je beit I preciz at 5 jeg Eeg N
+BR E DV. gr br P KL ører an on 4
+Er sk, aes.  eo oe
+Eo a, wees a. oe
+tee are oe
+Ve Kg RE VE ie en
+
+x ie Å EE EE             -```
 
 ## Modern English Translation (Plain, Aligned)
 ```

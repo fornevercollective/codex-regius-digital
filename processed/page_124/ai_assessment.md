@@ -24,8 +24,18 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+LGT EL EFEEEEUER 000 GOE GUNN EEE Ero Orre A |
+10     20     30     40 50     60     70 80     90 100.110 120 940 140 150
+odd 000 AAN  ATA. —
+
+i
+å                    p
+i
+»
+t
+t
+;
+?  r```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+AG  6 þv haier, Å:
+PTE EN  tra Unite hgvrl  på eme den”; Å
+ER, Vi av:      ar Å FA ata  1g Bus  bass ar bana Ba ve : y i
+EE Að. am y   ag    5    vp my om.        ar   Á
+a tg
+ ee gf  hja a AA
+gg    á      ee          «bror they. aa
+© quem Sear vat   „gr en BNF GI I   a ben |
+Er at mar   , be mve þa   1. ry mi mere |
+be ie? hana    Al.        tn for a helte bfidp!   SOR
+HR ee weit rks ane eið þef: tynar Si
+  ee pee he 5 TARN ir     å     a      á        > A          :          4       2 oe be
+er G & ot: ;     ald og, ge  al   ‘    A øy.  1   a a
+EG að mr    ÞE   å 1 þv             AÐA    MGE GE
+an pois. ht FOG MT   e mon met Da mn Pr midt å SRA
+haven = =  min ye          of te ae     Da           APT   ae  ae
+NG    Bern „ker“ þr  „þr Tne a
+nn ng å im Å
+
+AE ted Å Ne»    0  io       ge SE OF      Phe eh Að:  “BS
+2 al ly på Mak      AE 2  a     > 4  ey 2 Ge   2 a fae    vg  ees   EN   eð  í
+
+|. i  vo      å SET ARE Kl SR Er RE AT eða gia OF Å
+
+DE  Ag ÞAÐ ei         Á 2 ÁA ee x     ND pa Å
+LE  a %   208   å ap ar oo EM pA   (Mee Pie.         3 ja a
+Pi. mar THe Aaser FR eae A         =  í
+ap nl   ie A  EO HEL: Pag ae í na  2  oe ae a De
+ev EG EE```
 
 ## Modern English Translation (Plain, Aligned)
 ```

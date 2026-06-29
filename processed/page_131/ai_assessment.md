@@ -24,8 +24,22 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+tJ gym
+20 30 40 50 60 70 80 90 100 110 120 130 140 150 g €
+ONAAANM AA HARAAANNAANNNN hl ANAARARANNANA Anne ied =
+ð
+|                              s
+                         ro
+Få
+fh
+el
+,
+»
+i
+I                            |
+A          d 4
+å
+i```
 
 ## Modern English Translation (Plain, Aligned)
 ```

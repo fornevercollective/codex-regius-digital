@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:35:20.385679+00:00",
+  "timestamp": "2026-06-29T03:01:02.080300+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "þr brevis le et. Bifpsölek ep biða á RA) Me 7\nVe gag. að Uae, jell amano ar jore Rear þóþlög ai eS\nven att in fote. ale met Ag alld raha þar ra þap\nApg ven. I geo fava bi ór fa MOY har\n| A árg þa við m he hionanp =; í |\nup hrren 1þrefta.. th te bre foava benk geaeraeener því. aað\nvíkina male fýða. ar. HM  1 4 Lf: ough ea. á\nå Så ete Wasa eð faner Verba Gh la EG\nIA gá valle myndiga, ec. lofty av tbr os já wap\n_ tna, Rytme fone fe á af mag angel = 0\npp. Loge bee ON foto Mela 5 Fabia. & age ax Út eta bang FG -\nÅ ees Aa eh Ae ae fata hall ang fe: ates fr\ni eða ag btalnan. pa em fi fin hdaae opt be ar A A\nBØE la På ra L haga. Íva a hl\n\"8  me ee.  rede GY 8 mák má Sæm mm) Ae\n| faces rd, Øk sd attu þa hus bp Fi\nÍ. 2 fomdar BP Stapa hvar ayana tty, ” ØRN\nFN\nÅ hntda tyoridiel Á ala Hanne fhødifkshær 0\nJE Eg íbyóe Pa frr bie 4 iS hø 1,\nÅ ungt ææ Meloy tnan toy theymio bar pode, poly. ME\npo  En harder, bar & hamal, hugði Þið et Nan |\ní Alb hagi. Audi tir feide wat haa acl cad 9\n| = | er AR og al: br Jess JJ Ne\nsh. fag, blirre ribatente. Lach eso ago ida a\nI, gaf cps eg feie    rek dyra. opel li |\n   Sy ube arch wt Pree bager PG 0\ní) Cee toner hann tr medal kand of matið « ET\nå gl gle að et ll va þat top mi mig Á 3\n= er a heb ng opt 5 eg bp nf eee\nvinge af Ba belg hj gosbn fy egó be a, 3\n| ER EE cage OS ate ay]",
     "text_preview": "þr brevis le et. Bifpsölek ep biða á RA) Me 7\nVe gag. að Uae, jell amano ar jore Rear þóþlög ai eS\nven att in fote. ale met Ag alld raha þar ra þap\nApg ven. I geo fava bi ór fa MOY har\n| A árg þa við m he hionanp =; í |\nup hrren 1þrefta.. th te bre foava benk geaeraeener því. aað\nvíkina male fýða. ar. HM  1 4 Lf: ough ea. á\nå Så ete Wasa eð faner Verba Gh la EG\nIA gá valle myndiga, ec. lofty av tbr os já wap\n_ tna, Rytme fone fe á af mag angel = 0\npp. Loge bee ON foto Mela 5 Fabia. & age ax Út e",
     "char_count": 1320,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "þr brevis le et. Bifpsölek ep biða á RA) Me 7\nVe gag. að Uae, jell amano ar jore Rear þóþlög ai eS\nven att in fote. ale met Ag alld raha þar ra þap\nApg ven. I geo fava bi ór fa MOY har\n| A árg þa við m he hionanp =; í |\nup hrren 1þrefta.. th te bre foava benk geaeraeener því. aað\nvíkina male fýða. a",
     "corrected_text_preview": "þr brevis le et. Bifpsölek ep biða á RA) Me 7\nVe gag. að Uae, jell amano ar jore Rear þóþlög ai eS\nven att in fote. ale met Ag alld raha þar ra þap\nApg ven. I geo fava bi ór fa MOY har\n| A árg þa við m he hionanp =; í |\nup hrren 1þrefta.. th te bre foava benk geaeraeener því. aað\nvíkina male fýða. a",
-    "issue_count": 3,
+    "issue_count": 12,
     "applied_fixes": []
   },
   "issues": [
@@ -129,6 +137,87 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 24: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 30: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 32: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

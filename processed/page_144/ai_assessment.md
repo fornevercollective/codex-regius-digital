@@ -24,8 +24,17 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+mon                 en OUTER OE
+-           +    +    +    Sy
+x
+_
+et
+
+-      -           |      +      +
+MSCCPPPE0609
+7 ___)| (7 al eae JA
+3                                     2.
+smal      B```
 
 ## Modern English Translation (Plain, Aligned)
 ```

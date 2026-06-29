@@ -1,0 +1,227 @@
+{
+  "page": 93,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:03:28.845278+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2440,
+            1627
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9889,
+      "raw_blur": 1638.27,
+      "enhanced_blur": 1766.23,
+      "raw_contrast": 54.58,
+      "enhanced_contrast": 56.34,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7674,
+      "raw_blur": 1638.27,
+      "enhanced_blur": 4938.28,
+      "raw_contrast": 54.58,
+      "enhanced_contrast": 87.98,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "ag  ri ek ke $ po ™ mal Å\nje å Í “ilo opm Fi på Sis ge Í\n eel ae tae nat Coreen Á\n| å sy mf LA leyne  jödt osar. ða basa. |\nhøgre et pr ed\nve vat: pi ee oh ia el Peed Í\nFY A fie closet sain ited |\nae one    von hae   nn\n-   ts ll  der fee heller tar må Ge på tye |\njeg EE ES\nee Gee igh bee mat en een i LR\nhae Gs: jeg SF far ar   eg    TEA   CDA.» friðað rr a\n+ ee. hæða rad bb ener evens fot  nt bua  5\nhå ett Kr Sa hen\na.   var   | veist     L tamer di  *   Sat   Ji\na høne Í ng 2 fa a hag dn ce |\n5 bola  Eg nie rek AA  - poe PR\nTE er spenn   aa Beker | å\nfo på {ex po fin Fa heima 28 og vl þol N\nEn] ar pt B  big hh PJ or  W\ner  BPPe DD He á EÐ  /   me ef ote          |\noo: ge Ey otk     |      —\npå å PE. Sen            AE\nSG ie  Ue ve A aa ad      Å",
+    "text_preview": "ag  ri ek ke $ po ™ mal Å\nje å Í “ilo opm Fi på Sis ge Í\n eel ae tae nat Coreen Á\n| å sy mf LA leyne  jödt osar. ða basa. |\nhøgre et pr ed\nve vat: pi ee oh ia el Peed Í\nFY A fie closet sain ited |\nae one    von hae   nn\n-   ts ll  der fee heller tar må Ge på tye |\njeg EE ES\nee Gee igh bee mat en een i LR\nhae Gs: jeg SF far ar   eg    TEA   CDA.» friðað rr a\n+ ee. hæða rad bb ener evens fot  nt bua  5\nhå ett Kr Sa hen\na.   var   | veist     L tamer di  *   Sat   Ji\na høne Í ng 2 fa a hag dn ce |\n",
+    "char_count": 756,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "ag  ri ek ke $ po ™ mal Å\nje å Í “ilo opm Fi på Sis ge Í\n eel ae tae nat Coreen Á\n| å sy mf LA leyne  jödt osar. ða basa. |\nhøgre et pr ed\nve vat: pi ee oh ia el Peed Í\nFY A fie closet sain ited |\nae one    von hae   nn\n-   ts ll  der fee heller tar må Ge på tye |\njeg EE ES\nee Gee igh bee mat en een",
+    "corrected_text_preview": "ag  ri ek ke $ po ™ mal Å\nje å Í “ilo opm Fi på Sis ge Í\n eel ae tae nat Coreen Á\n| å sy mf LA leyne  jödt osar. ða basa. |\nhøgre et pr ed\nve vat: pi ee oh ia el Peed Í\nFY A fie closet sain ited |\nae one    von hae   nn\n-   ts ll  der fee heller tar må Ge på tye |\njeg EE ES\nee Gee igh bee mat en een",
+    "issue_count": 13,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 4: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 9: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

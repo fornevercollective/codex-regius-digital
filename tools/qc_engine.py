@@ -100,6 +100,7 @@ class QcEngine:
                 # Step 2: OCR
                 ocr_text, ocr_err = run_tesseract(prep["ocr_input"])
                 report["ocr"] = {
+                    "text": ocr_text,
                     "text_preview": ocr_text[:500] if ocr_text else "",
                     "char_count": len(ocr_text),
                     "error": ocr_err,
@@ -134,8 +135,14 @@ class QcEngine:
 
         # Step 4: Transcription QC
         transcription = self.extract_transcription(page_dir)
-        ocr_text = report.get("ocr", {}).get("text_preview", "")
-        text_for_qc = transcription if transcription and "[PASTE" not in transcription else ocr_text
+        is_placeholder = (
+            not transcription
+            or "[PASTE" in transcription
+            or "[Pending" in transcription
+            or "[Transcription pending" in transcription
+        )
+        ocr_text = report.get("ocr", {}).get("text") or report.get("ocr", {}).get("text_preview", "")
+        text_for_qc = ocr_text if is_placeholder else transcription
 
         if auto_suggest or auto_apply:
             result = apply_safe_fixes(text_for_qc)
@@ -157,15 +164,17 @@ class QcEngine:
                 }
                 report["issues"].append(entry)
 
-            if auto_apply and result.applied_fixes:
+            if auto_apply and ocr_text and is_placeholder:
+                fill_text = result.corrected_text if result.corrected_text.strip() else ocr_text
+                self.update_transcription(page_dir, fill_text)
+                detail = result.applied_fixes if result.applied_fixes else ["Inserted OCR text"]
+                report["pipeline_steps"].append(
+                    {"step": "ocr_to_assessment", "status": "ok", "detail": detail}
+                )
+            elif auto_apply and result.applied_fixes and not is_placeholder:
                 self.update_transcription(page_dir, result.corrected_text)
                 report["pipeline_steps"].append(
                     {"step": "auto_apply", "status": "ok", "detail": result.applied_fixes}
-                )
-            elif auto_apply and ocr_text and not transcription:
-                self.update_transcription(page_dir, result.corrected_text)
-                report["pipeline_steps"].append(
-                    {"step": "ocr_to_assessment", "status": "ok", "detail": "Inserted OCR text"}
                 )
 
         # Step 5: Overall status

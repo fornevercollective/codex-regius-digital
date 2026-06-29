@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:55:56.612431+00:00",
+  "timestamp": "2026-06-29T02:59:21.985003+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft Å\nÅ tye.g nar, miði 51   3 verre   bella kultet oo\nmm nye.5 nær. nag. bra flap ghvip. fylgr 4ylg PERU å\nDer bins Be i sis a gt Bera Å\nDS a ame et er þar Å\nNE ee pe UiS eng aars mb Ef ða que\nþarf  a  ad i ig\nfi å ' chad i ad på agaghals qraga. date hvalir lo PP\nfi ,   44  sl a an smat pr GÅ gå 4  jf ve að ee\nál, dn ma A slugpó hye té eeen mali Å\nar  = agit:    « JR NE    .               sae      aise pt JE\nA ne bre tjen ey (oe share vred ete\nFr, og = Ea elie a KE #\nPe? Seale 9",
     "text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft Å\nÅ tye.g nar, miði 51   3 verre   bella kultet oo\nmm nye.5 nær. nag. bra flap ghvip. fylgr 4ylg PERU å\nDer bins Be i sis a gt Bera Å\nDS a ame et er þar Å\nNE ee pe UiS eng aars mb Ef ða que\nþarf  a  ",
     "char_count": 781,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft",
     "corrected_text_preview": ", VE av KOSE TE Ai\ngm betro do ope vr fine E\n| ne   val had  Å TAU yb ye ee Fører\nfr tem valbaile vers umhør is  Vg cage å hye NÅ\nBao pa å Fe pri via ug. 366 an Å\ngå     alsa Bara ste cient en gan\ntemme\nGE  Kg i aoe fa pet» here ae de\nFrk See Ge eee komp Å\nGlen sedan flo ono png. 0\nÍ Ge ke ake Kø ft",
-    "issue_count": 2,
+    "issue_count": 4,
     "applied_fixes": []
   },
   "issues": [
@@ -120,6 +128,24 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 8: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

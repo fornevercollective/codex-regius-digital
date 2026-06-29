@@ -24,8 +24,37 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+rss ET EE ve Meg
+FP Rig Sa   mld
+in þa 2 Hes Te Bon Coan et A
+ga ag byr kjøl Å vil  1 vika: | +2 å V
+SN að KR Jane eri á. si geome ep |
+Å P Ístar ale vin ie em Ty balle here jpoce cx mer SY
+a Vale ama ete Seb.
+a Ey fen fe  i Tal al We. Oebal Frog  Á
+9 tin hane ner fe. på er fyl pe sn |
+vett ne, dg   ore a. Dial Få PO
+å ED dee fay orr En DES Fett |
+Å as 5 mig: pry  Þér gu Talar forige a
+BF ae Su ba we mg ers sree jun. Í
+þé Å tb: tbr ae møde he f © hole: ag KA
+7  Ta ep apart vil: % ep joe Haya. faldar Lei KE SN
+AR EG wor ve at ‘ he. A bog |
+ae WH mgs få Sen um hue, bee ee sef
+í sg Í Fe meier Sonar  ae
+ag ee timer a   He helle ig da þor: haf 484, 14 |
+re ev ne    wa har.         ag SÅ
+cs ne fr  wh vere Og brite, ting es | Al
+gh ee A ea TASS Epson. på  NE |
+AR ees 8
+| ere
+JE €9 8 LS fuma, al år Vence Pr
+Fe Ale 19 tie hoes pr gph ere Å
+að Bis fyre longu: mat, Er és. á beg Ni Í
+mn mete Å bel zi ER fabel, A.
+Mt  Aopen Rest ay a  veta þór á tila bei as
+—     GER ie, ee BT Kr
+a SE 8 MA oa Lo Sr |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

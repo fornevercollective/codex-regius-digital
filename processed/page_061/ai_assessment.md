@@ -24,8 +24,42 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+eee LE        SEK DE NESET       ae
+a ið    Ss BY pit ET omme Va HD Ne. Å a ee þa ir
+Lå Jen fulle Am OG på Lops: Høre henge Í eie eV
+LE Scape    Å er ål % Vad      tobnær Wak.
+å bevdt af       á fe poh vekt.   å h.         na? oe
+ie. alba weep 200     Øy av nag heer,   figrun: Oe by  i
+ES ft høg. 084  Be nv eft kor hygdr fynna“    mr ae
+Rr     AE. rent bin arena   DÆ NET. ae
+Fr ST  {vat ‘y ace å n'    4" nå {etd       á   tt hv  44    MA re,
+en ee Þó ta mme ae 1
+Mi ere   8 ei   5 ta gne em å
+Å RE un bn  per av CAND:   Enga villa. Jed #
+ET bd cat eee ay, Cot. D th.       KEN EG Fe
+ED ar EG et Å  gi born. I ecb EE  t han oe
+Eg edb. tt ho kara hal      >, (va fem å pr KOR
+a # Pate Tops 3 var hov   MAS NE me th Ned 43
++ eo TE apr     i Wong. Tre ps     ip að   GR
+hi Ms ft fora. aver, Yt  av 10 amt, eat  Mega å
+Rh, ama mer beep or hers Oy Bing Á Að
+TRE MA ee    a bag þa fe MP si
+va Ko   vr 4.   V   i   Ag     Å    b    ;  ie       *         Me  Sa FA ig DAN a
+SD fri hs Ce gh å DN  þa så  “hi  å ma sør Må
+Gog gende DØR he pe byr A pva  EE MØ h
+ES   vg bar bað MT coc cree mucte, hor) AÐ
+Ker rp bát OM ete 6 fa ene. frille ag em að
+ee, 7   od OE    %     ae         Å   aid Pl      er              8         ‘   EX ie pe
+ae re av 194  gs ee? Mt SEN nt E Jå   AAD: yes. Bd ie
+be ee EA ip esi él eee  ve 7462 OT   på „ale fo Å    ad ee Å Vi
+ET RR ee sige he ate i HR å
+& Te : ae es a    p a Wee:    ee as Vert  MS a
+ek a BER  PE > a  ØP  2     SKRR SA a fák
+A gt A 1 He NET SR
+
+-                          EE ÆR FE)
+
+Bg Se          EE    ay```
 
 ## Modern English Translation (Plain, Aligned)
 ```

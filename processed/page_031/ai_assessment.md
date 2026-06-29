@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+SN Wht þes å om fat   thread. oe
+Noe å ver  AVM ie or ae at Að é he fler ny
+Se a í Í 15, oy mist   ók + Ron ce na SS
+å ay. ee  =r vari: þv iver dy J seigi eg erry filen : 4h)
+ye Beare MD AG od» alet Hlað, Dias” |
+Bl blynenag € tc Blymia h  tv. oso rm Ma Å
+gt 00 yall yr feialpa guða. gynnf, ' mbor a ME
+Ve re    4 År mat bar 18 førr å dar ae bibk, Å
+ee eng bow bo 200 hoe re ae ge
+egga ne wrong. bin  alger nedla fra (1
+„ti án Po ee: Va hag fi for falkynge ar fra, Ég |
+elle Whey ec Al gullin fo tron ec þá reg.
+ek Cope here å  quénr oleiattan ar fa. Cpl Me
+ ha ud Lape ge mee fi sae
+Eg tape mg npr ante Á
+er hf byerå bø fama. ary pA ee hie og
+FEET    pe abre
+ud ena mutids yor at ás te pi a å  mae oe
+GE wae ic Å pen þega Á ee Ag ball av MD a."
+Bees |
+fr Ge Ge Aras pale org ang mað |
+Seeger regent ao
+ma cite. Sep, rót ble fin nésgsnaB. Cas ven Å
+ee a repr bbe fn per fr tima mand ÅÅ
+eee > Synge ay avin, é pre  ie oo" SF  1      T  ten |
+Mek a bort nea,  etan í MANY, sone by 4
+ke Ayala.    ant samy i. ag 3
+Pai dd pe veg  5. apr ripe oe   oe
+Le   A   by Shy os  cee. Se te  hi```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+TI boon hj jr pg Å PR SR
+Å Sr Fre teat ae a ea ER
+VA Å eaee pea mðla fe né fase. pa å er ay  af
+JE es 0 Å fo 8.8 ar tennes 9 |
+Bee ea bl Å
+| RL opa Vale? PS
+ME ee rdp  far Org Mer
+tn børn pas 5 a> fr
+ER Cex Topdbo mine hilo måne ronnie Å Ge
+EE an å hete). 5098 ogee FRI 57
+I. søfima oppe åv loca. sek 5 brane fa   sn
+© oe pr    pips mae lagað Fg
+i TR  sae Wg. beg 2 ay lt Oe 7
+OE       ‘   4    ATIC        Fi, ae      . bat AF
+Fe DO vante you eval    beder þú
+© ee =. "að TED  fa. ML if      :    ‘ast falhj yt “oe ead
+RS Á a: ii RA A aoe pm ab mår
+ro pbl ene bet)   å Alo, faey tds fant asp   aM
+ER 4 barllinð ‘by å prior hs YOUU hae yal
+ae Ss   Ao: el  1         P    ET å   vat             rt) Nay) 16 ae
+jeg. alo ae bapa ac omy ge dg yet “Td
+Fe ST å el Í Rn gb ek OC] 49 frá a
+ne a  ie  | Ber  fam. hi ba x0 2 dø aa, Al
+ie að Ry oe. typi = PE
+VET EGEN ea er ee
+FER a | "å 2 6 | | se oe Son i    “ Á```
 
 ## Modern English Translation (Plain, Aligned)
 ```

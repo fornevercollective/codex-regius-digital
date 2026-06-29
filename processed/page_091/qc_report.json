@@ -1,0 +1,238 @@
+{
+  "page": 91,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:03:20.516438+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2390,
+            1594
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2390,
+            1594
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2390,
+            1594
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2390,
+            1594
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2390,
+            1594
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "'EK' → 'ek'"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9912,
+      "raw_blur": 2242.53,
+      "enhanced_blur": 2412.72,
+      "raw_contrast": 48.12,
+      "enhanced_contrast": 49.78,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7611,
+      "raw_blur": 2242.53,
+      "enhanced_blur": 7083.53,
+      "raw_contrast": 48.12,
+      "enhanced_contrast": 84.43,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %            7h 65 oll     ga fram. pa ropre 43 a\n1 mrs at fog Å         Ler -Jokne zB len 1 va      is\naed” y 3 yerish ho vel  na vip  HAR! øk 2 ; ar pr ýr þa   | |\ngå FR ye Jaa åå   at hanga ee Sais De eð pg    |\n| tig    | er Í ró A 720   GE mg ge!    h     På ERE ha MEET        {,       “    å\n0 OSS Bobs Gi Ke bn á re rv Ma em     {\nPa ið þa a ST. oan      Leg IEA NG abo VER SÁ    aa\n\nSF in er ger boi    pata re en reg      se\nb> aad ti oS A ag    Cha.  ACA ES    , Ahvapa ees ®   Á j     Bea\naby di rh  fe A ae fe sf poi 9 br      1\nAA pia ge ti VEN vær, breve Å\nas pt á íb ‘pra K. a: ar ‘a å  tå   pa ED 4p ape a an a\n|: EK að 4   .   1012 EN $ Á å 3   FEE   5   ‘    A 324 +44 er å ge é R:\nFE He    Be Sage ne  ct ee sa oe 8\nke A ve  Vint p Gå    sr  = FA 22 EE   Aa  ee ier Í på nt bie |\net Ar    Pa ltr lecox på gulv å  oe -— 93\n\nSe   mat. br  KA yi la ik pare | a må aes ie Sar DA\n\na 5 yo ant tt Þ a Ee ØP. er FR ae\n\nPan AS oe      KR   EE oe ERT ET   LS eet    DE eae SF?   Nee aoe   Å\n\nee Er RE kn en: Å\n\nve by ee oar Bee a Så  re orate en Bers ce MES ve a Pee oe N\nG  ar PEST",
+    "text_preview": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %            7h 65 oll     ga fram. pa ropre 43 a\n1 mrs at fog Å         Ler -Jokne zB len 1 va      is\naed” y 3 yerish ho vel  na vip  HAR! øk 2 ; ar pr ýr þa   | |\ngå FR ye Jaa åå   at hanga ee Sais De eð ",
+    "char_count": 1385,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %      ",
+    "corrected_text_preview": "TT å er Ng Abney eed Å vg  |\npå Mes = Dxeympt fuk Da Sn ee be ha é Í        MN\na se A å egna 6 tn phe oa\nend ve AG    :    PEN Up    mørt ee ie Í  nere LE   or fred SI\nbe Á on Vert på ti á       yay para.     5 a is   - deig  a\na oan «Å        kv ae eristonge bok  era bes Å\n\nER,  a ee yay yt %      ",
+    "issue_count": 14,
+    "applied_fixes": [
+      "'EK' → 'ek'"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 6: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 8: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 10: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "WORD_NORMALIZATION",
+      "message": "'EK' → 'ek'",
+      "suggestion": "ek",
+      "etymology": null,
+      "citation": "Neckel & Kuhn 1983",
+      "auto_fixable": true
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

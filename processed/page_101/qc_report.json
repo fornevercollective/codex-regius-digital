@@ -1,0 +1,112 @@
+{
+  "page": 101,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "needs_review",
+  "timestamp": "2026-06-29T03:03:55.805377+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2519,
+            1679
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2519,
+            1679
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2519,
+            1679
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2519,
+            1679
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2519,
+            1679
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "warning",
+      "detail": "Tesseract extraction complete"
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9807,
+      "raw_blur": 207.11,
+      "enhanced_blur": 143.51,
+      "raw_contrast": 49.32,
+      "enhanced_contrast": 49.7,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7688,
+      "raw_blur": 207.11,
+      "enhanced_blur": 159.08,
+      "raw_contrast": 49.32,
+      "enhanced_contrast": 70.61,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "",
+    "text_preview": "",
+    "char_count": 0,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "",
+    "corrected_text_preview": "",
+    "issue_count": 1,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "PLACEHOLDER_TEXT",
+      "message": "Transcription block is still a template placeholder.",
+      "suggestion": "Run OCR on preprocessed raw image and review against handrit.is.",
+      "etymology": null,
+      "citation": "handrit.is",
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

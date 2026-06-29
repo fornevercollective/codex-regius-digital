@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+re 0: á á vag Å  å hve á INA teensy 4
+lan A dop re
+p Genk ac suse bee et 1 I.
+VG da ØTP Lát: R$         ‘perio:  Á    þig:     ; gje  bana. re
+SE (opne G8 in a JJ D Fae
+Í pee bon pa. Co áa FE al Shay
+fe er tr on tog Å!
+
+ae wih evap hi Sab sk noe m Se
+Pee tala pode Bet ENO Bey 9 Pie rema
+Fe FO ta fem la dn
+í á Sam an eg He mi
+ee af sevens Då pe vie tag me endå ip mang HE Ms
+BAe I
+Í sjel Vang nå ind > 0 Å
+fama wat virdaga vel motet TOSS er bkarlge —
+loge, Cet € mh Baron may bd DU KE  Bi
+BEE, ge Se  í       +. far fem: uray GE ls   på th? ie = å
+FL ORR Ree
+1 FR ee Å
+p bøk Semb bei, Oy EÐ & Ker
+FR baby meth Pe aT
+
+i, >. Tren 9:10 eye      ft å      TR  |      t3
+
+AK háða. teor f  wy armarks 9908, 8 „bv B JE  KOSA a Fi,
+KE Tom NG
+På       Høge  j   di   sr  :    se ag’: E E PÅ
+Kr =   a 2. ie 2```
 
 ## Modern English Translation (Plain, Aligned)
 ```

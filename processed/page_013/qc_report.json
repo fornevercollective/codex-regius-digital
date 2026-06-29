@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:44:43.745682+00:00",
+  "timestamp": "2026-06-29T02:58:27.073492+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "En na: eee ll Tee ek N\ná SN. Geyr ays, Bryr» ekg oktan See hei  it\nmg en ten aE BS dca  að   GRE\n5 Theme te pe ms ae DD en þr A å\nng nt le fang fö {ol vaboypaqric br 7\nla mar ere we. inh: halir ES þr\nÍ ee fv fare fa 1900 joie ve\nþa eim það. DÅ ft 13 mer marge bldoynaay gees å\npunt for utd lg vest Me, Ray, mobr midgne ted a”\nha halir after Det fess Brá, gengt yr SR seg =\nan bor neppe å nåden niet oni aig te vy forma |\nEK pie gah emer búa sin ða hanes le ov v\nNe a 5 ate nana hey So, å fyret utd  hm tralyary Gerd. S å\nle <p om ee fr 18 og ye BG\nyer an oe spate ni ate, fi,\njern vi sr hi $ a a\nomme may: Pat md    cap he a\nDå ee ot oe ee a bee     a\ngr a both reve Ál bee haldi hy\nEe bora, beets obama hei víðan vea Að Sr\niðn fele ears il arb agpenle. Par  Ot\nPARR NE",
     "text_preview": "En na: eee ll Tee ek N\ná SN. Geyr ays, Bryr» ekg oktan See hei  it\nmg en ten aE BS dca  að   GRE\n5 Theme te pe ms ae DD en þr A å\nng nt le fang fö {ol vaboypaqric br 7\nla mar ere we. inh: halir ES þr\nÍ ee fv fare fa 1900 joie ve\nþa eim það. DÅ ft 13 mer marge bldoynaay gees å\npunt for utd lg vest Me, Ray, mobr midgne ted a”\nha halir after Det fess Brá, gengt yr SR seg =\nan bor neppe å nåden niet oni aig te vy forma |\nEK pie gah emer búa sin ða hanes le ov v\nNe a 5 ate nana hey So, å fyret utd  h",
     "char_count": 769,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "En na: eee ll Tee ek N\ná SN. Geyr ays, Bryr» ekg oktan See hei  it\nmg en ten aE BS dca  að   GRE\n5 Theme te pe ms ae DD en þr A å\nng nt le fang fö {ol vaboypaqric br 7\nla mar ere we. inh: halir ES þr\nÍ ee fv fare fa 1900 joie ve\nþa eim það. DÅ ft 13 mer marge bldoynaay gees å\npunt for utd lg vest Me",
     "corrected_text_preview": "En na: eee ll Tee ek N\ná SN. Geyr ays, Bryr» ekg oktan See hei  it\nmg en ten aE BS dca  að   GRE\n5 Theme te pe ms ae DD en þr A å\nng nt le fang fö {ol vaboypaqric br 7\nla mar ere we. inh: halir ES þr\nÍ ee fv fare fa 1900 joie ve\nþa eim það. DÅ ft 13 mer marge bldoynaay gees å\npunt for utd lg vest Me",
-    "issue_count": 6,
+    "issue_count": 8,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,24 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

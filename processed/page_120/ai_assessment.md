@@ -24,8 +24,17 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+LIE EEE ETE TETT TETT HELE            [TI [In
+
+|   20   30 40 50   60   70 80   90 100.110/ 120 130 140 150
+DONNA AANA ANNALARA GAGA GÅAR nn
+wl Í   nn Eger ring     ge         i EE   TET    »
+
+1                                                               |
+
+Å
+
+|```
 
 ## Modern English Translation (Plain, Aligned)
 ```

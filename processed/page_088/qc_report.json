@@ -1,0 +1,191 @@
+{
+  "page": 88,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:03:08.931043+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2433,
+            1622
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2433,
+            1622
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2433,
+            1622
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2433,
+            1622
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2433,
+            1622
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9934,
+      "raw_blur": 1673.75,
+      "enhanced_blur": 1806.31,
+      "raw_contrast": 47.33,
+      "enhanced_contrast": 48.99,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7569,
+      "raw_blur": 1673.75,
+      "enhanced_blur": 5784.76,
+      "raw_contrast": 47.33,
+      "enhanced_contrast": 85.87,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "5 none arm te i\ngd rs FÁ   a jar OM Å\npenga) Hoga. bet á ati ár     marina         Gy  VG\nryg. þes les Pi  Ae ae þar é  Må\n| po syrer vi wy okai     votto bana. fat fape 1374\n| al 0\nBe ceed es Mea 0\na yðr ytt gan bra ár pr dal gm jú\na Geo fen: bat byger ró Leg pevekany. tali COT sh. GE\nDoes pa av hing harm bræððö Í ar 0 ae ET\nago ar FAD ið  á a i Á si\nÅ sa ja foter þv 100m Rare å, mg EE að\n|  ye og  _ Spent € m0 FE a gn engi a\n: Å far trea bs as ant La nk bg) Í he ae\nI  Jå så En STU A |\nI   ap ed cy yee vill idet Sel een tall ev å pr\n| sí \"ay tite bera hen Se Pr ae\nÍ      ae tuð aaa ladde bavo apr tT\nÍ      a En en Hert cc bara brallame =e\n4 Pad! Pr ið agna wf srsctia 1010 by GE\na    |     ber hale mate thot: lá. Wlepahw Å\nsl           f        G    hó OE”   ——  ge ee.    ;     g  5    FEE Å\n‘= Bow bor a bup loger RS 00 PE\nGe i.    pg er LEE GE\nERE Tr nn EE",
+    "text_preview": "5 none arm te i\ngd rs FÁ   a jar OM Å\npenga) Hoga. bet á ati ár     marina         Gy  VG\nryg. þes les Pi  Ae ae þar é  Må\n| po syrer vi wy okai     votto bana. fat fape 1374\n| al 0\nBe ceed es Mea 0\na yðr ytt gan bra ár pr dal gm jú\na Geo fen: bat byger ró Leg pevekany. tali COT sh. GE\nDoes pa av hing harm bræððö Í ar 0 ae ET\nago ar FAD ið  á a i Á si\nÅ sa ja foter þv 100m Rare å, mg EE að\n|  ye og  _ Spent € m0 FE a gn engi a\n: Å far trea bs as ant La nk bg) Í he ae\nI  Jå så En STU A |\nI   ap e",
+    "char_count": 869,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "5 none arm te i\ngd rs FÁ   a jar OM Å\npenga) Hoga. bet á ati ár     marina         Gy  VG\nryg. þes les Pi  Ae ae þar é  Må\n| po syrer vi wy okai     votto bana. fat fape 1374\n| al 0\nBe ceed es Mea 0\na yðr ytt gan bra ár pr dal gm jú\na Geo fen: bat byger ró Leg pevekany. tali COT sh. GE\nDoes pa av hi",
+    "corrected_text_preview": "5 none arm te i\ngd rs FÁ   a jar OM Å\npenga) Hoga. bet á ati ár     marina         Gy  VG\nryg. þes les Pi  Ae ae þar é  Må\n| po syrer vi wy okai     votto bana. fat fape 1374\n| al 0\nBe ceed es Mea 0\na yðr ytt gan bra ár pr dal gm jú\na Geo fen: bat byger ró Leg pevekany. tali COT sh. GE\nDoes pa av hi",
+    "issue_count": 9,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 5: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 6: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

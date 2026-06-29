@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:45:02.663273+00:00",
+  "timestamp": "2026-06-29T02:58:46.106653+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "a JE  DERRE\nGe Sa % Ve ert a Á og\nKf ae aloe re ha dig >\nSem oa B PT  Lal  vs, De te Tiss |\nhe yp breya age at 3 Gyo mår   ed ny |\nGS rað tos ta wae vane Nay vegr ber b Efe ht, aly\n| as   mY Ada. faldan nr wigan Å har KE\nAE en vet Rap ar nid. Coen va a   dn a\nGene Grå kon bin. or Ube tok ie Hb  stage”\n| nil fönn 19 Epler EG by Fore vere ma\nho Ne i 8008 on mera amana FS a | AR  pire pg\n2 OF Arlen apr å alðigr ve Po Ama Ge\nå ora nas be ee a   pt, ee\nae ARA, DAY.   dreg hver gr or m hin. Putian ay | 7\n|  ve. ser alse gp ed oter we Fs að} fem TÁR\nVE å AG   frk Ba þr vanar 58.7   ‘en lS\n\nog paa bas bien da Le on kven =\nterest Borge al Bin db Að\ner tas  Å å os ÆR\nå ; 4 åg \"i Pos: 5 bene? iv peat ;  15 op   á HØR «NG\n\n| sef a   A rompe bie. 4\n\nSker fv van eye yt GAS. old AF ol beta å\n\nGE rall mong ri  vid pt haga GK eld fr hema. Å\n\nGE ga møde boet ee ef    ml\"\nEie ipen ran Yeh? hed   ag\na kona Bar abe Raita ba eee |\nET ate a tee ryrtnida Jorn 100 fa Å\nað (op Ter vel nf eda eek\nEN   bæta Ei tíð Pl ke Si\n a vala 0 Gens pv ee otek wing aby aye\nlf NÅL     ES   As: GR ER LEN oe ee\n\n| A ge Å) KG) MG eee. EE on oe",
     "text_preview": "a JE  DERRE\nGe Sa % Ve ert a Á og\nKf ae aloe re ha dig >\nSem oa B PT  Lal  vs, De te Tiss |\nhe yp breya age at 3 Gyo mår   ed ny |\nGS rað tos ta wae vane Nay vegr ber b Efe ht, aly\n| as   mY Ada. faldan nr wigan Å har KE\nAE en vet Rap ar nid. Coen va a   dn a\nGene Grå kon bin. or Ube tok ie Hb  stage”\n| nil fönn 19 Epler EG by Fore vere ma\nho Ne i 8008 on mera amana FS a | AR  pire pg\n2 OF Arlen apr å alðigr ve Po Ama Ge\nå ora nas be ee a   pt, ee\nae ARA, DAY.   dreg hver gr or m hin. Putian ay ",
     "char_count": 1117,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "a JE  DERRE\nGe Sa % Ve ert a Á og\nKf ae aloe re ha dig >\nSem oa B PT  Lal  vs, De te Tiss |\nhe yp breya age at 3 Gyo mår   ed ny |\nGS rað tos ta wae vane Nay vegr ber b Efe ht, aly\n| as   mY Ada. faldan nr wigan Å har KE\nAE en vet Rap ar nid. Coen va a   dn a\nGene Grå kon bin. or Ube tok ie Hb  stag",
     "corrected_text_preview": "a JE  DERRE\nGe Sa % Ve ert a Á og\nKf ae aloe re ha dig >\nSem oa B PT  Lal  vs, De te Tiss |\nhe yp breya age at 3 Gyo mår   ed ny |\nGS rað tos ta wae vane Nay vegr ber b Efe ht, aly\n| as   mY Ada. faldan nr wigan Å har KE\nAE en vet Rap ar nid. Coen va a   dn a\nGene Grå kon bin. or Ube tok ie Hb  stag",
-    "issue_count": 8,
+    "issue_count": 17,
     "applied_fixes": []
   },
   "issues": [
@@ -174,6 +182,87 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 29: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 31: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 38: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

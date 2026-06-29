@@ -24,8 +24,27 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+LL] LLI JU LA =<  pa=a a.        i”    el   v           Pz
+102030 40 50 60 | 70 i
+eA, AAANAAAAANAARANE SNAR
+ = =   Íra mal |                          |
+‘4, |                                                if
+“ et  bt a    Ruma ap |                           Å
+| —,  >      t oO     Ww al
+| =;  Wi pyue nrg mal
+ hk  x    SFL S Mat  |            4    i     |  4
+AJ EEG                           ER |
+Eg ent ð                      að: |
+ls ca [enna Á         |
+ae      3       qe     ;  , ir Lt   |                                á
+| | .           JER mat |                   |         1
+"   Å     1 J     8   PÅ
+2  4     2    JLluiga í PALS? Å     +.                      |   ‘
+    |  Et     Fi eiga abe 3 oa              ; '          > %    |
+head        -  fi  <      LK JE nfra                                Æ           i     }  €
+mn   =      Fries mak    a
+=    =     kyrr NEW  de ae             ; nies   :
+=> £5       itiameaed,  |                   ae å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

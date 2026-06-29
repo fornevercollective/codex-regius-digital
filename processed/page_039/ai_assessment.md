@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+er) pe any, om lp ne Pt kn
+PE LIE)      ER hoe ee Jena OR
+hå By ae tale falla að eases a
+tja Gee b bend A. (Aar deep  mel å Å
+EE PP Gon Ga Gi: þvafim mine 5 A og Å
+Ev tore. ew Beye mat FE “=
+Mist hast home. had We  rad då ++ a
+cine pdf De vær ints Jobo Vi |
+Ne Einna fynar Bu yale lb mags, á þú  Ad
+RE i flyp:ð u hølet, ©     ty biråbec lt gia. oe
+sr Sara dr  þina Ladd tír“ be  ami
+å en bara  ta er å ca Taf Bay pg TE
+
+ie, 9 bro pvr |  x 7  3 eae  og å + fd å   5
+SA Mn li © a
+kg een É bre glapp ae gle foer og nébspe ban — å
+> putas løy på Ore egen locry arb ohn ps ah
+TER féæ.    vob þv vif Ag Dea ee oe
+por    þognpb på é pv gap feylðira ex flovmom ae
+Kar Open tp ty fern  ne eg ee
+Be apn eggen |  Á
+EE bo fam epst 4   myr fe vala . roen, h pep sl oka
+= Spe  aa 6 få We th Ara drpidue tag Fig vat
+ps > Alveg fed á ali  Abu þv ert pegpnfmer pl
+NE Á ögn Ji ole len Pol å pr
+at ee ar. Gans te fi are  Ed |; |
+så “abt lang fu ve  la fr aa 5 Å
+| k : = å 1   ic  % å te ae    a 8  ll```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:44:31.758382+00:00",
+  "timestamp": "2026-06-29T02:58:15.453848+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -96,6 +96,7 @@
     }
   },
   "ocr": {
+    "text": "oa TTS ap\nae AE rør ør dl\nET TNT\nå EG Å   genial vera þar í fremiia my Me, ran Å EÐ\nGE or i Syne På pode ke En EE GA\nVG  tho, ie nor ud rot í een Todas ©  Gaeta theme kata\n10     Mandel Å        FT NE EET PG ee A ee\n| ry Ws: var dates fer dø er 11 af pan AG\ntec D8 ‘eatin nds EN\nTe gs A falar  va Pia FV groin Si  tha. 4 gi\nMT varp fen fis mand fant aif høger Glen vaya\" ed\nee gee Ene Ws hue 18 tah án En     5\nee EN Þett oll Aral tela judeitoe DoT Bårreot ae\nile PO 2S A helo 3 ator as ve 0\nSN Den J APTN) árum så ha lad  Í eg Je Ff\nVL EE tt   MR å Pyro wher á Fog 1  ar DE\nde Fe  Prado. A las Að miða að ee\nEE RO Sel glis. AOD TD COE vad BER TR\nren SM ur Jo þurfa møje marker MG\nGE noe seat hefing, faa grå. ap. peed: brer OG\nÁ á ag een {coped o bn blaðs > abl ti fyr ma\nis 5 ov sit AA allra em puree a Lam ker am\n| op 3 0 Saar a 1250 fem Senn: his No FG\nity 4     ES (idee other 4 tities Albion Sudip, sín då\ngn hevn bambus nær ay 2 Af mor Nod MG\nPane 28 Pal Orridaljr Bram foter í ork. bre yin båe Al\nQe aes mar > nptaþ eig cc Diiga renere» ok\nTip par høn Gat. fordi  ar eS oF lige ON\nRNA tg for spin bler lay Fenr ardalins  -\niy | Ra    tno es Me Dae hva pas, SR\nfe ses cot 2101. Ses. vrowies fb, ar alia sn oo\nses gg å   talar. áls på Fe Jr  ig! DET; kom.\nREST NE VET ge\nGPL JE STI AT AE maa\nAk ka",
     "text_preview": "oa TTS ap\nae AE rør ør dl\nET TNT\nå EG Å   genial vera þar í fremiia my Me, ran Å EÐ\nGE or i Syne På pode ke En EE GA\nVG  tho, ie nor ud rot í een Todas ©  Gaeta theme kata\n10     Mandel Å        FT NE EET PG ee A ee\n| ry Ws: var dates fer dø er 11 af pan AG\ntec D8 ‘eatin nds EN\nTe gs A falar  va Pia FV groin Si  tha. 4 gi\nMT varp fen fis mand fant aif høger Glen vaya\" ed\nee gee Ene Ws hue 18 tah án En     5\nee EN Þett oll Aral tela judeitoe DoT Bårreot ae\nile PO 2S A helo 3 ator as ve 0\nSN Den J",
     "char_count": 1303,
     "error": null
@@ -103,7 +104,7 @@
   "corrections": {
     "raw_text_preview": "oa TTS ap\nae AE rør ør dl\nET TNT\nå EG Å   genial vera þar í fremiia my Me, ran Å EÐ\nGE or i Syne På pode ke En EE GA\nVG  tho, ie nor ud rot í een Todas ©  Gaeta theme kata\n10     Mandel Å        FT NE EET PG ee A ee\n| ry Ws: var dates fer dø er 11 af pan AG\ntec D8 ‘eatin nds EN\nTe gs A falar  va Pia",
     "corrected_text_preview": "oa TTS ap\nae AE rør ør dl\nET TNT\nå EG Å   genial vera þar í fremiia my Me, ran Å EÐ\nGE or i Syne På pode ke En EE GA\nVG  tho, ie nor ud rot í een Todas ©  Gaeta theme kata\n10     Mandel Å        FT NE EET PG ee A ee\n| ry Ws: var dates fer dø er 11 af pan AG\ntec D8 ‘eatin nds EN\nTe gs A falar  va Pia",
-    "issue_count": 4,
+    "issue_count": 8,
     "applied_fixes": []
   },
   "issues": [
@@ -138,6 +139,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 30: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

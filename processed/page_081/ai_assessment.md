@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+5 EG by ie wage gf me mið boven ula a Å
+it ae   tg  rab å mer   02 fermt por ee stern tt 1
+EA DE    Á  $              Å              í koba, SE
+ga AE fø]
+0 Fm plate bone 4 but På beng    or Or mis foun Wine 4
+ee atta Ía la # aþrója. ev ham? vara vapolde  vit, ‘a Å
+nd ne Das var 00 Bet 11. og ve urea. Wit ence. í
+pm dieu ena flbae, Ajer tot all 165 la“ hilde on”
+en ara bút ep ir þí og probo halm quae |
+å er í ove OB fac home ferslbð tíma føde vabo shy, =
+on 8 fanen: ong bað 4 flera foer tins å toate: i}
+: par kóngur bor fal mn sør ban: haram hese   “Al
+Ef br bb es barn pan Sl ie Ss |
+Le gr við yarns Ta, Boe dop grunn gl mildi þari 4
+ee oe goe Å       et Í par ollo ji 4
+HE? Sissa: Suago > ops Hang ett fo 6 muy boð bang Á
+2 “4G. ber hvateka hatt borið og aar vin weed occare ema, hf
+a pen gjore goð aver Ad. vegne atm, baw vax "  I |
+EP ify ota mb elo mis Gater. uno ay 5
+Å Re ket deng fom s lea vie gd OG slenge Å |
+SG TN ae bers Pract foren ar Br feptoo goe hs avd
+a eis ar been OG rn AUÐUR ag I
+VS NE
+2
+ FTV. Gott wild ve Paton t rons obacfr Å
+reer eres ere dn ferde be bana nan Å
+SE ol utt. LIED fe 1 aoe feu aro: Éy of gh a
+a ee Å
+ah aes.  Í BE ik = yon © I |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

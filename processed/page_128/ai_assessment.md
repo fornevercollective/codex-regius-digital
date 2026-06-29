@@ -24,8 +24,12 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+HU Á ANUNUANNNNANNNANNNNNANN NANNA NANNA NANNA ANN UUU rn Per ppt  A
+10    20 30 40 50 60    70    80 90 100.110 420 130 140   150
+DADARBARAAAAARGARAARAAAAAAAAAAAAARAAAAANARANAAAAA AA AAN DDD
+f                                                                                      |
+4                      |
+|```
 
 ## Modern English Translation (Plain, Aligned)
 ```

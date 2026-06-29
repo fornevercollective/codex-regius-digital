@@ -24,8 +24,31 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+RT ‘ Hi
+i ope eae  irg. bina, OH
+Oe ee LE tar b SOP pes my  hå"  -  tap  ve    a vi    .   fy     Yee
+FA Ee  PÅ 7 pa Få  9 ar av  .  veg. re hvfr   var     EG
+PE vor hy DE pg det ar ane. Sm  m iS
+ges peð   mime Pee
+ET Að et né unga  af nl Å   eige omtene i
+TR) gi I erfit sea herna fond.  SAC å 0 “gill aða   4
+— pe Jama. bar. ol    Gee Ti    í
+Ger form Lenne fold å ið lærðar By $00, 08    4
+leve fönn á    ae Hr    når Å
+ea a fuanl ay, ave | Morn, våge By få ar  :
+kV “bared had     fig tore * feribo    Jose ae
+OR på 95 by ¢ Pr Tigh mi   på gree”     , ‘tal mar,    |
+Br  ng har kg +  an bp fan
+GR ól jerv Gap hvar wip eat shite |e
+00 py iny es lei  ke   D hravra     ta
+sa es Øie. tapre  broa    bat  Ay 5 alið forg nt    a |
+EN ee ea Ma
+| one  ið LA fay
+R Ea noir 4   beg lange lire wh ibaa hor  Vie
+| GE nn VGA Av dl fom 9 hass. Pare     DV (
+he ið wick biti)  ioe ee Sy 3   BES 22 ah R > 9 A
+ou et å kr dt EE                  ð
+SLT Ta```
 
 ## Modern English Translation (Plain, Aligned)
 ```

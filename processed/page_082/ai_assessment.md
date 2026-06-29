@@ -24,8 +24,52 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+å homo avla. band vfl. fira av rb Stee tad þr
+me & gþr vido of ee ae ses Aer mf PN
+he fate met. fle beep 2 Bappiceamtiana, Eda ey    fe!
+g Ma D tina’ poptey 2 ep Mpe hems ars 5
+ke fee oe wee SO Ne bg) gr
+Heke  kg
+| = Path Me Sy   Lar & gal vann ef     abet
+be” Hywel" á eal eae a   Yn em >
+© po xm br án a goa 5 wlll pipa: fog þé ne ome
+|. nest falne Opa ap pr Ad: fvelra top. Grann ray av big iy) 2
+Hp gi Ger og es a oes Å
+i har beg elder dm pi    ae oer, na
+
+| MR
+
+a Afop vegu pa heyr þv hrapa galla æno gialla Zhen á
+
+Å ug rs fr þvo gt hem
+He nh ioe vg Synd Er haren fen Ná pe sp Å
+
+= ene He  av glint. nods löt áð raven
+
+a:  at ing a    bg cn a ayy Amap tc
+
+| tie    legar.    st bin ne ben    ne qöema Á
+
+ee ess fan hone abrar   a fro lohan, 5   t. Tor foer Á
+
+wo nib myr da € er farla fare på får ole fører olle #4
+
+ir beer, of Ber mit fa cya op been nie fe frk J
+
+8 Pk vg å al Oe ee aby ams Å
+
+| fs  it. Sæt m;  fo Vi. WEST ‘oct hamar 1652700 S í
+
+HÅ å AN sb   og. Bi na LAR al VA
+
+Dy 80 við apen þer fencar lekte > atjagyrðs kalk BE DN
+
+a Sw tar teðbrar verka hvna fro dr hralm, brøt hilma 5
+
+| gr a    Jin, oplene oe EN
+
+| JD          dg    NER   i   Lá      2 2%  hå   AE KE
+ER as je EET ee ad```
 
 ## Modern English Translation (Plain, Aligned)
 ```

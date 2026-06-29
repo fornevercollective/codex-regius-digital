@@ -24,8 +24,23 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+EEN    NI
+ao        20 30 40 50    60    70 80 90 100  Á10 120 130 140 1
+a STULL AAA AANA RANA NÖNNNRANNARANNNANNANNANAARAN AAAAAAAAAAAAANAAAAAAAAAAARA ARICA AANAANAMMAAM ANNAN
+
+|
+
+                                                                                                                         |
+
+|
+
+|                                                                                                                           |
+
+k.                                 |
+
+í                                                                                                                          7
+
+i                                          4```
 
 ## Modern English Translation (Plain, Aligned)
 ```

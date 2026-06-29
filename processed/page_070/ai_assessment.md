@@ -24,8 +24,33 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Gr ve þú as
+os ANS. 19 té out av via ba €é homo al? faman fi   “a “
+ye are by  obtadaty É álið mag € fa hvert“ tien he + ye
+Å aar brutte 1: la erey ny Í “2 QA        9 på {
+t   ary ier     Gå áð“   Pa: A RS   A oe  Fea ey OM er
+Beye ee
+ga på ger $a gagn 9 fár rate OG BØ ms óg -
+a "pilti. padract 5 blað a vidngt epesDSetcy ry  oe
+ad cc nb oe loca. ops bera orepra Dey’. umes Pogue |
+Eeg
+ko við afm met mel þv lyngen lee, LA  wipe
+Å ng fynguríí ug ala. 1000. ¢ þv TEP ie A |
+Hp: at gy hf wi a far a fase VE
+| bm. , Oudpopyot bn se å ge
+Å get & tiie ar potted: bt re ferier ar VE
+4   asi  Binge agree Jind 2 Era ie ult po JE
+|  seim 5 galt dd. Å ben Í
+far ftp hp ae
+LS penn gt. PT Loy vexti) tl: vib fae vill guia Ee
+GT 2 maker vad payne lá. A al pott tH. op hapa hy:
+hk yr þið bys obs ics buen gd
+þr“ Gt parc mh VPT    ee er 7 4
+Mr ae 9 > = ie Pe es, NG
+NR ee TE
+Kl PE ee EEG Er
+
+|```
 
 ## Modern English Translation (Plain, Aligned)
 ```

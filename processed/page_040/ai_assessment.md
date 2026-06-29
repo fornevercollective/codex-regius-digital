@@ -24,8 +24,33 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+AE menn. g Probe ge lg  þr | |
+eat fog | Shs ner os ‘
+Å seter ene A DES MBE da
+Å hepnn.  a  EP [JER
+mor, ret ar brt pros fe GÅ AA fa bog Å OG
+ii — mort      € vaker þar     Br PE
+Å grepagrn er ape & her 19 OF på gbo fm
+ia boð. [den þv: havo bre ár blanda "Sei a
+| hi mu he pe ef
+fy epee mason ete Ta  bent ye þú
+Ly es mað happvabe rat Ries HO
+fn fran: ganee ee Ces “py auf alg ae
+EE ge li    før oy gl fe) AG
+Phone laps ov hopp vant et þv rep ere 2
+A |
+Ei møbel ‘Ps þv EA Å pr DER
+i |  El pe Je mulpels Í a a
+A Ana po ny Yes bee  oh  ye Pu vere |
+py Barer Bre Gora Í
+þe nt gg Oen TL JTD la þá“ |
+Kb kv Vg Se ot  map kg,
+Å) fam myra mol)   å lyd feed hlaða: DE eið Á
+ho ye þ fæla ey ét  ráð ond BA Ar em te 4
+goe Pr Tidy £02 29M EE GE
+me pan Spr JÅ FAE
+ER TT ONS Joye rae ioe
+ME   ad oe ET ewe sn VR A```
 
 ## Modern English Translation (Plain, Aligned)
 ```

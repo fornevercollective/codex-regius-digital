@@ -24,8 +24,22 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+20 30 40 50 60 70 80 90 100 110 120 130 140 ae  JG
+ALLAANAAAAAAAAANIAAAANAATAA NAAN AAAAAAAAAAAANAAANARAARAAN NANNNNANNANNNNNNANNANNANNN ANNANN NNNANNANNNNNNANANANANNANONNNNNNN NN ee
+lk
+PD a EKTE TAG  |
+r CRF AL YY Oh FS át ÁÐ
+> 130TE000 TRANGE EEN EG co
+NAT SAGT SÁ ér AAG
+A
+fr tl es di pial vee: Bi
+I TT |
+EE TT
+Á NUNA |
+PP SP ee
+Be es Te TOTS Se
+elle ER ba eld bt
+2 |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

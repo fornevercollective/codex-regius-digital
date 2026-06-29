@@ -24,8 +24,15 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+TTT TTT   LAUNA NUNA N NNA VANDANN NN GRUNNUR RNA UN LÖNDUN           á
+30 40 50 60  70 80 90 100.110 120 130 140 150    Cy
+SSRS aa,
+1    å
+»
+ |
+'  “
+\ å                                                ,
+Å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

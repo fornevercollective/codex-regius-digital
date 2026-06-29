@@ -24,8 +24,28 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+TLLELLE TTT POO POO ACO
+0 20 30 40 50  0  0 80 90 100 110 120 130 140 150 —
+TTT NA
+/
+
+å              t
+
+1,
+
+Å
+
+                          3
+
+4
+
+MM
+
+|                             g
+
+                   N           .
+
+7```
 
 ## Modern English Translation (Plain, Aligned)
 ```

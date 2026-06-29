@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:30:29.058055+00:00",
+  "timestamp": "2026-06-29T03:00:47.895161+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "A I å ber tt, A Vi   Ívava  oe it\n; a “ta um Pr an ten   3 |\na tas pl; gate iba hart    06 Capt | a i\net ‘pe  ee | |\nBE fen sa þin garða Á de irb |\n| | ER fe bes þá betas. 56 Pa all bet   |\nre ró na te pe   eke Inge Gan   |\nEn jaa E Hong ib   tet. |\nGR høl po  Eg  ior Ke Ro Å\nsa SAG bere   Ke ia pr  elg q. I GE\nne JÁ vålbafte eh : Må frp 1onafts, Spat þer Al\na Mp di A Í              =   is            ba    A Da   FAK\nSeeks a bö Bi pbt ho ie stores  ie en x  o\nee pF Wek fo    ? áð fr Salen ¥ Vel fore fa fer ER\n A be sind   JA    í En    á. ðí Fine. |\nee Ves chew fo taba. þá ave Pas oy a i ið\nÉg åå að man i jr ei hefna Í  sing poses PB\n: et   hélga ef: h eg  1 hör  ap EÐ  Å\nKE peat  ta ap hel fvava vil   wk He fetpss    4\næi ga ep  «Age pe Enga |\nsi in då (að fs eð sy thára ft fys cp == Å\nrepr    Tie ts id mik o£ agen f an : at iF\nEK PG Nate ae  > BE på   =. a ae ær        ar (ee my |\npaket Sib. Bide KN tae  2 nå, de\nA ÅT ait “3 áð pl am kon Ål   ag a\nas. æ me He ee 2  an bra 2             AG V på i å på Å\neek mg 00 vw      % 8    E J  ul       st Mer NÅ |\nFe 3 3 bi a) hy oe ae 2         ið  :    GE a ane på og,\n= La FE PO     á\n SRS 3",
     "text_preview": "A I å ber tt, A Vi   Ívava  oe it\n; a “ta um Pr an ten   3 |\na tas pl; gate iba hart    06 Capt | a i\net ‘pe  ee | |\nBE fen sa þin garða Á de irb |\n| | ER fe bes þá betas. 56 Pa all bet   |\nre ró na te pe   eke Inge Gan   |\nEn jaa E Hong ib   tet. |\nGR høl po  Eg  ior Ke Ro Å\nsa SAG bere   Ke ia pr  elg q. I GE\nne JÁ vålbafte eh : Må frp 1onafts, Spat þer Al\na Mp di A Í              =   is            ba    A Da   FAK\nSeeks a bö Bi pbt ho ie stores  ie en x  o\nee pF Wek fo    ? áð fr Salen ¥ Vel ",
     "char_count": 1151,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "A I å ber tt, A Vi   Ívava  oe it\n; a “ta um Pr an ten   3 |\na tas pl; gate iba hart    06 Capt | a i\net ‘pe  ee | |\nBE fen sa þin garða Á de irb |\n| | ER fe bes þá betas. 56 Pa all bet   |\nre ró na te pe   eke Inge Gan   |\nEn jaa E Hong ib   tet. |\nGR høl po  Eg  ior Ke Ro Å\nsa SAG bere   Ke ia pr ",
     "corrected_text_preview": "A I å ber tt, A Vi   Ívava  oe it\n; a “ta um Pr an ten   3 |\na tas pl; gate iba hart    06 Capt | a i\net ‘pe  ee | |\nBE fen sa þin garða Á de irb |\n| | ER fe bes þá betas. 56 Pa all bet   |\nre ró na te pe   eke Inge Gan   |\nEn jaa E Hong ib   tet. |\nGR høl po  Eg  ior Ke Ro Å\nsa SAG bere   Ke ia pr ",
-    "issue_count": 9,
+    "issue_count": 18,
     "applied_fixes": []
   },
   "issues": [
@@ -187,6 +195,87 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 29: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "WORD_NORMALIZATION",
+      "message": "'EK' → 'ek'",
+      "suggestion": "ek",
+      "etymology": null,
+      "citation": "Neckel & Kuhn 1983",
+      "auto_fixable": true
     }
   ],
   "citations": [

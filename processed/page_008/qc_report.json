@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:44:30.214043+00:00",
+  "timestamp": "2026-06-29T02:58:13.947751+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -78,6 +85,7 @@
     }
   },
   "ocr": {
+    "text": "på\n}\n\nÁ\n\n7",
     "text_preview": "på\n}\n\nÁ\n\n7",
     "char_count": 10,
     "error": null

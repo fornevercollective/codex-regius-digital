@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+| thon G towa ee eee hå ey HÅ
+=. tbatónð há ea A Vat éfð rome, hul
+Ar vir fj På br 10 mener vacþi   Ge ingar'bá = * |
+taf brvn fra. fielitigar tneto de gn  madam
+7  hs  ut ign. am ‘Dee © :  DUNO ifs   | vr
+| pt gd
+a  bis tang fe paa &p bm, heals ba | Br  MG
+Å glis atl dove fatte mans freypa vir. Ctr þem Ge
+Kulø Ko: opm roleg 5 barg A 3
+Å enige van Ape þr på  pr ge ee A
+ea f horn ge að pg fee MT
+188: ae  {ag The. 9 nyter å Mamg wp wh sa fae á í
+ee eas gl ar 6 fu un ae fu RW |
+bi ct be tele t   sn 98  Sov f trapra € fos ger 4
+a ga cm
+a pr  .P   10. lad   a ey
+| a A ge rin Fy sind
+Lek bon høne kote byger Å  feer aha erfir“. = ál
+i på på meg é  DS GR ofay 0  |   p Nå Sa   s føle mye PN
+a gt bana iv pe for fog ms. af ey.
+ET Howe skyte pA, a ty atom, Skt man AA WR
+øl fe þa re ee fø far sr
+NES fee bryr GA ag EN
+å  hen 2a  øra å Mae pine, ESN tack
+9     pen fyn aner muna fyr me gjelde Í  Haar áð OR
+då pa yak * re Por MTT)```
 
 ## Modern English Translation (Plain, Aligned)
 ```

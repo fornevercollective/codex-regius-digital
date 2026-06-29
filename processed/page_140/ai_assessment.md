@@ -24,8 +24,23 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Í a
+| Á
+Í RIFF IGNNG bands bn GRG 2
+a A ACE UEICHT å
+:  eerie lin Sab toes
+EET MG LET =
+| KKA ÆR
+| GRATUITS AU NTA pg:
+| rromn-rareuomanmarnorrtrnnf |
+TVETER PT ER el At
+mele (víð Te Lh 70 AGS
+Bay Sh yY XP EE JPL TV JG
+|  I |
+ye å te Th te LR Ye) |
+} - REDETENMENRITENCVICTINACITRDCRECOCNCTIAETTELETy
+Be xove xr Ihe Å
+x    |     —     I — ~~```
 
 ## Modern English Translation (Plain, Aligned)
 ```

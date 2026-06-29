@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:00:01.618952+00:00",
+  "timestamp": "2026-06-29T02:59:31.704270+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "SN Wht þes å om fat   thread. oe\nNoe å ver  AVM ie or ae at Að é he fler ny\nSe a í Í 15, oy mist   ók + Ron ce na SS\nå ay. ee  =r vari: þv iver dy J seigi eg erry filen : 4h)\nye Beare MD AG od» alet Hlað, Dias” |\nBl blynenag € tc Blymia h  tv. oso rm Ma Å\ngt 00 yall yr feialpa guða. gynnf, ' mbor a ME\nVe re    4 År mat bar 18 førr å dar ae bibk, Å\nee eng bow bo 200 hoe re ae ge\negga ne wrong. bin  alger nedla fra (1\n„ti án Po ee: Va hag fi for falkynge ar fra, Ég |\nelle Whey ec Al gullin fo tron ec þá reg.\nek Cope here å  quénr oleiattan ar fa. Cpl Me\n ha ud Lape ge mee fi sae\nEg tape mg npr ante Á\ner hf byerå bø fama. ary pA ee hie og\nFEET    pe abre\nud ena mutids yor at ás te pi a å  mae oe\nGE wae ic Å pen þega Á ee Ag ball av MD a.\"\nBees |\nfr Ge Ge Aras pale org ang mað |\nSeeger regent ao\nma cite. Sep, rót ble fin nésgsnaB. Cas ven Å\nee a repr bbe fn per fr tima mand ÅÅ\neee > Synge ay avin, é pre  ie oo\" SF  1      T  ten |\nMek a bort nea,  etan í MANY, sone by 4\nke Ayala.    ant samy i. ag 3\nPai dd pe veg  5. apr ripe oe   oe\nLe   A   by Shy os  cee. Se te  hi",
     "text_preview": "SN Wht þes å om fat   thread. oe\nNoe å ver  AVM ie or ae at Að é he fler ny\nSe a í Í 15, oy mist   ók + Ron ce na SS\nå ay. ee  =r vari: þv iver dy J seigi eg erry filen : 4h)\nye Beare MD AG od» alet Hlað, Dias” |\nBl blynenag € tc Blymia h  tv. oso rm Ma Å\ngt 00 yall yr feialpa guða. gynnf, ' mbor a ME\nVe re    4 År mat bar 18 førr å dar ae bibk, Å\nee eng bow bo 200 hoe re ae ge\negga ne wrong. bin  alger nedla fra (1\n„ti án Po ee: Va hag fi for falkynge ar fra, Ég |\nelle Whey ec Al gullin fo tron",
     "char_count": 1080,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "SN Wht þes å om fat   thread. oe\nNoe å ver  AVM ie or ae at Að é he fler ny\nSe a í Í 15, oy mist   ók + Ron ce na SS\nå ay. ee  =r vari: þv iver dy J seigi eg erry filen : 4h)\nye Beare MD AG od» alet Hlað, Dias” |\nBl blynenag € tc Blymia h  tv. oso rm Ma Å\ngt 00 yall yr feialpa guða. gynnf, ' mbor a ",
     "corrected_text_preview": "SN Wht þes å om fat   thread. oe\nNoe å ver  AVM ie or ae at Að é he fler ny\nSe a í Í 15, oy mist   ók + Ron ce na SS\nå ay. ee  =r vari: þv iver dy J seigi eg erry filen : 4h)\nye Beare MD AG od» alet Hlað, Dias” |\nBl blynenag € tc Blymia h  tv. oso rm Ma Å\ngt 00 yall yr feialpa guða. gynnf, ' mbor a ",
-    "issue_count": 5,
+    "issue_count": 9,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

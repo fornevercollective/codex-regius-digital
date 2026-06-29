@@ -24,8 +24,44 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+(peer res ed
+eae oe frees Ym Pa F 10 Uy Por Mela |
+Å æ par JE mone tae Gy? Rå   Lmef “Wipe ve ligt ð, |
+SÅR, aio:  nå    ua gl
+KG hen Jorg age   ae ee ar |
+| TR:  Å fs Dig  PG &     Aa THY 4       ¥       pÅ       Ía pen å Á Masi er í
+
+ók ve he a Apt PA tög eg  så D acy fem bog
+KG aap ar   a opp 6 Tavla 2a ar 2 av Ån á
+
+PG: ee ey faer FAS  i bad STURNY ÓF  á te Å
+
+ið etg i ig ead mb hay dr p foren |
+
+a ae  se ais HR hee See |
+
+aoe å ae  x int v WZ   pare kt    in      20       t     hå         -  å þa a å å
+
+á a = á 6: Es å ér:  Stv av rå ar þu erp fir ør Al Ál
+
+loge lee art tl og age   nm aS lly  ta quel FN
+lg an basen an erd Pl lab ar går nae. |
+
+Lit grt fon te tur ld o 0 bane Sea
+
+oe ae pia ees ee gong gm Ga ais, Sør es bess
+a pec aA KR
+SÅ EE ek ar Dea ie  Bt,    2 bimfa A
+AG Seepen fidige vrtþa gripe 1 bø  rå å Ried tg) ss.
+VE ol om å ie å ae viþ ætla gæt.   2 fet aay? 1
+lg  A id,  Då vi      ti   ler bo í      udi
+Gr =  farm MAD í  he 4 fie hes lente re far +80
+TR  22 ape V fa ag he AG
+a am.  om Alden Å ep vörn   Lú? la: 7 dl   f ha roe |
+OM My AL) DEE NE Ørin ar sae |
+eke, Pes gl ee Á EX  ae  Er Íris  PN se     oi    Ke, ER
+Øk A re sr   Hing JEG áð:  mr  á,   I siði        28 ei
+EG, å og Ver Å Me Ea —```
 
 ## Modern English Translation (Plain, Aligned)
 ```

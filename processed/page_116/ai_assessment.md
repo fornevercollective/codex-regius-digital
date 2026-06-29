@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+UV    + VU     U    DU     U    oh     ~    Sr     =     ee rr —— |   pa
+AANA STH AMARA ANA  AAAAARARAMAANANANANARAATATAMMAANANAAAAANANANAAN NAAN Ga
+
+> IPUF LPP IP 8 28. ræ
+FR
+(I ET Al eta ÞJ left jr ete
+ip Ive XdVr Arr 197
+MTT re ed bebe bred Bea bd að
+Pia ÞÉR ÝÞ ÍR Tose 1
+
+re ra IE
+a    -     Å           pp 2 gs,    Å    Å  i         > Å
+9 X0vp APES AÞEÐ X9
+Te ee Ta 6
+Pera TP fa FP fe TP se)?
+á OG
+le XPS IP Ke APS AOU
+
+TILL ið lE ki ld,
+|    -  »   y «      pe      på   se Å
+> £4 Td få TO få TP FÅ 03
+ld a dull Lk ea eter Ed kata tb ba
+rote ll la el lad fl ls ja Á þa bt bl ll |
+pp   >      4        på   x                vy   Sn               hl ss     p   :
+
+> £5 J? £4 30 Lh Te fain
+lalli BL ti GR ol sl Sea TD
+ása ls```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+= ee  VÆR re ope å Eat å ' SG må po A   = ge 2   = a i  |
+iy a, vat piss, Cofe øre rr pl kriser mile Ty
+EET a Á Ge Be hrmpløg ber 19 harpe Vey ág
+i aða þér batorf brgine we og bærst froma DOE
+gg pa Acne, SAE Sede Ører herity/ te hay hende ab Á
+Ne. Sone på ad an 48 búa. het per rentals cooky á
+| aa “ae pg  faga aperkun - þar free fray bepar ep Al  Å
+Vg pi clip vf Ay tr ano ry ð iði  Po  | ee
+Í Th dts tna. óla gu 2. na fissidaa nah hor Å
+EE et Me fold á Þóra Ía at fale comma í Á
+EE aga Á      9 ar jar vapa þunga; frama 15,    ai «iy: |
+ eee herpes i i  af: nl 43 rd   a  ag    a oak fy  ny     å
+Eg 4 te a Sd, i oy Fi oe Aas no Á
+LE å se   eg    TE     VEE VA. VOR  En    ra
+jern gt það
+rr   ‘all valyrfdane. h. Soo pa ABA sár
+MA webr page. #ð Je hånt   Í aye ac Bað 2) OA
+ee ai veit" få.  Smám er lend Prag |
+et Ry  Pe ina tili þr  pilla ban 26 at <A
+nd ak piøder my. 200 Celso MR id -
+I Mt dende  I då et ko vr ata ål
+EE a eg mer DO Me
+
+\ æð JP ER ag OS SE TT
+EE TEN ER TG
+Pee SE pe Re er nn            :```
 
 ## Modern English Translation (Plain, Aligned)
 ```

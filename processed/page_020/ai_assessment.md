@@ -24,8 +24,31 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+„ÁR fore 6 om ov a pos:6 tg 3    Få 2 ame 3
+ Ky   gjar Miða inf  ver ee Bara ris} Re
+å de meg re ee
+fa Wa been er     des   nv wp komi        a |
+| q é %    kr þar       þó AA  a, gå a  hides ee aa
+þv  3 th å av oon en horni 1  på » ao DGC So ae
+17 nym    a bra    a eb hefði hå for åå
+Meer frie op Bin ng     e ao var bape I   Je
+Å  gyngt op fø.  cig ot  D leo Ly bh ; 5      og oe pag MRD
+|         Ta. firmög forkng b lex.   feng 4. a VÅT A
+EY å ov av byha. þv      ALM mal: op eg  UNN
+
+© ge År Age map ar ae ed eS oe ae,
+Hare Eign En fof aent Bi et ag
+0 høne FR paa he å høl nob „tie av fora. BA  Be
+tg å pod a rose  mp ráð a Boy år (be
+hype 0  3 A  a        å     Lt    ioe  av at    :   To   e #05   si ir}
+‘| © ayant han tease |  oa aM     at at lo mme pt ae
+| Safe artes a ÞE 1
+lag ma Ú ahs a bg Á sent a pig 2p si
+He ead at   "allra  Se. were of PI have pe å Å ed
+ER kp Rise pi  Ss    i he lege a Ee
+a  Paes j
+Me TS | SO sie    3
+å x SL å pan om```
 
 ## Modern English Translation (Plain, Aligned)
 ```

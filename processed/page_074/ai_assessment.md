@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+kap   å                                    de ae EE   Es   Spå    nat   se
+tr BELE   a    pi         Or    4    icin MOT RE Bag
+GT era fo         TO a rn NE
+orm fnibo firt) orton år nn,    man hode 2
+GO pr    $        tb   Å      , EEE Pl ya  ;  þ aie, ee ‘ens tas  +
+EE ee    Ty    (  v ha A es     P bød an  sag a a 6 på
+| ts GE it   4                band We            å      El MD Í  mn Aika åå    Øy TN
+ET yer go       |            PG di MG ið
+Å PEST        Vi   á     FP     ae   0 pa       we ye | Le  2
+| lete age   5. be ally gay se
+eos Ly å, ig  94  ri  å           4 4   es  am a al, hid.   på Hi    DR: lg ak eg
+Få ay ee as   Sater ip fig. ty   = h pe =
+rr høgt pr th         á       Ta ða
+EG  th tbs par       aPvi    fk  ut OMe kp ni EE
+þjá OR 7     Á      ‘   ze     §. bd. wil fra  “aa, ; JPG  ET å gd Å   AR
+Gp   Ze    Ne:                          ey   v    m á fo 5 078%   oe oe   - GO
+På - Weng RA Ls eg ty gr pi      vala ale fal aa © SG
+| Par bágt tk nu. AV ak 7     et ge eo A
+fies To bis Arc > gig vidi. Da toy in: B sjóði iS ee
+}   á    oy ae   þ    TE,   $    å SABE:    á   . ore ja å     Tr ge Eg å   DE EN
+Va art.  eats ng på ar bí PD Å pa  Le  gt  ae ae LL 4163 = Ss.   ee ep! Neg
+Yo Pies tale bane Be Á  Å
+DEE) LG ken VS)
+MG © = ge Rea «.* FTP 6 i Es Coe```
 
 ## Modern English Translation (Plain, Aligned)
 ```

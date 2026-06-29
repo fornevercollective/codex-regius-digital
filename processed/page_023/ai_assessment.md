@@ -24,8 +24,37 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+THe — JET  TRER ta. dn on KE: >
+A å ov or Kae lll fn
+| a jamm, hug ee HR ber mr hon = fap ec har all f mer]
+ve Oba 8 nen å  pe eee opne
+Me EP en sd } Ree tpi, Eee i
+9 Ga herts meg no magi Roniovale € beta és} © kan brea
+Å a a ps   | ls, me þ „a gm arm ey min {yf 4
+Ben Rivers ain-apal Slag have hæla 1, albares: yra (ons Å
+eg ae   “ yen fond. het fa ce gu heil faey ay nitørt fa  na 7)
+Pe} ab ph wpe bé   bløde FÅ
+' ið Ga lr tc grat else AT orda påpdrvdr a ete: ate tf
+Pee Aa Gb ec apene fs við jaa fora toro, 14
+0 huga tap tam lem vaderdnr a, nøl ee po ymolper I ÅÅ
+eg und sn Tala yng fe. He  þv part b 2! þv aper bis å hell |
+po þv afi fey. oft pr Sust a FR
+po ADN í þor 1a ding aegeeetita ovb fperr. Þ ís alone vår” |
+FE på Pr gade í  Ert Aah RD ri           q
+| EP % de VA  LAD 19 gere yor per hell py a
+To hv var dd LiDE er 1hæll Ronit:  te fia. an fa. yt  2 i   af
+ae ene ay Warsi a ‘a veby né conte eds halo
+a heey bor fo  a ala. liðar þorpa het ec leng
+Ku un dg
+a lg mis By Eee
+ee, hal    lær a sagt   bvagolr å
+tise S| at mr ar ert & bit Droge
+0 Bag Dot mow. Semmen hert Em feta brer bas Pias Å |
+LE mage há bart bye Bins 108 4085 op lydsdn ÁR
+ant Sav þ, aanoraby hve fa 1 | oe gl: |
+a nm pr ign hún Bar ka doc | ig
+
+A Me (0 Ma```
 
 ## Modern English Translation (Plain, Aligned)
 ```

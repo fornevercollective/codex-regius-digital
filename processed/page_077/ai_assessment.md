@@ -24,8 +24,26 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+FR nere TENG rjóma oh
+pt bana. fra foer groe volliige fa. dad cope    A í
+FE viðlótir resa bp Av  í map veh. |
+> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |
+þr øl høg korn. ON tie hoe hysa gere i
+EE fot a am ey stom BØE rn»
+SL: it Gana and faer vern |
+Se Ge bo oa apen Dag få I Jnr Dgas  haa UTM      pi
+KAT Bs eið PETE ben   sf
+Ge møbrke ope P rå aar be tjan Data ff       Í
+EE tee  á Sþ et mir sol ARP Beta no ladIM 4)
+SG st nae.  p             ona ats.     ap    av     sið  þar mon &  tia  er
+DE bs maps ME å þið Opry:     Å
+SR nia þv lþ forte lat 3008 © teg. byetvbr
+PE NE      fv BYS høg I   fö vi ugga    alle   Á.
+A Re par í $ og atay mir. ar þ kg Bs ty oH
+EET aði hó bana. herra. na Ye |
+Ae Sell ern.   fs pear ae brage  om Vout yt    ae
+|  3 ho å ag, RR   Coe, ið min  Ane        gær må di. 4
+be Se ee 3 A ;  Í Mn, ar ka = ið ae  gl ie EN er SEV  f  Å | Me```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:23:38.545530+00:00",
+  "timestamp": "2026-06-29T03:00:30.319719+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "Fe\nå Spink lym; fia cu. sim 1.0050. k.anensa a Å Å ay\nal ymggrn. ko shelio loop. Sian, hve þ Ten her é fung\nir eae\nÅ be ata Greig ope Sm, 1 man bæina by |\nGS IE A al\nLék lap a AL 3 mh þe a\nfo datda file Clee Home. og ms alo porti pag uml reba\ngøre & poibuest igor kabel fropøp Sm blei\n;    ;     1   14.   MAE TS  ao MAE    KO\nFog fag bi Up hm; a me NE\npy Wale elds toe. al page hima havond vaði. á at ve eee os\nPo fjern kerala. Kot hatt Gaol my.q.b.amoginte | {\nÅ gary otiof wornax: al. foegngamnan bbb dewmationy, San hve |\na Dre ie eal\nKG eee Folbøe,\nEa bal. yr OU hm, og AG bien hegne —\nVo Ga Jaga eg WHOS møt fk. fombl. fyrer  of fymr ge. |,\nia ] ono brukte ét far alvreg pei\" poma flags mechs AØP ec\nað a po Se vm dagebr av Bryde, =\nre te af gl Ve GT\nEp gn ok faa eh: De set an ef ae\n|  ik 1 halda, C4 av møt? Ea ro\nHS mes € mons) føde Uh å rom kode\nOG mdyny fo eg vere gr0000| vend EÐ VE JE ST\nis rngar få of Avr ip »   ee JE\nå KP STE EE ES TT\n | JOE Sø      FE ee Se\nBey ne ae, 5 Led ee he\nhog. RR EA ER esr",
     "text_preview": "Fe\nå Spink lym; fia cu. sim 1.0050. k.anensa a Å Å ay\nal ymggrn. ko shelio loop. Sian, hve þ Ten her é fung\nir eae\nÅ be ata Greig ope Sm, 1 man bæina by |\nGS IE A al\nLék lap a AL 3 mh þe a\nfo datda file Clee Home. og ms alo porti pag uml reba\ngøre & poibuest igor kabel fropøp Sm blei\n;    ;     1   14.   MAE TS  ao MAE    KO\nFog fag bi Up hm; a me NE\npy Wale elds toe. al page hima havond vaði. á at ve eee os\nPo fjern kerala. Kot hatt Gaol my.q.b.amoginte | {\nÅ gary otiof wornax: al. foegngamnan ",
     "char_count": 1015,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "Fe\nå Spink lym; fia cu. sim 1.0050. k.anensa a Å Å ay\nal ymggrn. ko shelio loop. Sian, hve þ Ten her é fung\nir eae\nÅ be ata Greig ope Sm, 1 man bæina by |\nGS IE A al\nLék lap a AL 3 mh þe a\nfo datda file Clee Home. og ms alo porti pag uml reba\ngøre & poibuest igor kabel fropøp Sm blei\n;    ;     1   ",
     "corrected_text_preview": "Fe\nå Spink lym; fia cu. sim 1.0050. k.anensa a Å Å ay\nal ymggrn. ko shelio loop. Sian, hve þ Ten her é fung\nir eae\nÅ be ata Greig ope Sm, 1 man bæina by |\nGS IE A al\nLék lap a AL 3 mh þe a\nfo datda file Clee Home. og ms alo porti pag uml reba\ngøre & poibuest igor kabel fropøp Sm blei\n;    ;     1   ",
-    "issue_count": 3,
+    "issue_count": 12,
     "applied_fixes": []
   },
   "issues": [
@@ -129,6 +137,87 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 24: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:48:32.636003+00:00",
+  "timestamp": "2026-06-29T02:59:04.772665+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "THe — JET  TRER ta. dn on KE: >\nA å ov or Kae lll fn\n| a jamm, hug ee HR ber mr hon = fap ec har all f mer]\nve Oba 8 nen å  pe eee opne\nMe EP en sd } Ree tpi, Eee i\n9 Ga herts meg no magi Roniovale € beta és} © kan brea\nÅ a a ps   | ls, me þ „a gm arm ey min {yf 4\nBen Rivers ain-apal Slag have hæla 1, albares: yra (ons Å\neg ae   “ yen fond. het fa ce gu heil faey ay nitørt fa  na 7)\nPe} ab ph wpe bé   bløde FÅ\n' ið Ga lr tc grat else AT orda påpdrvdr a ete: ate tf\nPee Aa Gb ec apene fs við jaa fora toro, 14\n0 huga tap tam lem vaderdnr a, nøl ee po ymolper I ÅÅ\neg und sn Tala yng fe. He  þv part b 2! þv aper bis å hell |\npo þv afi fey. oft pr Sust a FR\npo ADN í þor 1a ding aegeeetita ovb fperr. Þ ís alone vår” |\nFE på Pr gade í  Ert Aah RD ri           q\n| EP % de VA  LAD 19 gere yor per hell py a\nTo hv var dd LiDE er 1hæll Ronit:  te fia. an fa. yt  2 i   af\nae ene ay Warsi a ‘a veby né conte eds halo\na heey bor fo  a ala. liðar þorpa het ec leng\nKu un dg\na lg mis By Eee\nee, hal    lær a sagt   bvagolr å\ntise S| at mr ar ert & bit Droge\n0 Bag Dot mow. Semmen hert Em feta brer bas Pias Å |\nLE mage há bart bye Bins 108 4085 op lydsdn ÁR\nant Sav þ, aanoraby hve fa 1 | oe gl: |\na nm pr ign hún Bar ka doc | ig\n\nA Me (0 Ma",
     "text_preview": "THe — JET  TRER ta. dn on KE: >\nA å ov or Kae lll fn\n| a jamm, hug ee HR ber mr hon = fap ec har all f mer]\nve Oba 8 nen å  pe eee opne\nMe EP en sd } Ree tpi, Eee i\n9 Ga herts meg no magi Roniovale € beta és} © kan brea\nÅ a a ps   | ls, me þ „a gm arm ey min {yf 4\nBen Rivers ain-apal Slag have hæla 1, albares: yra (ons Å\neg ae   “ yen fond. het fa ce gu heil faey ay nitørt fa  na 7)\nPe} ab ph wpe bé   bløde FÅ\n' ið Ga lr tc grat else AT orda påpdrvdr a ete: ate tf\nPee Aa Gb ec apene fs við jaa f",
     "char_count": 1236,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "THe — JET  TRER ta. dn on KE: >\nA å ov or Kae lll fn\n| a jamm, hug ee HR ber mr hon = fap ec har all f mer]\nve Oba 8 nen å  pe eee opne\nMe EP en sd } Ree tpi, Eee i\n9 Ga herts meg no magi Roniovale € beta és} © kan brea\nÅ a a ps   | ls, me þ „a gm arm ey min {yf 4\nBen Rivers ain-apal Slag have hæla ",
     "corrected_text_preview": "THe — JET  TRER ta. dn on KE: >\nA å ov or Kae lll fn\n| a jamm, hug ee HR ber mr hon = fap ec har all f mer]\nve Oba 8 nen å  pe eee opne\nMe EP en sd } Ree tpi, Eee i\n9 Ga herts meg no magi Roniovale € beta és} © kan brea\nÅ a a ps   | ls, me þ „a gm arm ey min {yf 4\nBen Rivers ain-apal Slag have hæla ",
-    "issue_count": 7,
+    "issue_count": 15,
     "applied_fixes": []
   },
   "issues": [
@@ -165,6 +173,78 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 10: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 29: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

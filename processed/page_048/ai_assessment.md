@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Fe
+å Spink lym; fia cu. sim 1.0050. k.anensa a Å Å ay
+al ymggrn. ko shelio loop. Sian, hve þ Ten her é fung
+ir eae
+Å be ata Greig ope Sm, 1 man bæina by |
+GS IE A al
+Lék lap a AL 3 mh þe a
+fo datda file Clee Home. og ms alo porti pag uml reba
+gøre & poibuest igor kabel fropøp Sm blei
+;    ;     1   14.   MAE TS  ao MAE    KO
+Fog fag bi Up hm; a me NE
+py Wale elds toe. al page hima havond vaði. á at ve eee os
+Po fjern kerala. Kot hatt Gaol my.q.b.amoginte | {
+Å gary otiof wornax: al. foegngamnan bbb dewmationy, San hve |
+a Dre ie eal
+KG eee Folbøe,
+Ea bal. yr OU hm, og AG bien hegne —
+Vo Ga Jaga eg WHOS møt fk. fombl. fyrer  of fymr ge. |,
+ia ] ono brukte ét far alvreg pei" poma flags mechs AØP ec
+að a po Se vm dagebr av Bryde, =
+re te af gl Ve GT
+Ep gn ok faa eh: De set an ef ae
+|  ik 1 halda, C4 av møt? Ea ro
+HS mes € mons) føde Uh å rom kode
+OG mdyny fo eg vere gr0000| vend EÐ VE JE ST
+is rngar få of Avr ip »   ee JE
+å KP STE EE ES TT
+ | JOE Sø      FE ee Se
+Bey ne ae, 5 Led ee he
+hog. RR EA ER esr```
 
 ## Modern English Translation (Plain, Aligned)
 ```

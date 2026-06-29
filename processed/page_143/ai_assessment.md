@@ -24,8 +24,22 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+GE UR
+ET PS æt al           |
+gS : #7 ex | |
+TS IG
+RM. VS          ee ee |
+tene tunomuna Gr
+. #15  EN A  Á   Å fe Å
+. ==     ag    |  és) OE.
+
+eos of 4s
+
+=                        å    ve  %    å Å 3  ri
+IDE ek Å en
+|                             Á       FE BA   ae
+
+Á             AN      va```
 
 ## Modern English Translation (Plain, Aligned)
 ```

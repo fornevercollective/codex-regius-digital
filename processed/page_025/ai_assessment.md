@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+on sa hoodie hen N
+Eg som tr 2 MA ita  A tock a
+agi  Hagi i å må  e.V  me få |
+að Å  le 2 a að  á Á gin   Gå   , rad
+Fi nan |
+ape alene |  er ban føra {xt þat. Bi Å
+ið Byene sAltag     ar       Le ry) hel tróðaðy høgd Å.
+Øh oe E  vi RO Å på i18  Løe)    | GÅ gt Jrolp : te fay å RL. å Fo
+ sn lagðar Me Sg - i ho   el fre  “ae
+KN de 0    he a et   | pe, sk
+ee lat. he hep umrøæt rår þaér regn DeyrA gia t 1 Cae |
+He. ap bape p   Nr bar pen Be EN
+Lae BA Hise: «ol Å  da  þínar þ     thér. ee bo   ae GE q
+iG eo es   ee omni: agar ind Fureran að  beg a
+BEG ee      Sg haminge å : Tapa SU   oe 5 5 fa tog a
+a Clocniat fore rang A lor Safn Á  at hh
+LS cone angler |   Sip see sn 2 mt å
+eo “ee ga0pa vage trtapta Wypta Ta that fiat 19 å
+eee ae    hafna           =       aat      ør      VARE  ið
+EE en     raft. Sag Ap        trap ia LP
+ve Lira by sone þver Te bose fog þrána CE å
+Lå ae jf. mA og aah, i = tja ab {pect   fv as Í
+ieee! Meare te ril bit eA Pr å is =; |
+We os Fe Rag i pokes Ae ae Se  Å
+BET has be á tg md sd  ca å Mad kv PA ss ae:      Å
+Sao å j áð  a TG```
 
 ## Modern English Translation (Plain, Aligned)
 ```

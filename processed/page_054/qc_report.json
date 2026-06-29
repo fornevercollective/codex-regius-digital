@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:31:51.881657+00:00",
+  "timestamp": "2026-06-29T03:00:51.292842+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "Á. A  fre va nec and    á FR á 4 ig áð Bish ck  eae\nund:                24:55 qramafr me fa > vr OG\nkk Dra. brev Hert iia    vg\n| FA pug nepndp pay la robyr vike Fiona oe\nNg meþar bar vígi fra  my b   Bi     OE pri KER\nFer mn) yap pay villa oc amare.   fæli sið oe\nPR MER redd\nEN Paap apyerll un, Bul eecy my artis.\nFr md fot re A na SØN\n| brt mob tn ag Tran  ferpö ce mecha ly ; EN Få > æ\n| Sons thay. Gesta m my by æli bv ache. ‘a a\n| bret Sux beens hala. apetrla. Himes. ye ec ar be ae I\nee 4 je bætta vad. Ratnmð Bee bie on |\n| þv eyna né 2 tga. oe ay af a mig ay VG\nÅ tr ks  pn eg aust 2 fro Þig hala hug deler >\ní þælæið og agh tteyktr 5 brede tune pasi et\nipa eet Å\nI a gunnar men 7 hald of Vilt vid. ops ai\nare ey        E {eas wp wi8 (tyr. Yaa Po helge ee\n| vi brie ¢ þv lew havin bara. ina tor halaði 2\nþ honey. foga ba hey ha batva bör Job beet hie tet\nfe pg malm. fe tara ag å\nEu ee   „Jag F mårlgr iy. Bína vite hate\nhelgi Eve Po: res: Sild \"gulum dl\n| í por apts ba Å fe hå Tavis a lege pin å Ka ee\nng he Þoka min bana” bone ne\n\n| áð ið  + Og OE ÞOL å ard ser\nþ uy é bang NAT pe ep Gota þor late fann. Ty a |\nfr hríftvz ftob gr mans þá ac tower al hagl al tag\nva ge pe Eg ms ald Fa Bi ee et tee vs,\nFÅ vite tev no feig ef þið Íoftna   hóli helfng >\nÅ states ri al all tf\nFra Ke nr cy De Fe |\n\n| | SE å Scie",
     "text_preview": "Á. A  fre va nec and    á FR á 4 ig áð Bish ck  eae\nund:                24:55 qramafr me fa > vr OG\nkk Dra. brev Hert iia    vg\n| FA pug nepndp pay la robyr vike Fiona oe\nNg meþar bar vígi fra  my b   Bi     OE pri KER\nFer mn) yap pay villa oc amare.   fæli sið oe\nPR MER redd\nEN Paap apyerll un, Bul eecy my artis.\nFr md fot re A na SØN\n| brt mob tn ag Tran  ferpö ce mecha ly ; EN Få > æ\n| Sons thay. Gesta m my by æli bv ache. ‘a a\n| bret Sux beens hala. apetrla. Himes. ye ec ar be ae I\nee 4 je b",
     "char_count": 1320,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "Á. A  fre va nec and    á FR á 4 ig áð Bish ck  eae\nund:                24:55 qramafr me fa > vr OG\nkk Dra. brev Hert iia    vg\n| FA pug nepndp pay la robyr vike Fiona oe\nNg meþar bar vígi fra  my b   Bi     OE pri KER\nFer mn) yap pay villa oc amare.   fæli sið oe\nPR MER redd\nEN Paap apyerll un, Bul",
     "corrected_text_preview": "Á. A  fre va nec and    á FR á 4 ig áð Bish ck  eae\nund:                24:55 qramafr me fa > vr OG\nkk Dra. brev Hert iia    vg\n| FA pug nepndp pay la robyr vike Fiona oe\nNg meþar bar vígi fra  my b   Bi     OE pri KER\nFer mn) yap pay villa oc amare.   fæli sið oe\nPR MER redd\nEN Paap apyerll un, Bul",
-    "issue_count": 5,
+    "issue_count": 19,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,132 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 23: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 24: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 28: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 29: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 32: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 34: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 36: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

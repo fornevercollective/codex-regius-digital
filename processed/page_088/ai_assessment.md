@@ -24,8 +24,31 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+5 none arm te i
+gd rs FÁ   a jar OM Å
+penga) Hoga. bet á ati ár     marina         Gy  VG
+ryg. þes les Pi  Ae ae þar é  Må
+| po syrer vi wy okai     votto bana. fat fape 1374
+| al 0
+Be ceed es Mea 0
+a yðr ytt gan bra ár pr dal gm jú
+a Geo fen: bat byger ró Leg pevekany. tali COT sh. GE
+Does pa av hing harm bræððö Í ar 0 ae ET
+ago ar FAD ið  á a i Á si
+Å sa ja foter þv 100m Rare å, mg EE að
+|  ye og  _ Spent € m0 FE a gn engi a
+: Å far trea bs as ant La nk bg) Í he ae
+I  Jå så En STU A |
+I   ap ed cy yee vill idet Sel een tall ev å pr
+| sí "ay tite bera hen Se Pr ae
+Í      ae tuð aaa ladde bavo apr tT
+Í      a En en Hert cc bara brallame =e
+4 Pad! Pr ið agna wf srsctia 1010 by GE
+a    |     ber hale mate thot: lá. Wlepahw Å
+sl           f        G    hó OE”   ——  ge ee.    ;     g  5    FEE Å
+‘= Bow bor a bup loger RS 00 PE
+Ge i.    pg er LEE GE
+ERE Tr nn EE```
 
 ## Modern English Translation (Plain, Aligned)
 ```

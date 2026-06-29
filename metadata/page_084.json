@@ -10,11 +10,16 @@
     "interactive.html",
     "ai_assessment.md",
     "etymology.md",
-    "doodles_catalog.md"
+    "doodles_catalog.md",
+    "qc_report.json",
+    "qc_report.md"
   ],
   "poem": "",
   "original_text": "",
   "translation": "",
   "marginalia": null,
-  "processed_at": "2026-06-29T01:19:29.572461+00:00"
+  "processed_at": "2026-06-29T01:19:29.572461+00:00",
+  "qc_status": "ok",
+  "qc_at": "2026-06-29T03:02:54.527926+00:00",
+  "qc_issue_count": 10
 }

@@ -24,8 +24,33 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+å “Fe åt    p i DA SE å = EE en p  3 to í
+pe enna ey ped Mid > aoe Í eae |
+Pe pe Å Fe ca je Si ti: brt St hj |
+Setjið ap ev ein ran filla:4 han faren ét og þes, - Öl)
+By Au kom år de Arran $ í lá apt  4")
+er höllgyngu dob bys cc ac ban mob fe: nr fedby = Ál
+4 Nwebit bis meft av pera ar mig mofdapfe „ál
+op  fem. þv bere eg Bocg a bens Ai ple ae í
+el
+Ed hett vi lie, Woaholye ta here erme hall
+Mr nere dd ey (or  md al
+va Reina “eddy + nap ter will forde forde å. í
+OG opa mon ce å mil þor fær hat 4 va Dre
+ET em obis fei mala. brop ét magna’ pa}, brud ane |
+er vik på Tenancy, ape, bið vil ec 110 "hu Á að ater f
+Ke agn byla, nå. þv fókus ag. Cy por ov hakar eiga. Bre
+ee et |
+oor mn ya om   ang font ney > a
+RTS redo |
+sf hen, Ni JPG  |
+msn Oe ee ore pice” al
+Gag thee pee een |
+eh ee bar å at 00, og
+ats. ee fr fina, riða 3 ar Male IDES GÅ
+Co gage ye PE ee 1
+EG Å i       = það ee. sø:  RS   i SÅ  Og Al
+Ses cae 0 ord EN```
 
 ## Modern English Translation (Plain, Aligned)
 ```

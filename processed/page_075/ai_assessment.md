@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+EF. a Oe    . 6         >      å
+SE ta ag ati bropð nan iar.” 2
+DE Jed Saba fjer. 7 vika. eh foa til em Pr dop» 8
+cage ØSE AY aster im fog Íva av       UD vaser
+enda Å  Jam å bo tit þjóð av fi  saa hes va   *
+Fe EE OE eg EE
+på eres EE mer Boð bn MÅ
+er bet hoes 2 wai a     1
+ET TE senn ode oa AD pee
+ET   tt veg for 98 ge Å på Gap. pre hohvp |
+på sr a  €      :   Ár  pet EE      y   engo    a
+SRE, ne å done farfaren. bay,
+Veer ere ter mi &   © móþið,   > øl Ga    3
+od “eo pene hl  iy bimar pA ke    .   4      lava  ha ær å   å
+front 5 bebe bagen, Pad maria ge,
+Eee TN |
+| opi bp ter 1909      ið AA shabby 3
+| = "Bast å Ea a, MA rv bo taps:  ie OP eas “Herter Á
+TET GÅ bene viel það. P Boris bord Ge AE |
+A je ar fd 9) ‘be  nad á VIG vg
+A
+EE Sa thay enge mans leap, >)
+a teste 9 beh ta fm rear GB Dba. jylða 4
+a he hve ae fe gut Hin vag.  Cs ame
+KE þr     |     65 ar Å pany ee hå, å
+AE» å år   4hepö mie   mo húgu VE. Pe ad,
+Kj ; an   ayia” E ) å An bet ke ip    hgð Sha  .  ay: acy
+NN
+fører pe jg
+Ve gr. a Ts Tee  Z Ly.    å SE  >   x JER  a```
 
 ## Modern English Translation (Plain, Aligned)
 ```

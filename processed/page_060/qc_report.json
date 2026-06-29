@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:40:27.250730+00:00",
+  "timestamp": "2026-06-29T03:01:21.117771+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "Ve  oy dea ab neger ar afa, Ly ci ar Ni page\nEvie fina alla i ade fern ot Ohne titi aoc. |\nprat aka pote, Soa bill å: si mig få\nBs. YR alte 4 byes a Er den Monn E ones de\nmysen aan wih búð fann Hage NE\nÅ hån: Mye BEE att  ga ba\nET bande helgi 4. þv {fe hvridmar først man nor\nEeg áta spuna hyrna,   a barida hefta  kg å |\n“poe AÐ apa gang,     grunar gece å   Þið: oe\nBE DEE SE dg\nYr, Ambst 4, Bune ow B fine meer fia rar Gag\na Bieta’ ee É \"er heprre. eb é iin\nBd Gh DO 0 SEI, Naa tue ¢.¢ bf b, noadar      ieee\n„vð i AE PN  sør  SS hon 0 á\nAt fereno Ote ge þv Aron Eina Deeds Å\nKJE oe Eto tie Tera fictte one pol\na bab Penn oe hear elf ae Å\nþað ivar Dap þer by fae bropa Cvewa tegir 0.\n|; gm eo thas helgu 9 9. jen fu fag\nKO ØkpSan keg je ale hardhet å.\nKø gr alle vile valde (lagt horn we falar or et Å\nEn maar hve fl ep búðu Ø hee av as DO |\nke: acta  LP Omer P bo or via na\nfi rhe Garon i ga AUG bølge é hatin dø Mag Å\nað ÆÐ þegn vei Ke sh  0 Jón fög in SR Ate\ntee Ne\n5  Vsgt lopda ið bin ne Å nå. Søt ferns ibe |",
     "text_preview": "Ve  oy dea ab neger ar afa, Ly ci ar Ni page\nEvie fina alla i ade fern ot Ohne titi aoc. |\nprat aka pote, Soa bill å: si mig få\nBs. YR alte 4 byes a Er den Monn E ones de\nmysen aan wih búð fann Hage NE\nÅ hån: Mye BEE att  ga ba\nET bande helgi 4. þv {fe hvridmar først man nor\nEeg áta spuna hyrna,   a barida hefta  kg å |\n“poe AÐ apa gang,     grunar gece å   Þið: oe\nBE DEE SE dg\nYr, Ambst 4, Bune ow B fine meer fia rar Gag\na Bieta’ ee É \"er heprre. eb é iin\nBd Gh DO 0 SEI, Naa tue ¢.¢ bf b, noada",
     "char_count": 1017,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "Ve  oy dea ab neger ar afa, Ly ci ar Ni page\nEvie fina alla i ade fern ot Ohne titi aoc. |\nprat aka pote, Soa bill å: si mig få\nBs. YR alte 4 byes a Er den Monn E ones de\nmysen aan wih búð fann Hage NE\nÅ hån: Mye BEE att  ga ba\nET bande helgi 4. þv {fe hvridmar først man nor\nEeg áta spuna hyrna,   a",
     "corrected_text_preview": "Ve  oy dea ab neger ar afa, Ly ci ar Ni page\nEvie fina alla i ade fern ot Ohne titi aoc. |\nprat aka pote, Soa bill å: si mig få\nBs. YR alte 4 byes a Er den Monn E ones de\nmysen aan wih búð fann Hage NE\nÅ hån: Mye BEE att  ga ba\nET bande helgi 4. þv {fe hvridmar først man nor\nEeg áta spuna hyrna,   a",
-    "issue_count": 6,
+    "issue_count": 10,
     "applied_fixes": []
   },
   "issues": [
@@ -156,6 +164,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

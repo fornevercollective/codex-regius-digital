@@ -24,8 +24,27 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+IR A
+al eS a eg: hee ns |
+KE rh La bar å á ag Å
+va > er oven  b år arg test ar nagar góð. Í  et“ sl
+ÆR fina falle, nå vér be . þa   þó å    Vi
+Å  oa   ds a    ser 4 |
+ ha SR fr sd
+fæ F ee Res ese anil Å  hamið | å
+Rope 9-5 byr sm -  patna   |   ha    eð i
+Nå PÅ tie, fit 9  frið ya  |      San bt  þu  on
+ng HART  ene a 2
+av Shy vena Ía ane a bd  ceca fe aö ht Hest |
+SN ao per  å þa bar   Et Á
+AR ie, alae ee     at
+Paes ol > på  áð  ‘Teoban aft i nå JIN
+ie já ta fo aa 3 lay Ee |
+aa Mar PE ake þú FÅ kom å nr þara falt SA
+Nå å ay  ete lee  yor nú  5 uh Ti Sé     Eg
+‘a eh pare EE RE at å
+fag et babe bs Bev Jes fan pop ga Je ae
+Fr ar > hee. sag```
 
 ## Modern English Translation (Plain, Aligned)
 ```

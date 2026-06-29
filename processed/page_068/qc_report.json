@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:52:32.400879+00:00",
+  "timestamp": "2026-06-29T03:01:50.575681+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "í    oles þina KG  Be  iY ah Vea VE ape\nFL ER\nFr ceiagt ey ewe\na              já þv  gt Sk #. ALANTANDA  VP 41 á hals, AEE an |\n8  Kg le tb ; a þe fick á, foe FEN\nGR       twat ep fama f Tha, Der par poe ant í.\n7 á +  lat å laid  pA ee\nKm meny, Par øfyne é hvar av ap fe iheey Bett er Å\n| ere Neen |\n|“, Ehralprat. þá ape copy feb dáð veg gagn. Søs\ney:    Gres ine bler Gat sinwr pf apen hat Å\nþat Sobre maven. þvagi bee ie barbs banana tig ie\nfr. fhøp av      å taka ons “Co: Pho ET ae\nan:\nJ Fe parent Sue Sutbs tent bul Bar pe\nvar ere Jelle ar 0) ja Å mn mia gb bel\nKvåle omg find m; nm. 63: Gajus yt ee he 7).\nle ea onde ár \"ce Ach Segway\nchap S91 pan nn. SR oe Nr fire\nbi 4 her 0 ja høge fre våpeid vene. vy þe bua Å\nKP ee ee a Sie  a eae\nA oe sg. FER SR MG",
     "text_preview": "í    oles þina KG  Be  iY ah Vea VE ape\nFL ER\nFr ceiagt ey ewe\na              já þv  gt Sk #. ALANTANDA  VP 41 á hals, AEE an |\n8  Kg le tb ; a þe fick á, foe FEN\nGR       twat ep fama f Tha, Der par poe ant í.\n7 á +  lat å laid  pA ee\nKm meny, Par øfyne é hvar av ap fe iheey Bett er Å\n| ere Neen |\n|“, Ehralprat. þá ape copy feb dáð veg gagn. Søs\ney:    Gres ine bler Gat sinwr pf apen hat Å\nþat Sobre maven. þvagi bee ie barbs banana tig ie\nfr. fhøp av      å taka ons “Co: Pho ET ae\nan:\nJ Fe pare",
     "char_count": 761,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "í    oles þina KG  Be  iY ah Vea VE ape\nFL ER\nFr ceiagt ey ewe\na              já þv  gt Sk #. ALANTANDA  VP 41 á hals, AEE an |\n8  Kg le tb ; a þe fick á, foe FEN\nGR       twat ep fama f Tha, Der par poe ant í.\n7 á +  lat å laid  pA ee\nKm meny, Par øfyne é hvar av ap fe iheey Bett er Å\n| ere Neen |\n",
     "corrected_text_preview": "í    oles þina KG  Be  iY ah Vea VE ape\nFL ER\nFr ceiagt ey ewe\na              já þv  gt Sk #. ALANTANDA  VP 41 á hals, AEE an |\n8  Kg le tb ; a þe fick á, foe FEN\nGR       twat ep fama f Tha, Der par poe ant í.\n7 á +  lat å laid  pA ee\nKm meny, Par øfyne é hvar av ap fe iheey Bett er Å\n| ere Neen |\n",
-    "issue_count": 5,
+    "issue_count": 6,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,15 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

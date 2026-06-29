@@ -1,0 +1,173 @@
+{
+  "page": 94,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:03:31.748337+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2428,
+            1619
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9895,
+      "raw_blur": 1682.99,
+      "enhanced_blur": 1820.38,
+      "raw_contrast": 45.53,
+      "enhanced_contrast": 47.13,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7366,
+      "raw_blur": 1682.99,
+      "enhanced_blur": 6268.63,
+      "raw_contrast": 45.53,
+      "enhanced_contrast": 84.35,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "Vik ærme   fn VEN Å  Er  tape“ ki)\nNA agus ott   € ec hay 1 yra 182 star  aig hs a\nFo em inher ee ae hats bag gay 23\nRT:     3\nby keen ee oe\nPT Lean ol hag oe! rir Dalia Bare alone arse, Å  i.\nDa > gott 9 bal is bana Gohs drepequena opa she te\nbh    títt av    Ae þóra sterar ar bnyga op hi San  he ke Å\nbe aðila að hva ae\nLPR RT ara ecg hj ge\nks li eir pa tat\ní    nia, þekur | jern lagar  ‘Sat fen bert og fy\nfiom etl ag oy a ft Ap des |\nfb nað ra aper þes oa syr vanne AEE\nup     te tec ove fylla Cea Bret ið basar  Ea\nbed yr Fe apy kar He a a\n    tg cap fora forpe Aveinar hl ler  2 al\nLS A\nde     Ne vaboc  ke Ti var gi er 11106 ak EN\nvore árnar gagn MG | bes  hgn & he no TE\nDr RDS TE elfa ee eo bbe   mv: 0 7 GR ae\nne fun rien ete ge SA\n BT  mo mm  Maga  þv ða av w Ucatoty PE\nhe       frr     HOK Vi Drøpra blær ce pr Å PENE Ve\nio (pores 7 avem BAUG ro EE ar vo\nFer: a na Dere pgs le a at vr\nÁ eco sacs baton  ko ne |\nGET ET NR",
+    "text_preview": "Vik ærme   fn VEN Å  Er  tape“ ki)\nNA agus ott   € ec hay 1 yra 182 star  aig hs a\nFo em inher ee ae hats bag gay 23\nRT:     3\nby keen ee oe\nPT Lean ol hag oe! rir Dalia Bare alone arse, Å  i.\nDa > gott 9 bal is bana Gohs drepequena opa she te\nbh    títt av    Ae þóra sterar ar bnyga op hi San  he ke Å\nbe aðila að hva ae\nLPR RT ara ecg hj ge\nks li eir pa tat\ní    nia, þekur | jern lagar  ‘Sat fen bert og fy\nfiom etl ag oy a ft Ap des |\nfb nað ra aper þes oa syr vanne AEE\nup     te tec ove fylla ",
+    "char_count": 935,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "Vik ærme   fn VEN Å  Er  tape“ ki)\nNA agus ott   € ec hay 1 yra 182 star  aig hs a\nFo em inher ee ae hats bag gay 23\nRT:     3\nby keen ee oe\nPT Lean ol hag oe! rir Dalia Bare alone arse, Å  i.\nDa > gott 9 bal is bana Gohs drepequena opa she te\nbh    títt av    Ae þóra sterar ar bnyga op hi San  he k",
+    "corrected_text_preview": "Vik ærme   fn VEN Å  Er  tape“ ki)\nNA agus ott   € ec hay 1 yra 182 star  aig hs a\nFo em inher ee ae hats bag gay 23\nRT:     3\nby keen ee oe\nPT Lean ol hag oe! rir Dalia Bare alone arse, Å  i.\nDa > gott 9 bal is bana Gohs drepequena opa she te\nbh    títt av    Ae þóra sterar ar bnyga op hi San  he k",
+    "issue_count": 7,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 2: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

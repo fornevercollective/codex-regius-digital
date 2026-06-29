@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+por is vp nån tuo one: suð bær bigs vals MM
+TR tem EL Å
+KER. oe 17 di Å) op ar ba 90 ot. a
+rå SØT eo sa ene feftlena 2
+SE álag iba ret her  4 ten for få y Å
+2053 hete bribe barn OF yt ad Å) AK |
+er au VE bafið både or harr Cee huts
+an ae BR DEN of miðgnið å fora, ey <j
+le he valet aða be Ereey pyrfr apana. fat og | I
+Eye pa © aa fond på 0 DSS a viða fine Å
+daga fopbldden å la ee a Á
+GE bu Ata a Eee iiatnag
+ME fern Dy  os lp a ébmg | fl
+nn |
+kr na Net vals: 0
+Ga er  Ber  Si
+een Gum slnale Á ei  ole hell Á |
+er Sabo frets ee Å
+ge bala bælug 107). Ge)  19 altphoip app. |
+SK er fr bg  tri sr  |.
+Å ee å tn bee hem A he ale mátar og þa hl  3
+þr ba frinlea dra ror Fi \ a0. Ól orde Fr | Å
+ee ec her ae fuk mink fövlha ec   #4 Ara 10600. | Á
+ gg þssrniþipnd vart mm borage en bant |
+A:    an 18) ma bore    i
+Ja exe gerne hope þv, pent miele ren Whee í |.
+a ge  ermene ms ah var Høen) sf hylle. © i
+|
+vg   opp vs 5 por hpa frå ver A ig Pie Å | |
+JE 2 egern TERS G```
 
 ## Modern English Translation (Plain, Aligned)
 ```

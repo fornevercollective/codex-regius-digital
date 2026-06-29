@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+TR |
+FEN deter nevigaatahg. |
+NR bet bikar. bay 1504 vene, í  NOC ál np AA Bn. I,
+EG gn på be æ ða á pate © ig A
+ee lar Var go grid eee el ul
+Å tose. Gje |   ug, joa, sinn) Was SVAF
+EA md apy  go å vi  å  ae: le pan A
+|  KALT  un tal ap prida a gå te leila, så
+OP yr afla, þv ov fraa myr å hit rá háðir Spe
+TG We 8 996 al»  yylar nie fn Mr av amvge Bue: IR
+ET ær hári þv   vif ale ope gor þ or gamer 9 ODE á oI
+ís 704 Scanps bela ein eið Ga þér er banni m; hám 4lkalins OG
+Pep, nm > våg mn; vikings. aS þí gefi þv negepatte 20
+EG okur ae valoþo vel. 3 ertiþa bi
+Se Flóki bag þv gop, chap bit min pep lef tøs Å
+þr aso. Rater. ht fo ol Breck: bit þv Btæðar mei Á
+Ft at Baw wd seer við all en ed fors ak vip albin ar |
+“oan Gases ee tmar I:   op a.   —
+a ire ee va Sa a anes Alay mio. garn 7 4
+3 OY   it oon fiat  m. abe, mett ey m   vað |
+4 West a totð roy. OPS hléi me feo  gd Å
+NN |
+ET he Dul 185 mió in era: end" roma fyri ba Å
+bt kodene peer gar enfyyee mille Å
+Sheer. 08 Ge FV 5 jstok Sa ten el í GÅ
+ene fer bager BE Kets & rig Oh  ve í
+å «OP NE JET AT
+ÆR Ei MN```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -3,7 +3,7 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T01:44:31.758382+00:00
+**Generated**: 2026-06-29T02:58:15.453848+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2448, 1632]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2448, 1632]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2448, 1632]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2448, 1632]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2448, 1632]}]
@@ -23,6 +23,14 @@
 - [WARNING] **UNUSUAL_CHARS**: Line 9: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 - [WARNING] **UNUSUAL_CHARS**: Line 11: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 21: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 23: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 27: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 30: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 
 ## References

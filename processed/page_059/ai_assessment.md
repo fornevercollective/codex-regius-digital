@@ -24,8 +24,38 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Pe 00 ghey. fg ör og iðlbongr fa ey fos fyr NÅ
+An vet tid þin  , Srngtorls Ber ma að her Å
+pS Wa heia flora eræban gør ml Shae    > AR
+++ þaga  or ag | tre. pa   Piper ig
+os aa Rend Cord faar Å Dakar     mater haobrsdg > Å
+PP SJT SAT
+get mn hald overs    vip tea ber haga fF ther,” VÅ
+ES hettu tror þ bliþara og berms Sir. Ber apa “4
+ER Nom re anpelo Quay ab  1a. sklape eð,    ony oad.” os q
+Ga Hildí berpð deili. Bror th gob áh.f. bo dam? MN
+ja  hu Bet ao   sav roy, a b.és. bifetear tah Å
+by s fnr   3  byg jar På alas are þæ fonø var h      Ei (;
+| 116 gamal. Daze aigna Í. bíscaþr opm ta? herrda off... Å
+er dag å fiat. Dage pa helga tan iy bar fh. å
+et me Foca Wrist. Å lager 10903 helgu ms getend. hardt å GP
+åå MEG verp Fi gualla 4 fade. fyrrbno biði. Cork > Å
+noe le vegu þat lena fer ec þet navle mye sr Í
+Er öll magar yridgrocate tør, buplongr fa é vap
+fr ther 3 lag ER i pt de
+fin Brå hagan happ va avetno hola lp ot  og
+ee ont fm. <Sersfac þ fap é við Bg
+í an bar of byw opt les renin fa man EDB vegi GA
+red den spammer, þefa jóðþar 018, Dir SB hegne het Å
+Ea pene El
+Er OPA pg duker að fond did. ow
+Pol pene cory sd kN  wy     Å, ay   anol ver ae
+Fl: oe hið“ rolf binge capa wil Vane” NO PE
+Fe Sangtals. hane bill bel NET ad - te i
+å Leen ÞÓRU FO a ae
+Se ea TT ee
+SS ee
+ee ee```
 
 ## Modern English Translation (Plain, Aligned)
 ```

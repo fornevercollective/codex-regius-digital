@@ -24,8 +24,32 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+på Eg ee AÐ   ve fa fest:  4      % hal   og     bere  7 Å
+ið ni     ero 0 på bere   ae Fedre at
+Re  lav      á    ; ?     vín þ  f      Ne var      EG]
+gn a ho    SEA ||
+el VER nk   oe frost. Í Sía a 5
+ye EM Å ere  erd pe   sy
+Bo gel bet by Fina 9  Basin    el hy
+ND Pane    ree pi $ å  4
+Á tt a ee  & bann  | óða gölpt  ji døpe”  ið
+Pe wes, 8 ira soe b  a fo  ‘eae ae fi
+as  reed eget. á lina a ibe
+Se “hen wey, Í “hyn Gor Í    ‘Kwa.   2, 64 Beng  ar We
+, SJ frode lp byw eg þang Gude nebb a
+hu kn   bar gb fob 46 pode ees Å
+bal genre ae by 2 |  he fn |
+Ve sg  på fi  3 f Be. oh  peopr ae   ”
+þr cers kinn pf rn |
+reg tk ee, Að eng. Jolo ee Kparfe eba. fi FÅ
+pa eden Kf na ke fager Ja on fr rage Í  1
+cae er iv Ben iðn  eugene ob r
+pom a 2pm om er ne. Dag haf RN
+met FE eee EE et rv
+å cers dyr Í nk om  r ate ler ps  KN
+peil pop ng fade el ups ie a -
+a # PR Gr AN.    ad. epee tbe          :
+KJE,```
 
 ## Modern English Translation (Plain, Aligned)
 ```

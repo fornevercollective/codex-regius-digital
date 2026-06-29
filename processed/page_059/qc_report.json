@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:39:05.257184+00:00",
+  "timestamp": "2026-06-29T03:01:17.193861+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "Pe 00 ghey. fg ör og iðlbongr fa ey fos fyr NÅ\nAn vet tid þin  , Srngtorls Ber ma að her Å\npS Wa heia flora eræban gør ml Shae    > AR\n++ þaga  or ag | tre. pa   Piper ig\nos aa Rend Cord faar Å Dakar     mater haobrsdg > Å\nPP SJT SAT\nget mn hald overs    vip tea ber haga fF ther,” VÅ\nES hettu tror þ bliþara og berms Sir. Ber apa “4\nER Nom re anpelo Quay ab  1a. sklape eð,    ony oad.” os q\nGa Hildí berpð deili. Bror th gob áh.f. bo dam? MN\nja  hu Bet ao   sav roy, a b.és. bifetear tah Å\nby s fnr   3  byg jar På alas are þæ fonø var h      Ei (;\n| 116 gamal. Daze aigna Í. bíscaþr opm ta? herrda off... Å\ner dag å fiat. Dage pa helga tan iy bar fh. å\net me Foca Wrist. Å lager 10903 helgu ms getend. hardt å GP\nåå MEG verp Fi gualla 4 fade. fyrrbno biði. Cork > Å\nnoe le vegu þat lena fer ec þet navle mye sr Í\nEr öll magar yridgrocate tør, buplongr fa é vap\nfr ther 3 lag ER i pt de\nfin Brå hagan happ va avetno hola lp ot  og\nee ont fm. <Sersfac þ fap é við Bg\ní an bar of byw opt les renin fa man EDB vegi GA\nred den spammer, þefa jóðþar 018, Dir SB hegne het Å\nEa pene El\nEr OPA pg duker að fond did. ow\nPol pene cory sd kN  wy     Å, ay   anol ver ae\nFl: oe hið“ rolf binge capa wil Vane” NO PE\nFe Sangtals. hane bill bel NET ad - te i\nå Leen ÞÓRU FO a ae\nSe ea TT ee\nSS ee\nee ee",
     "text_preview": "Pe 00 ghey. fg ör og iðlbongr fa ey fos fyr NÅ\nAn vet tid þin  , Srngtorls Ber ma að her Å\npS Wa heia flora eræban gør ml Shae    > AR\n++ þaga  or ag | tre. pa   Piper ig\nos aa Rend Cord faar Å Dakar     mater haobrsdg > Å\nPP SJT SAT\nget mn hald overs    vip tea ber haga fF ther,” VÅ\nES hettu tror þ bliþara og berms Sir. Ber apa “4\nER Nom re anpelo Quay ab  1a. sklape eð,    ony oad.” os q\nGa Hildí berpð deili. Bror th gob áh.f. bo dam? MN\nja  hu Bet ao   sav roy, a b.és. bifetear tah Å\nby s fnr",
     "char_count": 1289,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "Pe 00 ghey. fg ör og iðlbongr fa ey fos fyr NÅ\nAn vet tid þin  , Srngtorls Ber ma að her Å\npS Wa heia flora eræban gør ml Shae    > AR\n++ þaga  or ag | tre. pa   Piper ig\nos aa Rend Cord faar Å Dakar     mater haobrsdg > Å\nPP SJT SAT\nget mn hald overs    vip tea ber haga fF ther,” VÅ\nES hettu tror þ",
     "corrected_text_preview": "Pe 00 ghey. fg ör og iðlbongr fa ey fos fyr NÅ\nAn vet tid þin  , Srngtorls Ber ma að her Å\npS Wa heia flora eræban gør ml Shae    > AR\n++ þaga  or ag | tre. pa   Piper ig\nos aa Rend Cord faar Å Dakar     mater haobrsdg > Å\nPP SJT SAT\nget mn hald overs    vip tea ber haga fF ther,” VÅ\nES hettu tror þ",
-    "issue_count": 6,
+    "issue_count": 10,
     "applied_fixes": []
   },
   "issues": [
@@ -156,6 +164,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 9: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

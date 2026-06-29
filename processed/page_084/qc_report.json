@@ -1,0 +1,200 @@
+{
+  "page": 84,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:02:54.527926+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2432,
+            1621
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2432,
+            1621
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2432,
+            1621
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2432,
+            1621
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2432,
+            1621
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9926,
+      "raw_blur": 1795.6,
+      "enhanced_blur": 1940.06,
+      "raw_contrast": 47.57,
+      "enhanced_contrast": 49.24,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7521,
+      "raw_blur": 1795.6,
+      "enhanced_blur": 6406.27,
+      "raw_contrast": 47.57,
+      "enhanced_contrast": 86.87,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "OSE   a    Á                 $                  5      ,   på     2  ET Han:\npr eclael hørt alder nen Gear 5 pers ones ae\nKE bud fino basa værer 2m: áð find meina før: “fatty me 9\npe  per te bioeg Halling et bil! nen clive |\nå Jaga FE tar ynpt ne bot Inab ar bra ali Sg 2\nike gh osu tn hr om ENN\nKg old te kata leonboy Cy ta Prope poe\n\n: fin fags  b bon ame ge op hy | eS\n   pe x  acpi mir arly exer ta porene youll Uke høgare ap 5\n|      | me mme RE AGE wis mee eh\n\nvepa.     pr   neh sap | tary pt EA\n\nBr 3 bolor bretja gang, Her  lena hovøetebe. ° |\n\nÅr fue ee tuni Hep gatos þá ccplngae arta la. 17\nir ta. vif ov tes vg pe bout) alger bis \"ote ba tes pg\nEat. hor hv   pr J    jp ne Á ER\nEN AR linge or i a Fae gå\nii Svana gully bap. bold hon et:þór ae byes ete toe Å\nEngu ff soma. þh pe Jam móð a dog Å\nDoh man ce qatar...       þig 1] pleie   ið to) 0\nAð 5\nå foman adho þa att samy, bay EN  toh yt JR\n+s,  KG  hin   oe i Jr    {ols      acy     vile pared: a ct)\n.  a tr 6 son halle latið ot\nie ne við pi ee Ma er\nAEA ef Bie i SG\nþr å   lar & vit fees oe Hine ar år A). ker GÅ",
+    "text_preview": "OSE   a    Á                 $                  5      ,   på     2  ET Han:\npr eclael hørt alder nen Gear 5 pers ones ae\nKE bud fino basa værer 2m: áð find meina før: “fatty me 9\npe  per te bioeg Halling et bil! nen clive |\nå Jaga FE tar ynpt ne bot Inab ar bra ali Sg 2\nike gh osu tn hr om ENN\nKg old te kata leonboy Cy ta Prope poe\n\n: fin fags  b bon ame ge op hy | eS\n   pe x  acpi mir arly exer ta porene youll Uke høgare ap 5\n|      | me mme RE AGE wis mee eh\n\nvepa.     pr   neh sap | tary pt ",
+    "char_count": 1081,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "OSE   a    Á                 $                  5      ,   på     2  ET Han:\npr eclael hørt alder nen Gear 5 pers ones ae\nKE bud fino basa værer 2m: áð find meina før: “fatty me 9\npe  per te bioeg Halling et bil! nen clive |\nå Jaga FE tar ynpt ne bot Inab ar bra ali Sg 2\nike gh osu tn hr om ENN\nKg o",
+    "corrected_text_preview": "OSE   a    Á                 $                  5      ,   på     2  ET Han:\npr eclael hørt alder nen Gear 5 pers ones ae\nKE bud fino basa værer 2m: áð find meina før: “fatty me 9\npe  per te bioeg Halling et bil! nen clive |\nå Jaga FE tar ynpt ne bot Inab ar bra ali Sg 2\nike gh osu tn hr om ENN\nKg o",
+    "issue_count": 10,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 1: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 4: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 9: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 15: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 26: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 30: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

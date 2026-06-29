@@ -3,11 +3,12 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T02:08:50.256233+00:00
+**Generated**: 2026-06-29T02:59:50.885774+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2297, 1531]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2297, 1531]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2297, 1531]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2297, 1531]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2297, 1531]}]
 - **ocr** (ok): Tesseract extraction complete
+- **ocr_to_assessment** (ok): ['Inserted OCR text']
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9896, contrast Δ=1.7
@@ -31,6 +32,16 @@
 - [WARNING] **UNUSUAL_CHARS**: Line 13: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 - [WARNING] **UNUSUAL_CHARS**: Line 14: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 18: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 19: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 20: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 21: unusual characters detected.
+  - Suggestion: `Compare glyph-by-glyph with raw scan.`
+- [WARNING] **UNUSUAL_CHARS**: Line 23: unusual characters detected.
   - Suggestion: `Compare glyph-by-glyph with raw scan.`
 
 ## References

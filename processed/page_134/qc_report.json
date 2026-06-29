@@ -1,0 +1,164 @@
+{
+  "page": 134,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "needs_review",
+  "timestamp": "2026-06-29T03:04:37.691155+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2696,
+            1798
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2696,
+            1798
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9855,
+      "raw_blur": 709.3,
+      "enhanced_blur": 665.34,
+      "raw_contrast": 76.16,
+      "enhanced_contrast": 75.15,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7384,
+      "raw_blur": 709.3,
+      "enhanced_blur": 1301.13,
+      "raw_contrast": 76.16,
+      "enhanced_contrast": 100.46,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "EEN    NI\nao        20 30 40 50    60    70 80 90 100  Á10 120 130 140 1\na STULL AAA AANA RANA NÖNNNRANNARANNNANNANNANAARAN AAAAAAAAAAAAANAAAAAAAAAAARA ARICA AANAANAMMAAM ANNAN\n\n|\n\n                                                                                                                         |\n\n|\n\n|                                                                                                                           |\n\nk.                                 |\n\ní                                                                                                                          7\n\ni                                          4",
+    "text_preview": "EEN    NI\nao        20 30 40 50    60    70 80 90 100  Á10 120 130 140 1\na STULL AAA AANA RANA NÖNNNRANNARANNNANNANNANAARAN AAAAAAAAAAAAANAAAAAAAAAAARA ARICA AANAANAMMAAM ANNAN\n\n|\n\n                                                                                                                         |\n\n|\n\n|                                                                                                                           |\n\nk.                                 |\n\ní                          ",
+    "char_count": 643,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "EEN    NI\nao        20 30 40 50    60    70 80 90 100  Á10 120 130 140 1\na STULL AAA AANA RANA NÖNNNRANNARANNNANNANNANAARAN AAAAAAAAAAAAANAAAAAAAAAAARA ARICA AANAANAMMAAM ANNAN\n\n|\n\n                                                                                                                       ",
+    "corrected_text_preview": "EEN    NI\nao        20 30 40 50    60    70 80 90 100  Á10 120 130 140 1\na STULL AAA AANA RANA NÖNNNRANNARANNNANNANNANAARAN AAAAAAAAAAAAANAAAAAAAAAAARA ARICA AANAANAMMAAM ANNAN\n\n|\n\n                                                                                                                       ",
+    "issue_count": 6,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "code": "DIGIT_NOISE",
+      "message": "Line 2: high digit ratio — likely OCR noise.",
+      "suggestion": "Re-run preprocessing with deskew; verify iron-gall letterforms.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 5: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 9: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 11: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

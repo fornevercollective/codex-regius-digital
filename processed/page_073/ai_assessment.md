@@ -24,8 +24,35 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ETT AR EET Ay. Men mene Os SØR VON      p
+gør JE at Dear eck G óð
+GE NAN Je leg er frp tape hafi ‘hae St, Per sinne he
+Å opt å ate flaþt bon! opar Í PMS 400 hægri a.
+AVA fora,
+mx pe  á þef rede jú (exrantoa, afi Tja Plaget, í ÁR
+Á  bag ér wont felg øre aepra arva
+ke 7 tilgga fánar, Beg. Aglert 2 200ll1 4 ag     or al
+— pret 13 Å M-Å as Bi pat opal å TB   Ei     ar 10114. Meg
+PS Tail     walo. as 9 a: {agnir Í   OOH: Arenar. oF
+Er va helga tm fs orða   vona lg  ar gg
+= at áð Å on vð ie ark, nia ||
+>. hee 1, gem þett, fam nen  að a i
+be  - Fk tt Bet é hør  ha arket 7 = it.   råe å
+Å ete Å Aar MG ne Lite a
+3 all ov menn oft mean?   5 å 5 or
+ee pa hån 2 lenge MER  þv ati. st Ge ad
+- - Fre Her    uge PE å phen refvír Å
+GA AR Any Att ar ganga ar PRS vo DE |
+SN LR st   vw  4   a} a4 ptt   Eg EE    tA sal ji
+me ET å   ae. GL, Årarf 3:00 lacy FP an JERN
+Ede om dd $ Wyss tye. 4 þr  DET ON ae
+ee ee gang,  peer Fa
+Knet vega. opp haler  moo børge pm eachonf re. Fi
+Sa Aa og 8 eben  ews ed
+en Ne   å å  Að te pre Toget 1 cart rd å å Å
+Ser: a
+Se PER GA. Heir |
+ES PO ie VE ead```
 
 ## Modern English Translation (Plain, Aligned)
 ```

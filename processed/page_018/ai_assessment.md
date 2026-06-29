@@ -24,8 +24,44 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+a JE  DERRE
+Ge Sa % Ve ert a Á og
+Kf ae aloe re ha dig >
+Sem oa B PT  Lal  vs, De te Tiss |
+he yp breya age at 3 Gyo mår   ed ny |
+GS rað tos ta wae vane Nay vegr ber b Efe ht, aly
+| as   mY Ada. faldan nr wigan Å har KE
+AE en vet Rap ar nid. Coen va a   dn a
+Gene Grå kon bin. or Ube tok ie Hb  stage”
+| nil fönn 19 Epler EG by Fore vere ma
+ho Ne i 8008 on mera amana FS a | AR  pire pg
+2 OF Arlen apr å alðigr ve Po Ama Ge
+å ora nas be ee a   pt, ee
+ae ARA, DAY.   dreg hver gr or m hin. Putian ay | 7
+|  ve. ser alse gp ed oter we Fs að} fem TÁR
+VE å AG   frk Ba þr vanar 58.7   ‘en lS
+
+og paa bas bien da Le on kven =
+terest Borge al Bin db Að
+er tas  Å å os ÆR
+å ; 4 åg "i Pos: 5 bene? iv peat ;  15 op   á HØR «NG
+
+| sef a   A rompe bie. 4
+
+Sker fv van eye yt GAS. old AF ol beta å
+
+GE rall mong ri  vid pt haga GK eld fr hema. Å
+
+GE ga møde boet ee ef    ml"
+Eie ipen ran Yeh? hed   ag
+a kona Bar abe Raita ba eee |
+ET ate a tee ryrtnida Jorn 100 fa Å
+að (op Ter vel nf eda eek
+EN   bæta Ei tíð Pl ke Si
+ a vala 0 Gens pv ee otek wing aby aye
+lf NÅL     ES   As: GR ER LEN oe ee
+
+| A ge Å) KG) MG eee. EE on oe```
 
 ## Modern English Translation (Plain, Aligned)
 ```

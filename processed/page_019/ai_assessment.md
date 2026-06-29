@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+mer bob. tøljebrye bet alicia. pacy ie. ones Å ous
+jó bena pp fn pcs pe ese “PR 6 hs hag:
+Lo Se gow Fane tena Í 1 orde be
+ae bas: Sen fernur Í 78 Eyr obo betr frier famfo Å
+eg  å der herba nein þá gral Pere enl å Å
+Ger bruer b  ov kalk ág Bond. Pav PÅ LTTE I OM
+RIÐ   tvmfssebøfn |
+fra planla gale lepp. eft Ísla matt fa pyr ef 10 Å
+DE ae) os ee j  pg sp aan Aeg oe å GA
+Vår, al er ahetlomy noga  pager hæ. rm ET
+Ve ey aan (tf sums mæga see SY |  Flen) áð
+þið $pobry the ey á cong av VTA. »F  x Ya seres ;
+ed     mint afar. þad 3 tnæea 6 on ba“ >
+Kr amme  Fe fs arb høpre. Bing bi Fe EN
+da binds st uren, pe Dig 1 hor nm
+DP nb Base ac tiga, Arne opm fv oþín án og bøse 10 |
+0 Page moen ale gjøolsp na aði Viet Mean Lát fox; Å
+my. Aya é hege 5 via þogðz vúð vile Fre et i
+ee sangha ae haa mn Að “it he i ae |
+ae sree ny ææ nya yar VIK Be lær va oF byaidd
+pk! Oe 2 ben mpl 8 va gn vl Har og VEAP e hep mør. 27 dl
+  Oe eee Oe ae
+ge at ee be ferge I AV
+Gp spor 708. bie håver br agl
+EG å porene hi wf. Hera gape sa:
+AR A
+& + ' pos FT 3 ; Er á ip å År Pgs § |
+
+oe SEES NN å Sr,
+Fn. DE Á```
 
 ## Modern English Translation (Plain, Aligned)
 ```

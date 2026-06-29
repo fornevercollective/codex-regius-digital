@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+þan pr att å yb   Dv. ey Å of Å
+EÐ  5 hagen put    said PODS wpa. Å  A - 6
+am Í
+aia ee oe if vat. fina hole. eð Agge Á
+få mal å (2800 p rað V iis homme ib oc vedr Ho vitja maten. “1
+Cae Boerne beeps ri BA þina. her fire sið néa, Af
+EM tacoma as. å jal, Valar væ imam § 7
+peers ue ony aes eytt bom bag AN Á,
+RE en ys a horn pats EM
+GT TE one alef 4 rap cpr viser beia pep IN
+ET ið ecg Oe yl  ir |
+BL nay yal ee sg SN A   ix: Se
+gn oe has bie EN, ge gaat See JER
+EG wba ess  fo os ce fibarana segn nn Bengt
+rn hage ri gen DAR P END EE
+po herti kane hvid ar fog ake þé ee vil] 1. ku sey |
+så en ait Diet egy  = at við. Í fu rep bee Ap
+0 lør alda fons bert rom As  hm    AE alið 2
+F- sejee, Calla vega Dane. 140M 10  ae  "de, halla ap 5 7 ||
+pn Di oe ee Sk amt here 4 heim blir:
+| ot hr  Eyr 0008 alla vindøpnngpaf vp her Å 1H
+eo naga nå vert Shyer ttvpan fal, Sep tei hfö“ Å
+máni ha h  m þá Beha jam hm En
+KR gat Rualgar-arcala. Dum.pi hve fv fat he ha  a þó. A
+in ate ne via gop. had: byninl een. eygló ae. Í}
+eae Ss hvel álftir afadypeS.m.b, hve bar for herra HE
+TR her ha Sey h.mi.d8. of fer nit” aft
+Me 980 Armor wat. wr van sønn alee meat Bey” ld
+Soa    a ee   ae Oe 7
+Ee       V NN áð ewe ee |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,31 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Mk +e
+ek JET oe |   wiht VS 7 |
+EL Ja pene ai
+
+hg. pepe VG Ga spe. ui  Be yea natn” |
+i le pa By, ee þr  å Aer vid |
+en mf ha ut a  å Fata KN  |
+DE Spey solo Hon  á   fa»       jr ip A |
+4 eg ariel ee |
+| Eið ford é Gon: Palo far ‘ai
+FAY hane Í  nar ol FJ ee  Bør vidde ||
+ER  bia blob’ ftoenar, fi {yBronat og efh hv Å
+et  på 4 darglmgz mg Me em Cg neff ali AG
+barer? E Fact fans mg  alin |
+ee ten We pases, en ey in miy ja          dl
+Å Så Ve ra     recta. ef   23 FE     i
+bapa Se Pog bra, brer act  ts ety her b te, ay
+ se ty ae ee teen ane ‘ace |
+á “gb, JER å eng eee eS  dyner, 4
+a feta nara å buttongt bang p » þ  Og Lopes |,
+a, a : Ar aim je öz b 5   =|
+2 fo 2 byr oe å se þa ed TE
+je Hr PO gull, ge ba Á yn ÁR
+ne fai bo kant, hone oneal, Ey v re |
+fp Sabet kn  ee       |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

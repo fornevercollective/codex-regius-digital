@@ -24,8 +24,37 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ir. 0
+sa ER NE fá ná adr or a |
+Rs tayo PE a ss afa  a |
+
+Be Paves pay ordinates   fa bann 9 fet 9
+pe econ bee ae hve fr blott fe vað Baby | q
+Fons pete ce Pe meis ólga. Jenna We
+
+Fa Amal. 9 vf Á kn fr  SE Mee AR  pp MB
+o> yte bryne   vb A:  ir hola: hager th | 3
+KE Ker pie Å
+| hag nn nå ee Bimbo be Page ie
+á þál taney Ími 3 su lk Í
+GJ aka 5 feyldo vel te +6 opt Me rreyio ar qvæ  -
+fe Ft ibe, pa beeen oe måde lb, å
+| km og å øres Ennið. 2 en tab ae vere
+Per ge Pave amet sem ag ash Vise. jar parodi  a
+Big  UNE la ME bær:    ad þá å
+På Gen pee  r hon, feplde.   ke brea húna
+
+PE babe: ag. B EE     pen mera mop n    mm.
+fnew ee Blog “alfnoe amber j á VEL Á
+
+male. Ba Á lyft av opffa ey GR vie  a
+Le har. þe Son #70 andar. qo pp Á ÞE Hf |
+0 Manger Pk Al fra. fs Do F bre ro: ie Å
+| Enns áð vg Í is honiþahúgrs ÁÐ
+AÐ oe fama) vår AG  pe ry Bj å an
+Ngee áðr  aN SE en TG
+
+ris PE a oe ko,```
 
 ## Modern English Translation (Plain, Aligned)
 ```

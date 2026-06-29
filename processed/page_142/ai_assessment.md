@@ -24,8 +24,38 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+RIÐ    |   á
+— va  | Boe sg  > a       |          <
+     — WF  |    Á eke    Ei  ‘a ‘1 tested              4   oN.
+=                é  a  tl,     N   Gå il                     en
+VF) AS s =F        A        el dá Å kr aN                           å
+Aer  =r             å  TE  fs ga ae       }               a
+Ca    er 2
+ER  ær       |
+>    =          \        |       å    SEG      |               )
+1 o E         Å)       RRR Å
+SN gå Pr =          á          sið    i    Å  | Pili ye   ;         å    ~
+VA        =}      ”       4 28           Á        4        '         ate                   =
+|   N fe of                 w          A  4  ? hae  VE aa
+TN        =          øv     7     TEN   A   p  bið   a            ;        Á
+wel E         ge  aa a)                              å
+ERIE        ok     A Ales Egg OE           |            is
+ad =        aoe?             | has   ee  eð ye                   j
+á       ==         A    ‘y Y              |  MÅ    N   BER Í    Va                       i                  PY
+gen    oF                     ka  4 Er ia ys!   vi vi  TU GPL                |
+A    =      Á         lær ls                  &
+OE         og $a"         Å or  VÆRE AT a          í      dj      A
+ of         X             br GEN                  y
+E    = %                 i     KN     ESS NE       IG               |
+er =                        a    SA     DELT
+ee   %        1                    os,       HAN   aly     =                    -
+= =   |           i PV ge A Eg    ot         GR
+==      Sr;                   E Ne      yy he   I   vet               Fl
+=      |             ð   ØL   0 EG     Ni    7           H
+Á          = Á CS oc ie  = -
+pr                                   =   ‘        song NE   em     Ge    å          3 TE
+ps! pr     —             . A  tty   GP tg    GN Se    Á       .       å
+REE        a      ‘        NR EJ Kr ne  NE```
 
 ## Modern English Translation (Plain, Aligned)
 ```

@@ -24,8 +24,36 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+DEG  |       oT Å á    så ge i SEG
+pg Bat    talu brag ET Ge ps;
+vent ayale vega   Papa år bob an eae  Ji, SN
+| & grep, Et fons ið P tay   El |
+| |      «© antl fear pa. geebw Ava 19 vib hrak  FJØS TN
+    mr bera. na  AV gud a. FE bit blot, ug AT
+| Hár vo) pa av habe opa ad Dere får ER
+I err. vide hes pa Sar Í bie Jem ball oe
+a   3   aja.  a   Á   aa Sac imila 1 po) AT på 10   dg KR
+fm         é bé fb or het a  wrto diol bogga    gg SK
+å » á te SEO     mv       á  2A  ger iðn 4    :  vd0   Å   Da
+| ed get    Og
+NED å 50 hand deep aula EE er  vi
+teg færð. Rac hays er að   0 Dee ER
+| MESSIER ike ape fare posts op fobi å
+| en oor ct toe ten ap aS få hor. JE
+| ler, henpa riper ee A BNR ð sáði bn Eas aie
+| å AN Vise: fl ar ti Space PG |
+á   dyn Frere: hr Foyer Lefty Hort     agi 7 fönn, LT
+ók one same ge, fl ny oe le
+| á  En pet gosart né EE te bead ham FG
+Ih   Der  or sg go tip minna sé ob t ee ie
+| RA re on ge EET
+18  nå wag þat (áð votþo venner beg Orme ea le Å
+TE?     crorine fyfter eyna  Ber br på |   HON fó A
+| eae at ae
+Ac h  faux moog amarn-  sø: þa ap  Ao å høge EE å
+KO   fun tax man aper mob at       Tee NET 7
+TT  DE 2 PÅ)
+HER et vg RA ee Å```
 
 ## Modern English Translation (Plain, Aligned)
 ```

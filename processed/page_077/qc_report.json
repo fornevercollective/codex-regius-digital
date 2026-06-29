@@ -1,0 +1,200 @@
+{
+  "page": 77,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:02:30.407205+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2440,
+            1627
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2440,
+            1627
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.9917,
+      "raw_blur": 1985.3,
+      "enhanced_blur": 2132.42,
+      "raw_contrast": 52.42,
+      "enhanced_contrast": 54.17,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7672,
+      "raw_blur": 1985.3,
+      "enhanced_blur": 5966.95,
+      "raw_contrast": 52.42,
+      "enhanced_contrast": 86.61,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM      pi\nKAT Bs eið PETE ben   sf\nGe møbrke ope P rå aar be tjan Data ff       Í\nEE tee  á Sþ et mir sol ARP Beta no ladIM 4)\nSG st nae.  p             ona ats.     ap    av     sið  þar mon &  tia  er\nDE bs maps ME å þið Opry:     Å\nSR nia þv lþ forte lat 3008 © teg. byetvbr\nPE NE      fv BYS høg I   fö vi ugga    alle   Á.\nA Re par í $ og atay mir. ar þ kg Bs ty oH\nEET aði hó bana. herra. na Ye |\nAe Sell ern.   fs pear ae brage  om Vout yt    ae\n|  3 ho å ag, RR   Coe, ið min  Ane        gær må di. 4\nbe Se ee 3 A ;  Í Mn, ar ka = ið ae  gl ie EN er SEV  f  Å | Me",
+    "text_preview": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM      pi\nKAT Bs eið PETE ben   sf\nGe møbrke ope P rå aar be tjan Data ff       Í\nEE tee  á Sþ et mir sol ARP Beta no ladIM 4)\nSG st nae.  p             ona ats.     ap    av     sið  þar mon &  tia  er",
+    "char_count": 870,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM ",
+    "corrected_text_preview": "FR nere TENG rjóma oh\npt bana. fra foer groe volliige fa. dad cope    A í\nFE viðlótir resa bp Av  í map veh. |\n> DPS sombo Spar TART. å å ve tj vo ar Sn  f    |\nþr øl høg korn. ON tie hoe hysa gere i\nEE fot a am ey stom BØE rn»\nSL: it Gana and faer vern |\nSe Ge bo oa apen Dag få I Jnr Dgas  haa UTM ",
+    "issue_count": 10,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 4: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 6: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 12: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

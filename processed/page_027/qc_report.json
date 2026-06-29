@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:54:33.780788+00:00",
+  "timestamp": "2026-06-29T02:59:18.988926+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "ST x\nÅ pa te Mid\nÅ Går pt |\nis Ra se. ve ay  kr rit\nGa ge rå De |\nI Ak NE  ee AG a hvaler fn  oa\nGral dø es barcbo Titty, ag ie altadaga           Í Å\nTo oye poe batt pf uae Lie Í   va å\nle Å AE har pa adit}: fie p sys |  mi   Nå\nBi. | = já þa 3 ten fase  id\nEv sibláll a a  pl PP pe ea. am i\nee pa el ap om þá fat I Bile |\nA syni 5 bela  FA  pan fi ipfta ety, fray   |\nET sk å eeo on Å airs VEG: jo JE\nhes.   saat iða fs Å\nþa bar fF p laa healt 3 ee å\nra TaN erd eg 20  veda 96  oe  Ew 2 Hem  1\nae mio he gall > KA á. nr se oi 4\n3 Sr G omr bated MÅ\nDe Í Gask tat fa : los > ge ay ca\n= est mark fv   at bet Í\nfee agate ke hk og  eg iles a)\nie. Ba få hare. Í ap mn bs    fo að  soap far í fi\nle ER pg ep se ve\ner se gøy EA ‘af owe byer  by bel AG\nTe mek per 2  fief olli á Lap Å\nAE i å  ÁÐ gik 4 ag. ee ie 8 Pe) 1\nPR. Å ami",
     "text_preview": "ST x\nÅ pa te Mid\nÅ Går pt |\nis Ra se. ve ay  kr rit\nGa ge rå De |\nI Ak NE  ee AG a hvaler fn  oa\nGral dø es barcbo Titty, ag ie altadaga           Í Å\nTo oye poe batt pf uae Lie Í   va å\nle Å AE har pa adit}: fie p sys |  mi   Nå\nBi. | = já þa 3 ten fase  id\nEv sibláll a a  pl PP pe ea. am i\nee pa el ap om þá fat I Bile |\nA syni 5 bela  FA  pan fi ipfta ety, fray   |\nET sk å eeo on Å airs VEG: jo JE\nhes.   saat iða fs Å\nþa bar fF p laa healt 3 ee å\nra TaN erd eg 20  veda 96  oe  Ew 2 Hem  1\nae m",
     "char_count": 822,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "ST x\nÅ pa te Mid\nÅ Går pt |\nis Ra se. ve ay  kr rit\nGa ge rå De |\nI Ak NE  ee AG a hvaler fn  oa\nGral dø es barcbo Titty, ag ie altadaga           Í Å\nTo oye poe batt pf uae Lie Í   va å\nle Å AE har pa adit}: fie p sys |  mi   Nå\nBi. | = já þa 3 ten fase  id\nEv sibláll a a  pl PP pe ea. am i\nee pa e",
     "corrected_text_preview": "ST x\nÅ pa te Mid\nÅ Går pt |\nis Ra se. ve ay  kr rit\nGa ge rå De |\nI Ak NE  ee AG a hvaler fn  oa\nGral dø es barcbo Titty, ag ie altadaga           Í Å\nTo oye poe batt pf uae Lie Í   va å\nle Å AE har pa adit}: fie p sys |  mi   Nå\nBi. | = já þa 3 ten fase  id\nEv sibláll a a  pl PP pe ea. am i\nee pa e",
-    "issue_count": 6,
+    "issue_count": 10,
     "applied_fixes": []
   },
   "issues": [
@@ -156,6 +164,42 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 13: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 20: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

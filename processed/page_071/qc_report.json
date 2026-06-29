@@ -1,0 +1,173 @@
+{
+  "page": 71,
+  "manuscript": "GKS 2365 4to",
+  "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+  "status": "ok",
+  "timestamp": "2026-06-29T03:02:07.165631+00:00",
+  "pipeline_steps": [
+    {
+      "step": "preprocess",
+      "status": "ok",
+      "detail": [
+        {
+          "step": "01_raw_gray",
+          "note": "Grayscale load",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "02_denoised",
+          "note": "Non-local means denoise",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "03_contrast",
+          "note": "CLAHE contrast",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "04_binarized",
+          "note": "Otsu binarization",
+          "shape": [
+            2428,
+            1619
+          ]
+        },
+        {
+          "step": "05_deskewed",
+          "note": "Deskew correction (0.00°)",
+          "shape": [
+            2428,
+            1619
+          ]
+        }
+      ]
+    },
+    {
+      "step": "ocr",
+      "status": "ok",
+      "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
+    }
+  ],
+  "image_metrics": {
+    "artistic_vellum": {
+      "ssim": 0.992,
+      "raw_blur": 2048.77,
+      "enhanced_blur": 2203.49,
+      "raw_contrast": 53.91,
+      "enhanced_contrast": 55.77,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "clean_white": {
+      "ssim": 0.7632,
+      "raw_blur": 2048.77,
+      "enhanced_blur": 6178.61,
+      "raw_contrast": 53.91,
+      "enhanced_contrast": 91.49,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.1583,
+      "raw_blur": 2048.77,
+      "enhanced_blur": 1171.31,
+      "raw_contrast": 53.91,
+      "enhanced_contrast": 60.15,
+      "ssim_ok": false,
+      "contrast_improved": true
+    },
+    "grok_clean_white": {
+      "ssim": 0.4485,
+      "raw_blur": 2048.77,
+      "enhanced_blur": 2364.8,
+      "raw_contrast": 53.91,
+      "enhanced_contrast": 56.31,
+      "ssim_ok": true,
+      "contrast_improved": true
+    }
+  },
+  "ocr": {
+    "text": "EE lyga idae. pr fa am\nTe  ee Bf taþar Í me Big a bg  SE\npete oF Tea lact § þar) 1 aqui oi\nem     sleden, på  von 384 0 te   ar ag Á,\nEr re core Met 3\nKE vb 18 bags   av regn gi har hep. ; Fa basa veg  4\nPG fa foe fai  i are a | tl á\nr S   Grol fo hr  ragna hrarca, 195 mm. Prt by.   Ea  a\nþina bað n 3 ÞAÐ Rie få. hvar í  et  my eae .\nkas  wise  Boag þv Aheawa. (i sos Å\nag gn bs ee Friðar:  vr\npre vise ba he A et ed 4\n\ni 6 Vo de Vere ap een Fig ves\nPegg  ky Á\nÁr i PE ee v bvegþa f or AA yay |\nEr    ve tai  kara 20\nbd Eina Cn apr op et sá, 1\nTE a ig tae fín riði Shee meee rig\nLae ens. 4 oat  vidt eg jún    Il 7 eyna omapr      KG\næ Ae ER Jå é le mil bar fatbbæg y    Mom - Å\ngre slagi ac je  mah    å\nEG ap på Prada ts S ae 23. 4\nes þa Novel & ig Å ona grið Ao\n3 ee: Mice let\na 0 ARP Er Po ten ae   TR    ee LE\nbee le Æ |",
+    "text_preview": "EE lyga idae. pr fa am\nTe  ee Bf taþar Í me Big a bg  SE\npete oF Tea lact § þar) 1 aqui oi\nem     sleden, på  von 384 0 te   ar ag Á,\nEr re core Met 3\nKE vb 18 bags   av regn gi har hep. ; Fa basa veg  4\nPG fa foe fai  i are a | tl á\nr S   Grol fo hr  ragna hrarca, 195 mm. Prt by.   Ea  a\nþina bað n 3 ÞAÐ Rie få. hvar í  et  my eae .\nkas  wise  Boag þv Aheawa. (i sos Å\nag gn bs ee Friðar:  vr\npre vise ba he A et ed 4\n\ni 6 Vo de Vere ap een Fig ves\nPegg  ky Á\nÁr i PE ee v bvegþa f or AA yay |\nEr ",
+    "char_count": 827,
+    "error": null
+  },
+  "corrections": {
+    "raw_text_preview": "EE lyga idae. pr fa am\nTe  ee Bf taþar Í me Big a bg  SE\npete oF Tea lact § þar) 1 aqui oi\nem     sleden, på  von 384 0 te   ar ag Á,\nEr re core Met 3\nKE vb 18 bags   av regn gi har hep. ; Fa basa veg  4\nPG fa foe fai  i are a | tl á\nr S   Grol fo hr  ragna hrarca, 195 mm. Prt by.   Ea  a\nþina bað n",
+    "corrected_text_preview": "EE lyga idae. pr fa am\nTe  ee Bf taþar Í me Big a bg  SE\npete oF Tea lact § þar) 1 aqui oi\nem     sleden, på  von 384 0 te   ar ag Á,\nEr re core Met 3\nKE vb 18 bags   av regn gi har hep. ; Fa basa veg  4\nPG fa foe fai  i are a | tl á\nr S   Grol fo hr  ragna hrarca, 195 mm. Prt by.   Ea  a\nþina bað n",
+    "issue_count": 5,
+    "applied_fixes": []
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 3: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 7: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 24: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    }
+  ],
+  "citations": [
+    "handrit.is: Digital manuscript viewer for GKS 2365 4to. <https://handrit.is/manuscript/view/is/GKS04-2365/9>",
+    "Neckel & Kuhn 1983: Gustav Neckel and Hans Kuhn, *Edda: Die Lieder des Codex Regius*, 2 vols., Heidelberg: Carl Winter, 1983. <https://archive.org/details/edda00neck>",
+    "Tesseract OCR: Smith, R. (2007). An Overview of the Tesseract OCR Engine. *ICDAR*. <https://github.com/tesseract-ocr/tesseract>",
+    "SSIM: Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*. <https://doi.org/10.1109/TIP.2003.819861>"
+  ],
+  "preprocess": {
+    "skew_angle": 0.0
+  }
+}

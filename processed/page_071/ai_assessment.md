@@ -24,8 +24,33 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+EE lyga idae. pr fa am
+Te  ee Bf taþar Í me Big a bg  SE
+pete oF Tea lact § þar) 1 aqui oi
+em     sleden, på  von 384 0 te   ar ag Á,
+Er re core Met 3
+KE vb 18 bags   av regn gi har hep. ; Fa basa veg  4
+PG fa foe fai  i are a | tl á
+r S   Grol fo hr  ragna hrarca, 195 mm. Prt by.   Ea  a
+þina bað n 3 ÞAÐ Rie få. hvar í  et  my eae .
+kas  wise  Boag þv Aheawa. (i sos Å
+ag gn bs ee Friðar:  vr
+pre vise ba he A et ed 4
+
+i 6 Vo de Vere ap een Fig ves
+Pegg  ky Á
+Ár i PE ee v bvegþa f or AA yay |
+Er    ve tai  kara 20
+bd Eina Cn apr op et sá, 1
+TE a ig tae fín riði Shee meee rig
+Lae ens. 4 oat  vidt eg jún    Il 7 eyna omapr      KG
+æ Ae ER Jå é le mil bar fatbbæg y    Mom - Å
+gre slagi ac je  mah    å
+EG ap på Prada ts S ae 23. 4
+es þa Novel & ig Å ona grið Ao
+3 ee: Mice let
+a 0 ARP Er Po ten ae   TR    ee LE
+bee le Æ |```
 
 ## Modern English Translation (Plain, Aligned)
 ```

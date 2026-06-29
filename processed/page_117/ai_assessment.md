@@ -24,8 +24,14 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+FEE EEE ANNANN NNA NAVARRA NANNA TET EEE EEE EEE EEE
+|    30 40 50 60    70 80 90  100.110 120 130 140   150       5)
+TN   Ti —
+)      N
+'                                                                             I
+4
+]
+t```
 
 ## Modern English Translation (Plain, Aligned)
 ```

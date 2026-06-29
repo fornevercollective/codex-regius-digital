@@ -24,8 +24,27 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+A NS ee as
+ae.  pres Ais Nel: NAS man Yr we
+| vð Gn? = AH a OE Dare ae å ee it    i gee  a
+AR KE ak ke NG DA
+a. på fare Dyr 7 Mg haga kurdere tym avhamg Ds 7
+D Gab fecha á hade banyan hurdrid ind ay anjar ger al op og
+in fin been. hvit bera bide bagdyne, ae nt   ie   oe
+wie yer Huapvlla tjospvlia          rs ee
+mange ft slot wip getty see NER  i valg
+Ot å hd oil hata er Ob bæli hy angi ga
+1 hee på thorn å (ala faga. nå þv KNE |
+ae apen agoly Botni. þer 8 fray co: el bad ee
+Ka preg ee %   “ap ay 15 alo eye end We riae T
+P<) avad toa er bale sory ber Sgt ME Å  áð A   war
+: MIN EE OE ENE MA Á,  4A» ES PAU    én 3 mynt å |
+A Sere              AG       þr     a SE
+jit ieee å   a iy m: DOP Ve DUE Á; Á A. as +: ‘eos 2  EY   PE >
+ JE fat     pe ME EN AT
+SGRENA rata Ke
+EG å Å peo) pe Faks I
+MN```
 
 ## Modern English Translation (Plain, Aligned)
 ```

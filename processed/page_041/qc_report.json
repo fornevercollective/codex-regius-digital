@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:13:42.104457+00:00",
+  "timestamp": "2026-06-29T03:00:04.199530+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "IR A\nal eS a eg: hee ns |\nKE rh La bar å á ag Å\nva > er oven  b år arg test ar nagar góð. Í  et“ sl\nÆR fina falle, nå vér be . þa   þó å    Vi\nÅ  oa   ds a    ser 4 |\n ha SR fr sd\nfæ F ee Res ese anil Å  hamið | å\nRope 9-5 byr sm -  patna   |   ha    eð i\nNå PÅ tie, fit 9  frið ya  |      San bt  þu  on\nng HART  ene a 2\nav Shy vena Ía ane a bd  ceca fe aö ht Hest |\nSN ao per  å þa bar   Et Á\nAR ie, alae ee     at\nPaes ol > på  áð  ‘Teoban aft i nå JIN\nie já ta fo aa 3 lay Ee |\naa Mar PE ake þú FÅ kom å nr þara falt SA\nNå å ay  ete lee  yor nú  5 uh Ti Sé     Eg\n‘a eh pare EE RE at å\nfag et babe bs Bev Jes fan pop ga Je ae\nFr ar > hee. sag",
     "text_preview": "IR A\nal eS a eg: hee ns |\nKE rh La bar å á ag Å\nva > er oven  b år arg test ar nagar góð. Í  et“ sl\nÆR fina falle, nå vér be . þa   þó å    Vi\nÅ  oa   ds a    ser 4 |\n ha SR fr sd\nfæ F ee Res ese anil Å  hamið | å\nRope 9-5 byr sm -  patna   |   ha    eð i\nNå PÅ tie, fit 9  frið ya  |      San bt  þu  on\nng HART  ene a 2\nav Shy vena Ía ane a bd  ceca fe aö ht Hest |\nSN ao per  å þa bar   Et Á\nAR ie, alae ee     at\nPaes ol > på  áð  ‘Teoban aft i nå JIN\nie já ta fo aa 3 lay Ee |\naa Mar PE ake þú F",
     "char_count": 646,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "IR A\nal eS a eg: hee ns |\nKE rh La bar å á ag Å\nva > er oven  b år arg test ar nagar góð. Í  et“ sl\nÆR fina falle, nå vér be . þa   þó å    Vi\nÅ  oa   ds a    ser 4 |\n ha SR fr sd\nfæ F ee Res ese anil Å  hamið | å\nRope 9-5 byr sm -  patna   |   ha    eð i\nNå PÅ tie, fit 9  frið ya  |      San bt  þu",
     "corrected_text_preview": "IR A\nal eS a eg: hee ns |\nKE rh La bar å á ag Å\nva > er oven  b år arg test ar nagar góð. Í  et“ sl\nÆR fina falle, nå vér be . þa   þó å    Vi\nÅ  oa   ds a    ser 4 |\n ha SR fr sd\nfæ F ee Res ese anil Å  hamið | å\nRope 9-5 byr sm -  patna   |   ha    eð i\nNå PÅ tie, fit 9  frið ya  |      San bt  þu",
-    "issue_count": 9,
+    "issue_count": 11,
     "applied_fixes": []
   },
   "issues": [
@@ -183,6 +191,24 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 19: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 21: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

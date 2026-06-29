@@ -24,8 +24,26 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+wage På  DE    kg EN KE í í ee ha 2 NR
+å: aoe NG   Suk   ee eeo       g"   å     ER ng Ban 6 ine aa Wee Nå
+PE  å a Ba big ar AY hay  a     oe   iv he or ae    in 4 2   Y ‘2 li
+ee pr ul, foe og te bama.
+ge ES å   SA »   1 y    np:         pr ATA vies ::      je  af va Peat!
+KG be |   thie ale AM he: sat Ok e   ae ore  SA Á    áð vi 02. a" eo om
+Be Ray fet     ape aftann babs eg 1: ems has on
+ee an Se å Wi At a ee  ti VA Å  Hr r hep OL be Soe et
+Å  oe þá a ee EA ku fi a my mL op MEN. ser pr Su
+K;- im ite’ Fie   #8 > hær | att sit am  på et Ot Me es OG
+FA a ey ØRN TEITE ae HE Å  olær veer      | Å ste ft De
+AE 2       Eða ra sagi å å  an  så ms    4.  ka          ae Be SN
+a a  Fa BA åå Xe Og ASLE Ao OY       ee LE SG ki      m  ag 4 |
+ere SR sa A oe? ll ga 9 Me en yelp $s) | der rå Ed LÅ aig
+a   calon  v å hr ie AHR PHP       aa  ey =
+ET A  tr dr *       ay    J   fl
+ne REO tr PE   Cara & Soa su
+EN EM Fy re   KE |
+TE bd NÅ ig “ge OD ær å Øre NG
+ee a el```
 
 ## Modern English Translation (Plain, Aligned)
 ```

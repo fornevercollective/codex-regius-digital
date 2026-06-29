@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+Eg av sath ates     a
+|            a Geer
+ae pe Få     Shion å ee
+Bl ene, ro en (slá ee hvar þá Mg
+å   oe ec gt Apr g boere rdp rakte "en ir an Å
+4  Ti one å fr et Do A ÆÐ
+;  Mad 5 98 Å fire ape sp hr oe vaca fight” aa
+uw    ERR — dn rs ben fr nme
+Ab   aie bo bar  le va fred Be þef Vela vi
+, vain. PD      AE ið Vp Sac I harð rt å
+bE sec wy 5 alla ie lan ans Gellner få båe .
+Spl   a fae va bana Bel få beyn gyte þig hi
+Ea   Sey   snið 5 oleinef úþa Í TR ae
+|    ré hv tæþa z    mind bed å mar bath FÅ BR Ra
+|   sv part grand ab þið Cals VID EE
+| va ate ba  90 eg VÍST ort
+EA pr keg ate harr vi en Me Ke eð
+ek Ta pøs áð sje å AG
+AE nds. some
+ið  tas kor gå  i : 1 acy:    spe qpe pats EN STG
+å Å    4  KG am for dl   {lets ena. A oral qe NG
+fo pet  vr ge Å  ak  or EE
+Á gotta faar      ae      Sæ kn
+| å og Eg 1600 gard 2920 togko * Á Na Må
+Å dd Coney     sa Dry  ar hæfi nå EG
+Paget   9 byger me & Ayala 5, Å We bane
+Vette ee 4
+Eg Aa 4  ee Ne  mates  Á ae PE   Á Æ```
 
 ## Modern English Translation (Plain, Aligned)
 ```

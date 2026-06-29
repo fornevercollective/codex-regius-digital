@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:46:25.941392+00:00",
+  "timestamp": "2026-06-29T03:01:36.568826+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "'Ek' → 'ek'"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "; a ven þv. Ye sd gr\ntl epler ar fagene. Leib Olai fane oy   : MOM TH pg\nMg vorte mol brof ør Tru gin, gen atte ben, a\noes gl me FP ney, mde vit ora. Geb Boos Soa er pie\nFy Se penal. Phat ea necmyagee de EE\nå EG að Jag kon ene aoe\nGE  fe eå  w ga á AUG ale  in þv nefone |\n- Bee ið tae toe þú fig prow mb et inep\ni ptt   A \"og de tuo Mee þa\n vik maren ár Ek ode tf a\nAs ol ret de AR Fr\nSe pak GAG ar aaa abn ton nobå by\n| JAG yada man Dork  Ke pe   nia md\nÅ 2 ~ ange © haita gane Sen herr þv;   BA ed\nfi   a bord ma. av trea þ. potar: a gata, 4\ní    „jr ee. FÉ monar Top bila“ deat Sand a play > Å\nå Å  <  G NOR þú. ng   pr PER Et ES Eee\n- ba goat þ fs lupen frita feie e VG\nle is apy ger sp GN ea wid\n_    bs oly   SU. Lie bek by amen  BP,\nA   í)\nVes I seg we, ie ae  såg\nae ons one ae cee NG Å ng a Sa",
     "text_preview": "; a ven þv. Ye sd gr\ntl epler ar fagene. Leib Olai fane oy   : MOM TH pg\nMg vorte mol brof ør Tru gin, gen atte ben, a\noes gl me FP ney, mde vit ora. Geb Boos Soa er pie\nFy Se penal. Phat ea necmyagee de EE\nå EG að Jag kon ene aoe\nGE  fe eå  w ga á AUG ale  in þv nefone |\n- Bee ið tae toe þú fig prow mb et inep\ni ptt   A \"og de tuo Mee þa\n vik maren ár Ek ode tf a\nAs ol ret de AR Fr\nSe pak GAG ar aaa abn ton nobå by\n| JAG yada man Dork  Ke pe   nia md\nÅ 2 ~ ange © haita gane Sen herr þv;   BA ed",
     "char_count": 803,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "; a ven þv. Ye sd gr\ntl epler ar fagene. Leib Olai fane oy   : MOM TH pg\nMg vorte mol brof ør Tru gin, gen atte ben, a\noes gl me FP ney, mde vit ora. Geb Boos Soa er pie\nFy Se penal. Phat ea necmyagee de EE\nå EG að Jag kon ene aoe\nGE  fe eå  w ga á AUG ale  in þv nefone |\n- Bee ið tae toe þú fig pro",
     "corrected_text_preview": "; a ven þv. Ye sd gr\ntl epler ar fagene. Leib Olai fane oy   : MOM TH pg\nMg vorte mol brof ør Tru gin, gen atte ben, a\noes gl me FP ney, mde vit ora. Geb Boos Soa er pie\nFy Se penal. Phat ea necmyagee de EE\nå EG að Jag kon ene aoe\nGE  fe eå  w ga á AUG ale  in þv nefone |\n- Bee ið tae toe þú fig pro",
-    "issue_count": 5,
+    "issue_count": 7,
     "applied_fixes": [
       "'Ek' → 'ek'"
     ]
@@ -140,6 +148,24 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 14: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 17: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

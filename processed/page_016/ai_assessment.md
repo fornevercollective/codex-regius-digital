@@ -24,8 +24,37 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ay  hit fot ai ai nn 65 ja nr An: Kr
+
+ss  half og mo Dit tecar. aldar ros, þinn Á 08 eit ER A å
+
+get dte Har á rt yes Å
+
+IÐA 3 trop led   Ti gås fe 7 hass proqna av på. dyhvaig í AG
+8 a lille vmar Pot abravs  bn. Far dnets gr
+þ  ag eg en Ganga fair va gi 01
+A a fs fat 9 a Og lena frer ant lena. Bus Å
+Í í pee ot Ten fe halir eta hún pos vér 8 2808 a
+  Spa fl BE on ex bon Bice bbe ht  3 Á
+fins Map vile a þa So Vine guilt Fr
+mør DB aveið vor ef 5 party: ae  „amen et middag dl
+Í má Gå crac fm av ey bror Poe er ae
+ap pany: Pola. opt   lede fa Å os ee ;
+PF dr est)  bi yvaðó {lo wrð glöðrar by  ;
+år pa, vel. Spin farið {Pap site sas gå gi dad
+å  Ay vint 92 þe 9 vg. enavinar fn følt en) oun
+þr vat vík ða Sperry or bu Þar beg wbypel 2
+Ao) pt pr Bar ge ae. av (len vs ee
+å da 24   Åge og ope. Op þv at mag å |
+Saye pata tg var Då po oe ce -
+4 40 þa mlå eg plat pod  OA:  fung v pa V 4 DR
+ 6 Oe eo so 300 BY mm | vað æyillsuegar í 4
+| Amr 0 52) er Á MR le
+30 ett pe) a hlý for ala. on fmalle VOW 4d 3
+ors bie aper See e. dur une age
+ee Tee DE
+
+kk VF å pel A```
 
 ## Modern English Translation (Plain, Aligned)
 ```

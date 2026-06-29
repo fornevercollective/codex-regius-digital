@@ -24,8 +24,30 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+ee a eae
+eM bad GET f
+Pgs þið Tr ona bia oR Gog Bers. a
+
+4 =  wl. Pana baie the bags av trols. ¢   ea
+|: etar lána nea      nb. Ssohide 9, Cobo á ne
+hus          inn         Fs:    å    ow Dre  EE, a
+he ac fama hope. bæði Há ban þar få ber he yes: Gog
+> - test 8 fopnak ny Wine  í hefir harma mina a
+| saiiþpaþar namo afar. landi Vældrig tøft nr, i dean
+Alin fom om biter ae a
+> ee  Tros Ban mipddar 4 Wye 1 á 7: anga
+VÆLG alga’ ee ne mae |
+fa Sevan et ae vr Ua, 60 mise ine
+rt. a«Pnvard sm lg i JRR WE 4
+Papa gr hele evar’ fond mine. Gpa fyr dag GT
+| meter? os ár pu Ghar pr :  að HE, rer
+Kar bana op pot Í løv ögum pa eg has
+á Ån elles å dg fr open va hl Fr
+| eat der fm
+eB þri finar å do man ao 3
+føra faser Bef engla Jenda oc 0       Tone Bd
+DØ \ tag barns Akan rik pre via 6 sár meti a I
+AE (lam por gre tdi ON fo ype```
 
 ## Modern English Translation (Plain, Aligned)
 ```

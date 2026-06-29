@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T02:16:30.018330+00:00",
+  "timestamp": "2026-06-29T03:00:11.407176+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "ir. 0\nsa ER NE fá ná adr or a |\nRs tayo PE a ss afa  a |\n\nBe Paves pay ordinates   fa bann 9 fet 9\npe econ bee ae hve fr blott fe vað Baby | q\nFons pete ce Pe meis ólga. Jenna We\n\nFa Amal. 9 vf Á kn fr  SE Mee AR  pp MB\no> yte bryne   vb A:  ir hola: hager th | 3\nKE Ker pie Å\n| hag nn nå ee Bimbo be Page ie\ná þál taney Ími 3 su lk Í\nGJ aka 5 feyldo vel te +6 opt Me rreyio ar qvæ  -\nfe Ft ibe, pa beeen oe måde lb, å\n| km og å øres Ennið. 2 en tab ae vere\nPer ge Pave amet sem ag ash Vise. jar parodi  a\nBig  UNE la ME bær:    ad þá å\nPå Gen pee  r hon, feplde.   ke brea húna\n\nPE babe: ag. B EE     pen mera mop n    mm.\nfnew ee Blog “alfnoe amber j á VEL Á\n\nmale. Ba Á lyft av opffa ey GR vie  a\nLe har. þe Son #70 andar. qo pp Á ÞE Hf |\n0 Manger Pk Al fra. fs Do F bre ro: ie Å\n| Enns áð vg Í is honiþahúgrs ÁÐ\nAÐ oe fama) vår AG  pe ry Bj å an\nNgee áðr  aN SE en TG\n\nris PE a oe ko,",
     "text_preview": "ir. 0\nsa ER NE fá ná adr or a |\nRs tayo PE a ss afa  a |\n\nBe Paves pay ordinates   fa bann 9 fet 9\npe econ bee ae hve fr blott fe vað Baby | q\nFons pete ce Pe meis ólga. Jenna We\n\nFa Amal. 9 vf Á kn fr  SE Mee AR  pp MB\no> yte bryne   vb A:  ir hola: hager th | 3\nKE Ker pie Å\n| hag nn nå ee Bimbo be Page ie\ná þál taney Ími 3 su lk Í\nGJ aka 5 feyldo vel te +6 opt Me rreyio ar qvæ  -\nfe Ft ibe, pa beeen oe måde lb, å\n| km og å øres Ennið. 2 en tab ae vere\nPer ge Pave amet sem ag ash Vise. jar paro",
     "char_count": 888,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "ir. 0\nsa ER NE fá ná adr or a |\nRs tayo PE a ss afa  a |\n\nBe Paves pay ordinates   fa bann 9 fet 9\npe econ bee ae hve fr blott fe vað Baby | q\nFons pete ce Pe meis ólga. Jenna We\n\nFa Amal. 9 vf Á kn fr  SE Mee AR  pp MB\no> yte bryne   vb A:  ir hola: hager th | 3\nKE Ker pie Å\n| hag nn nå ee Bimbo be",
     "corrected_text_preview": "ir. 0\nsa ER NE fá ná adr or a |\nRs tayo PE a ss afa  a |\n\nBe Paves pay ordinates   fa bann 9 fet 9\npe econ bee ae hve fr blott fe vað Baby | q\nFons pete ce Pe meis ólga. Jenna We\n\nFa Amal. 9 vf Á kn fr  SE Mee AR  pp MB\no> yte bryne   vb A:  ir hola: hager th | 3\nKE Ker pie Å\n| hag nn nå ee Bimbo be",
-    "issue_count": 7,
+    "issue_count": 10,
     "applied_fixes": []
   },
   "issues": [
@@ -165,6 +173,33 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 16: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 25: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 27: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

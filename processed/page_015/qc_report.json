@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T01:44:52.370814+00:00",
+  "timestamp": "2026-06-29T02:58:35.649467+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,6 +55,13 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
+    },
+    {
+      "step": "ocr_to_assessment",
+      "status": "ok",
+      "detail": [
+        "Inserted OCR text"
+      ]
     }
   ],
   "image_metrics": {
@@ -96,6 +103,7 @@
     }
   },
   "ocr": {
+    "text": "ae ða   å   bana Ofta - a\nFOS Is Py tere : —_— faa. et Karp  V gs  v  Av!\ndk am mg pf ið pes ag dg ið\n\nþað kyns fg byl „þé  mh al a bør, |\n\noh er tems Í þa a mh\n\niðar aðrir nemna at føpa.   blan A     ‘\n\n3 “tna al agn ope pet bl wit le bla    ,\nFE hæg Ne a Spa Bue hr  áð\nÅ Ko ma yest yr > la pe ‘vama var. e ioþa og\nre Seale rm atts Pewee\nÍ sv ake og vil fé var. 2B. bow br vm å 9\nren ee ee ole se\ní ap Ka from pe av Í agomele ge TR\nB senn sið ál re ye |\nea ml bute ale vrea op ha pirar. Ølnørr ep å\ngO in Gp en B ver a ter hl if\nata ee Fer Fal 0 fer Var og ad\neh hue   |        a me\nca sg gy eck sid aor gn bas al  ver\nie oe Bir å huden ag Ki ml\nSe.     Pua Tica,  feats tp AHAn bag ;  ee å NER\nav. je beit I preciz at 5 jeg Eeg N\nBR E DV. gr br P KL ører an on 4\nEr sk, aes.  eo oe\nEo a, wees a. oe\ntee are oe\nVe Kg RE VE ie en\n\nx ie Å EE EE             -",
     "text_preview": "ae ða   å   bana Ofta - a\nFOS Is Py tere : —_— faa. et Karp  V gs  v  Av!\ndk am mg pf ið pes ag dg ið\n\nþað kyns fg byl „þé  mh al a bør, |\n\noh er tems Í þa a mh\n\niðar aðrir nemna at føpa.   blan A     ‘\n\n3 “tna al agn ope pet bl wit le bla    ,\nFE hæg Ne a Spa Bue hr  áð\nÅ Ko ma yest yr > la pe ‘vama var. e ioþa og\nre Seale rm atts Pewee\nÍ sv ake og vil fé var. 2B. bow br vm å 9\nren ee ee ole se\ní ap Ka from pe av Í agomele ge TR\nB senn sið ál re ye |\nea ml bute ale vrea op ha pirar. Ølnørr ep å",
     "char_count": 858,
     "error": null
@@ -103,7 +111,7 @@
   "corrections": {
     "raw_text_preview": "ae ða   å   bana Ofta - a\nFOS Is Py tere : —_— faa. et Karp  V gs  v  Av!\ndk am mg pf ið pes ag dg ið\n\nþað kyns fg byl „þé  mh al a bør, |\n\noh er tems Í þa a mh\n\niðar aðrir nemna at føpa.   blan A     ‘\n\n3 “tna al agn ope pet bl wit le bla    ,\nFE hæg Ne a Spa Bue hr  áð\nÅ Ko ma yest yr > la pe ‘vam",
     "corrected_text_preview": "ae ða   å   bana Ofta - a\nFOS Is Py tere : —_— faa. et Karp  V gs  v  Av!\ndk am mg pf ið pes ag dg ið\n\nþað kyns fg byl „þé  mh al a bør, |\n\noh er tems Í þa a mh\n\niðar aðrir nemna at føpa.   blan A     ‘\n\n3 “tna al agn ope pet bl wit le bla    ,\nFE hæg Ne a Spa Bue hr  áð\nÅ Ko ma yest yr > la pe ‘vam",
-    "issue_count": 5,
+    "issue_count": 6,
     "applied_fixes": []
   },
   "issues": [
@@ -147,6 +155,15 @@
       "severity": "warning",
       "code": "UNUSUAL_CHARS",
       "message": "Line 18: unusual characters detected.",
+      "suggestion": "Compare glyph-by-glyph with raw scan.",
+      "etymology": null,
+      "citation": null,
+      "auto_fixable": false
+    },
+    {
+      "severity": "warning",
+      "code": "UNUSUAL_CHARS",
+      "message": "Line 22: unusual characters detected.",
       "suggestion": "Compare glyph-by-glyph with raw scan.",
       "etymology": null,
       "citation": null,

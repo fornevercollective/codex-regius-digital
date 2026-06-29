@@ -24,8 +24,8 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+AR U UV 40 UV OU V 5 BU IVY U U Y I14U
+NAA```
 
 ## Modern English Translation (Plain, Aligned)
 ```

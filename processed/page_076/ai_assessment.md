@@ -24,8 +24,34 @@
 
 ## Original Text (Clean OCR / Transcription)
 ```
-[PASTE CLEAN OLD NORSE TEXT HERE]
-```
+EET þa ee
+ee. ere ll
+
+|. Bilar.    * as   p    ØL We      wa Á  Hiv      *  Á Be Bee A mat        ee á ee be E i br 2 #2 JR
+Å bl en EIA he Be Ree
+ee th. Aa te PH vee "tn Got Shes «Piaf  es et
+[| At tbr plogo ttele samnöp myte 1 Pa gree ad x. ee
+|; 3 å all meld øm. Ved po Spacey Ga cate uch poe
+pb ot         oe        Sa var my AG, ha trase Ter
+| hør tha      ry adtings , Co boerne hopen me HE
+| vabdå meg an   pe 4 tfernie tit mal viðar.
+by     Area» Dm Tinos ve frir (05. 3 vætag ae
+bað gully mm eypre fe ét ið jsb aþa foar ér i $e en ee
+bE      4 gul I niora, þe fh Þ bagar ar ba may Fi
+bee % 3  t     I beiða mast mal bang FR
+ia    ‘vite Ka) 9 vin fe vig mel. Da ai ten KV ER]
+vel   Ba bot vita meth. Da ab hb, 53" ise AR
+ER NB Bar fyriae  sd ee
+Pde: flop fe nøbe ho           fame  Sor Sr
+ | 38 cre nef. å hå fe vr. brann brønk bd, ode Per
+Pan a/beate + fo an  fate © tere aliagby       te |
+DER 7 sonar a epi tig   po SL å er VG.
+NG Pa i ina.  å DÅ 26 bua ppt Í  2 De VG  rar:
+ENE hå ambortir Í  ee fe HO SpA: Fa
+{ á VAD ee Zs:   Gee En Að    4 Gr. a3 FG = ge
+ie Eee Fae Re a  ODI ABA Te ee me Beis PE TA St
+
+EEE ee ps```
 
 ## Modern English Translation (Plain, Aligned)
 ```

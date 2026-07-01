@@ -3,16 +3,17 @@
 **Status**: ok
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:04:03.833447+00:00
+**Generated**: 2026-07-01T23:12:56.645288+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2682, 1509]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2682, 1509]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2682, 1509]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2682, 1509]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2682, 1509]}]
 - **ocr** (ok): Tesseract extraction complete
-- **ocr_to_assessment** (ok): ['Inserted OCR text']
 
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.7954, contrast Δ=0.7
 - **clean_white**: SSIM=0.7293, contrast Δ=22.3
+- **grok_artistic_vellum**: SSIM=0.2497, contrast Δ=-1.6
+- **grok_clean_white**: SSIM=0.2003, contrast Δ=-59.2
 
 ## Issues
 - [WARNING] **UNUSUAL_CHARS**: Line 2: unusual characters detected.

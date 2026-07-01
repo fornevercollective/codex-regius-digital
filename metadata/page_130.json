@@ -18,7 +18,8 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_doodles.json"
+    "grok_doodles.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Atlamál",
   "original_text": "",
@@ -31,7 +32,7 @@
   },
   "processed_at": "2026-06-29T01:19:37.354220+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:04:32.688911+00:00",
+  "qc_at": "2026-07-01T23:15:42.875987+00:00",
   "qc_issue_count": 2,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.126917+00:00",
@@ -39,5 +40,5 @@
   "poem_section": "st. 32–51",
   "poem_type": "heroic",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T04:20:31.763895+00:00"
+  "grok_enhanced_at": "2026-07-01T23:15:42.875288+00:00"
 }

@@ -1,0 +1,88 @@
+{
+  "page": 12,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "num-01",
+      "region": "top right corner",
+      "type": "marginalia",
+      "description": "Small numeral '3' written in the upper right corner, separate from the main text block.",
+      "scholarly_note": "Likely a later foliation or quire mark added during cataloguing or rebinding."
+    },
+    {
+      "id": "init-01",
+      "region": "left margin, first lines",
+      "type": "initial",
+      "description": "Large decorated capital with elongated vertical stem or loop extending downward along the left margin, marking the start of the text on the page.",
+      "scholarly_note": "Standard medieval decorated initial introducing a poem or major textual division in the Poetic Edda manuscript."
+    },
+    {
+      "id": "init-02",
+      "region": "left margin, lower third",
+      "type": "initial",
+      "description": "Second large capital letter with prominent curved tail/descender extending left into the margin, beginning a new textual unit.",
+      "scholarly_note": "Marks the start of a stanza, section, or new poem."
+    },
+    {
+      "id": "stain-01",
+      "region": "upper left quadrant",
+      "type": "stain",
+      "description": "Large irregular dark brown-black blotch surrounding and overlapping the opening initial and adjacent text.",
+      "scholarly_note": "Consistent with liquid or water damage; text remains mostly legible."
+    },
+    {
+      "id": "stain-02",
+      "region": "mid left to center",
+      "type": "stain",
+      "description": "Elongated vertical dark stain running roughly parallel to the left margin across multiple lines.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "stain-03",
+      "region": "lower right quadrant and bottom",
+      "type": "stain",
+      "description": "Heavy, dark, blotchy staining concentrated over the damaged corner and spreading leftward into the text area.",
+      "scholarly_note": "Staining is associated with the physical damage and folding in this region."
+    },
+    {
+      "id": "stain-04",
+      "region": "scattered throughout text block",
+      "type": "stain",
+      "description": "Multiple smaller brownish spots, patches, and foxing marks distributed across the writing surface.",
+      "scholarly_note": "Typical age-related discoloration and possible mold or foxing on vellum."
+    },
+    {
+      "id": "damage-01",
+      "region": "bottom right corner",
+      "type": "damage",
+      "description": "Severe physical damage: torn, crumpled, and folded with substantial parchment loss. Multiple layers are folded over; text at the ends of the final lines is partially or fully lost or obscured.",
+      "scholarly_note": "Worst area of loss on the folio; common in heavily used or poorly stored medieval manuscripts."
+    },
+    {
+      "id": "damage-02",
+      "region": "top edge and right margin",
+      "type": "damage",
+      "description": "Irregular, worn, and jagged edges with loss of outer margin. Some line endings on the right are trimmed or worn away.",
+      "scholarly_note": "Edge deterioration from handling, binding pressure, or later trimming."
+    },
+    {
+      "id": "abrasion-01",
+      "region": "bottom right quadrant and outer margins",
+      "type": "scratch",
+      "description": "Creases, folds, and rubbed/abraded surface areas where the parchment is thinned or smoothed, with associated localized ink fading.",
+      "scholarly_note": "Handling and folding damage."
+    }
+  ],
+  "scratches": [
+    "Multiple creases and fold lines radiating from the heavily damaged bottom right corner.",
+    "Surface abrasion and rubbing along the lower right and outer margins causing ink loss and parchment thinning."
+  ],
+  "damage_notes": [
+    "Major material loss and distortion at bottom right corner affecting text legibility in that area.",
+    "Widespread edge wear with margin loss on top, right, and bottom sides.",
+    "Parchment is cockled and creased in damaged zones; overall support remains sufficiently intact for most of the text block to be readable."
+  ],
+  "summary": "Folio 12 exhibits significant medieval vellum degradation including extensive staining (age, water, foxing), a small marginal numeral '3', two large decorative initials, and especially severe physical damage at the bottom right corner with tears, folds, material loss, and text obscuration. No doodles, pen trials, or visible scribal corrections (strikethroughs, insertions, or erasures) are present. Marginalia is limited to the numeral.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_012/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:06:44.019501+00:00"
+}

@@ -16,19 +16,29 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Hávamál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 9,
+    "confidence": "low",
+    "surveyed_at": "2026-07-01T23:03:57.306026+00:00"
+  },
   "processed_at": "2026-06-29T01:19:14.789877+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T02:58:14.678015+00:00",
+  "qc_at": "2026-07-01T23:09:52.678879+00:00",
   "qc_issue_count": 3,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:41.990039+00:00",
   "poem_full": "Hávamál",
   "poem_section": "st. 69–88",
-  "poem_type": "mythological"
+  "poem_type": "mythological",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-07-01T23:09:52.672731+00:00"
 }

@@ -53,10 +53,18 @@
       <section id="page-detail">
         <span class="section-label">Selected folio · all layers</span>
         <h2 id="page-title">Page 10</h2>
-        <div class="layer-viewer" id="layer-viewer">
-          <div class="layer-stack" id="layer-stack"></div>
-          <div id="text-overlay" class="text-overlay" hidden></div>
-          <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>
+        <div class="view-mode-tabs" role="tablist" aria-label="Viewer layout">
+          <button type="button" class="view-tab active" data-view="stack" role="tab" aria-selected="true">Stack</button>
+          <button type="button" class="view-tab" data-view="raw-mix" role="tab" aria-selected="false">Raw ↔ Mix</button>
+          <button type="button" class="view-tab" data-view="text-mix" role="tab" aria-selected="false">Text ↔ Mix</button>
+          <button type="button" class="view-tab" data-view="triple" role="tab" aria-selected="false">Raw · Mix · Text</button>
+        </div>
+        <div class="layer-viewer view-stack" id="layer-viewer">
+          <div class="layer-viewer-body" id="layer-viewer-body">
+            <div class="layer-stack" id="layer-stack"></div>
+            <div id="text-overlay" class="text-overlay" hidden></div>
+            <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>
+          </div>
         </div>
         <div class="layer-mixer">
           <div class="preset-row" id="layer-presets"></div>
@@ -181,6 +189,13 @@
         <p>Structured description aligned with <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html" target="_blank" rel="noopener">TEI msDesc</a>, folio placement per <a href="https://viscoll.org/collation/" target="_blank" rel="noopener">VisColl</a>, and expansion roadmap inspired by <a href="https://baekur.is/about" target="_blank" rel="noopener">Bækur</a>.</p>
 
         <section class="catalog-section">
+          <h3>Corpus expansion timeline</h3>
+          <div id="expansion-chart" class="expansion-chart" role="img" aria-label="Manuscript dating and expansion phases"></div>
+          <p class="catalog-intro">Phased ingest from handrit.is collections toward IIIF / SIMS federation — <a href="https://handrit.is/collections" target="_blank" rel="noopener">handrit collections</a>.</p>
+          <div id="expansion-phases"></div>
+        </section>
+
+        <section class="catalog-section">
           <h3>Pipeline completion · GKS 2365 4to</h3>
           <div id="completion-snapshot" class="completion-grid"></div>
         </section>
@@ -194,13 +209,6 @@
         <section class="catalog-section">
           <h3>TEI manuscript description</h3>
           <div id="tei-catalog"></div>
-        </section>
-
-        <section class="catalog-section">
-          <h3>Corpus expansion timeline</h3>
-          <p class="catalog-intro">Phased ingest from handrit.is collections toward IIIF / SIMS federation — <a href="https://handrit.is/collections" target="_blank" rel="noopener">handrit collections</a>.</p>
-          <div id="expansion-chart" class="expansion-chart" role="img" aria-label="Manuscript dating and expansion phases"></div>
-          <div id="expansion-phases"></div>
         </section>
 
         <section class="catalog-section">

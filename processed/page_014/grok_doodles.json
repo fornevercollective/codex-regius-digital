@@ -1,0 +1,69 @@
+{
+  "page": 14,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "D01",
+      "region": "top edge",
+      "type": "damage",
+      "description": "Jagged, irregular top edge with substantial parchment loss and creasing; upper portions of the first text line are worn or partially lost, especially toward the right.",
+      "scholarly_note": "Typical outer-edge degradation seen throughout Codex Regius from repeated handling and historical rebinding."
+    },
+    {
+      "id": "S01",
+      "region": "upper left margin",
+      "type": "stain",
+      "description": "Prominent dark brown circular stain approximately 2 cm across with a lighter halo; located in the upper left margin and bleeding slightly into adjacent text."
+    },
+    {
+      "id": "S02",
+      "region": "left margin and gutter",
+      "type": "stain",
+      "description": "Broad, diffuse brownish water staining and foxing extending the full height of the left side, penetrating into the text block and causing localized ink diffusion and reduced legibility."
+    },
+    {
+      "id": "M01",
+      "region": "lower margin, below text block",
+      "type": "marginalia",
+      "description": "Later addition in a non-medieval hand: the phrase 'trúspa mál' written in a smaller, rounded cursive script centered in the lower margin.",
+      "scholarly_note": "Post-medieval annotation (likely 16th–18th century). Function unclear; possibly a title reference, personal note, or pen trial unrelated to the main Eddic text."
+    },
+    {
+      "id": "D02",
+      "region": "bottom right corner",
+      "type": "damage",
+      "description": "Severe fraying, tearing, and material loss at the bottom right corner; final lines of text are close to or compromised by the loss."
+    },
+    {
+      "id": "A01",
+      "region": "lower right quadrant",
+      "type": "scratch",
+      "description": "Multiple linear surface abrasions and scratches, predominantly vertical and diagonal, crossing several lines of text and lightening the parchment surface."
+    },
+    {
+      "id": "D03",
+      "region": "bottom edge",
+      "type": "damage",
+      "description": "Worn, irregular bottom edge with multiple small losses, heavy creasing, and rounded degradation; the entire lower margin shows advanced wear."
+    },
+    {
+      "id": "S03",
+      "region": "lower text block",
+      "type": "stain",
+      "description": "Patchy dark staining and smudging across the lower third of the text area, reducing ink contrast on several lines."
+    }
+  ],
+  "scratches": [
+    "Vertical and diagonal abrasions in lower right quadrant crossing multiple text lines",
+    "Fine surface scratches and fiber disruption within the heavily stained left margin"
+  ],
+  "damage_notes": [
+    "Major parchment loss and irregularity along top edge",
+    "Corner losses, especially bottom right",
+    "Generalized edge fraying and surface wear consistent with centuries of use",
+    "Creasing and distortion at the top of the leaf"
+  ],
+  "summary": "Folio 14 shows moderate to heavy physical degradation. Dominant features are extensive left-side water/foxing stains (including a distinct circular mark), frayed and lost edges (top, bottom right, and corners), and a single later marginal inscription 'trúspa mál' at the foot. Surface scratches and smudges affect the lower portion. No doodles, figurative marks, or clear contemporary corrections or pen trials identified. Main text block remains largely legible.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_014/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:12:13.981409+00:00"
+}

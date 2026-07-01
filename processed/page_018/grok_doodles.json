@@ -1,0 +1,97 @@
+{
+  "page": 18,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "marg-01",
+      "region": "upper right corner",
+      "type": "marginalia",
+      "description": "Large numeral '9' in dark ink.",
+      "scholarly_note": "Foliation or page number, likely added in the medieval or early modern period."
+    },
+    {
+      "id": "marg-02",
+      "region": "bottom margin, below final text line",
+      "type": "marginalia",
+      "description": "Large post-medieval inscription in darker, more cursive hand beginning with prominent 'Magnus' with long descending loops and flourishes, followed by 'Bonum' or similar; possible additional letters or name fragment to the left.",
+      "scholarly_note": "Ownership mark, pen exercise, or annotation in a later hand; elaborate calligraphic flourishes extend across much of the lower margin."
+    },
+    {
+      "id": "ann-01",
+      "region": "lower text block, lines ~23-26",
+      "type": "annotation",
+      "description": "Bright blue ink strokes crossing and marking the text, prominently over 'hljar', 'moku hofs', and the phrase 'e hljar moku hofs en mep e kosa'; includes a horizontal line through portions of the line.",
+      "scholarly_note": "Modern (likely 19th-20th century) scholarly annotation or attempted correction; blue ink is anachronistic for the medieval period."
+    },
+    {
+      "id": "dam-01",
+      "region": "top left corner and upper left edge",
+      "type": "damage",
+      "description": "Irregular parchment loss at the top-left corner; torn and uneven edge with missing material.",
+      "scholarly_note": "Typical cumulative edge damage from handling, binding, and age."
+    },
+    {
+      "id": "dam-02",
+      "region": "bottom edge, full width with emphasis on left and center",
+      "type": "damage",
+      "description": "Tattered, frayed bottom margin with multiple small tears, notches, and parchment losses.",
+      "scholarly_note": "Consistent with wear from use and storage without modern conservation."
+    },
+    {
+      "id": "dam-03",
+      "region": "text block and margins, especially lower half",
+      "type": "damage",
+      "description": "Multiple horizontal and diagonal creases causing cockling, surface distortion, and minor cracking of ink in folded areas.",
+      "scholarly_note": "Parchment has been folded or pressed; creases predate current housing."
+    },
+    {
+      "id": "stn-01",
+      "region": "right margin, right text block, and lower right quadrant",
+      "type": "stain",
+      "description": "Brownish water stains and foxing, some causing local ink bleeding and discoloration; prominent along the right edge and within the written area.",
+      "scholarly_note": "Classic moisture damage in a vellum manuscript."
+    },
+    {
+      "id": "stn-02",
+      "region": "left side, mid to lower page",
+      "type": "stain",
+      "description": "Dark, irregular blotch near the left margin, possibly from liquid or mold.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "scr-01",
+      "region": "parchment surface, center and lower areas",
+      "type": "scratch",
+      "description": "Fine linear abrasions and surface scratches disturbing the vellum nap; some cross text without fully obliterating letters.",
+      "scholarly_note": "Result of handling, rubbing, or storage contact."
+    },
+    {
+      "id": "corr-01",
+      "region": "main text block, lines ~14-17 and scattered elsewhere",
+      "type": "correction",
+      "description": "Minor scribal corrections visible as retraced letters, slight crowding, and adjustments within words in the original hand.",
+      "scholarly_note": "Typical in-place corrections by the main scribe of Codex Regius."
+    },
+    {
+      "id": "pt-01",
+      "region": "bottom margin, integrated with inscription",
+      "type": "pen_trial",
+      "description": "Extended decorative loops and testing strokes forming the flourishes of the large bottom inscription.",
+      "scholarly_note": "Likely served as both decoration and practical pen/ink trial."
+    }
+  ],
+  "scratches": [
+    "Fine surface abrasions across lower half and center, disturbing vellum nap.",
+    "Light linear scratches intersecting text in several places without major letter loss."
+  ],
+  "damage_notes": [
+    "Significant loss of top-left corner with irregular tear.",
+    "Frayed and notched bottom edge with multiple small losses.",
+    "Creasing and cockling throughout, especially lower half, with associated ink cracking.",
+    "Right edge irregularly trimmed or torn.",
+    "Overall parchment thinning and discoloration in damaged zones."
+  ],
+  "summary": "Folio shows characteristic 13th-century vellum wear: torn and tattered edges (especially top-left corner and bottom), creases, and multiple brown water/foxing stains causing some ink diffusion. Key non-original features are a large post-medieval flourished inscription 'Magnus ... Bonum' at the bottom and a conspicuous modern blue-ink annotation crossing the lower text block. Minor original scribal corrections present; no clear doodles. Text remains largely legible despite surface damage.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_018/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:18:21.957093+00:00"
+}

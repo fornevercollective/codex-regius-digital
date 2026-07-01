@@ -40,6 +40,7 @@
     eventFilter: "",
     activePreset: "grok_clean",
     mixValue: 100,
+    viewMode: "stack",
   };
 
   async function loadJSON(path) {
@@ -199,7 +200,8 @@
   function applyLayerVisibility() {
     $all(".layer-img").forEach((img) => {
       const id = img.dataset.layer;
-      const s = state.layerState[id];
+      const pane = img.closest(".layer-stack")?.dataset.pane;
+      const s = paneStateForStack(pane)[id];
       const avail = state.layerAvailability[id] !== false;
       const show = avail && s?.on;
       img.style.opacity = show ? (s.opacity ?? 1) : 0;
@@ -208,12 +210,25 @@
     drawHighlights();
   }
 
-  async function buildLayerStack() {
-    const dir = pageDir(state.page);
-    const stack = $("#layer-stack");
-    stack.innerHTML = "";
-    state.layerAvailability = {};
+  function paneStateForStack(pane) {
+    if (!pane || pane === "mix") return state.layerState;
+    if (pane === "raw") {
+      const s = defaultLayerState();
+      s.raw = { on: true, opacity: 1 };
+      return s;
+    }
+    return state.layerState;
+  }
 
+  function createLayerStackEl(paneId) {
+    const stack = document.createElement("div");
+    stack.className = "layer-stack";
+    if (paneId) stack.dataset.pane = paneId;
+    return stack;
+  }
+
+  async function populateLayerStack(stack, paneId) {
+    const dir = pageDir(state.page);
     await Promise.all(LAYERS.map((L) => new Promise((resolve) => {
       const img = document.createElement("img");
       img.className = "layer-img";
@@ -224,14 +239,109 @@
       img.src = `${dir}/${L.file}`;
       stack.appendChild(img);
     })));
+    applyLayerVisibilityForPane(stack, paneStateForStack(paneId));
+  }
 
+  function applyLayerVisibilityForPane(stack, layerState) {
+    stack.querySelectorAll(".layer-img").forEach((img) => {
+      const id = img.dataset.layer;
+      const s = layerState[id];
+      const avail = state.layerAvailability[id] !== false;
+      const show = avail && s?.on;
+      img.style.opacity = show ? (s.opacity ?? 1) : 0;
+      img.style.display = show ? "block" : "none";
+    });
+  }
+
+  function textPaneContent() {
+    if (state.transcription) return state.transcription;
+    return "No transcription yet — enable “Text transcription overlay” after ai_assessment.md is populated, or run assessment-pipeline.py on this page.";
+  }
+
+  function createTextPane() {
+    const pane = document.createElement("div");
+    pane.className = "view-pane";
+    pane.innerHTML = `<span class="view-pane-label">Text / code</span>`;
+    const body = document.createElement("div");
+    body.className = "text-pane" + (state.transcription ? "" : " text-pane-empty");
+    body.textContent = textPaneContent();
+    pane.appendChild(body);
+    return pane;
+  }
+
+  function createImagePane(label, paneId) {
+    const pane = document.createElement("div");
+    pane.className = "view-pane";
+    pane.innerHTML = `<span class="view-pane-label">${label}</span>`;
+    const stack = createLayerStackEl(paneId);
+    pane.appendChild(stack);
+    return { pane, stack };
+  }
+
+  async function buildLayerView() {
+    const dir = pageDir(state.page);
+    const viewer = $("#layer-viewer");
+    const body = $("#layer-viewer-body");
+    state.layerAvailability = {};
+
+    viewer.className = `layer-viewer view-${state.viewMode}`;
+
+    if (state.viewMode === "stack") {
+      body.innerHTML = `
+        <div class="layer-stack" id="layer-stack"></div>
+        <div id="text-overlay" class="text-overlay" hidden></div>
+        <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>`;
+      const stack = $("#layer-stack");
+      await Promise.all(LAYERS.map((L) => new Promise((resolve) => {
+        const img = document.createElement("img");
+        img.className = "layer-img";
+        img.dataset.layer = L.id;
+        img.alt = L.label;
+        img.onload = () => { state.layerAvailability[L.id] = true; resolve(true); };
+        img.onerror = () => { state.layerAvailability[L.id] = false; resolve(false); };
+        img.src = `${dir}/${L.file}`;
+        stack.appendChild(img);
+      })));
+      applyLayerVisibility();
+      renderTextOverlay();
+      resizeHighlightCanvas();
+      return;
+    }
+
+    body.innerHTML = "";
+    const stacks = [];
+
+    if (state.viewMode === "raw-mix") {
+      const raw = createImagePane("Raw scan", "raw");
+      const mix = createImagePane("Mix", "mix");
+      body.append(raw.pane, mix.pane);
+      stacks.push(raw.stack, mix.stack);
+    } else if (state.viewMode === "text-mix") {
+      const text = createTextPane();
+      const mix = createImagePane("Mix", "mix");
+      body.append(text, mix.pane);
+      stacks.push(mix.stack);
+    } else if (state.viewMode === "triple") {
+      const raw = createImagePane("Raw scan", "raw");
+      const mix = createImagePane("Mix", "mix");
+      const text = createTextPane();
+      body.append(raw.pane, mix.pane, text);
+      stacks.push(raw.stack, mix.stack);
+    }
+
+    await Promise.all(stacks.map((stack) => populateLayerStack(stack, stack.dataset.pane)));
     applyLayerVisibility();
-    resizeHighlightCanvas();
+  }
+
+  async function buildLayerStack() {
+    await buildLayerView();
   }
 
   function resizeHighlightCanvas() {
+    if (state.viewMode !== "stack") return;
     const stack = $("#layer-stack");
     const canvas = $("#highlight-canvas");
+    if (!stack || !canvas) return;
     const rect = stack.getBoundingClientRect();
     canvas.width = rect.width;
     canvas.height = rect.height;
@@ -239,7 +349,9 @@
   }
 
   function drawHighlights() {
+    if (state.viewMode !== "stack") return;
     const canvas = $("#highlight-canvas");
+    if (!canvas) return;
     const ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     const cb = $("#show-highlights");
@@ -274,9 +386,31 @@
 
   function renderTextOverlay() {
     const el = $("#text-overlay");
-    const show = $("#show-text-layer").checked && state.transcription;
-    el.hidden = !show;
-    el.textContent = show ? state.transcription : "";
+    if (el) {
+      const show = $("#show-text-layer").checked && state.transcription;
+      el.hidden = !show;
+      el.textContent = show ? state.transcription : "";
+    }
+    document.querySelectorAll(".text-pane").forEach((pane) => {
+      pane.textContent = textPaneContent();
+      pane.classList.toggle("text-pane-empty", !state.transcription);
+    });
+  }
+
+  function setupViewModeTabs() {
+    $all(".view-tab").forEach((tab) => {
+      tab.addEventListener("click", async () => {
+        const mode = tab.dataset.view;
+        if (mode === state.viewMode) return;
+        state.viewMode = mode;
+        $all(".view-tab").forEach((t) => {
+          const active = t.dataset.view === mode;
+          t.classList.toggle("active", active);
+          t.setAttribute("aria-selected", active ? "true" : "false");
+        });
+        await buildLayerView();
+      });
+    });
   }
 
   function renderDownloads() {
@@ -951,6 +1085,7 @@
     renderCatalog();
     await updatePageView();
     setupTabs();
+    setupViewModeTabs();
     setupMusicModes();
     handleHashNavigation(false);
 

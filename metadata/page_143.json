@@ -18,7 +18,8 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_clean_white.jpg",
-    "grok_doodles.json"
+    "grok_doodles.json",
+    "grok_artistic_vellum.jpg"
   ],
   "poem": "Hamðismál",
   "original_text": "",
@@ -31,13 +32,13 @@
   },
   "processed_at": "2026-06-29T01:19:39.717741+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:04:55.167832+00:00",
-  "qc_issue_count": 8,
+  "qc_at": "2026-07-01T23:16:24.352767+00:00",
+  "qc_issue_count": 7,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.140948+00:00",
   "poem_full": "Hamðismál",
   "poem_section": "st. 21 – prose conclusion",
   "poem_type": "heroic",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T04:37:41.134023+00:00"
+  "grok_enhanced_at": "2026-07-01T23:16:24.350958+00:00"
 }

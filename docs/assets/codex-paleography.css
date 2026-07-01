@@ -138,6 +138,28 @@ body {
 .btn:hover { filter: brightness(1.1); }
 .year-slider { width: 100%; margin: 1rem 0; }
 .preview-img { max-width: 100%; border-radius: 6px; border: 1px solid var(--accent); }
+.view-mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+.view-tab {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  color: var(--vellum);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.view-tab:hover,
+.view-tab.active {
+  background: var(--gold);
+  color: var(--ink);
+  border-color: var(--gold);
+}
 .layer-viewer {
   position: relative;
   width: 100%;
@@ -147,11 +169,77 @@ body {
   overflow: hidden;
   background: #0d0906;
 }
+.layer-viewer-body {
+  position: relative;
+  width: 100%;
+}
+.layer-viewer.view-raw-mix .layer-viewer-body,
+.layer-viewer.view-text-mix .layer-viewer-body,
+.layer-viewer.view-triple .layer-viewer-body {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--panel);
+}
+.layer-viewer.view-raw-mix .layer-viewer-body { grid-template-columns: 1fr 1fr; }
+.layer-viewer.view-text-mix .layer-viewer-body { grid-template-columns: 1fr 1fr; }
+.layer-viewer.view-triple .layer-viewer-body { grid-template-columns: 1fr 1fr 1fr; }
+@media (max-width: 900px) {
+  .layer-viewer.view-triple .layer-viewer-body { grid-template-columns: 1fr; }
+  .layer-viewer.view-raw-mix .layer-viewer-body,
+  .layer-viewer.view-text-mix .layer-viewer-body { grid-template-columns: 1fr; }
+}
+.view-pane {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: #0d0906;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.view-pane-label {
+  display: block;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  background: var(--bg);
+  border-bottom: 1px solid var(--accent);
+}
+.text-pane {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.75rem;
+  background: rgba(245, 232, 199, 0.92);
+  color: var(--ink);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-family: "Times New Roman", Georgia, serif;
+  min-height: 200px;
+  max-height: 72vh;
+}
+.text-pane code,
+.text-pane-empty {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
+  font-size: 0.68rem;
+}
+.text-pane-empty {
+  opacity: 0.65;
+  font-style: italic;
+}
 .layer-stack {
   position: relative;
   width: 100%;
   aspect-ratio: 2 / 3;
   max-height: 72vh;
+}
+.view-pane .layer-stack {
+  flex: 1;
+  max-height: none;
 }
 .layer-stack img.layer-img {
   position: absolute;

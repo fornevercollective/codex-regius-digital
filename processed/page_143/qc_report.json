@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:04:55.167832+00:00",
+  "timestamp": "2026-07-01T23:16:24.352767+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "'EK' → 'ek'"
-      ]
     }
   ],
   "image_metrics": {
@@ -82,6 +75,24 @@
       "enhanced_contrast": 100.79,
       "ssim_ok": true,
       "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.3429,
+      "raw_blur": 1954.39,
+      "enhanced_blur": 737.76,
+      "raw_contrast": 80.32,
+      "enhanced_contrast": 62.04,
+      "ssim_ok": false,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.3508,
+      "raw_blur": 1954.39,
+      "enhanced_blur": 906.71,
+      "raw_contrast": 80.32,
+      "enhanced_contrast": 53.1,
+      "ssim_ok": true,
+      "contrast_improved": false
     }
   },
   "ocr": {
@@ -91,12 +102,10 @@
     "error": null
   },
   "corrections": {
-    "raw_text_preview": "GE UR\nET PS æt al           |\ngS : #7 ex | |\nTS IG\nRM. VS          ee ee |\ntene tunomuna Gr\n. #15  EN A  Á   Å fe Å\n. ==     ag    |  és) OE.\n\neos of 4s\n\n=                        å    ve  %    å Å 3  ri\nIDE EK Å en\n|                             Á       FE BA   ae\n\nÁ             AN      va",
+    "raw_text_preview": "GE UR\nET PS æt al           |\ngS : #7 ex | |\nTS IG\nRM. VS          ee ee |\ntene tunomuna Gr\n. #15  EN A  Á   Å fe Å\n. ==     ag    |  és) OE.\n\neos of 4s\n\n=                        å    ve  %    å Å 3  ri\nIDE ek Å en\n|                             Á       FE BA   ae\n\nÁ             AN      va",
     "corrected_text_preview": "GE UR\nET PS æt al           |\ngS : #7 ex | |\nTS IG\nRM. VS          ee ee |\ntene tunomuna Gr\n. #15  EN A  Á   Å fe Å\n. ==     ag    |  és) OE.\n\neos of 4s\n\n=                        å    ve  %    å Å 3  ri\nIDE ek Å en\n|                             Á       FE BA   ae\n\nÁ             AN      va",
-    "issue_count": 8,
-    "applied_fixes": [
-      "'EK' → 'ek'"
-    ]
+    "issue_count": 7,
+    "applied_fixes": []
   },
   "issues": [
     {
@@ -161,15 +170,6 @@
       "etymology": null,
       "citation": null,
       "auto_fixable": false
-    },
-    {
-      "severity": "warning",
-      "code": "WORD_NORMALIZATION",
-      "message": "'EK' → 'ek'",
-      "suggestion": "ek",
-      "etymology": null,
-      "citation": "Neckel & Kuhn 1983",
-      "auto_fixable": true
     }
   ],
   "citations": [

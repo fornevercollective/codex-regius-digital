@@ -17,7 +17,8 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Lokasenna",
   "original_text": "",
@@ -25,9 +26,9 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:18.883071+00:00",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-06-29T01:58:38.307451+00:00",
+  "grok_enhanced_at": "2026-07-01T23:10:27.335057+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T02:59:28.569316+00:00",
+  "qc_at": "2026-07-01T23:10:27.336437+00:00",
   "qc_issue_count": 9,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.014015+00:00",

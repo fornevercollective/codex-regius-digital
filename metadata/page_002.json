@@ -17,7 +17,9 @@
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
     "scholarly_report.json",
-    "grok_doodles.json"
+    "grok_doodles.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Völuspá",
   "original_text": "",
@@ -30,11 +32,13 @@
   },
   "processed_at": "2026-06-29T01:19:13.725230+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T02:58:08.331230+00:00",
+  "qc_at": "2026-07-01T23:01:46.049515+00:00",
   "qc_issue_count": 0,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:41.983025+00:00",
   "poem_full": "Völuspá",
   "poem_section": "st. 15–31",
-  "poem_type": "mythological"
+  "poem_type": "mythological",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-07-01T23:01:46.043183+00:00"
 }

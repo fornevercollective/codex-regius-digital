@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "ok",
-  "timestamp": "2026-06-29T03:00:43.887756+00:00",
+  "timestamp": "2026-07-01T23:11:08.181010+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -55,13 +55,6 @@
       "step": "ocr",
       "status": "ok",
       "detail": "Tesseract extraction complete"
-    },
-    {
-      "step": "ocr_to_assessment",
-      "status": "ok",
-      "detail": [
-        "Inserted OCR text"
-      ]
     }
   ],
   "image_metrics": {
@@ -81,6 +74,15 @@
       "raw_contrast": 47.63,
       "enhanced_contrast": 88.31,
       "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.2919,
+      "raw_blur": 1799.96,
+      "enhanced_blur": 593.0,
+      "raw_contrast": 47.63,
+      "enhanced_contrast": 48.44,
+      "ssim_ok": false,
       "contrast_improved": true
     },
     "grok_clean_white": {

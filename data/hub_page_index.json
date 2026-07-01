@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-01T22:58:25.691325+00:00",
+  "generated_at": "2026-07-01T23:18:26.608803+00:00",
   "pages_total": 144,
   "counts": {
-    "blank": 12,
+    "blank": 0,
     "partial": 0,
-    "complete": 132
+    "complete": 144
   },
   "highlights_ready": false,
   "pages": [
     {
       "page": 1,
-      "status": "blank",
+      "status": "complete",
       "poem": "Völuspá",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -21,35 +21,35 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 2,
-      "status": "blank",
+      "status": "complete",
       "poem": "Völuspá",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 3,
-      "status": "blank",
+      "status": "complete",
       "poem": "Völuspá",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -57,17 +57,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 4,
-      "status": "blank",
+      "status": "complete",
       "poem": "Völuspá",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -75,17 +75,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 5,
-      "status": "blank",
+      "status": "complete",
       "poem": "Völuspá",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -94,16 +94,16 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 6,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hávamál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -111,17 +111,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 7,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hávamál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -129,44 +129,44 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 8,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hávamál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 9,
-      "status": "blank",
+      "status": "complete",
       "poem": "Hávamál",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -195,7 +195,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -213,7 +213,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -231,7 +231,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -249,7 +249,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -267,7 +267,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -303,7 +303,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -321,7 +321,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -544,7 +544,7 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": true,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -939,7 +939,7 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
+        "grok_artistic_vellum": true,
         "grok_clean_white": true,
         "ai_assessment": true
       }
@@ -1425,7 +1425,7 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
+        "grok_artistic_vellum": true,
         "grok_clean_white": true,
         "ai_assessment": true
       }
@@ -1972,10 +1972,10 @@
     },
     {
       "page": 110,
-      "status": "blank",
+      "status": "complete",
       "poem": "Guðrúnarkviða II",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1983,17 +1983,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 111,
-      "status": "blank",
+      "status": "complete",
       "poem": "Guðrúnarkviða II",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -2001,17 +2001,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 112,
-      "status": "blank",
+      "status": "complete",
       "poem": "Guðrúnarkviða II",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -2019,8 +2019,8 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -2271,7 +2271,7 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
+        "grok_artistic_vellum": true,
         "grok_clean_white": true,
         "ai_assessment": true
       }
@@ -2344,7 +2344,7 @@
         "artistic_vellum": true,
         "clean_white": true,
         "grok_artistic_vellum": true,
-        "grok_clean_white": false,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -2577,7 +2577,7 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
+        "grok_artistic_vellum": true,
         "grok_clean_white": true,
         "ai_assessment": true
       }

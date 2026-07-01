@@ -1,0 +1,44 @@
+{
+  "page": 8,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "dmg-01",
+      "region": "bottom left corner",
+      "type": "damage",
+      "description": "Minor abrasion and paper fiber protrusion at the extreme bottom-left corner, with slight material loss.",
+      "scholarly_note": "Typical mechanical edge wear in a frequently handled quarto codex."
+    },
+    {
+      "id": "bnd-01",
+      "region": "left gutter / inner margin",
+      "type": "damage",
+      "description": "Series of small dark punctures and localized darkening along the binding margin, consistent with sewing stations or binding thread marks.",
+      "scholarly_note": "Standard feature of medieval codex construction; no active structural damage."
+    },
+    {
+      "id": "stn-01",
+      "region": "upper left quadrant",
+      "type": "stain",
+      "description": "Isolated pinpoint dark speck (approx. 0.5–1 mm), possibly flyspeck or incidental pigment.",
+      "scholarly_note": "Non-deliberate; common in paper/parchment manuscripts of this period."
+    },
+    {
+      "id": "stn-02",
+      "region": "mid-left, lower half",
+      "type": "stain",
+      "description": "Very faint low-contrast circular mark, barely visible against the paper.",
+      "scholarly_note": "Incidental dirt or paper inclusion; not ink."
+    }
+  ],
+  "scratches": [
+    "Faint vertical linear impression running parallel to the left edge, approximately 3–4 cm from the gutter; likely a paper crease or manufacturing impression rather than a deliberate scratch."
+  ],
+  "damage_notes": [
+    "Bottom-left corner exhibits minor fraying with exposed paper fibers.",
+    "Left inner margin shows typical binding-related punctures and localized discoloration."
+  ],
+  "summary": "Page 8 of Codex Regius is exceptionally clean with no visible marginalia, doodles, pen trials, scribal corrections, or deliberate marks. The only features are minor binding-related damage in the gutter, two tiny incidental specks, and slight corner abrasion at the bottom left. The writing surface itself appears blank in this image.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_008/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:02:07.702909+00:00"
+}

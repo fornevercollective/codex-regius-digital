@@ -1,0 +1,84 @@
+{
+  "page": 11,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "init1",
+      "region": "left margin, upper-middle (approx. 20-25% down)",
+      "type": "marginalia",
+      "description": "Large, flourished thorn (þ) with looped ascender and calligraphic form extending into the text column as a decorated initial.",
+      "scholarly_note": "Standard sententia or capitulum marker in 13th-c. Icelandic manuscripts; indicates start of new textual unit."
+    },
+    {
+      "id": "init2",
+      "region": "left margin, middle (approx. 45% down)",
+      "type": "marginalia",
+      "description": "Second large thorn (þ) initial marking a subsequent section or stanza.",
+      "scholarly_note": "Functional text-structuring device; consistent with the manuscript's ordinary practice."
+    },
+    {
+      "id": "init3",
+      "region": "bottom-left, final text block",
+      "type": "marginalia",
+      "description": "Large capital G (or Q-like form) with elongated curved descender and flourishes beginning the final visible paragraph.",
+      "scholarly_note": "Marks a new narrative or stanza division; the form is more elaborate than the thorns above."
+    },
+    {
+      "id": "top1",
+      "region": "top edge and top-left corner",
+      "type": "damage",
+      "description": "Irregular tear with substantial parchment loss; upper portions of the first two lines and the extreme top-left corner are missing or illegible.",
+      "scholarly_note": "Typical edge damage from handling and previous bindings; partial letters ('mæ' or similar) survive above the main block."
+    },
+    {
+      "id": "stain1",
+      "region": "upper-left quadrant and top margin",
+      "type": "stain",
+      "description": "Dark brown-black irregular stain, possibly ink bleed combined with moisture, darkening parchment and slightly affecting the opening lines.",
+      "scholarly_note": "Common in vellum codices; does not appear to be modern."
+    },
+    {
+      "id": "stain2",
+      "region": "lower-right quadrant, bottom margin, and right edge",
+      "type": "stain",
+      "description": "Extensive mottled brownish discoloration with surface darkening; ink in affected lines appears slightly faded or bled.",
+      "scholarly_note": "Consistent with water or binding-related staining; heaviest concentration at bottom-right corner."
+    },
+    {
+      "id": "abrade1",
+      "region": "lower third of page, center to right",
+      "type": "scratch",
+      "description": "Broad zone of surface abrasion and raised parchment nap; multiple words show ink loss or blurring from rubbing.",
+      "scholarly_note": "Mechanical wear, possibly from dry fingers or contact with other leaves; no clear deliberate erasure."
+    },
+    {
+      "id": "edge2",
+      "region": "bottom edge and bottom-right corner",
+      "type": "damage",
+      "description": "Ragged, worn edge with corner loss and heavy discoloration; parchment is thin and translucent here.",
+      "scholarly_note": "Cumulative handling damage; text at foot remains mostly legible but compromised."
+    },
+    {
+      "id": "trim1",
+      "region": "extreme top margin / head of page",
+      "type": "damage",
+      "description": "Trimmed or misaligned head; faint partial letters visible above the ruled text block.",
+      "scholarly_note": "Evidence of later rebinding or edge trimming of the codex."
+    }
+  ],
+  "scratches": [
+    "Fine horizontal and diagonal abrasions across lower text block (approx. lines 12-20), causing localized ink flaking.",
+    "Narrow vertical scratch-like abrasion near right margin, mid-lower page, affecting two or three letters.",
+    "Diffuse micro-abrasions creating a mottled, lighter surface tone in the bottom-right quadrant."
+  ],
+  "damage_notes": [
+    "Significant material loss along entire top edge and especially top-left corner.",
+    "Worn, darkened, and thinned bottom-right corner and fore-edge.",
+    "General surface grime, foxing, and age-related discoloration across recto.",
+    "Parchment thin and translucent in heavily handled zones; no active biological damage (mold, insects) clearly visible.",
+    "No modern repairs, patches, or conservation interventions observed on this image."
+  ],
+  "summary": "Page 11 of Codex Regius shows moderate-to-heavy use-wear typical of a consulted 13th-century Icelandic manuscript. Three functional marginal initials (two thorns, one large G) structure the text. Dominant damage consists of top-edge tearing with text loss, moisture stains (upper-left and lower-right), and abrasion in the lower third. No doodles, pen trials, or unambiguous scribal corrections are visible. The main text body remains substantially legible despite the physical degradation.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_011/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:05:13.874475+00:00"
+}

@@ -3,7 +3,7 @@
   "manuscript": "GKS 2365 4to",
   "handrit_url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
   "status": "needs_review",
-  "timestamp": "2026-06-29T03:02:11.307353+00:00",
+  "timestamp": "2026-07-01T23:03:03.931261+00:00",
   "pipeline_steps": [
     {
       "step": "preprocess",
@@ -73,6 +73,24 @@
       "enhanced_blur": 151.98,
       "raw_contrast": 36.38,
       "enhanced_contrast": 51.98,
+      "ssim_ok": true,
+      "contrast_improved": true
+    },
+    "grok_artistic_vellum": {
+      "ssim": 0.6709,
+      "raw_blur": 133.17,
+      "enhanced_blur": 99.38,
+      "raw_contrast": 36.38,
+      "enhanced_contrast": 30.42,
+      "ssim_ok": true,
+      "contrast_improved": false
+    },
+    "grok_clean_white": {
+      "ssim": 0.6138,
+      "raw_blur": 133.17,
+      "enhanced_blur": 1444.21,
+      "raw_contrast": 36.38,
+      "enhanced_contrast": 59.81,
       "ssim_ok": true,
       "contrast_improved": true
     }

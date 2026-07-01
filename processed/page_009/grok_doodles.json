@@ -1,0 +1,83 @@
+{
+  "page": 9,
+  "confidence": "low",
+  "items": [
+    {
+      "id": "scratch-01",
+      "region": "entire page surface",
+      "type": "scratch",
+      "description": "Dense network of fine hairline cracks and surface scratches running predominantly horizontally with some diagonal and curved instances across the full height and width.",
+      "scholarly_note": "Consistent with age-related creasing, flexing, and light abrasion; dry-point ruling cannot be confirmed due to imaging."
+    },
+    {
+      "id": "scratch-02",
+      "region": "lower third, center to right",
+      "type": "scratch",
+      "description": "Longer, slightly wavy horizontal and diagonal abrasion lines visible against the paper texture.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "stain-01",
+      "region": "lower left quadrant extending to bottom edge",
+      "type": "stain",
+      "description": "Large, diffuse gray-brown mottled stain with irregular edges and lighter halo.",
+      "scholarly_note": "Suggests water damage, handling oils, or localized foxing; common in outer quires."
+    },
+    {
+      "id": "stain-02",
+      "region": "top left corner and upper margin",
+      "type": "stain",
+      "description": "Faint, broad gray smudge approximately 4–5 cm across with soft boundaries.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "damage-01",
+      "region": "right edge (fore-edge)",
+      "type": "edge damage",
+      "description": "Irregular, frayed right margin with fibrous loss, remnants of adhesive or thread, and stepped tearing; vertical strip of abrasion 0.5–1 cm wide.",
+      "scholarly_note": "Indicates original or subsequent binding wear; right edge is the fore-edge in this orientation."
+    },
+    {
+      "id": "damage-02",
+      "region": "top right corner",
+      "type": "damage",
+      "description": "Rounded loss of material at the upper right corner; corner is missing approximately 1 cm of paper.",
+      "scholarly_note": "Typical corner wear from use and shelving."
+    },
+    {
+      "id": "damage-03",
+      "region": "bottom edge",
+      "type": "edge damage",
+      "description": "Slightly irregular and darkened bottom edge with minor fiber loss and discoloration.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "speck-01",
+      "region": "scattered, especially mid-right and lower center",
+      "type": "speck",
+      "description": "Multiple tiny dark spots and flecks, some possibly penetrating the leaf.",
+      "scholarly_note": "Flyspeck, pigment flecks or minor insect damage."
+    },
+    {
+      "id": "crease-01",
+      "region": "right side, parallel to edge ~2 cm inset",
+      "type": "fold",
+      "description": "Faint vertical linear depression or crease running most of the page length.",
+      "scholarly_note": "Possibly from binding pressure or a former guard; not clearly a ruled line."
+    }
+  ],
+  "scratches": [
+    "Extensive fine hairline cracks across entire surface in multiple orientations.",
+    "Longer curved and diagonal abrasion lines in lower half.",
+    "Localized surface scoring near bottom margin."
+  ],
+  "damage_notes": [
+    "Right fore-edge heavily abraded with binding residue and irregular fibrous loss.",
+    "Material loss at top right corner.",
+    "Bottom edge worn and discolored.",
+    "General planar distortion and surface cracking throughout."
+  ],
+  "summary": "Folio 9 shows no legible text, marginalia, doodles, pen trials or scribal corrections in the provided image. The leaf is dominated by extensive fine surface cracking, diffuse staining (strongest lower left), and pronounced edge wear along the right side with corner loss. Imaging is very pale, limiting detection of faint ink or dry-point features.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_009/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:03:57.306026+00:00"
+}

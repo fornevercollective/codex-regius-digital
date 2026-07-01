@@ -17,7 +17,8 @@
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
     "scholarly_report.json",
-    "grok_doodles.json"
+    "grok_doodles.json",
+    "grok_clean_white.jpg"
   ],
   "poem": "Völuspá",
   "original_text": "",
@@ -36,5 +37,7 @@
   "scholarly_assessment_at": "2026-06-29T03:22:41.986082+00:00",
   "poem_full": "Völuspá / Hávamál",
   "poem_section": "Völ. 61 – Háv. 15",
-  "poem_type": "mythological"
+  "poem_type": "mythological",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-07-01T23:05:02.856440+00:00"
 }

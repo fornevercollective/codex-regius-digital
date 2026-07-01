@@ -1,0 +1,74 @@
+{
+  "page": 15,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "1",
+      "region": "right margin",
+      "type": "marginalia",
+      "description": "Arabic numerals 5, 10, 15, 20, 25, 30 written in the right margin, aligned to text lines. Modern hand distinct from the main insular/Gothic bookhand.",
+      "scholarly_note": "Later editorial line numbering; not original to the 13th-century codex."
+    },
+    {
+      "id": "2",
+      "region": "top left corner",
+      "type": "marginalia",
+      "description": "Small dark mark resembling the numeral '6' positioned above the first line of text.",
+      "scholarly_note": "Possibly modern foliation, quire mark, or annotation; requires comparison with other folios."
+    },
+    {
+      "id": "3",
+      "region": "middle right, approx. lines 8-12",
+      "type": "stain",
+      "description": "Dark brown irregular stain on parchment, extending slightly into the right edge of the text column.",
+      "scholarly_note": "Consistent with moisture damage, handling, or age-related discoloration."
+    },
+    {
+      "id": "4",
+      "region": "lower half of page, lines 18-30 and below text block",
+      "type": "stain",
+      "description": "Broad brownish discoloration and diffuse staining across the lower portion of the folio.",
+      "scholarly_note": "Typical foxing and oxidation of medieval vellum."
+    },
+    {
+      "id": "5",
+      "region": "lower third, lines ~22-30",
+      "type": "scratch",
+      "description": "Multiple white linear scratches and surface abrasions running horizontally and diagonally across several lines of text, with localized ink and surface loss.",
+      "scholarly_note": "Mechanical wear from rubbing or scraping."
+    },
+    {
+      "id": "6",
+      "region": "bottom third and bottom right corner",
+      "type": "damage",
+      "description": "Severe abrasion with large pale/white patches where parchment surface and ink have been worn away. Bottom right corner is frayed with irregular edge and material loss.",
+      "scholarly_note": "Heavy use or environmental damage; text in this zone is faded but partially legible."
+    },
+    {
+      "id": "7",
+      "region": "top edge of leaf",
+      "type": "damage",
+      "description": "Irregular, possibly trimmed or torn top edge with minor parchment loss at the upper right of the written area.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "8",
+      "region": "scattered across page, especially right and lower areas",
+      "type": "stain",
+      "description": "Small dark spots and general yellow-brown age discoloration of the vellum.",
+      "scholarly_note": "Possible flyspecks, mold residue, or oxidation; common in this manuscript."
+    }
+  ],
+  "scratches": [
+    "Multiple horizontal white abrasions crossing lines ~23-29 in lower text block",
+    "Fine diagonal and linear scratches with ink loss in bottom right text area"
+  ],
+  "damage_notes": [
+    "Extensive surface abrasion and material loss in lower third, worst at bottom right corner",
+    "Irregular top edge with minor parchment loss",
+    "Overall vellum thinning, edge fraying, and localized ink fading from wear"
+  ],
+  "summary": "Page 15 shows a single column of medieval script with no original marginalia, doodles, pen trials, or visible scribal corrections. Modern line numbers occupy the right margin. Primary features are physical damage: heavy abrasion and white scratches in the lower third, multiple brown stains, and edge wear at top and bottom. Text remains mostly legible despite wear.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_015/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:15:01.007205+00:00"
+}

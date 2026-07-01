@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Hávamál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 8,
+    "confidence": "medium",
+    "surveyed_at": "2026-07-01T23:12:13.981409+00:00"
+  },
   "processed_at": "2026-06-29T01:19:15.765999+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T01:30:32.478024+00:00",

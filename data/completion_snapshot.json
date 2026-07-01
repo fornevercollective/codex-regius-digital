@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:58:25.609758+00:00",
+  "generated_at": "2026-07-01T23:18:26.509687+00:00",
   "manuscript": "GKS 2365 4to",
   "pages_total": 144,
   "summary": {
@@ -20,57 +20,18 @@
       "missing": []
     },
     "grok_clean_white.jpg": {
-      "count": 131,
-      "missing": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        30,
-        110,
-        111,
-        130
-      ]
+      "count": 144,
+      "missing": []
     },
     "grok_artistic_vellum.jpg": {
-      "count": 128,
+      "count": 143,
       "missing": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        52,
-        79,
-        110,
-        111,
-        112,
-        126,
-        143
+        5
       ]
     },
     "grok_doodles.json": {
-      "count": 58,
+      "count": 68,
       "missing": [
-        2,
-        8,
-        9,
-        11,
-        12,
-        13,
-        14,
-        15,
-        17,
-        18,
         19,
         20,
         22,
@@ -165,8 +126,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "needs_review"
@@ -177,9 +138,9 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
-      "grok_doodles.json": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -189,8 +150,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "needs_review"
@@ -201,8 +162,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -213,7 +174,7 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
+      "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": false,
       "grok_doodles.json": true,
       "glyph_index.json": true,
@@ -225,8 +186,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -237,8 +198,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -249,9 +210,9 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
-      "grok_doodles.json": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -261,9 +222,9 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
-      "grok_doodles.json": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -287,7 +248,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -299,7 +260,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -311,7 +272,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -323,7 +284,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -335,7 +296,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -359,7 +320,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -371,7 +332,7 @@
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
-      "grok_doodles.json": false,
+      "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
     },
@@ -513,7 +474,7 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
+      "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": false,
       "glyph_index.json": true,
@@ -778,7 +739,7 @@
       "ai_assessment.md": true,
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
-      "grok_artistic_vellum.jpg": false,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -1102,7 +1063,7 @@
       "ai_assessment.md": true,
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
-      "grok_artistic_vellum.jpg": false,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": false,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -1473,8 +1434,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": false,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -1485,8 +1446,8 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
-      "grok_artistic_vellum.jpg": false,
+      "grok_clean_white.jpg": true,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -1498,7 +1459,7 @@
       "ai_assessment.md": true,
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
-      "grok_artistic_vellum.jpg": false,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"
@@ -1666,7 +1627,7 @@
       "ai_assessment.md": true,
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
-      "grok_artistic_vellum.jpg": false,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": false,
       "glyph_index.json": true,
       "qc_status": "needs_review"
@@ -1713,7 +1674,7 @@
       "qc_report.json": true,
       "ai_assessment.md": true,
       "scholarly_report.json": true,
-      "grok_clean_white.jpg": false,
+      "grok_clean_white.jpg": true,
       "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
@@ -1870,7 +1831,7 @@
       "ai_assessment.md": true,
       "scholarly_report.json": true,
       "grok_clean_white.jpg": true,
-      "grok_artistic_vellum.jpg": false,
+      "grok_artistic_vellum.jpg": true,
       "grok_doodles.json": true,
       "glyph_index.json": true,
       "qc_status": "ok"

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-07-01T12:00:00+00:00",
+  "corpus": "GKS 2365 4to",
+  "pages": {
+    "10": {
+      "poem": "Hávamál",
+      "stanza_range": "88–104",
+      "opening": {
+        "old_norse": [
+          {"text": "Sva segja fornir menn", "gloss": "Sva (adv.) → so; segja (v.) → to say; fornir (adj.) → ancient; menn (n.) → men"},
+          {"text": "at landit vas fundit", "gloss": "at (conj.) → that; landit (n.) → the land; vas (v.) → was; fundit (v.) → found"},
+          {"text": "lyrir nordan", "gloss": "lyrir (prep.) → before/in; nordan (adv.) → the north"}
+        ],
+        "english": [
+          "So say ancient men",
+          "that the land was found",
+          "in the north"
+        ]
+      },
+      "modes": {
+        "gregorian": {
+          "label": "Gregorian square notation",
+          "clef": "C4",
+          "staff_lines": 4,
+          "neumes": [
+            {"syllable": "Sva", "shape": "punctum", "line": 2, "x": 0.08},
+            {"syllable": "seg", "shape": "clivis", "line": 2, "x": 0.18},
+            {"syllable": "ja", "shape": "punctum", "line": 1, "x": 0.28},
+            {"syllable": "for", "shape": "torculus", "line": 2, "x": 0.38},
+            {"syllable": "nir", "shape": "punctum", "line": 3, "x": 0.48},
+            {"syllable": "menn", "shape": "podatus", "line": 2, "x": 0.58},
+            {"syllable": "at", "shape": "punctum", "line": 1, "x": 0.68},
+            {"syllable": "lan", "shape": "clivis", "line": 2, "x": 0.76},
+            {"syllable": "dit", "shape": "punctum", "line": 3, "x": 0.86}
+          ],
+          "note": "Chant formula mapped to eddic long-line metre — ecclesiastical reception lens, not historical performance claim."
+        },
+        "galder": {
+          "label": "Galdr / galdralag chant",
+          "clef": "none",
+          "staff_lines": 4,
+          "neumes": [
+            {"syllable": "Sva", "shape": "long", "line": 2, "x": 0.1},
+            {"syllable": "seg", "shape": "rise", "line": 2, "x": 0.22},
+            {"syllable": "ja", "shape": "fall", "line": 1, "x": 0.34},
+            {"syllable": "for", "shape": "long", "line": 2, "x": 0.46},
+            {"syllable": "nir", "shape": "rise", "line": 3, "x": 0.58},
+            {"syllable": "menn", "shape": "cadence", "line": 2, "x": 0.7},
+            {"syllable": "—", "shape": "rest", "line": 2, "x": 0.78},
+            {"syllable": "at", "shape": "long", "line": 1, "x": 0.84}
+          ],
+          "note": "Oral eddic recitation pattern — stress-timed long syllables with caesura before second half-stanza."
+        },
+        "historical": {
+          "label": "Historical neumes (Icelandic context)",
+          "clef": "F4",
+          "staff_lines": 4,
+          "neumes": [
+            {"syllable": "Sva", "shape": "quilisma", "line": 2, "x": 0.08},
+            {"syllable": "seg", "shape": "porrectus", "line": 2, "x": 0.2},
+            {"syllable": "ja", "shape": "punctum", "line": 1, "x": 0.32},
+            {"syllable": "for", "shape": "scandicus", "line": 2, "x": 0.44},
+            {"syllable": "nir", "shape": "clivis", "line": 3, "x": 0.56},
+            {"syllable": "menn", "shape": "pressus", "line": 2, "x": 0.68},
+            {"syllable": "at", "shape": "punctum", "line": 1, "x": 0.8},
+            {"syllable": "lan", "shape": "torculus", "line": 2, "x": 0.88}
+          ],
+          "note": "13th-c. scribal hearing — neumatic shapes as mnemonic for metre while copying, not surviving Icelandic notation."
+        },
+        "modern": {
+          "label": "Modern reconstruction",
+          "clef": "G2",
+          "staff_lines": 5,
+          "neumes": [
+            {"syllable": "Sva", "shape": "quarter", "line": 3, "x": 0.1},
+            {"syllable": "seg", "shape": "eighth", "line": 3, "x": 0.22},
+            {"syllable": "ja", "shape": "quarter", "line": 2, "x": 0.34},
+            {"syllable": "for", "shape": "half", "line": 3, "x": 0.46},
+            {"syllable": "nir", "shape": "quarter", "line": 4, "x": 0.58},
+            {"syllable": "menn", "shape": "half", "line": 3, "x": 0.7},
+            {"syllable": "at", "shape": "quarter", "line": 2, "x": 0.82},
+            {"syllable": "lan", "shape": "eighth", "line": 3, "x": 0.9}
+          ],
+          "note": "Contemporary scholarly performance — pairs with read-along and liturgy comparison data."
+        }
+      }
+    }
+  }
+}

@@ -41,6 +41,11 @@ CITATIONS = {
         "full": "Wang, Zhou, et al. (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*.",
         "url": "https://doi.org/10.1109/TIP.2003.819861",
     },
+    "calatroni_inpaint": {
+        "short": "Calatroni et al. 2018",
+        "full": "Calatroni, L. et al. Unveiling the invisible: mathematical methods for restoring and interpreting illuminated manuscripts. *Heritage Science* 6:56.",
+        "url": "https://doi.org/10.1186/s40494-018-0216-z",
+    },
 }
 
 

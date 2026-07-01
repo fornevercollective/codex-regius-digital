@@ -18,12 +18,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Harbarðsljóð",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 10,
+    "confidence": "medium",
+    "surveyed_at": "2026-07-01T23:25:14.016187+00:00"
+  },
   "processed_at": "2026-06-29T01:19:17.730731+00:00",
   "grok_enhanced": true,
   "grok_enhanced_at": "2026-06-29T01:50:00.295654+00:00",

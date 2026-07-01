@@ -659,3 +659,63 @@ th { background: var(--bg); color: var(--gold); }
 .tei-block { font-size: 0.85rem; line-height: 1.55; }
 .tei-block dt { color: var(--gold); font-size: 0.72rem; text-transform: uppercase; margin-top: 0.6rem; }
 .tei-block dd { margin: 0.15rem 0 0 0; }
+
+/* Scribe backstory */
+.scribe-backstory {
+  margin: 0 0 1.25rem;
+  padding: 1rem;
+  background: var(--bg);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 6px 6px 0;
+}
+.scribe-backstory h4 { margin: 0 0 0.5rem; color: var(--gold); }
+.timeline-item.milestone { border-left-color: var(--gold); }
+
+/* Chant notation */
+.chant-staff-panel {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f5e8c7;
+  border-radius: 6px;
+  color: var(--ink);
+}
+.chant-svg { width: 100%; max-width: 560px; display: block; margin: 0 auto; }
+.chant-mode-note { font-size: 0.78rem; margin: 0.5rem 0 0; color: var(--ink); opacity: 0.85; }
+.chant-lyrics-panel { margin-top: 1rem; }
+.chant-lyrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  font-size: 0.88rem;
+}
+@media (max-width: 700px) { .chant-lyrics-grid { grid-template-columns: 1fr; } }
+.chant-lyrics-grid h4 { margin: 0 0 0.5rem; color: var(--gold); font-size: 0.9rem; }
+
+/* Restoration compare */
+.restoration-compare {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+.restore-panel {
+  margin: 0;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.restore-panel figcaption {
+  font-size: 0.68rem;
+  padding: 0.35rem 0.5rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.restore-panel img {
+  width: 100%;
+  display: block;
+  min-height: 100px;
+  object-fit: cover;
+  background: #0d0a07;
+}
+.restore-panel img.missing-img { opacity: 0.35; }

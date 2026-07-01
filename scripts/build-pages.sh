@@ -57,7 +57,12 @@ if [[ -d "${ROOT}/processed" ]]; then
       base="$(basename "${item}")"
       case "${base}" in
         raw.png) continue ;;
-        _grok_vision_*|qc_previews|glyphs) continue ;;
+        _grok_vision_*|qc_previews) continue ;;
+        glyphs)
+          mkdir -p "${out}/glyphs"
+          cp -r "${item}/." "${out}/glyphs/"
+          continue
+          ;;
         grok_variations)
           mkdir -p "${out}/grok_variations"
           cp -r "${item}/." "${out}/grok_variations/"

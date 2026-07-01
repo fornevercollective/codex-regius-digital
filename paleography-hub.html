@@ -142,9 +142,12 @@
         <span class="section-label">Writer timeline</span>
         <h2>Scribe Timeline Descriptor</h2>
         <p>Forbes-style life context — slide year to see copying phase, provenance, and cross-manuscript hand comparisons.</p>
+        <div id="scribe-backstory" class="scribe-backstory"></div>
         <label>Year <span id="year-value">1270</span></label>
         <input type="range" id="year-slider" class="year-slider" min="1220" max="2026" value="1270" step="5" />
         <div id="scribe-timeline" class="timeline"></div>
+        <h3>Cross-manuscript hands</h3>
+        <div id="scribe-crossrefs"></div>
       </div>
 
       <div id="tab-liturgy" class="tabpanel" role="tabpanel">
@@ -160,6 +163,8 @@
             <button type="button" class="music-mode-btn" data-mode="modern">🌟 Modern</button>
           </div>
           <p id="music-mode-note" class="music-mode-note">Choose a mode to see how this page’s poem relates to performance tradition.</p>
+          <div id="chant-staff" class="chant-staff-panel" aria-label="Chant notation staff"></div>
+          <div id="chant-lyrics" class="chant-lyrics-panel"></div>
         </section>
         <div id="liturgy-body"></div>
       </div>
@@ -198,6 +203,12 @@
         <section class="catalog-section">
           <h3>Pipeline completion · GKS 2365 4to</h3>
           <div id="completion-snapshot" class="completion-grid"></div>
+        </section>
+
+        <section class="catalog-section">
+          <h3>Virtual restoration · Parisotto / Calatroni inpainting</h3>
+          <p class="catalog-intro">Damage masks seeded from <code>grok_doodles.json</code> regions → OpenCV inpainting (<a href="https://doi.org/10.1186/s40494-018-0216-z" target="_blank" rel="noopener">Heritage Science 2018</a>). Complements — does not replace — Grok enhancement layers.</p>
+          <div id="restoration-compare" class="restoration-compare"></div>
         </section>
 
         <section class="catalog-section">

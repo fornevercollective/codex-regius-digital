@@ -80,6 +80,7 @@
     "qc-pipeline.py",
     "assessment-pipeline.py",
     "build_viscoll_collation.py",
-    "build_completion_snapshot.py"
+    "build_completion_snapshot.py",
+    "manuscript_inpaint.py"
   ]
 }

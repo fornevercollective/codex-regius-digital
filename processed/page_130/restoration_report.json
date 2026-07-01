@@ -1,0 +1,8 @@
+{
+  "page": 130,
+  "method": "opencv_telea",
+  "reference": "10.1186/s40494-018-0216-z",
+  "source": "grok_clean_white.jpg",
+  "mask_pixels": 89876,
+  "generated_at": "2026-07-01T23:25:33.434521+00:00"
+}

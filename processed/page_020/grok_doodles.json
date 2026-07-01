@@ -1,0 +1,85 @@
+{
+  "page": 20,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "m1",
+      "region": "right margin, mid-page lines 14-18",
+      "type": "marginalia",
+      "description": "Vertical inscription 'urdur' (or 'urdir') written downwards in the outer margin beside the large initial.",
+      "scholarly_note": "Possibly a pen trial, catchword fragment, or stray annotation; orientation and placement suggest it is not part of the main text flow."
+    },
+    {
+      "id": "f1",
+      "region": "top right corner",
+      "type": "marginalia",
+      "description": "Arabic numeral '11' written in the upper right corner.",
+      "scholarly_note": "Modern foliation or pagination mark added post-medievally."
+    },
+    {
+      "id": "pt1",
+      "region": "right margin, near line 12",
+      "type": "pen trial",
+      "description": "Small cross (+) mark placed in the outer margin.",
+      "scholarly_note": "Likely a pen trial or simple reference mark."
+    },
+    {
+      "id": "st1",
+      "region": "lower half, center to right",
+      "type": "stain",
+      "description": "Large irregular dark brown stain covering much of the lower text block and margin.",
+      "scholarly_note": "Consistent with water or dirt damage; significantly darkens parchment and reduces local legibility."
+    },
+    {
+      "id": "st2",
+      "region": "lower left quadrant and scattered across lower third",
+      "type": "stain",
+      "description": "Multiple smaller brown stains, blotches, and foxing spots.",
+      "scholarly_note": "Typical age-related discoloration on vellum/parchment."
+    },
+    {
+      "id": "d1",
+      "region": "bottom right corner",
+      "type": "damage",
+      "description": "Large irregular loss where the corner has been torn away, truncating the ends of the final lines of text.",
+      "scholarly_note": "Text on the last 3–4 lines is incomplete due to the loss."
+    },
+    {
+      "id": "d2",
+      "region": "bottom edge across entire width",
+      "type": "damage",
+      "description": "Heavily worn, ragged, and frayed lower margin with multiple small tears, losses, and abrasion.",
+      "scholarly_note": "Parchment is thin, translucent, and mechanically weak along the edge."
+    },
+    {
+      "id": "sc1",
+      "region": "lower left to center, crossing text lines",
+      "type": "scratch",
+      "description": "Faint linear surface abrasions running roughly horizontally and diagonally.",
+      "scholarly_note": "Appear as lighter streaks; likely from handling, binding friction, or later cleaning."
+    },
+    {
+      "id": "sc2",
+      "region": "bottom left area",
+      "type": "scratch",
+      "description": "Additional faint scratches and creases on the parchment surface.",
+      "scholarly_note": ""
+    }
+  ],
+  "scratches": [
+    "linear abrasion lower left quadrant",
+    "faint horizontal and diagonal surface scratches across lower text block",
+    "light creasing and streaking visible under raking light"
+  ],
+  "damage_notes": [
+    "missing/torn bottom right corner with text loss",
+    "frayed and irregular bottom edge with multiple small losses",
+    "heavy brown staining concentrated in lower third",
+    "general edge wear, most severe at foot",
+    "parchment thinning and increased translucency in damaged zones",
+    "minor right margin notch mid-page"
+  ],
+  "summary": "Page 20 shows moderate to heavy damage focused at the foot: torn lower-right corner with text loss, extensive brown staining, and frayed bottom edge. A vertical marginal inscription 'urdur' and a small cross appear in the right margin. Evidence of corrections is minimal; surface scratches and handling marks are present but do not severely affect the main text block.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_020/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:20:36.828120+00:00"
+}

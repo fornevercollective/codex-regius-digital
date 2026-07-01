@@ -1,0 +1,69 @@
+{
+  "page": 19,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "m1",
+      "region": "left margin, lines 6–9",
+      "type": "marginalia",
+      "description": "Large, bold 'X' or cross with elongated descending tail curving left; executed in dark ink with a single stroke flourish.",
+      "scholarly_note": "Typical medieval nota or attention mark used to flag a passage; not obviously a cancellation."
+    },
+    {
+      "id": "s1",
+      "region": "text block, lines 9–13",
+      "type": "stain",
+      "description": "Irregular brownish liquid stain overlapping several words in the middle of the page.",
+      "scholarly_note": "Does not appear to have caused significant ink loss or text obscuring."
+    },
+    {
+      "id": "s2",
+      "region": "lower left and central area, lines 22–28",
+      "type": "stain",
+      "description": "Diffuse dark smudges and spotting, consistent with dirt, handling, or offset ink.",
+      "scholarly_note": "Common on heavily used lower margins of medieval codices."
+    },
+    {
+      "id": "d1",
+      "region": "bottom edge and lower right corner",
+      "type": "damage",
+      "description": "Substantial parchment loss, fraying, and irregular tearing along the entire bottom margin; final line of text is abraded and partially lost at the right.",
+      "scholarly_note": "Classic edge wear from handling and former binding; no modern repairs visible."
+    },
+    {
+      "id": "sc1",
+      "region": "lower third of page, across text and margin",
+      "type": "scratch",
+      "description": "Multiple faint horizontal abrasions and surface creases; some fibers raised where ink is lighter.",
+      "scholarly_note": "Likely from rubbing or page turning rather than deliberate erasure."
+    },
+    {
+      "id": "m2",
+      "region": "bottom margin, far left",
+      "type": "marginalia",
+      "description": "Faint dark 'K' and possible additional letters or strokes visible below the main text block.",
+      "scholarly_note": "Possibly a quire signature or accidental offset; difficult to read with certainty."
+    },
+    {
+      "id": "d2",
+      "region": "left margin near large 'X'",
+      "type": "damage",
+      "description": "Small localized thinning or hole in parchment immediately adjacent to the marginal cross.",
+      "scholarly_note": "May be natural parchment flaw or result of later handling."
+    }
+  ],
+  "scratches": [
+    "multiple faint horizontal abrasions in lower third",
+    "localized surface scrape near left margin 'X'",
+    "general fiber disturbance along bottom edge"
+  ],
+  "damage_notes": [
+    "heavy loss and ragged tearing of entire bottom margin with partial text loss on last line",
+    "edge fraying on right and bottom",
+    "surface thinning and small hole near left margin",
+    "overall discoloration and handling wear consistent with unbound or frequently consulted leaf"
+  ],
+  "summary": "Prominent marginal cross mark on left; scattered liquid and handling stains; no clear doodles or pen trials; one possible faint quire signature at foot; significant physical damage confined mainly to the lower edge with parchment loss and abrasion.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_019/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:19:15.950138+00:00"
+}

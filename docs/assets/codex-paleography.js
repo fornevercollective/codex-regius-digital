@@ -1,8 +1,12 @@
 (function () {
+  const REPO_MEDIA = "https://media.githubusercontent.com/media/fornevercollective/codex-regius-digital/main/";
+  const ON_PAGES = () => location.hostname.includes("github.io");
+
   const LAYERS = [
-    { id: "raw", label: "Raw", file: "raw.png", group: "base" },
+    { id: "raw", label: "Raw", file: "raw.png", group: "base", lfsOnPages: true },
     { id: "artistic", label: "Artistic vellum", file: "artistic_vellum.jpg", group: "base" },
     { id: "clean", label: "Clean white", file: "clean_white.jpg", group: "base" },
+    { id: "restored", label: "Restored (inpaint)", file: "restored_inpaint.jpg", group: "restore" },
     { id: "grok_artistic", label: "Grok vellum", file: "grok_artistic_vellum.jpg", group: "grok" },
     { id: "grok_clean", label: "Grok clean", file: "grok_clean_white.jpg", group: "grok" },
   ];
@@ -41,6 +45,7 @@
     activePreset: "grok_clean",
     mixValue: 100,
     viewMode: "stack",
+    musicMode: "gregorian",
   };
 
   async function loadJSON(path) {
@@ -54,6 +59,40 @@
 
   function pageDir(n) {
     return `processed/page_${String(n).padStart(3, "0")}`;
+  }
+
+  function assetUrl(relativePath, opts = {}) {
+    const rel = relativePath.replace(/^\//, "");
+    if (ON_PAGES() && (opts.lfs || rel.endsWith("raw.png"))) {
+      return REPO_MEDIA + rel;
+    }
+    return rel;
+  }
+
+  function layerSrc(page, file, layerDef) {
+    const rel = `${pageDir(page)}/${file}`;
+    if (ON_PAGES() && (layerDef?.lfsOnPages || file === "raw.png")) {
+      return REPO_MEDIA + rel;
+    }
+    return rel;
+  }
+
+  function loadLayerImage(img, page, layerDef) {
+    const local = `${pageDir(page)}/${layerDef.file}`;
+    const remote = REPO_MEDIA + local;
+    return new Promise((resolve) => {
+      img.onload = () => { state.layerAvailability[layerDef.id] = true; resolve(true); };
+      img.onerror = () => {
+        if (img.dataset.triedRemote || !ON_PAGES()) {
+          state.layerAvailability[layerDef.id] = false;
+          resolve(false);
+          return;
+        }
+        img.dataset.triedRemote = "1";
+        img.src = remote;
+      };
+      img.src = local;
+    });
   }
 
   function pageMeta(n) {
@@ -228,17 +267,14 @@
   }
 
   async function populateLayerStack(stack, paneId) {
-    const dir = pageDir(state.page);
-    await Promise.all(LAYERS.map((L) => new Promise((resolve) => {
+    await Promise.all(LAYERS.map(async (L) => {
       const img = document.createElement("img");
       img.className = "layer-img";
       img.dataset.layer = L.id;
       img.alt = L.label;
-      img.onload = () => { state.layerAvailability[L.id] = true; resolve(true); };
-      img.onerror = () => { state.layerAvailability[L.id] = false; resolve(false); };
-      img.src = `${dir}/${L.file}`;
       stack.appendChild(img);
-    })));
+      return loadLayerImage(img, state.page, L);
+    }));
     applyLayerVisibilityForPane(stack, paneStateForStack(paneId));
   }
 
@@ -292,16 +328,14 @@
         <div id="text-overlay" class="text-overlay" hidden></div>
         <canvas id="highlight-canvas" class="highlight-canvas" aria-hidden="true"></canvas>`;
       const stack = $("#layer-stack");
-      await Promise.all(LAYERS.map((L) => new Promise((resolve) => {
+      await Promise.all(LAYERS.map(async (L) => {
         const img = document.createElement("img");
         img.className = "layer-img";
         img.dataset.layer = L.id;
         img.alt = L.label;
-        img.onload = () => { state.layerAvailability[L.id] = true; resolve(true); };
-        img.onerror = () => { state.layerAvailability[L.id] = false; resolve(false); };
-        img.src = `${dir}/${L.file}`;
         stack.appendChild(img);
-      })));
+        return loadLayerImage(img, state.page, L);
+      }));
       applyLayerVisibility();
       renderTextOverlay();
       resizeHighlightCanvas();
@@ -486,27 +520,34 @@
     state.pageHighlights = null;
     state.glyphIndex = null;
     state.penmanship = null;
+    state.grokDoodles = null;
     const dir = pageDir(state.page);
     try { state.pageHighlights = await loadJSON(`${dir}/page_highlights.json`); } catch (_) {}
     try { state.glyphIndex = await loadJSON(`${dir}/glyph_index.json`); } catch (_) {}
     try { state.penmanship = await loadJSON(`${dir}/penmanship_report.json`); } catch (_) {}
+    try { state.grokDoodles = await loadJSON(`${dir}/grok_doodles.json`); } catch (_) {}
     await loadTranscription();
+  }
+
+  function glyphImgSrc(file) {
+    return assetUrl(`${pageDir(state.page)}/${file}`);
   }
 
   function renderGlyphs() {
     const el = $("#glyph-gallery");
     const glyphs = state.glyphIndex?.glyphs || [];
     if (!glyphs.length) {
-      el.innerHTML = "<p class='empty'>No glyph crops yet — run glyph-pipeline.py on this page.</p>";
+      el.innerHTML = "<p class='empty'>No glyph crops yet — run <code>python3 glyph-pipeline.py --page " + state.page + "</code></p>";
       return;
     }
-    const dir = pageDir(state.page);
-    el.innerHTML = glyphs.slice(0, 120).map((g) =>
-      `<div class="glyph-thumb" title="${g.id}">
-        <img src="${dir}/${g.file}" alt="${g.char}" loading="lazy" />
-        <small>${g.char}</small>
-      </div>`
-    ).join("");
+    const count = glyphs.length;
+    el.innerHTML = `<p style="font-size:0.82rem;margin:0 0 0.75rem"><strong>${count}</strong> crops from <code>glyph_index.json</code> — showing first 120 by reading order.</p>` +
+      glyphs.slice(0, 120).map((g) =>
+        `<div class="glyph-thumb" title="${g.id} · conf ${g.confidence ?? "—"}">
+          <img src="${glyphImgSrc(g.file)}" alt="${g.char}" loading="lazy" data-glyph-fallback="${glyphImgSrc(g.file)}" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.src='${REPO_MEDIA}${pageDir(state.page)}/${g.file}'}else{this.style.opacity=0.3}" />
+          <small>${g.char}</small>
+        </div>`
+      ).join("");
   }
 
   function renderPenmanship() {
@@ -580,16 +621,38 @@
     el.innerHTML = html;
   }
 
+  function renderScribeBackstory() {
+    const scribe = state.data.scribe || {};
+    const bio = scribe.biography || {};
+    const el = $("#scribe-backstory");
+    const cross = $("#scribe-crossrefs");
+    if (!el) return;
+    el.innerHTML = `
+      <div class="scribe-backstory-inner">
+        <h4>${scribe.label || "Main scribe"}</h4>
+        <p><strong>${bio.name || "Unknown"}</strong> · ${bio.life_dates || ""} · ${bio.origin || ""}</p>
+        <p>${bio.career_summary || ""}</p>
+        <p style="font-size:0.85rem;opacity:0.9"><em>Hand:</em> ${scribe.hand_type || "—"} · ${scribe.training_context || ""}</p>
+      </div>`;
+    if (cross) {
+      cross.innerHTML = (scribe.cross_manuscript_hands || []).length
+        ? `<table><tr><th>Manuscript</th><th>Relation</th></tr>${(scribe.cross_manuscript_hands || []).map((h) =>
+          `<tr><td>${h.manuscript}</td><td>${h.relation}</td></tr>`).join("")}</table>`
+        : "";
+    }
+  }
+
   function renderTimeline() {
     const scribe = state.data.scribe || {};
     const items = (scribe.timeline || []).filter((t) => state.year >= t.year - 30 && state.year <= t.year + 30);
     const el = $("#scribe-timeline");
     el.innerHTML = items.length ? items.map((t) => `
-      <div class="timeline-item">
+      <div class="timeline-item${t.type === "milestone" ? " milestone" : ""}">
         <div class="timeline-year">${t.era || ""} ${t.year}</div>
         <div>${t.event}</div>
-        <small>${t.type || ""}</small>
+        <small>${t.type || ""}${t.manuscript ? ` · ${t.manuscript}` : ""}</small>
       </div>`).join("") : "<p class='empty'>Adjust year slider to explore scribe context.</p>";
+    renderScribeBackstory();
   }
 
   function renderAlphabet() {
@@ -601,14 +664,30 @@
   }
 
   function renderCodicology() {
-    const v = (state.data.codicology || {}).vellum || {};
+    const cod = state.data.codicology || {};
+    const v = cod.vellum || {};
+    const ink = cod.ink || {};
+    const prep = v.preparation || {};
+    const bind = cod.binding_history || {};
+    const doodles = state.grokDoodles;
+    let folioDamage = "";
+    if (doodles?.summary) {
+      folioDamage = `<h4>This folio · surface survey</h4><p style="font-size:0.88rem">${doodles.summary}</p>`;
+      if ((doodles.damage_notes || []).length) {
+        folioDamage += "<ul>" + doodles.damage_notes.slice(0, 5).map((d) => `<li>${d}</li>`).join("") + "</ul>";
+      }
+    }
     $("#codicology-body").innerHTML = `
       <div class="card-grid">
-        <div class="card"><h4>Animal</h4><p>${v.animal || "—"}</p></div>
-        <div class="card"><h4>Region</h4><p>${v.region_origin || "—"}</p></div>
-        <div class="card"><h4>Age</h4><p>${v.age_estimate || "—"}</p></div>
-        <div class="card"><h4>Preparation</h4><p>${(v.preparation || {}).fiber_pattern || "—"}</p></div>
-      </div>`;
+        <div class="card"><h4>Animal</h4><p>${v.animal || "—"} <small>(${v.animal_confidence || "—"} confidence)</small></p><p style="font-size:0.82rem">${v.animal_note || ""}</p></div>
+        <div class="card"><h4>Region</h4><p>${v.region_origin || "—"}</p><p style="font-size:0.82rem">${v.region_note || ""}</p></div>
+        <div class="card"><h4>Age</h4><p>${v.age_estimate || "—"}</p><p style="font-size:0.82rem">${v.age_consensus || ""}</p></div>
+        <div class="card"><h4>Preparation</h4><p>${prep.quality || "—"} · ${prep.finish || ""}</p><p style="font-size:0.82rem">${prep.fiber_pattern || ""}</p></div>
+        <div class="card"><h4>Ink</h4><p>${ink.type || "—"} · ${ink.color_range || ""}</p><p style="font-size:0.82rem">${ink.corrosion_risk || ""}</p></div>
+        <div class="card"><h4>Binding</h4><p>${bind.modern || "—"}</p><p style="font-size:0.82rem">Original: ${bind.original || "—"}</p></div>
+      </div>
+      ${folioDamage}
+      <p style="font-size:0.78rem;margin-top:1rem;opacity:0.85">Citations: ${(cod.citations || []).join(" · ")}</p>`;
   }
 
   function pagePoemEntry(page) {
@@ -894,9 +973,95 @@
     el.innerHTML = html;
   }
 
+  function neumeSvg(shape, x, y, lineH, line) {
+    const cy = y + lineH * ((line || 2) - 1);
+    const s = shape;
+    const paths = {
+      punctum: `<rect x="${x}" y="${cy - 4}" width="6" height="8" fill="#1a120b"/>`,
+      clivis: `<path d="M${x} ${cy - 6} L${x + 6} ${cy} L${x} ${cy + 6}" stroke="#1a120b" stroke-width="2" fill="none"/>`,
+      torculus: `<path d="M${x} ${cy} q4 -8 8 0 t8 0" stroke="#1a120b" stroke-width="2" fill="none"/>`,
+      podatus: `<path d="M${x} ${cy + 4} L${x + 4} ${cy - 6} L${x + 8} ${cy + 2}" stroke="#1a120b" stroke-width="2" fill="none"/>`,
+      quilisma: `<path d="M${x} ${cy} q2 -4 4 0 t4 -4 t4 4" stroke="#1a120b" stroke-width="1.5" fill="none"/>`,
+      porrectus: `<path d="M${x} ${cy - 4} L${x + 10} ${cy + 4}" stroke="#1a120b" stroke-width="2.5" fill="none"/>`,
+      scandicus: `<path d="M${x} ${cy} L${x + 3} ${cy - 6} L${x + 6} ${cy - 2} L${x + 9} ${cy - 8}" stroke="#1a120b" stroke-width="1.5" fill="none"/>`,
+      pressus: `<path d="M${x} ${cy + 2} L${x + 4} ${cy - 4} L${x + 8} ${cy + 2} L${x + 12} ${cy - 6}" stroke="#1a120b" stroke-width="2" fill="none"/>`,
+      long: `<ellipse cx="${x + 5}" cy="${cy}" rx="8" ry="3" fill="#8b3a2b"/>`,
+      rise: `<path d="M${x} ${cy + 4} Q${x + 6} ${cy - 8} ${x + 12} ${cy}" stroke="#8b3a2b" stroke-width="3" fill="none"/>`,
+      fall: `<path d="M${x} ${cy - 4} Q${x + 6} ${cy + 8} ${x + 12} ${cy}" stroke="#8b3a2b" stroke-width="3" fill="none"/>`,
+      cadence: `<path d="M${x} ${cy} h14 M${x + 14} ${cy} v8" stroke="#c9a227" stroke-width="2.5" fill="none"/>`,
+      rest: `<text x="${x}" y="${cy + 4}" font-size="10" fill="#666">𝄽</text>`,
+      quarter: `<ellipse cx="${x + 4}" cy="${cy}" rx="4" ry="5" fill="#1a120b"/>`,
+      eighth: `<ellipse cx="${x + 4}" cy="${cy}" rx="3.5" ry="4.5" fill="#1a120b"/><line x1="${x + 7}" y1="${cy - 2}" x2="${x + 7}" y2="${cy - 14}" stroke="#1a120b" stroke-width="1"/>`,
+      half: `<ellipse cx="${x + 4}" cy="${cy}" rx="4" ry="5" fill="none" stroke="#1a120b" stroke-width="1.5"/>`,
+    };
+    return paths[s] || paths.punctum;
+  }
+
+  function renderChantNotation(modeKey) {
+    const staffEl = $("#chant-staff");
+    const lyricsEl = $("#chant-lyrics");
+    if (!staffEl) return;
+    const pageData = state.data.chant?.pages?.[String(state.page)];
+    const mode = modeKey || state.musicMode || "gregorian";
+    if (!pageData?.modes?.[mode]) {
+      staffEl.innerHTML = `<p class="empty">Chant notation indexed for page 10 (Hávamál) — select page 10 or another indexed folio.</p>`;
+      if (lyricsEl) lyricsEl.innerHTML = "";
+      return;
+    }
+    const m = pageData.modes[mode];
+    const lines = m.staff_lines || 4;
+    const w = 520;
+    const h = 28 + lines * 14;
+    const lineH = 14;
+    let svg = `<svg viewBox="0 0 ${w} ${h}" class="chant-svg" role="img" aria-label="${m.label}">`;
+    svg += `<text x="8" y="14" font-size="11" fill="#c9a227" font-weight="bold">${m.label}</text>`;
+    for (let i = 0; i < lines; i++) {
+      const y = 22 + i * lineH;
+      svg += `<line x1="8" y1="${y}" x2="${w - 8}" y2="${y}" stroke="#3c2f1e" stroke-width="1"/>`;
+    }
+    (m.neumes || []).forEach((n) => {
+      const x = 40 + (n.x || 0) * (w - 80);
+      const y = 22;
+      svg += neumeSvg(n.shape, x, y, lineH, n.line || 2);
+      svg += `<text x="${x}" y="${h - 2}" font-size="8" fill="#666">${n.syllable || ""}</text>`;
+    });
+    svg += "</svg>";
+    staffEl.innerHTML = svg + `<p class="chant-mode-note">${m.note || ""}</p>`;
+
+    const op = pageData.opening || {};
+    if (lyricsEl && op.old_norse) {
+      let html = '<div class="chant-lyrics-grid"><div><h4>Old Norse</h4>';
+      (op.old_norse || []).forEach((row) => {
+        html += `<p><strong>${row.text}</strong><br><small>${row.gloss}</small></p>`;
+      });
+      html += "</div><div><h4>English</h4>";
+      (op.english || []).forEach((line) => { html += `<p>${line}</p>`; });
+      html += "</div></div>";
+      lyricsEl.innerHTML = html;
+    }
+  }
+
+  function renderRestorationCompare() {
+    const el = $("#restoration-compare");
+    if (!el) return;
+    const dir = pageDir(state.page);
+    const panels = [
+      { label: "Raw / source", file: "clean_white.jpg", fallback: "grok_clean_white.jpg" },
+      { label: "Damage mask", file: "restoration_mask.png" },
+      { label: "Inpaint (TV/telea)", file: "restored_inpaint.jpg" },
+      { label: "Grok clean", file: "grok_clean_white.jpg" },
+    ];
+    el.innerHTML = panels.map((p) => {
+      const src = assetUrl(`${dir}/${p.file}`);
+      return `<figure class="restore-panel"><figcaption>${p.label}</figcaption>
+        <img src="${src}" alt="${p.label}" loading="lazy" onerror="this.classList.add('missing-img');this.alt='Not generated — run manuscript_inpaint.py'" /></figure>`;
+    }).join("");
+  }
+
   function renderCatalog() {
     if (!$("#tab-catalog")) return;
     renderCompletionSnapshot();
+    renderRestorationCompare();
     renderFolioPlacement();
     renderTeiCatalog();
     renderExpansionChart();
@@ -939,6 +1104,9 @@
     renderLiturgy();
     renderRunic();
     renderFolioPlacement();
+    renderCodicology();
+    renderRestorationCompare();
+    renderChantNotation(state.musicMode);
 
     const links = [
       ["AI Assessment", `${dir}/ai_assessment.md`],
@@ -1035,8 +1203,10 @@
       btn.addEventListener("click", () => {
         buttons.querySelectorAll("[data-mode]").forEach((b) => b.classList.remove("active"));
         btn.classList.add("active");
+        state.musicMode = btn.dataset.mode;
         const mode = MUSIC_MODES[btn.dataset.mode];
         note.textContent = mode ? `${mode.label}: ${mode.note}` : "";
+        renderChantNotation(state.musicMode);
         activateTab("tab-liturgy");
         history.replaceState(null, "", "#liturgy");
         syncNavFromHash();
@@ -1047,7 +1217,7 @@
   async function init() {
     try {
       const [codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic,
-        tei, viscoll, expansion, completion, corpus] = await Promise.all([
+        tei, viscoll, expansion, completion, corpus, chant] = await Promise.all([
         loadJSON("data/codicology.json"),
         loadJSON("data/scribe_timeline.json"),
         loadJSON("data/alphabet_reference.json"),
@@ -1061,9 +1231,10 @@
         loadJSON("data/expansion_timeline.json").catch(() => null),
         loadJSON("data/completion_snapshot.json").catch(() => null),
         loadJSON("data/corpus_registry.json").catch(() => null),
+        loadJSON("data/chant_notation.json").catch(() => null),
       ]);
       state.data = { codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic,
-        tei, viscoll, expansion, completion, corpus };
+        tei, viscoll, expansion, completion, corpus, chant };
       if (hubIndex?.pages) {
         hubIndex.pages.forEach((p) => { state.pageIndex[p.page] = p; });
       }
@@ -1087,6 +1258,9 @@
     setupTabs();
     setupViewModeTabs();
     setupMusicModes();
+    renderChantNotation("gregorian");
+    const defaultMusicBtn = $("#music-mode-buttons")?.querySelector('[data-mode="gregorian"]');
+    if (defaultMusicBtn) defaultMusicBtn.classList.add("active");
     handleHashNavigation(false);
 
     $("#page-input").addEventListener("change", (e) => selectPage(+e.target.value));

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T23:18:26.608803+00:00",
+  "generated_at": "2026-07-01T23:25:37.016326+00:00",
   "pages_total": 144,
   "counts": {
     "blank": 0,
@@ -93,7 +93,7 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
+        "grok_artistic_vellum": true,
         "grok_clean_white": true,
         "ai_assessment": true
       }
@@ -339,7 +339,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -357,7 +357,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -393,7 +393,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -429,7 +429,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,

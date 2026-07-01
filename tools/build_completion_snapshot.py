@@ -17,6 +17,7 @@ ARTIFACTS = [
     ("grok_artistic_vellum.jpg", "grok_artistic_vellum.jpg"),
     ("grok_doodles.json", "grok_doodles.json"),
     ("glyph_index.json", "glyph_index.json"),
+    ("restored_inpaint.jpg", "restored_inpaint.jpg"),
 ]
 
 

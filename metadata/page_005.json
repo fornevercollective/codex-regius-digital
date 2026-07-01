@@ -18,7 +18,8 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_doodles.json",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_artistic_vellum.jpg"
   ],
   "poem": "Völuspá",
   "original_text": "",
@@ -31,7 +32,7 @@
   },
   "processed_at": "2026-06-29T01:19:14.160802+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:02:12.128713+00:00",
+  "qc_at": "2026-07-01T23:24:00.913319+00:00",
   "qc_issue_count": 1,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:41.986082+00:00",
@@ -39,5 +40,5 @@
   "poem_section": "Völ. 61 – Háv. 15",
   "poem_type": "mythological",
   "grok_enhanced": true,
-  "grok_enhanced_at": "2026-07-01T23:05:02.856440+00:00"
+  "grok_enhanced_at": "2026-07-01T23:24:00.912614+00:00"
 }

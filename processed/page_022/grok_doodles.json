@@ -1,0 +1,83 @@
+{
+  "page": 22,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "M1",
+      "region": "top edge, full width",
+      "type": "marginalia",
+      "description": "Single line of text written above the main text block: 'opt or særpttud velg frgum or stoma.' in similar black ink and hand.",
+      "scholarly_note": "Possibly a catchword, running title, or carried-over text from the preceding leaf."
+    },
+    {
+      "id": "A1",
+      "region": "upper right corner",
+      "type": "annotation",
+      "description": "Arabic numeral '13' written in a later hand.",
+      "scholarly_note": "Modern pagination or foliation mark, not original to the manuscript."
+    },
+    {
+      "id": "MK1",
+      "region": "left of main text column, recurring on multiple lines (approx. lines 4, 7, 11, 14, 17, 20, 23, 26, 29, 32)",
+      "type": "annotation",
+      "description": "Recurring markers of the form 'Þ k.ec.iii.', 'Þ k.ec. ii.', 'Þ k.ec. iii.', 'Þ k.ee ip.vii.' etc. aligned to the left of selected text lines.",
+      "scholarly_note": "Scribe's stanza or section dividers, integrated into the layout of this manuscript."
+    },
+    {
+      "id": "S1",
+      "region": "lower half, scattered throughout",
+      "type": "stain",
+      "description": "Multiple irregular brown age spots and foxing marks of varying size.",
+      "scholarly_note": "Typical parchment discoloration from age, handling, and environmental exposure."
+    },
+    {
+      "id": "S2",
+      "region": "bottom center to lower right quadrant",
+      "type": "stain",
+      "description": "Large pale, whitish abraded zone with surface loss and faded text.",
+      "scholarly_note": "Consistent with water staining combined with mechanical abrasion from use."
+    },
+    {
+      "id": "D1",
+      "region": "bottom third and bottom edge",
+      "type": "damage",
+      "description": "Severe abrasion with parchment thinning, whitening, and extensive loss of ink and surface. The final lines are heavily degraded.",
+      "scholarly_note": "The most damaged area of the folio; several words at the foot are partially or wholly illegible."
+    },
+    {
+      "id": "D2",
+      "region": "all margins, especially bottom and left",
+      "type": "damage",
+      "description": "Irregular, frayed, and torn edges with small material losses and creasing.",
+      "scholarly_note": "Common handling and binding wear on a frequently consulted medieval manuscript."
+    },
+    {
+      "id": "SC1",
+      "region": "lower third, crossing text area",
+      "type": "scratch",
+      "description": "At least one broad horizontal crease and multiple fine linear scratches and scoring in the abraded zones.",
+      "scholarly_note": "Likely from folding, rubbing, or parchment preparation flaws."
+    },
+    {
+      "id": "IB1",
+      "region": "middle to lower text block, right side",
+      "type": "stain",
+      "description": "Small dark ink spots and possible stray drops near the text lines.",
+      "scholarly_note": "Minor ink blots or pen-related marks incidental to copying."
+    }
+  ],
+  "scratches": [
+    "Prominent horizontal crease running across the page in the lower third (approx. lines 18–23).",
+    "Multiple fine vertical and diagonal linear abrasions concentrated in the bottom abraded area.",
+    "Surface scoring and thin scratches visible within the large pale stain at bottom center-right."
+  ],
+  "damage_notes": [
+    "Heavy mechanical abrasion and ink loss affecting the final 5–6 lines; parchment surface scraped away.",
+    "Bottom edge ragged with material loss and irregular tears; text at foot incomplete.",
+    "Parchment thinning visible as white/gray patches, especially lower right quadrant.",
+    "General edge wear and small losses along left and right margins; corners rounded and damaged."
+  ],
+  "summary": "Folio 22 shows moderate-to-heavy wear typical of a well-used medieval parchment. Key features include a possible header/catchword line at the top, recurring left-aligned stanza markers ('Þ k.ec...'), scattered foxing, a large abraded stain at bottom, extensive lower-edge damage with ink loss, horizontal creasing, and a modern '13' in the upper right. No doodles or clear pen trials are visible; no major interlinear corrections or extensive marginalia beyond the markers and top line.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_022/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:22:12.056166+00:00"
+}

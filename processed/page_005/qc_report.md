@@ -3,7 +3,7 @@
 **Status**: needs_review
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:02:12.128713+00:00
+**Generated**: 2026-07-01T23:24:00.913319+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2480, 1653]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2480, 1653]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2480, 1653]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2480, 1653]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2480, 1653]}]
@@ -12,6 +12,8 @@
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9879, contrast Δ=0.8
 - **clean_white**: SSIM=0.8396, contrast Δ=15.5
+- **grok_artistic_vellum**: SSIM=0.4273, contrast Δ=7.8
+- **grok_clean_white**: SSIM=0.605, contrast Δ=14.3
 
 ## Issues
 - [ERROR] **PLACEHOLDER_TEXT**: Transcription block is still a template placeholder.

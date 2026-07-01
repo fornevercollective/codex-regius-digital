@@ -1,0 +1,90 @@
+{
+  "page": 24,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "marg-01",
+      "region": "top right corner",
+      "type": "marginalia",
+      "description": "Dark ink numerals '15' at the upper right edge.",
+      "scholarly_note": "Early modern foliation mark; project identifies the leaf as page 24."
+    },
+    {
+      "id": "marg-02",
+      "region": "middle right margin",
+      "type": "marginalia",
+      "description": "Prominent '24' with long curved tail and flourish.",
+      "scholarly_note": "Later reference mark, possibly stanza or leaf reference."
+    },
+    {
+      "id": "marg-03",
+      "region": "outer right margin, vertically aligned",
+      "type": "marginalia",
+      "description": "Column of small letters and marks including repeated 'a.', 'v.', 'o', 'a.', 'v.' aligned to text lines.",
+      "scholarly_note": "Post-medieval annotations, likely for stanza indexing, variant noting, or cross-referencing."
+    },
+    {
+      "id": "sym-01",
+      "region": "upper right of text block",
+      "type": "pen trial",
+      "description": "Ornate looped 'O'- or 'G'-like symbol with horizontal stroke or cross.",
+      "scholarly_note": "Possible nota mark or pen trial."
+    },
+    {
+      "id": "corr-01",
+      "region": "main text block, mid-page",
+      "type": "correction",
+      "description": "Minor overwriting and letter-form adjustments visible in several words (e.g., 'hvaða' area and nearby terms).",
+      "scholarly_note": "Scribal correction or later emendation; ink density varies from main hand."
+    },
+    {
+      "id": "dam-01",
+      "region": "bottom right corner and fore-edge",
+      "type": "damage",
+      "description": "Large irregular loss of parchment; triangular tear removing portions of final lines. Edge ragged and frayed.",
+      "scholarly_note": "Severe handling or binding damage typical of the codex."
+    },
+    {
+      "id": "dam-02",
+      "region": "lower third and bottom margin",
+      "type": "damage",
+      "description": "Heavy abrasion, creasing, and ink loss; bottom lines blurred and partially illegible.",
+      "scholarly_note": "Wear from repeated opening and turning of the leaf."
+    },
+    {
+      "id": "stn-01",
+      "region": "lower half and scattered",
+      "type": "stain",
+      "description": "Irregular brownish age and moisture stains across much of the lower parchment.",
+      "scholarly_note": "Consistent with vellum storage conditions."
+    },
+    {
+      "id": "stn-02",
+      "region": "upper left near initial",
+      "type": "stain",
+      "description": "Localized dark smudge or ink transfer stain adjacent to the large 'S' initial.",
+      "scholarly_note": "Possible offset from facing folio."
+    },
+    {
+      "id": "scr-01",
+      "region": "parchment surface, margins and text areas",
+      "type": "scratch",
+      "description": "Multiple fine surface scratches and abrasions; some cause localized ink flaking and fiber loss.",
+      "scholarly_note": "Combination of original skin preparation marks and later handling."
+    }
+  ],
+  "scratches": [
+    "Fine linear abrasions across right margin and blank areas.",
+    "Surface scratches causing ink flaking in lower text lines.",
+    "Small irregular marks consistent with handling abrasion."
+  ],
+  "damage_notes": [
+    "Substantial parchment loss at bottom-right corner truncating multiple text lines.",
+    "Bottom edge heavily worn with creasing, small tears, and fiber loss.",
+    "Lower text heavily abraded with partial erasure and illegibility.",
+    "General edge wear and creasing on all sides, most acute at foot and fore-edge."
+  ],
+  "summary": "Folio 24 contains post-medieval marginalia (foliation '15', large '24' mark, vertical column of single-letter annotations), minor scribal or later corrections, and a looped pen trial/notation symbol. Physical condition shows significant damage: large tear and loss at lower right corner, heavy lower abrasion and staining, scattered age stains, and fine surface scratches. No prominent doodles observed.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_024/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:25:14.016187+00:00"
+}

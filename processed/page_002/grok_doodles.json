@@ -1,0 +1,70 @@
+{
+  "page": 2,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "dmg-01",
+      "region": "top-left corner",
+      "type": "tear",
+      "description": "Small irregular tear with dark edge loss and paper protrusion at top left corner.",
+      "scholarly_note": "Typical handling wear at outer corner; no text affected."
+    },
+    {
+      "id": "dmg-02",
+      "region": "bottom-left corner",
+      "type": "tear",
+      "description": "Extensive tear, crumpling and folding of paper at bottom left corner with visible loss and creased overlap.",
+      "scholarly_note": "Significant corner damage from use or storage; text area unaffected."
+    },
+    {
+      "id": "dmg-03",
+      "region": "left edge",
+      "type": "edge wear",
+      "description": "Worn, slightly irregular left margin with two small dark spots and possible binding puncture marks.",
+      "scholarly_note": "Consistent with manuscript binding and repeated opening."
+    },
+    {
+      "id": "stn-01",
+      "region": "center-left",
+      "type": "stain",
+      "description": "Tiny isolated dark speck in the central-left area of the page.",
+      "scholarly_note": "Minor flyspeck or surface contaminant; no paleographic value."
+    },
+    {
+      "id": "crs-01",
+      "region": "upper half",
+      "type": "crease",
+      "description": "Faint horizontal crease line running across upper portion of the folio.",
+      "scholarly_note": "Deformation from age, storage, or handling; paper remains largely flat."
+    },
+    {
+      "id": "crs-02",
+      "region": "lower half",
+      "type": "crease",
+      "description": "Additional faint horizontal creases visible toward the bottom of the blank surface.",
+      "scholarly_note": "General paper stress marks with no associated markings."
+    },
+    {
+      "id": "abr-01",
+      "region": "left margin",
+      "type": "abrasion",
+      "description": "Slight surface abrasion and minor discoloration along the binding edge.",
+      "scholarly_note": "Common in heavily consulted codices; superficial only."
+    }
+  ],
+  "scratches": [
+    "No pen trials, doodles, or deliberate scratches present.",
+    "No marginalia, corrections, or annotations of any kind observed."
+  ],
+  "damage_notes": [
+    "Top left corner: small tear with edge loss and dark staining.",
+    "Bottom left corner: major tear, crumpling and paper loss with folded overlap.",
+    "Left edge: wear with small dark marks and possible sewing punctures.",
+    "Surface: multiple faint horizontal creases across the folio.",
+    "Surface: isolated small dark specks (flyspecks).",
+    "No foxing, water stains, or significant discoloration visible beyond localized edge wear."
+  ],
+  "summary": "Page 2 is a blank folio. No text, marginalia, doodles, pen trials, or corrections. All features are physical: torn top-left and badly damaged bottom-left corners, left-edge binding wear with punctures, faint horizontal creases, and minor surface specks. Damage is confined to margins and consistent with age and handling of the manuscript.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_002/clean_white.jpg",
+  "surveyed_at": "2026-07-01T23:00:06.113998+00:00"
+}

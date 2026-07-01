@@ -3,7 +3,7 @@
 **Status**: needs_review
 **Manuscript**: GKS 2365 4to
 **Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
-**Generated**: 2026-06-29T03:02:10.064287+00:00
+**Generated**: 2026-07-01T23:00:24.937539+00:00
 
 ## Pipeline Steps
 - **preprocess** (ok): [{'step': '01_raw_gray', 'note': 'Grayscale load', 'shape': [2696, 1798]}, {'step': '02_denoised', 'note': 'Non-local means denoise', 'shape': [2696, 1798]}, {'step': '03_contrast', 'note': 'CLAHE contrast', 'shape': [2696, 1798]}, {'step': '04_binarized', 'note': 'Otsu binarization', 'shape': [2696, 1798]}, {'step': '05_deskewed', 'note': 'Deskew correction (0.00°)', 'shape': [2696, 1798]}]
@@ -12,6 +12,8 @@
 ## Image Metrics (ML)
 - **artistic_vellum**: SSIM=0.9916, contrast Δ=0.1
 - **clean_white**: SSIM=0.9371, contrast Δ=15.4
+- **grok_artistic_vellum**: SSIM=0.5542, contrast Δ=11.0
+- **grok_clean_white**: SSIM=0.6322, contrast Δ=13.5
 
 ## Issues
 - [ERROR] **DIGIT_NOISE**: Line 1: high digit ratio — likely OCR noise.

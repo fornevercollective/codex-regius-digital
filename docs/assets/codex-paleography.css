@@ -671,6 +671,25 @@ th { background: var(--bg); color: var(--gold); }
 .scribe-backstory h4 { margin: 0 0 0.5rem; color: var(--gold); }
 .timeline-item.milestone { border-left-color: var(--gold); }
 
+/* Page music chart — above layer viewer */
+.page-music-chart {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+}
+.page-music-chart .page-music-title {
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1.15rem;
+  color: var(--gold);
+}
+.page-music-chart .music-modes-intro {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+
 /* Chant notation */
 .chant-staff-panel {
   margin: 1rem 0;

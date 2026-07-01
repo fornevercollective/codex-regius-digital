@@ -1004,7 +1004,8 @@
     const pageData = state.data.chant?.pages?.[String(state.page)];
     const mode = modeKey || state.musicMode || "gregorian";
     if (!pageData?.modes?.[mode]) {
-      staffEl.innerHTML = `<p class="empty">Chant notation indexed for page 10 (Hávamál) — select page 10 or another indexed folio.</p>`;
+      const poem = pagePoemEntry(state.page);
+      staffEl.innerHTML = `<p class="empty">No chant chart for page ${state.page}${poem?.poem ? ` (${poem.poem})` : ""} yet — indexed for page 10 (Hávamál). <a href="#liturgy">Liturgy tab</a> has witness data.</p>`;
       if (lyricsEl) lyricsEl.innerHTML = "";
       return;
     }
@@ -1207,9 +1208,7 @@
         const mode = MUSIC_MODES[btn.dataset.mode];
         note.textContent = mode ? `${mode.label}: ${mode.note}` : "";
         renderChantNotation(state.musicMode);
-        activateTab("tab-liturgy");
-        history.replaceState(null, "", "#liturgy");
-        syncNavFromHash();
+        document.getElementById("page-music-chart")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
   }

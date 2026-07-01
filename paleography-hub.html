@@ -50,6 +50,21 @@
     </aside>
 
     <main class="main-panel">
+      <section id="page-music-chart" class="page-music-chart" aria-label="Musical and chant notation for selected folio">
+        <span class="section-label">Comparative liturgy · performance lens</span>
+        <h2 class="page-music-title">Musical &amp; Chant Modes</h2>
+        <p class="music-modes-intro">Performance chart for the poem on the selected folio — same data as the Liturgy tab, pinned above the layer viewer.</p>
+        <div id="music-mode-buttons" class="music-mode-buttons">
+          <button type="button" class="music-mode-btn" data-mode="gregorian">🎼 Gregorian</button>
+          <button type="button" class="music-mode-btn" data-mode="galder">🔥 Galder Chant</button>
+          <button type="button" class="music-mode-btn" data-mode="historical">📜 Historical Neumes</button>
+          <button type="button" class="music-mode-btn" data-mode="modern">🌟 Modern</button>
+        </div>
+        <p id="music-mode-note" class="music-mode-note">Choose a mode to see chant notation and stanza glosses for this page.</p>
+        <div id="chant-staff" class="chant-staff-panel" aria-label="Chant notation staff"></div>
+        <div id="chant-lyrics" class="chant-lyrics-panel"></div>
+      </section>
+
       <section id="page-detail">
         <span class="section-label">Selected folio · all layers</span>
         <h2 id="page-title">Page 10</h2>
@@ -153,19 +168,7 @@
       <div id="tab-liturgy" class="tabpanel" role="tabpanel">
         <span class="section-label">Text evolution</span>
         <h2>Comparative Liturgy & Thematic Cross-References</h2>
-        <section id="music-modes" class="music-modes-panel" aria-label="Performance interpretation modes">
-          <h3>Musical &amp; Chant Modes</h3>
-          <p class="music-modes-intro">Select a performance lens for the poem on the selected folio — integrates with read-along and liturgy comparison data.</p>
-          <div id="music-mode-buttons" class="music-mode-buttons">
-            <button type="button" class="music-mode-btn" data-mode="gregorian">🎼 Gregorian</button>
-            <button type="button" class="music-mode-btn" data-mode="galder">🔥 Galder Chant</button>
-            <button type="button" class="music-mode-btn" data-mode="historical">📜 Historical Neumes</button>
-            <button type="button" class="music-mode-btn" data-mode="modern">🌟 Modern</button>
-          </div>
-          <p id="music-mode-note" class="music-mode-note">Choose a mode to see how this page’s poem relates to performance tradition.</p>
-          <div id="chant-staff" class="chant-staff-panel" aria-label="Chant notation staff"></div>
-          <div id="chant-lyrics" class="chant-lyrics-panel"></div>
-        </section>
+        <p class="catalog-intro">Musical &amp; chant notation is pinned <a href="#page-music-chart">above the layer viewer</a> for the selected folio. Witness and thematic data below.</p>
         <div id="liturgy-body"></div>
       </div>
 

@@ -1,0 +1,69 @@
+{
+  "page": 6,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "stain_01",
+      "region": "lower center to bottom",
+      "type": "stain",
+      "description": "Large irregular diffuse gray smudge occupying much of the lower third, blotchy with darker concentrations toward the center-left and fading toward the right and bottom edges.",
+      "scholarly_note": "Consistent with liquid stain, heavy rubbing, or offset from an adjacent folio; no legible text or script offset visible."
+    },
+    {
+      "id": "stain_02",
+      "region": "upper middle",
+      "type": "stain",
+      "description": "Faint, roughly circular or ring-shaped pale gray halo, low-contrast and approximately 4–5 cm in diameter.",
+      "scholarly_note": "Possible water mark, erasure ghost, or impression from an object; no associated ink traces."
+    },
+    {
+      "id": "scratch_01",
+      "region": "lower half within main stain",
+      "type": "scratch",
+      "description": "Cluster of fine, short linear abrasions and hairline scratches running in multiple directions through the lower stain area.",
+      "scholarly_note": "Surface scoring typical of parchment handling, cleaning, or rodent/insect activity."
+    },
+    {
+      "id": "scratch_02",
+      "region": "central and upper field",
+      "type": "scratch",
+      "description": "Very faint, thin diagonal and horizontal lines crossing the otherwise blank central area.",
+      "scholarly_note": "Minor surface abrasions; no relation to any visible text or ruling."
+    },
+    {
+      "id": "damage_01",
+      "region": "top left corner",
+      "type": "damage",
+      "description": "Small irregular protrusion or torn edge at the upper left corner of the leaf.",
+      "scholarly_note": "Typical parchment corner wear from use and binding."
+    },
+    {
+      "id": "damage_02",
+      "region": "left margin / gutter",
+      "type": "damage",
+      "description": "Vertical discoloration, slight fraying, and surface loss along the left binding edge with a distinct shadow line.",
+      "scholarly_note": "Gutter wear and possible residual adhesive or binding material."
+    },
+    {
+      "id": "smudge_01",
+      "region": "scattered across surface",
+      "type": "stain",
+      "description": "Multiple small faint gray specks, dots, and minor smudges distributed irregularly over the page.",
+      "scholarly_note": "Common flyspecks, dust, or incidental handling marks; no deliberate pattern."
+    }
+  ],
+  "scratches": [
+    "Fine hairline abrasions concentrated in lower stain zone",
+    "Faint diagonal scoring across central field",
+    "Short surface scratches near bottom edge"
+  ],
+  "damage_notes": [
+    "Top left corner irregular with minor tear or edge loss",
+    "Left binding edge shows discoloration, fraying, and gutter shadow",
+    "General surface abrasion producing mottled gray appearance, especially lower half",
+    "Bottom edge slightly worn and irregular"
+  ],
+  "summary": "Folio 6 appears largely blank with no visible text, marginalia, doodles, pen trials, or corrections. Primary features are a large diffuse stain in the lower portion, a faint circular mark upper middle, scattered fine scratches and abrasions, and minor edge wear at the top left corner and left gutter. All marks are consistent with age, handling, and possible moisture or rubbing; no evidence of deliberate annotation or erased text is detectable in this image.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_006/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:22:06.062447+00:00"
+}

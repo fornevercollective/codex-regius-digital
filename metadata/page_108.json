@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Dráp Niflunga",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:33.824893+00:00",
   "qc_status": "ok",
-  "qc_at": "2026-06-29T03:04:01.215971+00:00",
+  "qc_at": "2026-06-29T08:17:15.507598+00:00",
   "qc_issue_count": 0,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.100559+00:00",
   "poem_full": "Dráp Niflunga / Guðrúnarkviða II",
   "poem_section": "– Guðr. II 16",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T08:17:15.506128+00:00"
 }

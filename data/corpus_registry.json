@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-06-29T12:00:00+00:00",
+  "edition": "codex-regius-digital",
+  "primary": {
+    "siglum": "GKS 2365 4to",
+    "handrit_id": "GKS04-2365",
+    "url": "https://handrit.is/manuscript/view/is/GKS04-2365/9",
+    "date": "c. 1270–1280",
+    "pages": 144,
+    "status": "active",
+    "repo_path": "processed/"
+  },
+  "targets": [
+    {
+      "priority": 1,
+      "siglum": "AM 748 I 4to",
+      "title": "Codex Wormianus (fragment)",
+      "collection": "StE",
+      "list_url": "https://handrit.is/manuscript/list/collection/StE",
+      "date": "c. 1350",
+      "relation": "Eddic variant witness",
+      "status": "planned"
+    },
+    {
+      "priority": 2,
+      "siglum": "AM 371 4to",
+      "title": "Hauksbók",
+      "collection": "Kr",
+      "list_url": "https://handrit.is/manuscript/list/collection/Kr",
+      "date": "c. 1330",
+      "relation": "Prose Edda + poetry parallels",
+      "status": "planned"
+    },
+    {
+      "priority": 3,
+      "collection": "HolmPerg",
+      "list_url": "https://handrit.is/manuscript/list/collection/HolmPerg",
+      "institution": "Royal Library Stockholm (via handrit)",
+      "status": "research"
+    },
+    {
+      "priority": 4,
+      "collection": "BSB",
+      "list_url": "https://handrit.is/manuscript/list/collection/BSB",
+      "institution": "Bayerische Staatsbibliothek",
+      "status": "research"
+    },
+    {
+      "priority": 5,
+      "collection": "Fornbréf",
+      "list_url": "https://handrit.is/manuscript/list/collection/Fornbréf",
+      "note": "Medieval letters — diplomatic register expansion",
+      "status": "research"
+    },
+    {
+      "priority": 6,
+      "institution": "Kungliga biblioteket",
+      "list_url": "https://handrit.is/search?q=*&f%5Bdigitized%5D=true&f%5Binstitution_id%5D=KungBib",
+      "status": "research"
+    },
+    {
+      "priority": 7,
+      "institution": "UPenn SIMS",
+      "url": "https://www.library.upenn.edu/sims",
+      "note": "IIIF federation + Collation Data Model; VisColl export path",
+      "status": "partner_research"
+    }
+  ],
+  "standards": {
+    "tei_ms": "https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html",
+    "viscoll": "https://viscoll.org",
+    "iiif": "http://iiif.io/api/presentation/3.0/",
+    "handrit_api": "https://handrit.is/",
+    "baekur": "https://baekur.is/about"
+  },
+  "pipeline_template": [
+    "mass-process-script.py",
+    "grok-enhance-script.py",
+    "grok-doodles-script.py",
+    "qc-pipeline.py",
+    "assessment-pipeline.py",
+    "build_viscoll_collation.py",
+    "build_completion_snapshot.py"
+  ]
+}

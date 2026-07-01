@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-06-29T12:00:00+00:00",
+  "tei_version": "P5",
+  "spec": "https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html",
+  "msDesc": {
+    "msIdentifier": {
+      "country": "Iceland",
+      "repository": "Árni Magnússon Institute for Icelandic Studies",
+      "collection": "GKS",
+      "idno": {
+        "type": "shelfmark",
+        "value": "GKS 2365 4to"
+      },
+      "altIdentifier": [
+        {"type": "handrit", "value": "GKS04-2365", "url": "https://handrit.is/manuscript/view/is/GKS04-2365/9"},
+        {"type": "baekur", "note": "Register in Bækur handrita when linked"}
+      ]
+    },
+    "msContents": {
+      "summary": "Poetic Edda (Eddukvæði) — principal medieval vellum witness for Old Norse eddic poetry.",
+      "textLang": ["is", "non"],
+      "msItem": [
+        {"locus": "pp. 1–5", "title": "Völuspá", "class": "mythological"},
+        {"locus": "pp. 6–14", "title": "Hávamál", "class": "mythological"},
+        {"locus": "pp. 15–144", "title": "Remaining Eddic corpus + heroic lays", "class": "mixed"}
+      ]
+    },
+    "physDesc": {
+      "objectDesc": {
+        "supportDesc": {
+          "material": "parchment",
+          "extent": "144 folio sides (digital pagination)"
+        },
+        "layoutDesc": {
+          "writingMode": "vertical-rl",
+          "note": "Gothic book hand; insular influences"
+        }
+      },
+      "bindingDesc": {
+        "condition": "Modern conservation binding (Copenhagen/Royal Library history)",
+        "note": "Medieval boards lost; see binding_history in codicology.json"
+      }
+    },
+    "history": {
+      "origin": {
+        "origDate": {"when": "1270", "notAfter": "1280", "certainty": "high"},
+        "origPlace": "Iceland (probable)"
+      },
+      "provenance": [
+        {"date": "1643", "event": "Presented to Frederick III; named Codex Regius"},
+        {"date": "1971", "event": "Returned to Iceland; Árni Magnússon Institute"}
+      ]
+    },
+    "additional": {
+      "surrogates": [
+        {"type": "digital", "url": "https://handrit.is/manuscript/view/is/GKS04-2365/9"},
+        {"type": "digital", "url": "https://fornevercollective.github.io/codex-regius-digital/", "note": "This edition — research layers"}
+      ],
+      "collation": "data/viscoll_collation.json",
+      "completion": "data/completion_snapshot.json"
+    }
+  }
+}

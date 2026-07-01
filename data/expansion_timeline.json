@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-06-29T12:00:00+00:00",
+  "reference": "https://baekur.is/about",
+  "note": "Corpus expansion phases — manuscript dating and digitization waves (Bækur / handrit.is register alignment).",
+  "eras": [
+    {"id": "medieval", "label": "Medieval production", "start": 1150, "end": 1350, "color": "#8b5a2b"},
+    {"id": "early_modern", "label": "Early modern / paper copies", "start": 1600, "end": 1800, "color": "#5a4a3a"},
+    {"id": "modern", "label": "Modern conservation & digitization", "start": 1900, "end": 2026, "color": "#c9a227"}
+  ],
+  "phases": [
+    {
+      "id": "phase-1",
+      "label": "Phase 1 · Codex Regius complete",
+      "status": "in_progress",
+      "start_year": 2025,
+      "target_year": 2026,
+      "manuscripts": [
+        {"siglum": "GKS 2365 4to", "date": "c. 1270–1280", "pages": 144, "institution": "handrit.is", "pipeline_pct": 85}
+      ],
+      "milestones": [
+        {"task": "Scholarly stack (144×)", "status": "done"},
+        {"task": "Grok clean layer", "status": "in_progress", "detail": "131/144"},
+        {"task": "Grok doodle survey", "status": "in_progress", "detail": "58/144"},
+        {"task": "QC needs_review", "status": "open", "detail": "33 pages"},
+        {"task": "TEI + VisColl catalog", "status": "done"}
+      ]
+    },
+    {
+      "id": "phase-2",
+      "label": "Phase 2 · Eddic witnesses (Iceland)",
+      "status": "planned",
+      "start_year": 2026,
+      "target_year": 2027,
+      "manuscripts": [
+        {"siglum": "AM 748 I 4to", "date": "c. 1350", "note": "Codex Wormianus fragment", "handrit_collection": "StE"},
+        {"siglum": "AM 371 4to", "date": "c. 1330", "title": "Hauksbók", "handrit_collection": "Kr"}
+      ]
+    },
+    {
+      "id": "phase-3",
+      "label": "Phase 3 · handrit.is core collections",
+      "status": "planned",
+      "start_year": 2027,
+      "target_year": 2028,
+      "collections": [
+        {"id": "StE", "url": "https://handrit.is/manuscript/list/collection/StE", "label": "Stofnun Árna Magnússonar"},
+        {"id": "Kr", "url": "https://handrit.is/manuscript/list/collection/Kr", "label": "Konungsbókasafn"},
+        {"id": "Fornbréf", "url": "https://handrit.is/manuscript/list/collection/Fornbréf", "label": "Fornbréf"}
+      ]
+    },
+    {
+      "id": "phase-4",
+      "label": "Phase 4 · Nordic & European partners",
+      "status": "planned",
+      "start_year": 2028,
+      "target_year": 2030,
+      "collections": [
+        {"id": "HolmPerg", "url": "https://handrit.is/manuscript/list/collection/HolmPerg", "label": "Stockholm pergament"},
+        {"id": "BSB", "url": "https://handrit.is/manuscript/list/collection/BSB", "label": "Bayerische Staatsbibliothek"},
+        {"id": "KungBib", "url": "https://handrit.is/search?q=*&f%5Bdigitized%5D=true&f%5Binstitution_id%5D=KungBib", "label": "Kungliga biblioteket"}
+      ]
+    },
+    {
+      "id": "phase-5",
+      "label": "Phase 5 · SIMS / IIIF federation",
+      "status": "research",
+      "start_year": 2030,
+      "target_year": null,
+      "partners": [
+        {"name": "UPenn SIMS", "url": "https://www.library.upenn.edu/sims", "note": "IIIF + Collation Data Model interoperability"},
+        {"name": "VisColl", "url": "https://viscoll.org", "note": "Collation visualization export"},
+        {"name": "handrit.is collections", "url": "https://handrit.is/collections", "note": "Corpus registry sync"}
+      ]
+    }
+  ],
+  "date_chart": [
+    {"year": 1270, "event": "Codex Regius copied (main hand)", "manuscript": "GKS 2365 4to"},
+    {"year": 1350, "event": "AM 748 fragment (witness)", "manuscript": "AM 748 I 4to"},
+    {"year": 1643, "event": "Codex Regius named; Denmark", "manuscript": "GKS 2365 4to"},
+    {"year": 1971, "event": "Returned to Iceland", "manuscript": "GKS 2365 4to"},
+    {"year": 2026, "event": "Digital edition Phase 1 sprint", "manuscript": "GKS 2365 4to"},
+    {"year": 2027, "event": "Phase 2 Eddic witnesses (target)", "manuscript": "AM 748 / Hauksbók"},
+    {"year": 2028, "event": "handrit.is batch ingest (target)", "manuscript": "StE + Kr collections"}
+  ]
+}

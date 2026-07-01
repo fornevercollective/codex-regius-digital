@@ -16,12 +16,18 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_doodles.json"
   ],
   "poem": "Völuspá",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 3,
+    "confidence": "high",
+    "surveyed_at": "2026-06-29T08:16:16.830742+00:00"
+  },
   "processed_at": "2026-06-29T01:19:13.869181+00:00",
   "qc_status": "needs_review",
   "qc_at": "2026-06-29T03:02:11.307353+00:00",

@@ -551,6 +551,224 @@
     renderRunicCorpusTable();
   }
 
+  function folioEntry(page) {
+    const folios = state.data.viscoll?.folios || [];
+    return folios.find((f) => f.page === page) || null;
+  }
+
+  function quireEntry(quireId) {
+    const quires = state.data.viscoll?.quires || [];
+    return quires.find((q) => q.id === quireId) || null;
+  }
+
+  function renderCompletionSnapshot() {
+    const el = $("#completion-snapshot");
+    if (!el) return;
+    const snap = state.data.completion;
+    if (!snap?.summary) {
+      el.innerHTML = '<p class="empty">Run <code>python3 tools/build_completion_snapshot.py</code></p>';
+      return;
+    }
+    const total = snap.pages_total || 144;
+    const qc = snap.qc || {};
+    const items = Object.entries(snap.summary).map(([key, val]) => {
+      const count = val.count ?? 0;
+      const pct = Math.round((count / total) * 100);
+      const warn = pct < 100;
+      const missing = (val.missing || []).length;
+      return `<div class="completion-card${warn ? " warn" : ""}">
+        <div class="label">${key}</div>
+        <div class="completion-pct">${count}/${total}</div>
+        <div class="completion-bar"><span style="width:${pct}%"></span></div>
+        <small>${warn ? `${missing} missing` : "complete"}</small>
+      </div>`;
+    });
+    items.push(`<div class="completion-card${qc.needs_review ? " warn" : ""}">
+      <div class="label">QC review</div>
+      <div class="completion-pct">${qc.ok || 0} ok · ${qc.needs_review || 0} review</div>
+      <div class="completion-bar"><span style="width:${Math.round(((qc.ok || 0) / total) * 100)}%"></span></div>
+      <small>${qc.needs_review || 0} pages flagged</small>
+    </div>`);
+    el.innerHTML = items.join("");
+  }
+
+  function renderFolioPlacement() {
+    const folio = folioEntry(state.page);
+    const place = $("#folio-placement");
+    const quireEl = $("#quire-context");
+    if (!place) return;
+    if (!folio) {
+      place.innerHTML = '<p class="empty">No VisColl folio map — run build_viscoll_collation.py</p>';
+      if (quireEl) quireEl.innerHTML = "";
+      return;
+    }
+    const spineActive = folio.binding_edge === "spine";
+    const foreActive = folio.binding_edge === "fore-edge";
+    place.innerHTML = `
+      <div class="folio-diagram" aria-label="Folio ${folio.folio} ${folio.side}">
+        <div class="folio-edge spine${spineActive ? " active" : ""}" title="Spine / binding">Spine</div>
+        <div class="folio-face">
+          <div class="siglum">${folio.folio}</div>
+          <div>${folio.side === "recto" ? "Recto" : "Verso"} · digital page ${folio.page}</div>
+          <div class="folio-meta">
+            <span>Quire ${folio.quire}</span>
+            <span>Pos ${folio.position_in_quire}/8</span>
+            ${folio.signature ? `<span>Sig. ${folio.signature}</span>` : "<span>Signature —</span>"}
+            ${folio.catchword ? `<span>Catchword: ${folio.catchword}</span>` : ""}
+          </div>
+        </div>
+        <div class="folio-edge fore${foreActive ? " active" : ""}" title="Fore-edge">Fore</div>
+      </div>
+      <p style="font-size:0.8rem;opacity:0.85;margin-top:0.5rem">
+        Binding edge: <strong>${folio.binding_edge}</strong> —
+        ${spineActive ? "gutter at spine (inner margin)" : "outer margin at fore-edge"}.
+        Scaffold quire map; verify against physical collation (<a href="https://viscoll.org" target="_blank" rel="noopener">VisColl</a>).
+      </p>`;
+    const q = quireEntry(folio.quire);
+    if (quireEl && q) {
+      let cells = "";
+      for (let p = q.page_start; p <= q.page_end; p++) {
+        cells += `<div class="quire-cell${p === state.page ? " current" : ""}" title="Page ${p}">${p}</div>`;
+      }
+      quireEl.innerHTML = `<p style="font-size:0.8rem;margin:0 0 0.35rem"><strong>${q.id}</strong> · folios ${q.page_start}–${q.page_end} (${q.leaves} leaves)</p><div class="quire-strip">${cells}</div>`;
+    }
+  }
+
+  function renderTeiCatalog() {
+    const el = $("#tei-catalog");
+    if (!el) return;
+    const tei = state.data.tei?.msDesc;
+    if (!tei) {
+      el.innerHTML = '<p class="empty">No TEI catalog — see data/tei_manuscript.json</p>';
+      return;
+    }
+    const id = tei.msIdentifier || {};
+    const phys = tei.physDesc?.objectDesc?.supportDesc || {};
+    const origin = tei.history?.origin || {};
+    const items = (tei.msContents?.msItem || []).map((it) =>
+      `<li><strong>${it.title}</strong> (${it.locus}) · ${it.class || ""}</li>`
+    ).join("");
+    const prov = (tei.history?.provenance || []).map((p) =>
+      `<li>${p.date}: ${p.event}</li>`
+    ).join("");
+    const alt = (id.altIdentifier || []).map((a) =>
+      a.url ? `<a href="${a.url}" target="_blank" rel="noopener">${a.value || a.type}</a>` : (a.value || a.note)
+    ).join(" · ");
+    el.innerHTML = `<dl class="tei-block">
+      <dt>Identifier</dt>
+      <dd><strong>${id.idno?.value || "GKS 2365 4to"}</strong> · ${id.repository || ""}, ${id.country || ""}<br>${alt}</dd>
+      <dt>Contents</dt>
+      <dd>${tei.msContents?.summary || ""}<ul>${items}</ul></dd>
+      <dt>Physical</dt>
+      <dd>${phys.material || "parchment"} · ${phys.extent || "144 sides"}</dd>
+      <dt>Origin</dt>
+      <dd>c. ${origin.origDate?.when || "1270"} · ${origin.origPlace || "Iceland"}</dd>
+      <dt>Provenance</dt>
+      <dd><ul>${prov}</ul></dd>
+      <dt>Standards</dt>
+      <dd><a href="${state.data.tei?.spec || "#"}" target="_blank" rel="noopener">TEI P5 msDesc</a> ·
+          <a href="https://viscoll.org/collation/" target="_blank" rel="noopener">VisColl collation</a></dd>
+    </dl>`;
+  }
+
+  function renderExpansionChart() {
+    const chart = $("#expansion-chart");
+    const phasesEl = $("#expansion-phases");
+    if (!chart) return;
+    const exp = state.data.expansion;
+    if (!exp) {
+      chart.innerHTML = '<p class="empty" style="padding:1rem">No expansion timeline data</p>';
+      return;
+    }
+    const minYear = 1200;
+    const maxYear = 2035;
+    const span = maxYear - minYear;
+    const pct = (y) => `${((y - minYear) / span) * 100}%`;
+    let html = '<div class="expansion-axis"></div>';
+    (exp.eras || []).forEach((era) => {
+      const left = pct(era.start);
+      const width = `${((era.end - era.start) / span) * 100}%`;
+      html += `<div class="expansion-era" style="left:${left};width:${width};background:${era.color}22">${era.label}</div>`;
+    });
+    (exp.date_chart || []).forEach((ev, i) => {
+      const bottom = 36 + (i % 3) * 22;
+      html += `<div class="expansion-event" style="left:${pct(ev.year)};bottom:${bottom}px" title="${ev.year}">
+        <strong>${ev.year}</strong><br>${ev.event}</div>`;
+    });
+    for (let y = 1250; y <= 2030; y += 50) {
+      html += `<div class="expansion-tick" style="left:${pct(y)}">${y}</div>`;
+    }
+    chart.innerHTML = html;
+
+    if (phasesEl) {
+      const snap = state.data.completion?.summary || {};
+      phasesEl.innerHTML = (exp.phases || []).map((ph) => {
+        const ms = (ph.manuscripts || []).map((m) =>
+          `<li>${m.siglum} (${m.date || ""})${m.pipeline_pct != null ? ` — ${m.pipeline_pct}%` : ""}</li>`
+        ).join("");
+        const cols = (ph.collections || []).map((c) =>
+          `<li><a href="${c.url}" target="_blank" rel="noopener">${c.label || c.id}</a></li>`
+        ).join("");
+        const miles = (ph.milestones || []).map((m) => {
+          let detail = m.detail || "";
+          if (ph.id === "phase-1" && m.task?.includes("Grok clean")) {
+            const g = snap["grok_clean_white.jpg"];
+            if (g) detail = `${g.count}/144`;
+          }
+          if (ph.id === "phase-1" && m.task?.includes("doodle")) {
+            const d = snap["grok_doodles.json"];
+            if (d) detail = `${d.count}/144`;
+          }
+          return `<li><span class="phase-status">${m.status}</span> ${m.task}${detail ? ` (${detail})` : ""}</li>`;
+        }).join("");
+        return `<div class="phase-card ${ph.status || ""}">
+          <strong>${ph.label}</strong> <span class="phase-status">${ph.status}</span>
+          ${ph.start_year ? `<br><small>${ph.start_year}${ph.target_year ? ` → ${ph.target_year}` : ""}</small>` : ""}
+          ${ms ? `<ul>${ms}</ul>` : ""}
+          ${cols ? `<ul>${cols}</ul>` : ""}
+          ${miles ? `<ul>${miles}</ul>` : ""}
+        </div>`;
+      }).join("");
+    }
+  }
+
+  function renderCorpusRegistry() {
+    const el = $("#corpus-registry");
+    if (!el) return;
+    const reg = state.data.corpus;
+    if (!reg) {
+      el.innerHTML = '<p class="empty">See data/corpus_registry.json</p>';
+      return;
+    }
+    const pri = reg.primary || {};
+    let html = `<p><strong>Active:</strong> ${pri.siglum} · <a href="${pri.url}" target="_blank" rel="noopener">handrit</a> · ${pri.date} · ${pri.pages} pages</p>`;
+    html += "<table><tr><th>Priority</th><th>Target</th><th>Collection</th><th>Status</th></tr>";
+    (reg.targets || []).forEach((t) => {
+      const link = t.list_url || t.url || "#";
+      const label = t.siglum || t.title || t.collection || t.institution || "—";
+      html += `<tr><td>${t.priority}</td><td><a href="${link}" target="_blank" rel="noopener">${label}</a></td>
+        <td>${t.collection || t.institution || "—"}</td><td>${t.status}</td></tr>`;
+    });
+    html += "</table>";
+    const std = reg.standards || {};
+    html += `<p style="font-size:0.78rem;margin-top:0.75rem">
+      <a href="${std.tei_ms}" target="_blank" rel="noopener">TEI-MS</a> ·
+      <a href="${std.viscoll}" target="_blank" rel="noopener">VisColl</a> ·
+      <a href="${std.baekur}" target="_blank" rel="noopener">Bækur</a> ·
+      <a href="${std.handrit_api}" target="_blank" rel="noopener">handrit.is</a>
+    </p>`;
+    el.innerHTML = html;
+  }
+
+  function renderCatalog() {
+    if (!$("#tab-catalog")) return;
+    renderCompletionSnapshot();
+    renderFolioPlacement();
+    renderTeiCatalog();
+    renderExpansionChart();
+    renderCorpusRegistry();
+  }
+
   function renderLiturgy() {
     const lit = state.data.liturgy || {};
     const themes = (state.data.themes || {}).themes || [];
@@ -586,6 +804,7 @@
     renderPageEvents();
     renderLiturgy();
     renderRunic();
+    renderFolioPlacement();
 
     const links = [
       ["AI Assessment", `${dir}/ai_assessment.md`],
@@ -607,6 +826,7 @@
     liturgy: "tab-liturgy",
     runic: "tab-runic",
     doodles: "tab-doodles",
+    catalog: "tab-catalog",
   };
 
   const MUSIC_MODES = {
@@ -692,7 +912,8 @@
 
   async function init() {
     try {
-      const [codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic] = await Promise.all([
+      const [codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic,
+        tei, viscoll, expansion, completion, corpus] = await Promise.all([
         loadJSON("data/codicology.json"),
         loadJSON("data/scribe_timeline.json"),
         loadJSON("data/alphabet_reference.json"),
@@ -701,8 +922,14 @@
         loadJSON("data/page_highlights.json").catch(() => null),
         loadJSON("data/hub_page_index.json").catch(() => null),
         loadJSON("data/runic_parallels.json").catch(() => null),
+        loadJSON("data/tei_manuscript.json").catch(() => null),
+        loadJSON("data/viscoll_collation.json").catch(() => null),
+        loadJSON("data/expansion_timeline.json").catch(() => null),
+        loadJSON("data/completion_snapshot.json").catch(() => null),
+        loadJSON("data/corpus_registry.json").catch(() => null),
       ]);
-      state.data = { codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic };
+      state.data = { codicology, scribe, alphabet, liturgy, themes, highlights, hubIndex, runic,
+        tei, viscoll, expansion, completion, corpus };
       if (hubIndex?.pages) {
         hubIndex.pages.forEach((p) => { state.pageIndex[p.page] = p; });
       }
@@ -721,6 +948,7 @@
     renderTimeline();
     renderRunicOverview();
     renderRunicCorpusTable();
+    renderCatalog();
     await updatePageView();
     setupTabs();
     setupMusicModes();

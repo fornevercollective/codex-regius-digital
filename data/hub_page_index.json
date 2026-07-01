@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-29T07:03:39.143118+00:00",
+  "generated_at": "2026-07-01T22:58:25.691325+00:00",
   "pages_total": 144,
   "counts": {
-    "blank": 23,
+    "blank": 12,
     "partial": 0,
-    "complete": 121
+    "complete": 132
   },
   "highlights_ready": false,
   "pages": [
@@ -15,7 +15,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -51,7 +51,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -69,7 +69,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -87,7 +87,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -105,7 +105,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -123,7 +123,7 @@
       "qc_status": "ok",
       "grok_enhanced": false,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -1774,10 +1774,10 @@
     },
     {
       "page": 99,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -1785,17 +1785,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 100,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -1803,17 +1803,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 101,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1821,17 +1821,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 102,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1839,17 +1839,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 103,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1857,17 +1857,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 104,
-      "status": "blank",
+      "status": "complete",
       "poem": "Sigurðarkviða III",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1875,17 +1875,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 105,
-      "status": "blank",
+      "status": "complete",
       "poem": "Helreið Brynhildar",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1893,17 +1893,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 106,
-      "status": "blank",
+      "status": "complete",
       "poem": "Helreið Brynhildar",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1911,17 +1911,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 107,
-      "status": "blank",
+      "status": "complete",
       "poem": "Dráp Niflunga",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1929,17 +1929,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 108,
-      "status": "blank",
+      "status": "complete",
       "poem": "Dráp Niflunga",
       "qc_status": "ok",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": false,
       "has_glyph_index": true,
@@ -1947,17 +1947,17 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
     {
       "page": 109,
-      "status": "blank",
+      "status": "complete",
       "poem": "Dráp Niflunga",
       "qc_status": "needs_review",
-      "grok_enhanced": false,
+      "grok_enhanced": true,
       "scholarly_assessment": true,
       "has_grok_doodles": true,
       "has_glyph_index": true,
@@ -1965,8 +1965,8 @@
         "raw": true,
         "artistic_vellum": true,
         "clean_white": true,
-        "grok_artistic_vellum": false,
-        "grok_clean_white": false,
+        "grok_artistic_vellum": true,
+        "grok_clean_white": true,
         "ai_assessment": true
       }
     },
@@ -2049,7 +2049,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2067,7 +2067,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2085,7 +2085,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2103,7 +2103,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2337,7 +2337,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2571,7 +2571,7 @@
       "qc_status": "ok",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,
@@ -2589,7 +2589,7 @@
       "qc_status": "needs_review",
       "grok_enhanced": true,
       "scholarly_assessment": true,
-      "has_grok_doodles": false,
+      "has_grok_doodles": true,
       "has_glyph_index": true,
       "layers": {
         "raw": true,

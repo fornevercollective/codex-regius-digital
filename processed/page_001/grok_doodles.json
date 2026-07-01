@@ -1,0 +1,58 @@
+{
+  "page": 1,
+  "confidence": "high",
+  "items": [
+    {
+      "id": "feat-001",
+      "region": "right fore-edge",
+      "type": "discoloration",
+      "description": "Narrow vertical band of yellow-brown discoloration running the full height of the right edge, approximately 8-12 mm wide.",
+      "scholarly_note": "Typical age- or handling-related staining on the fore-edge of a bound vellum manuscript."
+    },
+    {
+      "id": "feat-002",
+      "region": "top-right corner",
+      "type": "tear",
+      "description": "Small irregular loss at the extreme top-right corner with a small protruding white fiber or parchment fragment.",
+      "scholarly_note": "Minor mechanical damage consistent with repeated opening or shelving wear."
+    },
+    {
+      "id": "feat-003",
+      "region": "bottom-right corner",
+      "type": "damage",
+      "description": "Frayed and slightly darkened lower right corner with localized abrasion and a small dark spot.",
+      "scholarly_note": "Common corner wear in a 13th-century codex from use and binding pressure."
+    },
+    {
+      "id": "feat-004",
+      "region": "upper-middle, slightly right of center",
+      "type": "speck",
+      "description": "Isolated tiny dark speck approximately 1 mm in diameter.",
+      "scholarly_note": "Likely flyspeck or environmental deposit; no association with text or deliberate mark."
+    },
+    {
+      "id": "feat-005",
+      "region": "scattered across surface",
+      "type": "stain",
+      "description": "Three to five additional minute dark specks of sub-millimeter size distributed across the otherwise blank area.",
+      "scholarly_note": "Environmental contaminants with no palaeographic significance."
+    },
+    {
+      "id": "feat-006",
+      "region": "left margin / gutter",
+      "type": "edge_wear",
+      "description": "Slight shadow and minor irregularity along the left edge consistent with binding.",
+      "scholarly_note": "Inner margin shows expected compression and slight offset from the binding structure."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "Yellow-brown fore-edge discoloration along right margin, full height",
+    "Small loss/tear at top-right corner",
+    "Frayed and abraded bottom-right corner with localized darkening",
+    "No evidence of deliberate scratching, scoring, or surface abrasion beyond natural wear"
+  ],
+  "summary": "Folio appears almost entirely blank with no visible text, marginalia, doodles, pen trials, or corrections. Only minor age-related physical damage and scattered environmental specks are present, concentrated on the right edge and corners. No ruling lines, ink marks, or intentional interventions are observable in the image.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_001/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:12:52.174542+00:00"
+}

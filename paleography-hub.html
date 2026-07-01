@@ -19,6 +19,7 @@
         <a href="#scribe">Scribe Timeline</a>
         <a href="#liturgy">Liturgy</a>
         <a href="#runic">Runic Parallels</a>
+        <a href="#catalog">Catalog &amp; Collation</a>
         <a href="book-viewer.html">Book Viewer</a>
         <a href="https://handrit.is/manuscript/view/is/GKS04-2365/9" target="_blank" rel="noopener">handrit.is</a>
         <a href="https://github.com/fornevercollective/codex-regius-digital" target="_blank" rel="noopener">GitHub</a>
@@ -89,6 +90,7 @@
         <button type="button" class="tab" data-tab="tab-liturgy">Liturgy & Themes</button>
         <button type="button" class="tab" data-tab="tab-runic">Runic &amp; Stone</button>
         <button type="button" class="tab" data-tab="tab-doodles">Doodles</button>
+        <button type="button" class="tab" data-tab="tab-catalog">Catalog &amp; Collation</button>
       </div>
 
       <div id="tab-codicology" class="tabpanel active" role="tabpanel">
@@ -171,6 +173,40 @@
         <p>Per-page catalogs include marginalia inventory, misprint detection, and surface damage notes.</p>
         <p>Open <strong>Doodles</strong> link above for the selected page, or run:</p>
         <pre style="background:#1a120b;padding:1rem;border-radius:4px;overflow:auto">python3 assessment-pipeline.py --all</pre>
+      </div>
+
+      <div id="tab-catalog" class="tabpanel" role="tabpanel">
+        <span class="section-label">TEI P5 · VisColl · corpus expansion</span>
+        <h2>Manuscript Catalog &amp; Collation</h2>
+        <p>Structured description aligned with <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html" target="_blank" rel="noopener">TEI msDesc</a>, folio placement per <a href="https://viscoll.org/collation/" target="_blank" rel="noopener">VisColl</a>, and expansion roadmap inspired by <a href="https://baekur.is/about" target="_blank" rel="noopener">Bækur</a>.</p>
+
+        <section class="catalog-section">
+          <h3>Pipeline completion · GKS 2365 4to</h3>
+          <div id="completion-snapshot" class="completion-grid"></div>
+        </section>
+
+        <section class="catalog-section">
+          <h3>This folio · binding &amp; quire placement</h3>
+          <div id="folio-placement" class="folio-placement"></div>
+          <div id="quire-context" class="quire-strip"></div>
+        </section>
+
+        <section class="catalog-section">
+          <h3>TEI manuscript description</h3>
+          <div id="tei-catalog"></div>
+        </section>
+
+        <section class="catalog-section">
+          <h3>Corpus expansion timeline</h3>
+          <p class="catalog-intro">Phased ingest from handrit.is collections toward IIIF / SIMS federation — <a href="https://handrit.is/collections" target="_blank" rel="noopener">handrit collections</a>.</p>
+          <div id="expansion-chart" class="expansion-chart" role="img" aria-label="Manuscript dating and expansion phases"></div>
+          <div id="expansion-phases"></div>
+        </section>
+
+        <section class="catalog-section">
+          <h3>Corpus registry · next manuscripts</h3>
+          <div id="corpus-registry"></div>
+        </section>
       </div>
     </main>
   </div>

@@ -1,0 +1,1603 @@
+{
+  "generated_at": "2026-07-01T22:58:25.628564+00:00",
+  "manuscript": "GKS 2365 4to",
+  "model": "VisColl-inspired",
+  "spec": "https://viscoll.org/collation/",
+  "tools": [
+    "https://github.com/KislakCenter/VisColl",
+    "https://github.com/utlib/VisualCollation",
+    "https://github.com/utlib/iiif-to-go-viscoll"
+  ],
+  "format": {
+    "pages": "Digital facsimile index 1–144 (handrit.is pagination)",
+    "quires": "18 quires × 8 sides (scaffold)"
+  },
+  "quires": [
+    {
+      "id": "Q01",
+      "index": 1,
+      "page_start": 1,
+      "page_end": 8,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q02",
+      "index": 2,
+      "page_start": 9,
+      "page_end": 16,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q03",
+      "index": 3,
+      "page_start": 17,
+      "page_end": 24,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q04",
+      "index": 4,
+      "page_start": 25,
+      "page_end": 32,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q05",
+      "index": 5,
+      "page_start": 33,
+      "page_end": 40,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q06",
+      "index": 6,
+      "page_start": 41,
+      "page_end": 48,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q07",
+      "index": 7,
+      "page_start": 49,
+      "page_end": 56,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q08",
+      "index": 8,
+      "page_start": 57,
+      "page_end": 64,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q09",
+      "index": 9,
+      "page_start": 65,
+      "page_end": 72,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q10",
+      "index": 10,
+      "page_start": 73,
+      "page_end": 80,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q11",
+      "index": 11,
+      "page_start": 81,
+      "page_end": 88,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q12",
+      "index": 12,
+      "page_start": 89,
+      "page_end": 96,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q13",
+      "index": 13,
+      "page_start": 97,
+      "page_end": 104,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q14",
+      "index": 14,
+      "page_start": 105,
+      "page_end": 112,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q15",
+      "index": 15,
+      "page_start": 113,
+      "page_end": 120,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q16",
+      "index": 16,
+      "page_start": 121,
+      "page_end": 128,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q17",
+      "index": 17,
+      "page_start": 129,
+      "page_end": 136,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    },
+    {
+      "id": "Q18",
+      "index": 18,
+      "page_start": 137,
+      "page_end": 144,
+      "leaves": 4,
+      "note": "Scaffold — verify against physical collation survey"
+    }
+  ],
+  "folios": [
+    {
+      "page": 1,
+      "folio": "1r",
+      "side": "recto",
+      "quire": "Q01",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 2,
+      "folio": "1v",
+      "side": "verso",
+      "quire": "Q01",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 3,
+      "folio": "2r",
+      "side": "recto",
+      "quire": "Q01",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 4,
+      "folio": "2v",
+      "side": "verso",
+      "quire": "Q01",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 5,
+      "folio": "3r",
+      "side": "recto",
+      "quire": "Q01",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 6,
+      "folio": "3v",
+      "side": "verso",
+      "quire": "Q01",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 7,
+      "folio": "4r",
+      "side": "recto",
+      "quire": "Q01",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 8,
+      "folio": "4v",
+      "side": "verso",
+      "quire": "Q01",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 9,
+      "folio": "5r",
+      "side": "recto",
+      "quire": "Q02",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 10,
+      "folio": "5v",
+      "side": "verso",
+      "quire": "Q02",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 11,
+      "folio": "6r",
+      "side": "recto",
+      "quire": "Q02",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 12,
+      "folio": "6v",
+      "side": "verso",
+      "quire": "Q02",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 13,
+      "folio": "7r",
+      "side": "recto",
+      "quire": "Q02",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 14,
+      "folio": "7v",
+      "side": "verso",
+      "quire": "Q02",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 15,
+      "folio": "8r",
+      "side": "recto",
+      "quire": "Q02",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 16,
+      "folio": "8v",
+      "side": "verso",
+      "quire": "Q02",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 17,
+      "folio": "9r",
+      "side": "recto",
+      "quire": "Q03",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 18,
+      "folio": "9v",
+      "side": "verso",
+      "quire": "Q03",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 19,
+      "folio": "10r",
+      "side": "recto",
+      "quire": "Q03",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 20,
+      "folio": "10v",
+      "side": "verso",
+      "quire": "Q03",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 21,
+      "folio": "11r",
+      "side": "recto",
+      "quire": "Q03",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 22,
+      "folio": "11v",
+      "side": "verso",
+      "quire": "Q03",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 23,
+      "folio": "12r",
+      "side": "recto",
+      "quire": "Q03",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 24,
+      "folio": "12v",
+      "side": "verso",
+      "quire": "Q03",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 25,
+      "folio": "13r",
+      "side": "recto",
+      "quire": "Q04",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 26,
+      "folio": "13v",
+      "side": "verso",
+      "quire": "Q04",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 27,
+      "folio": "14r",
+      "side": "recto",
+      "quire": "Q04",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 28,
+      "folio": "14v",
+      "side": "verso",
+      "quire": "Q04",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 29,
+      "folio": "15r",
+      "side": "recto",
+      "quire": "Q04",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 30,
+      "folio": "15v",
+      "side": "verso",
+      "quire": "Q04",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 31,
+      "folio": "16r",
+      "side": "recto",
+      "quire": "Q04",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 32,
+      "folio": "16v",
+      "side": "verso",
+      "quire": "Q04",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 33,
+      "folio": "17r",
+      "side": "recto",
+      "quire": "Q05",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 34,
+      "folio": "17v",
+      "side": "verso",
+      "quire": "Q05",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 35,
+      "folio": "18r",
+      "side": "recto",
+      "quire": "Q05",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 36,
+      "folio": "18v",
+      "side": "verso",
+      "quire": "Q05",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 37,
+      "folio": "19r",
+      "side": "recto",
+      "quire": "Q05",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 38,
+      "folio": "19v",
+      "side": "verso",
+      "quire": "Q05",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 39,
+      "folio": "20r",
+      "side": "recto",
+      "quire": "Q05",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 40,
+      "folio": "20v",
+      "side": "verso",
+      "quire": "Q05",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 41,
+      "folio": "21r",
+      "side": "recto",
+      "quire": "Q06",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 42,
+      "folio": "21v",
+      "side": "verso",
+      "quire": "Q06",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 43,
+      "folio": "22r",
+      "side": "recto",
+      "quire": "Q06",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 44,
+      "folio": "22v",
+      "side": "verso",
+      "quire": "Q06",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 45,
+      "folio": "23r",
+      "side": "recto",
+      "quire": "Q06",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 46,
+      "folio": "23v",
+      "side": "verso",
+      "quire": "Q06",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 47,
+      "folio": "24r",
+      "side": "recto",
+      "quire": "Q06",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 48,
+      "folio": "24v",
+      "side": "verso",
+      "quire": "Q06",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 49,
+      "folio": "25r",
+      "side": "recto",
+      "quire": "Q07",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 50,
+      "folio": "25v",
+      "side": "verso",
+      "quire": "Q07",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 51,
+      "folio": "26r",
+      "side": "recto",
+      "quire": "Q07",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 52,
+      "folio": "26v",
+      "side": "verso",
+      "quire": "Q07",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 53,
+      "folio": "27r",
+      "side": "recto",
+      "quire": "Q07",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 54,
+      "folio": "27v",
+      "side": "verso",
+      "quire": "Q07",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 55,
+      "folio": "28r",
+      "side": "recto",
+      "quire": "Q07",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 56,
+      "folio": "28v",
+      "side": "verso",
+      "quire": "Q07",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 57,
+      "folio": "29r",
+      "side": "recto",
+      "quire": "Q08",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 58,
+      "folio": "29v",
+      "side": "verso",
+      "quire": "Q08",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 59,
+      "folio": "30r",
+      "side": "recto",
+      "quire": "Q08",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 60,
+      "folio": "30v",
+      "side": "verso",
+      "quire": "Q08",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 61,
+      "folio": "31r",
+      "side": "recto",
+      "quire": "Q08",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 62,
+      "folio": "31v",
+      "side": "verso",
+      "quire": "Q08",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 63,
+      "folio": "32r",
+      "side": "recto",
+      "quire": "Q08",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 64,
+      "folio": "32v",
+      "side": "verso",
+      "quire": "Q08",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 65,
+      "folio": "33r",
+      "side": "recto",
+      "quire": "Q09",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 66,
+      "folio": "33v",
+      "side": "verso",
+      "quire": "Q09",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 67,
+      "folio": "34r",
+      "side": "recto",
+      "quire": "Q09",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 68,
+      "folio": "34v",
+      "side": "verso",
+      "quire": "Q09",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 69,
+      "folio": "35r",
+      "side": "recto",
+      "quire": "Q09",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 70,
+      "folio": "35v",
+      "side": "verso",
+      "quire": "Q09",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 71,
+      "folio": "36r",
+      "side": "recto",
+      "quire": "Q09",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 72,
+      "folio": "36v",
+      "side": "verso",
+      "quire": "Q09",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 73,
+      "folio": "37r",
+      "side": "recto",
+      "quire": "Q10",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 74,
+      "folio": "37v",
+      "side": "verso",
+      "quire": "Q10",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 75,
+      "folio": "38r",
+      "side": "recto",
+      "quire": "Q10",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 76,
+      "folio": "38v",
+      "side": "verso",
+      "quire": "Q10",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 77,
+      "folio": "39r",
+      "side": "recto",
+      "quire": "Q10",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 78,
+      "folio": "39v",
+      "side": "verso",
+      "quire": "Q10",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 79,
+      "folio": "40r",
+      "side": "recto",
+      "quire": "Q10",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 80,
+      "folio": "40v",
+      "side": "verso",
+      "quire": "Q10",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 81,
+      "folio": "41r",
+      "side": "recto",
+      "quire": "Q11",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 82,
+      "folio": "41v",
+      "side": "verso",
+      "quire": "Q11",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 83,
+      "folio": "42r",
+      "side": "recto",
+      "quire": "Q11",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 84,
+      "folio": "42v",
+      "side": "verso",
+      "quire": "Q11",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 85,
+      "folio": "43r",
+      "side": "recto",
+      "quire": "Q11",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 86,
+      "folio": "43v",
+      "side": "verso",
+      "quire": "Q11",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 87,
+      "folio": "44r",
+      "side": "recto",
+      "quire": "Q11",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 88,
+      "folio": "44v",
+      "side": "verso",
+      "quire": "Q11",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 89,
+      "folio": "45r",
+      "side": "recto",
+      "quire": "Q12",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 90,
+      "folio": "45v",
+      "side": "verso",
+      "quire": "Q12",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 91,
+      "folio": "46r",
+      "side": "recto",
+      "quire": "Q12",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 92,
+      "folio": "46v",
+      "side": "verso",
+      "quire": "Q12",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 93,
+      "folio": "47r",
+      "side": "recto",
+      "quire": "Q12",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 94,
+      "folio": "47v",
+      "side": "verso",
+      "quire": "Q12",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 95,
+      "folio": "48r",
+      "side": "recto",
+      "quire": "Q12",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 96,
+      "folio": "48v",
+      "side": "verso",
+      "quire": "Q12",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 97,
+      "folio": "49r",
+      "side": "recto",
+      "quire": "Q13",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 98,
+      "folio": "49v",
+      "side": "verso",
+      "quire": "Q13",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 99,
+      "folio": "50r",
+      "side": "recto",
+      "quire": "Q13",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 100,
+      "folio": "50v",
+      "side": "verso",
+      "quire": "Q13",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 101,
+      "folio": "51r",
+      "side": "recto",
+      "quire": "Q13",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 102,
+      "folio": "51v",
+      "side": "verso",
+      "quire": "Q13",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 103,
+      "folio": "52r",
+      "side": "recto",
+      "quire": "Q13",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 104,
+      "folio": "52v",
+      "side": "verso",
+      "quire": "Q13",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 105,
+      "folio": "53r",
+      "side": "recto",
+      "quire": "Q14",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 106,
+      "folio": "53v",
+      "side": "verso",
+      "quire": "Q14",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 107,
+      "folio": "54r",
+      "side": "recto",
+      "quire": "Q14",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 108,
+      "folio": "54v",
+      "side": "verso",
+      "quire": "Q14",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 109,
+      "folio": "55r",
+      "side": "recto",
+      "quire": "Q14",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 110,
+      "folio": "55v",
+      "side": "verso",
+      "quire": "Q14",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 111,
+      "folio": "56r",
+      "side": "recto",
+      "quire": "Q14",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 112,
+      "folio": "56v",
+      "side": "verso",
+      "quire": "Q14",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 113,
+      "folio": "57r",
+      "side": "recto",
+      "quire": "Q15",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 114,
+      "folio": "57v",
+      "side": "verso",
+      "quire": "Q15",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 115,
+      "folio": "58r",
+      "side": "recto",
+      "quire": "Q15",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 116,
+      "folio": "58v",
+      "side": "verso",
+      "quire": "Q15",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 117,
+      "folio": "59r",
+      "side": "recto",
+      "quire": "Q15",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 118,
+      "folio": "59v",
+      "side": "verso",
+      "quire": "Q15",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 119,
+      "folio": "60r",
+      "side": "recto",
+      "quire": "Q15",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 120,
+      "folio": "60v",
+      "side": "verso",
+      "quire": "Q15",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 121,
+      "folio": "61r",
+      "side": "recto",
+      "quire": "Q16",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 122,
+      "folio": "61v",
+      "side": "verso",
+      "quire": "Q16",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 123,
+      "folio": "62r",
+      "side": "recto",
+      "quire": "Q16",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 124,
+      "folio": "62v",
+      "side": "verso",
+      "quire": "Q16",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 125,
+      "folio": "63r",
+      "side": "recto",
+      "quire": "Q16",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 126,
+      "folio": "63v",
+      "side": "verso",
+      "quire": "Q16",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 127,
+      "folio": "64r",
+      "side": "recto",
+      "quire": "Q16",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 128,
+      "folio": "64v",
+      "side": "verso",
+      "quire": "Q16",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 129,
+      "folio": "65r",
+      "side": "recto",
+      "quire": "Q17",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 130,
+      "folio": "65v",
+      "side": "verso",
+      "quire": "Q17",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 131,
+      "folio": "66r",
+      "side": "recto",
+      "quire": "Q17",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 132,
+      "folio": "66v",
+      "side": "verso",
+      "quire": "Q17",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 133,
+      "folio": "67r",
+      "side": "recto",
+      "quire": "Q17",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 134,
+      "folio": "67v",
+      "side": "verso",
+      "quire": "Q17",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 135,
+      "folio": "68r",
+      "side": "recto",
+      "quire": "Q17",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 136,
+      "folio": "68v",
+      "side": "verso",
+      "quire": "Q17",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 137,
+      "folio": "69r",
+      "side": "recto",
+      "quire": "Q18",
+      "position_in_quire": 1,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 138,
+      "folio": "69v",
+      "side": "verso",
+      "quire": "Q18",
+      "position_in_quire": 2,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 139,
+      "folio": "70r",
+      "side": "recto",
+      "quire": "Q18",
+      "position_in_quire": 3,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 140,
+      "folio": "70v",
+      "side": "verso",
+      "quire": "Q18",
+      "position_in_quire": 4,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 141,
+      "folio": "71r",
+      "side": "recto",
+      "quire": "Q18",
+      "position_in_quire": 5,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 142,
+      "folio": "71v",
+      "side": "verso",
+      "quire": "Q18",
+      "position_in_quire": 6,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 143,
+      "folio": "72r",
+      "side": "recto",
+      "quire": "Q18",
+      "position_in_quire": 7,
+      "binding_edge": "spine",
+      "signature": null,
+      "catchword": null
+    },
+    {
+      "page": 144,
+      "folio": "72v",
+      "side": "verso",
+      "quire": "Q18",
+      "position_in_quire": 8,
+      "binding_edge": "fore-edge",
+      "signature": null,
+      "catchword": null
+    }
+  ]
+}

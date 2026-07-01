@@ -42,3 +42,6 @@ migrate-and-push.sh
 # Environment
 .env
 .env.local
+
+# Grok vision precompress temps (not final layers)
+**/_grok_vision_*

@@ -1,0 +1,36 @@
+{
+  "page": 4,
+  "confidence": "low",
+  "items": [
+    {
+      "id": "dm1",
+      "region": "lower left corner",
+      "type": "damage",
+      "description": "Small irregular area at bottom left corner with apparent paper loss, fraying or creasing; the edge appears slightly lifted.",
+      "scholarly_note": "Typical handling wear from repeated page turning in a medieval codex."
+    },
+    {
+      "id": "dm2",
+      "region": "left gutter / inner margin",
+      "type": "damage",
+      "description": "Minor abrasion, compression, and faint discoloration along the bound inner edge; possible loose fibers visible.",
+      "scholarly_note": "Consistent with original or early binding structure and use of GKS 2365 4to."
+    },
+    {
+      "id": "dm3",
+      "region": "top left edge",
+      "type": "damage",
+      "description": "Slight irregularity and possible very small notch or wear at the top of the inner margin.",
+      "scholarly_note": "Minor edge damage, non-structural."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "Lower left corner exhibits wear with small loss or fraying.",
+    "Inner (left) margin shows abrasion and minor fiber disturbance from binding.",
+    "Top left edge has slight irregularity."
+  ],
+  "summary": "The provided image of Codex Regius page 4 shows a largely blank or overexposed white surface with no visible text, marginalia, doodles, pen trials, stains, corrections, or ruling. Only minor physical damage and edge wear are detectable, primarily at the lower left corner and left gutter. Image contrast and lighting prevent assessment of any faint surface marks or ink.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_004/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:17:17.234677+00:00"
+}

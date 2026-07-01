@@ -2,28 +2,25 @@
 
 **Manuscript**: GKS 2365 4to
 **Source**: `GKS2365_page_115.png`
-**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/9](https://handrit.is/manuscript/view/is/GKS04-2365/9)
+**Handrit**: [https://handrit.is/manuscript/view/is/GKS04-2365/114](https://handrit.is/manuscript/view/is/GKS04-2365/114)
+**Survey**: Grok vision (2026-06-29T07:07:55.145397+00:00) — confidence **medium**
+
+## Summary
+Visual survey complete.
 
 ## Doodles & Marginalia Inventory
 | ID | Region | Type | Description | Scholarly note |
 |----|--------|------|-------------|----------------|
-| M-115-01 | margin | pending | Visual survey required | Cross-ref. grok_variations/ |
-| M-115-02 | text block | scratch | Hair-side abrasion check | Compare raw vs clean_white |
-| M-115-03 | lower margin | doodle | [pending identification] | Animal/face/pen trial? |
-
-## Misprints & Scribal Corrections
-| Line | Type | Note |
-|------|------|------|
-| 2 | repeated_glyph | Possible scribal hesitation or stain |
+| — | — | — | No marginalia detected | Grok vision pass |
 
 ## Scratch & Damage Analysis
-- **Parchment**: High preparation
-- **Ink**: Iron-gall — check for offset and ghosting
-- **Automated flags**: Compare `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
+- None noted
+
+- Routine vellum wear only
 
 ## AI Assessment Hooks
-- Link to `scholarly_report.json` for LLM ingestion
-- Doodle bounding boxes: pending computer-vision pass
-- Thematic tags: see `liturgy_comparison.md`
+- Machine-readable: `grok_doodles.json`
+- Cross-ref: `scholarly_report.json`, `liturgy_comparison.md`
+- Compare layers: `raw.png`, `clean_white.jpg`, `grok_clean_white.jpg`
 
-*Enrich with handrit.is high-res survey and AM 748 collation.*
+*Grok vision pass — validate against handrit.is high-res facsimile.*

@@ -17,12 +17,18 @@
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
     "scholarly_report.json",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Hamðismál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 0,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T08:06:50.356272+00:00"
+  },
   "processed_at": "2026-06-29T01:19:39.717741+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T03:04:55.167832+00:00",

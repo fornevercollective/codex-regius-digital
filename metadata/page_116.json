@@ -18,12 +18,18 @@
     "liturgy_comparison.md",
     "scholarly_report.json",
     "grok_artistic_vellum.jpg",
-    "grok_clean_white.jpg"
+    "grok_clean_white.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Oddrúnargrátr",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 0,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T07:09:30.474301+00:00"
+  },
   "processed_at": "2026-06-29T01:19:35.032325+00:00",
   "qc_status": "ok",
   "qc_at": "2026-06-29T04:03:12.849340+00:00",

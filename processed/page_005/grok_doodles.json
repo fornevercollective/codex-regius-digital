@@ -1,0 +1,40 @@
+{
+  "page": 5,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "stain-1",
+      "region": "center-right",
+      "type": "stain",
+      "description": "Scattered faint brownish spots and smudges in the middle-right area.",
+      "scholarly_note": "Consistent with age-related foxing."
+    },
+    {
+      "id": "speck-1",
+      "region": "upper-middle, right of center",
+      "type": "stain",
+      "description": "Isolated small dark circular speck."
+    },
+    {
+      "id": "damage-1",
+      "region": "right margin",
+      "type": "damage",
+      "description": "Vertical discoloration and wear along the right edge with minor abrasion."
+    },
+    {
+      "id": "damage-2",
+      "region": "bottom-right corner",
+      "type": "damage",
+      "description": "Corner rounded and worn with visible creasing and minor material loss."
+    }
+  ],
+  "scratches": [],
+  "damage_notes": [
+    "Right fore-edge shows vertical wear and discoloration.",
+    "Bottom-right corner exhibits handling wear and surface loss.",
+    "No major tears, holes, or losses elsewhere on the leaf."
+  ],
+  "summary": "Page 5 is a largely blank folio. No marginalia, doodles, pen trials, or corrections visible. Only faint scattered stains and minor peripheral edge/corner damage present.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_005/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:20:16.040096+00:00"
+}

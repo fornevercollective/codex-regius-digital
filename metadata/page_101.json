@@ -16,7 +16,9 @@
     "codicology.md",
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
-    "scholarly_report.json"
+    "scholarly_report.json",
+    "grok_artistic_vellum.jpg",
+    "grok_clean_white.jpg"
   ],
   "poem": "Sigurðarkviða III",
   "original_text": "",
@@ -24,11 +26,13 @@
   "marginalia": null,
   "processed_at": "2026-06-29T01:19:32.886960+00:00",
   "qc_status": "needs_review",
-  "qc_at": "2026-06-29T03:03:55.805377+00:00",
+  "qc_at": "2026-06-29T07:20:46.893629+00:00",
   "qc_issue_count": 1,
   "scholarly_assessment": true,
   "scholarly_assessment_at": "2026-06-29T03:22:42.092950+00:00",
   "poem_full": "Sigurðarkviða III",
   "poem_section": "st. 39–55",
-  "poem_type": "heroic"
+  "poem_type": "heroic",
+  "grok_enhanced": true,
+  "grok_enhanced_at": "2026-06-29T07:20:46.888419+00:00"
 }

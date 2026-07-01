@@ -1,0 +1,75 @@
+{
+  "page": 7,
+  "confidence": "medium",
+  "items": [
+    {
+      "id": "ST01",
+      "region": "upper left quadrant",
+      "type": "stain",
+      "description": "Faint irregular gray smudge with soft diffuse edges.",
+      "scholarly_note": "Age-related discoloration or light handling stain."
+    },
+    {
+      "id": "ST02",
+      "region": "mid-left to center",
+      "type": "stain",
+      "description": "Diffuse pale gray wash-like discoloration.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "ST03",
+      "region": "lower third, left of center",
+      "type": "stain",
+      "description": "Prominent dark gray irregular blotch with darker core and mottled edges, approx. 4-5 cm across.",
+      "scholarly_note": "Possible water stain, dirt accumulation, or ink transfer."
+    },
+    {
+      "id": "ST04",
+      "region": "throughout",
+      "type": "stain",
+      "description": "Scattered tiny dark particulate specks and light general foxing.",
+      "scholarly_note": "Typical aging and environmental soiling for a medieval manuscript leaf."
+    },
+    {
+      "id": "DM01",
+      "region": "right margin",
+      "type": "damage",
+      "description": "Three small circular holes aligned vertically near the gutter edge, each roughly 1-2 mm in diameter.",
+      "scholarly_note": "Original sewing or binding holes."
+    },
+    {
+      "id": "DM02",
+      "region": "bottom right corner",
+      "type": "damage",
+      "description": "Rounded and abraded corner with minor material loss and fraying.",
+      "scholarly_note": "Common use-related wear."
+    },
+    {
+      "id": "DM03",
+      "region": "top right edge",
+      "type": "damage",
+      "description": "Small notch or chip on the upper right edge.",
+      "scholarly_note": ""
+    },
+    {
+      "id": "SC01",
+      "region": "scattered, mainly lower half",
+      "type": "scratch",
+      "description": "Multiple faint hairline scratches and fine surface abrasions appearing as thin linear marks.",
+      "scholarly_note": "Possibly from quill scraping, parchment preparation, or later handling."
+    }
+  ],
+  "scratches": [
+    "Faint hairline linear abrasions in lower half of leaf",
+    "Subtle thin surface scoring visible across multiple areas"
+  ],
+  "damage_notes": [
+    "Three circular binding/sewing holes in right margin",
+    "Minor loss and rounding at bottom right corner",
+    "Small notch on top right edge",
+    "Slightly irregular and chipped right edge"
+  ],
+  "summary": "Folio appears blank with no visible text, marginalia, doodles, pen trials, or corrections. Only physical condition features are present: scattered faint to moderate stains, binding holes, edge wear, corner loss, and faint surface scratches consistent with age and handling of a medieval manuscript.",
+  "source_image": "/Volumes/qbitOS/00.dev/projects/codex-regius-digital/processed/page_007/clean_white.jpg",
+  "surveyed_at": "2026-06-29T08:23:54.588543+00:00"
+}

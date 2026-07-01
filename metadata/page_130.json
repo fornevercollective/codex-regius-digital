@@ -17,12 +17,18 @@
     "calligraphy_sheet.md",
     "liturgy_comparison.md",
     "scholarly_report.json",
-    "grok_artistic_vellum.jpg"
+    "grok_artistic_vellum.jpg",
+    "grok_doodles.json"
   ],
   "poem": "Atlamál",
   "original_text": "",
   "translation": "",
-  "marginalia": null,
+  "marginalia": {
+    "grok_vision": true,
+    "item_count": 0,
+    "confidence": "medium",
+    "surveyed_at": "2026-06-29T07:33:21.564842+00:00"
+  },
   "processed_at": "2026-06-29T01:19:37.354220+00:00",
   "qc_status": "needs_review",
   "qc_at": "2026-06-29T03:04:32.688911+00:00",
